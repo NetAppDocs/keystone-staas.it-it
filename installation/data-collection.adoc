@@ -1,0 +1,315 @@
+---
+sidebar: sidebar 
+permalink: installation/data-collection.html 
+keywords: type of data collected by Keystone collector 
+summary: Raccolta dati di fatturazione da parte di Keystone Collector per ONTAP e StorageGRID 
+---
+= Tipi di dati utente raccolti da Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Keystone raccoglie informazioni su configurazione, stato e utilizzo per gli abbonamenti a Keystone ONTAP e Keystone StoragGRID. Può anche raccogliere i dati sulle prestazioni solo per ONTAP, se l'opzione è attivata in Keystone Collector.
+
+
+
+== Raccolta di dati ONTAP
+
+.Dati sull'utilizzo raccolti per ONTAP
+[%collapsible]
+====
+Il seguente elenco è un esempio rappresentativo dei dati sul consumo di capacità raccolti per ONTAP:
+
+* Cluster
++
+** ClusterUID
+** Nome cluster
+** Numero di serie
+** Posizione (in base all'input di valore nel cluster ONTAP)
+** Contatto
+** Versione
+
+
+* Nodi
++
+** Numero di serie
+** Nome del nodo
+
+
+* Volumi
++
+** Nome dell'aggregato
+** Volume Name (Nome volume)
+** VolumeInstanceUID
+** Flag IsCloneVolume
+** Flag IsFlexGroupConstituent
+** Flag IsSpaceEnforcementLogical
+** Flag IsSpaceReportingLogical
+** LogicalSpaceUsedByAfs
+** PercentSnapshotSpace
+** PerformanceTierInactiveUserData
+** PerformanceTierInactiveUserDataPercent
+** QoSAdaptivePolicyNome del gruppo
+** QoSPolicyGroup Name
+** Dimensione
+** Utilizzato
+** PhysicalUsed
+** SizeUsedBySnapshot
+** Tipo
+** VolumeStyleExtended
+** Nome del server virtuale
+** Flag IsVsRoot
+
+
+* VServer
++
+** VserverName
+** VserverUID
+** Sottotipo
+
+
+* Aggregati di storage
++
+** StorageType
+** Nome aggregato
+** UUID aggregato
+
+
+* Aggregare gli archivi di oggetti
++
+** ObjectStoreName
+** ObjectStoreUID
+** ProviderType
+** Nome aggregato
+
+
+* Clonare i volumi
++
+** FlexClone
+** Dimensione
+** Utilizzato
+** Server virtuale
+** Tipo
+** ParentVolume
+** ParentVserver
+** IsConstituent
+** SplitEtimate
+** Stato
+** FlexCloneUsedPercent
+
+
+* LUN dello storage
++
+** UUID LUN
+** LUN Name (Nome LUN)
+** Dimensione
+** Utilizzato
+** Allarme isriservato
+** Flag IsRequested
+** LogicalUnit Name (Nome unità logica)
+** QoSPolicyUID
+** QoSPolicyName
+** VolumeUID
+** VolumeName
+** SVMUID
+** Nome SVM
+
+
+* Volumi di storage
++
+** VolumeInstanceUID
+** VolumeName
+** Nome SVMName
+** SVMUID
+** QoSPolicyUID
+** QoSPolicyName
+** CapacityTierFootprint
+** PerformanceTierFootprint
+** TotalFootprint
+** Policy di tieringPolicy
+** Flag IsProtected
+** Flag ISDestination
+** Utilizzato
+** PhysicalUsed
+** UID CloneParentUID
+** LogicalSpaceUsedByAfs
+
+
+* Gruppi di policy QoS
++
+** PolicyGroup
+** QoSPolicyUID
+** MaxThroughput
+** MinThroughput
+** MaxThroughputIOPS
+** MaxThroughputMBps
+** MinThroughputIOPS
+** MinThroughputMBps
+** Flag IsShared
+
+
+* Gruppi di criteri QoS adattivi ONTAP
++
+** QoSPolicyName
+** QoSPolicyUID
+** PeakIOPS
+** PeakIOPSAllocation
+** AbsoluteMinIOPS
+** ExpectedIOPS
+** ExpectedIOPSAllocation
+** Dimensione blocco
+
+
+* Impronte
++
+** Server virtuale
+** Volume
+** TotalFootprint
+** VolumeBlocksFootprintBin0
+** VolumeBlocksFootprintBin1
+
+
+* Cluster MetroCluster
++
+** ClusterUID
+** Nome cluster
+** RemoteClusterUID
+** RemoteCluserName
+** LocalConfigurationState
+** RemoteConfigurationState
+** Modalità
+
+
+* Metriche di osservabilità del collettore
++
+** Tempo di raccolta
+** Endpoint API Active IQ Unified Manager interrogato
+** Tempi di risposta
+** Numero di record
+** IP istanza AIQUMInstance
+** ID istanza CollectorInstance
+
+
+
+
+====
+.Dati sulle performance raccolti per ONTAP
+[%collapsible]
+====
+Il seguente elenco è un esempio rappresentativo dei dati sulle performance raccolti per ONTAP:
+
+* Nome cluster
+* UUID cluster
+* ObjectID (ID oggetto)
+* VolumeName
+* UUID istanza volume
+* Server virtuale
+* VserverUID
+* Nodo seriale
+* ONTAPVersion
+* Versione di AIQUM
+* Aggregato
+* AggregateUID
+* ResourceKey
+* Data e ora
+* IOPSPerTb
+* Latenza
+* ReadLatency
+* WriteMBps
+* QoSMinThroughputLatency
+* QoSNBladeLatency
+* UsedHeadRoom
+* CacheMissRatio
+* OtherLatency
+* QoSAggregateLatency
+* IOPS
+* QoSNetworkLetency
+* AvailableOps
+* WriteLatency
+* QoSCloudLatency
+* QoSClusterInterconnectLatency
+* OtherMBps
+* QoSCopLatency
+* QoSDBladeLatency
+* Utilizzo
+* ReadIOPS
+* Mbps
+* OtherIOPS
+* QoSPolicyGroupLatency
+* ReadMBps
+* QoSSyncSnapmirrorLatency
+* WriteIOPS
+
+
+====
+.Elenco degli elementi rimossi in caso di limitazione dell'accesso ai dati privati
+[%collapsible]
+====
+Quando l'opzione *Rimuovi dati privati* è attivata in Keystone Collector, le seguenti informazioni di utilizzo vengono eliminate per ONTAP. Questa opzione è attivata per impostazione predefinita.
+
+* Nome cluster
+* Ubicazione del cluster
+* Contatto del cluster
+* Nome del nodo
+* Nome dell'aggregato
+* Volume Name (Nome volume)
+* QoSAdaptivePolicyNome del gruppo
+* QoSPolicyGroup Name
+* Nome del server virtuale
+* Nome del LUN dello storage
+* Nome aggregato
+* LogicalUnit Name (Nome unità logica)
+* Nome SVM
+* IP istanza AIQUMInstance
+* FlexClone
+* RemoteClusterName
+
+
+====
+
+
+== Raccolta di dati StorageGRID
+
+.Dati sull'utilizzo raccolti per StorageGRID
+[%collapsible]
+====
+L'elenco seguente è un esempio rappresentativo di `Logical Data` Raccolti per StorageGRID:
+
+* ID StorageGRID
+* ID account
+* Nome account
+* Byte di quota account
+* Nome bucket
+* Conteggio oggetti bucket
+* Byte di dati bucket
+
+
+L'elenco seguente è un esempio rappresentativo di `Physical Data` Raccolti per StorageGRID:
+
+* ID StorageGRID
+* ID nodo
+* ID sito
+* Nome del sito
+* Istanza
+* Byte di utilizzo dello storage StorageGRID
+* Byte di metadati per l'utilizzo dello storage StorageGRID
+
+
+====
+.Elenco degli elementi rimossi in caso di limitazione dell'accesso ai dati privati
+[%collapsible]
+====
+Quando l'opzione *Rimuovi dati privati* è attivata in Keystone Collector, le seguenti informazioni di utilizzo vengono eliminate per StorageGRID. Questa opzione è attivata per impostazione predefinita.
+
+* Nome account
+* Nome BucketName
+* Nome del sito
+* Instance/nodename
+
+
+====

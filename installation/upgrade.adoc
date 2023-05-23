@@ -1,0 +1,46 @@
+---
+sidebar: sidebar 
+permalink: installation/upgrade.html 
+keywords: Keystone Collector upgrade 
+summary: Aggiorna Keystone Collector 
+---
+= Aggiorna manualmente Keystone Collector
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+La funzione di aggiornamento automatico di Keystone Collector è attivata per impostazione predefinita, che aggiorna automaticamente il software Keystone Collector ad ogni nuova release. Tuttavia, è possibile disattivare questa funzione e aggiornare manualmente il software.
+
+.Fasi
+. Avviare l'utility TUI di gestione di Keystone Collector:
+`$ keystone-collector-tui`
+. Nella schermata di manutenzione, selezionare l'opzione *Aggiorna raccolta ora*.
++
+image:upgrade-1.png["schermata tui"]
+
++
+In alternativa, eseguire questo comando per aggiornare la versione:
+
++
+[listing]
+----
+sudo yum clean metadata && sudo yum install keystone-collector
+----
++
+image:upgrade-2.png["schermata tui"]
+
+. Riavviare la TUI di gestione di Keystone Collector, è possibile visualizzare l'ultima versione nella parte superiore sinistra della schermata iniziale.
++
+In alternativa, eseguire questo comando per visualizzare la versione più recente:
+
++
+[listing]
+----
+rpm -q keystone-collector
+----
+

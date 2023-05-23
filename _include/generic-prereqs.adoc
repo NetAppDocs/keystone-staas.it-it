@@ -1,0 +1,214 @@
+= Altri requisiti
+:allow-uri-read: 
+
+
+
+
+== Altri requisiti
+
+Assicurarsi che siano soddisfatti i seguenti requisiti generici:
+
+
+
+=== Requisiti di rete
+
+I requisiti di rete di Keystone Collector sono elencati nella seguente tabella.
+
+
+NOTE: Keystone Collector richiede la connettività a Internet. È possibile fornire la connettività a Internet tramite il routing diretto tramite il gateway predefinito (via NAT) o il proxy HTTP. Entrambe le varianti sono descritte qui.
+
+|===
+
+
+| Origine | Destinazione | Servizio | Protocollo e porte | Categoria | Scopo 
+
+
+ a| 
+Keystone Collector (per Keystone ONTAP)
+ a| 
+Active IQ Unified Manager (gestore unificato)
+ a| 
+HTTPS
+ a| 
+TCP 443
+ a| 
+Obbligatorio (se si utilizza Keystone ONTAP)
+ a| 
+Raccolta di metriche sull'utilizzo di Keystone Collector per ONTAP
+
+
+
+ a| 
+Keystone Collector (per Keystone StorageGRID)
+ a| 
+Nodi di amministrazione StorageGRID
+ a| 
+HTTPS
+ a| 
+TCP 443
+ a| 
+Obbligatorio (se si utilizza Keystone StorageGRID)
+ a| 
+Raccolta di metriche sull'utilizzo di Keystone Collector per StorageGRID
+
+
+
+ a| 
+Keystone Collector (generico)
+ a| 
+Internet (in base ai requisiti URL forniti in seguito)
+ a| 
+HTTP, HTTPS
+ a| 
+TCP 80, TCP 443
+ a| 
+Obbligatorio (connettività Internet)
+ a| 
+Caricamento di software Keystone Collector, aggiornamenti del sistema operativo e metriche
+
+
+
+ a| 
+Keystone Collector (generico)
+ a| 
+Proxy HTTP del cliente
+ a| 
+Proxy HTTP
+ a| 
+Porta proxy del cliente
+ a| 
+Obbligatorio (connettività Internet)
+ a| 
+Caricamento di software Keystone Collector, aggiornamenti del sistema operativo e metriche
+
+
+
+ a| 
+Keystone Collector (generico)
+ a| 
+Server DNS del cliente
+ a| 
+DNS
+ a| 
+TCP/UDP 53
+ a| 
+Obbligatorio
+ a| 
+Risoluzione DNS
+
+
+
+ a| 
+Keystone Collector (generico)
+ a| 
+Server NTP del cliente
+ a| 
+NTP
+ a| 
+UDP 123
+ a| 
+Obbligatorio
+ a| 
+Sincronizzazione dell'ora
+
+
+
+ a| 
+Keystone Collector (per Keystone ONTAP)
+ a| 
+Unified Manager
+ a| 
+MYSQL
+ a| 
+TCP 3306
+ a| 
+Funzionalità opzionale
+ a| 
+Raccolta di metriche delle performance per Keystone Collector
+
+
+
+ a| 
+Keystone Collector (generico)
+ a| 
+Sistema di monitoraggio dei clienti
+ a| 
+HTTP
+ a| 
+TCP 777
+ a| 
+Funzionalità opzionale
+ a| 
+Reporting sullo stato di salute di Keystone Collector
+
+
+
+ a| 
+Workstation operative del cliente
+ a| 
+Keystone Collector
+ a| 
+SSH
+ a| 
+TCP 22
+ a| 
+Gestione
+ a| 
+Accesso a Keystone Collector Management
+
+
+
+ a| 
+Indirizzi di gestione di cluster e nodi NetApp ONTAP
+ a| 
+Keystone Collector
+ a| 
+HTTP_8000, PING
+ a| 
+TCP 8000, richiesta/risposta eco ICMP
+ a| 
+Funzionalità opzionale
+ a| 
+Webserver per gli aggiornamenti del firmware ONTAP
+
+|===
+
+
+=== Accesso all'URL
+
+Keystone Collector deve accedere ai seguenti host Internet:
+
+|===
+
+
+| Indirizzo | Motivo 
+
+
+ a| 
+https://keystone.netapp.com[]
+ a| 
+Aggiornamenti software e report sull'utilizzo di Keystone Collector
+
+
+
+ a| 
+https://support.netapp.com[]
+ a| 
+NetApp HQ per informazioni di fatturazione e consegna AutoSupport
+
+
+
+ a| 
+https://mirror.centos.org[]
+https://mirrorlist.centos.org[]
+ a| 
+Aggiornamenti del sistema operativo per Keystone Collector (solo implementazioni OVA)
+
+
+
+ a| 
+https://repo.mysql.com[]
+ a| 
+Scaricare e aggiornare le dipendenze MySQL (solo per implementazioni Linux)
+
+|===

@@ -1,0 +1,25 @@
+---
+sidebar: sidebar 
+permalink: integrations/keystone-aiq.html 
+keywords: Keystone, Digital Advisor, keystone-aiq, aiq 
+summary: Keystone e Digital Advisor 
+---
+= Keystone e Digital Advisor
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Se si è abbonati ai servizi NetApp Keystone, è possibile visualizzare i report e i grafici sull'utilizzo nella dashboard di Active IQ Advisor.
+
+Digital Advisor ti consente di visualizzare informazioni e dettagli sullo storage as a service (STaaS) sull'infrastruttura NetApp che possiedi. Digital Advisor offre un'unica dashboard con visibilità su sottoscrizioni, livelli di servizio e utilizzo della capacità, con la possibilità di creare report dettagliati.
+
+Per ulteriori informazioni sul widget dashboard di Digital Advisor per Keystone, consulta https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html["Documentazione di Digital Advisor"^].
+
+Per ulteriori informazioni sulla dashboard di Keystone e sui report, vedere link:../integrations/aiq-keystone-details.html["Dashboard e reporting per l'abbonamento Keystone"].
+
+Per ulteriori informazioni sul flusso di dati, vedere link:../concepts/infra.html["Strumenti di monitoraggio"].

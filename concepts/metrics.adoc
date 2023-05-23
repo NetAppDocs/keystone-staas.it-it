@@ -1,0 +1,78 @@
+---
+sidebar: sidebar 
+permalink: concepts/metrics.html 
+keywords: metrics, GiB, IOPS, latency, durability 
+summary: Calcoli delle metriche e definizioni dei servizi Keystone 
+---
+= Metriche e definizioni utilizzate nei servizi Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+I seguenti termini e definizioni vengono utilizzati all'interno del servizio STaaS NetApp Keystone (Keystone) per misurare le metriche:
+
+* Unità di misura della capacità: Gib, TIB e PIB
+* Densità io: IOPS/TIB: Numero di operazioni di input/output elaborate al secondo in base allo spazio totale consumato dal carico di lavoro, in tebibyte.
+* Disponibilità del servizio
+* Durata in un accesso preciso ai dati
+* Latenza e velocità
+
+
+
+
+== Misurazione delle metriche
+
+* *Misurazione della capacità in gibibyte (GiB), tebibyte (TIB) e pebibyte (PIB)*: Misurazioni della capacità di storage dei dati utilizzando una base di 1024 (1 GiB = 1024^3^ byte, 1 TIB = 1024^4^ byte e 1PIB = 1024^5^ byte).
+* *Grafico delle operazioni in IOPS/TIB*: Le operazioni del protocollo al secondo, richieste dall'applicazione, divise per la dimensione del volume utilizzato dai carichi di lavoro.
+* *Disponibilità*: Misurata come percentuale del numero di richieste di i/o a cui il servizio ha risposto correttamente, diviso per il numero totale di richieste di i/o inviate al servizio. Questo valore viene misurato alla delimitazione del servizio in un mese e non include il downtime del servizio pianificato o l'indisponibilità delle strutture, della rete o di altri servizi forniti dal cliente.
+* *Durata*: Percentuale di dati a cui si accede senza perdita di fedeltà, ad esclusione della cancellazione o del danneggiamento causati dal cliente.
+* *Latenza*: Tempo di servizio di una richiesta i/o ricevuta da un client, misurato alla delimitazione del servizio (porta i/o del controller di storage).
+
+
+
+
+=== Metriche delle performance di throughput
+
+Le metriche delle performance di throughput sono applicabili solo ai servizi di file e blocchi basati su:
+
+* Dimensioni del blocco di 32 KB
+* 70% lettura/30% scrittura mix i/O.
+
+
+
+
+=== Variazioni nella densità io
+
+La densità io calcolata in IOPS/TIB e/o Mbps/TIB varia in base ai seguenti fattori:
+
+* Caratteristiche del carico di lavoro
+* Latenza, ad esclusione di quanto segue:
++
+** Latenza dell'applicazione
+** Latenza dell'host
+** Latenza nella rete del cliente durante il trasferimento dei dati da e verso le porte del controller
+** Latenza overhead associata al trasferimento dei dati nell'archivio di oggetti nel caso di FabricPool
+** La latenza applicata automaticamente dalla QoS per mantenere i/o entro i massimi livelli di servizio
+
+
+* I dati di copia dell'utente e di Snapshot conteggiati come parte della capacità utilizzata
+* Gli IOPS minimi assoluti allocati su ciascun volume ONTAP, indipendentemente dalla quantità di dati nel volume:
++
+** Extreme: 1,000 IOPS
+** Premium: 500 IOPS
+** Performance, Standard e Value: 75 IOPS
+
+
+* Durante l'utilizzo dei servizi add-on di Advanced Data Protection, la latenza di destinazione si applica solo alle richieste di servizio io dallo storage locale.
+
+
+
+
+=== Volume AQoS
+
+Ciascun volume ONTAP deve applicare la policy di qualità del servizio adattiva (AQoS) applicabile. In caso contrario, la capacità all'interno di ciascun volume che non ha una policy AQoS applicata viene fatturata al tasso del livello di servizio più alto.

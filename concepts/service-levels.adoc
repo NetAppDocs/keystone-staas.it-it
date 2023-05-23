@@ -1,0 +1,130 @@
+---
+sidebar: sidebar 
+permalink: concepts/service-levels.html 
+keywords: service levels, service level 
+summary: Livelli di servizio supportati 
+---
+= Livelli di servizio in Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Keystone STaaS offre capacità di storage dei dati a livelli di servizio delle performance predefiniti (livelli di servizio) su base di abbonamento. Ogni volume gestito dai servizi Keystone è associato a un livello di servizio.
+
+Ciascun livello di servizio è definito dalla densità i/o, ovvero IOPS/TIB/volume. Si tratta del rapporto tra performance (operazioni di input/output al secondo [IOPS]) e capacità di storage utilizzata (TIB), ovvero IOPS/TIB con latenza media per volume.
+
+I livelli di servizio per i tipi di storage supportati, file, blocco, oggetto e servizi cloud sono elencati qui.
+
+
+
+== Livelli di servizio per lo storage a blocchi e file
+
+*Protocolli supportati*: NFS, CIFS, iSCSI e FC
+
+|===
+
+
+| *Livello di servizio* | *Estrema* | *Premium* | *Prestazioni* | *Standard* | *Valore* 
+
+
+| *Tipi di workload di esempio* | Analytics, database, applicazioni mission-critical | VDI, VSI, sviluppo software | OLTP, OLAP, container, sviluppo software | Condivisioni di file, server web | Backup 
+
+
+| *Massimo IOPS/tbs logici memorizzati per volume* | 12,288 | 4,096 | 2,048 | 512 | 128 
+
+
+| *IOPS massimi/tbs logici allocati per volume* | 6,144 | 2,048 | 1,024 | 256 | 64 
+
+
+| *Numero massimo di Mbps/tierati logici memorizzati per volume @ 32K B/S* | 384 | 128 | 64 | 16 | 4 
+
+
+| *Latenza media* | 1 ms. | 2 ms. | 4 ms. | 17 ms. | 17 ms. 
+
+
+| *Dimensione del blocco* 5+| 32.000 
+|===
+
+
+=== Ulteriori informazioni sui livelli di servizio per lo storage a blocchi e file
+
+Le metriche del livello di servizio dipendono dalle seguenti condizioni:
+
+* I livelli di servizio per lo storage a blocchi e file supportano ONTAP 9.7 e versioni successive.
+* I valori di IOPS/TIB/volume, Mbps/TIB/volume e latenza per i livelli di servizio si basano sulla quantità di dati memorizzati nel volume, sulla dimensione del blocco di 32 KB e su una combinazione casuale di operazioni io in lettura al 70% e in scrittura al 30%.
+* IOPS/TIB/volume effettivo e Mbps/TIB/volume possono variare in base alle dimensioni effettive o presunte del blocco, alla concorrenza dei carichi di lavoro del sistema o alle operazioni input-output.
+* La latenza non include quanto segue:
++
+** latenza dell'applicazione o dell'host
+** latenza di rete del cliente da o verso le porte del controller
+** Overhead associati al trasferimento dei dati nell'archivio di oggetti in caso di FabricPool
+** Latenza applicata automaticamente dalla QoS per mantenere i/o entro i massimi livelli di servizio
+
+
+* I valori di latenza non sono applicabili alle operazioni di scrittura MetroCluster. Queste operazioni di scrittura dipendono dalla distanza dei sistemi remoti.
+* Se uno o più volumi su un sistema storage non hanno una policy AQoS assegnata, questi volumi vengono considerati come volumi non conformi e non sono applicabili livelli di servizio di destinazione per tali sistemi.
+* _Gli IOPS previsti_ sono destinati a FabricPool solo se la policy di tiering è impostata su "nessuno" e non ci sono blocchi nel cloud. _Gli IOPS previsti_ sono destinati a volumi che non sono in una relazione sincrona di SnapMirror.
+* Le operazioni di i/o dei workload devono essere bilanciate in tutti i controller implementati, come stabilito dall'ordine Keystone.
+
+
+
+
+== Storage a oggetti
+
+*Protocollo supportato*: S3
+
+|===
+
+
+| *Livello di servizio* | Oggetto 
+
+
+| *Tipo di carico di lavoro* | Repository di contenuti multimediali, archiviazione 
+
+
+| *Massimo IOPS/TIB logico memorizzato per volume* | N/A. 
+
+
+| *Numero massimo di Mbps/TIB logici memorizzati per volume* | N/A. 
+
+
+| *Latenza media* | N/A. 
+|===
+
+NOTE: La latenza non include gli overhead associati al trasferimento dei dati nell'archivio di oggetti in caso di storage FabricPool.
+
+
+
+== Cloud storage
+
+*Protocollo supportato*: NFS, CIFS, iSCSI e S3 (solo AWS e Azure)
+
+|===
+
+
+| *Livello di servizio* | Cloud Volumes ONTAP® 
+
+
+| *Tipo di carico di lavoro* | Disaster Recovery, sviluppo/test software, applicazioni aziendali 
+
+
+| *Massimo IOPS/TIB logico memorizzato per volume* | N/A. 
+
+
+| *Numero massimo di Mbps/TIB logici memorizzati per volume* | N/A. 
+
+
+| *Latenza media* | N/A. 
+|===
+[NOTE]
+====
+* I servizi nativi del cloud, come calcolo, storage, networking, vengono fatturati dai cloud provider.
+* Questi servizi dipendono dalle caratteristiche di cloud storage e di calcolo.
+
+
+====

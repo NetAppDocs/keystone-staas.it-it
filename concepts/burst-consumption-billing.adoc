@@ -1,0 +1,25 @@
+---
+sidebar: sidebar 
+permalink: concepts/burst-consumption-billing.html 
+keywords: burst consumption billing 
+summary: Fatturazione basata sul consumo burst 
+---
+= Fatturazione basata sul consumo burst
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+La fatturazione NetApp Keystone (Keystone) STaaS si basa sulla capacità burst, ovvero la capacità consumata dall'utente, oltre alla capacità impegnata del tuo abbonamento.
+
+Il limite di burst viene determinato e specificato nel contratto Keystone. Di solito è superiore del 20% alla capacità impegnata.
+
+La capacità impegnata è la capacità che ti viene dedicata durante l'acquisto dell'abbonamento. La capacità impegnata e la capacità burst vengono misurate in base al livello di servizio. La capacità consumata è la capacità effettivamente utilizzata dai carichi di lavoro. Quando la capacità consumata è superiore alla capacità impegnata per un livello di servizio, il consumo burst viene registrato e addebitato di conseguenza. Di solito è superiore del 20% alla capacità impegnata. L'utilizzo al di sopra della capacità di burst viene indicato come "al di sopra del limite di burst".
+
+Questo processo si verifica per ogni record di consumo generato. Il consumo di burst, pertanto, riflette sia la quantità che la durata delle capacità di consumo eccessivo in aggiunta alle capacità impegnate.
+
+Per informazioni sulle diverse capacità supportate in Keystone, vedere link:../concepts/supported-storage-capacity.html["Capacità di storage supportate in Keystone"].

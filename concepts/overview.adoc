@@ -1,0 +1,31 @@
+---
+sidebar: sidebar 
+permalink: concepts/overview.html 
+keywords: learn about keystone, keystone introduction, keystone, STaaS, service, offering, overview 
+summary: Benvenuto in Keystone 
+---
+= Scopri di più su NetApp Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp Keystone (Keystone) è un modello di servizio pay-as-you-grow basato su abbonamento che offre un'esperienza di cloud ibrido perfetta per le aziende che preferiscono i modelli di consumo OPEX a CapEx anticipate o al leasing.
+
+Keystone consente ai clienti di accelerare il time-to-value riducendo gli ostacoli nella gestione di una crescita imprevedibile della capacità e di complessi cicli di approvvigionamento. Keystone consente ai clienti di allineare economia e operazioni alle loro priorità di business.
+
+image:nkfsosm_image2.png["keystone"]
+
+Keystone offre capacità di storage a livelli di servizio predefiniti per tipi di dati a blocchi, file e oggetti che possono essere implementati on-premise e gestiti da NetApp, un partner o dal cliente. Keystone può essere utilizzato in associazione con i servizi cloud NetApp, come Cloud Volumes ONTAP, che possono essere implementati in un ambiente iperscalare di tua scelta.
+
+Ai piani tariffari è associato un abbonamento Keystone. A un singolo abbonamento possono essere associati più piani tariffari.
+
+
+
+== Keystone Storage-as-a-Service (STaaS)
+
+Mentre la maggior parte delle aziende sta ancora lavorando alla propria strategia per il cloud ibrido, i clienti possono optare per un modello di consumo _pay-per-use_ basato su OpEx. Potresti avere un mandato per spostare tutti i tuoi workload nel cloud, senza tuttavia un piano o un programma chiaro per migrare parti specifiche o tutti i tuoi workload nel cloud. Keystone Storage-as-a-Service (STaaS) ti offre la flessibilità di iniziare con i servizi on-premise e decidere in seguito i carichi di lavoro giusti e il momento giusto per passare al cloud. Keystone STaaS offre protezione degli impegni per tutti i modelli di implementazione. Invece di pagare di più per i servizi cloud, tu, in qualità di cliente on-premise, puoi riallocare la spesa on-premise per aggiungere servizi cloud e pagare essenzialmente la stessa fattura mensile che era stata impegnata prima di questa riallocazione.

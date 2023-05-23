@@ -1,0 +1,135 @@
+---
+sidebar: sidebar 
+permalink: concepts/capacity-requirements.html 
+keywords: storage capacity requirement for service levels, capacity definition per PSL, 
+summary: Requisiti di capacità per i livelli di servizio 
+---
+= Requisiti di capacità per i livelli di servizio
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+I requisiti di capacità per i livelli di servizio di Keystone STaaS differiscono in base allo storage di file, blocchi, oggetti o cloud supportato dall'abbonamento a Keystone STaaS.
+
+
+
+== Requisiti minimi di capacità per i servizi di file e blocchi
+
+La capacità minima e la capacità incrementale consentite per ciascun abbonamento sono descritte nella seguente tabella. La capacità minima per livello di servizio è la stessa per i movimenti di vendita Keystone. La capacità superiore alla capacità minima all'inizio dell'abbonamento, come servizio aggiuntivo all'abbonamento o dopo la riallocazione durante l'abbonamento è strutturata anche nella tabella.
+
+|===
+
+
+| Capacità | Estremo | Premium | Performance | Standard | Valore 
+
+
+ a| 
+Capacità minima [in TIB]
+3+| 25 2+| 100 
+
+
+ a| 
+Capacità incrementale (e in multipli) consentita all'inizio dell'abbonamento [in TIB]
+3+| 25 2+| 25 
+
+
+ a| 
+Capacità incrementale (e in multipli) consentita come add-on durante l'abbonamento [in TIB]
+3+| 25 2+| 25 
+|===
+
+
+== Requisiti minimi di capacità per lo storage a oggetti
+
+Nella tabella seguente sono riportati i requisiti minimi di capacità per lo storage a oggetti:
+
+|===
+
+
+| Capacità | Tiering dei dati | Oggetto | Cloud Volumes ONTAP | Cloud Backup Service 
+
+
+ a| 
+Capacità minima [in TIB]
+ a| 
+Non applicabile
+ a| 
+500
+ a| 
+4
+ a| 
+4
+
+
+
+ a| 
+Capacità incrementale (e in multipli) consentita all'inizio dell'abbonamento [in TIB]
+ a| 
+Non applicabile
+ a| 
+100
+ a| 
+1
+ a| 
+1
+
+
+
+ a| 
+Capacità incrementale (e in multipli) consentita come add-on durante l'abbonamento [in TIB]
+ a| 
+Non applicabile
+ a| 
+100
+ a| 
+1
+ a| 
+1
+
+|===
+
+
+== Regolazioni della capacità
+
+Per le rettifiche di capacità, osservare le seguenti clausole:
+
+* La capacità può essere aggiunta in qualsiasi momento durante il periodo di validità, ad eccezione degli ultimi 90 giorni del contratto, in incrementi per livello di servizio, come descritto nelle tabelle della sezione precedente. L'aggiunta di capacità e/o servizi è consentita entro gli ultimi 90 giorni della durata del contratto, a condizione che vi sia il consenso al rinnovo del servizio. Qualsiasi aggiunta di capacità, nuovo servizio on-premise o cloud può essere co-utilizzata con il termine esistente. La fattura inviata all'utente in seguito all'attivazione dei nuovi servizi riflette la fatturazione modificata. La capacità impegnata dei servizi cloud non può essere ridotta in alcun momento durante il periodo di validità dell'abbonamento. Nel frattempo, la capacità impegnata e la spesa impegnata per i servizi on-premise durante il periodo di validità del contratto possono essere ridotte in base a determinati criteri, come definito nella sezione seguente _riduzione della capacità_.
+* In ogni sito è disponibile una capacità burst, in base all'accordo Keystone. Di solito è superiore del 20% alla capacità impegnata per un livello di servizio. Qualsiasi utilizzo burst viene fatturato solo per quel periodo di fatturazione. Se hai bisogno di requisiti burst aggiuntivi superiori alla capacità concordata, contatta il supporto.
+* La capacità impegnata può essere modificata durante un periodo contrattuale, solo in determinate condizioni, come descritto nella sezione seguente _riduzione della capacità_.
+* È consentito aumentare la capacità o passare a un livello di servizio superiore durante un periodo di sottoscrizione. Tuttavia, non è consentito passare da un livello di servizio superiore a un livello di servizio inferiore.
+* Qualsiasi richiesta di modifica negli ultimi 90 giorni del periodo di validità del servizio richiede un rinnovo del servizio per almeno un anno.
+
+
+
+
+=== Riduzione della capacità
+
+La riduzione della capacità (annuale) è applicabile al modello di pagamento _annuale in anticipo_ e alle implementazioni solo on-premise. Non è disponibile per servizi cloud o servizi di cloud ibrido. Fornisce il provisioning della capacità on-premise, che può essere ridotta fino al 25% per livello di servizio per abbonamento. Questa riduzione è consentita una volta all'anno per essere effettiva all'inizio del successivo periodo di fatturazione annuale. I pagamenti annuali basati sui servizi on-premise devono essere superiori a 200 milioni di dollari in qualsiasi momento durante il periodo di validità per sfruttare la riduzione della capacità. Poiché è supportato solo per le implementazioni on-premise, questo modello di fatturazione non fornisce la riallocazione delle spese dai servizi on-premise ai servizi cloud. Un esempio di riduzione annuale della capacità è illustrato nella seguente immagine.
+
+image:capacity-reduction.png["riduzione della capacità di visualizzazione delle immagini"]
+
+
+
+=== Riallocazione della spesa trimestrale
+
+Requisiti e condizioni a livello di abbonamento:
+
+* Si applica solo alla fatturazione mensile nei modelli arretrati.
+* Si applica solo agli abbonamenti con impegni a 1, 2 o 3 anni.
+* La capacità Cloud Volumes ONTAP e Cloud Backup Service deve essere acquistata tramite Keystone.
+* Fino al 25% dei pagamenti mensili on-premise basati sui servizi può essere utilizzato per la riallocazione ai servizi cloud.
+* I pagamenti mensili on-premise basati sui servizi devono essere superiori a 16,7 milioni di dollari in qualsiasi momento durante il periodo di validità per sfruttare la riallocazione.
+* Le richieste di riallocazione sono effettive solo dopo 90 giorni dalla data di attivazione precedente della riallocazione.
+* Non è possibile riallocare i servizi cloud in sede.
+* Una richiesta di riallocazione deve essere inviata formalmente dal cliente o dal partner a Keystone Success Manager (KSM) almeno una settimana prima del ciclo di fatturazione successivo.
+* Le nuove richieste entrano in vigore solo a partire dal ciclo di fatturazione successivo.
+
+
+Un esempio di riallocazione trimestrale della spesa è illustrato nella seguente immagine:
+
+image:spend-alloc.png["come viene allocata la spesa"]

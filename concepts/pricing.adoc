@@ -1,0 +1,31 @@
+---
+sidebar: sidebar 
+permalink: concepts/pricing.html 
+keywords: pricing, billing introduction, Keystone billing 
+summary: Prezzo Keystone 
+---
+= Prezzo Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp Keystone STaaS offre prezzi prevedibili e anticipati per il tuo abbonamento allo storage.
+
+Se preferisci il modello di consumo delle spese operative (OpEx) alle spese in conto capitale (CapEx) o al leasing, puoi scegliere il modello Keystone pay-as-you-grow per le tue esigenze di consumo flessibili e scalabili.
+
+Keystone offre le seguenti funzioni di fatturazione:
+
+* Puoi pagare in base agli IOPS e alla capacità di latenza impegnata per soddisfare le varie esigenze di carico di lavoro. I diversi livelli di servizio per le performance: Extreme, Premium, Performance, Standard, Value, Gli oggetti consentono di gestire lo storage in base al livello di servizio acquistato.
+* Presenta una fatturazione prevedibile per la capacità impegnata e pay-per-use per l'utilizzo della capacità variabile (burst).
+* Puoi scegliere un prezzo bundle per hardware, sistema operativo core e supporto per un prezzo CIB/dollari. Hai una singola fattura per ogni tipo di storage, file, blocco, oggetto o servizi di cloud storage.
+* Seleziona un termine flessibile per i servizi e il pagamento: Puoi optare per 12 mesi, 25 TiB o più per sito. In seguito, è possibile effettuare il rinnovo automatico per 12 mesi.
+
+
+La fatturazione di Keystone si basa sulla capacità impegnata e sul consumo variabile di burst.
+
+Per informazioni sulle diverse capacità supportate in Keystone, vedere link:../concepts/supported-storage-capacity.html["Capacità di storage supportate in Keystone"].

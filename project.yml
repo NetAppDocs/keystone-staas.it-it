@@ -1,0 +1,167 @@
+---
+settings:
+  name: Keystone
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: it-it,us-en,ja-jp,ko-kr,zh-cn,zh-tw,de-de,es-es,fr-fr
+sidebar:
+  entries:
+  - title: Documenti Keystone
+    url: "/index.html"
+  - title: Benvenuto in Keystone
+    url: "/concepts/overview.html"
+  - title: Impostare e configurare Keystone
+    entries:
+    - title: Cos'è Keystone Collector
+      url: "/installation/installation-overview.html"
+    - title: Prerequisiti per l'installazione di Keystone Collector
+      entries:
+      - title: Prerequisiti di VMware vSphere
+        url: "/installation/vapp-prereqs.html"
+      - title: Prerequisiti di Linux
+        url: "/installation/linux-prereqs.html"
+      - title: Prerequisiti specifici per ONTAP e StorageGRID
+        url: "/installation/addl-req.html"
+    - title: Procedura di installazione
+      entries:
+      - title: Implementazione di VMware vSphere
+        url: "/installation/vapp-installation.html"
+      - title: Installazione di Linux
+        url: "/installation/linux-installation.html"
+      - title: Validazione automatica dell'integrità
+        url: "/installation/validation.html"
+    - title: Configurare Keystone Collector
+      url: "/installation/configuration.html"
+    - title: Monitorare lo stato del sistema
+      url: "/installation/monitor-health.html"
+    - title: Aggiorna Keystone Collector
+      url: "/installation/upgrade.html"
+    - title: Dati raccolti per la fatturazione
+      url: "/installation/data-collection.html"
+  - title: Scopri Keystone
+    entries:
+    - title: Capacità di storage supportata
+      url: "/concepts/supported-storage-capacity.html"
+    - title: Metriche e definizioni
+      url: "/concepts/metrics.html"
+    - title: Storage supportato in Keystone
+      url: "/concepts/supported-storage-services.html"
+    - title: Livelli di servizio in Keystone
+      url: "/concepts/service-levels.html"
+    - title: Servizi aggiuntivi
+      entries:
+      - title: Tiering dei dati
+        url: "/concepts/data-tiering.html"
+      - title: Protezione avanzata dei dati
+        url: "/concepts/adp.html"
+      - title: STATI UNITI Supporto cittadino (USCS)
+        url: "/concepts/uscs.html"
+      - title: Componenti non restituibili, non volatili e conformità SnapLock
+        url: "/concepts/nrnvc.html"
+      - title: Keystone ed Equinix
+        url: "/concepts/equinix.html"
+  - title: Ulteriori informazioni sui livelli di servizio
+    entries:
+    - title: Qualità del servizio
+      url: "/concepts/qos.html"
+    - title: Requisiti di capacità per i livelli di servizio
+      url: "/concepts/capacity-requirements.html"
+  - title: Fatturazione
+    entries:
+    - title: Prezzo Keystone
+      url: "/concepts/pricing.html"
+    - title: Fatturazione basata sulla capacità impegnata
+      url: "/concepts/committed-capacity-billing.html"
+    - title: Misurazione basata sulla capacità consumata
+      url: "/concepts/consumed-capacity-billing.html"
+    - title: Fatturazione basata sul consumo burst
+      url: "/concepts/burst-consumption-billing.html"
+    - title: Fatturazione basata su diversi tipi di volume
+      url: "/concepts/misc-volume-billing.html"
+    - title: Pianificazioni di fatturazione
+      url: "/concepts/billing-schedules.html"
+  - title: Ambienti gestiti dai partner e dai clienti
+    url: "/concepts/operational-models.html"
+  - title: Infrastruttura Keystone
+    entries:
+    - title: Dettagli dell'infrastruttura
+      url: "/concepts/infra.html"
+    - title: Componenti
+      url: "/concepts/components.html"
+    - title: Flusso di dati
+      url: "/concepts/data-flow.html"
+  - title: NetApp Global Services Support Center
+    url: "/concepts/gssc.html"
+  - title: Ottieni di più con Keystone Services
+    entries:
+    - title: Keystone e BlueXP
+      url: "/integrations/keystone-cm.html"
+    - title: Keystone e consulente digitale Active IQ
+      url: "/integrations/keystone-aiq.html"
+    - title: Report di Active IQ Digital Advisor per Keystone
+      url: "/integrations/aiq-keystone-details.html"
+  - title: Note legali
+    url: "/legal-notices.html"
+homepage:
+  tiles:
+  - title: Inizia subito
+    links:
+    - title: Che cos'è NetApp Keystone?
+      url: "/concepts/overview.html"
+    - title: Installazione di Keystone Collector su VMware vSphere
+      url: "/installation/vapp-installation.html"
+    - title: Installazione di Keystone Collector su Linux
+      url: "/installation/linux-installation.html"
+    - title: Quali sono le unità di misura?
+      url: "/concepts/metrics.html"
+    - title: Qual è lo storage di base supportato?
+      url: "/concepts/supported-storage-services.html"
+    - title: Come posso visualizzare i miei dati di consumo?
+      url: "/integrations/keystone-aiq.html"
+  - title: Servizi supportati in Keystone
+    links:
+    - title: Livelli di servizio Keystone
+      url: "/concepts/service-levels.html"
+    - title: Qualità del servizio (QoS)
+      url: "/concepts/qos.html"
+    - title: Che cos'è il tiering dei dati?
+      url: "/concepts/data-tiering.html"
+    - title: I miei dati Keystone sono protetti?
+      url: "/concepts/adp.html"
+    - title: Come posso vedere il mio consumo per livello di servizio?
+      url: "/integrations/aiq-keystone-details.html"
+  - title: Prezzo Keystone
+    links:
+    - title: Informazioni sulla fatturazione di Keystone
+      url: "/concepts/pricing.html"
+    - title: Le mie pianificazioni di fatturazione
+      url: "/concepts/billing-schedules.html"
+    - title: Fatturazione basata sulla capacità impegnata
+      url: "/concepts/committed-capacity-billing.html"
+    - title: Misurazione basata sulla capacità consumata
+      url: "/concepts/consumed-capacity-billing.html"
+    - title: Cosa succede se ho consumato più della mia capacità impegnata?
+      url: "/concepts/burst-consumption-billing.html"
+  - title: Ottieni di più con Keystone Services
+    links:
+    - title: Conosci il tuo team di supporto (Keystone GSSC)
+      url: "/concepts/gssc.html"
+    - title: Keystone e BlueXP
+      url: "/integrations/keystone-cm.html"
+    - title: Keystone e consulente digitale Active IQ
+      url: "/integrations/keystone-aiq.html"
+    - title: Supporto dei cittadini DEGLI STATI UNITI
+      url: "/concepts/uscs.html"
+  - title: Scopri di più
+    links:
+    - title: Abbonamento Keystone Flex
+      url: https://docs.netapp.com/us-en/keystone/
+    - title: Consulente digitale Active IQ
+      url: https://docs.netapp.com/us-en/active-iq/index.html
+    - title: BlueXP
+      url: https://docs.netapp.com/us-en/cloud-manager-family/
+    - title: Active IQ Unified Manager
+      url: https://docs.netapp.com/us-en/active-iq-unified-manager/

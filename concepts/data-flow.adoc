@@ -1,0 +1,49 @@
+---
+sidebar: sidebar 
+permalink: concepts/data-flow.html 
+keywords: data flow 
+summary: Flussi di dati Keystone 
+---
+= Flusso di dati Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+I dati dei sistemi Keystone STaaS passano attraverso Keystone Collector e il sistema di monitoraggio associato, lo strumento di soluzione AIOPS.
+
+
+
+== Flusso di dati di Keystone Collector
+
+Keystone Collector avvia le chiamate API REST ai controller di storage e ottiene periodicamente i dettagli di utilizzo dei controller, come indicato nel seguente diagramma di flusso:
+
+image:collector-data-flow.png["mostra il flusso di dati all'interno dei componenti di raccolta"]
+
+.Legenda
+. NetApp Collector avvia una sessione HTTPS sul portale cloud Active-IQ.
+. Il firewall gestito dal cliente consente la connessione.
+. Il portale cloud Active IQ accetta la connessione e stabilisce un tunnel per NetApp Collector.
+. NetApp Collector stabilisce una sessione API REST per la connessione di gestione dello storage controller, ottiene i dati ambientali e li invia al portale Active IQ.
+
+
+
+
+== Monitoraggio dei flussi di dati
+
+Il monitoraggio continuo dello stato dell'infrastruttura storage è una delle funzionalità più importanti del servizio Keystone. Per il monitoraggio e la creazione di report, Keystone utilizza la soluzione AIOPS, che richiede l'accesso remoto alla rete del cliente. La seguente immagine descrive come l'accesso remoto alla sede del cliente viene protetto dallo strumento di soluzione AIOPS.
+
+image:monitoring-flow.png["flusso di dati"]
+
+.Legenda
+. Il gateway della soluzione AIOPS avvia una sessione TLS al portale cloud ITS.
+. Il firewall gestito dal cliente consente la connessione.
+. Il server della soluzione AIOPS nel cloud accetta la connessione.
+. Viene stabilito un tunnel TLS tra il portale cloud e il gateway locale.
+. I controller NetApp inviano avvisi utilizzando il protocollo SNMP o rispondono alle richieste API al gateway locale.
+. Il gateway locale invia questi avvisi al proprio portale cloud utilizzando la sessione TLS stabilita in precedenza.
+

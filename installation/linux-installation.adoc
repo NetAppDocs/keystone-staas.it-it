@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: installation/linux-installation.html 
+keywords: Linux installation Keystone, Linux Collector installation 
+summary: Installazione di Keystone Collector su Linux 
+---
+= Installazione di Keystone Collector su sistemi Linux
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Il software Keystone Collector è distribuito da un repository di software YUM online. È necessario importare e installare il file su un server Linux.
+
+Per installare il software sul server Linux, procedere come segue:
+
+. SSH al server di Keystone Collector e passare a. `root` privilegio.
+. Importare la firma pubblica Keystone:
+`# rpm --import https://keystone.netapp.com/repo/RPM-GPG-NetApp-Keystone-20221101`
+. Verificare che sia stato importato il certificato pubblico corretto controllando l'impronta digitale per Keystone Billing Platform nel database RPM:
+`# rpm -qa gpg-pubkey --qf '%_<Description>_'|gpg --show-keys --fingerprint`L'impronta digitale corretta è simile al seguente:
+`90B3 83AF E07B 658A 6058  5B4E 76C2 45E4 33B6 C17D`
+. Scaricare il `keystonerepo.rpm` file:
+`curl -O https://keystone.netapp.com/repo/keystonerepo.rpm`
+. Verificare l'autenticità del file:
+`rpm --checksig -v keystonerepo.rpm`Una firma per un file autentico è simile a questa:
+`Header V4 RSA/SHA512 Signature, key ID 33b6c17d: OK`
+. Installare il file repository del software YUM:
+`# yum install keystonerepo.rpm`
+. Una volta installato Keystone repo, installare il pacchetto keystone-collector tramite YUM Package Manager:
+`# yum install keystone-collector`
+
+
+
+NOTE: Una volta completata l'installazione, è possibile utilizzare l'utility Keystone Collector Management Terminal User Interface (TUI) per eseguire le attività di configurazione e monitoraggio. Per selezionare le opzioni e spostarsi all'interno dell'interfaccia telefonica utente, è possibile utilizzare diversi comandi della tastiera, ad esempio i tasti Invio e freccia. Vedere link:../installation/configuration.html["Configurare Keystone Collector"] e. link:../installation/monitor-health.html["Monitorare lo stato del sistema"].

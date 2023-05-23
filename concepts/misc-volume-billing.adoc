@@ -1,0 +1,74 @@
+---
+sidebar: sidebar 
+permalink: concepts/misc-volume-billing.html 
+keywords: Billing and miscellaneous scenarios 
+summary: Fatturazione basata su diversi tipi di volume 
+---
+= Scenari vari per la fatturazione Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+
+
+== Fatturazione per volumi clonati
+
+Se i volumi vengono clonati in ONTAP e utilizzati per il backup e il ripristino dei dati, è possibile continuare a utilizzare i cloni senza alcun pagamento aggiuntivo. Tuttavia, vengono addebitati i volumi clonati utilizzati per qualsiasi altro scopo dell'azienda per un periodo di tempo esteso.
+
+
+NOTE: Nota:
+
+* Il consumo sui volumi clonati non viene preso in considerazione durante le prime 24 ore di creazione del clone e non si verificano addebiti durante questo periodo.
+* I volumi clonati con i livelli Standard e Value Service non vengono considerati per il consumo se i nuovi dati non vengono scritti nel volume. Ad esempio, in un caso di utilizzo di backup o ripristino, il backup o il ripristino dei dati da un volume clonato non modifica i dati nel volume clonato stesso e non viene considerato come consumo.
+
+
+
+
+== Fatturazione per la protezione avanzata dei dati
+
+La protezione avanzata dei dati utilizza NetApp MetroCluster per eseguire il mirroring dei dati tra due cluster fisicamente separati. Per gli aggregati mirrorati di MetroCluster, i dati vengono scritti due volte, una volta su ciascun cluster. Il servizio Keystone addebita i costi di consumo su ciascun lato in modo indipendente, con la conseguenza di due record di consumo identici. I costi aggiuntivi vengono applicati a tutte le capacità dell'abbonamento, indipendentemente dal fatto che i dati siano all'origine o siano dati mirrorati o senza mirror.
+
+Se si monitorano i cluster tramite Gestore di sistema di ONTAP (Gestore di sistema) o Active IQ Unified Manager (Gestore unificato), potrebbe verificarsi una discrepanza tra il consumo riportato su questi strumenti e Keystone. System Manager e Unified Manager non riportano i volumi sul cluster mirrorato (remoto) e, in questo modo, riporta la metà delle metriche di consumo riportate dal servizio Keystone.
+
+.Esempio:
+I siti A e B vengono configurati in una configurazione MetroCluster. Quando un utente crea un volume di 10 TB nel sito A, viene creato un volume identico di 10 TB nel sito B. Keystone identifica 10 TB di consumo in ogni sito, per un aumento totale di 20 TB. System Manager e Unified Manager riportano un volume da 10 TB creato nel sito A, ma non riportano un volume da 10 TB nel sito B.
+
+Inoltre, tutti i volumi creati su un sistema Keystone con Advanced Data Protection verranno conteggiati per il consumo di Advanced Data Protection, indipendentemente dal fatto che tali volumi siano o meno mirrorati.
+
+
+
+== Fatturazione per volumi temporanei
+
+Occasionalmente, i volumi temporanei (TMP) vengono creati da ONTAP durante lo spostamento dei volumi. Questi volumi temporanei sono di breve durata e il consumo su questi volumi non viene misurato per la fatturazione.
+
+
+
+== Policy di fatturazione e QoS adattivi
+
+Keystone misura il consumo in base ai livelli di servizio. Ogni livello di servizio è associato a una specifica policy di qualità del servizio (QoS) adattativa. Durante l'implementazione, sarai informato dei dettagli di ogni policy QoS per i servizi Keystone sottoscritti. Durante le operazioni di gestione dello storage, assicurarsi che i volumi abbiano le policy QoS appropriate assegnate in base ai livelli di servizio sottoscritti, per evitare la fatturazione imprevista. Per ulteriori informazioni sui criteri QoS in ONTAP, vedere link:https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html["Garantire il throughput con la panoramica QoS"^].
+
+
+
+== Fatturazione per destinazioni SnapMirror
+
+Il prezzo del volume di destinazione SnapMirror è regolato dalla policy QoS per il livello di servizio assegnato all'origine. Tuttavia, se l'origine non dispone di una policy QoS associata, la destinazione viene fatturata in base al livello di servizio più basso disponibile.
+
+
+
+== Fatturazione per LUN
+
+Per i LUN, viene seguito lo stesso modello di fatturazione dei volumi governati dalle policy di QoS. Se sui LUN sono impostate policy QoS separate, allora:
+
+* La dimensione del LUN viene conteggiata per il consumo in base al livello di servizio associato a tale LUN.
+* Il resto dello spazio nel volume, se presente, viene addebitato in base alla policy QoS del livello di servizio impostato sul volume.
+
+
+
+
+== Volumi di sistema e root
+
+I volumi di sistema e root vengono monitorati come parte del monitoraggio generale del servizio Keystone, ma non vengono conteggiati o fatturati. Il consumo su questi volumi è esentato per la fatturazione.

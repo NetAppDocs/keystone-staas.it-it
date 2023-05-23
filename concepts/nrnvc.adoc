@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: concepts/nrnvc.html 
+keywords: Non-returnable, non-volatile components, SnapLock compliance, add-on service 
+summary: Componenti non restituibili, non volatili e conformità SnapLock 
+---
+= Componenti non restituibili, non volatili e conformità SnapLock
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Come parte dell'abbonamento NetApp Keystone, NetApp estende l'offerta di componenti non-volatile (NRNVC) non-restituibili per i servizi a file, blocchi e oggetti.
+
+Puoi iscriverti a questi servizi aggiuntivi come parte del tuo abbonamento a Keystone. Per informazioni sui servizi standard e cloud, vedere link:supported-storage-services.html["Servizi Keystone STaaS"].
+
+Per informazioni sui livelli di servizio, vedere link:../concepts/service-levels.html["Livelli di servizio in Keystone"].
+
+NetApp non recupera i supporti di storage fisici utilizzati durante l'intero periodo di servizio o alla cessazione del servizio quando NetApp recupera in altro modo tutte le risorse fisiche utilizzate per l'erogazione del servizio.
+
+Se è stato acquistato questo servizio, tenere presente quanto segue:
+
+* Non è necessario restituire dischi e memoria non volatile alla fine del periodo di servizio o se si sono guastati o rilevati difetti durante il periodo di servizio.
+* Tuttavia, è necessario produrre un certificato di distruzione per i dischi e/o la memoria non volatile e non può essere utilizzato per altri scopi.
+* Il costo aggiuntivo associato a NRNVC viene addebitato come percentuale della fattura mensile del servizio di abbonamento totale (include servizio standard, protezione avanzata dei dati e tiering dei dati).
+* Questo servizio è applicabile solo ai servizi di file, blocco e oggetti.
+
+
+
+
+== Conformità SnapLock
+
+La tecnologia SnapLock abilita la funzione NRNVC rendendo il disco inutilizzabile dopo la data di scadenza impostata nel volume. Per utilizzare la tecnologia SnapLock sui tuoi volumi, devi iscriverti a NRNVC. Questo è applicabile solo ai servizi di file e blocco.
+
+Per informazioni sulla tecnologia SnapLock, vedere https://docs.netapp.com/us-en/ontap/snaplock/snaplock-concept.html["Che cos'è SnapLock"].

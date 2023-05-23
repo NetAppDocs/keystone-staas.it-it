@@ -1,0 +1,75 @@
+---
+sidebar: sidebar 
+permalink: installation/configuration.html 
+keywords: configuration keystone collector 
+summary: Configurazione di Keystone Collector 
+---
+= Configurare Keystone Collector
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+È necessario completare alcune attività di configurazione per consentire a Keystone Collector di raccogliere i dati di utilizzo nell'ambiente di storage. Si tratta di un'attività una tantum per attivare e associare il componente di raccolta richiesto all'ambiente di storage.
+
+
+NOTE: Keystone Collector fornisce l'utility Keystone Collector Management Terminal User Interface (TUI) per eseguire le attività di configurazione e monitoraggio. Per selezionare le opzioni e spostarsi all'interno dell'interfaccia telefonica utente, è possibile utilizzare diversi comandi della tastiera, ad esempio i tasti Invio e freccia.
+
+.Fasi
+. Avviare l'utility TUI di gestione di Keystone Collector:
+`$ keystone-collector-tui`
+. Accedere a **Configura > KS-Collector** per aprire la schermata di configurazione di Keystone Collector e visualizzare le opzioni disponibili per l'aggiornamento.
+. Aggiornare le opzioni richieste.
++
+.<strong> FOR ONTAP </strong>
+[%collapsible]
+====
+** *Collect ONTAP Use*: Questa opzione consente di raccogliere i dati di utilizzo per ONTAP. Aggiungere i dettagli del server Active IQ Unified Manager (Unified Manager) e dell'account di servizio.
+** *Collect ONTAP dati sulle prestazioni*: Questa opzione consente la raccolta di dati sulle performance per ONTAP. Questa opzione è disattivata per impostazione predefinita. Attivare questa opzione se il monitoraggio delle performance è richiesto nel proprio ambiente per scopi SLA. Fornire i dettagli dell'account utente di Unified Manager Database. Per informazioni sulla creazione di utenti di database, vedere link:../installation/addl-req.html["Creare utenti di Unified Manager"].
+** *Remove Private Data* (Rimuovi dati privati): Questa opzione rimuove dati privati specifici dei clienti ed è attivata per impostazione predefinita. Per informazioni sui dati esclusi dalle metriche se questa opzione è attivata, vedere link:../installation/configuration.html#limit-collection-of-private-data["Limita la raccolta di dati privati"].
+
+
+====
++
+.<strong> FOR StorageGRFunded </strong>
+[%collapsible]
+====
+** *Collect StorageGRID Use* (Raccogli utilizzo nodo): Questa opzione consente di raccogliere i dettagli sull'utilizzo del nodo. Aggiungere l'indirizzo del nodo StorageGRID e i dettagli dell'utente.
+** *Remove Private Data* (Rimuovi dati privati): Questa opzione rimuove dati privati specifici dei clienti ed è attivata per impostazione predefinita. Per informazioni sui dati esclusi dalle metriche se questa opzione è attivata, vedere link:../installation/configuration.html#limit-collection-of-private-data["Limita la raccolta di dati privati"].
+
+
+====
+. Attivare il campo **Avvia KS-Collector con sistema**.
+. Fare clic su **Salva**.image:tui-1.png["schermata tui"]
+. Assicurarsi che Keystone Collector sia in buono stato tornando alla schermata principale dell'interfaccia telefonica utente e verificando le informazioni **Stato del servizio**. Il sistema dovrebbe mostrare che i servizi sono in uno stato **generale: Sano**.image:tui-2.png["schermata tui"]
+. Uscire dalla TUI di gestione di Keystone Collector selezionando l'opzione **Esci dalla shell** nella schermata iniziale.
+
+
+
+
+== Configurare il proxy HTTP su Keystone Collector
+
+Il software Collector supporta l'utilizzo di un proxy HTTP per comunicare con Internet. Questa opzione può essere configurata nell'interfaccia telefonica utente (TUI).
+
+.Fasi
+. Riavviare l'utility TUI di gestione di Keystone Collector, se già chiusa:
+`$ keystone-collector-tui`
+. Attivare il campo **Proxy HTTP** e aggiungere i dettagli relativi al server proxy HTTP, alla porta e alle credenziali, se è richiesta l'autenticazione.
+. Fare clic su **Salva**.image:tui-3.png["schermata tui"]
+
+
+
+
+== Limita la raccolta di dati privati
+
+Keystone Collector raccoglie informazioni limitate su configurazione, stato e performance necessarie per eseguire il calcolo dell'abbonamento. È possibile limitare ulteriormente le informazioni raccolte mascherando le informazioni sensibili dal contenuto caricato. Ciò non influisce sul calcolo della fatturazione. Tuttavia, la limitazione delle informazioni potrebbe influire sull'usabilità delle informazioni di reporting, poiché alcuni elementi, facilmente identificabili dagli utenti, come il nome del volume, vengono sostituiti con UUID.
+
+La limitazione della raccolta di dati specifici del cliente è un'opzione configurabile nella schermata TUI di Keystone Collector. Questa opzione, *Rimuovi dati privati*, è attivata per impostazione predefinita.
+
+image:tui-4.png["schermata tui"]
+
+Per informazioni sugli elementi rimossi per limitare l'accesso privato ai dati in ONTAP e StorageGRID, vedere link:../installation/data-collection.html["Elenco degli elementi rimossi in caso di limitazione dell'accesso ai dati privati"].
