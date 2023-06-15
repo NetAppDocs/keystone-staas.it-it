@@ -404,11 +404,11 @@
           
           <a target="_blank" 
             
-              href="/it-it/keystone-staas/pdfs/sidebar/Procedura_di_installazione.pdf" 
+              href="/it-it/keystone-staas/pdfs/sidebar/Installare_Keystone_Collector.pdf" 
             
           >
             <img src="/it-it/keystone-staas/images/pdf.png" alt="" width="16" height="16"/>
-            Procedura di installazione
+            Installare Keystone Collector
           </a>
           
 
@@ -729,11 +729,11 @@
         Prerequisiti specifici per ONTAP e StorageGRID
       </a></li></ul></li><li 
       data-pdf-exists="true" 
-      data-pdf-filename="Procedura di installazione"
+      data-pdf-filename="Installare Keystone Collector"
       data-li-level="2" 
       class="subfolders "
     ><a href="#">
-        <div class="na-navbar-padding"> Procedura di installazione</div>
+        <div class="na-navbar-padding"> Installare Keystone Collector</div>
       </a>
       <ul style="display: none;">
         <li 
@@ -1084,7 +1084,7 @@
 <p class="page-details">
   
     
-    <time datetime="2023-05-26 06:45:25 +0000">05/26/2023</time>
+    <time datetime="2023-06-15 15:39:10 +0000">06/15/2023</time>
     
   
 
@@ -1163,6 +1163,9 @@ Il consumo di capacità nelle sottoscrizioni Keystone viene visualizzato in Tibe
 <p><strong>Tracking ID</strong>: L&#8217;ID di tracciamento assegnato al momento dell&#8217;attivazione dell&#8217;abbonamento. Si tratta di un ID univoco per ciascun abbonamento e sito, utilizzato per tenere traccia dell&#8217;abbonamento.</p>
 </li>
 <li>
+<p><strong>Tipo di utilizzo</strong>: Potresti aver sottoscritto più abbonamenti Keystone (versione 1) o Keystone STaaS (versione 2). Le regole del piano tariffario per i livelli di servizio possono variare in base ai due tipi di abbonamento. Osservando il valore di questa colonna, è possibile sapere se il tipo di utilizzo viene fatturato in base all&#8217;utilizzo logico o di provisioning per entrambi <code>v1</code> oppure <code>v2</code>. Per ulteriori informazioni sugli abbonamenti Keystone versione 1, consulta <a href="https://docs.netapp.com/us-en/keystone/index.html">"Documentazione per NetApp Keystone"</a>.</p>
+</li>
+<li>
 <p><strong>Billing Period</strong> (periodo di fatturazione): Il periodo di fatturazione dell&#8217;abbonamento, ad esempio mensile, trimestrale o annuale.</p>
 </li>
 <li>
@@ -1182,11 +1185,11 @@ Il consumo di capacità nelle sottoscrizioni Keystone viene visualizzato in Tibe
 <div class="paragraph">
 <p>Per ulteriori informazioni, fare clic sulla freccia verso il basso per il record di un abbonamento. I dettagli, come il nome del livello di servizio, le capacità assegnate, consumate, disponibili e l&#8217;utilizzo corrente e accumulato burst, sono visualizzati in TIB.</p>
 </div>
-<div class="admonitionblock note">
+<div class="admonitionblock tip">
 <table>
 <tr>
 <td class="icon">
-<img src="/us-en/keystone-staas/images/note.svg" alt="Nota">
+<img src="/us-en/keystone-staas/images/tip.svg" alt="Suggerimento">
 </td>
 <td class="content">
 Vengono evidenziati livelli di servizio specifici che registrano un consumo più elevato. È inoltre possibile visualizzare avvisi e avvisi generati per i volumi.
@@ -1358,8 +1361,10 @@ Gli indicatori <strong>consumo corrente</strong>, <strong>burst corrente</strong
 <div class="paragraph">
 <p>Nella scheda <strong>Dettagli sistema</strong>, è possibile visualizzare il consumo e altri dettagli dei volumi in ONTAP. Per StorageGRID, questa scheda visualizza i nodi e il loro utilizzo individuale nell&#8217;ambiente di storage a oggetti.</p>
 </div>
+<div class="sect2">
+<h3 id="dettagli-del-volume-ontap">Dettagli del volume ONTAP</h3>
 <details>
-<summary class="title">Dettagli volume &lt;strong&gt; ONTAP &lt;/strong&gt;</summary>
+<summary class="title">Fare clic qui</summary>
 <div class="content">
 <div class="paragraph">
 <p>Per ONTAP, la scheda <strong>Dettagli sistema</strong> visualizza informazioni, come l&#8217;utilizzo della capacità, il tipo di volume, il cluster, l&#8217;aggregato e il livello di servizio dei volumi nell&#8217;ambiente di storage gestito dall&#8217;abbonamento Keystone.</p>
@@ -1395,8 +1400,11 @@ Gli indicatori <strong>consumo corrente</strong>, <strong>burst corrente</strong
 </div>
 </div>
 </details>
+</div>
+<div class="sect2">
+<h3 id="nodi-storagegrid-e-dettagli-sui-consumi">Nodi StorageGRID e dettagli sui consumi</h3>
 <details>
-<summary class="title">Nodi &lt;strong&gt; Fundes GRID e dettagli sul consumo &lt;/strong&gt;</summary>
+<summary class="title">Fare clic qui</summary>
 <div class="content">
 <div class="paragraph">
 <p>Per StorageGRID, questa scheda visualizza l&#8217;utilizzo fisico dei nodi nell&#8217;ambiente di storage a oggetti.</p>
@@ -1423,6 +1431,7 @@ Gli indicatori <strong>consumo corrente</strong>, <strong>burst corrente</strong
 </div>
 </div>
 </details>
+</div>
 </div>
 </div>
 <div class="sect1">
@@ -1458,6 +1467,18 @@ Gli indicatori <strong>consumo corrente</strong>, <strong>burst corrente</strong
 </li>
 <li>
 <p><strong>Attenzione</strong>: I problemi, come la non conformità, vengono visualizzati come avvisi. Ad esempio, se all&#8217;interno dei cluster gestiti sono presenti volumi che non dispongono di criteri QoS adattivi (AQoS), viene visualizzato un messaggio di avviso. È possibile fare clic sul collegamento nel messaggio di avviso per visualizzare l&#8217;elenco dei volumi non conformi nella scheda <strong>Dettagli sistema</strong>.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/keystone-staas/images/note.svg" alt="Nota">
+</td>
+<td class="content">
+Se si è abbonati a un singolo livello di servizio o piano tariffario, non sarà possibile visualizzare l&#8217;avviso relativo ai volumi non conformi.
+</td>
+</tr>
+</table>
+</div>
 <div class="paragraph">
 <p>Per informazioni sui criteri AQoS, vedere <a href="../concepts/qos.html">"QoS adattiva"</a>.</p>
 </div>

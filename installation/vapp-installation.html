@@ -404,11 +404,11 @@
           
           <a target="_blank" 
             
-              href="/it-it/keystone-staas/pdfs/sidebar/Procedura_di_installazione.pdf" 
+              href="/it-it/keystone-staas/pdfs/sidebar/Installare_Keystone_Collector.pdf" 
             
           >
             <img src="/it-it/keystone-staas/images/pdf.png" alt="" width="16" height="16"/>
-            Procedura di installazione
+            Installare Keystone Collector
           </a>
           
     <ul class="subfolders" id="pdf-remove" style="display:none;"><li class="active"></li></ul>
@@ -729,11 +729,11 @@
         Prerequisiti specifici per ONTAP e StorageGRID
       </a></li></ul></li><li 
       data-pdf-exists="true" 
-      data-pdf-filename="Procedura di installazione"
+      data-pdf-filename="Installare Keystone Collector"
       data-li-level="2" 
       class="subfolders "
     ><a href="#">
-        <div class="na-navbar-padding"> Procedura di installazione</div>
+        <div class="na-navbar-padding"> Installare Keystone Collector</div>
       </a>
       <ul style="display: none;">
         <li 
@@ -1084,7 +1084,7 @@
 <p class="page-details">
   
     
-    <time datetime="2023-05-23 22:09:25 +0000">05/23/2023</time>
+    <time datetime="2023-06-15 15:39:10 +0000">06/15/2023</time>
     
   
 
@@ -1111,7 +1111,7 @@
 <div class="title">Fasi</div>
 <ol class="arabic">
 <li>
-<p>Scaricare il file OVA da <a href="https://keystone.netapp.com/downloads/KeystoneCollector-latest.ova" class="bare">https://keystone.netapp.com/downloads/KeystoneCollector-latest.ova</a> E memorizzarlo sul sistema VMware vSphere.</p>
+<p>Scaricare il file OVA da <a href="https://keystone.netapp.com/downloads/KeystoneCollector-latest.ova" target="_blank" rel="noopener">"questo link"</a> E memorizzarlo sul sistema VMware vSphere.</p>
 </li>
 <li>
 <p>Sul sistema VMware vSphere, accedere alla vista <strong>macchine virtuali e modelli</strong>.</p>
@@ -1129,20 +1129,51 @@
 <p>Nel <em>passaggio 3</em>, specificare la risorsa di calcolo richiesta per l&#8217;esecuzione della macchina virtuale.</p>
 </li>
 <li>
-<p>Al <em>passaggio 4: Verifica dei dettagli</em>, verifica la correttezza e l&#8217;autenticità del file OVA. Il nome del prodotto dovrebbe essere <em>NetApp Keystone Collector</em>.<span class="image"><img src="../media/ova-deploy.png" alt="UI OVA"></span>VCenter convalida l&#8217;integrità del contenuto del file OVA e fornisce un digest valido per la firma del codice per i file contenuti nel file OVA. Tuttavia, non convalida l&#8217;autenticità del certificato con firma del codice. Per verificare l&#8217;integrità, devi scaricare il certificato digest completo della firma e verificarlo rispetto al certificato pubblico pubblicato da Keystone. Attenersi alla seguente procedura:</p>
+<p>Al <em>passaggio 4: Verifica dei dettagli</em>, verifica la correttezza e l&#8217;autenticità del file OVA.<br>
+Le versioni di vCenter precedenti al 7.0u2 non sono in grado di verificare automaticamente l&#8217;autenticità del certificato con firma del codice. VCenter 7.0u2 e versioni successive possono eseguire le verifiche; tuttavia, a tale scopo, l&#8217;autorità di certificazione della firma deve essere aggiunta a vCenter. Seguire queste istruzioni per la versione di vCenter in uso:</p>
+<details>
+<summary class="title">VCenter 7.0u1 e versioni precedenti: Fare clic qui</summary>
+<div class="content">
+<div class="paragraph">
+<p>VCenter convalida l&#8217;integrità del contenuto del file OVA e fornisce un digest valido per la firma del codice per i file contenuti nel file OVA. Tuttavia, non convalida l&#8217;autenticità del certificato con firma del codice. Per verificare l&#8217;integrità, devi scaricare il certificato digest completo della firma e verificarlo rispetto al certificato pubblico pubblicato da Keystone.</p>
+</div>
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
 <p>Fare clic sul collegamento <strong>Publisher</strong> per scaricare il certificato di digest completo della firma.</p>
 </li>
 <li>
-<p>Scarica il certificato pubblico <em>Keystone Billing</em>: <a href="https://keystone.netapp.com/downloads/OVA-SSL-NetApp-Keystone-20221101.pem" class="bare">https://keystone.netapp.com/downloads/OVA-SSL-NetApp-Keystone-20221101.pem</a>.</p>
+<p>Scarica il certificato pubblico di fatturazione Keystone da <a href="https://keystone.netapp.com/downloads/OVA-SSL-NetApp-Keystone-20221101.pem" target="_blank" rel="noopener">"questo link"</a>.</p>
 </li>
 <li>
 <p>Verificare l&#8217;autenticità del certificato di firma OVA rispetto al certificato pubblico utilizzando OpenSSL:<br>
 <code>openssl verify -CAfile OVA-SSL-NetApp-Keystone-20221101.pem keystone-collector.cert</code></p>
 </li>
 </ol>
+</div>
+</div>
+</details>
+<details>
+<summary class="title">VCenter 7.0u2 e versioni successive: Fare clic qui</summary>
+<div class="content">
+<div class="paragraph">
+<p>7.0u2 e le versioni successive di vCenter sono in grado di validare l&#8217;integrità del contenuto del file OVA e l&#8217;autenticità del certificato di firma del codice, quando viene fornito un digest valido per la firma del codice. L&#8217;archivio root trust vCenter contiene solo certificati VMware. NetApp utilizza Entrust come autorità di certificazione e tali certificati devono essere aggiunti all&#8217;archivio di fiducia di vCenter.</p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Scaricare il certificato CA con firma codice da Entrust <a href="https://web.entrust.com/subca-certificates/OVCS2-CSBR1-crosscert.cer" target="_blank" rel="noopener">"qui"</a>.</p>
+</li>
+<li>
+<p>Seguire la procedura descritta in <code>Resolution</code> Sezione di questo articolo della Knowledge base (KB): <a href="https://kb.vmware.com/s/article/84240" class="bare">https://kb.vmware.com/s/article/84240</a>.</p>
+</li>
+</ol>
+</div>
+</div>
+</details>
+<div class="paragraph">
+<p>Una volta convalidate l&#8217;integrità e l&#8217;autenticità di Keystone Collector OVA, è possibile visualizzare il testo <code>(Trusted certificate)</code> con l&#8217;editore.<br>
+<span class="image"><img src="../media/ova-deploy.png" alt="OVA UI che visualizza un certificato verificato"></span></p>
 </div>
 </li>
 <li>
