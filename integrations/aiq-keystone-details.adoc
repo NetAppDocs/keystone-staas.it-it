@@ -44,6 +44,7 @@ Per ciascun numero di abbonamento, vengono visualizzate le seguenti informazioni
 
 * *Subscription Number*: Il numero di abbonamento Keystone assegnato da NetApp.
 * *Tracking ID*: L'ID di tracciamento assegnato al momento dell'attivazione dell'abbonamento. Si tratta di un ID univoco per ciascun abbonamento e sito, utilizzato per tenere traccia dell'abbonamento.
+* *Tipo di utilizzo*: Potresti aver sottoscritto più abbonamenti Keystone (versione 1) o Keystone STaaS (versione 2). Le regole del piano tariffario per i livelli di servizio possono variare in base ai due tipi di abbonamento. Osservando il valore di questa colonna, è possibile sapere se il tipo di utilizzo viene fatturato in base all'utilizzo logico o di provisioning per entrambi `v1` oppure `v2`. Per ulteriori informazioni sugli abbonamenti Keystone versione 1, consulta https://docs.netapp.com/us-en/keystone/index.html["Documentazione per NetApp Keystone"].
 * *Billing Period* (periodo di fatturazione): Il periodo di fatturazione dell'abbonamento, ad esempio mensile, trimestrale o annuale.
 * *Data di inizio*: La data di inizio dell'abbonamento.
 * *Data di fine*: Data di fine dell'abbonamento. Una data vuota indica che l'abbonamento non ha una data di fine e viene rinnovato automaticamente. In base a questa data, potrebbero essere visualizzati messaggi informativi per le sottoscrizioni in scadenza o con criteri di rinnovo automatico allegati.
@@ -54,7 +55,7 @@ Per ciascun numero di abbonamento, vengono visualizzate le seguenti informazioni
 Per ulteriori informazioni, fare clic sulla freccia verso il basso per il record di un abbonamento. I dettagli, come il nome del livello di servizio, le capacità assegnate, consumate, disponibili e l'utilizzo corrente e accumulato burst, sono visualizzati in TIB.
 
 
-NOTE: Vengono evidenziati livelli di servizio specifici che registrano un consumo più elevato. È inoltre possibile visualizzare avvisi e avvisi generati per i volumi.
+TIP: Vengono evidenziati livelli di servizio specifici che registrano un consumo più elevato. È inoltre possibile visualizzare avvisi e avvisi generati per i volumi.
 
 Per informazioni sui servizi di storage Keystone e sui relativi livelli di servizio, vedere link:../concepts/service-levels.html["Livelli di servizio in Keystone"].
 
@@ -133,7 +134,11 @@ NOTE: Gli indicatori *consumo corrente*, *burst corrente* e *burst accumulato* d
 
 Nella scheda *Dettagli sistema*, è possibile visualizzare il consumo e altri dettagli dei volumi in ONTAP. Per StorageGRID, questa scheda visualizza i nodi e il loro utilizzo individuale nell'ambiente di storage a oggetti.
 
-.Dettagli volume <strong> ONTAP </strong>
+
+
+=== Dettagli del volume ONTAP
+
+.Fare clic qui
 [%collapsible]
 ====
 Per ONTAP, la scheda *Dettagli sistema* visualizza informazioni, come l'utilizzo della capacità, il tipo di volume, il cluster, l'aggregato e il livello di servizio dei volumi nell'ambiente di storage gestito dall'abbonamento Keystone.
@@ -153,7 +158,11 @@ NOTE: È possibile copiare i numeri di serie dei singoli nodi facendo clic sul p
 image:aiq-ks-sysdtls.png["scheda system details (dettagli sistema)"]
 
 ====
-.Nodi <strong> Fundes GRID e dettagli sul consumo </strong>
+
+
+=== Nodi StorageGRID e dettagli sui consumi
+
+.Fare clic qui
 [%collapsible]
 ====
 Per StorageGRID, questa scheda visualizza l'utilizzo fisico dei nodi nell'ambiente di storage a oggetti.
@@ -193,6 +202,10 @@ Gli avvisi possono essere di due tipi:
 
 * *Informazioni*: In caso di problemi, come ad esempio le sottoscrizioni, è possibile visualizzare avvisi informativi. Passare il cursore sull'icona delle informazioni per ulteriori informazioni sul problema.
 * *Attenzione*: I problemi, come la non conformità, vengono visualizzati come avvisi. Ad esempio, se all'interno dei cluster gestiti sono presenti volumi che non dispongono di criteri QoS adattivi (AQoS), viene visualizzato un messaggio di avviso. È possibile fare clic sul collegamento nel messaggio di avviso per visualizzare l'elenco dei volumi non conformi nella scheda *Dettagli sistema*.
++
+
+NOTE: Se si è abbonati a un singolo livello di servizio o piano tariffario, non sarà possibile visualizzare l'avviso relativo ai volumi non conformi.
+
 +
 Per informazioni sui criteri AQoS, vedere link:../concepts/qos.html["QoS adattiva"].
 

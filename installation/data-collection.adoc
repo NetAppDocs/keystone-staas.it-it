@@ -20,7 +20,7 @@ Keystone raccoglie informazioni su configurazione, stato e utilizzo per gli abbo
 
 == Raccolta di dati ONTAP
 
-.Dati sull'utilizzo raccolti per ONTAP
+.Dati <strong> raccolti per ONTAP: Click </strong>
 [%collapsible]
 ====
 Il seguente elenco è un esempio rappresentativo dei dati sul consumo di capacità raccolti per ONTAP:
@@ -198,7 +198,7 @@ Il seguente elenco è un esempio rappresentativo dei dati sul consumo di capacit
 
 
 ====
-.Dati sulle performance raccolti per ONTAP
+.Dati <strong> raccolti per ONTAP: Click </strong>
 [%collapsible]
 ====
 Il seguente elenco è un esempio rappresentativo dei dati sulle performance raccolti per ONTAP:
@@ -247,7 +247,7 @@ Il seguente elenco è un esempio rappresentativo dei dati sulle performance racc
 
 
 ====
-.Elenco degli elementi rimossi in caso di limitazione dell'accesso ai dati privati
+.Rimozione di un numero di elementi <strong> in caso di limitazione dell'accesso ai dati privati: Click </strong>
 [%collapsible]
 ====
 Quando l'opzione *Rimuovi dati privati* è attivata in Keystone Collector, le seguenti informazioni di utilizzo vengono eliminate per ONTAP. Questa opzione è attivata per impostazione predefinita.
@@ -275,7 +275,7 @@ Quando l'opzione *Rimuovi dati privati* è attivata in Keystone Collector, le se
 
 == Raccolta di dati StorageGRID
 
-.Dati sull'utilizzo raccolti per StorageGRID
+.Dati <strong> raccolti per StorageGRID: Click </strong>
 [%collapsible]
 ====
 L'elenco seguente è un esempio rappresentativo di `Logical Data` Raccolti per StorageGRID:
@@ -301,7 +301,7 @@ L'elenco seguente è un esempio rappresentativo di `Physical Data` Raccolti per 
 
 
 ====
-.Elenco degli elementi rimossi in caso di limitazione dell'accesso ai dati privati
+.Rimozione di un numero di elementi <strong> in caso di limitazione dell'accesso ai dati privati: Click </strong>
 [%collapsible]
 ====
 Quando l'opzione *Rimuovi dati privati* è attivata in Keystone Collector, le seguenti informazioni di utilizzo vengono eliminate per StorageGRID. Questa opzione è attivata per impostazione predefinita.
