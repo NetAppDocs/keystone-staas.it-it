@@ -30,7 +30,7 @@ Per visualizzare i dettagli, attenersi alla seguente procedura:
 I dettagli degli abbonamenti, i grafici di utilizzo per ciascun livello di servizio e i dettagli del volume sono visualizzati nelle diverse schede della schermata *Abbonamenti Keystone*.
 
 
-NOTE: Il consumo di capacità nelle sottoscrizioni Keystone viene visualizzato in Tibers su dashboard e report, fino a due cifre decimali. Se l'utilizzo è inferiore a 0.01 TIB, il valore viene visualizzato come 0 o. `No Usage`. Per altre metriche di utilizzo, vedere link:../concepts/metrics.html#metrics-measurement["Misurazione delle metriche"]. Per informazioni sulle diverse capacità utilizzate in Keystone, vedere link:../concepts/supported-storage-capacity.html["Capacità di storage supportate"].
+NOTE: Il consumo di capacità nelle sottoscrizioni Keystone viene visualizzato in Tibers su dashboard e report e arrotondato a due cifre decimali. Se l'utilizzo è inferiore a 0.01 TIB, il valore viene visualizzato come 0 o. `No Usage`. Per altre metriche di utilizzo, vedere link:../concepts/metrics.html#metrics-measurement["Misurazione delle metriche"]. Per informazioni sulle diverse capacità utilizzate in Keystone, vedere link:../concepts/supported-storage-capacity.html["Capacità di storage supportate"].
 
 
 
@@ -44,6 +44,10 @@ Per ciascun numero di abbonamento, vengono visualizzate le seguenti informazioni
 
 * *Subscription Number*: Il numero di abbonamento Keystone assegnato da NetApp.
 * *Tracking ID*: L'ID di tracciamento assegnato al momento dell'attivazione dell'abbonamento. Si tratta di un ID univoco per ciascun abbonamento e sito, utilizzato per tenere traccia dell'abbonamento.
++
+
+TIP: Se si è abbonati al servizio add-on per la protezione avanzata dei dati, è possibile fare clic sulla descrizione del comando relativa al numero di abbonamento per visualizzare l'ID di registrazione dell'abbonamento partner in una configurazione MetroCluster. Per informazioni su come visualizzare il consumo dettagliato delle sottoscrizioni dei partner in una configurazione MetroCluster, vedere link:../integrations/aiq-keystone-details.html#additional-details-for-advanced-data-protection["Ulteriori dettagli per una protezione avanzata dei dati"].
+
 * *Tipo di utilizzo*: Potresti aver sottoscritto più abbonamenti Keystone (versione 1) o Keystone STaaS (versione 2). Le regole del piano tariffario per i livelli di servizio possono variare in base ai due tipi di abbonamento. Osservando il valore di questa colonna, è possibile sapere se il tipo di utilizzo viene fatturato in base all'utilizzo logico o di provisioning per entrambi `v1` oppure `v2`. Per ulteriori informazioni sugli abbonamenti Keystone versione 1, consulta https://docs.netapp.com/us-en/keystone/index.html["Documentazione per NetApp Keystone"].
 * *Billing Period* (periodo di fatturazione): Il periodo di fatturazione dell'abbonamento, ad esempio mensile, trimestrale o annuale.
 * *Data di inizio*: La data di inizio dell'abbonamento.
@@ -130,6 +134,52 @@ NOTE: Gli indicatori *consumo corrente*, *burst corrente* e *burst accumulato* d
 
 
 
+=== Ulteriori dettagli per una protezione avanzata dei dati
+
+.Fare clic qui
+[%collapsible]
+====
+Se si è abbonati al servizio add-on per la protezione avanzata dei dati, è possibile visualizzare la disgregazione dei dati di consumo per i siti dei partner MetroCluster nella scheda *Subscription Time Series*.
+
+Per informazioni sul servizio add-on per la protezione avanzata dei dati, vedere link:../concepts/adp.html["Protezione avanzata dei dati"].
+
+Se i cluster nell'ambiente di storage ONTAP sono configurati in una configurazione MetroCluster, i dati di consumo dell'abbonamento Keystone vengono suddivisi nello stesso grafico della serie temporale per visualizzare il consumo sui siti primario e mirror per i livelli di servizio di base.
+
+
+NOTE: I grafici a barre dei consumi sono suddivisi solo per i livelli di servizio di base. Per il servizio add-on avanzato di protezione dei dati, ovvero il livello di servizio _Advanced Data-Protect_, questa delimitazione non viene visualizzata.
+
+.Livello di servizio per la protezione avanzata dei dati
+Per il livello di servizio _Advanced Data-Protect_, il consumo totale viene suddiviso tra i siti partner e l'utilizzo in ciascun sito partner viene riflesso e fatturato in un abbonamento separato, ovvero un abbonamento per il sito primario e un altro per il sito mirror. Per questo motivo, quando si seleziona il numero di abbonamento per il sito primario nella scheda *Subscription Time Series*, i grafici di consumo per il servizio add-on Advanced Data Protection visualizzano i dettagli di consumo discreto solo per il sito primario. Poiché ogni sito partner in una configurazione MetroCluster agisce come origine e mirror, il consumo totale di ogni sito include i volumi di origine e mirror creati in quel sito.
+
+
+TIP: La descrizione accanto all'ID di registrazione dell'abbonamento nella scheda *Dettagli abbonamento* consente di identificare l'abbonamento partner nella configurazione di MetroCluster.
+
+.Livelli di servizio di base
+Per i livelli di servizio di base, ciascun volume viene addebitato come provisioning nei siti primario e mirror, quindi lo stesso grafico a barre viene suddiviso in base al consumo nei siti primario e mirror.
+
+.Cosa puoi vedere per l'abbonamento primario
+L'immagine seguente mostra i grafici relativi al livello di servizio _Extreme_ (livello di servizio di base) e al numero di abbonamento primario. Il grafico della stessa serie temporale indica il consumo del sito mirror in una tonalità più chiara del codice colore utilizzato per il sito primario. Il suggerimento del mouse mostra la disgregazione dei consumi (in TIB) per i siti primario e mirror, rispettivamente 1.02 TIB e 1.05 TIB.
+
+image:mcc-chart.png["mcc primario"]
+
+Per il livello di servizio _Advanced Data-Protect_, i grafici appaiono come segue:
+
+image:adp-src.png["base primaria mcc"]
+
+.Cosa puoi vedere per l'abbonamento secondario (sito mirror)
+Quando si controlla l'abbonamento secondario, è possibile vedere che il grafico a barre per il livello di servizio _Extreme_ (livello di servizio di base) nello stesso punto di raccolta dati del sito partner viene invertito e la disgregazione dei consumi nei siti primario e mirror è rispettivamente di 1.05 TIB e 1.02 TIB.
+
+image:mcc-chart-mirror.png["mirror mcc"]
+
+Per il livello di servizio _Advanced Data-Protect_, il grafico viene visualizzato in questo modo per lo stesso punto di raccolta del sito del partner:
+
+image:adp-mir.png["base mirror mcc"]
+
+Per informazioni su come MetroCluster protegge i dati, consulta https://docs.netapp.com/us-en/ontap-metrocluster/manage/concept_understanding_mcc_data_protection_and_disaster_recovery.html["Comprensione della protezione dei dati e del disaster recovery di MetroCluster"^].
+
+====
+
+
 == Visualizza i dettagli del sistema
 
 Nella scheda *Dettagli sistema*, è possibile visualizzare il consumo e altri dettagli dei volumi in ONTAP. Per StorageGRID, questa scheda visualizza i nodi e il loro utilizzo individuale nell'ambiente di storage a oggetti.
@@ -151,7 +201,7 @@ Vengono visualizzati i dettagli del volume. È possibile scorrere le colonne e o
 
 +
 
-NOTE: È possibile copiare i numeri di serie dei singoli nodi facendo clic sul pulsante *Copy Node Serials* (Copia serie nodi).
+NOTE: Per il servizio add-on di protezione avanzata dei dati, viene visualizzata una colonna aggiuntiva per indicare se il volume è un volume primario o mirror nella configurazione di MetroCluster. È possibile copiare i numeri di serie dei singoli nodi facendo clic sul pulsante *Copy Node Serials* (Copia serie nodi).
 
 
 
