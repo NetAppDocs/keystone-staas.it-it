@@ -1084,7 +1084,7 @@
 <p class="page-details">
   
     
-    <time datetime="2023-05-23 22:09:25 +0000">05/23/2023</time>
+    <time datetime="2023-06-27 10:45:47 +0000">06/27/2023</time>
     
   
 
@@ -1095,7 +1095,7 @@
 </p>
 
 <div class="paragraph lead">
-<p>Puoi iscriverti al servizio add-on Advanced Data Protection come parte del tuo abbonamento a Keystone STaaS. Questo servizio add-on sfrutta la tecnologia NetApp MetroCluster per garantire una protezione dei dati efficiente per i carichi di lavoro mission-critical a 0 obiettivi punto di ripristino (RPO).</p>
+<p>Puoi iscriverti al servizio add-on per la protezione avanzata dei dati come parte del tuo abbonamento a Keystone STaaS. Questo servizio add-on sfrutta la tecnologia NetApp MetroCluster per garantire una protezione dei dati efficiente per i carichi di lavoro mission-critical a 0 obiettivi punto di ripristino (RPO).</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -1113,25 +1113,17 @@ I servizi standard STaaS di Keystone per lo storage a blocchi e file offrono ser
 <p>Per informazioni sullo standard e sul servizio cloud, vedere <a href="../concepts/supported-storage-services.html">"Servizi Keystone STaaS"</a>.</p>
 </div>
 <div class="paragraph">
-<p>Per informazioni sui livelli di servizio, vedere <a href="../concepts/service-levels.html">"Livelli di servizio in Keystone"</a>.</p>
+<p>Il servizio avanzato di protezione dei dati Keystone è in grado di eseguire il mirroring sincrono dei dati su un sito secondario. In caso di disastro presso il sito primario, il sito secondario può assumere il controllo, senza alcuna perdita di dati. Questa funzionalità sfrutta la configurazione MetroCluster tra due siti per abilitare la protezione dei dati. È possibile utilizzare i servizi aggiuntivi di protezione avanzata dei dati solo per i servizi di storage a blocchi e file. Come parte di questo servizio add-on, il <code>Advanced Data-Protect</code> il livello di servizio viene assegnato all&#8217;abbonamento.<br>
+Per informazioni su ONTAP MetroCluster, vedere <a href="https://docs.netapp.com/us-en/ontap-metrocluster" target="_blank" rel="noopener">"Documentazione MetroCluster"</a>.</p>
 </div>
 <div class="paragraph">
-<p>Il servizio avanzato di protezione dei dati Keystone è in grado di eseguire il mirroring sincrono dei dati su un sito secondario. In caso di disastro presso il sito primario, il sito secondario può assumere il controllo, senza alcuna perdita di dati. Questa funzionalità sfrutta la configurazione MetroCluster tra due siti per abilitare la protezione dei dati. È possibile utilizzare i servizi aggiuntivi di protezione avanzata dei dati solo per i servizi di storage a blocchi e file. Per informazioni su ONTAP MetroCluster, vedere <a href="https://docs.netapp.com/us-en/ontap-metrocluster" target="_blank" rel="noopener">"Documentazione MetroCluster"</a>.</p>
+<p>Per informazioni su come visualizzare il consumo in una configurazione MetroCluster, vedere <a href="../integrations/aiq-keystone-details.html#additional-details-for-advanced-data-protection">"Ulteriori dettagli per una protezione avanzata dei dati"</a>.</p>
 </div>
 <div class="paragraph">
 <p>I costi aggiuntivi sono applicabili a tutte le capacità dell&#8217;abbonamento: L&#8217;origine, la copia mirrorata e i dati senza mirror.</p>
 </div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<img src="/us-en/keystone-staas/images/note.svg" alt="Nota">
-</td>
-<td class="content">
-Nota:
-</td>
-</tr>
-</table>
+<div class="paragraph">
+<p>Tenere presente quanto segue:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -1142,9 +1134,12 @@ Nota:
 <p>Lo storage viene addebitato sia per i cluster di origine che per quelli di destinazione. Questo servizio add-on viene addebitato anche per i volumi primari e secondari (mirrorati).</p>
 </li>
 <li>
-<p>I costi sono applicabili solo allo storage di file e blocchi. Sono supportati i seguenti scenari MetroCluster:</p>
+<p>I costi sono applicabili solo allo storage di file e blocchi.</p>
 </li>
 </ul>
+</div>
+<div class="paragraph">
+<p>Sono supportati i seguenti scenari MetroCluster:</p>
 </div>
 <div class="paragraph">
 <p><span class="image"><img src="../media/mcc.png" alt="Configurazioni MetroCluster supportate da Keystone"></span></p>
