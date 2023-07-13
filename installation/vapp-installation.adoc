@@ -32,7 +32,7 @@ Attenersi alla seguente procedura:
 . Al _passaggio 4: Verifica dei dettagli_, verifica la correttezza e l'autenticità del file OVA.
 Le versioni di vCenter precedenti al 7.0u2 non sono in grado di verificare automaticamente l'autenticità del certificato con firma del codice. VCenter 7.0u2 e versioni successive possono eseguire le verifiche; tuttavia, a tale scopo, l'autorità di certificazione della firma deve essere aggiunta a vCenter. Seguire queste istruzioni per la versione di vCenter in uso:
 +
-.VCenter 7.0u1 e versioni precedenti: Fare clic qui
+.VCenter 7.0u1 e versioni precedenti: Ulteriori informazioni
 [%collapsible]
 ====
 VCenter convalida l'integrità del contenuto del file OVA e fornisce un digest valido per la firma del codice per i file contenuti nel file OVA. Tuttavia, non convalida l'autenticità del certificato con firma del codice. Per verificare l'integrità, devi scaricare il certificato digest completo della firma e verificarlo rispetto al certificato pubblico pubblicato da Keystone.
@@ -45,7 +45,7 @@ VCenter convalida l'integrità del contenuto del file OVA e fornisce un digest v
 
 ====
 +
-.VCenter 7.0u2 e versioni successive: Fare clic qui
+.VCenter 7.0u2 e versioni successive: Ulteriori informazioni
 [%collapsible]
 ====
 7.0u2 e le versioni successive di vCenter sono in grado di validare l'integrità del contenuto del file OVA e l'autenticità del certificato di firma del codice, quando viene fornito un digest valido per la firma del codice. L'archivio root trust vCenter contiene solo certificati VMware. NetApp utilizza Entrust come autorità di certificazione e tali certificati devono essere aggiunti all'archivio di fiducia di vCenter.

@@ -1,0 +1,95 @@
+---
+sidebar: sidebar 
+permalink: concepts/sla-sustainability.html 
+keywords: sustainability, sla, service level agreement, 
+summary: sustainability, sla, service level agreement 
+---
+= SLA di sostenibilità per Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp Keystone STaaS offre livelli di servizio di livello di servizio o di sostenibilità supportati da SLA che definiscono il numero massimo di watt/TIB utilizzati per livello di servizio, per aiutarti a pianificare, monitorare e raggiungere i tuoi obiettivi DI sostenibilità IT.
+
+
+
+== Metriche di sostenibilità
+
+Per definire e misurare la sostenibilità vengono utilizzate le seguenti metriche:
+
+* Watt: Consumo energetico giornaliero degli array ONTAP AFF Serie A e degli shelf SSD collegati.
+* TIB: Maggiore è il numero di:
++
+** la capacità impegnata e la capacità burst allocata per il livello di servizio, o.
+** la capacità effettiva implementata, presupponendo un fattore di efficienza dello storage di due. Per informazioni sul rapporto di efficienza dello storage, vedere https://docs.netapp.com/us-en/active-iq/concept_overview_storage_efficiency.html["Comprendere l'efficienza dello storage"^].
+
+
+
+
+
+
+== Livelli di servizio per la sostenibilità
+
+La seguente tabella riassume i livelli di servizio per la sostenibilità: Extreme, Premium e Performance:
+
+|===
+
+
+| *Livello di servizio* | *Criteri SLA* | *Capacità minima impegnata* | *Piattaforma* 
+
+
+ a| 
+Estremo
+| <=8 watt/TIB | 200 TIB | AFF A800 e AFF A900 
+
+
+ a| 
+Premium
+| <=4 watt/TIB | 300 TIB | AFF A800 e AFF A900 
+
+
+ a| 
+Performance
+| <=4 watt/TIB | 300 TIB | AFF A800 e AFF A900 
+|===
+
+
+== Criteri di idoneità per lo SLA di sostenibilità
+
+Gli abbonamenti Keystone STaaS che soddisfano i seguenti criteri sono idonei per gli SLA:
+
+* Abbonamenti standard, non personalizzati a Keystone STaaS con un singolo livello di servizio, fatturati mensilmente in arretrati.
+* Sono idonei gli abbonamenti con i seguenti livelli di servizio: Extreme, Premium e Performance.
+* Configurazioni hardware sostenibili Keystone di riferimento non personalizzate, costituite da:
++
+** Array di storage ONTAP AFF Serie A, ad esempio la piattaforma di storage all-flash NetApp AFF A900 o AFF A800. Per ulteriori informazioni, vedere https://www.netapp.com/data-storage/aff-a-series["AFF Serie A."^].
+** Cluster senza switch a due nodi.
+Le configurazioni Comsingled e MetroCluster non sono supportate.
+
+
+* Keystone utilizza i dati di telemetria e il meccanismo di trasporto di AutoSupport per raccogliere i dati di sostenibilità. AutoSupport deve essere attivato e operativo su tutti gli array di storage ONTAP AFF. Per ulteriori informazioni, vedere https://docs.netapp.com/us-en/active-iq/concept_autosupport.html["AutoSupport"^].
+* I dati memorizzati devono raggiungere un fattore minimo di efficienza dello storage medio di due.
+* La temperatura ambiente di esercizio deve essere compresa tra 25°C e 27°C.
+* Deve essere soddisfatta la capacità minima impegnata per livello di servizio.
+
+
+
+
+== Report di sostenibilità
+
+La scheda SLA della dashboard Keystone di Consulente digitale Active IQ offre una vista dettagliata delle metriche di sostenibilità per i tuoi abbonamenti Keystone. È possibile visualizzare le metriche e generare report per analisi e azioni future.
+
+Per ulteriori informazioni sulla dashboard di Keystone e sui report, vedere link:../integrations/aiq-keystone-details.html["Dashboard e reporting per l'abbonamento Keystone"].
+
+
+
+== Crediti di servizio per la sostenibilità
+
+Se il consumo di watt/TIB supera o non soddisfa i criteri specificati nello SLA per un livello di servizio, NetApp offre un pagamento del credito di servizio per le differenze segnalate durante un periodo di fatturazione, per tutti gli abbonamenti idonei. Se le metriche del livello di servizio non vengono soddisfatte, contattare il centro di supporto dei servizi globali (GSSC) di NetApp non più tardi di una settimana prima della fine del mese del servizio Al momento della determinazione della violazione del livello di servizio, i crediti vengono calcolati in base alla capacità impegnata del livello di servizio e accreditati con la fattura del mese successivo.
+
+Per ulteriori informazioni, vedere link:../concepts/gssc.html["NetApp Global Services Support Center"].
