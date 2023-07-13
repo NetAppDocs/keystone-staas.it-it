@@ -83,7 +83,7 @@
       head.appendChild(onetrustScript);
     }addConsent("72570c5c-fe30-465f-b0e0-b77f7fb4ae34");
     addAdobeLaunch("launch-e9ff3acac59f");
-    addGoogleAnalytics("UA-81697994-3");function OptanonWrapper() { }
+    addGoogleAnalytics("G-KYN6T440WN");function OptanonWrapper() { }
   </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
@@ -525,6 +525,8 @@
 
 
 
+
+
         </li>
       </ul>
     
@@ -889,6 +891,13 @@
       class=" "
     ><a class="na-navbar-padding" href="/it-it/keystone-staas/concepts/capacity-requirements.html">
         Requisiti di capacità per i livelli di servizio
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Livelli di servizio SLA di Sustainability"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/it-it/keystone-staas/concepts/sla-sustainability.html">
+        Livelli di servizio SLA di Sustainability
       </a></li></ul></li><li 
       data-pdf-exists="true" 
       data-pdf-filename="Fatturazione"
@@ -1062,21 +1071,21 @@
   </div>
 </div>
 
-      <div class="ie-nmt-disclaimer">
-  <span>
-    <div class="ie-nmt-disclaimer-container">
-      <div class="ie-nmt-disclaimer-icon">
-        <svg class="luci-icon" aria-hidden="true">
-          <use xlink:href="/it-it/keystone-staas/images/sprite.svg#circle-info">
-        </svg>
+      <div class="ie-info-disclaimer">
+    <span>
+      <div class="ie-info-disclaimer-container">
+        <div class="ie-info-disclaimer-icon">
+          <svg class="luci-icon" aria-hidden="true">
+            <use xlink:href="/it-it/keystone-staas/images/sprite.svg#circle-info">
+          </svg>
+        </div>
+        <div class="ie-info-disclaimer-content">
+          <span> La versione in lingua italiana fornita proviene da una traduzione automatica. Per eventuali incoerenze, fare riferimento alla versione in lingua inglese. </span>
+        </div>
+        <div style="clear:both;"></div>
       </div>
-      <div class="ie-nmt-disclaimer-content">
-        <span> La versione in lingua italiana fornita proviene da una traduzione automatica. Per eventuali incoerenze, fare riferimento alla versione in lingua inglese. </span>
-      </div>
-      <div style="clear:both;"></div>
-    </div>
-  </span>
-</div><div class="n-doc__component-detail-heading-wrap">
+    </span>
+  </div><div class="n-doc__component-detail-heading-wrap">
   <h1 class="n-doc__component-detail-heading">Implementare Keystone Collector su sistemi VMware vSphere</h1>
 </div>
 
@@ -1084,7 +1093,7 @@
 <p class="page-details">
   
     
-    <time datetime="2023-06-15 15:39:10 +0000">06/15/2023</time>
+    <time datetime="2023-07-13 04:53:32 +0000">07/13/2023</time>
     
   
 
@@ -1132,7 +1141,7 @@
 <p>Al <em>passaggio 4: Verifica dei dettagli</em>, verifica la correttezza e l&#8217;autenticità del file OVA.<br>
 Le versioni di vCenter precedenti al 7.0u2 non sono in grado di verificare automaticamente l&#8217;autenticità del certificato con firma del codice. VCenter 7.0u2 e versioni successive possono eseguire le verifiche; tuttavia, a tale scopo, l&#8217;autorità di certificazione della firma deve essere aggiunta a vCenter. Seguire queste istruzioni per la versione di vCenter in uso:</p>
 <details>
-<summary class="title">VCenter 7.0u1 e versioni precedenti: Fare clic qui</summary>
+<summary class="title">VCenter 7.0u1 e versioni precedenti: Ulteriori informazioni</summary>
 <div class="content">
 <div class="paragraph">
 <p>VCenter convalida l&#8217;integrità del contenuto del file OVA e fornisce un digest valido per la firma del codice per i file contenuti nel file OVA. Tuttavia, non convalida l&#8217;autenticità del certificato con firma del codice. Per verificare l&#8217;integrità, devi scaricare il certificato digest completo della firma e verificarlo rispetto al certificato pubblico pubblicato da Keystone.</p>
@@ -1154,7 +1163,7 @@ Le versioni di vCenter precedenti al 7.0u2 non sono in grado di verificare autom
 </div>
 </details>
 <details>
-<summary class="title">VCenter 7.0u2 e versioni successive: Fare clic qui</summary>
+<summary class="title">VCenter 7.0u2 e versioni successive: Ulteriori informazioni</summary>
 <div class="content">
 <div class="paragraph">
 <p>7.0u2 e le versioni successive di vCenter sono in grado di validare l&#8217;integrità del contenuto del file OVA e l&#8217;autenticità del certificato di firma del codice, quando viene fornito un digest valido per la firma del codice. L&#8217;archivio root trust vCenter contiene solo certificati VMware. NetApp utilizza Entrust come autorità di certificazione e tali certificati devono essere aggiunti all&#8217;archivio di fiducia di vCenter.</p>

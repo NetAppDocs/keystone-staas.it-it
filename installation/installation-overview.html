@@ -83,7 +83,7 @@
       head.appendChild(onetrustScript);
     }addConsent("72570c5c-fe30-465f-b0e0-b77f7fb4ae34");
     addAdobeLaunch("launch-e9ff3acac59f");
-    addGoogleAnalytics("UA-81697994-3");function OptanonWrapper() { }
+    addGoogleAnalytics("G-KYN6T440WN");function OptanonWrapper() { }
   </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
@@ -525,6 +525,8 @@
 
 
 
+
+
         </li>
       </ul>
     
@@ -889,6 +891,13 @@
       class=" "
     ><a class="na-navbar-padding" href="/it-it/keystone-staas/concepts/capacity-requirements.html">
         Requisiti di capacità per i livelli di servizio
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Livelli di servizio SLA di Sustainability"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/it-it/keystone-staas/concepts/sla-sustainability.html">
+        Livelli di servizio SLA di Sustainability
       </a></li></ul></li><li 
       data-pdf-exists="true" 
       data-pdf-filename="Fatturazione"
@@ -1062,21 +1071,21 @@
   </div>
 </div>
 
-      <div class="ie-nmt-disclaimer">
-  <span>
-    <div class="ie-nmt-disclaimer-container">
-      <div class="ie-nmt-disclaimer-icon">
-        <svg class="luci-icon" aria-hidden="true">
-          <use xlink:href="/it-it/keystone-staas/images/sprite.svg#circle-info">
-        </svg>
+      <div class="ie-info-disclaimer">
+    <span>
+      <div class="ie-info-disclaimer-container">
+        <div class="ie-info-disclaimer-icon">
+          <svg class="luci-icon" aria-hidden="true">
+            <use xlink:href="/it-it/keystone-staas/images/sprite.svg#circle-info">
+          </svg>
+        </div>
+        <div class="ie-info-disclaimer-content">
+          <span> La versione in lingua italiana fornita proviene da una traduzione automatica. Per eventuali incoerenze, fare riferimento alla versione in lingua inglese. </span>
+        </div>
+        <div style="clear:both;"></div>
       </div>
-      <div class="ie-nmt-disclaimer-content">
-        <span> La versione in lingua italiana fornita proviene da una traduzione automatica. Per eventuali incoerenze, fare riferimento alla versione in lingua inglese. </span>
-      </div>
-      <div style="clear:both;"></div>
-    </div>
-  </span>
-</div><div class="n-doc__component-detail-heading-wrap">
+    </span>
+  </div><div class="n-doc__component-detail-heading-wrap">
   <h1 class="n-doc__component-detail-heading">Panoramica di Keystone Collector</h1>
 </div>
 
@@ -1084,7 +1093,7 @@
 <p class="page-details">
   
     
-    <time datetime="2023-05-23 22:09:25 +0000">05/23/2023</time>
+    <time datetime="2023-07-13 04:53:32 +0000">07/13/2023</time>
     
   
 
@@ -1104,13 +1113,25 @@
 <img src="/us-en/keystone-staas/images/note.svg" alt="Nota">
 </td>
 <td class="content">
-Le informazioni di installazione e configurazione disponibili sono valide per ONTAP e StorageGRID. I requisiti e le procedure sono generici sia per ONTAP che per StorageGRID, con le eccezioni evidenziate.
+Keystone Collector rappresenta l&#8217;approccio standard di raccolta dei dati di utilizzo per i sistemi Keystone. Se il tuo ambiente non supporta Keystone Collector, puoi richiedere l&#8217;autorizzazione alla gestione dei prodotti Keystone per utilizzare i dati AutoSupport come alternativa. Per informazioni sui dati di telemetria AutoSupport, vedere <a href="https://docs.netapp.com/us-en/active-iq/concept_autosupport.html" target="_blank" rel="noopener">"AutoSupport"</a>.
 </td>
 </tr>
 </table>
 </div>
 <div class="paragraph">
 <p>Keystone Collector è il componente di acquisizione dell&#8217;utilizzo della piattaforma di fatturazione Keystone che sfrutta Active IQ Unified Manager e altre applicazioni per connettersi ai sistemi ONTAP e StorageGRID per raccogliere i metadati richiesti per l&#8217;utilizzo e il calcolo delle performance SLA delle sottoscrizioni Keystone. Consente di monitorare lo stato di salute del sistema e di inviare i dati di fatturazione per la creazione di report.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/keystone-staas/images/note.svg" alt="Nota">
+</td>
+<td class="content">
+Le informazioni di installazione e configurazione disponibili sono valide per ONTAP e StorageGRID. I requisiti e le procedure sono generici sia per ONTAP che per StorageGRID, con le eccezioni evidenziate.
+</td>
+</tr>
+</table>
 </div>
 <div class="paragraph">
 <p>Questo diagramma di architettura illustra i componenti costitutivi e la loro connettività in un tipico ambiente Keystone.</p>
