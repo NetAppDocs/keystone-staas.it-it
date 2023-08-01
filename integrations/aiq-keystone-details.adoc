@@ -197,19 +197,19 @@ Per informazioni sul servizio add-on per la protezione avanzata dei dati, vedere
 Se i cluster nell'ambiente di storage ONTAP sono configurati in una configurazione MetroCluster, i dati di consumo dell'abbonamento Keystone vengono suddivisi nello stesso grafico della serie temporale per visualizzare il consumo sui siti primario e mirror per i livelli di servizio di base.
 
 
-NOTE: I grafici a barre dei consumi sono suddivisi solo per i livelli di servizio di base. Per il servizio add-on avanzato di protezione dei dati, ovvero il livello di servizio _Advanced Data-Protect_, questa delimitazione non viene visualizzata.
+NOTE: I grafici a barre dei consumi sono divisi solo per i livelli di servizio di base. Per il servizio add-on avanzato di protezione dei dati, ovvero il livello di servizio _Advanced Data-Protect_, questa delimitazione non viene visualizzata.
 
 .Livello di servizio per la protezione avanzata dei dati
-Per il livello di servizio _Advanced Data-Protect_, il consumo totale viene suddiviso tra i siti partner e l'utilizzo in ciascun sito partner viene riflesso e fatturato in un abbonamento separato, ovvero un abbonamento per il sito primario e un altro per il sito mirror. Per questo motivo, quando si seleziona il numero di abbonamento per il sito primario nella scheda *Time Series*, i grafici di consumo per il servizio add-on di protezione avanzata dei dati visualizzano i dettagli di consumo discreto solo per il sito primario. Poiché ogni sito partner in una configurazione MetroCluster agisce come origine e mirror, il consumo totale di ogni sito include i volumi di origine e mirror creati in quel sito.
+Per il livello di servizio _Advanced Data-Protect_, il consumo totale viene suddiviso tra i siti partner e l'utilizzo in ciascun sito partner viene riflesso e fatturato in un abbonamento separato; un abbonamento per il sito primario e un altro per il sito mirror. Questo è il motivo per cui, quando si seleziona il numero di abbonamento per il sito primario nella scheda *Time Series*, i grafici di consumo per il servizio aggiunto di protezione dati avanzata visualizzano i dettagli di consumo discreti solo del sito primario. Poiché ogni sito di un partner in una configurazione MetroCluster agisce sia come origine che come mirroring, il consumo totale in ogni sito include i volumi di origine e mirror creati in tale sito.
 
 
-TIP: La descrizione accanto all'ID di registrazione dell'abbonamento nella scheda *Dettagli abbonamento* consente di identificare l'abbonamento partner nella configurazione di MetroCluster.
+TIP: La descrizione dei comandi accanto all'ID di rilevamento dell'abbonamento nella scheda *Dettagli abbonamento* consente di identificare l'abbonamento partner nella configurazione di MetroCluster.
 
 .Livelli di servizio di base
-Per i livelli di servizio di base, ciascun volume viene addebitato come provisioning nei siti primario e mirror, quindi lo stesso grafico a barre viene suddiviso in base al consumo nei siti primario e mirror.
+Per i livelli di servizio di base, a ogni volume viene addebitato il provisioning nei siti primario e di mirroring, quindi lo stesso grafico a barre viene diviso in base al consumo nei siti primario e di mirroring.
 
 .Cosa puoi vedere per l'abbonamento primario
-L'immagine seguente mostra i grafici relativi al livello di servizio _Extreme_ (livello di servizio di base) e al numero di abbonamento primario. Il grafico della stessa serie temporale indica il consumo del sito mirror in una tonalità più chiara del codice colore utilizzato per il sito primario. Il suggerimento del mouse mostra la disgregazione dei consumi (in TIB) per i siti primario e mirror, rispettivamente 1.02 TIB e 1.05 TIB.
+L'immagine seguente mostra i grafici relativi al livello di servizio _Extreme_ (livello di servizio di base) e al numero di abbonamento primario. Lo stesso grafico delle serie temporali indica anche il consumo del sito mirror in una tonalità più chiara dello stesso codice colore utilizzato per il sito primario. La descrizione comandi al passaggio del mouse visualizza la suddivisione dei consumi (in TIB) per i siti primario e mirror, rispettivamente 1,02 TiB e 1,05 TiB.
 
 image:mcc-chart.png["mcc primario"]
 

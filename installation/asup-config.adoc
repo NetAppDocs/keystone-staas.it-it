@@ -1,0 +1,69 @@
+---
+sidebar: sidebar 
+permalink: installation/asup-config.html 
+keywords: ASUP, AutoSupport configuration 
+summary: Procedura di configurazione di AutoSupport per Keystone 
+---
+= Configura AutoSupport per Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Quando si utilizza il meccanismo telemetrico di AutoSupport, il servizio Keystone esegue la misurazione dell'utilizzo in base ai dati telemetrici di AutoSupport. Per raggiungere il livello necessario di granularità, è necessario configurare AutoSupport in modo da incorporare i dati Keystone nei bundle di supporto giornaliero inviati dai cluster ONTAP.
+
+.Prima di iniziare
+Prima di configurare AutoSupport in modo da includere i dati Keystone, devi prendere nota di quanto segue.
+
+* È possibile modificare le opzioni di telemetria di AutoSupport utilizzando l'interfaccia CLI di ONTAP. Per informazioni sulla gestione dei servizi AutoSupport e del ruolo di amministratore del sistema (cluster), vedere https://docs.netapp.com/us-en/ontap/system-admin/manage-autosupport-concept.html["Panoramica di Manage AutoSupport"^] e. https://docs.netapp.com/us-en/ontap/system-admin/cluster-svm-administrators-concept.html["Amministratori di cluster e SVM"^].
+* Devi includere i seguenti sottosistemi nei bundle giornalieri di AutoSupport per garantire una raccolta precisa dei dati per Keystone. Per informazioni sui sottosistemi AutoSupport, vedere https://docs.netapp.com/us-en/ontap/system-admin/autosupport-subsystem-collection-reference.html["Che cosa sono i sottosistemi AutoSupport"^].
++
+|===
+| Nome del sottosistema | Elemento dati richiesto per Keystone 
+
+
+ a| 
+WAFL
+| `VOLUME-CLONE-SHOW.XML` 
+
+
+ a| 
+performance
+| `QOS-POLICY-GROUP.XML` e. `QOS-ADAPTIVE-POLICY.XML` 
+
+
+ a| 
+snapshot
+| `SNAPSHOT.XML` 
+
+
+ a| 
+piattaforma
+| `ENVIRONMENT.txt` 
+|===
++
+Questi sottosistemi sono inclusi per impostazione predefinita nei pacchetti AutoSupport settimanali, dove `asup_type` È _DOT-REGULAR_, e il `asup_subject` È _NOTIFICA gruppo ha (SETTIMANALE_LOG)_. Tuttavia, devi aggiungerle ai bundle giornalieri per il recupero e la segnalazione dei dati di utilizzo di Keystone.
+
+
+
+.Fasi
+. Come utente di amministratore di sistema, effettuare l'accesso al cluster Keystone ONTAP utilizzando SSH. Per ulteriori informazioni, vedere https://docs.netapp.com/us-en/ontap/system-admin/access-cluster-ssh-task.html["Accedere al cluster utilizzando SSH"^].
+. Eseguire il seguente comando e verificare la configurazione esistente:
++
+`autosupport trigger show -node * -autosupport-message management.log -instance`
+
++
+Per ulteriori informazioni su questo comando, vedere https://docs.netapp.com/us-en/ontap-cli-9131/system-node-autosupport-manifest-show.html#parameters["visualizzazione del manifesto AutoSupport del nodo di sistema"^].
+
+. Per modificare il contenuto quotidiano del registro, eseguire il seguente comando:
++
+`autosupport trigger modify -node * -autosupport-message management.log -basic-additional _<existing comma-separated subsystems>_, _<new subsystems>_`
+
++
+Per ulteriori informazioni su questo comando, vedere https://docs.netapp.com/us-en/ontap-cli-9131/system-node-autosupport-trigger-modify.html["modifica trigger AutoSupport nodo di sistema"^].
+
+

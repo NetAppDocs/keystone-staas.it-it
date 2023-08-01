@@ -39,6 +39,8 @@ sidebar:
       url: "/installation/monitor-health.html"
     - title: Aggiorna Keystone Collector
       url: "/installation/upgrade.html"
+    - title: Configura AutoSupport per Keystone
+      url: "/installation/asup-config.html"
     - title: Dati raccolti per la fatturazione
       url: "/installation/data-collection.html"
   - title: Scopri Keystone
