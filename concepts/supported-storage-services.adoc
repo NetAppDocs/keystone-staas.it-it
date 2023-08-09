@@ -53,6 +53,7 @@ Funzionalità ONTAP supportate:
 * SnapRestore
 * FlexClone
 * SnapCenter (la licenza è inclusa ma non fa parte dei servizi Keystone e la gestione non è garantita)
+* Protezione autonoma contro il ransomware^1^
 
 
 
@@ -87,9 +88,13 @@ StorageGRID
  a| 
 S3
  a| 
-Supporta più policy di gestione del ciclo di vita delle informazioni (ILM) in più siti. *Nota*: Ogni sito richiede un abbonamento separato.
+Supporta più policy ILM (Information Lifecycle Management) in più siti^2^
 
 |===
+
+NOTE: ^1^ per informazioni sulla protezione dal ransomware in ONTAP, vedere https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["Protezione ransomware autonoma"^].
+^2^ ogni sito richiede un abbonamento separato.
+
 
 
 == Servizi per il cloud storage

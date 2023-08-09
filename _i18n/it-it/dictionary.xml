@@ -4,15 +4,11 @@
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Note legali</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">Le note legali forniscono l'accesso a dichiarazioni di copyright, marchi, brevetti e altro ancora.</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Copyright</block>
-  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
   <block id="126a02652da6de02962cf1b654fd6376" category="section-title">Marchi</block>
   <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NETAPP, il logo NETAPP e i marchi elencati nella pagina dei marchi NetApp sono marchi di NetApp, Inc. Altri nomi di società e prodotti potrebbero essere marchi dei rispettivi proprietari.</block>
-  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
   <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">Brevetti</block>
   <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">Un elenco aggiornato dei brevetti di proprietà di NetApp è disponibile all'indirizzo:</block>
-  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">Direttiva sulla privacy</block>
-  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="8293f6bcd4201a597ff59371ddd65240" category="doc">Altri requisiti</block>
   <block id="aabaac678332e131002e20e29c167e21" category="paragraph">Assicurarsi che siano soddisfatti i seguenti requisiti generici:</block>
   <block id="ddd31bebd407467c40be40bf75366dbd" category="section-title">Requisiti di rete</block>
@@ -478,7 +474,6 @@
   <block id="f208065131ee7ec38a881083b91c06e2" category="paragraph">FC e iSCSI</block>
   <block id="670aaecb1a526fbed439dad3ec353a96" category="paragraph">Storage a oggetti</block>
   <block id="e2ab7c65b21ed8cc1c3b642b5e36429e" category="paragraph">S3</block>
-  <block id="121b4f8b22349a8498673b224a8c239b" category="paragraph">Supporta più policy di gestione del ciclo di vita delle informazioni (ILM) in più siti. *Nota*: Ogni sito richiede un abbonamento separato.</block>
   <block id="141b2b4361a2b3c206d10e1c27378c2e" category="section-title">Servizi per il cloud storage</block>
   <block id="d96e0cf44b3111cb9ae984add2b97c74" category="paragraph">Keystone STaaS offre servizi di cloud storage. Keystone STaaS supporta le funzionalità di gestione dei dati Cloud Volumes ONTAP su Amazon Web Services (AWS), Microsoft Azure e piattaforma cloud Google.</block>
   <block id="2a947eac17f71a99037966f44ce8252d" category="admonition">I servizi di calcolo, storage e rete basati su hyperscalar richiesti da Cloud Volumes ONTAP non sono forniti da NetApp come parte degli abbonamenti STaaS Keystone; questi abbonamenti devono essere acquistati direttamente dai provider di servizi cloud hyperscalar.</block>
@@ -789,10 +784,6 @@
   <block id="c74d97b01eae257e44aa9d5bade97baf" category="cell">16</block>
   <block id="a87ff679a2f3e71d9181a67b7542122c" category="cell">4</block>
   <block id="61871926ab208323c9981229029b2c82" category="cell">*Latenza media*</block>
-  <block id="2fab0c2c1260d4eab832ce495d9a945f" category="cell">1 ms.</block>
-  <block id="084351f847be6c607173d4bf38542f71" category="cell">2 ms.</block>
-  <block id="f694c7926734a582b5156c24b9e7b563" category="cell">4 ms.</block>
-  <block id="f43c7285b135d5fc56405612d8c6e970" category="cell">17 ms.</block>
   <block id="d6b228a8ed209a51c109dc08e1f357ce" category="cell">*Dimensione del blocco*</block>
   <block id="333ed6369ef878defe6b851fcb7a250f" category="section-title">Ulteriori informazioni sui livelli di servizio per lo storage a blocchi e file</block>
   <block id="210b39d4b6b8c3231fc8e5027adff975" category="list-text">I livelli di servizio per lo storage a blocchi e file supportano ONTAP 9.7 e versioni successive.</block>
@@ -1205,7 +1196,6 @@ Per informazioni su ONTAP MetroCluster, vedere <block ref="80871b8782cc051e20935
   <block id="c2c11a830d011ece03d73534208897a1" category="list-text">I costi sono applicabili solo allo storage di file e blocchi.</block>
   <block id="3505917ad3d0afd6896fab28f67d309e" category="paragraph">Sono supportati i seguenti scenari MetroCluster:</block>
   <block id="fd625bdcc192280e06814e4fa60837f3" category="paragraph">È possibile selezionare i livelli di servizio in base all'ambiente di storage e alle esigenze di storage e consumo. I livelli di servizio di base sono disponibili per impostazione predefinita. Sono inoltre disponibili livelli di servizio specifici, se hai scelto servizi aggiuntivi. Ad esempio, per il servizio add-on per la protezione avanzata dei dati, il livello di servizio _Advanced Data-Protect_ viene assegnato all'abbonamento.</block>
-  <block id="725c798ca9f90c6a2a238988b14387a6" category="paragraph">I livelli di servizio di base per i tipi di storage supportati, file, blocco, oggetto e servizi cloud sono elencati qui.</block>
   <block id="6839a21037309515ac19670a2a6b09fe" category="paragraph">Le metriche del livello di servizio di base dipendono dalle seguenti condizioni:</block>
   <block id="42bb1b11612744ae96538087e8d89e64" category="paragraph">Per visualizzare i dettagli dell'abbonamento e dell'utilizzo di Keystone, attenersi alla seguente procedura:</block>
   <block id="34c39bccff9d0d20e19cce35894ae174" category="list-text">Accedere a Digital Advisor. Puoi vedere il widget *Keystone Subscriptions* che riepiloga l'utilizzo della capacità rispetto ai servizi Keystone acquistati.</block>
@@ -1339,4 +1329,24 @@ Le configurazioni Comsingled e MetroCluster non sono supportate.</block>
   <block id="a7b3681fbca584aa4e58ecc74f068237" category="paragraph"><block ref="1835384cfbb7a783927d2d026c6446bc" prefix="" category="inline-code"></block></block>
   <block id="20c41bcd9366cdbd961d6554489ea863" category="inline-link">modifica trigger AutoSupport nodo di sistema</block>
   <block id="5f6d98c1ed4256fab45f6c20e637744e" category="paragraph">Per ulteriori informazioni su questo comando, vedere<block ref="700e80291e0b2dbcd3452a610925a1ef" category="inline-link-rx"></block>.</block>
+  <block id="f6f491a1dd00e6523775a1db454cb803" category="admonition">È disponibile una descrizione dettagliata del servizio per i livelli di servizio NetApp Keystone STaaS<block ref="4efefa0d10fd36d11c0037f9237e96ba" category="inline-link-rx"></block>.</block>
+  <block id="766bf6a1b0285febc0d67565c929ccb2" category="paragraph">I livelli di servizio di base per i tipi di storage supportati, file, blocchi, oggetti e servizi cloud sono descritti nelle seguenti sezioni:</block>
+  <block id="2ecbbb6413b4f26bda9319a043adc2e2" category="cell">*Target 90^th^ latenza percentile*</block>
+  <block id="99f8d77b50f8491531357b2d907d59d1" category="cell">&lt;1 ms.</block>
+  <block id="6fad0b609a57af2ae4dbbf92ff728673" category="cell">&lt;2 ms.</block>
+  <block id="71d46f269394e963a516a1cc98340c17" category="cell">&lt;4 ms.</block>
+  <block id="342e06f2c04b016459176bdbbd984dfe" category="cell">&lt;17 ms.</block>
+  <block id="1b5106e844354f799e5aa0cfdd0ead2d" category="list-text">Protezione autonoma contro il ransomware^1^</block>
+  <block id="ec45d0e150ff641adb7da6f8f3be1d72" category="paragraph">Supporta più policy ILM (Information Lifecycle Management) in più siti^2^</block>
+  <block id="533c17bbfdfb297420db9af0908070d6" category="inline-link">Protezione ransomware autonoma</block>
+  <block id="6b51f04b870573bccac2a4d06532aa13" category="admonition">^1^ per informazioni sulla protezione dal ransomware in ONTAP, vedere<block ref="f30128629f1afb4b75b9a7fc6de548bc" category="inline-link-rx"></block>.
+^2^ ogni sito richiede un abbonamento separato.</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
 </blocks>

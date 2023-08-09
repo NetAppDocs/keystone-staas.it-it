@@ -22,7 +22,10 @@ Ciascun livello di servizio è definito dalla densità i/o, ovvero IOPS/TIB/volu
 
 È possibile selezionare i livelli di servizio in base all'ambiente di storage e alle esigenze di storage e consumo. I livelli di servizio di base sono disponibili per impostazione predefinita. Sono inoltre disponibili livelli di servizio specifici, se hai scelto servizi aggiuntivi. Ad esempio, per il servizio add-on per la protezione avanzata dei dati, il livello di servizio _Advanced Data-Protect_ viene assegnato all'abbonamento.
 
-I livelli di servizio di base per i tipi di storage supportati, file, blocco, oggetto e servizi cloud sono elencati qui.
+
+TIP: È disponibile una descrizione dettagliata del servizio per i livelli di servizio NetApp Keystone STaaS https://www.netapp.com/pdf.html?item=/media/77179-Keystone-STaaS-Service-Description-On-Prem.pdf["qui"].
+
+I livelli di servizio di base per i tipi di storage supportati, file, blocchi, oggetti e servizi cloud sono descritti nelle seguenti sezioni:
 
 
 
@@ -48,7 +51,7 @@ I livelli di servizio di base per i tipi di storage supportati, file, blocco, og
 | *Numero massimo di Mbps/tierati logici memorizzati per volume @ 32K B/S* | 384 | 128 | 64 | 16 | 4 
 
 
-| *Latenza media* | 1 ms. | 2 ms. | 4 ms. | 17 ms. | 17 ms. 
+| *Target 90^th^ latenza percentile* | <1 ms. | <2 ms. | <4 ms. | <4 ms. | <17 ms. 
 
 
 | *Dimensione del blocco* 5+| 32.000 
