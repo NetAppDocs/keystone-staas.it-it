@@ -82,7 +82,7 @@ NOTE: Una volta completata la distribuzione, è possibile utilizzare l'utility K
 
 . Aprire una sessione SSH sul server di Keystone Collector. All'accesso, viene visualizzata l'interfaccia telefonica utente (TUI). In alternativa, è possibile avviare l'interfaccia telefonica utente manualmente eseguendo `keystone-collector-tui` Comando CLI.
 . Se necessario, configurare i dettagli del proxy nella sezione *Configurazione > rete* dell'interfaccia telefonica utente.
-. Aggiornare il collector utilizzando l'opzione *manutenzione > Aggiorna sistema*. Alcuni mirror selezionati potrebbero non essere disponibili e i dettagli del sistema vengono aggiornati dopo alcuni tentativi.
+. Aggiornare Keystone Collector utilizzando l'opzione *manutenzione > Aggiorna sistema*. Alcuni mirror selezionati potrebbero non essere disponibili e i dettagli del sistema vengono aggiornati dopo alcuni tentativi.
 . Configurare il nome host, la posizione e il server NTP del sistema nella sezione *Configurazione > sistema*.
 . Aggiornare la password admin nella sezione *manutenzione > utente*.
 . Contrassegnare la configurazione OVA iniziale come completata nella sezione *Configurazione > Avanzate*.

@@ -73,3 +73,31 @@ La limitazione della raccolta di dati specifici del cliente è un'opzione config
 image:tui-4.png["schermata tui"]
 
 Per informazioni sugli elementi rimossi per limitare l'accesso privato ai dati in ONTAP e StorageGRID, vedere link:../installation/data-collection.html["Elenco degli elementi rimossi in caso di limitazione dell'accesso ai dati privati"].
+
+
+
+== Considerare attendibile una CA principale personalizzata
+
+La verifica dei certificati rispetto a un'autorità di certificazione pubblica di origine (CA) fa parte delle funzionalità di protezione di Keystone Collector. Tuttavia, se necessario, è possibile configurare Keystone Collector in modo che consideri attendibile una CA principale personalizzata.
+
+Se si utilizza l'ispezione SSL/TLS nel firewall di sistema, il traffico basato su Internet viene ricodificato con il certificato CA personalizzato. È necessario configurare le impostazioni per verificare l'origine come CA attendibile prima di accettare il certificato di origine e consentire le connessioni. Attenersi alla seguente procedura:
+
+.Fasi
+. Preparare il certificato CA. Dovrebbe essere in formato di file X.509_ codificato in base64.
++
+
+NOTE: Le estensioni file supportate sono `.pem`, `.crt`, `.cert`. Verificare che il certificato sia in uno di questi formati.
+
+. Copiare il certificato nel server Keystone Collector. Prendere nota della posizione in cui viene copiato il file.
+. Aprire un terminale sul server ed eseguire l'utilità TUI di gestione.
+`$ keystone-collector-tui`
+. Andare a *Configurazione > Avanzate*.
+. Attivare l'opzione *attiva certificato root personalizzato*.
+. Per *selezionare il percorso personalizzato del certificato di origine:*, selezionare `- Unset -`
+. Premere Invio. Viene visualizzata una finestra di dialogo per la selezione del percorso del certificato.
+. Selezionare il certificato di origine dal browser del file system o immettere il percorso esatto.
+. Premere Invio. Viene nuovamente visualizzata la schermata *Avanzate*.
+. Selezionare *Salva*. la configurazione viene applicata.
+
+
+image:kc-custom-ca.png["Schermata TUI per la personalizzazione della CA"]

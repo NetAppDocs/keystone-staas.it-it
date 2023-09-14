@@ -51,7 +51,7 @@ TIP: Se si è abbonati al servizio add-on per la protezione avanzata dei dati, �
 * *Tipo di utilizzo*: Potresti aver sottoscritto più abbonamenti Keystone (versione 1) o Keystone STaaS (versione 2). Le regole del piano tariffario per i livelli di servizio possono variare in base ai due tipi di abbonamento. Osservando il valore di questa colonna, è possibile sapere se il tipo di utilizzo viene fatturato in base all'utilizzo logico o di provisioning per entrambi `v1` oppure `v2`. Per ulteriori informazioni sugli abbonamenti Keystone versione 1, consulta https://docs.netapp.com/us-en/keystone/index.html["Documentazione per NetApp Keystone"^].
 * *Billing Period* (periodo di fatturazione): Periodo di fatturazione dell'abbonamento, ad esempio mensile, trimestrale o annuale.
 * *Data di inizio*: La data di inizio dell'abbonamento.
-* *Data di fine*: Data di fine dell'abbonamento. Un campo di data vuoto indica che l'abbonamento non ha una data di fine e viene rinnovato automaticamente. In base a questa data, è possibile che vengano visualizzate notifiche per le sottoscrizioni che stanno per terminare o che hanno criteri di rinnovo automatico allegati.
+* *Data di fine*: Data di fine dell'abbonamento. Se si dispone di un abbonamento mensile fatturabile che viene rinnovato automaticamente ogni mese, viene visualizzato `Month-on-month` anziché la data di fine. In base a questa data, è possibile che vengano visualizzate notifiche per le sottoscrizioni che stanno per terminare o che hanno criteri di rinnovo automatico allegati.
 * *Usage Status* (Stato utilizzo): Visualizza l'indicatore di utilizzo per indicare se il consumo rientra o supera il limite di abbonamento. È possibile ordinare l'elenco in base a questa colonna se si desidera visualizzare i record di consumo più elevato.
 * image:subs-dtls-icon.png["icona"]: Facendo clic su questa icona per un abbonamento, viene aperta la scheda *uso corrente* con i dettagli di utilizzo dell'abbonamento.
 * image:aiq-ks-time-icon.png["icona"]: Facendo clic su questa icona si apre la scheda *tendenza capacità*, in cui è possibile visualizzare i dati cronologici di utilizzo per ciascun livello di servizio incluso in questo abbonamento.
@@ -129,10 +129,10 @@ La scheda *Trend capacità* visualizza i dati cronologici delle sottoscrizioni p
 .Fasi
 . Fare clic sulla scheda *Trend capacità*.
 . Selezionare l'abbonamento richiesto per il quale si desidera visualizzare i dettagli. Per impostazione predefinita, viene selezionato il primo abbonamento nel nome dell'account.
-. Selezionare l'intervallo di tempo dalle icone del calendario nei campi *Data* e *Data*. L'intervallo di tempo predefinito va dalla data di inizio del periodo di fatturazione alla data corrente.
+. Selezionare l'intervallo di tempo dalle icone del calendario nei campi *Data* e *Data*. Per gli abbonamenti scaduti, l'intervallo di date predefinito corrisponde alle date di inizio e di fine dell'abbonamento. Per gli abbonamenti esistenti, l'intervallo di tempo predefinito va dalla data di inizio del periodo di fatturazione alla data corrente. Non è possibile selezionare una data futura.
 +
 
-NOTE: Per ottenere performance ottimali e un'esperienza utente ottimale, limitare l'intervallo di date della query a un massimo di tre mesi.
+NOTE: Per ottenere prestazioni ottimali e un'esperienza utente ottimale, limitare l'intervallo di date della query a tre mesi.
 
 . Fare clic su *View Details* (Visualizza dettagli). I dati di consumo cronologici dell'abbonamento per ciascun livello di servizio vengono visualizzati in base all'intervallo di tempo selezionato. Puoi spostare il cursore del mouse sui grafici per visualizzare la suddivisione dell'utilizzo in termini di dati impegnati, consumati, burst e oltre il limite burst in quel punto.
 
@@ -161,17 +161,18 @@ NOTE: Un grafico vuoto indica che non sono disponibili dati nell'ambiente in que
 
 
 
-* *Corrente assorbita*: Indicatore della capacità consumata (in TIB) definita per il livello di servizio. Questo campo utilizza colori specifici per l'utilizzo:
+* *Corrente assorbita*: Indicatore della capacità consumata (in TIB) definita per il livello di servizio. Questo campo utilizza colori specifici:
 +
-** Grigio: Nessuno.
+** Nessun colore: Utilizzo burst o burst superiore.
+** Grigio: Nessun utilizzo.
 ** Verde: Entro il 80% della capacità impegnata.
-** Ambra: Qualsiasi consumo superiore al 80% della capacità impegnata.
+** Ambra: 80% della capacità di burst impegnata.
 
 
-* *Current Burst*: Indicatore della capacità consumata entro o al di sopra del limite di burst definito. Qualsiasi utilizzo entro il limite di burst concordato, ad esempio il 20% al di sopra della capacità impegnata, rientra nel limite di burst. L'utilizzo ulteriore viene considerato come utilizzo superiore al limite di burst. Questo campo utilizza colori specifici per l'utilizzo:
+* *Current Burst*: Indicatore della capacità consumata entro o al di sopra del limite di burst definito. Qualsiasi utilizzo entro il limite di burst concordato, ad esempio il 20% al di sopra della capacità impegnata, rientra nel limite di burst. L'utilizzo ulteriore viene considerato come utilizzo superiore al limite di burst. Questo campo visualizza colori specifici:
 +
-** Grigio: Nessuno.
-** Rosso: Burst.
+** Nessun colore: Nessun utilizzo di burst.
+** Rosso: Utilizzo burst.
 ** Viola: Al di sopra del limite di burst.
 
 
@@ -274,11 +275,11 @@ Per StorageGRID, questa scheda visualizza l'utilizzo fisico dei nodi nell'ambien
 . Fare clic sulla scheda *oggetti*.
 . Selezionare il numero dell'abbonamento. Per impostazione predefinita, viene selezionato il primo numero di abbonamento disponibile. Selezionando il numero di abbonamento, viene attivato il collegamento per i dettagli dello storage a oggetti.
 +
-image:sg-link.png["Pop-up StorageGRID"]
+image:sg-link.png["Finestra di dialogo StorageGRID"]
 
 . Fare clic sul collegamento per visualizzare i nomi dei nodi e i dettagli sull'utilizzo fisico di ciascun nodo.
 +
-image:sg-link-2.png["Pop-up StorageGRID"]
+image:sg-link-2.png["Finestra di dialogo StorageGRID"]
 
 
 
