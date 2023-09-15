@@ -14,7 +14,7 @@ summary: Qualità del servizio in Keystone
 
 
 [role="lead"]
-La qualità del servizio (QoS) dello storage è una tecnologia critica che garantisce che le applicazioni ottengano performance costanti e prevedibili. Senza QoS, alcuni carichi di lavoro, come quelli per l'avvio di più sistemi, possono consumare la maggior parte o tutte le risorse per un determinato periodo e influire su altri carichi di lavoro. Per informazioni su QoS, vedere https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html["Garantire il throughput con la panoramica QoS"^].
+La qualità del servizio (QoS) dello storage è una tecnologia critica che garantisce che le applicazioni ottengano performance costanti e prevedibili. Senza qualità del servizio, alcuni workload, come quelli per il boot di sistemi multipli, possono consumare la maggior parte o tutte le risorse per un certo periodo e influire su altri workload. Per informazioni su QoS, vedere https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html["Garantire il throughput con la panoramica QoS"^].
 
 
 
@@ -175,7 +175,7 @@ Prendere nota di questi punti prima di calcolare la dimensione del blocco utiliz
 
 
 .Calcolo delle dimensioni dei blocchi di esempio
-Ad esempio, per calcolare il throughput per il livello di servizio A. `Extreme` livello di servizio:
+Ad esempio, per calcolare il throughput per un livello di servizio `Extreme` livello di servizio:
 
 * IOPS massimo: 12,288
 * Dimensione del blocco per i/o: 32 KB

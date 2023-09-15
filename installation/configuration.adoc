@@ -17,7 +17,7 @@ summary: Configurazione di Keystone Collector
 È necessario completare alcune attività di configurazione per consentire a Keystone Collector di raccogliere i dati di utilizzo nell'ambiente di storage. Si tratta di un'attività una tantum per attivare e associare il componente di raccolta richiesto all'ambiente di storage.
 
 
-NOTE: Keystone Collector fornisce l'utility Keystone Collector Management Terminal User Interface (TUI) per eseguire le attività di configurazione e monitoraggio. Per selezionare le opzioni e spostarsi all'interno dell'interfaccia telefonica utente, è possibile utilizzare diversi comandi della tastiera, ad esempio i tasti Invio e freccia.
+NOTE: Keystone Collector offre l'utility Keystone Collector Management Terminal User Interface (TUI) per eseguire le attività di configurazione e monitoraggio. Per selezionare le opzioni e spostarsi all'interno dell'interfaccia telefonica utente, è possibile utilizzare diversi comandi della tastiera, ad esempio i tasti Invio e freccia.
 
 .Fasi
 . Avviare l'utility TUI di gestione di Keystone Collector:
@@ -97,7 +97,7 @@ NOTE: Le estensioni file supportate sono `.pem`, `.crt`, `.cert`. Verificare che
 . Premere Invio. Viene visualizzata una finestra di dialogo per la selezione del percorso del certificato.
 . Selezionare il certificato di origine dal browser del file system o immettere il percorso esatto.
 . Premere Invio. Viene nuovamente visualizzata la schermata *Avanzate*.
-. Selezionare *Salva*. la configurazione viene applicata.
+. Selezionare *Salva*. La configurazione viene applicata.
 
 
 image:kc-custom-ca.png["Schermata TUI per la personalizzazione della CA"]

@@ -218,7 +218,7 @@ Per il livello di servizio _Advanced Data-Protect_, i grafici appaiono come segu
 image:adp-src.png["base primaria mcc"]
 
 .Cosa puoi vedere per l'abbonamento secondario (sito mirror)
-Quando si controlla l'abbonamento secondario, si può notare che il grafico a barre per il livello di servizio _Extreme_ (base Service leverent Usagel) nello stesso punto di raccolta dati del sito partner viene invertito, e la disaggregazione dei consumi nei siti primario e mirror è rispettivamente di 1,05 TiB e 1,02 TiB.
+Quando si controlla l'abbonamento secondario, è possibile vedere che il grafico a barre per il livello di servizio _Extreme_ (livello di servizio di base) nello stesso punto di raccolta dati del sito partner viene invertito e la disgregazione dei consumi nei siti primario e mirror è rispettivamente di 1.05 TIB e 1.02 TIB.
 
 image:mcc-chart-mirror.png["mirror mcc"]
 

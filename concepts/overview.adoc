@@ -20,7 +20,7 @@ Keystone consente ai clienti di accelerare il time-to-value riducendo gli ostaco
 
 image:nkfsosm_image2.png["keystone"]
 
-Keystone offre capacità di storage a livelli di servizio predefiniti per tipi di dati a blocchi, file e oggetti che possono essere implementati on-premise e gestiti da NetApp, un partner o dal cliente. Keystone può essere utilizzato in associazione con i servizi cloud NetApp, come Cloud Volumes ONTAP, che possono essere implementati in un ambiente iperscalare di tua scelta.
+Keystone offre capacità di storage a livelli di servizio predefiniti per tipi di dati a blocchi, file e oggetti che possono essere implementati on-premise e gestiti da NetApp, un partner o dal cliente. Keystone può essere utilizzato insieme ai servizi cloud NetApp, come Cloud Volumes ONTAP, che possono essere implementati in un ambiente hyperscaler a scelta.
 
 Ai piani tariffari è associato un abbonamento Keystone. A un singolo abbonamento possono essere associati più piani tariffari.
 
@@ -28,4 +28,4 @@ Ai piani tariffari è associato un abbonamento Keystone. A un singolo abbonament
 
 == Keystone Storage-as-a-Service (STaaS)
 
-Mentre la maggior parte delle aziende sta ancora lavorando alla propria strategia per il cloud ibrido, i clienti possono optare per un modello di consumo _pay-per-use_ basato su OpEx. Potresti avere un mandato per spostare tutti i tuoi workload nel cloud, senza tuttavia un piano o un programma chiaro per migrare parti specifiche o tutti i tuoi workload nel cloud. Keystone Storage-as-a-Service (STaaS) ti offre la flessibilità di iniziare con i servizi on-premise e decidere in seguito i carichi di lavoro giusti e il momento giusto per passare al cloud. Keystone STaaS offre protezione degli impegni per tutti i modelli di implementazione. Invece di pagare di più per i servizi cloud, tu, in qualità di cliente on-premise, puoi riallocare la spesa on-premise per aggiungere servizi cloud e pagare essenzialmente la stessa fattura mensile che era stata impegnata prima di questa riallocazione.
+Mentre la maggior parte delle aziende sta ancora lavorando alla propria strategia per il cloud ibrido, tu, in qualità di cliente, puoi optare per un modello di consumo _pay-per-use_ basato su OpEx. Potresti avere un mandato per spostare tutti i tuoi workload nel cloud, senza tuttavia un piano o un programma chiaro per migrare parti specifiche o tutti i tuoi workload nel cloud. Keystone Storage-as-a-Service (STaaS) ti offre la flessibilità di iniziare con i servizi on-premise e decidere in seguito i carichi di lavoro giusti e il momento giusto per passare al cloud. Keystone STaaS offre protezione degli impegni per tutti i modelli di implementazione. Invece di pagare di più per i servizi cloud, in qualità di cliente on-premise, puoi riallocare la spesa on-premise per aggiungere servizi cloud e sostanzialmente pagare la stessa fattura mensile impegnata prima di questa riallocazione.

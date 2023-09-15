@@ -14,13 +14,13 @@ summary: NetApp Global Services Support Center GSSC
 
 
 [role="lead"]
-Il centro di assistenza e servizi globali NetApp (GSSC) e il responsabile del successo NetApp Keystone (KSM) sono responsabili della fornitura dei servizi per gli abbonamenti Keystone.
+I servizi globali e di supporto NetApp (GSSC) e il manager del successo di NetApp Keystone (KSM) forniranno la tua assistenza per i tuoi abbonamenti Keystone.
 
 
 
 == NetApp Global Services and Support Center (GSSC)
 
-NetApp fornisce servizi operativi in remoto ai clienti NetApp Keystone. Questi servizi comprendono una gamma di discipline operative per le attività di gestione dello storage. Questi servizi includono gestione delle risorse e della configurazione, gestione della capacità e delle performance, gestione delle modifiche, gestione di eventi, incidenti e problemi, evasione delle richieste di servizio e reporting. NetApp dimostra lo stato di controllo e le prove di supporto necessarie.
+NetApp fornisce servizi operativi in remoto ai clienti NetApp Keystone. Questi servizi comprendono una gamma di discipline operative per le attività di gestione dello storage. Questi servizi includono gestione delle risorse e della configurazione, gestione della capacità e delle performance, gestione delle modifiche, gestione di eventi, incidenti e problemi, evasione delle richieste di servizio e reporting. NetApp dimostra uno stato di controllo e prove a sostegno, come richiesto.
 
 
 
@@ -49,7 +49,7 @@ Per ulteriori informazioni sui servizi Keystone, consulta:
 NetApp Global Services and Support Center (GSSC) monitora lo stato dei prodotti e dei servizi sottoscritti, fornisce supporto remoto e collabora con Keystone Success Manager. Tutto il personale che monitora i prodotti associati ai relativi ordini di abbonamento Keystone è cittadino statunitense che opera negli Stati Uniti suolo.
 
 .Keystone Success Manager
-Keystone Success Manager (KSM) lavora a stretto contatto con te sui servizi Keystone e ti aggiorna sui report operativi e di fatturazione settimanali o mensili. Le responsabilità sono specificate nel contratto NetApp Keystone.
+Il Keystone Success Manager (KSM) lavora a stretto contatto con te sui tuoi servizi Keystone e ti aggiorna in merito alla fatturazione settimanale o mensile e ai report operativi. Le responsabilità sono specificate nel contratto NetApp Keystone.
 
 
 

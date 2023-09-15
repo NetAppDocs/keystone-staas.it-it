@@ -16,7 +16,8 @@ summary: Componenti non restituibili, non volatili e conformità SnapLock
 [role="lead"]
 Come parte dell'abbonamento NetApp Keystone, NetApp estende l'offerta di componenti non-volatile (NRNVC) non-restituibili per i servizi a file, blocchi e oggetti.
 
-Puoi iscriverti a questi servizi aggiuntivi come parte del tuo abbonamento a Keystone. Per informazioni sui servizi standard e cloud, vedere link:supported-storage-services.html["Servizi Keystone STaaS"].
+Puoi iscriverti a questo servizio add-on come parte della tua iscrizione Keystone.
+Per informazioni sui servizi standard e cloud, vedere link:supported-storage-services.html["Servizi Keystone STaaS"].
 
 Per informazioni sui livelli di servizio, vedere link:../concepts/service-levels.html["Livelli di servizio in Keystone"].
 
@@ -24,7 +25,7 @@ NetApp non recupera i supporti di storage fisici utilizzati durante l'intero per
 
 Se è stato acquistato questo servizio, tenere presente quanto segue:
 
-* Non è necessario restituire dischi e memoria non volatile alla fine del periodo di servizio o se si sono guastati o rilevati difetti durante il periodo di servizio.
+* Non è necessario restituire alcun disco e la memoria non volatile al termine del periodo di servizio o se si è guastato o trovato difettoso durante il periodo di servizio.
 * Tuttavia, è necessario produrre un certificato di distruzione per i dischi e/o la memoria non volatile e non può essere utilizzato per altri scopi.
 * Il costo aggiuntivo associato a NRNVC viene addebitato come percentuale della fattura mensile del servizio di abbonamento totale (include servizio standard, protezione avanzata dei dati e tiering dei dati).
 * Questo servizio è applicabile solo ai servizi di file, blocco e oggetti.

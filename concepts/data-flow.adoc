@@ -40,7 +40,7 @@ Il monitoraggio continuo dello stato dell'infrastruttura storage è una delle fu
 image:monitoring-flow.png["flusso di dati"]
 
 .Legenda
-. Il gateway della soluzione AIOPS avvia una sessione TLS al portale cloud ITS.
+. Il gateway della soluzione AIOP avvia una sessione TLS al portale cloud.
 . Il firewall gestito dal cliente consente la connessione.
 . Il server della soluzione AIOPS nel cloud accetta la connessione.
 . Viene stabilito un tunnel TLS tra il portale cloud e il gateway locale.

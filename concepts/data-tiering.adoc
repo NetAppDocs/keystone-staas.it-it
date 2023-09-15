@@ -14,15 +14,15 @@ summary: Add-on, dettagli sui servizi aggiuntivi, tiering dei dati
 
 
 [role="lead"]
-I servizi standard di Keystone STaaS per lo storage a blocchi e file includono funzionalità di tiering che identificano i dati utilizzati con minore frequenza e lo Tier allo storage a freddo NetApp supportato da Keystone STaaS. Puoi utilizzare il tiering dei dati come servizio add-on se desideri eseguire il tiering dei dati cold su qualsiasi storage non NetApp supportato da Keystone STaaS.
+I servizi standard di Keystone STaaS per lo storage a blocchi e file includono funzionalità di tiering che identificano i dati utilizzati con minore frequenza e lo Tier allo storage a freddo NetApp supportato da Keystone STaaS. Puoi utilizzare il tiering dei dati come servizio add-on per eseguire il tiering dei dati cold su qualsiasi storage non NetApp supportato da Keystone STaaS.
 
 Per informazioni sui servizi standard e aggiuntivi, vedere link:../concepts/supported-storage-services.html["Servizi Keystone STaaS"]. Per informazioni sui livelli di servizio, vedere link:../concepts/service-levels.html["Livelli di servizio in Keystone"].
 
-Il servizio add-on per il tiering è necessario solo quando i dati vengono tierati su qualsiasi storage non NetApp, come Amazon Web Services (AWS) S3, Azure Blob, Google Cloud Platform (GCP) e altro storage a oggetti di terze parti supportato da Keystone STaaS, compatibile con S3.
+Il servizio tiering add-on è necessario solo quando i dati sono sottoposti a tiering in qualsiasi storage non NetApp come Amazon Web Services (AWS) S3, BLOB di Azure, Google Cloud Platform (GCP) e altro, storage a oggetti di terze parti compatibile con Keystone STaaS e supportato da S3.
 
 La funzionalità di tiering sfrutta la tecnologia NetApp FabricPool che consente il tiering automatizzato dei dati con accesso non frequente ai Tier di storage a oggetti on-premise e off-premise.
 
-Il servizio di tiering dei dati add-on consente il tiering da Extreme, Premium, Performance, Standard e Value Tier a una destinazione di storage a oggetti. Il rapporto dei dati hot:cold da tiered non è fisso e ciascun Tier viene misurato e fatturato separatamente.
+Il servizio di tiering dei dati add-on consente il tiering da Extreme, Premium, Performance, Standard e Value Tier a una destinazione di storage a oggetti. Il rapporto tra dati hot e dati cold da Tier non è fisso e ogni Tier viene misurato e fatturato separatamente.
 
 Ad esempio, se la destinazione per il Tier di cold storage è:
 

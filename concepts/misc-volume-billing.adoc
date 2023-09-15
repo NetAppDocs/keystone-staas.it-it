@@ -35,7 +35,7 @@ La protezione avanzata dei dati utilizza NetApp MetroCluster per eseguire il mir
 Se si monitorano i cluster tramite Gestore di sistema di ONTAP (Gestore di sistema) o Active IQ Unified Manager (Gestore unificato), potrebbe verificarsi una discrepanza tra il consumo riportato su questi strumenti e Keystone. System Manager e Unified Manager non riportano i volumi sul cluster mirrorato (remoto) e, in questo modo, riporta la metà delle metriche di consumo riportate dal servizio Keystone.
 
 .Esempio:
-I siti A e B vengono configurati in una configurazione MetroCluster. Quando un utente crea un volume di 10 TB nel sito A, viene creato un volume identico di 10 TB nel sito B. Keystone identifica 10 TB di consumo in ogni sito, per un aumento totale di 20 TB. System Manager e Unified Manager riportano un volume da 10 TB creato nel sito A, ma non riportano un volume da 10 TB nel sito B.
+I siti A e B vengono configurati in una configurazione MetroCluster. Quando un utente crea un volume di 10 TB nel sito A, viene creato un volume identico di 10 TB nel sito B. Keystone identifica 10 TB di consumo in ogni sito, per un aumento totale di 20 TB. System Manager e Unified Manager segnalano un volume 10TB creato nel sito A, ma non un volume 10TB nel sito B.
 
 Inoltre, tutti i volumi creati su un sistema Keystone con Advanced Data Protection verranno conteggiati per il consumo di Advanced Data Protection, indipendentemente dal fatto che tali volumi siano o meno mirrorati.
 

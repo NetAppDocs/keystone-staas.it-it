@@ -34,7 +34,7 @@ Il Keystone Success Manager (KSM) è un Cittadino che opera negli Stati Uniti su
 
 == Attività di implementazione
 
-Se disponibili, le attività di installazione e implementazione in sede e in remoto sono condotte da U.S. Cittadini negli Stati Uniti suolo. Nota a piè di pagina:disclaimer[la disponibilità del personale appropriato per le attività in loco dipende dalla posizione geografica in cui vengono implementati i sistemi Keystone.]
+Se disponibili, le attività di installazione e implementazione in sede e in remoto sono condotte da U.S. Cittadini negli Stati Uniti suolo. Nota a piè di pagina:esclusione di responsabilità[la disponibilità del personale appropriato per le attività in loco dipende dall'ubicazione geografica in cui vengono distribuiti i sistemi Keystone.]
 
 
 

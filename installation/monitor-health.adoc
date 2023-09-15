@@ -16,7 +16,9 @@ summary: Monitoraggio dello stato del sistema tramite Keystone Collector
 [role="lead"]
 È possibile monitorare lo stato del sistema tramite i servizi di Keystone Collector utilizzando qualsiasi sistema di monitoraggio che supporti le richieste HTTP.
 
-Per impostazione predefinita, i servizi di integrità di Keystone non accettano connessioni da IP diversi da localhost. L'endpoint di salute di Keystone è `/uber/health`E ascolta su tutte le interfacce del server Keystone Collector sulla porta `7777`. In caso di query, un codice di stato della richiesta HTTP con un output JSON viene restituito dall'endpoint come risposta, descrivendo lo stato del sistema Keystone Collector. Il corpo JSON fornisce uno stato di salute generale per `is_healthy` attribute, che è un booleano, e un elenco dettagliato degli stati per componente per `component_details` attributo. Ecco un esempio:
+Per impostazione predefinita, i servizi sanitari Keystone non accettano connessioni da alcun IP diverso da localhost. L'endpoint di salute di Keystone è `/uber/health`E ascolta su tutte le interfacce del server Keystone Collector sulla porta `7777`. In caso di query, un codice di stato della richiesta HTTP con un output JSON viene restituito dall'endpoint come risposta, descrivendo lo stato del sistema Keystone Collector.
+Il corpo JSON fornisce uno stato di salute generale per `is_healthy` attribute, che è un booleano, e un elenco dettagliato degli stati per componente per `component_details` attributo.
+Ecco un esempio:
 
 [listing]
 ----

@@ -29,7 +29,7 @@ I seguenti termini e definizioni vengono utilizzati all'interno del servizio STa
 
 * *Misurazione della capacità in gibibyte (GiB), tebibyte (TIB) e pebibyte (PIB)*: Misurazioni della capacità di storage dei dati utilizzando una base di 1024 (1 GiB = 1024^3^ byte, 1 TIB = 1024^4^ byte e 1PIB = 1024^5^ byte).
 * *Grafico delle operazioni in IOPS/TIB*: Le operazioni del protocollo al secondo, richieste dall'applicazione, divise per la dimensione del volume utilizzato dai carichi di lavoro.
-* *Disponibilità*: Misurata come percentuale del numero di richieste di i/o a cui il servizio ha risposto correttamente, diviso per il numero totale di richieste di i/o inviate al servizio. Questo valore viene misurato alla delimitazione del servizio in un mese e non include il downtime del servizio pianificato o l'indisponibilità delle strutture, della rete o di altri servizi forniti dal cliente.
+* *Disponibilità*: Misurata come percentuale del numero di richieste di i/o a cui il servizio ha risposto correttamente, diviso per il numero totale di richieste di i/o inviate al servizio. Questo valore viene misurato al termine del servizio in un mese e non include i tempi di inattività programmati o la mancata disponibilità delle strutture, della rete o di altri servizi forniti dal cliente.
 * *Durata*: Percentuale di dati a cui si accede senza perdita di fedeltà, ad esclusione della cancellazione o del danneggiamento causati dal cliente.
 * *Latenza*: Tempo di servizio di una richiesta i/o ricevuta da un client, misurato alla delimitazione del servizio (porta i/o del controller di storage).
 

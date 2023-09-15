@@ -26,7 +26,7 @@ L'infrastruttura, la progettazione, la scelta della tecnologia e i prodotti comp
 
 L'infrastruttura Keystone include diversi componenti, tra cui:
 
-* L'infrastruttura Keystone che include i controller storage.
+* Infrastruttura Keystone, inclusi gli storage controller.
 * Strumenti per la gestione e l'utilizzo del servizio, ad esempio soluzione AIOPS, Active IQ e Active IQ Unified Manager.
 
 

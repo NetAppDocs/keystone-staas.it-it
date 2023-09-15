@@ -130,8 +130,8 @@ NOTE: La latenza non include gli overhead associati al trasferimento dei dati ne
 |===
 [NOTE]
 ====
-* I servizi nativi del cloud, come calcolo, storage, networking, vengono fatturati dai cloud provider.
-* Questi servizi dipendono dalle caratteristiche di cloud storage e di calcolo.
+* I servizi nativi del cloud, come il calcolo, lo storage, il networking, sono fatturati dai cloud provider.
+* Questi servizi dipendono dalle caratteristiche di cloud storage e calcolo.
 
 
 ====

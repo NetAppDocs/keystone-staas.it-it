@@ -64,7 +64,7 @@ image:ova-deploy.png["OVA UI che visualizza un certificato verificato"]
 . Nella sezione _fase 7 personalizzare il modello_, specificare l'indirizzo di rete e la password iniziali per l'account utente amministratore.
 +
 
-NOTE: La password admin viene memorizzata in un formato reversibile in vCenter e deve essere utilizzata come credenziale di bootstrap per ottenere l'accesso iniziale al sistema VMware vSphere. Durante la configurazione iniziale del software, è necessario modificare questa password di amministrazione. La subnet mask dell'indirizzo IPv4 deve essere fornita con la notazione CIDR. Ad esempio, utilizzare il valore 24 per una subnet mask di 255.255.255.0.
+NOTE: La password amministratore è memorizzata in un formato reversibile in vCentre e deve essere utilizzata come credenziale di bootstrap per ottenere l'accesso iniziale al sistema VMware vSphere. Durante la configurazione iniziale del software, è necessario modificare questa password di amministrazione. La subnet mask dell'indirizzo IPv4 deve essere fornita con la notazione CIDR. Ad esempio, utilizzare il valore 24 per una subnet mask di 255.255.255.0.
 
 . Nella _fase 8 Pronto per il completamento_ della procedura guidata *Deploy OVF Template*, esaminare la configurazione e verificare di aver impostato correttamente i parametri per l'implementazione di OVA.
 
