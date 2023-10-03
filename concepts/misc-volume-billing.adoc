@@ -19,11 +19,11 @@ summary: Fatturazione basata su diversi tipi di volume
 
 Se i volumi vengono clonati in ONTAP e utilizzati per il backup e il ripristino dei dati, è possibile continuare a utilizzare i cloni senza alcun pagamento aggiuntivo. Tuttavia, vengono addebitati i volumi clonati utilizzati per qualsiasi altro scopo dell'azienda per un periodo di tempo esteso.
 
+Tenere presente quanto segue:
 
-NOTE: Nota:
-
-* Il consumo sui volumi clonati non viene preso in considerazione durante le prime 24 ore di creazione del clone e non si verificano addebiti durante questo periodo.
-* I volumi clonati con i livelli Standard e Value Service non vengono considerati per il consumo se i nuovi dati non vengono scritti nel volume. Ad esempio, in un caso di utilizzo di backup o ripristino, il backup o il ripristino dei dati da un volume clonato non modifica i dati nel volume clonato stesso e non viene considerato come consumo.
+* I volumi clonati non possono essere caricati purché le loro dimensioni siano inferiori al 10% del volume principale (la capacità fisica utilizzata nel volume clone rispetto alla capacità fisica utilizzata nel volume principale).
+* Non esiste un Grace period di 24 ore per i volumi clonati, ma vengono prese in considerazione solo le dimensioni del clone.
+* Una volta che il volume clone supera il 10% delle dimensioni fisiche dell'immagine principale, il clone viene fatturato come volume standard (capacità logica utilizzata).
 
 
 
