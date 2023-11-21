@@ -107,11 +107,8 @@
   <block id="2d0539451bff9f553647efc300f001de" category="inline-link-macro">Generazione di richieste di servizio</block>
   <block id="82690bb37c8fd3910939c0d1c07adbfb" category="list-text">Una volta scaricato il file, è possibile allegarlo al ticket di supporto di Keystone ServiceNow. Per informazioni sulla richiesta di ticket, vedere <block ref="a7ae718de79af41225531b7d4972e1ef" category="inline-link-macro-rx"></block>.</block>
   <block id="5913e0dfd50273b54bb1d960674d7abb" category="summary">prerequisiti di keystone unified manager</block>
-  <block id="5cf9b00e7eb204d30cc672cb9dc479ca" category="doc">Prerequisiti aggiuntivi per ONTAP e StorageGRID</block>
   <block id="5302a9af7c7db5b391c77f0b0b58a9ae" category="paragraph">È necessario completare alcuni prerequisiti aggiuntivi per ONTAP e StorageGRID. Assicurarsi di aver completato questi prerequisiti specifici oltre ai requisiti di sistema di Linux/VMware vSphere. Fare clic sulla scheda Required (richiesto) per ulteriori informazioni.</block>
   <block id="253b40ae359ba25b56231803430c4873" category="open-title">ONTAP</block>
-  <block id="e3d9300aee94dbd6833b9b494b4e413a" category="paragraph">Per installare Keystone Collector in ONTAP, eseguire questi passaggi come prerequisiti:</block>
-  <block id="6b127757330398600af046a789f68aff" category="list-text">Assicurarsi che un server Active IQ Unified Manager (Unified Manager) sia configurato con Unified Manager 9.7 o versione successiva. Per informazioni sull'installazione di Unified Manager, consultare i seguenti collegamenti:</block>
   <block id="d0b5d22f0f22d32554c2064ce1e75865" category="inline-link">Installazione di Unified Manager su sistemi VMware vSphere</block>
   <block id="9893071aa012ae6b029eae73ae2be44e" category="list-text"><block ref="9893071aa012ae6b029eae73ae2be44e" category="inline-link-rx"></block></block>
   <block id="af5e840663cada43f534ae4ad3ceb289" category="inline-link">Installazione di Unified Manager su sistemi Linux</block>
@@ -144,7 +141,6 @@
   <block id="392d70ca39f31f10bd637936769788df" category="open-title">StorageGRID</block>
   <block id="fd22d23fe0edf1a8c1823d661ceb51b0" category="paragraph">Per installare Keystone Collector su StorageGRID sono necessarie le seguenti configurazioni.</block>
   <block id="76038d247a602c0245b0f461368bb87c" category="inline-link-macro">Aggiornamento del software StorageGRID: Panoramica</block>
-  <block id="7aa35054155773e318023838d4c86a8e" category="list-text">StorageGRID<block ref="86fb40f74065628551d7b9612d244430" prefix=" " category="inline-code"></block> o versioni successive. Per informazioni sull'aggiornamento di StorageGRID, vedere <block ref="97cb3175bb06374adaf739435d4e2f76" category="inline-link-macro-rx"></block>.</block>
   <block id="2cb4d48e9d39b65ee9a134ead27cec2e" category="list-text">Per la raccolta dei dati di utilizzo, è necessario creare un account utente amministratore locale di StorageGRID. Questo account di servizio viene utilizzato dal servizio di raccolta Keystone per comunicare con StorageGRID tramite API del nodo amministratore.</block>
   <block id="bb0dd8b0b8efa5928afbafc369fda5e1" category="inline-link">Accedi a Grid Manager</block>
   <block id="ba43950d2b1731602400692e36f66ae6" category="list-text">Accedere a Grid Manager. Vedere<block ref="8bf33c163893a69feada52e3ecdbe684" category="inline-link-rx"></block>.</block>
@@ -825,7 +821,6 @@
   <block id="83cd48b4617f1e69361a1ecec3f5b3a3" category="summary">Fatturazione basata su diversi tipi di volume</block>
   <block id="bb6903e39254cc1a8d4ee2116c8e91e1" category="doc">Scenari vari per la fatturazione Keystone</block>
   <block id="ff6306dccf086261b36fc9764ec0a69c" category="section-title">Fatturazione per volumi clonati</block>
-  <block id="fc9d3df613063ee57906c461320744e2" category="admonition">Nota:</block>
   <block id="d37a813a136d622d708c8200aef13f52" category="section-title">Fatturazione per la protezione avanzata dei dati</block>
   <block id="9899ef6b9a20de2fea89aa9492d2bbe6" category="paragraph">La protezione avanzata dei dati utilizza NetApp MetroCluster per eseguire il mirroring dei dati tra due cluster fisicamente separati. Per gli aggregati mirrorati di MetroCluster, i dati vengono scritti due volte, una volta su ciascun cluster. Il servizio Keystone addebita i costi di consumo su ciascun lato in modo indipendente, con la conseguenza di due record di consumo identici. I costi aggiuntivi vengono applicati a tutte le capacità dell'abbonamento, indipendentemente dal fatto che i dati siano all'origine o siano dati mirrorati o senza mirror.</block>
   <block id="536a21a9808fc714076b198f94a4a506" category="paragraph">Se si monitorano i cluster tramite Gestore di sistema di ONTAP (Gestore di sistema) o Active IQ Unified Manager (Gestore unificato), potrebbe verificarsi una discrepanza tra il consumo riportato su questi strumenti e Keystone. System Manager e Unified Manager non riportano i volumi sul cluster mirrorato (remoto) e, in questo modo, riporta la metà delle metriche di consumo riportate dal servizio Keystone.</block>
@@ -957,8 +952,6 @@
   <block id="dd83b22a815febb6c6547eab078bbf30" category="section-title">Capacità consumata</block>
   <block id="9cd5acb8fb327acbb895954f39411c04" category="paragraph">La capacità consumata si riferisce alla capacità (in TIB dello storage) attualmente consumata nel servizio. Il servizio Keystone considera la somma delle dimensioni logiche utilizzate (non la capacità fisica utilizzata) di tutti i volumi su un determinato livello di servizio per calcolare la capacità consumata per quel livello di servizio.</block>
   <block id="08d63a30cdbc798edef3e21cacda1ac2" category="section-title">Capacità di burst</block>
-  <block id="33fdcc4581188d05dc6308f0e1c577d9" category="paragraph">Qualsiasi consumo che superi la capacità impegnata per un livello di servizio è la capacità burst.</block>
-  <block id="34d81e2d25f8511b6ab5f5b492c3aaa9" category="list-text">Il servizio Keystone consente di utilizzare capacità aggiuntiva oltre alla capacità impegnata per un livello di servizio. Questa è la capacità di burst.</block>
   <block id="422cb43011b8f4dd25975e284b167728" category="list-text">La capacità di burst può essere consumata su base elastica e viene addebitata quotidianamente in base alla media consumata.</block>
   <block id="d634acbcc57e75a34f7ef2ecf60eb69c" category="list-text">La capacità burst è concordata nell'accordo Keystone. In genere, viene impostato fino al 20% al di sopra della capacità impegnata e viene addebitato allo stesso tasso della capacità impegnata.</block>
   <block id="b6e76ea727138e1a2c7199dd3f0874db" category="section-title">Capacità fatturata</block>
@@ -1028,10 +1021,6 @@
   <block id="d40fe201ca96918eaf7db3c328dc1dac" category="sidebar">Benvenuto in Keystone</block>
   <block id="4b5fef6350f906c92ead8e5fcb93fb21" category="sidebar">Impostare e configurare Keystone</block>
   <block id="e5e7352eac1aab74c62e3fb3c13c93eb" category="sidebar">Cos'è Keystone Collector</block>
-  <block id="db9c0d8e0c5e9a6fc69af04d34b56fee" category="sidebar">Prerequisiti per l'installazione di Keystone Collector</block>
-  <block id="d495047561c1a08074d3afeeb5b5d172" category="sidebar">Prerequisiti di VMware vSphere</block>
-  <block id="634b2ff9559aed00b394d1ea933e1865" category="sidebar">Prerequisiti di Linux</block>
-  <block id="80d2bb01a7a85d4aa2c304e7cde98a6e" category="sidebar">Prerequisiti specifici per ONTAP e StorageGRID</block>
   <block id="e1963f69cecc9ae42f0776dbde80b970" category="sidebar">Implementazione di VMware vSphere</block>
   <block id="1f331fee3a3f66a9a0cc8b4298329656" category="sidebar">Installazione di Linux</block>
   <block id="5f263121a32bf1557841d7fe819ad1e8" category="sidebar">Validazione automatica dell'integrità</block>
@@ -1433,4 +1422,17 @@ Nell'ambito dell'implementazione del servizio Keystone, NetApp monitora e misura
   <block id="4c81eafa216c925957e13d302baa98d5" category="paragraph">È possibile fare clic sul pulsante di attivazione/disattivazione *Mostra utilizzo corrente* per visualizzare i dati relativi a consumo, utilizzo burst e burst di accantonamento per il periodo di fatturazione corrente. Questi dettagli non sono basati sull'intervallo di date della query.</block>
   <block id="f9e4dd599c840788d289af630bc65cdb" category="list-text">*Current Burst*: Indicatore della capacità consumata entro o al di sopra del limite di burst definito. Qualsiasi utilizzo entro il limite di burst per l'abbonamento, ad esempio, il 20% sopra la capacità impegnata è entro il limite di burst. L'utilizzo ulteriore viene considerato come utilizzo superiore al limite di burst. Questo campo visualizza colori specifici:</block>
   <block id="6b7dfe5a7e219d1bb1b0d4dec89d1cb1" category="list-text">*Bursting maturato*: Indicatore dell'utilizzo bursting maturato o della capacità consumata calcolata al mese per il periodo di fatturazione corrente. L'utilizzo del burst accumulato viene calcolato in base alla capacità impegnata e consumata per un livello di servizio:<block ref="0664f1d332f0bb3aa9231cb5f4fb3bca" prefix=" " category="inline-code"></block>.</block>
+  <block id="9f06d116e9e0b83604b7fd60a2234a51" category="doc">Requisiti per ONTAP e StorageGRID</block>
+  <block id="7ddb33edf227a18eb76201fcb9e2c9db" category="list-title">Requisiti software</block>
+  <block id="c3ce6809be6bdc67ae978395484d0585" category="list-text">ONTAP 9,8 o versione successiva</block>
+  <block id="0f8980b0c0b4c0b3e722f39e2538063e" category="list-text">Active IQ Unified Manager (Unified Manager) 9,10 o versione successiva</block>
+  <block id="ee68e5b99222bbc29a480fcb0d1d6ee2" category="paragraph-title">Prerequisiti</block>
+  <block id="fbacd386f66318927b42b113c3987f00" category="paragraph">Per installare Keystone Collector su ONTAP, eseguire questi passaggi come prerequisiti:</block>
+  <block id="ad98fcce772f03d25a2b4758c7fbf35c" category="list-text">Verificare che Unified Manager 9,10 o versione successiva sia configurato Per informazioni sull'installazione di Unified Manager, consultare i seguenti collegamenti:</block>
+  <block id="8414d36b2c6d9865a2f13b42f9ef6e91" category="list-text">StorageGRID<block ref="eb0ecbdf20891e5963990e2643405555" prefix=" " category="inline-code"></block> o versioni successive. Per informazioni sull'aggiornamento di StorageGRID, vedere <block ref="97cb3175bb06374adaf739435d4e2f76" category="inline-link-macro-rx"></block>.</block>
+  <block id="cc3265dfeccaee5313f6c701aeabcbef" category="paragraph">Il servizio Keystone consente di utilizzare capacità aggiuntiva oltre alla capacità impegnata per un livello di servizio. Questo è l'utilizzo della capacità burst. Prendere nota di questi punti:</block>
+  <block id="d576508763dba15b711e3f85b0a11488" category="sidebar">Prepara il tuo sistema per l'installazione di Keystone Collector</block>
+  <block id="3d065b1064b64a83258ea086e540e24c" category="sidebar">Requisiti di VMware vSphere</block>
+  <block id="d6b1f1fd1fdf75b3d429783334dff437" category="sidebar">Requisiti Linux</block>
+  <block id="0c8ee1ed841afce50051203468faba79" category="sidebar">Requisiti ONTAP e StorageGRID</block>
 </blocks>

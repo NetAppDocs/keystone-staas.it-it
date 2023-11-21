@@ -53,14 +53,10 @@ La capacità consumata si riferisce alla capacità (in TIB dello storage) attual
 
 == Capacità di burst
 
-Qualsiasi consumo che superi la capacità impegnata per un livello di servizio è la capacità burst.
+Il servizio Keystone consente di utilizzare capacità aggiuntiva oltre alla capacità impegnata per un livello di servizio. Questo è l'utilizzo della capacità burst. Prendere nota di questi punti:
 
-
-NOTE: Nota:
-
-* Il servizio Keystone consente di utilizzare capacità aggiuntiva oltre alla capacità impegnata per un livello di servizio. Questa è la capacità di burst.
-* La capacità di burst può essere consumata su base elastica e viene addebitata quotidianamente in base alla media consumata.
 * La capacità burst è concordata nell'accordo Keystone. In genere, viene impostato fino al 20% al di sopra della capacità impegnata e viene addebitato allo stesso tasso della capacità impegnata.
+* La capacità di burst può essere consumata su base elastica e viene addebitata quotidianamente in base alla media consumata.
 
 
 

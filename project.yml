@@ -17,13 +17,13 @@ sidebar:
     entries:
     - title: Cos'è Keystone Collector
       url: "/installation/installation-overview.html"
-    - title: Prerequisiti per l'installazione di Keystone Collector
+    - title: Prepara il tuo sistema per l'installazione di Keystone Collector
       entries:
-      - title: Prerequisiti di VMware vSphere
+      - title: Requisiti di VMware vSphere
         url: "/installation/vapp-prereqs.html"
-      - title: Prerequisiti di Linux
+      - title: Requisiti Linux
         url: "/installation/linux-prereqs.html"
-      - title: Prerequisiti specifici per ONTAP e StorageGRID
+      - title: Requisiti ONTAP e StorageGRID
         url: "/installation/addl-req.html"
     - title: Installare Keystone Collector
       entries:
