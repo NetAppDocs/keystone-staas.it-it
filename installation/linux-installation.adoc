@@ -36,4 +36,4 @@ Per installare il software sul server Linux, procedere come segue:
 
 
 
-NOTE: Una volta completata l'installazione, è possibile utilizzare l'utility Keystone Collector Management Terminal User Interface (TUI) per eseguire le attività di configurazione e monitoraggio. Per selezionare le opzioni e spostarsi all'interno dell'interfaccia telefonica utente, è possibile utilizzare diversi comandi della tastiera, ad esempio i tasti Invio e freccia. Vedere link:../installation/configuration.html["Configurare Keystone Collector"] e. link:../installation/monitor-health.html["Monitorare lo stato del sistema"].
+NOTE: Una volta completata l'installazione, è possibile utilizzare l'utility Keystone Collector Management Terminal User Interface (TUI) per eseguire le attività di configurazione e monitoraggio. Per selezionare le opzioni e spostarsi all'interno dell'interfaccia telefonica utente, è possibile utilizzare diversi comandi della tastiera, ad esempio i tasti Invio e freccia. Vedere link:../installation/configuration.html["Configurare Keystone Collector"] e. link:../installation/monitor-health.html["Monitorare lo stato del sistema"] per informazioni.

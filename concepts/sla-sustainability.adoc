@@ -16,6 +16,8 @@ summary: sustainability, sla, service level agreement
 [role="lead"]
 NetApp Keystone STaaS offre livelli di servizio di livello di servizio o di sostenibilità supportati da SLA che definiscono il numero massimo di watt/TIB utilizzati per livello di servizio, per aiutarti a pianificare, monitorare e raggiungere i tuoi obiettivi DI sostenibilità IT.
 
+Puoi ottenere informazioni su qualsiasi problema correlato agli SLA dal widget Keystone nel dashboard di Active IQ Digital Advisor.
+
 
 
 == Metriche di sostenibilità
@@ -61,7 +63,7 @@ Performance
 
 == Criteri di idoneità per lo SLA di sostenibilità
 
-Gli abbonamenti Keystone STaaS che soddisfano i seguenti criteri sono idonei per gli SLA:
+Gli abbonamenti Keystone STaaS che soddisfano i seguenti criteri sono idonei per gli SLA di sostenibilità:
 
 * Abbonamenti standard, non personalizzati a Keystone STaaS con un singolo livello di servizio, fatturati mensilmente in arretrati.
 * Sono idonei gli abbonamenti con i seguenti livelli di servizio: Extreme, Premium e Performance.
@@ -88,7 +90,7 @@ Per ulteriori informazioni sulla dashboard di Keystone e sui report, vedere link
 
 
 
-== Crediti di servizio per la sostenibilità
+== Crediti di servizio
 
 Se il consumo di watt/TiB supera o non soddisfa i criteri specificati nello SLA per un livello di servizio, NetApp offre il pagamento del credito di servizio per le differenze segnalate durante un periodo di fatturazione, per tutti gli abbonamenti idonei. Se le metriche del livello di servizio non vengono soddisfatte, contattare il centro di supporto dei servizi globali (GSSC) di NetApp non più tardi di una settimana prima della fine del mese del servizio Dopo aver determinato la violazione del livello di servizio, i crediti vengono calcolati in base alla capacità impegnata del livello di servizio e accreditati con la fattura del mese successivo.
 

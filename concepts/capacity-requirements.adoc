@@ -111,25 +111,52 @@ Per le rettifiche di capacità, osservare le seguenti clausole:
 
 La riduzione della capacità (annuale) è applicabile al modello di pagamento _annuale in anticipo_ e alle implementazioni solo on-premise. Non è disponibile per servizi cloud o servizi di cloud ibrido. Fornisce il provisioning della capacità on-premise, che può essere ridotta fino al 25% per livello di servizio per abbonamento. Questa riduzione è consentita una volta all'anno per essere effettiva all'inizio del successivo periodo di fatturazione annuale. I pagamenti annuali basati sui servizi on-premise devono essere superiori a 200 milioni di dollari in qualsiasi momento durante il periodo di validità per sfruttare la riduzione della capacità. Poiché è supportato solo per le implementazioni on-premise, questo modello di fatturazione non fornisce la riallocazione delle spese dai servizi on-premise ai servizi cloud. Un esempio di riduzione annuale della capacità è illustrato nella seguente immagine.
 
-image:capacity-reduction.png["riduzione della capacità di visualizzazione delle immagini"]
+image:reallocation.png["spiegazione della logica di riallocazione"]
 
 
 
 === Riallocazione della spesa trimestrale
 
+Keystone STaaS ti offre la possibilità di riallocare la spesa del servizio on-premise alla spesa relativa a Cloud Volumes ONTAP.
+
 Requisiti e condizioni a livello di abbonamento:
 
 * Si applica solo alla fatturazione mensile nei modelli arretrati.
 * Si applica solo agli abbonamenti con impegni a 1, 2 o 3 anni.
-* La capacità Cloud Volumes ONTAP e Cloud Backup Service deve essere acquistata tramite Keystone.
+* La capacità per Cloud Volumes ONTAP e Cloud Backup Service deve essere acquistata tramite Keystone.
 * Fino al 25% dei pagamenti mensili on-premise basati sui servizi può essere utilizzato per la riallocazione ai servizi cloud.
-* I pagamenti mensili on-premise basati sui servizi devono essere superiori a 16,7 milioni di dollari in qualsiasi momento durante il periodo di validità per sfruttare la riallocazione.
 * Le richieste di riallocazione sono effettive solo dopo 90 giorni dalla data di attivazione precedente della riallocazione.
-* Non è possibile riallocare i servizi cloud in sede.
+* Non è possibile riassegnare i servizi cloud ai servizi on-premise.
 * Una richiesta di riallocazione deve essere inviata formalmente dal cliente o dal partner a Keystone Success Manager (KSM) almeno una settimana prima del ciclo di fatturazione successivo.
-* Le nuove richieste entrano in vigore solo a partire dal ciclo di fatturazione successivo.
+* Le nuove richieste entrano in vigore solo dal ciclo di fatturazione consecutivo.
 
 
-Un esempio di riallocazione trimestrale della spesa è illustrato nella seguente immagine:
+Puoi allocare una parte delle spese ai servizi di cloud storage ibrido che hai sottoscritto, a blocchi o a oggetti. Fino al 25% del valore del contratto annuale (ACV) può essere riassegnato su base trimestrale ai servizi primari e secondari di Cloud Volumes ONTAP e Cloud Volumes ONTAP:
 
-image:spend-alloc.png["come viene allocata la spesa"]
+image:reallocation.png["spiegazione della logica di riallocazione"]
+
+Questa tabella fornisce una serie di valori campione per dimostrare come funziona la riallocazione delle spese. In questo esempio, `$5000` dalla spesa mensile viene riallocata al servizio di cloud storage ibrido.
+
+|===
+
+
+| *Prima dell'assegnazione* | *Capacità (TIB)* | *Spesa mensile designata* 
+
+
+| Estremo | 125 | 37.376 
+
+
+| *Dopo la riallocazione* | *Capacità (TIB)* | *Spesa mensile designata* 
+
+
+| Estremo | 108 | 37.376 
+
+
+| Cloud Volumes ONTAP | 47 | 5.000 
+
+
+|  |  | 37.376 
+|===
+La riduzione è di (125-108) = 17 TiB della capacità allocata per il livello Extreme service. Durante la riallocazione della spesa, il cloud storage ibrido assegnato non è di 17 TiB, ma una capacità equivalente che è possibile acquistare da $5000. In questo esempio, per $ 5000, è possibile ottenere una capacità di storage on-premise 17 TiB per il livello di servizio Extreme e una capacità di cloud ibrido 47 TiB del livello di servizio Cloud Volumes ONTAP. Pertanto, la riassegnazione riguarda la spesa, non la capacità.
+
+Contatta il tuo Keystone Success Manager (KSM) per riallocare le spese dai servizi on-premise ai servizi cloud.

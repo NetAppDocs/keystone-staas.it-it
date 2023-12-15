@@ -1,0 +1,31 @@
+---
+sidebar: sidebar 
+permalink: release-notes/known-issues.html 
+keywords: netapp, keystone, release notes, known issues 
+summary: Problemi noti di NetApp Service Engine 
+---
+= Problemi noti di NetApp Service Engine
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Il seguente problema noto è stato segnalato nello STaaS NetApp Keystone. Potresti riscontrare questo problema durante il provisioning o l'utilizzo dello storage come parte delle tue iscrizioni a Keystone.
+
+[cols="3*"]
+|===
+| Problema noto | Descrizione | Soluzione alternativa 
+
+
+ a| 
+Derivato livello di servizio errato per i volumi mirror.
+ a| 
+Se sia MetroCluster che FabricPool sono abilitati in un ambiente in cui sono applicabili i piani di velocità per il tiering e lo storage a oggetti, i livelli di servizio derivati per i volumi mirror (sia i volumi costituenti che FabricPool) potrebbero non essere corretti.
+ a| 
+Nessuno.
+
+|===

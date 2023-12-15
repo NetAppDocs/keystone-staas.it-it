@@ -1,0 +1,55 @@
+---
+sidebar: sidebar 
+permalink: release-notes/known-limitations.html 
+keywords: limitations, known limitations in Keystone STaaS 
+summary: Le limitazioni note identificano piattaforme, dispositivi o funzioni non supportate da questa versione del prodotto o che non interagiscono correttamente con esso. Esaminare attentamente queste limitazioni. 
+---
+= Limitazioni note
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Le limitazioni note identificano piattaforme, dispositivi o funzioni che non sono supportati dai servizi o componenti Keystone STaaS o che non interagiscono correttamente. Esaminare attentamente queste limitazioni.
+
+
+
+== Limitazioni di Keystone Collector
+
+
+
+=== Keystone Collector non può essere avviato su vSphere 8,0 Update 1
+
+Non è possibile attivare una macchina virtuale Keystone Collector (VM) con VMware vSphere versione 8,0 Update 1 e viene visualizzato il seguente messaggio di errore:
+
+`Property 'Gateway' must be configured for the VM to power on.`
+
+Consultare l'articolo della Knowledge base link:https://kb.netapp.com/hybrid/Keystone/Collector/Keystone_Collector_fails_to_start_on_vSphere_8.0_U1["Impossibile avviare Keystone Collector su vSphere 8,0 U1"^] per informazioni e risoluzione.
+
+
+
+=== Impossibile generare il bundle di supporto tramite Kerberos
+
+Se la home directory di Keystone Collector è montata su NFSv4 utilizzando Kerberos, il bundle di supporto non viene generato e viene visualizzato il seguente messaggio di errore:
+
+`subprocess.CalledProcessError: Command '['sosreport', '--batch', '-q', '--tmp-dir', '/home/<user>']' returned non-zero exit status 1.`
+
+Consultare l'articolo della Knowledge base https://kb.netapp.com/hybrid/Keystone/Collector/Keystone_Collector_fails_to_generate_support_bundle_on_Kerberized_home_directory["Keystone Collector non riesce a generare il bundle di supporto nella home directory Kerberized"^] per informazioni e risoluzione.
+
+
+
+=== Keystone Collector non può comunicare con gli host all'interno di uno specifico intervallo di rete
+
+Keystone Collector non riesce a comunicare con i dispositivi all'interno dell'intervallo di rete 10.88.0.0/16 quando `ks-collector` il servizio è in esecuzione. Consultare l'articolo della Knowledge base link:https://kb.netapp.com/hybrid/Keystone/Collector/Keystone_Collector_container_conflict_with_customer_network["Conflitto del container Keystone Collector con la rete del cliente"^] per informazioni e risoluzione.
+
+
+
+=== Keystone Collector non può verificare il certificato CA SSL principale del cliente
+
+Se l'ispezione SSL/TLS è attivata sul firewall di frontiera in un ambiente per ispezionare il traffico SSL/TLS, Keystone Collector non è in grado di stabilire una connessione HTTPS, perché il certificato CA principale del cliente non è attendibile.
+
+Per ulteriori informazioni e risoluzione, vedere link:..//installation/configuration.html#trust-a-custom-root-ca["Considerare attendibile una CA principale personalizzata"^] O articolo della Knowledge base link:https://kb.netapp.com/hybrid/Keystone/Collector/Keystone_Collector_cannot_verify_Customer_Root_SSL_CA_certificate["Keystone Collector non può verificare il certificato della CA SSL principale del cliente"^].

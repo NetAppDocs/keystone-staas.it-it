@@ -1,0 +1,49 @@
+---
+sidebar: sidebar 
+permalink: release-notes/fixed-issues.html 
+keywords: fixed issues 
+summary: Problemi risolti nelle diverse release di Keystone STaaS 
+---
+= Problemi risolti
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+I problemi riscontrati nelle precedenti release dei servizi NetApp Keystone STaaS sono stati risolti nelle release successive. Nella tabella seguente sono elencate le correzioni.
+
+[cols="3*"]
+|===
+| Descrizione del problema | Dopo la correzione | Fissato in rilascio 
+
+
+ a| 
+L'indicatore di utilizzo per una registrazione del consumo di burst era visualizzato in ambra.
+ a| 
+L'indicatore viene visualizzato in rosso.
+ a| 
+13 dicembre 2023
+
+
+
+ a| 
+L'intervallo di date e i dati nelle schede Trend capacità, utilizzo corrente e prestazioni non sono stati convertiti in fuso orario UTC.
+ a| 
+L'intervallo di date per la query e i dati in tutte le schede viene visualizzato in ora UTC (fuso orario del server). Il fuso orario UTC viene inoltre visualizzato in corrispondenza di ciascun campo della data nelle schede.
+ a| 
+13 dicembre 2023
+
+
+
+ a| 
+Si è verificata una mancata corrispondenza tra la data di inizio e la data di fine tra le schede e i report CSV scaricati.
+ a| 
+Fisso.
+ a| 
+13 dicembre 2023
+
+|===
