@@ -29,3 +29,12 @@ Ai piani tariffari è associato un abbonamento Keystone. A un singolo abbonament
 == Keystone Storage-as-a-Service (STaaS)
 
 Le offerte di storage-as-a-service (STaaS) mirano a fornire un modello simile al cloud pubblico per l'approvvigionamento, l'implementazione e la gestione dell'infrastruttura storage. Mentre la maggior parte delle aziende sta ancora lavorando alla propria strategia per il cloud ibrido, tu, in qualità di cliente, puoi optare per un modello di consumo _pay-per-use_ basato su OpEx. Potresti avere un mandato per spostare tutti i tuoi workload nel cloud, senza tuttavia un piano o un programma chiaro per migrare parti specifiche o tutti i tuoi workload nel cloud. Keystone STaaS ti offre la flessibilità di iniziare con i servizi on-premise e decidere in seguito i workload giusti e un point-in-time per passare al cloud. Keystone STaaS offre protezione degli impegni per tutti i modelli di implementazione. Invece di pagare di più per i servizi cloud, in qualità di cliente on-premise, puoi riallocare la spesa on-premise per aggiungere servizi cloud e sostanzialmente pagare la stessa fattura mensile impegnata prima di questa riallocazione.
+
+*Informazioni correlate*
+
+* link:../concepts/pricing.html["Prezzo Keystone"]
+* link:../concepts/add-on.html["Servizi aggiuntivi in Keystone STaaS"]
+* link:../concepts/service-levels.html["Livelli di servizio in Keystone"]
+* link:../concepts/infra.html["Infrastruttura Keystone"]
+* link:../concepts/operational-models.html["Modelli operativi in Keystone"]
+

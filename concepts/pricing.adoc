@@ -29,3 +29,12 @@ Keystone offre le seguenti funzioni di fatturazione:
 La fatturazione di Keystone si basa sulla capacità impegnata e sul consumo variabile di burst.
 
 Per informazioni sulle diverse capacità supportate in Keystone, vedere link:../concepts/supported-storage-capacity.html["Capacità di storage supportate in Keystone"].
+
+*Informazioni correlate*
+
+* link:../concepts/committed-capacity-billing.html["Fatturazione basata sulla capacità impegnata"]
+* link:../concepts/consumed-capacity-billing.html["Misurazione basata sulla capacità consumata"]
+* link:../concepts/burst-consumption-billing.html["Fatturazione basata sul consumo burst"]
+* link:../concepts/misc-volume-billing.html["Fatturazione basata su diversi tipi di volume"]
+* link:../concepts/billing-schedules.html["Pianificazioni di fatturazione"]
+

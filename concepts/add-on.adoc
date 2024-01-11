@@ -1,0 +1,24 @@
+---
+sidebar: sidebar 
+permalink: concepts/add-on.html 
+keywords: add-on services, additional services, chargeable add-ons 
+summary: Servizi aggiuntivi in keystone 
+---
+= Servizi aggiuntivi in Keystone STaaS
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Keystone STaaS offre l'host di servizi aggiuntivi. Per ulteriori informazioni su questi servizi, consultare i seguenti collegamenti. Potete discutere con il vostro KSM per valutarli e sfruttarli.
+
+* link:../concepts/data-tiering.html["Tiering dei dati"]
+* link:../concepts/adp.html["Protezione avanzata dei dati"]
+* link:../concepts/uscs.html["STATI UNITI Supporto ai cittadini"]
+* link:../concepts/nrnvc.html["Componenti non restituibili, non volatili e conformità SnapLock"]
+* link:../concepts/equinix.html["Servizi di co-location Keystone con tecnologia Equinix"]
+

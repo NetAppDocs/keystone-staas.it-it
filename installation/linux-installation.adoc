@@ -22,8 +22,9 @@ Per installare il software sul server Linux, procedere come segue:
 . Importare la firma pubblica Keystone:
 `# rpm --import https://keystone.netapp.com/repo/RPM-GPG-NetApp-Keystone-20221101`
 . Verificare che sia stato importato il certificato pubblico corretto controllando l'impronta digitale per Keystone Billing Platform nel database RPM:
-`# rpm -qa gpg-pubkey --qf '%_<Description>_'|gpg --show-keys --fingerprint`L'impronta digitale corretta è simile al seguente:
-`90B3 83AF E07B 658A 6058  5B4E 76C2 45E4 33B6 C17D`
+`# rpm -qa gpg-pubkey --qf '%_<Description>_'|gpg --show-keys --fingerprint`
+L'impronta digitale corretta è simile al seguente:
+`90B3 83AF E07B 658A 6058 5B4E 76C2 45E4 33B6 C17D`
 . Scaricare il `keystonerepo.rpm` file:
 `curl -O https://keystone.netapp.com/repo/keystonerepo.rpm`
 . Verificare l'autenticità del file:

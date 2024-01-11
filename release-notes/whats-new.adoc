@@ -18,6 +18,26 @@ NetApp offre funzionalità nuove e migliorate in ogni release dei servizi Keysto
 
 
 
+== Nuove funzioni e migliorie per il 11 gennaio 2024
+
+Scopri le novità di questa versione.
+
+Le seguenti modifiche sono state apportate nella schermata *Iscrizioni Keystone* di Active IQ Digital Advisor (noto anche come Digital Advisor).
+
+
+
+=== Dati fatturati restituiti per il burst maturato
+
+Le etichette per *Burst maturato* sono ora modificate in *Burst maturato fatturato* nella scheda *Trend capacità*. Selezionando questa opzione è possibile visualizzare i grafici mensili per i dati burst maturati fatturati. Per ulteriori informazioni, vedere link:../integrations/aiq-keystone-details.html#view-invoiced-accrued-burst["Visualizza bursting maturato fatturato"^].
+
+
+
+=== Dettagli sui consumi maturati per piani tariffari specifici
+
+Se si dispone di un abbonamento con piani tariffari con capacità impegnata _zero_, è possibile visualizzare i dettagli sui consumi maturati nella scheda *tendenza capacità*. Selezionando l'opzione *consumo maturato fatturato*, è possibile visualizzare i grafici mensili per i dati di consumo maturato fatturato.
+
+
+
 == Nuove funzioni e migliorie per il 15 dicembre 2023
 
 Scopri le novità di questa versione.
@@ -26,7 +46,7 @@ Scopri le novità di questa versione.
 
 === Possibilità di effettuare ricerche in base alle liste di controllo
 
-Il supporto per le liste di controllo nel consulente digitale Active IQ è stato esteso per includere i sistemi Keystone. È ora possibile visualizzare i dettagli degli abbonamenti per più clienti effettuando una ricerca con gli elenchi di controllo. Per ulteriori informazioni sull'utilizzo delle liste di controllo in Keystone STaaS, vedere link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists["Effettuare una ricerca utilizzando gli elenchi di controllo Keystone"^].
+Il supporto per le liste di controllo in Active IQ Digital Advisor (noto anche come Digital Advisor) è stato esteso per includere i sistemi Keystone. È ora possibile visualizzare i dettagli degli abbonamenti per più clienti effettuando una ricerca con gli elenchi di controllo. Per ulteriori informazioni sull'utilizzo delle liste di controllo in Keystone STaaS, vedere link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists["Effettuare una ricerca utilizzando gli elenchi di controllo Keystone"^].
 
 
 

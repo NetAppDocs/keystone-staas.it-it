@@ -135,3 +135,10 @@ NOTE: La latenza non include gli overhead associati al trasferimento dei dati ne
 
 
 ====
+*Informazioni correlate*
+
+* link:../concepts/supported-storage-capacity.html["Capacità di storage supportate"]
+* link:..//concepts/metrics.html["Metriche e definizioni utilizzate nei servizi Keystone"]
+* link:../concepts/qos.html["Qualità del servizio (QoS) in Keystone"]
+* link:../concepts/pricing.html["Prezzo Keystone"]
+
