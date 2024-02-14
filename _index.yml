@@ -1,0 +1,73 @@
+---
+indexpage:
+  title: Documentazione Keystone
+  summary: NetApp Keystone è un'offerta di storage as a service pay-as-you-grow per
+    servizi di storage dei dati on-premise e cloud con un'unica sottoscrizione con
+    la possibilità di riallocare la spesa per lo storage nei cloud.
+  keywords: Keystone STaaS
+  lead: NetApp Keystone è un servizio flessibile basato su abbonamento pay-as-you-grow
+    che offre un'esperienza di cloud ibrido perfetta per i clienti che preferiscono
+    OpEx a CapEx o il leasing. Ti offre la possibilità di accelerare il time-to-value
+    rimuovendo l'onere DELL'IT nella gestione delle risorse e del lungo ciclo di approvvigionamento.
+    Sfoglia la documentazione in questo archivio per scoprire di più sull'offerta
+    NetApp Keystone STaaS nel tuo ambiente ONTAP o StorageGRID.
+  tiles:
+  - title: Inizia subito
+    links:
+    - title: Che cos'è NetApp Keystone?
+      url: "/concepts/overview.html"
+    - title: Installazione di Keystone Collector su VMware vSphere
+      url: "/installation/vapp-installation.html"
+    - title: Installazione di Keystone Collector su Linux
+      url: "/installation/linux-installation.html"
+    - title: Visualizzate il vostro utilizzo su Digital Advisor
+      url: "/integrations/keystone-aiq.html"
+    - title: Generare report sui consumi
+      url: "/integrations/aiq-keystone-details.html"
+  - title: Servizi supportati in Keystone
+    links:
+    - title: Livelli di servizio Keystone
+      url: "/concepts/service-levels.html"
+    - title: Qualità del servizio (QoS)
+      url: "/concepts/qos.html"
+    - title: Quali sono le unità di misura?
+      url: "/concepts/metrics.html"
+    - title: Qual è lo storage di base supportato?
+      url: "/concepts/supported-storage-services.html"
+    - title: Posso riallocare la mia spesa dall'on-premise al cloud?
+      url: "/concepts/capacity-requirements.html#capacity-adjustments"
+  - title: Prezzo e fatturazione di Keystone
+    links:
+    - title: Conoscere i prezzi Keystone
+      url: "/concepts/pricing.html"
+    - title: Le mie pianificazioni di fatturazione
+      url: "/concepts/billing-schedules.html"
+    - title: Fatturazione basata sulla capacità impegnata
+      url: "/concepts/committed-capacity-billing.html"
+    - title: Misurazione basata sulla capacità consumata
+      url: "/concepts/consumed-capacity-billing.html"
+    - title: Cosa succede se ho consumato più della mia capacità impegnata?
+      url: "/concepts/burst-consumption-billing.html"
+  - title: Ottieni di più con Keystone Services
+    links:
+    - title: Conosci il tuo team di supporto (Keystone GSSC)
+      url: "/concepts/gssc.html"
+    - title: Cosa posso fare con i dati cold o quelli meno utilizzati?
+      url: "/concepts/data-tiering.html"
+    - title: Come posso proteggere i miei dati Keystone?
+      url: "/concepts/adp.html"
+    - title: Keystone e BlueXP
+      url: "/integrations/keystone-cm.html"
+    - title: Supporto dei cittadini DEGLI STATI UNITI
+      url: "/concepts/uscs.html"
+  - title: Scopri di più
+    links:
+    - title: Abbonamenti Keystone versione 1 (in precedenza, abbonamenti Keystone
+        Flex)
+      url: https://docs.netapp.com/us-en/keystone/
+    - title: Consulente digitale Active IQ
+      url: https://docs.netapp.com/us-en/active-iq/index.html
+    - title: BlueXP
+      url: https://docs.netapp.com/us-en/cloud-manager-family/
+    - title: Active IQ Unified Manager
+      url: https://docs.netapp.com/us-en/active-iq-unified-manager/

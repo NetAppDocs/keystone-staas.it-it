@@ -18,6 +18,18 @@ NetApp offre funzionalità nuove e migliorate in ogni release dei servizi Keysto
 
 
 
+== Nuove funzioni e miglioramenti per il 13 febbraio 2024
+
+La seguente modifica è stata apportata nella schermata *Iscrizioni Keystone* del consulente digitale Active IQ (noto anche come consulente digitale).
+
+
+
+=== Possibilità di visualizzare gli abbonamenti collegati a un abbonamento principale
+
+Alcuni abbonamenti primari possono avere abbonamenti secondari collegati. In questo caso, il numero di abbonamento principale continuerà a essere visualizzato nella colonna *numero di abbonamento*, mentre i numeri di abbonamento collegati saranno elencati in una nuova colonna *Sottoscrizioni collegate* nella scheda *Sottoscrizioni*. La colonna *Sottoscrizioni collegate* diventa disponibile solo se si dispone di sottoscrizioni collegate ed è possibile visualizzare messaggi informativi che ne informano l'utente.
+
+
+
 == Nuove funzioni e migliorie per il 11 gennaio 2024
 
 Scopri le novità di questa versione.

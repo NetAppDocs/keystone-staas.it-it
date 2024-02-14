@@ -1,0 +1,40 @@
+---
+sidebar: sidebar 
+permalink: integrations/current-usage-tab.html 
+keywords: keystone-aiq, digital advisor keystone, current usage tab 
+summary: Scheda utilizzo corrente nella dashboard AIQ da Keystone 
+---
+= Scheda uso corrente
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+La scheda *utilizzo corrente* visualizza i dettagli di utilizzo delle sottoscrizioni.
+
+Per visualizzare questa scheda, dal riquadro di navigazione a sinistra, vai a *GENERALE > Sottoscrizioni Keystone > utilizzo corrente* e seleziona il numero di abbonamento richiesto.
+
+image:aiq-ks-dtls.png["Scheda uso corrente"]
+
+Per l'abbonamento selezionato, è possibile visualizzare i dettagli, ad esempio le date di inizio e di fine dell'abbonamento e il periodo di fatturazione, ad esempio mensile o annuale. Come parte dell'utilizzo dell'abbonamento, è possibile visualizzare il nome del livello di servizio, Commit, consumed, Available Capacity e Current and Accrued Burst Use (in TIB).
+
+
+TIP: Il image:icon-info.png["icona delle informazioni"] l'icona accanto a ciascuna colonna fornisce informazioni complete su tale colonna. Vengono evidenziati livelli di servizio specifici che registrano un consumo più elevato. È inoltre possibile visualizzare avvisi e avvisi generati per i volumi.
+
+Per informazioni sui servizi di storage Keystone e sui relativi livelli di servizio, vedere link:../concepts/service-levels.html["Livelli di servizio in Keystone"].
+
+Insieme all'utilizzo corrente, è possibile visualizzare i dati di utilizzo cronologici per il confronto. Fare clic sul pulsante *Visualizza dati storici* per passare alla scheda *Trend capacità* per visualizzare i dati storici relativi alla stessa sottoscrizione.
+
+*Informazioni correlate*
+
+* link:../integrations/aiq-keystone-details.html["Utilizza la dashboard e il reporting Keystone"]
+* link:../integrations/subscriptions-tab.html["Abbonamenti"]
+* link:../integrations/sla-details-tab.html["Dettagli SLA"]
+* link:../integrations/capacity-trend-tab.html["Tendenza capacità"]
+* link:../integrations/volumes-objects-tab.html["Oggetti  volumi"]
+* link:../integrations/performance-tab.html["Performance"]
+

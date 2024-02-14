@@ -52,9 +52,9 @@ Questi sottosistemi sono inclusi per impostazione predefinita nei pacchetti Auto
 
 .Fasi
 . Come utente di amministratore di sistema, effettuare l'accesso al cluster Keystone ONTAP utilizzando SSH. Per ulteriori informazioni, vedere https://docs.netapp.com/us-en/ontap/system-admin/access-cluster-ssh-task.html["Accedere al cluster utilizzando SSH"^].
-. Eseguire il seguente comando e verificare la configurazione esistente:
+. Eseguire il comando seguente e verificare la configurazione esistente rispetto ai sottosistemi esistenti:
 +
-`autosupport trigger show -node * -autosupport-message management.log -instance`
+`autosupport trigger show -node * -autosupport-message management.log -fields basic-additional`
 
 +
 Per ulteriori informazioni su questo comando, vedere https://docs.netapp.com/us-en/ontap-cli-9131/system-node-autosupport-manifest-show.html#parameters["visualizzazione del manifesto AutoSupport del nodo di sistema"^].

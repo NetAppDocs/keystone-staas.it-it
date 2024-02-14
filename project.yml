@@ -56,9 +56,23 @@ sidebar:
   - title: Visualizza la dashboard Keystone e gestisci le iscrizioni
     entries:
     - title: Visualizza la dashboard Keystone sul consulente digitale Active IQ
-      url: "/integrations/keystone-aiq.html"
-    - title: Visualizzare dettagli sui consumi e generare report
-      url: "/integrations/aiq-keystone-details.html"
+      entries:
+      - title: Dashboard Keystone e Digital Advisor
+        url: "/integrations/keystone-aiq.html"
+      - title: Visualizzare dettagli sui consumi e generare report
+        url: "/integrations/aiq-keystone-details.html"
+      - title: Scheda sottoscrizioni
+        url: "/integrations/subscriptions-tab.html"
+      - title: Scheda uso corrente
+        url: "/integrations/current-usage-tab.html"
+      - title: Scheda Dettagli SLA
+        url: "/integrations/sla-details-tab.html"
+      - title: Scheda Trend capacità
+        url: "/integrations/capacity-trend-tab.html"
+      - title: Scheda volumi e oggetti
+        url: "/integrations/volumes-objects-tab.html"
+      - title: Scheda prestazioni
+        url: "/integrations/performance-tab.html"
     - title: Gestione delle iscrizioni Keystone da BlueXP
       url: "/integrations/keystone-cm.html"
   - title: Scopri Keystone
@@ -121,64 +135,3 @@ sidebar:
     url: "/concepts/gssc.html"
   - title: Note legali
     url: "/legal-notices.html"
-homepage:
-  tiles:
-  - title: Inizia subito
-    links:
-    - title: Che cos'è NetApp Keystone?
-      url: "/concepts/overview.html"
-    - title: Installazione di Keystone Collector su VMware vSphere
-      url: "/installation/vapp-installation.html"
-    - title: Installazione di Keystone Collector su Linux
-      url: "/installation/linux-installation.html"
-    - title: Visualizzate il vostro utilizzo su Digital Advisor
-      url: "/integrations/keystone-aiq.html"
-    - title: Generare report sui consumi
-      url: "/integrations/aiq-keystone-details.html"
-  - title: Servizi supportati in Keystone
-    links:
-    - title: Livelli di servizio Keystone
-      url: "/concepts/service-levels.html"
-    - title: Qualità del servizio (QoS)
-      url: "/concepts/qos.html"
-    - title: Quali sono le unità di misura?
-      url: "/concepts/metrics.html"
-    - title: Qual è lo storage di base supportato?
-      url: "/concepts/supported-storage-services.html"
-    - title: Posso riallocare la mia spesa dall'on-premise al cloud?
-      url: "/concepts/capacity-requirements.html#capacity-adjustments"
-  - title: Prezzo e fatturazione di Keystone
-    links:
-    - title: Conoscere i prezzi Keystone
-      url: "/concepts/pricing.html"
-    - title: Le mie pianificazioni di fatturazione
-      url: "/concepts/billing-schedules.html"
-    - title: Fatturazione basata sulla capacità impegnata
-      url: "/concepts/committed-capacity-billing.html"
-    - title: Misurazione basata sulla capacità consumata
-      url: "/concepts/consumed-capacity-billing.html"
-    - title: Cosa succede se ho consumato più della mia capacità impegnata?
-      url: "/concepts/burst-consumption-billing.html"
-  - title: Ottieni di più con Keystone Services
-    links:
-    - title: Conosci il tuo team di supporto (Keystone GSSC)
-      url: "/concepts/gssc.html"
-    - title: Cosa posso fare con i dati cold o quelli meno utilizzati?
-      url: "/concepts/data-tiering.html"
-    - title: Come posso proteggere i miei dati Keystone?
-      url: "/concepts/adp.html"
-    - title: Keystone e BlueXP
-      url: "/integrations/keystone-cm.html"
-    - title: Supporto dei cittadini DEGLI STATI UNITI
-      url: "/concepts/uscs.html"
-  - title: Scopri di più
-    links:
-    - title: Abbonamenti Keystone versione 1 (in precedenza, abbonamenti Keystone
-        Flex)
-      url: https://docs.netapp.com/us-en/keystone/
-    - title: Consulente digitale Active IQ
-      url: https://docs.netapp.com/us-en/active-iq/index.html
-    - title: BlueXP
-      url: https://docs.netapp.com/us-en/cloud-manager-family/
-    - title: Active IQ Unified Manager
-      url: https://docs.netapp.com/us-en/active-iq-unified-manager/

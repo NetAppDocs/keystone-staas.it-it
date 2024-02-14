@@ -14,7 +14,7 @@ summary: Problemi risolti nelle diverse release di Keystone STaaS
 
 
 [role="lead"]
-I problemi riscontrati nelle precedenti release dei servizi NetApp Keystone STaaS sono stati risolti nelle release successive. Nella tabella seguente sono elencate le correzioni.
+I problemi riscontrati nelle precedenti release dei servizi NetApp Keystone STaaS sono stati risolti nelle release successive. Nella tabella riportata di seguito sono elencate le correzioni apportate.
 
 [cols="3*"]
 |===

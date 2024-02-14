@@ -56,7 +56,7 @@ NetApp è in grado di fornire le specifiche dei requisiti di raffreddamento (BTU
 
 === Macchine virtuali per lo storage
 
-Per l'implementazione di Keystone Collector e del gateway della soluzione AIOPS è necessaria una macchina virtuale di storage (VM di storage). I prerequisiti per l'installazione di Keystone Collector sono disponibili qui: link:..//installation/installation-overview.html["Guida all'installazione di Keystone Collector"]. Gli altri requisiti vengono condivisi durante l'implementazione.
+Per l'implementazione di Keystone Collector e del gateway della soluzione AIOPS è necessaria una macchina virtuale di storage (VM di storage). I prerequisiti per l'installazione di Keystone Collector sono disponibili qui: link:../installation/installation-overview.html["Guida all'installazione di Keystone Collector"]. Gli altri requisiti vengono condivisi durante l'implementazione.
 
 
 

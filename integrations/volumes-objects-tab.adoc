@@ -1,0 +1,68 @@
+---
+sidebar: sidebar 
+permalink: integrations/volumes-objects-tab.html 
+keywords: keystone-aiq, digital advisor keystone, volumes-objects-tab, StorageGRID objects details, ONTAP volumes 
+summary: scheda volumi-oggetti 
+---
+= Scheda volumi e oggetti
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Nella scheda *volumi e oggetti*, è possibile visualizzare il consumo e altri dettagli per i volumi in ONTAP. Per StorageGRID, questa scheda visualizza i nodi e il loro utilizzo individuale nell'ambiente di storage a oggetti.
+
+
+NOTE: Il nome di questa scheda varia in base alla natura della distribuzione presso il sito. Se si dispone sia di volumi che di storage a oggetti, è possibile visualizzare la scheda *volumi e oggetti*. Se nell'ambiente di archiviazione sono presenti solo volumi ONTAP, il nome cambia in *volumi*. Per l'archiviazione di oggetti StorageGRID, è possibile visualizzare la scheda *oggetti*.
+
+
+
+== Visualizza i dettagli del volume ONTAP
+
+Per ONTAP, la scheda *volumi* visualizza informazioni come l'utilizzo della capacità, il tipo di volume, il cluster, l'aggregato e il livello di servizio dei volumi nel tuo ambiente storage gestito dall'iscrizione Keystone.
+
+.Fasi
+. Fare clic su *GENERALE > Iscrizioni Keystone > volumi*.
+. Selezionare il numero dell'abbonamento. Per impostazione predefinita, viene selezionato il primo numero di abbonamento disponibile.
++
+Vengono visualizzati i dettagli del volume. È possibile scorrere le colonne e ottenere ulteriori informazioni facendo clic con il mouse sulle icone delle informazioni accanto alle intestazioni delle colonne. È possibile ordinare in base alle colonne e filtrare gli elenchi per visualizzare informazioni specifiche.
+
++
+
+NOTE: Per il servizio add-on di protezione avanzata dei dati, viene visualizzata una colonna aggiuntiva per indicare se il volume è un volume primario o mirror nella configurazione di MetroCluster. È possibile copiare i numeri di serie dei singoli nodi facendo clic sul pulsante *Copy Node Serials* (Copia serie nodi).
+
+
+
+image:aiq-ks-sysdtls.png["Scheda volumi  oggetti"]
+
+
+
+== Visualizza i nodi del StorageGRID e il consumo
+
+Per StorageGRID, questa scheda visualizza l'utilizzo fisico dei nodi per lo storage a oggetti.
+
+.Fasi
+. Fare clic su *GENERALE > Iscrizioni Keystone > oggetti*.
+. Selezionare il numero dell'abbonamento. Per impostazione predefinita, viene selezionato il primo numero di abbonamento disponibile. Selezionando il numero di abbonamento, viene attivato il collegamento per i dettagli dello storage a oggetti.
++
+image:sg-link.png["Finestra di dialogo StorageGRID"]
+
+. Fare clic sul collegamento per visualizzare i nomi dei nodi e i dettagli sull'utilizzo fisico di ciascun nodo.
++
+image:sg-link-2.png["Finestra di dialogo StorageGRID"]
+
+
+
+*Informazioni correlate*
+
+* link:../integrations/aiq-keystone-details.html["Utilizza la dashboard e il reporting Keystone"]
+* link:../integrations/subscriptions-tab.html["Abbonamenti"]
+* link:../integrations/current-usage-tab.html["Utilizzo corrente"]
+* link:../integrations/sla-details-tab.html["Dettagli SLA"]
+* link:../integrations/capacity-trend-tab.html["Tendenza capacità"]
+* link:../integrations/performance-tab.html["Performance"]
+

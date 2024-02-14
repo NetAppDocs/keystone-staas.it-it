@@ -1,0 +1,55 @@
+---
+sidebar: sidebar 
+permalink: integrations/subscriptions-tab.html 
+keywords: keystone-aiq, digital advisor keystone, subscriptions-tab 
+summary: Scheda sottoscrizioni nella dashboard AIQ da Keystone 
+---
+= Scheda sottoscrizioni
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile visualizzare un elenco di tutte le sottoscrizioni nella scheda *Sottoscrizioni*.
+
+Per visualizzare questa scheda, dal riquadro di navigazione a sinistra, vai a *GENERALE > Sottoscrizioni Keystone > Sottoscrizioni*.
+
+image:all-subs.png["Un'immagine della scheda Abbonamenti"]
+
+È possibile visualizzare le seguenti informazioni. Per alcuni campi e colonne, è possibile visualizzare informazioni o icone di avvertenza e descrizioni dei comandi che forniscono informazioni aggiuntive sui dati.
+
+* *Subscription Number*: Il numero di abbonamento Keystone assegnato da NetApp.
+* *Tracking ID*: L'ID di tracciamento assegnato al momento dell'attivazione dell'abbonamento. Si tratta di un ID univoco per ciascun abbonamento e sito, utilizzato per tenere traccia dell'abbonamento.
++
+
+TIP: Se si è abbonati al servizio add-on per la protezione avanzata dei dati, è possibile fare clic sulla descrizione del comando relativa al numero di abbonamento per visualizzare l'ID di registrazione dell'abbonamento partner in una configurazione MetroCluster. Per informazioni su come visualizzare il consumo dettagliato delle sottoscrizioni dei partner in una configurazione MetroCluster, vedere link:../integrations/capacity-trend-tab.html#reference-charts-for-advanced-data-protection["Grafici di riferimento per una protezione avanzata dei dati"].
+
+* *Tipo di utilizzo*: Potresti aver sottoscritto più abbonamenti Keystone (versione 1) o Keystone STaaS (versione 2). Le regole del piano tariffario per i livelli di servizio possono variare in base ai due tipi di abbonamento. Osservando il valore di questa colonna, è possibile sapere se il tipo di utilizzo viene fatturato in base all'utilizzo logico o di provisioning per entrambi `v1` oppure `v2`. Per ulteriori informazioni sugli abbonamenti Keystone versione 1, consulta https://docs.netapp.com/us-en/keystone/index.html["Documentazione per NetApp Keystone"^].
+* *Billing Period* (periodo di fatturazione): Periodo di fatturazione dell'abbonamento, ad esempio mensile, trimestrale o annuale.
+* *Data di inizio*: La data di inizio dell'abbonamento.
+* *Data di fine*: Data di fine dell'abbonamento. Se si dispone di un abbonamento mensile fatturabile che viene rinnovato automaticamente ogni mese, viene visualizzato `Month-on-month` anziché la data di fine. In base a questa data, è possibile che vengano visualizzate notifiche per le sottoscrizioni che stanno per terminare o che hanno criteri di rinnovo automatico allegati.
+* *Usage Status* (Stato utilizzo): Visualizza l'indicatore di utilizzo per indicare se il consumo rientra o supera il limite di abbonamento. È possibile ordinare l'elenco in base a questa colonna se si desidera visualizzare i record di consumo più elevato.
+* image:subs-dtls-icon.png["icona"]: Facendo clic su questa icona per un abbonamento, viene aperta la scheda *uso corrente* con i dettagli di utilizzo dell'abbonamento.
+* image:aiq-ks-time-icon.png["icona"]: Facendo clic su questa icona si apre la scheda *tendenza capacità*, in cui è possibile visualizzare i dati cronologici di utilizzo per ciascun livello di servizio incluso in questo abbonamento.
+
+
+Per verificare lo stato di utilizzo di ciascun abbonamento, fare riferimento ai seguenti indicatori di utilizzo:
+
+image:usage-indicator.png["icona"]
+
+.Indice
+image:icon-grey.png["icona del punto grigio"]: Nessun utilizzo della capacità registrato rispetto alla capacità impegnata del livello di servizioimage:icon-green.png["icona del punto verde"]: Il consumo è normale, entro il 80% della capacità impegnataimage:icon-amber.png["icona del punto ambra"]: Il consumo massimo, cioè l'utilizzo sta per raggiungere il 100% o più della capacità impegnata. La colonna *consumato* visualizza questo indicatore per qualsiasi consumo superiore al 80% della capacità impegnataimage:icon-red.png["icona con punto rosso"]: Il consumo rientra nel limite di burst. Il consumo burst è il consumo che supera il 100% della capacità impegnata di un livello di servizio e rientra nel limite di utilizzo burst concordato, ad esempio il 120%image:icon-purple.png["icona del punto viola"]Indica un consumo superiore al limite di burst stabilito
+
+*Informazioni correlate*
+
+* link:../integrations/aiq-keystone-details.html["Utilizza la dashboard e il reporting Keystone"]
+* link:../integrations/current-usage-tab.html["Utilizzo corrente"]
+* link:../integrations/sla-details-tab.html["Dettagli SLA"]
+* link:../integrations/capacity-trend-tab.html["Tendenza capacità"]
+* link:../integrations/volumes-objects-tab.html["Oggetti  volumi"]
+* link:../integrations/performance-tab.html["Performance"]
+

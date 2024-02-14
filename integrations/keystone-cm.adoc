@@ -14,7 +14,7 @@ summary: Keystone e BlueXP
 
 
 [role="lead"]
-NetApp BlueXP è una piattaforma completa per il monitoraggio di centinaia di origini dati, con una dashboard di visualizzazione interattiva. Se acquisti un servizio cloud con il tuo abbonamento a NetApp Keystone, puoi accedere e gestire tali servizi tramite BlueXP.
+NetApp BlueXP è un pannello di controllo singolo per creare, proteggere e gestire i dati in ambienti on-premise e cloud. Se acquisti un servizio cloud con il tuo abbonamento a NetApp Keystone, puoi accedere e gestire tali servizi tramite BlueXP.
 
 La dashboard di BlueXP Digital Advisor offre una vista grafica e funzionalità di drill-down per monitorare l'utilizzo dell'abbonamento Keystone e generare report. Per ulteriori informazioni sulla dashboard di Digital Advisor e Keystone, vedere link:../integrations/aiq-keystone-details.html["Dashboard e reporting per l'abbonamento Keystone"].
 

@@ -1,0 +1,140 @@
+---
+sidebar: sidebar 
+permalink: integrations/capacity-trend-tab.html 
+keywords: keystone-aiq, digital advisor keystone, capacity trend tab, historical usage, accrued burst, accrued, consumption 
+summary: Scheda sulle tendenze della capacità nella dashboard Keystone Subscription 
+---
+= Scheda Trend capacità
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+La scheda *tendenza capacità* visualizza i dati storici delle sottoscrizioni Keystone per un periodo specifico.
+
+I grafici verticali visualizzano i dettagli di utilizzo per l'intervallo di tempo selezionato con gli indicatori appropriati per il confronto e la generazione di report.
+
+.Fasi
+. Fare clic su *GENERALE > Sottoscrizioni Keystone > Trend capacità*.
+. Selezionare l'abbonamento richiesto per il quale si desidera visualizzare i dettagli. Per impostazione predefinita, viene selezionato il primo abbonamento nel nome dell'account.
+. Selezionare *tendenza capacità* se si desidera visualizzare i dati storici e analizzare la tendenza di utilizzo della capacità. Selezionare *Burst maturato fatturato* se si desidera visualizzare i dati di utilizzo burst storici, per i quali sono state generate le fatture. È possibile utilizzare questi dati per analizzare l'utilizzo fatturato in base alla fattura.
+
+
+
+
+== Visualizzare il trend di capacità
+
+Se è stata selezionata l'opzione *Trend capacità*, procedere come segue:
+
+.Fasi
+. Selezionare l'intervallo di tempo dalle icone del calendario nei campi *Data* e *Data*. Selezionare l'intervallo di date per la query. L'intervallo di date può essere l'inizio del mese o la data di inizio dell'abbonamento alla data corrente o la data di fine dell'abbonamento. Non è possibile selezionare una data futura.
++
+
+TIP: Per ottenere prestazioni ottimali e un'esperienza utente ottimale, limitare l'intervallo di date della query a tre mesi.
+
+. Fare clic su *View Details* (Visualizza dettagli). I dati di consumo cronologici dell'abbonamento per ciascun livello di servizio vengono visualizzati in base all'intervallo di tempo selezionato.
+
+
+I grafici a barre visualizzano il nome del livello di servizio e la capacità consumata rispetto a tale livello di servizio per l'intervallo di date. La data e l'ora della raccolta vengono visualizzate nella parte inferiore del grafico. In base all'intervallo di date della query, i grafici di utilizzo vengono visualizzati in un intervallo di 30 punti di raccolta dati. Puoi spostare il cursore del mouse sui grafici per visualizzare la suddivisione dell'utilizzo in termini di dati impegnati, consumati, burst e superiori al limite burst in quel punto di raccolta dati.
+
+image:aiq-ks-subtime-2.png["Scheda Trend capacità con dettagli"]
+
+I seguenti colori nei grafici a barre indicano la capacità consumata come definita nel livello di servizio. I dati mensili attraverso i grafici sono separati da una linea verticale.
+
+* Verde: Entro il 80%.
+* Ambra: 80% - 100%.
+* Rosso: Utilizzo burst (100% della capacità impegnata fino al limite burst concordato)
+* Viola: Al di sopra del limite di burst o. `Above Limit`.
+
+
+
+NOTE: Un grafico vuoto indica che non sono disponibili dati nell'ambiente in quel punto di raccolta dati.
+
+È possibile fare clic sul pulsante di attivazione/disattivazione *Mostra utilizzo corrente* per visualizzare i dati relativi a consumo, utilizzo burst e burst di accantonamento per il periodo di fatturazione corrente. Questi dettagli non sono basati sull'intervallo di date della query.
+
+* *Corrente assorbita*: Indicatore della capacità consumata (in TIB) definita per il livello di servizio. Questo campo utilizza colori specifici:
++
+** Nessun colore: Utilizzo burst o burst superiore.
+** Grigio: Nessun utilizzo.
+** Verde: Entro il 80% della capacità impegnata.
+** Ambra: 80% della capacità di burst impegnata.
+
+
+* *Current Burst*: Indicatore della capacità consumata entro o al di sopra del limite di burst definito. Qualsiasi utilizzo entro il limite di burst per l'abbonamento, ad esempio, il 20% sopra la capacità impegnata è entro il limite di burst. L'utilizzo ulteriore viene considerato come utilizzo superiore al limite di burst. Questo campo visualizza colori specifici:
++
+** Nessun colore: Nessun utilizzo di burst.
+** Rosso: Utilizzo burst.
+** Viola: Al di sopra del limite di burst.
+
+
+* *Bursting maturato*: Indicatore dell'utilizzo bursting maturato o della capacità consumata calcolata al mese per il periodo di fatturazione corrente. L'utilizzo del burst accumulato viene calcolato in base alla capacità impegnata e consumata per un livello di servizio: `(consumed - committed)/365.25/12`.
+
+
+
+
+== Visualizza bursting maturato fatturato
+
+Se è stata selezionata l'opzione *Burst maturato fatturato*, per impostazione predefinita, è possibile visualizzare i dati mensili sull'utilizzo dei bursting maturati negli ultimi 12 mesi che sono stati fatturati. È possibile eseguire una query in base all'intervallo di date fino agli ultimi 30 mesi. I grafici a barre vengono visualizzati per i dati fatturati e, se l'utilizzo non è ancora stato fatturato, viene visualizzato _Pending_ per quel mese.
+
+
+TIP: L'utilizzo dei bursting maturati fatturati viene calcolato per periodo di fatturazione in base alla capacità impegnata e consumata per un livello di servizio.
+
+image:accr-burst.png["grafici di utilizzo burst maturati"]
+
+Questa funzionalità è disponibile in una modalità di sola anteprima. Contattare il proprio KSM per ulteriori informazioni su questa funzione.
+
+
+
+== Grafici di riferimento per una protezione avanzata dei dati
+
+Se si è sottoscritto il servizio avanzato di protezione dei dati aggiuntivo, è possibile visualizzare la suddivisione dei dati di consumo per i siti partner MetroCluster nella scheda *tendenza capacità*.
+
+Per informazioni sul servizio add-on per la protezione avanzata dei dati, vedere link:../concepts/adp.html["Protezione avanzata dei dati"].
+
+Se i cluster nel tuo ambiente di storage ONTAP sono configurati in una configurazione MetroCluster, i dati di consumo dell'iscrizione Keystone vengono suddivisi nello stesso grafico dei dati storici per visualizzare il consumo nei siti primario e di mirroring per i livelli di servizio di base.
+
+
+NOTE: I grafici a barre dei consumi sono divisi solo per i livelli di servizio di base. Per il servizio add-on avanzato di protezione dei dati, ovvero il livello di servizio _Advanced Data-Protect_, questa delimitazione non viene visualizzata.
+
+.Livello di servizio per la protezione avanzata dei dati
+Per il livello di servizio _Advanced Data-Protect_, il consumo totale viene suddiviso tra i siti partner e l'utilizzo in ciascun sito partner viene riflesso e fatturato in un abbonamento separato; un abbonamento per il sito primario e un altro per il sito mirror. Questo è il motivo per cui, quando si seleziona il numero di abbonamento per il sito primario nella scheda *tendenza capacità*, i grafici di consumo per il servizio aggiunto di protezione dati avanzata visualizzano i dettagli di consumo discreti solo del sito primario. Poiché ogni sito di un partner in una configurazione MetroCluster agisce sia come origine che come mirroring, il consumo totale in ogni sito include i volumi di origine e mirror creati in tale sito.
+
+
+TIP: La descrizione dei comandi accanto all'ID di rilevamento dell'abbonamento nella scheda *utilizzo corrente* consente di identificare l'abbonamento partner nella configurazione di MetroCluster.
+
+.Livelli di servizio di base
+Per i livelli di servizio di base, a ogni volume viene addebitato il provisioning nei siti primario e di mirroring, quindi lo stesso grafico a barre viene diviso in base al consumo nei siti primario e di mirroring.
+
+.Cosa puoi vedere per l'abbonamento primario
+L'immagine seguente mostra i grafici relativi al livello di servizio _Extreme_ (livello di servizio di base) e al numero di abbonamento primario. Lo stesso grafico dei dati storici indica anche il consumo del sito mirror in una tonalità più chiara dello stesso codice colore utilizzato per il sito primario. La descrizione comandi al passaggio del mouse visualizza la suddivisione dei consumi (in TIB) per i siti primario e mirror, rispettivamente 1,02 TiB e 1,05 TiB.
+
+image:mcc-chart.png["mcc primario"]
+
+Per il livello di servizio _Advanced Data-Protect_, i grafici appaiono come segue:
+
+image:adp-src.png["base primaria mcc"]
+
+.Cosa puoi vedere per l'abbonamento secondario (sito mirror)
+Quando si controlla l'abbonamento secondario, è possibile vedere che il grafico a barre per il livello di servizio _Extreme_ (livello di servizio di base) nello stesso punto di raccolta dati del sito partner viene invertito e la disgregazione dei consumi nei siti primario e mirror è rispettivamente di 1.05 TIB e 1.02 TIB.
+
+image:mcc-chart-mirror.png["mirror mcc"]
+
+Per il livello di servizio _Advanced Data-Protect_, il grafico viene visualizzato in questo modo per lo stesso punto di raccolta del sito del partner:
+
+image:adp-mir.png["base mirror mcc"]
+
+Per informazioni su come MetroCluster protegge i dati, consulta https://docs.netapp.com/us-en/ontap-metrocluster/manage/concept_understanding_mcc_data_protection_and_disaster_recovery.html["Comprensione della protezione dei dati e del disaster recovery di MetroCluster"^].
+
+*Informazioni correlate*
+
+* link:../integrations/aiq-keystone-details.html["Utilizza la dashboard e il reporting Keystone"]
+* link:../integrations/subscriptions-tab.html["Abbonamenti"]
+* link:../integrations/current-usage-tab.html["Utilizzo corrente"]
+* link:../integrations/sla-details-tab.html["Dettagli SLA"]
+* link:../integrations/volumes-objects-tab.html["Oggetti  volumi"]
+* link:../integrations/performance-tab.html["Performance"]
+
