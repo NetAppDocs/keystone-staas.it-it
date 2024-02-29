@@ -16,11 +16,11 @@ summary: Scheda sottoscrizioni nella dashboard AIQ da Keystone
 [role="lead"]
 È possibile visualizzare un elenco di tutte le sottoscrizioni nella scheda *Sottoscrizioni*.
 
-Per visualizzare questa scheda, dal riquadro di navigazione a sinistra, vai a *GENERALE > Sottoscrizioni Keystone > Sottoscrizioni*.
+Per visualizzare questa scheda, dal riquadro di navigazione a sinistra, vai a *GENERALE > Sottoscrizioni Keystone > Sottoscrizioni*. Sono elencati tutti i tuoi abbonamenti.
 
 image:all-subs.png["Un'immagine della scheda Abbonamenti"]
 
-È possibile visualizzare le seguenti informazioni. Per alcuni campi e colonne, è possibile visualizzare informazioni o icone di avvertenza e descrizioni dei comandi che forniscono informazioni aggiuntive sui dati.
+È possibile filtrare la selezione facendo clic sull'icona dell'hamburger image:icon-hamburger.png["icona hamburger"] Per visualizzare una colonna o tutte le sottoscrizioni, fare clic sul pulsante *Cancella filtri*. Per alcuni campi e colonne, è possibile visualizzare informazioni o icone di avvertenza e descrizioni dei comandi che forniscono informazioni aggiuntive sui dati.
 
 * *Subscription Number*: Il numero di abbonamento Keystone assegnato da NetApp.
 * *Tracking ID*: L'ID di tracciamento assegnato al momento dell'attivazione dell'abbonamento. Si tratta di un ID univoco per ciascun abbonamento e sito, utilizzato per tenere traccia dell'abbonamento.
@@ -52,4 +52,5 @@ image:icon-grey.png["icona del punto grigio"]: Nessun utilizzo della capacità r
 * link:../integrations/capacity-trend-tab.html["Tendenza capacità"]
 * link:../integrations/volumes-objects-tab.html["Oggetti  volumi"]
 * link:../integrations/performance-tab.html["Performance"]
+* link:../integrations/assets-tab.html["Risorse"]
 

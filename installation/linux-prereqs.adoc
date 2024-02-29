@@ -14,9 +14,11 @@ summary: 'Prerequisiti per l"installazione di Keystone Collector su sistemi Linu
 
 
 [role="lead"]
-Sono necessarie alcune configurazioni per l'installazione di Keystone Collector su sistemi Linux.
+La preparazione del sistema Linux con il software richiesto garantisce un'installazione e una raccolta di dati precisi da parte di Keystone Collector.
 
-.Prerequisiti per il server Linux:
+Assicurati che la tua VM del server di raccolta Linux e Keystone disponga di queste configurazioni.
+
+.Server Linux:
 * Sistema operativo: CentOS 7 o Red Hat Enterprise Linux 8.6 o versione successiva
 * Tempo cronyd sincronizzato
 * Accesso ai repository software Linux standard
@@ -30,7 +32,7 @@ Lo stesso server deve avere anche i seguenti pacchetti di terze parti:
 * python 3 (da 3.6.8 a 3.9.13)
 
 
-.Prerequisiti per la macchina virtuale del server Keystone Collector:
+.Macchina virtuale del server collettore di Keystone:
 * Core: 2 CPU
 * RAM: 4 GB DI RAM
 * Spazio su disco: Disco virtuale da 50 GB

@@ -27,7 +27,7 @@ sidebar:
     entries:
     - title: Cos'è Keystone Collector
       url: "/installation/installation-overview.html"
-    - title: Prepara il tuo sistema per l'installazione di Keystone Collector
+    - title: Preparare il sistema
       entries:
       - title: Requisiti di VMware vSphere
         url: "/installation/vapp-prereqs.html"
@@ -73,6 +73,8 @@ sidebar:
         url: "/integrations/volumes-objects-tab.html"
       - title: Scheda prestazioni
         url: "/integrations/performance-tab.html"
+      - title: Scheda risorse
+        url: "/integrations/assets-tab.html"
     - title: Gestione delle iscrizioni Keystone da BlueXP
       url: "/integrations/keystone-cm.html"
   - title: Scopri Keystone

@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: integrations/assets-tab.html 
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab 
+summary: 'Report e grafici dell"abbonamento Keystone' 
+---
+= Scheda risorse
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Utilizza la scheda *risorse* per raccogliere prospettive sul tuo cluster e sui nodi gestiti dalle tue sottoscrizioni Keystone.
+
+Il consulente digitale Active IQ fornisce informazioni complete a livello di inventario sulle implementazioni. La scheda *risorse* del dashboard Keystone, invece, accumula le informazioni a livello di cluster sulla base dei tuoi abbonamenti, segrega e le presenta con il livello accurato di dettagli.
+
+.Fasi
+. Fare clic su *GENERALE > Iscrizioni Keystone > risorse*.
+. Seleziona il numero di iscrizione per cui desideri visualizzare i cluster.
+
+
+Vengono visualizzati i dettagli del cluster suddivisi per impostazioni di efficienza dello storage, tipo di piattaforma e dettagli sulla capacità. Facendo clic su uno dei cluster si accede al widget *cluster* nella schermata Digital Advisor, dove si ottengono informazioni aggiuntive per quel cluster.
+
+image:assets-tab.png["Scheda risorse"]
+
+*Informazioni correlate*
+
+* link:../integrations/aiq-keystone-details.html["Utilizza la dashboard e il reporting Keystone"]
+* link:../integrations/subscriptions-tab.html["Abbonamenti"]
+* link:../integrations/current-usage-tab.html["Utilizzo corrente"]
+* link:../integrations/sla-details-tab.html["Dettagli SLA"]
+* link:../integrations/volumes-objects-tab.html["Oggetti  volumi"]
+* link:../integrations/capacity-trend-tab.html["Tendenza capacità"]
+* link:../integrations/performance-tab.html["Performance"]
+

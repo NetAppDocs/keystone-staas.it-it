@@ -14,11 +14,38 @@ summary: Problemi risolti nelle diverse release di Keystone STaaS
 
 
 [role="lead"]
-I problemi riscontrati nelle precedenti release dei servizi NetApp Keystone STaaS sono stati risolti nelle release successive. Nella tabella riportata di seguito sono elencate le correzioni apportate.
+I problemi riscontrati nelle precedenti release dei servizi NetApp Keystone STaaS sono stati risolti nelle release successive. Queste sono le correzioni.
 
 [cols="3*"]
 |===
 | Descrizione del problema | Dopo la correzione | Fissato in rilascio 
+
+
+ a| 
+Se MetroCluster e FabricPool sono stati abilitati in un ambiente in cui i piani di tasso per il tiering e lo storage a oggetti erano applicabili, i livelli di servizio potrebbero essere derivati in modo errato per i volumi mirror (sia i volumi costituenti che i volumi FabricPool).
+ a| 
+Ai volumi mirror vengono applicati livelli di servizio corretti.
+ a| 
+29 febbraio 2024
+
+
+
+ a| 
+Per alcune sottoscrizioni con un unico livello di servizio o piano tariffario, la colonna di conformità AQoS non era presente nell'output CSV dei report della scheda *volumi*.
+ a| 
+La colonna conformità è visibile nei report.
+ a| 
+29 febbraio 2024
+
+
+
+ a| 
+In alcuni ambienti MetroCluster, sono state rilevate anomalie occasionali nei diagrammi della densità degli IOPS nella scheda *Performance*. Ciò si è verificato a causa di una mappatura imprecisa dei volumi ai livelli di servizio.
+ a| 
+I grafici sono visualizzati correttamente.
+ a| 
+29 febbraio 2024
+
 
 
  a| 

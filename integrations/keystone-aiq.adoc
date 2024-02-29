@@ -16,19 +16,19 @@ summary: Keystone e Digital Advisor
 [role="lead"]
 Se ti sei abbonato ai servizi NetApp Keystone STaaS, puoi ottenere una panoramica delle tue iscrizioni nel widget *Keystone Subscription* della dashboard di Active IQ Digital Advisor (detto anche Digital Advisor).
 
-Puoi cercare i dettagli dell'iscrizione Keystone effettuando una ricerca in base al nome di un cliente o di un nome di una lista di controllo che include più clienti. Per informazioni su come cercare le sottoscrizioni Keystone STaaS in base alle liste di controllo, vedere link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists["Effettuare una ricerca utilizzando gli elenchi di controllo Keystone"].
+Puoi cercare un'iscrizione Keystone inserendo i primi tre caratteri del nome di un cliente o di una watchlist, o il numero di iscrizione Keystone. Per informazioni su come cercare le sottoscrizioni Keystone STaaS in base alle liste di controllo, vedere link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists["Effettuare una ricerca utilizzando gli elenchi di controllo Keystone"].
 
 Digital Advisor offre un dashboard unificato che fornisce informazioni dettagliate sui vari livelli dei dati di abbonamento e sulle informazioni sull'utilizzo tramite il pulsante *passa alla dashboard precedente/nuova*.
 
 .Dashboard predefinito (vecchio)
-Puoi visualizzare il nome del cliente e il numero di iscrizione, il nome dell'account, le date di inizio e fine dell'iscrizione e i grafici sull'utilizzo della capacità in base ai livelli di servizio con iscrizione.
+Puoi visualizzare il nome del cliente e il numero di iscrizione, il nome dell'account, le date di inizio e fine dell'iscrizione e i grafici sull'utilizzo della capacità in base ai livelli di servizio con iscrizione. È possibile visualizzare la data e l'ora di raccolta dei dati di consumo in ora UTC.
 
 image:old-db.png["vecchio cruscotto"]
 
 .Cruscotto alternativo (nuovo)
 Puoi vedere la suddivisione dell'utilizzo della capacità in base alle tue sottoscrizioni e avvisi e avvisi che richiedono attenzione o azione immediata. Le informazioni vengono visualizzate in modo selettivo, a seconda delle sottoscrizioni e dello stato di utilizzo. È possibile visualizzare le seguenti informazioni:
 
-* Utilizzo della capacità, come:
+* *Utilizzo della capacità*: Dati di consumo quali:
 +
 ** Nessun utilizzo.
 ** Consumo superiore al 80% della capacità impegnata.
@@ -36,8 +36,8 @@ Puoi vedere la suddivisione dell'utilizzo della capacità in base alle tue sotto
 ** Consumi superiori alla capacità burst.
 
 
-* Accordo sul livello di servizio: Questo stato viene visualizzato se almeno uno degli abbonamenti dispone di un accordo SLA (Service Level Agreement) con NetApp valido. Lo stato indica se le sottoscrizioni soddisfano i criteri di sostenibilità definiti nel proprio SLA. Se le sottoscrizioni soddisfano i criteri SLA, lo stato può essere visualizzato come _all OK_.
-* Le avvertenze varie vengono visualizzate se applicabili.
+* *Accordo sul livello di servizio*: Questo stato viene visualizzato se almeno uno degli abbonamenti dispone di un contratto SLA (Service Level Agreement) Sustainability valido con NetApp. Lo stato indica se le sottoscrizioni soddisfano i criteri di sostenibilità definiti nel proprio SLA. Se le sottoscrizioni soddisfano i criteri SLA, lo stato può essere visualizzato come _all OK_.
+* *Avvisi*: Vengono visualizzati avvisi per vari scenari, se applicabili.
 +
 ** *In scadenza*: Nel caso in cui i tuoi abbonamenti scadano entro 90 giorni.
 ** *Aggiornamenti hardware critici*: Se sono in sospeso aggiornamenti hardware critici.
@@ -58,21 +58,13 @@ Per ulteriori informazioni sulla dashboard di Keystone e sui report, vedere link
 
 
 
-== Effettuare una ricerca utilizzando gli elenchi di controllo Keystone
+== Ricerca per elenchi di controllo Keystone
 
 Watchlist è una funzione di consulente digitale Active IQ (Digital Advisor). Per ulteriori informazioni, vedere https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html["Comprendere la lista di controllo"^]. Per informazioni sulla creazione di elenchi di controllo, vedere https://docs.netapp.com/us-en/active-iq/task_add_watchlist.html["Creare una lista di controllo"^].
 
-Keystone STaaS supporta la creazione di liste di controllo e la ricerca da parte di esse per visualizzare i dettagli di iscrizione di più clienti. Segui questi passaggi per creare una watchlist per i clienti Keystone:
-
-. Nella schermata *Crea elenco di controllo*, fornire un nome per l'elenco di controllo Keystone.
-. Selezionare *Categoria* nel campo *Aggiungi sistemi per*. *Cliente* è selezionato per impostazione predefinita nel campo *Scegli categoria*.
-. Cercare i clienti richiesti in base ai loro nomi e aggiungerli. È possibile aggiungere solo i clienti i cui dettagli sono autorizzati a visualizzare.
-. Fare clic su *Create Watchlist* (Crea lista di controllo). La schermata Digital Advisor visualizza i dati per la nuova lista di controllo.
+Per Keystone STaaS, puoi creare elenchi di controllo per i clienti o numeri di iscrizione. È possibile eseguire la ricerca in base al nome della lista di controllo nella schermata Digital Advisor. Effettuando una ricerca in base a un elenco di controllo, è possibile visualizzare i clienti e le relative sottoscrizioni nell'elenco a discesa *sottoscrizione* del widget *Sottoscrizioni Keystone*.
 
 
-Quando si esegue una ricerca in base a un elenco di controllo nella schermata di Digital Advisor, è possibile visualizzare i clienti e le relative sottoscrizioni nell'elenco a discesa *sottoscrizione* del widget *Sottoscrizioni Keystone*.
-
-
-TIP: Se stai visualizzando il dashboard _new_ nel widget *Keystone Subscriptions*, fai clic su *passa alla vecchia dashboard* per visualizzare l'elenco.
+NOTE: Una ricerca per liste di controllo recupera l'elenco delle sottoscrizioni sul vecchio dashboard. Se una lista di controllo è costituita da numeri di abbonamento, solo il widget *Keystone Subscriptions* viene visualizzato sul dashboard di Digital Advisor.
 
 image:watchlist.png["schermata elenco di controllo"]

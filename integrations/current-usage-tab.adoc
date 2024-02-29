@@ -37,4 +37,5 @@ Insieme all'utilizzo corrente, è possibile visualizzare i dati di utilizzo cron
 * link:../integrations/capacity-trend-tab.html["Tendenza capacità"]
 * link:../integrations/volumes-objects-tab.html["Oggetti  volumi"]
 * link:../integrations/performance-tab.html["Performance"]
+* link:../integrations/assets-tab.html["Scheda risorse"]
 

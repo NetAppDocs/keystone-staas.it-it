@@ -18,9 +18,39 @@ NetApp offre funzionalità nuove e migliorate in ogni release dei servizi Keysto
 
 
 
+== Nuove funzioni e miglioramenti per il 29 febbraio 2024
+
+Per questa release, sono stati apportati diversi miglioramenti alla dashboard di Active IQ Digital Advisor (nota anche come Digital Advisor) e alla schermata *Keystone Subscription*:
+
+
+
+=== Aggiunta della scheda risorse
+
+La schermata *Iscrizioni Keystone* ora include la scheda *risorse*. Questa nuova scheda fornisce informazioni a livello del cluster in base alle iscrizioni. Per ulteriori informazioni, vedere link:../integrations/assets-tab.html["Scheda risorse"^].
+
+
+
+=== Miglioramenti alla scheda volumi e oggetti
+
+Per una maggiore chiarezza dei volumi del sistema ONTAP, nella scheda *volumi* sono stati aggiunti due nuovi pulsanti di tabulazione, *Riepilogo volume* e *Dettagli volume*. La scheda *Volume Summary* fornisce un conteggio complessivo dei volumi associati ai livelli di servizio sottoscritti, incluse le informazioni sullo stato di conformità AQoS e sulla capacità. La scheda *Dettagli volume* elenca tutti i volumi e le relative specifiche. Per ulteriori informazioni, vedere link:../integrations/volumes-objects-tab.html["Scheda volumi  oggetti"^].
+
+
+
+=== Migliore esperienza di ricerca su Digital Advisor
+
+I parametri di ricerca nella schermata *Digital Advisor* ora includono i numeri di iscrizione Keystone e le liste di controllo create per le iscrizioni Keystone. È possibile immettere i primi tre caratteri del numero di abbonamento o del nome della lista di controllo. Per ulteriori informazioni, vedere link:../integrations/keystone-aiq.html["Visualizza la dashboard Keystone sul consulente digitale Active IQ"^].
+
+
+
+=== Visualizzare la data e l'ora dei dati di consumo
+
+È possibile visualizzare la data e l'ora dei dati di consumo (in UTC) sul vecchio dashboard del widget *Keystone Subscriptions*.
+
+
+
 == Nuove funzioni e miglioramenti per il 13 febbraio 2024
 
-La seguente modifica è stata apportata nella schermata *Iscrizioni Keystone* del consulente digitale Active IQ (noto anche come consulente digitale).
+Il seguente miglioramento è stato apportato nella schermata *Iscrizioni Keystone* di Active IQ Digital Advisor (noto anche come Digital Advisor).
 
 
 
@@ -34,7 +64,7 @@ Alcuni abbonamenti primari possono avere abbonamenti secondari collegati. In que
 
 Scopri le novità di questa versione.
 
-Le seguenti modifiche sono state apportate nella schermata *Iscrizioni Keystone* di Active IQ Digital Advisor (noto anche come Digital Advisor).
+I seguenti miglioramenti sono stati apportati alla schermata *Keystone Subscription* di Active IQ Digital Advisor (noto anche come Digital Advisor).
 
 
 

@@ -56,4 +56,5 @@ In caso di violazione dello SLA, viene visualizzato un image:warning.png["icona 
 * link:../integrations/capacity-trend-tab.html["Tendenza capacità"]
 * link:../integrations/volumes-objects-tab.html["Oggetti  volumi"]
 * link:../integrations/performance-tab.html["Performance"]
+* link:../integrations/assets-tab.html["Risorse"]
 

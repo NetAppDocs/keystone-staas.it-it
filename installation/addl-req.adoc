@@ -20,14 +20,12 @@ summary: prerequisiti di keystone unified manager
 ====
 .ONTAP
 --
-.Requisiti software
+.Versioni software
 . ONTAP 9,8 o versione successiva
 . Active IQ Unified Manager (Unified Manager) 9,10 o versione successiva
 
 
-.Prerequisiti
-Per installare Keystone Collector su ONTAP, eseguire questi passaggi come prerequisiti:
-
+.Prima di iniziare
 . Verificare che Unified Manager 9,10 o versione successiva sia configurato Per informazioni sull'installazione di Unified Manager, consultare i seguenti collegamenti:
 +
 ** https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/concept_requirements_for_installing_unified_manager.html["Installazione di Unified Manager su sistemi VMware vSphere"^]

@@ -137,4 +137,5 @@ Per informazioni su come MetroCluster protegge i dati, consulta https://docs.net
 * link:../integrations/sla-details-tab.html["Dettagli SLA"]
 * link:../integrations/volumes-objects-tab.html["Oggetti  volumi"]
 * link:../integrations/performance-tab.html["Performance"]
+* link:../integrations/assets-tab.html["Risorse"]
 

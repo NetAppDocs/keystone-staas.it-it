@@ -22,7 +22,7 @@ NetApp Keystone STaaS offre livelli di servizio di livello di servizio o di sost
 
 == Metriche di sostenibilità
 
-Per definire e misurare la sostenibilità vengono utilizzate le seguenti metriche:
+Le seguenti metriche definiscono e misurano la sostenibilità:
 
 * Watt: Consumo energetico giornaliero degli array ONTAP AFF Serie A e degli shelf SSD collegati.
 * TIB: Maggiore è il numero di:

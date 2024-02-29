@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: release-notes/known-issues.html 
 keywords: netapp, keystone, release notes, known issues 
-summary: Problemi noti di NetApp Service Engine 
+summary: Problemi noti in Keystone STaaS 
 ---
-= Problemi noti di NetApp Service Engine
+= Problemi noti in Keystone STaaS
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,9 @@ summary: Problemi noti di NetApp Service Engine
 
 
 [role="lead"]
-Nello STaaS NetApp Keystone sono stati riportati i seguenti problemi noti. Potresti riscontrare problemi di questo tipo durante il provisioning o l'utilizzo dello storage gestito dalle tue iscrizioni a Keystone.
+Problemi noti identificano problemi che potrebbero impedirti di utilizzare in modo efficace i servizi di abbonamento Keystone.
+
+Nello STaaS NetApp Keystone sono stati riportati i seguenti problemi noti.
 
 [cols="3*"]
 |===
@@ -22,19 +24,28 @@ Nello STaaS NetApp Keystone sono stati riportati i seguenti problemi noti. Potre
 
 
  a| 
-Derivato livello di servizio errato per i volumi mirror.
+Incongruenza occasionale nel numero di volumi non conformi AQoS nella scheda *volumi*.
  a| 
-Se sia MetroCluster che FabricPool sono abilitati in un ambiente in cui sono applicabili i piani di velocità per il tiering e lo storage a oggetti, i livelli di servizio derivati per i volumi mirror (sia i volumi costituenti che FabricPool) potrebbero non essere corretti.
+Se a un volume sono assegnati due livelli di servizio che soddisfano la conformità AQoS per un solo livello di servizio, il numero di volumi non conformi AQoS elencati nelle schede *Riepilogo volume* e *Dettagli volume* potrebbe differire.
  a| 
-Nessuno.
+Nessuno
 
 
 
  a| 
-Collegamenti e icone parzialmente visibili nella scheda *Sottoscrizioni*.
+Scheda *risorse* non popolata per gli abbonamenti AutoSupport.
  a| 
-Alcuni collegamenti e icone, come il collegamento alla scheda *uso corrente* e le descrizioni dei comandi di alcune colonne, sono parzialmente visibili.
+Se la telemetria AutoSupport viene utilizzata per la raccolta dei dati Keystone per un numero di abbonamento, non viene recuperata alcuna informazione nella scheda *asset*.
  a| 
-Non è necessaria alcuna soluzione. I collegamenti funzionano come previsto.
+Nessuno
+
+
+
+ a| 
+Aspetto non corretto della descrizione.
+ a| 
+La descrizione comando per l'icona dell'indice *sequenza corrente* non viene visualizzata correttamente nella scheda *tendenza capacità*.
+ a| 
+Fare riferimento al testo della descrizione comandi corretto "_la quantità di capacità burst attualmente consumata. Nota: Si tratta del periodo di fatturazione corrente, non dell'intervallo di date selezionato._"
 
 |===
