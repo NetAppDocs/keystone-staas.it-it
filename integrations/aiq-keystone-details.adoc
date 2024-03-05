@@ -44,15 +44,16 @@ I seguenti collegamenti forniscono ulteriori informazioni su ciascuna di queste 
 * link:../integrations/capacity-trend-tab.html["Tendenza capacità"]
 * link:../integrations/volumes-objects-tab.html["Oggetti  volumi"]
 * link:../integrations/performance-tab.html["Performance"]
+* link:../integrations/assets-tab.html["Risorse"]
 
 
 
 
 == Generare report
 
-È possibile generare e visualizzare report per i dettagli dell'abbonamento, i dati storici sull'utilizzo di un intervallo di tempo e i dettagli del volume da ciascuna scheda facendo clic sul pulsante di download: image:download-icon.png["icona di download del report"]
+Puoi generare e visualizzare report per i tuoi dati Keystone. Ogni scheda della pagina *Keystone Subscription* consente di generare report per le iscrizioni, l'utilizzo cronologico e l'utilizzo dei burst, le performance, le risorse, i volumi e gli oggetti facendo clic sul pulsante di download: image:download-icon.png["icona di download del report"]
 
-I dettagli vengono generati in formato CSV che è possibile salvare per un utilizzo futuro.
+I dettagli vengono generati in formato CSV, che è possibile salvare per uso e confronto futuri.
 
 Un esempio di referto per la scheda *Trend capacità*, in cui i dati grafici vengono convertiti:
 
