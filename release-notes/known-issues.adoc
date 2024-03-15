@@ -24,18 +24,18 @@ Nello STaaS NetApp Keystone sono stati riportati i seguenti problemi noti.
 
 
  a| 
-Incongruenza occasionale nel numero di volumi non conformi AQoS nella scheda *volumi*.
+Le informazioni sui volumi non conformi di AQoS e sui partner MetroCluster non sono disponibili per gli abbonamenti AutoSupport.
  a| 
-Se a un volume sono assegnati due livelli di servizio che soddisfano la conformità AQoS per un solo livello di servizio, il numero di volumi non conformi AQoS elencati nelle schede *Riepilogo volume* e *Dettagli volume* potrebbe differire.
+Se per la raccolta dei dati Keystone viene utilizzata la telemetria AutoSupport, il conteggio dei volumi non conformi AQoS elencati nelle schede *Riepilogo volume* e *utilizzo corrente* e le informazioni sui partner MetroCluster non sono disponibili se i dati Keystone non sono presenti per 24 ore.
  a| 
 Nessuno
 
 
 
  a| 
-Scheda *risorse* non popolata per gli abbonamenti AutoSupport.
+Incongruenza occasionale nel numero di volumi non conformi AQoS nella scheda *volumi*.
  a| 
-Se la telemetria AutoSupport viene utilizzata per la raccolta dei dati Keystone per un numero di abbonamento, non viene recuperata alcuna informazione nella scheda *asset*.
+Se a un volume sono assegnati due livelli di servizio che soddisfano la conformità AQoS per un solo livello di servizio, il numero di volumi non conformi AQoS elencati nelle schede *Riepilogo volume* e *Dettagli volume* potrebbe differire.
  a| 
 Nessuno
 

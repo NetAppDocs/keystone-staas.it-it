@@ -25,7 +25,7 @@ Il consulente digitale Active IQ fornisce informazioni complete a livello di inv
 
 Vengono visualizzati i dettagli del cluster suddivisi per impostazioni di efficienza dello storage, tipo di piattaforma e dettagli sulla capacità. Facendo clic su uno dei cluster si accede al widget *cluster* nella schermata Digital Advisor, dove si ottengono informazioni aggiuntive per quel cluster.
 
-image:assets-tab.png["Scheda risorse"]
+image:assets-tab-2.png["Scheda risorse"]
 
 *Informazioni correlate*
 

@@ -22,6 +22,15 @@ I problemi riscontrati nelle precedenti release dei servizi NetApp Keystone STaa
 
 
  a| 
+Non sono disponibili informazioni nella scheda *risorse* per gli abbonamenti AutoSupport.
+ a| 
+Corretto
+ a| 
+14 marzo 2024
+
+
+
+ a| 
 Se MetroCluster e FabricPool sono stati abilitati in un ambiente in cui i piani di tasso per il tiering e lo storage a oggetti erano applicabili, i livelli di servizio potrebbero essere derivati in modo errato per i volumi mirror (sia i volumi costituenti che i volumi FabricPool).
  a| 
 Ai volumi mirror vengono applicati livelli di servizio corretti.
