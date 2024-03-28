@@ -18,6 +18,44 @@ NetApp offre funzionalità nuove e migliorate in ogni release dei servizi Keysto
 
 
 
+== Nuove funzioni e miglioramenti relativi al 28 marzo 2024
+
+Il seguente miglioramento è stato apportato nella schermata *Iscrizioni Keystone* del consulente digitale Active IQ (noto anche come consulente digitale):
+
+
+
+=== Miglioramento della conformità alle policy QoS nella scheda Volume Details (Dettagli volume)
+
+La scheda *Dettagli volume* all'interno della scheda *volumi e oggetti* offre ora una migliore visibilità della conformità alle policy QoS (Quality of Service). La colonna precedentemente nota come *AQoS* viene rinominata *conforme*, che indica se il criterio QoS è conforme. Inoltre, viene aggiunta una nuova colonna *tipo di criterio QoS*, che specifica se il criterio è fisso o adattivo. Se non è applicabile, la colonna visualizza _non disponibile_. Per ulteriori informazioni, vedere link:../integrations/volumes-objects-tab.html["Scheda volumi  oggetti"^].
+
+
+
+=== Nella scheda Volume Summary (Riepilogo volume) vengono visualizzate una nuova colonna e una sottoscrizione semplificata
+
+* La scheda *Volume Summary* nella scheda *Volumes & Objects* include ora una nuova colonna denominata *Protected*. Questa colonna fornisce un conteggio dei volumi protetti associati ai livelli di servizio sottoscritti. Se si fa clic sul numero di volumi protetti, viene visualizzata la scheda *Dettagli volume*, in cui è possibile visualizzare un elenco filtrato di volumi protetti.
+* La scheda *Riepilogo volume* viene aggiornata per visualizzare solo le sottoscrizioni di base, esclusi i servizi aggiuntivi. Per ulteriori informazioni, vedere link:../integrations/volumes-objects-tab.html["Scheda volumi  oggetti"^].
+
+
+
+
+=== Passare alla visualizzazione dei dettagli del burst maturato nella scheda Trend capacità
+
+La descrizione comandi visualizzata quando si passa il mouse sul grafico a barre dell'utilizzo della capacità nella scheda *tendenza capacità* visualizza i dettagli dei burst maturati per il mese corrente. I dettagli non saranno disponibili per i mesi precedenti.
+
+
+
+=== Accesso migliorato per visualizzare i dati storici per le iscrizioni a Keystone
+
+Ora puoi visualizzare i dati storici se un abbonamento Keystone viene modificato o rinnovato. È possibile impostare la data di inizio di un abbonamento a una data precedente per visualizzare :
+
+* Dati relativi al consumo e all'utilizzo dei burst maturati dalla scheda *tendenza capacità*,
+* Metriche delle prestazioni dei volumi ONTAP dalla scheda *prestazioni*,
+
+
+tutti i quali mostrano i dati in base alla data selezionata dell'abbonamento.
+
+
+
 == Nuove funzioni e miglioramenti per il 29 febbraio 2024
 
 Per questa release, sono stati apportati diversi miglioramenti alla dashboard di Active IQ Digital Advisor (nota anche come Digital Advisor) e alla schermata *Keystone Subscription*:

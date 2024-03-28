@@ -40,7 +40,6 @@ I seguenti collegamenti forniscono ulteriori informazioni su ciascuna di queste 
 
 * link:../integrations/subscriptions-tab.html["Abbonamenti"]
 * link:../integrations/current-usage-tab.html["Utilizzo corrente"]
-* link:../integrations/sla-details-tab.html["Dettagli SLA"]
 * link:../integrations/capacity-trend-tab.html["Tendenza capacità"]
 * link:../integrations/volumes-objects-tab.html["Oggetti  volumi"]
 * link:../integrations/performance-tab.html["Performance"]

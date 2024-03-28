@@ -33,7 +33,6 @@ Insieme all'utilizzo corrente, è possibile visualizzare i dati di utilizzo cron
 
 * link:../integrations/aiq-keystone-details.html["Utilizza la dashboard e il reporting Keystone"]
 * link:../integrations/subscriptions-tab.html["Abbonamenti"]
-* link:../integrations/sla-details-tab.html["Dettagli SLA"]
 * link:../integrations/capacity-trend-tab.html["Tendenza capacità"]
 * link:../integrations/volumes-objects-tab.html["Oggetti  volumi"]
 * link:../integrations/performance-tab.html["Performance"]

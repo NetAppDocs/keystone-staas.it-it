@@ -33,9 +33,9 @@ La scheda Volumes offre diversi livelli di dettagli sui volumi del tuo sistema O
 . Selezionare il numero dell'abbonamento. Per impostazione predefinita, viene selezionato il primo numero di abbonamento disponibile.
 
 
-Per l'iscrizione Keystone STaaS selezionata, puoi vedere il numero totale di volumi, il loro stato di conformità AQoS e la capacità totale impegnata, consumata e disponibile in tutti questi volumi. Facendo clic sul numero di volumi non conformi, vengono visualizzati i singoli volumi elencati nella scheda *Dettagli volume*.
+Per l'iscrizione Keystone STaaS selezionata, puoi vedere il numero totale di volumi, il relativo stato di conformità AQoS, il numero di volumi protetti e la capacità totale impegnata, consumata e disponibile in tutti questi volumi. Se si fa clic sul numero di volumi non conformi o protetti, viene visualizzata la scheda *Dettagli volume*, in cui è possibile visualizzare un elenco filtrato che mostra i volumi non conformi o i volumi protetti, in base alla selezione effettuata.
 
-image:volume-summary.png["Scheda Volume Summary (Riepilogo volume)"]
+image:volume-summary-1.png["Scheda Volume Summary (Riepilogo volume)"]
 
 --
 .Dettagli volume
@@ -51,7 +51,7 @@ NOTE: Per il servizio add-on di protezione avanzata dei dati, viene visualizzata
 
 
 
-image:volume-details.png["Scheda Dettagli volumi"]
+image:volume-details-1.png["Scheda Dettagli volumi"]
 
 --
 ====
@@ -78,7 +78,6 @@ image:sg-link-2.png["Finestra di dialogo StorageGRID"]
 * link:../integrations/aiq-keystone-details.html["Utilizza la dashboard e il reporting Keystone"]
 * link:../integrations/subscriptions-tab.html["Abbonamenti"]
 * link:../integrations/current-usage-tab.html["Utilizzo corrente"]
-* link:../integrations/sla-details-tab.html["Dettagli SLA"]
 * link:../integrations/capacity-trend-tab.html["Tendenza capacità"]
 * link:../integrations/performance-tab.html["Performance"]
 * link:../integrations/assets-tab.html["Risorse"]

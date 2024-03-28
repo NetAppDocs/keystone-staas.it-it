@@ -36,7 +36,6 @@ Puoi vedere la suddivisione dell'utilizzo della capacità in base alle tue sotto
 ** Consumi superiori alla capacità burst.
 
 
-* *Accordo sul livello di servizio*: Questo stato viene visualizzato se almeno uno degli abbonamenti dispone di un contratto SLA (Service Level Agreement) Sustainability valido con NetApp. Lo stato indica se le sottoscrizioni soddisfano i criteri di sostenibilità definiti nel proprio SLA. Se le sottoscrizioni soddisfano i criteri SLA, lo stato può essere visualizzato come _all OK_.
 * *Avvisi*: Vengono visualizzati avvisi per vari scenari, se applicabili.
 +
 ** *In scadenza*: Nel caso in cui i tuoi abbonamenti scadano entro 90 giorni.

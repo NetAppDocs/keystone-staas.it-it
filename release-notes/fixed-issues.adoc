@@ -22,6 +22,33 @@ I problemi riscontrati nelle precedenti release dei servizi NetApp Keystone STaa
 
 
  a| 
+Testo della descrizione comando non corretto per l'icona dell'indice *sequenza corrente* nella scheda *tendenza capacità*.
+ a| 
+Visualizza il testo della descrizione comandi corretto "_la quantità di capacità burst attualmente consumata. Nota: Si tratta del periodo di fatturazione corrente, non dell'intervallo di date selezionato._"
+ a| 
+28 marzo 2024
+
+
+
+ a| 
+Le informazioni sui volumi non conformi di AQoS e sui partner MetroCluster non sono disponibili per gli abbonamenti AutoSupport se i dati Keystone non sono presenti per 24 ore.
+ a| 
+Corretto
+ a| 
+28 marzo 2024
+
+
+
+ a| 
+Discrepanza occasionale nel numero di volumi non conformi AQoS elencati nelle schede *Volume Summary* e *Volume Details* se vi sono due livelli di servizio assegnati a un volume che soddisfa la conformità AQoS per un solo livello di servizio.
+ a| 
+Corretto
+ a| 
+28 marzo 2024
+
+
+
+ a| 
 Non sono disponibili informazioni nella scheda *risorse* per gli abbonamenti AutoSupport.
  a| 
 Corretto
