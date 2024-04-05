@@ -18,9 +18,9 @@ Sono necessarie alcune configurazioni dell'infrastruttura virtuale per l'install
 
 .Prerequisiti per la macchina virtuale del server Keystone Collector:
 * Sistema operativo: Server VMware vCenter e ESXi 6.5 o versione successiva
-* Core: 4 CPU
-* RAM: 12 GB DI RAM
-* Spazio su disco: Disco virtuale da 200 GB
+* Core: 1 CPU
+* RAM: 2 GB DI RAM
+* Spazio su disco: Disco virtuale da 20 GB
 
 
 
@@ -79,7 +79,7 @@ Keystone Collector (generico)
  a| 
 Internet (in base ai requisiti URL forniti in seguito)
  a| 
-HTTP, HTTPS
+HTTPS
  a| 
 TCP 80, TCP 443
  a| 
@@ -154,7 +154,7 @@ Keystone Collector (generico)
  a| 
 Sistema di monitoraggio dei clienti
  a| 
-HTTP
+HTTPS
  a| 
 TCP 777
  a| 

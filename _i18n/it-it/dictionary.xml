@@ -32,7 +32,6 @@
   <block id="d5afaa3fa8ab0daf63847efd0d324dda" category="paragraph">Raccolta di metriche sull'utilizzo di Keystone Collector per StorageGRID</block>
   <block id="3a9be63d84e9a8b01937ad5727618ebd" category="paragraph">Keystone Collector (generico)</block>
   <block id="8e77c75fd2b5c8f6c41f3c1b738d2a22" category="paragraph">Internet (in base ai requisiti URL forniti in seguito)</block>
-  <block id="1de3382e8d585a7e028aaf322ae1a2e1" category="paragraph">HTTP, HTTPS</block>
   <block id="77af2ba0b86f594a268203e05693cb8f" category="paragraph">TCP 80, TCP 443</block>
   <block id="882da07ddabac1aa28b5f358bcbeb2ce" category="paragraph">Obbligatorio (connettività Internet)</block>
   <block id="01633331ef3bca3e96b0dfd60ceb54bd" category="paragraph">Caricamento di software Keystone Collector, aggiornamenti del sistema operativo e metriche</block>
@@ -54,7 +53,6 @@
   <block id="1497875687ed2ba7d1c82e7c22c9799e" category="paragraph">Funzionalità opzionale</block>
   <block id="1cdcb6b512bcad3d3f44e441ef4b8b27" category="paragraph">Raccolta di metriche delle performance per Keystone Collector</block>
   <block id="9dcb5a3c0168fd793b27b3a0ad251e42" category="paragraph">Sistema di monitoraggio dei clienti</block>
-  <block id="293c9ea246ff9985dc6f62a650f78986" category="paragraph">HTTP</block>
   <block id="763598941dbbbfc084a41d50118d7cf0" category="paragraph">TCP 777</block>
   <block id="6ef2c9b331690e63d11b8024f8e69408" category="paragraph">Reporting sullo stato di salute di Keystone Collector</block>
   <block id="08ea0a6901281eb565b3a157b1a9d68f" category="paragraph">Workstation operative del cliente</block>
@@ -150,9 +148,6 @@
   <block id="1170813543a97280cd394731272e8720" category="paragraph">Sono necessarie alcune configurazioni dell'infrastruttura virtuale per l'installazione di Keystone Collector sui sistemi VMware vSphere.</block>
   <block id="e662e98288b349f4be4a3688e1269383" category="list-title">Prerequisiti per la macchina virtuale del server Keystone Collector:</block>
   <block id="080838bb01c5d3b3c97a54a92d98023d" category="list-text">Sistema operativo: Server VMware vCenter e ESXi 6.5 o versione successiva</block>
-  <block id="a6074a8dda65f87c74db6e5b6a444683" category="list-text">Core: 4 CPU</block>
-  <block id="f003ca1f65b35534eb0dad8c4f388f6a" category="list-text">RAM: 12 GB DI RAM</block>
-  <block id="12bd6e40a7bc94d413c13b8520e74365" category="list-text">Spazio su disco: Disco virtuale da 200 GB</block>
   <block id="8bc634756fc8c4a813837243b83f84e2" category="summary">Installazione di Keystone Collector su Linux</block>
   <block id="1fb4cbb275f095e6c7e8f914d27ed735" category="paragraph">Il software Keystone Collector è distribuito da un repository di software YUM online. È necessario importare e installare il file su un server Linux.</block>
   <block id="ea74ae761acf4f1176f873f6437675f6" category="paragraph">Per installare il software sul server Linux, procedere come segue:</block>
@@ -194,10 +189,8 @@
   <block id="eb5316849956503093c848cdd2e2189f" category="paragraph">La funzione di aggiornamento automatico di Keystone Collector è attivata per impostazione predefinita, che aggiorna automaticamente il software Keystone Collector ad ogni nuova release. Tuttavia, è possibile disattivare questa funzione e aggiornare manualmente il software.</block>
   <block id="c5bc18b9ae708308f165d213528edb66" category="list-text">Nella schermata di manutenzione, selezionare l'opzione *Aggiorna raccolta ora*.</block>
   <block id="b7d00c952bfb58048323cc58b966f1a0" category="paragraph"><block ref="b7d00c952bfb58048323cc58b966f1a0" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="f8bc55f7c7f782e0fdeced65037abf84" category="paragraph">In alternativa, eseguire questo comando per aggiornare la versione:</block>
   <block id="305955a2ac717f15ce5b0f0a3abc280a" category="paragraph"><block ref="305955a2ac717f15ce5b0f0a3abc280a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b31f1ebf783dc22abf4699b042b9b3db" category="list-text">Riavviare la TUI di gestione di Keystone Collector, è possibile visualizzare l'ultima versione nella parte superiore sinistra della schermata iniziale.</block>
-  <block id="bb05cc2f27b372eeefcaf8c9d31c4fba" category="paragraph">In alternativa, eseguire questo comando per visualizzare la versione più recente:</block>
   <block id="757b4ebc5c20e88eeb53580e8bf338fd" category="summary">Raccolta dati di fatturazione da parte di Keystone Collector per ONTAP e StorageGRID</block>
   <block id="2a5a28f579ee3b6816454c527351ec56" category="doc">Tipi di dati utente raccolti da Keystone</block>
   <block id="d980f7fd4d1a571450a5dfb6e21c1ca0" category="paragraph">Keystone raccoglie informazioni su configurazione, stato e utilizzo per gli abbonamenti a Keystone ONTAP e Keystone StoragGRID. Può anche raccogliere i dati sulle prestazioni solo per ONTAP, se l'opzione è attivata in Keystone Collector.</block>
@@ -1555,4 +1548,11 @@ L'impronta digitale corretta è simile al seguente:<block ref="821b59fa560f6b692
   <block id="2edc64c57ca29e2f950fd753874bafbc" category="list-text">Metriche delle prestazioni dei volumi ONTAP dalla scheda *prestazioni*,</block>
   <block id="7a7b2bda8aa958fd2f922e2acb85ca1e" category="paragraph">tutti i quali mostrano i dati in base alla data selezionata dell'abbonamento.</block>
   <block id="f37be92ace88534a02480f8f04d48882" category="paragraph">Non vengono identificati problemi noti.</block>
+  <block id="5f2b8b9897b51974b3e829ddd4511e8e" category="paragraph">In alternativa, eseguire questi comandi per aggiornare la versione:</block>
+  <block id="014327995266184e82832bad8c943216" category="paragraph">Per CentOS:</block>
+  <block id="21a26c88c032eccbe4aba03b7481511e" category="paragraph">Per Debian:</block>
+  <block id="6c6acbd25509a9e20307e1496a9b9db2" category="paragraph">In alternativa, eseguire questi comandi per visualizzare la versione più recente:</block>
+  <block id="0ed064e2cd201442fba4d1be4a8ee19c" category="list-text">Core: 1 CPU</block>
+  <block id="2e82715d47e898df71b0f37522311a05" category="list-text">RAM: 2 GB DI RAM</block>
+  <block id="54c62dd9045f6805a09d9d86b629862d" category="list-text">Spazio su disco: Disco virtuale da 20 GB</block>
 </blocks>
