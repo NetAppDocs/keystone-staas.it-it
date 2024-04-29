@@ -40,7 +40,7 @@ I dati delle prestazioni visualizzati sul grafico orizzontale sono una media ogn
 
 
 
-=== IOPS/TiB
+== IOPS/TiB
 
 In questa sezione vengono visualizzati i grafici di input-output per i carichi di lavoro nel volume in base all'intervallo di date della query. Vengono visualizzati gli IOPS di picco per il livello di servizio e gli IOPS correnti (negli ultimi cinque minuti, non in base all'intervallo di date della query), insieme agli IOPS minimi, massimi e medi per l'intervallo di tempo, in IOPS/TiB.
 
@@ -48,7 +48,7 @@ image:perf-iops.png["IOPS del grafico"]
 
 
 
-=== Throughput (Mbps/TiB)
+== Throughput (Mbps/TiB)
 
 In questa sezione vengono visualizzati i grafici del throughput per i carichi di lavoro nel volume in base all'intervallo di date della query. Vengono visualizzati il throughput massimo per il livello di servizio (SLO Max) e il throughput corrente (negli ultimi cinque minuti, non in base all'intervallo di date della query), insieme al throughput minimo, massimo e medio per l'intervallo di tempo, in Mbps/TiB.
 
@@ -56,7 +56,7 @@ image:perf-thr.png["Grafici della produttività"]
 
 
 
-=== Latenza (ms)
+== Latenza (ms)
 
 In questa sezione vengono visualizzati i grafici della latenza per i carichi di lavoro nel volume in base all'intervallo di date della query. Vengono visualizzate la latenza massima per il livello di servizio (destinazione SLO) e la latenza corrente (negli ultimi cinque minuti, non in base all'intervallo di date della query), insieme alla latenza minima, massima e media per l'intervallo di tempo, in millisecondi.
 
@@ -70,7 +70,7 @@ image:perf-lat.png["grafici delle prestazioni"]
 
 
 
-=== TIB (Logical Used)
+== TIB (Logical Used)
 
 Questa sezione visualizza le capacità del volume oggetto del provisioning e quelle logiche utilizzate. La capacità logica utilizzata corrente (negli ultimi cinque minuti, non in base all'intervallo di date della query), insieme all'utilizzo minimo, massimo e medio per l'intervallo di tempo vengono visualizzati in Tibs. In questo grafico, l'area grigia rappresenta la capacità di commit e il grafico giallo indica l'utilizzo logico.
 

@@ -62,9 +62,6 @@ indexpage:
       url: "/concepts/uscs.html"
   - title: Scopri di più
     links:
-    - title: Abbonamenti Keystone versione 1 (in precedenza, abbonamenti Keystone
-        Flex)
-      url: https://docs.netapp.com/us-en/keystone/
     - title: Consulente digitale Active IQ
       url: https://docs.netapp.com/us-en/active-iq/index.html
     - title: BlueXP

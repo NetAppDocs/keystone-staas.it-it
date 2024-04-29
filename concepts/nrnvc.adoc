@@ -27,7 +27,7 @@ Se è stato acquistato questo servizio, tenere presente quanto segue:
 
 * Non è necessario restituire alcun disco e la memoria non volatile al termine del periodo di servizio o se si è guastato o trovato difettoso durante il periodo di servizio.
 * Tuttavia, è necessario produrre un certificato di distruzione per i dischi e/o la memoria non volatile e non può essere utilizzato per altri scopi.
-* Il costo aggiuntivo associato a NRNVC viene addebitato come percentuale della fattura mensile del servizio di abbonamento totale (include servizio standard, protezione avanzata dei dati e tiering dei dati).
+* Il costo aggiuntivo associato a NRNVC viene addebitato in percentuale del conto mensile del totale dei servizi in abbonamento (include servizio standard, protezione avanzata dei dati e tiering dei dati).
 * Questo servizio è applicabile solo ai servizi di file, blocco e oggetti.
 
 

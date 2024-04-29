@@ -1,0 +1,29 @@
+---
+sidebar: sidebar 
+permalink: subscription-services-v1.html 
+keywords: Keystone Flex Subscriptions, kfs v1, keystone legacy, Keystone subscription services version 1 
+---
+= Servizi di iscrizione Keystone | versione 1
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Keystone STaaS è stato preceduto da servizi di iscrizione Keystone (precedentemente noti come servizi di iscrizione Keystone Flex).
+
+Mentre la navigazione delle due offerte è simile in link:./integrations/aiq-keystone-details.html["Dashboard Keystone"^], I servizi di iscrizione Keystone sono diversi da Keystone STaaS per quanto riguarda i livelli di servizio, le offerte di servizio e i principi di fatturazione costituenti. Ad aprile 2024, NetApp conserva e pubblica la documentazione solo per Keystone STaaS. Se utilizzi ancora i servizi di iscrizione Keystone, contatta il tuo KSM per ottenere supporto nella migrazione a Keystone STaaS. Se necessario, puoi accedere a una versione PDF della documentazione dei servizi di abbonamento Keystone qui:
+
+* https://docs.netapp.com/a/keystone/1.0/keystone-subscription-services-guide.pdf["Inglese"^]
+* https://docs.netapp.com/a/keystone/1.0/keystone-subscription-services-guide-ja-jp.pdf["Giapponese"^]
+* https://docs.netapp.com/a/keystone/1.0/keystone-subscription-services-guide-ko-kr.pdf["Coreano"^]
+* https://docs.netapp.com/a/keystone/1.0/keystone-subscription-services-guide-zh-cn.pdf["Cinese (semplificato)"^]
+* https://docs.netapp.com/a/keystone/1.0/keystone-subscription-services-guide-zh-tw.pdf["Cinese (tradizionale)"^]
+* https://docs.netapp.com/a/keystone/1.0/keystone-subscription-services-guide-de-de.pdf["Tedesco"^]
+* https://docs.netapp.com/a/keystone/1.0/keystone-subscription-services-guide-es-es.pdf["Spagnolo"^]
+* https://docs.netapp.com/a/keystone/1.0/keystone-subscription-services-guide-fr-fr.pdf["Francese"^]
+* https://docs.netapp.com/a/keystone/1.0/keystone-subscription-services-guide-it-it.pdf["Italiano"^]
+
