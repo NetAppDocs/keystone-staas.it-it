@@ -80,10 +80,12 @@ Eseguire questi passaggi sui sistemi VMware vSphere per una configurazione inizi
 
 NOTE: Una volta completata la distribuzione, è possibile utilizzare l'utility Keystone Collector Management Terminal User Interface (TUI) per eseguire le attività di configurazione e monitoraggio. Per selezionare le opzioni e spostarsi all'interno dell'interfaccia telefonica utente, è possibile utilizzare diversi comandi della tastiera, ad esempio i tasti Invio e freccia.
 
-. Aprire una sessione SSH sul server di Keystone Collector. All'accesso, viene visualizzata l'interfaccia telefonica utente (TUI). In alternativa, è possibile avviare l'interfaccia telefonica utente manualmente eseguendo `keystone-collector-tui` Comando CLI.
+. Aprire una sessione SSH sul server di Keystone Collector. Quando si effettua la connessione, il sistema richiede di aggiornare la password dell'amministratore. Completare l'aggiornamento della password amministratore come richiesto.
+. Accedere utilizzando la nuova password per accedere all'interfaccia telefonica utente.  All'accesso, viene visualizzata l'interfaccia telefonica utente (TUI).
++
+In alternativa, è possibile avviarlo manualmente eseguendo il `keystone-collector-tui` Comando CLI.
+
 . Se necessario, configurare i dettagli del proxy nella sezione *Configurazione > rete* dell'interfaccia telefonica utente.
-. Aggiornare Keystone Collector utilizzando l'opzione *manutenzione > Aggiorna sistema*. Alcuni mirror selezionati potrebbero non essere disponibili e i dettagli del sistema vengono aggiornati dopo alcuni tentativi.
 . Configurare il nome host, la posizione e il server NTP del sistema nella sezione *Configurazione > sistema*.
-. Aggiornare la password admin nella sezione *manutenzione > utente*.
-. Contrassegnare la configurazione OVA iniziale come completata nella sezione *Configurazione > Avanzate*.
+. Aggiornare Keystone Collector utilizzando l'opzione *manutenzione > Aggiorna Collector*. Dopo l'aggiornamento, riavviare l'utility Keystone Collector management TUI per applicare le modifiche.
 
