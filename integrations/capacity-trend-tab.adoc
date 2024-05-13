@@ -41,7 +41,7 @@ TIP: Per ottenere prestazioni ottimali e un'esperienza utente ottimale, limitare
 
 I grafici a barre visualizzano il nome del livello di servizio e la capacità consumata rispetto a tale livello di servizio per l'intervallo di date. La data e l'ora della raccolta vengono visualizzate nella parte inferiore del grafico. In base all'intervallo di date della query, i grafici di utilizzo vengono visualizzati in un intervallo di 30 punti di raccolta dati. Puoi spostare il cursore del mouse sui grafici per visualizzare la suddivisione dell'utilizzo in termini di dati impegnati, consumati, burst e superiori al limite burst in quel punto di raccolta dati.
 
-image:aiq-ks-subtime-2.png["Scheda Trend capacità con dettagli"]
+image:aiq-ks-subtime-3.png["Scheda Trend capacità con dettagli"]
 
 I seguenti colori nei grafici a barre indicano la capacità consumata come definita nel livello di servizio. I dati mensili attraverso i grafici sono separati da una linea verticale.
 

@@ -27,7 +27,7 @@ Per visualizzare i dettagli dell'abbonamento e dell'utilizzo di Keystone, attene
 
 .Fasi
 . Accedere a Digital Advisor. Puoi vedere il widget *Keystone Subscriptions* che riepiloga l'utilizzo della capacità rispetto ai servizi Keystone acquistati.
-. Nel widget *Abbonamenti Keystone*, fare clic su *Visualizza ulteriori dettagli* per visualizzare i dettagli di utilizzo e gli avvisi sui volumi nella pagina *Abbonamenti Keystone*. In alternativa, dal riquadro di navigazione a sinistra, andare a *GENERAL > Keystone Subscriptions* (GENERALE > Abbonamenti Keystone).
+. Nel widget *Keystone Subscriptions*, fare clic su *View All Subscriptions* (Visualizza tutte le sottoscrizioni*) per visualizzare i dettagli di utilizzo e gli avvisi sui volumi nella pagina *Keystone Subscription*. In alternativa, dal riquadro di navigazione a sinistra, andare a *GENERAL > Keystone Subscriptions* (GENERALE > Abbonamenti Keystone).
 I dettagli degli abbonamenti, i grafici di utilizzo per ciascun livello di servizio e i dettagli del volume sono visualizzati nelle diverse schede della schermata *Abbonamenti Keystone*.
 
 
@@ -56,27 +56,19 @@ I dettagli vengono generati in formato CSV, che è possibile salvare per uso e c
 
 Un esempio di referto per la scheda *Trend capacità*, in cui i dati grafici vengono convertiti:
 
-image:report.png["csv del report"]
+image:report_1.png["csv del report"]
 
 
 
 == Visualizza avvisi
 
-Gli avvisi sul dashboard inviano messaggi di attenzione che consentono di comprendere i problemi che si verificano nell'ambiente di storage.
+La dashboard fornisce notifiche di avviso che ti consentono di comprendere i problemi che si verificano nel tuo ambiente di storage. Queste notifiche possono apparire come avvisi informativi o avvisi. Ad esempio, se all'interno dei cluster gestiti sono presenti volumi che non dispongono di criteri QoS adattivi (AQoS), viene visualizzato un messaggio di avviso. È possibile fare clic sul collegamento sul messaggio di avviso per visualizzare l'elenco dei volumi non conformi nella scheda *volumi e oggetti*.
 
-Gli avvisi possono essere di due tipi:
-
-* *Informazioni*: In caso di problemi, come ad esempio le sottoscrizioni, è possibile visualizzare avvisi informativi. Passare il cursore sull'icona delle informazioni per ulteriori informazioni sul problema.
-* *Attenzione*: I problemi, come la non conformità, vengono visualizzati come avvisi. Ad esempio, se all'interno dei cluster gestiti sono presenti volumi che non dispongono di criteri QoS adattivi (AQoS), viene visualizzato un messaggio di avviso. È possibile fare clic sul collegamento sul messaggio di avviso per visualizzare l'elenco dei volumi non conformi nella scheda *volumi*.
-+
 
 NOTE: Se si è abbonati a un singolo livello di servizio o piano tariffario, non sarà possibile visualizzare l'avviso relativo ai volumi non conformi.
 
-+
+image:alert-aiq-1.png["avviso"]
+
 Per informazioni sui criteri AQoS, vedere link:../concepts/qos.html["QoS adattiva"].
 
-
-
-image:alert-aiq.png["avviso"]
-
-Contattare il supporto NetApp per ulteriori informazioni su questi messaggi di avvertenza. Per informazioni sull'invio di richieste di servizio, vedere link:../concepts/gssc.html#generating-service-requests["Generazione di richieste di servizio"].
+Per ulteriori informazioni su questi messaggi, contattare l'assistenza NetApp. Per informazioni sull'invio di richieste di servizio, vedere link:../concepts/gssc.html#generating-service-requests["Generazione di richieste di servizio"].

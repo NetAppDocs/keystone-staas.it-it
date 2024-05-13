@@ -39,8 +39,7 @@ Puoi vedere la suddivisione dell'utilizzo della capacità in base alle tue sotto
 * *Avvisi*: Vengono visualizzati avvisi per vari scenari, se applicabili.
 +
 ** *In scadenza*: Nel caso in cui i tuoi abbonamenti scadano entro 90 giorni.
-** *Aggiornamenti hardware critici*: Se sono in sospeso aggiornamenti hardware critici.
-** *Avvertenze AQoS*: Sono stati assegnati volumi senza criteri AQoS.
+** *QoS Warnings*: Sono stati assegnati volumi senza criteri AQoS.
 +
 
 TIP: Fare clic sul collegamento *Sottoscrizioni* per visualizzare l'elenco delle sottoscrizioni filtrate nella scheda *Sottoscrizioni*.
@@ -49,7 +48,7 @@ TIP: Fare clic sul collegamento *Sottoscrizioni* per visualizzare l'elenco delle
 
 
 
-image:new-db.png["nuovo cruscotto"]
+image:new-db-2.png["nuovo cruscotto"]
 
 Per ulteriori informazioni sul widget dashboard di Digital Advisor per Keystone, consulta https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html["Documentazione di Digital Advisor"^].
 

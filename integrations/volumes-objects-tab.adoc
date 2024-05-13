@@ -49,9 +49,14 @@ Puoi vedere un elenco tabulare dei volumi, come l'utilizzo della capacità, il t
 
 NOTE: Per il servizio add-on di protezione avanzata dei dati, viene visualizzata una colonna aggiuntiva per indicare se il volume è un volume primario o mirror nella configurazione di MetroCluster. È possibile copiare i numeri di serie dei singoli nodi facendo clic sul pulsante *Copy Node Serials* (Copia serie nodi).
 
++
+
+NOTE: Per le sottoscrizioni che coprono i livelli di servizio sia per il file che per l'oggetto, è possibile visualizzare i dettagli dell'archiviazione degli oggetti facendo clic sul pulsante *Dettagli archiviazione oggetti*.
+
++
+image:volume-details-2.png["Scheda Dettagli volumi"]
 
 
-image:volume-details-1.png["Scheda Dettagli volumi"]
 
 --
 ====

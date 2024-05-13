@@ -18,9 +18,33 @@ NetApp offre funzionalità nuove e migliorate in ogni release dei servizi Keysto
 
 
 
+== Nuove funzioni e miglioramenti relativi al 09 maggio 2024
+
+I seguenti miglioramenti vengono apportati nella schermata *Iscrizioni Keystone* di Active IQ Digital Advisor (noto anche come Digital Advisor):
+
+
+
+=== Nuove colonne nei rapporti CSV
+
+I report CSV della scheda *tendenza capacità* includono ora le colonne *numero di abbonamento* e *Nome account* per migliorare i dettagli.
+
+
+
+=== Colonna tipo di utilizzo avanzato
+
+La colonna *tipo di utilizzo* all'interno della scheda *Sottoscrizioni* è stata migliorata per visualizzare gli utilizzi logici e fisici come valori separati da virgole per le sottoscrizioni che coprono i livelli di servizio sia per i file che per gli oggetti.
+
+
+
+=== Accedi ai dettagli dello storage a oggetti dalla scheda Dettagli del volume
+
+La scheda *Dettagli volume* all'interno della scheda *volumi e oggetti* fornisce ora dettagli sull'archiviazione degli oggetti insieme alle informazioni sul volume per le sottoscrizioni che includono livelli di servizio sia per i file che per gli oggetti. È possibile fare clic sul pulsante *Dettagli archiviazione oggetti* nella scheda *Dettagli volume* per visualizzare i dettagli.
+
+
+
 == Nuove funzioni e miglioramenti relativi al 28 marzo 2024
 
-Il seguente miglioramento è stato apportato nella schermata *Iscrizioni Keystone* del consulente digitale Active IQ (noto anche come consulente digitale):
+Il seguente miglioramento è stato apportato nella schermata *Iscrizioni Keystone* del consulente digitale Active IQ:
 
 
 
