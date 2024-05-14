@@ -16,4 +16,18 @@ summary: Problemi noti in Keystone STaaS
 [role="lead"]
 Problemi noti identificano problemi che potrebbero impedirti di utilizzare in modo efficace i servizi di abbonamento Keystone.
 
-Non vengono identificati problemi noti.
+Nello STaaS NetApp Keystone sono stati riportati i seguenti problemi noti.
+
+[cols="3*"]
+|===
+| Problema noto | Descrizione | Soluzione alternativa 
+
+
+ a| 
+Visualizzazione errata dei dati Keystone nei report CSV.
+ a| 
+Se la colonna *Nome account* nei report CSV, generata dalla scheda *Trend capacità*, include un nome account con una virgola `(,)`, I dati Keystone sembrano posizionati in modo errato nei rapporti CSV.
+ a| 
+Nessuno
+
+|===
