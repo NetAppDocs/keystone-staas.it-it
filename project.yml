@@ -17,10 +17,10 @@ sidebar:
       url: "/release-notes/whats-new.html"
     - title: Problemi risolti
       url: "/release-notes/fixed-issues.html"
-    - title: Limitazioni note
-      url: "/release-notes/known-limitations.html"
     - title: Problemi noti
       url: "/release-notes/known-issues.html"
+    - title: Limitazioni note
+      url: "/release-notes/known-limitations.html"
   - title: Benvenuto in Keystone
     url: "/concepts/overview.html"
   - title: Impostare e configurare Keystone
@@ -51,62 +51,58 @@ sidebar:
       url: "/installation/upgrade.html"
     - title: Configura AutoSupport per Keystone
       url: "/installation/asup-config.html"
+    - title: Sicurezza di Keystone Collector
+      url: "/installation/security.html"
     - title: Dati raccolti per la fatturazione
       url: "/installation/data-collection.html"
-  - title: Visualizza la dashboard Keystone e gestisci le iscrizioni
+  - title: Dashboard Keystone
     entries:
-    - title: Visualizza la dashboard Keystone sul consulente digitale Active IQ
-      entries:
-      - title: Dashboard Keystone e Digital Advisor
-        url: "/integrations/keystone-aiq.html"
-      - title: Visualizzare dettagli sui consumi e generare report
-        url: "/integrations/aiq-keystone-details.html"
-      - title: Scheda sottoscrizioni
-        url: "/integrations/subscriptions-tab.html"
-      - title: Scheda uso corrente
-        url: "/integrations/current-usage-tab.html"
-      - title: Scheda Trend capacità
-        url: "/integrations/capacity-trend-tab.html"
-      - title: Scheda volumi e oggetti
-        url: "/integrations/volumes-objects-tab.html"
-      - title: Scheda prestazioni
-        url: "/integrations/performance-tab.html"
-      - title: Scheda risorse
-        url: "/integrations/assets-tab.html"
+    - title: Visualizza la dashboard Keystone
+      url: "/integrations/keystone-aiq.html"
+    - title: Visualizzare i dettagli sull'utilizzo e generare report
+      url: "/integrations/aiq-keystone-details.html"
+    - title: Scheda sottoscrizioni
+      url: "/integrations/subscriptions-tab.html"
+    - title: Scheda uso corrente
+      url: "/integrations/current-usage-tab.html"
+    - title: Scheda Trend capacità
+      url: "/integrations/capacity-trend-tab.html"
+    - title: Scheda volumi e oggetti
+      url: "/integrations/volumes-objects-tab.html"
+    - title: Scheda prestazioni
+      url: "/integrations/performance-tab.html"
+    - title: Scheda risorse
+      url: "/integrations/assets-tab.html"
     - title: Gestione delle iscrizioni Keystone da BlueXP
       url: "/integrations/keystone-cm.html"
-  - title: Scopri Keystone
+  - title: Servizi Keystone STaaS
     entries:
-    - title: Capacità di storage supportata
-      url: "/concepts/supported-storage-capacity.html"
     - title: Metriche e definizioni
       url: "/concepts/metrics.html"
-    - title: Storage supportato in Keystone
-      url: "/concepts/supported-storage-services.html"
-    - title: Livelli di servizio in Keystone
-      url: "/concepts/service-levels.html"
-    - title: Servizi aggiuntivi
-      entries:
-      - title: Servizi aggiuntivi in Keystone STaaS
-        url: "/concepts/add-on.html"
-      - title: Tiering dei dati
-        url: "/concepts/data-tiering.html"
-      - title: Protezione avanzata dei dati
-        url: "/concepts/adp.html"
-      - title: STATI UNITI Supporto cittadino (USCS)
-        url: "/concepts/uscs.html"
-      - title: Componenti non restituibili, non volatili e conformità SnapLock
-        url: "/concepts/nrnvc.html"
-      - title: Keystone ed Equinix
-        url: "/concepts/equinix.html"
-    - title: Keystone Subscription Services versione 1
-      url: "/subscription-services-v1.html"
-  - title: Ulteriori informazioni sui livelli di servizio
-    entries:
     - title: Qualità del servizio
       url: "/concepts/qos.html"
-    - title: Requisiti di capacità per i livelli di servizio
+    - title: Storage supportato
+      url: "/concepts/supported-storage-services.html"
+    - title: Capacità supportata
+      url: "/concepts/supported-storage-capacity.html"
+    - title: Livelli di servizio
+      url: "/concepts/service-levels.html"
+    - title: Capacità supportata per i livelli di servizio
       url: "/concepts/capacity-requirements.html"
+    - title: Keystone Subscription Services versione 1
+      url: "/subscription-services-v1.html"
+    - title: Servizi add-on
+      entries:
+      - title: Protezione avanzata dei dati
+        url: "/concepts/adp.html"
+      - title: Tiering dei dati
+        url: "/concepts/data-tiering.html"
+      - title: Servizi basati su Equinix
+        url: "/concepts/equinix.html"
+      - title: Componenti non restituibili, non volatili e conformità SnapLock
+        url: "/concepts/nrnvc.html"
+      - title: STATI UNITI Supporto cittadino (USCS)
+        url: "/concepts/uscs.html"
   - title: Fatturazione
     entries:
     - title: Prezzo Keystone
