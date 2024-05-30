@@ -16,11 +16,49 @@ summary: Nuove funzionalità e miglioramenti di Keystone STaaS.
 [role="lead"]
 NetApp offre funzionalità nuove e migliorate in ogni release dei servizi Keystone STaaS.
 
+I seguenti miglioramenti sono stati introdotti nella schermata *Keystone Subscription* di Active IQ Digital Advisor (noto anche come Digital Advisor):
 
 
-== Nuove funzioni e miglioramenti relativi al 09 maggio 2024
 
-I seguenti miglioramenti vengono apportati nella schermata *Iscrizioni Keystone* di Active IQ Digital Advisor (noto anche come Digital Advisor):
+== 29 maggio 2024
+
+
+
+=== Indicatore burst migliorato
+
+L'indicatore *Burst* nell'indice grafico di utilizzo è stato migliorato per visualizzare il valore percentuale del limite burst. Questo valore cambia a seconda del limite di burst concordato per un abbonamento. È inoltre possibile visualizzare il valore del limite di burst nella scheda *Sottoscrizioni* passando con il mouse sull'indicatore *utilizzo burst* nella colonna *Stato utilizzo*.
+
+
+
+=== Aggiunta di livelli di servizio
+
+I livelli di servizio *CVO primario* e *CVO secondario* sono inclusi per supportare Cloud Volumes ONTAP per gli abbonamenti che hanno piani tariffari con zero capacità impegnata o quelli configurati con un cluster metro.
+
+* È possibile visualizzare il grafico dell'utilizzo della capacità per questi livelli di servizio dal vecchio dashboard del widget *Keystone Subscription* e dalla scheda *Capacity Trend*, nonché informazioni dettagliate sull'utilizzo dalla scheda *utilizzo corrente*.
+* Nella scheda *sottoscrizione*, questi livelli di servizio vengono visualizzati come `CVO (v2)` Nella colonna *tipo di utilizzo*, che consente l'identificazione della fatturazione in base a questi livelli di servizio.
+
+
+
+
+=== Funzione di ingrandimento per approfondimenti microbustici
+
+La scheda *tendenza capacità* include ora una funzione di zoom per visualizzare i dettagli delle sovratensioni a breve termine, note come microbasti, nei grafici di utilizzo. Per ulteriori informazioni, vedere link:../integrations/capacity-trend-tab.html["Scheda Trend capacità"^].
+
+
+
+=== Visualizzazione migliorata degli abbonamenti
+
+La visualizzazione predefinita delle sottoscrizioni è stata migliorata per ordinare in base all'ID di rilevamento. Le sottoscrizioni nella scheda *Sottoscrizioni*, inclusi i rapporti a discesa *Sottoscrizioni* e CSV, verranno ora visualizzate in base alla sequenza alfabetica degli ID di rilevamento, seguendo l'ordine di a, A, b, B e così via.
+
+
+
+=== Display burst migliorato
+
+La descrizione comandi visualizzata quando si passa il mouse sul grafico a barre dell'utilizzo della capacità nella scheda *tendenza capacità* visualizza ora il tipo di burst maturato in base alla capacità impegnata. Esso differenzia tra burst accantonato provvisorio e fatturato, indicando *consumo accantonato provvisorio* e *consumo maturato fatturato* per abbonamenti con piani tasso di capacità impegnati zero, e *Burst accantonato provvisorio* e *Burst maturato fatturato* per quelli con capacità impegnata diversa da zero.
+
+
+
+== 09 maggio 2024
 
 
 
@@ -42,9 +80,7 @@ La scheda *Dettagli volume* all'interno della scheda *volumi e oggetti* fornisce
 
 
 
-== Nuove funzioni e miglioramenti relativi al 28 marzo 2024
-
-Il seguente miglioramento è stato apportato nella schermata *Iscrizioni Keystone* del consulente digitale Active IQ:
+== 28 marzo 2024
 
 
 
@@ -110,9 +146,7 @@ I parametri di ricerca nella schermata *Digital Advisor* ora includono i numeri 
 
 
 
-== Nuove funzioni e miglioramenti per il 13 febbraio 2024
-
-Il seguente miglioramento è stato apportato nella schermata *Iscrizioni Keystone* di Active IQ Digital Advisor (noto anche come Digital Advisor).
+== 13 febbraio 2024
 
 
 
@@ -122,11 +156,7 @@ Alcuni abbonamenti primari possono avere abbonamenti secondari collegati. In que
 
 
 
-== Nuove funzioni e migliorie per il 11 gennaio 2024
-
-Scopri le novità di questa versione.
-
-I seguenti miglioramenti sono stati apportati alla schermata *Keystone Subscription* di Active IQ Digital Advisor (noto anche come Digital Advisor).
+== 11 gennaio 2024
 
 
 
@@ -142,9 +172,7 @@ Se si dispone di un abbonamento con piani tariffari con capacità impegnata _zer
 
 
 
-== Nuove funzioni e migliorie per il 15 dicembre 2023
-
-Scopri le novità di questa versione.
+== 15 dicembre 2023
 
 
 

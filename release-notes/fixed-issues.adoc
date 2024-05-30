@@ -22,6 +22,24 @@ I problemi riscontrati nelle precedenti release dei servizi NetApp Keystone STaa
 
 
  a| 
+Posizionamento errato dei dati Keystone nei report CSV se la colonna *Nome account* nei report CSV, generata dalla scheda *Trend capacità*, include un nome account con una virgola `(,)`.
+ a| 
+I dati Keystone sono correttamente allineati nei report CSV.
+ a| 
+29 maggio 2024
+
+
+
+ a| 
+Visualizzare l'utilizzo dei burst maturati dalla scheda *tendenza capacità* anche se il consumo è inferiore alla capacità impegnata.
+ a| 
+Corretto
+ a| 
+29 maggio 2024
+
+
+
+ a| 
 Testo della descrizione comando non corretto per l'icona dell'indice *sequenza corrente* nella scheda *tendenza capacità*.
  a| 
 Visualizza il testo della descrizione comandi corretto "_la quantità di capacità burst attualmente consumata. Nota: Si tratta del periodo di fatturazione corrente, non dell'intervallo di date selezionato._"

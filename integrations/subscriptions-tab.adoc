@@ -18,7 +18,7 @@ summary: Scheda sottoscrizioni nella dashboard AIQ da Keystone
 
 Per visualizzare questa scheda, dal riquadro di navigazione a sinistra, vai a *GENERALE > Sottoscrizioni Keystone > Sottoscrizioni*. Sono elencati tutti i tuoi abbonamenti.
 
-image:all-subs.png["Un'immagine della scheda Abbonamenti"]
+image:all-subs-2.png["Un'immagine della scheda Abbonamenti"]
 
 È possibile filtrare la selezione facendo clic sull'icona dell'hamburger image:icon-hamburger.png["icona hamburger"] Per visualizzare una colonna o tutte le sottoscrizioni, fare clic sul pulsante *Cancella filtri*. Per alcuni campi e colonne, è possibile visualizzare informazioni o icone di avvertenza e descrizioni dei comandi che forniscono informazioni aggiuntive sui dati.
 
@@ -39,7 +39,7 @@ TIP: Se si è abbonati al servizio add-on per la protezione avanzata dei dati, �
 
 Per verificare lo stato di utilizzo di ciascun abbonamento, fare riferimento ai seguenti indicatori di utilizzo:
 
-image:usage-indicator.png["icona"]
+image:usage-indicator-1.png["icona"]
 
 .Indice
 image:icon-grey.png["icona del punto grigio"]: Nessun utilizzo della capacità registrato rispetto alla capacità impegnata del livello di servizioimage:icon-green.png["icona del punto verde"]: Il consumo è normale, entro il 80% della capacità impegnataimage:icon-amber.png["icona del punto ambra"]: Il consumo massimo, cioè l'utilizzo sta per raggiungere il 100% o più della capacità impegnata. La colonna *consumato* visualizza questo indicatore per qualsiasi consumo superiore al 80% della capacità impegnataimage:icon-red.png["icona con punto rosso"]: Il consumo rientra nel limite di burst. Il consumo burst è il consumo che supera il 100% della capacità impegnata di un livello di servizio e rientra nel limite di utilizzo burst concordato, ad esempio il 120%image:icon-purple.png["icona del punto viola"]Indica un consumo superiore al limite di burst stabilito

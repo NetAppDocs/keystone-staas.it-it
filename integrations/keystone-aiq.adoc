@@ -23,7 +23,7 @@ Digital Advisor offre un dashboard unificato che fornisce informazioni dettaglia
 .Dashboard predefinito (vecchio)
 Puoi visualizzare il nome del cliente e il numero di iscrizione, il nome dell'account, le date di inizio e fine dell'iscrizione e i grafici sull'utilizzo della capacità in base ai livelli di servizio con iscrizione. È possibile visualizzare la data e l'ora di raccolta dei dati di consumo in ora UTC.
 
-image:old-db.png["vecchio cruscotto"]
+image:old-db-1.png["vecchio cruscotto"]
 
 .Cruscotto alternativo (nuovo)
 Puoi vedere la suddivisione dell'utilizzo della capacità in base alle tue sottoscrizioni e avvisi e avvisi che richiedono attenzione o azione immediata. Le informazioni vengono visualizzate in modo selettivo, a seconda delle sottoscrizioni e dello stato di utilizzo. È possibile visualizzare le seguenti informazioni:

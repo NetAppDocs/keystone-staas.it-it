@@ -67,7 +67,7 @@ La dashboard fornisce notifiche di avviso che ti consentono di comprendere i pro
 
 NOTE: Se si è abbonati a un singolo livello di servizio o piano tariffario, non sarà possibile visualizzare l'avviso relativo ai volumi non conformi.
 
-image:alert-aiq-1.png["avviso"]
+image:alert-aiq-2.png["avviso"]
 
 Per informazioni sui criteri AQoS, vedere link:../concepts/qos.html["QoS adattiva"].
 

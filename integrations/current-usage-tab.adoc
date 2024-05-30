@@ -18,7 +18,7 @@ La scheda *utilizzo corrente* visualizza i dettagli di utilizzo delle sottoscriz
 
 Per visualizzare questa scheda, dal riquadro di navigazione a sinistra, vai a *GENERALE > Sottoscrizioni Keystone > utilizzo corrente* e seleziona il numero di abbonamento richiesto.
 
-image:aiq-ks-dtls-1.png["Scheda uso corrente"]
+image:aiq-ks-dtls-2.png["Scheda uso corrente"]
 
 Per l'abbonamento selezionato, è possibile visualizzare i dettagli, ad esempio le date di inizio e di fine dell'abbonamento e il periodo di fatturazione, ad esempio mensile o annuale. Come parte dell'utilizzo dell'abbonamento, è possibile visualizzare il nome del livello di servizio, Commit, consumed, Available Capacity e Current and Accrued Burst Use (in TIB).
 
