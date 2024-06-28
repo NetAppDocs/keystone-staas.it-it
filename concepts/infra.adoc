@@ -50,4 +50,4 @@ Oltre alle apparecchiature di storage, vengono forniti due tool di monitoraggio 
 
 image:mgmt-stack.png["stack di gestione"]
 
-Il consulente digitale Active IQ (detto anche Digital Advisor) ti consente di accedere e visualizzare i dettagli dell'iscrizione e del consumo per le tue iscrizioni Keystone. Per ulteriori informazioni sui report Keystone nella dashboard di Digital Advisor, vedere link:../integrations/keystone-aiq.html["Keystone e Digital Advisor"].
+ Digital Advisor enables you to log in and view the subscription and consumption details for your Keystone subscriptions. For more information about Keystone reporting on the Digital Advisor dashboard, see link:../integrations/keystone-aiq.html[Keystone and Digital Advisor].

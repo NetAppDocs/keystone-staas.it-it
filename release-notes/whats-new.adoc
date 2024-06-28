@@ -20,6 +20,20 @@ I seguenti miglioramenti sono stati introdotti nella schermata *Keystone Subscri
 
 
 
+== 27 giugno 2024
+
+
+
+=== Visualizzazione coerente dell'abbonamento
+
+La schermata *Iscrizioni Keystone* viene aggiornata per visualizzare il numero di abbonamento selezionato in tutte le schede.
+
+* Quando viene aggiornata una scheda nella schermata *Sottoscrizioni Keystone*, la schermata passa automaticamente alla scheda *Sottoscrizioni* e ripristina tutte le schede alla prima sottoscrizione elencata nel menu a discesa *sottoscrizione*.
+* Se l'abbonamento selezionato non è iscritto alle metriche di prestazione, la scheda *prestazioni* visualizzerà il primo abbonamento elencato nel menu a discesa *abbonamento* al momento della navigazione.
+
+
+
+
 == 29 maggio 2024
 
 
@@ -35,7 +49,7 @@ L'indicatore *Burst* nell'indice grafico di utilizzo è stato migliorato per vis
 I livelli di servizio *CVO primario* e *CVO secondario* sono inclusi per supportare Cloud Volumes ONTAP per gli abbonamenti che hanno piani tariffari con zero capacità impegnata o quelli configurati con un cluster metro.
 
 * È possibile visualizzare il grafico dell'utilizzo della capacità per questi livelli di servizio dal vecchio dashboard del widget *Keystone Subscription* e dalla scheda *Capacity Trend*, nonché informazioni dettagliate sull'utilizzo dalla scheda *utilizzo corrente*.
-* Nella scheda *sottoscrizione*, questi livelli di servizio vengono visualizzati come `CVO (v2)` Nella colonna *tipo di utilizzo*, che consente l'identificazione della fatturazione in base a questi livelli di servizio.
+* Nella scheda *Sottoscrizioni*, questi livelli di servizio vengono visualizzati come `CVO (v2)` Nella colonna *tipo di utilizzo*, che consente l'identificazione della fatturazione in base a questi livelli di servizio.
 
 
 
@@ -48,7 +62,7 @@ La scheda *tendenza capacità* include ora una funzione di zoom per visualizzare
 
 === Visualizzazione migliorata degli abbonamenti
 
-La visualizzazione predefinita delle sottoscrizioni è stata migliorata per ordinare in base all'ID di rilevamento. Le sottoscrizioni nella scheda *Sottoscrizioni*, inclusi i rapporti a discesa *Sottoscrizioni* e CSV, verranno ora visualizzate in base alla sequenza alfabetica degli ID di rilevamento, seguendo l'ordine di a, A, b, B e così via.
+La visualizzazione predefinita delle sottoscrizioni è stata migliorata per ordinare in base all'ID di rilevamento. Le sottoscrizioni nella scheda *Sottoscrizioni*, inclusi i rapporti a discesa *sottoscrizione* e CSV, verranno ora visualizzate in base alla sequenza alfabetica degli ID di tracciamento, seguendo l'ordine di a, A, b, B e così via.
 
 
 
@@ -116,9 +130,7 @@ tutti i quali mostrano i dati in base alla data selezionata dell'abbonamento.
 
 
 
-== Nuove funzioni e miglioramenti per il 29 febbraio 2024
-
-Per questa release, sono stati apportati diversi miglioramenti alla dashboard di Active IQ Digital Advisor (nota anche come Digital Advisor) e alla schermata *Keystone Subscription*:
+== 29 febbraio 2024
 
 
 
@@ -178,10 +190,10 @@ Se si dispone di un abbonamento con piani tariffari con capacità impegnata _zer
 
 === Possibilità di effettuare ricerche in base alle liste di controllo
 
-Il supporto per le liste di controllo in Active IQ Digital Advisor (noto anche come Digital Advisor) è stato esteso per includere i sistemi Keystone. È ora possibile visualizzare i dettagli degli abbonamenti per più clienti effettuando una ricerca con gli elenchi di controllo. Per ulteriori informazioni sull'utilizzo delle liste di controllo in Keystone STaaS, vedere link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists["Effettuare una ricerca utilizzando gli elenchi di controllo Keystone"^].
+Il supporto per le liste di controllo in Digital Advisor è stato esteso per includere i sistemi Keystone. È ora possibile visualizzare i dettagli degli abbonamenti per più clienti effettuando una ricerca con gli elenchi di controllo. Per ulteriori informazioni sull'utilizzo delle liste di controllo in Keystone STaaS, vedere link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists["Effettuare una ricerca utilizzando gli elenchi di controllo Keystone"^].
 
 
 
 === Data di conversione in fuso orario UTC
 
-I dati restituiti nelle schede della schermata *Sottoscrizioni Keystone* di Active IQ Digital Advisor vengono visualizzati in ora UTC (fuso orario del server). Quando si immette una data per la query, questa viene automaticamente considerata nel fuso orario UTC. Per ulteriori informazioni, vedere link:../integrations/aiq-keystone-details.html["Dashboard e reporting per l'abbonamento Keystone"^].
+I dati restituiti nelle schede della schermata *Keystone Subscriptions* di Digital Advisor vengono visualizzati in ora UTC (fuso orario del server). Quando si immette una data per la query, questa viene automaticamente considerata nel fuso orario UTC. Per ulteriori informazioni, vedere link:../integrations/aiq-keystone-details.html["Dashboard e reporting per l'abbonamento Keystone"^].

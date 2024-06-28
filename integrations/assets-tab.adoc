@@ -16,7 +16,7 @@ summary: 'Report e grafici dell"abbonamento Keystone'
 [role="lead"]
 Utilizza la scheda *risorse* per raccogliere prospettive sul tuo cluster e sui nodi gestiti dalle tue sottoscrizioni Keystone.
 
-Il consulente digitale Active IQ fornisce informazioni complete a livello di inventario sulle implementazioni. La scheda *risorse* del dashboard Keystone, invece, accumula le informazioni a livello di cluster sulla base dei tuoi abbonamenti, segrega e le presenta con il livello accurato di dettagli.
+Digital Advisor fornisce informazioni complete a livello di inventario sulle implementazioni. La scheda *risorse* del dashboard Keystone, invece, accumula le informazioni a livello di cluster sulla base dei tuoi abbonamenti, segrega e le presenta con il livello accurato di dettagli.
 
 .Fasi
 . Fare clic su *GENERALE > Iscrizioni Keystone > risorse*.

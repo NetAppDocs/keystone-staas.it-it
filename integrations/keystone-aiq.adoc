@@ -4,7 +4,7 @@ permalink: integrations/keystone-aiq.html
 keywords: Keystone, Digital Advisor, keystone-aiq, aiq 
 summary: Keystone e Digital Advisor 
 ---
-= Visualizza la dashboard Keystone sul consulente digitale Active IQ
+= Visualizza la dashboard Keystone su Digital Advisor
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -58,7 +58,7 @@ Per ulteriori informazioni sulla dashboard di Keystone e sui report, vedere link
 
 == Ricerca per elenchi di controllo Keystone
 
-Watchlist è una funzione di consulente digitale Active IQ (Digital Advisor). Per ulteriori informazioni, vedere https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html["Comprendere la lista di controllo"^]. Per informazioni sulla creazione di elenchi di controllo, vedere https://docs.netapp.com/us-en/active-iq/task_add_watchlist.html["Creare una lista di controllo"^].
+Watchlist è una funzione di Digital Advisor. Per ulteriori informazioni, vedere https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html["Comprendere la lista di controllo"^]. Per informazioni sulla creazione di elenchi di controllo, vedere https://docs.netapp.com/us-en/active-iq/task_add_watchlist.html["Creare una lista di controllo"^].
 
 Per Keystone STaaS, puoi creare elenchi di controllo per i clienti o numeri di iscrizione. È possibile eseguire la ricerca in base al nome della lista di controllo nella schermata Digital Advisor. Effettuando una ricerca in base a un elenco di controllo, è possibile visualizzare i clienti e le relative sottoscrizioni nell'elenco a discesa *sottoscrizione* del widget *Sottoscrizioni Keystone*.
 

@@ -4,7 +4,7 @@ permalink: release-notes/known-issues.html
 keywords: netapp, keystone, release notes, known issues 
 summary: Problemi noti in Keystone STaaS 
 ---
-= Problemi noti in Keystone STaaS
+= Problemi noti
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -16,45 +16,4 @@ summary: Problemi noti in Keystone STaaS
 [role="lead"]
 Problemi noti identificano problemi che potrebbero impedirti di utilizzare in modo efficace i servizi di abbonamento Keystone.
 
-Nello STaaS NetApp Keystone sono stati riportati i seguenti problemi noti.
-
-[cols="3*"]
-|===
-| Problema noto | Descrizione | Soluzione alternativa 
-
-
- a| 
-Visualizzazione estesa dei dati per la selezione di un solo giorno nella scheda *Trend capacità*.
- a| 
-Quando la data corrispondente a oggi è selezionata come data di inizio e di fine per il mese precedente dall'opzione *Trend capacità* nella scheda *Trend capacità*, i grafici di utilizzo visualizzano i dati per un periodo che va dalla data di inizio selezionata alla data corrente, invece di visualizzare i dati per il periodo di un giorno specificato.
- a| 
-Nessuno
-
-
-
- a| 
-Dati burst maturati cronologici non disponibili per i livelli di servizio.
- a| 
-I dati di utilizzo dei burst maturati nella cronologia per i livelli di servizio *CVO primario* e *CVO secondario* all'interno della scheda *tendenza capacità* non sono disponibili per gli abbonamenti che non sono configurati con una configurazione MetroCluster.
- a| 
-Nessuno
-
-
-
- a| 
-Visualizzazione errata del valore consumato dello storage a oggetti per gli abbonamenti AutoSupport.
- a| 
-Se per la raccolta dei dati Keystone viene utilizzata la telemetria AutoSupport, il valore consumato per lo storage a oggetti elencato nella scheda *Dettagli volume* viene visualizzato in modo errato per le sottoscrizioni ai servizi file, blocco e oggetto.
- a| 
-Per informazioni corrette, fare riferimento al valore consumato per lo storage a oggetti menzionato nella scheda *utilizzo corrente*.
-
-
-
- a| 
-Impossibile visualizzare le informazioni a livello di cluster nella scheda *asset*.
- a| 
-I dettagli a livello di cluster non sono disponibili nella scheda *asset* per le sottoscrizioni AutoSupport configurate con una configurazione MetroCluster.
- a| 
-Nessuno
-
-|===
+Al momento non ci sono problemi noti.

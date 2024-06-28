@@ -43,7 +43,7 @@ I grafici a barre visualizzano il nome del livello di servizio e la capacità co
 
 È possibile visualizzare gli sbalzi a breve termine nei grafici di utilizzo, noti come microbasti, utilizzando la funzione di ingrandimento. Quando è presente un micrburst, esso è indicato da un punto blu sulla barra corrispondente o direttamente sull'asse x se nessun dato è consumato. Per visualizzare i dettagli, fare clic e tenere premuto sulla barra o sull'asse x in cui viene visualizzato il punto blu, quindi trascinare il cursore sul grafico per selezionare l'intervallo di tempo desiderato e rilasciare per confermare la selezione. Questa azione esegue lo zoom dei dati, fornendo una visualizzazione dettagliata della capacità utilizzata a quel livello di servizio per l'intervallo selezionato. È possibile ingrandire ulteriormente per visualizzare i dettagli fino a un intervallo di 2 minuti. È possibile fare clic sul pulsante *Reimposta zoom* per tornare alla vista originale della mappa.
 
-image:aiq-ks-subtime-4.png["Scheda Trend capacità con dettagli"]
+image:aiq-ks-subtime-5.png["Scheda Trend capacità con dettagli"]
 
 I seguenti colori nei grafici a barre indicano la capacità consumata come definita nel livello di servizio. I dati mensili attraverso i grafici sono separati da una linea verticale.
 
@@ -56,7 +56,7 @@ I seguenti colori nei grafici a barre indicano la capacità consumata come defin
 
 NOTE: Un grafico vuoto indica che non sono disponibili dati nell'ambiente in quel punto di raccolta dati.
 
-È possibile fare clic sul pulsante di attivazione/disattivazione *Mostra utilizzo corrente* per visualizzare i dati relativi a consumo, utilizzo burst e burst di accantonamento per il periodo di fatturazione corrente. Questi dettagli non sono basati sull'intervallo di date della query.
+È possibile fare clic sul pulsante di attivazione/disattivazione *Mostra utilizzo corrente* per visualizzare i dati di consumo, utilizzo burst e burst maturati per il periodo di fatturazione corrente. Questi dettagli non sono basati sull'intervallo di date della query.
 
 * *Corrente assorbita*: Indicatore della capacità consumata (in TIB) definita per il livello di servizio. Questo campo utilizza colori specifici:
 +
@@ -73,7 +73,7 @@ NOTE: Un grafico vuoto indica che non sono disponibili dati nell'ambiente in que
 ** Viola: Al di sopra del limite di burst.
 
 
-* *Bursting maturato*: Indicatore dell'utilizzo bursting maturato o della capacità consumata calcolata al mese per il periodo di fatturazione corrente. L'utilizzo del burst accumulato viene calcolato in base alla capacità impegnata e consumata per un livello di servizio: `(consumed - committed)/365.25/12`.
+* *Burst maturato*: Indicatore dell'utilizzo burst accumulato o della capacità consumata calcolata al mese per il periodo di fatturazione corrente. L'utilizzo del burst accumulato viene calcolato in base alla capacità impegnata e consumata per un livello di servizio: `(consumed - committed)/365.25/12`.
 
 
 

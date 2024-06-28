@@ -22,6 +22,42 @@ I problemi riscontrati nelle precedenti release dei servizi NetApp Keystone STaa
 
 
  a| 
+I grafici di utilizzo visualizzano i dati oltre il periodo di un giorno specificato quando la data corrispondente al giorno corrente è selezionata come data di inizio e di fine per il mese precedente dall'opzione *Trend capacità* nella scheda *Trend capacità*.
+ a| 
+I grafici di utilizzo ora visualizzano correttamente i dati per il periodo di un giorno specificato.
+ a| 
+27 giugno 2024
+
+
+
+ a| 
+I dati di burst maturati nella cronologia non sono disponibili per i livelli di servizio *CVO primario* e *CVO secondario* nella scheda *tendenza capacità* per gli abbonamenti non configurati con una configurazione MetroCluster.
+ a| 
+Corretto
+ a| 
+21 giugno 2024
+
+
+
+ a| 
+Visualizzazione errata del valore consumato di archiviazione oggetti elencato nella scheda *Dettagli volume* per gli abbonamenti AutoSupport.
+ a| 
+Ora il valore consumato per lo storage a oggetti viene visualizzato correttamente.
+ a| 
+21 giugno 2024
+
+
+
+ a| 
+Impossibile visualizzare le informazioni a livello di cluster nella scheda *asset* per le sottoscrizioni AutoSupport configurate con una configurazione MetroCluster.
+ a| 
+Corretto
+ a| 
+Giugno, 21, 2024
+
+
+
+ a| 
 Posizionamento errato dei dati Keystone nei report CSV se la colonna *Nome account* nei report CSV, generata dalla scheda *Trend capacità*, include un nome account con una virgola `(,)`.
  a| 
 I dati Keystone sono correttamente allineati nei report CSV.

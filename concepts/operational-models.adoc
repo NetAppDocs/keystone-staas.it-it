@@ -14,7 +14,7 @@ summary: Modelli operativi in Keystone
 
 
 [role="lead"]
-NetApp Keystone (Keystone) STaaS offre due modelli operativi per l'erogazione del servizio: Modello gestito dal partner e modello gestito dal cliente.
+NetApp Keystone STaaS offre due modelli operativi per l'erogazione del servizio: Un modello gestito dal partner e un modello gestito dal cliente.
 
 * *Modello gestito dal partner*: Un partner o un service provider gestisce i servizi per i propri clienti finali. Per NetApp, il partner è la parte contrattuale di riferimento. I tenant sono clienti di partner e non hanno rapporti di fatturazione con NetApp. Un modello gestito dal partner dispone di un ambiente multi-tenant in cui i tenant e i clienti finali/subtenant dispongono di sottoscrizioni proprie fatturate dal partner. L'amministratore del partner esegue le attività amministrative per tutti i tenant.
 * *Modello gestito dal cliente*: In qualità di cliente, puoi iscriverti ai servizi Keystone in base ai livelli di servizio e allo storage selezionati. NetApp definisce l'architettura e i prodotti e implementa Keystone presso la tua sede. È necessario gestire l'infrastruttura attraverso lo storage e le risorse IT. In qualità di cliente, sei il tenant o il subtenant di NetApp o di un partner/service provider. In base al contratto, è possibile inoltrare richieste di servizio da parte di NetApp o del provider di servizi. Un amministratore dell'utente finale può eseguire le attività amministrative presso la propria sede (ambiente). Queste attività sono legate agli utenti del tuo ambiente.

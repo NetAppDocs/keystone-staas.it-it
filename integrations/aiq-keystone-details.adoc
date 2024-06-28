@@ -14,7 +14,7 @@ summary: 'Report e grafici dell"abbonamento Keystone'
 
 
 [role="lead"]
-Puoi utilizzare la dashboard del consulente digitale di Active IQ (nota anche come consulente digitale) per visualizzare i dettagli delle tue iscrizioni a Keystone per monitorare l'utilizzo della capacità e generare report.
+Utilizza la dashboard di Digital Advisor per visualizzare i dettagli delle tue iscrizioni a Keystone per monitorare l'utilizzo della capacità e generare report.
 
 Se ti iscrivi ai servizi Keystone, puoi visualizzare i dettagli dell'abbonamento e dell'utilizzo nel widget *Abbonamenti Keystone* della dashboard di Digital Advisor.
 
