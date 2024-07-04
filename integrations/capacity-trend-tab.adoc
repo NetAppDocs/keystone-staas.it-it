@@ -73,7 +73,19 @@ NOTE: Un grafico vuoto indica che non sono disponibili dati nell'ambiente in que
 ** Viola: Al di sopra del limite di burst.
 
 
-* *Burst maturato*: Indicatore dell'utilizzo burst accumulato o della capacità consumata calcolata al mese per il periodo di fatturazione corrente. L'utilizzo del burst accumulato viene calcolato in base alla capacità impegnata e consumata per un livello di servizio: `(consumed - committed)/365.25/12`.
+* *Burst maturato*: Indicatore della capacità burst totale (in TIB) accumulata durante ogni intervallo di 2 minuti entro un mese per il ciclo di fatturazione corrente. L'utilizzo del bursting maturato per un intero mese viene calcolato come segue:
++
+[somma dei burst in mese / ((giorni nel mese) x 24 x 60)] x durata dell'intervallo
+
++
+È possibile calcolare il burst maturato per brevi periodi, ad esempio ogni due minuti, utilizzando questo metodo:
+
++
+[burst / ((giorni al mese) x 24 x 60)] x durata dell'intervallo
+
++
+Il burst è la differenza tra la capacità consumata e la capacità impegnata. Ad esempio, con un periodo di 30 giorni al mese, se la capacità consumata raggiunge 120 TiB e la capacità impegnata è di 100 TiB per un intervallo di 2 minuti, ciò si traduce in una capacità di burst di 20 TiB, che equivale ad un utilizzo di burst maturato di 0,000925926 TiB per quell'intervallo.
+
 
 
 
