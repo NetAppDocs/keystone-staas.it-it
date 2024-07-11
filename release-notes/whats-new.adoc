@@ -20,6 +20,22 @@ I seguenti miglioramenti sono stati introdotti nella schermata *Keystone Subscri
 
 
 
+== 10 luglio 2024
+
+
+
+=== Modifiche alle etichette
+
+L'etichetta *uso corrente* viene modificata in *consumo corrente* e *tendenza capacità* viene modificata in *tendenza consumo*.
+
+
+
+=== Barra di ricerca per gli abbonamenti
+
+Il menu a discesa *Sottoscrizioni* in tutte le schede della schermata *Sottoscrizioni Keystone* include ora una barra di ricerca. È possibile cercare sottoscrizioni specifiche elencate nel menu a discesa *Sottoscrizioni*.
+
+
+
 == 27 giugno 2024
 
 
@@ -174,7 +190,7 @@ Alcuni abbonamenti primari possono avere abbonamenti secondari collegati. In que
 
 === Dati fatturati restituiti per il burst maturato
 
-Le etichette per *Burst maturato* sono ora modificate in *Burst maturato fatturato* nella scheda *Trend capacità*. Selezionando questa opzione è possibile visualizzare i grafici mensili per i dati burst maturati fatturati. Per ulteriori informazioni, vedere link:../integrations/aiq-keystone-details.html#view-invoiced-accrued-burst["Visualizza bursting maturato fatturato"^].
+Le etichette per *Burst maturato* sono ora modificate in *Burst maturato fatturato* nella scheda *Trend capacità*. Selezionando questa opzione è possibile visualizzare i grafici mensili per i dati burst maturati fatturati. Per ulteriori informazioni, vedere link:../integrations/capacity-trend-tab.html#view-invoiced-accrued-burst["Visualizza bursting maturato fatturato"^].
 
 
 
@@ -190,7 +206,7 @@ Se si dispone di un abbonamento con piani tariffari con capacità impegnata _zer
 
 === Possibilità di effettuare ricerche in base alle liste di controllo
 
-Il supporto per le liste di controllo in Digital Advisor è stato esteso per includere i sistemi Keystone. È ora possibile visualizzare i dettagli degli abbonamenti per più clienti effettuando una ricerca con gli elenchi di controllo. Per ulteriori informazioni sull'utilizzo delle liste di controllo in Keystone STaaS, vedere link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists["Effettuare una ricerca utilizzando gli elenchi di controllo Keystone"^].
+Il supporto per le liste di controllo in Digital Advisor è stato esteso per includere i sistemi Keystone. È ora possibile visualizzare i dettagli degli abbonamenti per più clienti effettuando una ricerca con gli elenchi di controllo. Per ulteriori informazioni sull'utilizzo delle liste di controllo in Keystone STaaS, vedere link:../integrations/keystone-aiq.html#search-by-keystone-watchlists["Ricerca per elenchi di controllo Keystone"^].
 
 
 

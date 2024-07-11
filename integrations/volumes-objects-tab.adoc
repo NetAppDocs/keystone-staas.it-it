@@ -14,34 +14,39 @@ summary: scheda volumi-oggetti
 
 
 [role="lead"]
-Utilizzare la scheda *volumi e oggetti* per visualizzare le informazioni di riepilogo e i dettagli dei volumi ONTAP. Per StorageGRID, puoi utilizzare questa scheda per leggere l'utilizzo da parte dei singoli nodi nel tuo ambiente di storage a oggetti.
+Utilizzare la scheda *volumi e oggetti* per visualizzare i dettagli dei volumi ONTAP e dell'archiviazione di oggetti. Per StorageGRID, puoi utilizzare questa scheda per leggere l'utilizzo da parte dei singoli nodi nel tuo ambiente di storage a oggetti.
 
 
 NOTE: Il titolo di questa scheda varia in base alla natura della distribuzione presso il sito. Se si dispone di archiviazione ONTAP e a oggetti, il titolo della scheda viene visualizzato come *volumi e oggetti*. Solo per ONTAP, il nome viene visualizzato *volumi*. Per l'archiviazione di oggetti StorageGRID, è possibile visualizzare la scheda *oggetti*.
 
 
 
-== Visualizza il riepilogo e i dettagli del volume ONTAP
+== Visualizza i volumi ONTAP e i dettagli dello storage a oggetti
 
-La scheda Volumes offre diversi livelli di dettagli sui volumi del tuo sistema ONTAP. Esistono due schede, una per la vista di riepilogo e dettagli dei volumi ONTAP. La scheda *Riepilogo volume* fornisce un conteggio complessivo dei volumi mappati ai livelli di servizio sottoscritti. I volumi corrispondenti vengono nuovamente elencati nella scheda *Dettagli volume* con i relativi dettagli.
+La scheda *volumi e oggetti* offre informazioni dettagliate sui volumi del sistema ONTAP e sullo storage a oggetti a diversi livelli di dettaglio. Per i volumi ONTAP, sono disponibili due sotto-schede: *Riepilogo volume*, che fornisce un conteggio complessivo dei volumi mappati ai livelli di servizio sottoscritti, e *Dettagli volume*, che elenca nuovamente questi volumi con i loro particolari specifici. La sottoscheda *oggetti* fornisce dettagli sull'archiviazione di oggetti per le sottoscrizioni che includono livelli di servizio per l'archiviazione di file e oggetti.
+
+
+NOTE: La sottoscheda *oggetti* non è disponibile nella scheda *volumi* e nella scheda *oggetti* le sottoscheda *Riepilogo volume* e *Dettagli volume* non contengono dati.
 
 [role="tabbed-block"]
 ====
 .Riepilogo volume
 --
 . Fare clic su *GENERALE > Sottoscrizioni Keystone > volumi e oggetti > Riepilogo volume*.
-. Selezionare il numero dell'abbonamento. Per impostazione predefinita, viene selezionato il primo numero di abbonamento disponibile.
-
-
+. Selezionare il numero dell'abbonamento.
++
 Per l'iscrizione Keystone STaaS selezionata, puoi vedere il numero totale di volumi, il relativo stato di conformità AQoS, il numero di volumi protetti e la capacità totale impegnata, consumata e disponibile in tutti questi volumi. Se si fa clic sul numero di volumi non conformi o protetti, viene visualizzata la scheda *Dettagli volume*, in cui è possibile visualizzare un elenco filtrato che mostra i volumi non conformi o i volumi protetti, in base alla selezione effettuata.
 
-image:volume-summary-1.png["Scheda Volume Summary (Riepilogo volume)"]
++
+image:volume-summary-2.png["Scheda Volume Summary (Riepilogo volume)"]
+
+
 
 --
 .Dettagli volume
 --
 . Fare clic su *GENERALE > Iscrizioni Keystone > volumi > Dettagli volume*.
-. Selezionare il numero dell'abbonamento. Per impostazione predefinita, viene selezionato il primo numero di abbonamento disponibile.
+. Selezionare il numero dell'abbonamento.
 +
 Puoi vedere un elenco tabulare dei volumi, come l'utilizzo della capacità, il tipo di volume, il cluster, l'aggregato e i livelli di servizio Keystone assegnati. È possibile scorrere le colonne e ottenere ulteriori informazioni facendo clic con il mouse sulle icone delle informazioni accanto alle intestazioni delle colonne. È possibile ordinare in base alle colonne e filtrare gli elenchi per visualizzare informazioni specifiche.
 
@@ -50,40 +55,32 @@ Puoi vedere un elenco tabulare dei volumi, come l'utilizzo della capacità, il t
 NOTE: Per il servizio add-on di protezione avanzata dei dati, viene visualizzata una colonna aggiuntiva per indicare se il volume è un volume primario o mirror nella configurazione di MetroCluster. È possibile copiare i numeri di serie dei singoli nodi facendo clic sul pulsante *Copy Node Serials* (Copia serie nodi).
 
 +
+image:volume-details-3.png["Scheda Dettagli volumi"]
 
-NOTE: Per le sottoscrizioni che coprono i livelli di servizio sia per il file che per l'oggetto, è possibile visualizzare i dettagli dell'archiviazione degli oggetti facendo clic sul pulsante *Dettagli archiviazione oggetti*.
+
+
+--
+.Oggetti
+--
+. Fare clic su *GENERALE > Iscrizioni Keystone > oggetti*.
+. Selezionare il numero dell'abbonamento. Per impostazione predefinita, il primo numero di abbonamento disponibile è selezionato se l'abbonamento selezionato in precedenza non include livelli di servizio per lo storage a oggetti e file.
++
+
+NOTE: Per StorageGRID, questa scheda visualizza l'utilizzo fisico dei nodi per lo storage a oggetti.
 
 +
-image:volume-details-2.png["Scheda Dettagli volumi"]
+image:objects-details.png["Scheda oggetti"]
 
 
 
 --
 ====
-
-
-== Visualizza i nodi del StorageGRID e il consumo
-
-Per StorageGRID, questa scheda visualizza l'utilizzo fisico dei nodi per lo storage a oggetti.
-
-.Fasi
-. Fare clic su *GENERALE > Iscrizioni Keystone > oggetti*.
-. Selezionare il numero dell'abbonamento. Per impostazione predefinita, viene selezionato il primo numero di abbonamento disponibile. Selezionando il numero di abbonamento, viene attivato il collegamento per i dettagli dello storage a oggetti.
-+
-image:sg-link.png["Finestra di dialogo StorageGRID"]
-
-. Fare clic sul collegamento per visualizzare i nomi dei nodi e i dettagli sull'utilizzo fisico di ciascun nodo.
-+
-image:sg-link-2.png["Finestra di dialogo StorageGRID"]
-
-
-
 *Informazioni correlate*
 
 * link:../integrations/aiq-keystone-details.html["Utilizza la dashboard e il reporting Keystone"]
 * link:../integrations/subscriptions-tab.html["Abbonamenti"]
-* link:../integrations/current-usage-tab.html["Utilizzo corrente"]
-* link:../integrations/capacity-trend-tab.html["Tendenza capacità"]
-* link:../integrations/performance-tab.html["Performance"]
+* link:../integrations/current-usage-tab.html["Consumo di corrente"]
+* link:../integrations/capacity-trend-tab.html["Trend di consumo"]
 * link:../integrations/assets-tab.html["Risorse"]
+* link:../integrations/performance-tab.html["Performance"]
 

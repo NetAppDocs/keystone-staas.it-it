@@ -80,8 +80,8 @@ image:perf-log-usd.png["grafico della capacità logica utilizzata"]
 
 * link:../integrations/aiq-keystone-details.html["Utilizza la dashboard e il reporting Keystone"]
 * link:../integrations/subscriptions-tab.html["Abbonamenti"]
-* link:../integrations/current-usage-tab.html["Utilizzo corrente"]
-* link:../integrations/capacity-trend-tab.html["Tendenza capacità"]
+* link:../integrations/current-usage-tab.html["Consumo di corrente"]
+* link:../integrations/capacity-trend-tab.html["Trend di consumo"]
 * link:../integrations/volumes-objects-tab.html["Oggetti  volumi"]
 * link:../integrations/assets-tab.html["Risorse"]
 

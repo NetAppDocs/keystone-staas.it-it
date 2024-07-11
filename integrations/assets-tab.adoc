@@ -21,18 +21,19 @@ Digital Advisor fornisce informazioni complete a livello di inventario sulle imp
 .Fasi
 . Fare clic su *GENERALE > Iscrizioni Keystone > risorse*.
 . Seleziona il numero di iscrizione per cui desideri visualizzare i cluster.
-
-
++
 Vengono visualizzati i dettagli del cluster suddivisi per impostazioni di efficienza dello storage, tipo di piattaforma e dettagli sulla capacità. Facendo clic su uno dei cluster si accede al widget *cluster* nella schermata Digital Advisor, dove si ottengono informazioni aggiuntive per quel cluster.
 
-image:assets-tab-2.png["Scheda risorse"]
+
+
+image:assets-tab-3.png["Scheda risorse"]
 
 *Informazioni correlate*
 
 * link:../integrations/aiq-keystone-details.html["Utilizza la dashboard e il reporting Keystone"]
 * link:../integrations/subscriptions-tab.html["Abbonamenti"]
-* link:../integrations/current-usage-tab.html["Utilizzo corrente"]
+* link:../integrations/current-usage-tab.html["Consumo di corrente"]
 * link:../integrations/volumes-objects-tab.html["Oggetti  volumi"]
-* link:../integrations/capacity-trend-tab.html["Tendenza capacità"]
+* link:../integrations/capacity-trend-tab.html["Trend di consumo"]
 * link:../integrations/performance-tab.html["Performance"]
 

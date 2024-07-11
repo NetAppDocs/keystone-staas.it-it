@@ -75,16 +75,16 @@ sidebar:
       url: "/integrations/aiq-keystone-details.html"
     - title: Scheda sottoscrizioni
       url: "/integrations/subscriptions-tab.html"
-    - title: Scheda uso corrente
+    - title: Scheda consumo di corrente
       url: "/integrations/current-usage-tab.html"
-    - title: Scheda Trend capacità
+    - title: Scheda Trend consumi
       url: "/integrations/capacity-trend-tab.html"
     - title: Scheda volumi e oggetti
       url: "/integrations/volumes-objects-tab.html"
-    - title: Scheda prestazioni
-      url: "/integrations/performance-tab.html"
     - title: Scheda risorse
       url: "/integrations/assets-tab.html"
+    - title: Scheda prestazioni
+      url: "/integrations/performance-tab.html"
     - title: Gestione delle iscrizioni Keystone da BlueXP
       url: "/integrations/keystone-cm.html"
   - title: Servizi Keystone STaaS
