@@ -48,7 +48,7 @@ TIP: Fare clic sul collegamento *Sottoscrizioni* per visualizzare l'elenco delle
 
 
 
-image:new-db-2.png["nuovo cruscotto"]
+image:new-db-3.png["nuovo cruscotto"]
 
 Per ulteriori informazioni sul widget dashboard di Digital Advisor per Keystone, consulta https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html["Documentazione di Digital Advisor"^].
 

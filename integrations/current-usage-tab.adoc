@@ -18,7 +18,7 @@ La scheda *consumo corrente* visualizza i dettagli di utilizzo delle sottoscrizi
 
 Per visualizzare questa scheda, dal riquadro di navigazione a sinistra, vai a *GENERALE > Sottoscrizioni Keystone > consumo corrente* e seleziona il numero di abbonamento richiesto.
 
-image:aiq-ks-dtls-2.png["Scheda consumo di corrente"]
+image:aiq-ks-dtls-3.png["Scheda consumo di corrente"]
 
 Per l'abbonamento selezionato, è possibile visualizzare i dettagli, ad esempio le date di inizio e di fine dell'abbonamento e il periodo di fatturazione, ad esempio mensile o annuale. Come parte dell'utilizzo dell'abbonamento, è possibile visualizzare il nome del livello di servizio, Commit, consumed, Available Capacity e Current and Accrued Burst Use (in TIB).
 

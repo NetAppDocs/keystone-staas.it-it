@@ -194,6 +194,9 @@ Webserver per gli aggiornamenti del firmware ONTAP
 
 |===
 
+NOTE: La porta predefinita per MySQL, 3306, è limitata solo all'host locale durante una nuova installazione di Unified Manager, che impedisce la raccolta delle metriche di performance per Keystone Collector. Per ulteriori informazioni, vedere link:addl-req.html["Requisiti ONTAP"].
+
+
 
 === Accesso all'URL
 
