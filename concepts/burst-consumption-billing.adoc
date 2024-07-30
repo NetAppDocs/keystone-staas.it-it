@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/burst-consumption-billing.html 
 keywords: burst consumption billing 
-summary: Fatturazione basata sul consumo burst 
+summary: La fatturazione Keystone STaaS si basa sulla capacità di picco, ovvero la capacità consumata da te, oltre alla capacità impegnata della tua iscrizione. 
 ---
 = Fatturazione basata sul consumo burst
 :hardbreaks:
@@ -14,12 +14,13 @@ summary: Fatturazione basata sul consumo burst
 
 
 [role="lead"]
-La fatturazione NetApp Keystone (Keystone) STaaS si basa sulla capacità burst, ovvero la capacità consumata dall'utente, oltre alla capacità impegnata del tuo abbonamento.
+La fatturazione di Keystone STaaS si basa sulla _capacità di burst_, ovvero la capacità consumata da te, oltre alla capacità impegnata della tua iscrizione.
 
 Il limite di burst viene determinato e specificato nel contratto Keystone. In genere, è superiore del 20% alla capacità impegnata.
 
 La capacità impegnata è la capacità che ti viene dedicata durante l'acquisto dell'abbonamento. La capacità impegnata e la capacità burst vengono misurate in base al livello di servizio. La capacità consumata è la capacità effettivamente utilizzata dai carichi di lavoro.
-Quando la capacità consumata è superiore alla capacità impegnata per un livello di servizio, il consumo burst viene registrato e addebitato di conseguenza. In genere, è superiore del 20% alla capacità impegnata. L'utilizzo al di sopra della capacità di burst viene indicato come "al di sopra del limite di burst".
+
+Quando la capacità consumata è maggiore della capacità impegnata per un livello di servizio, il consumo di burst viene registrato e addebitato di conseguenza. In genere, è superiore del 20% alla capacità impegnata. L'utilizzo al di sopra della capacità di burst viene indicato come "al di sopra del limite di burst".
 
 Questo processo si verifica per ogni record di consumo generato. Il consumo di burst, pertanto, riflette sia la quantità che la durata delle capacità di consumo eccessivo in aggiunta alle capacità impegnate. Per ulteriori informazioni, fare riferimento a link:../integrations/capacity-trend-tab.html["Scheda Trend consumi"].
 

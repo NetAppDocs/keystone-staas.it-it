@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: installation/addl-req.html 
 keywords: keystone unified manager prerequisites, aiqum config keystone 
-summary: prerequisiti di keystone unified manager 
+summary: Prima di iniziare con Keystone, devi assicurarti che i cluster ONTAP e i sistemi StorageGRID soddisfino alcuni requisiti. 
 ---
 = Requisiti per ONTAP e StorageGRID
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: prerequisiti di keystone unified manager
 
 
 [role="lead"]
-È necessario completare alcuni prerequisiti aggiuntivi per ONTAP e StorageGRID. Assicurarsi di aver completato questi prerequisiti specifici oltre ai requisiti di sistema di Linux/VMware vSphere. Fare clic sulla scheda Required (richiesto) per ulteriori informazioni.
+Prima di iniziare con Keystone, devi assicurarti che i cluster ONTAP e i sistemi StorageGRID soddisfino alcuni requisiti.
 
 [role="tabbed-block"]
 ====

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/committed-capacity-billing.html 
 keywords: Billing based on committed capacity, committed capacity billing 
-summary: Capacità di storage supportate 
+summary: 'La capacità impegnata è la capacità impegnata per un determinato livello di servizio durante l"acquisto dell"abbonamento.' 
 ---
 = Fatturazione basata sulla capacità impegnata
 :hardbreaks:
@@ -14,8 +14,8 @@ summary: Capacità di storage supportate
 
 
 [role="lead"]
-La fatturazione di NetApp Keystone (Keystone) si basa sulla capacità impegnata nell'ambito dell'abbonamento a Keystone.
+La capacità impegnata è la capacità impegnata per un determinato livello di servizio durante l'acquisto dell'abbonamento.
 
-La capacità impegnata è la capacità impegnata per un determinato livello di servizio durante l'acquisto dell'abbonamento. La capacità impegnata può essere la capacità totale per diversi livelli di servizio in un singolo abbonamento, come accettato da te e da NetApp/partner. Questa capacità viene indicata su ciascun ordine Keystone e viene fatturata, indipendentemente dal consumo effettivo di capacità.
+La capacità impegnata può essere la capacità totale per diversi livelli di servizio in un singolo abbonamento, come accettato da te e da NetApp/partner. Questa capacità viene indicata su ciascun ordine Keystone e viene fatturata, indipendentemente dal consumo effettivo di capacità.
 
 Per informazioni sulle diverse capacità supportate in Keystone, vedere link:../concepts/supported-storage-capacity.html["Capacità di storage supportate in Keystone"].

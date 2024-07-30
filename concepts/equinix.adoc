@@ -4,7 +4,7 @@ permalink: concepts/equinix.html
 keywords: netapp, keystone, Equinix 
 summary: Keystone ed Equinix 
 ---
-= Servizi di co-location Keystone con tecnologia Equinix
+= Scopri i servizi di co-location basati su Equinix
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Keystone ed Equinix
 
 
 [role="lead"]
-NetApp ha stretto una partnership con Equinix per l'hosting dei servizi NetApp Keystone STaaS in un data center Equinix, al fine di garantire la fornitura di una soluzione unificata.
+Per fornire una soluzione as a service full-stack, NetApp ha collaborato con Equinix per l'hosting dei servizi NetApp Keystone STaaS in un data center Equinix.
 
 I servizi di co-location (Co-lo) Keystone offerti da Equinix rimangono invariati rispetto all'offerta del servizio Keystone standard.
 
@@ -25,7 +25,7 @@ In questo servizio:
 * I servizi sono supportati nei data center in 11 paesi.
 
 
-Equinix ha i data center nelle seguenti posizioni:
+Equinix dispone di data center in queste posizioni:
 
 |===
 | Data center | Paese 

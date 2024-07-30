@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/misc-volume-billing.html 
 keywords: Billing and miscellaneous scenarios 
-summary: Fatturazione basata su diversi tipi di volume 
+summary: Scopri la fatturazione di Keystone per configurazioni specifiche, tra cui volumi clonati, data Protection avanzata e altro ancora. 
 ---
 = Scenari vari per la fatturazione Keystone
 :hardbreaks:
@@ -12,6 +12,9 @@ summary: Fatturazione basata su diversi tipi di volume
 :linkattrs: 
 :imagesdir: ../media/
 
+
+[role="lead"]
+Una comprensione della fatturazione di Keystone per configurazioni specifiche può aiutarti a ottimizzare l'utilizzo del servizio e a gestire i costi. Gli scenari includono volumi clonati, data Protection avanzata, volumi temporanei, policy di QoS, destinazioni SnapMirror, LUN e volumi sistema/root.
 
 
 
@@ -28,16 +31,16 @@ Tenere presente quanto segue:
 
 
 
-== Fatturazione per la protezione avanzata dei dati
+== Fatturazione per una protezione dei dati avanzata
 
-La protezione avanzata dei dati utilizza NetApp MetroCluster per eseguire il mirroring dei dati tra due cluster fisicamente separati. Per gli aggregati mirrorati di MetroCluster, i dati vengono scritti due volte, una volta su ciascun cluster. Il servizio Keystone addebita i costi di consumo su ciascun lato in modo indipendente, con la conseguenza di due record di consumo identici. I costi aggiuntivi vengono applicati a tutte le capacità dell'abbonamento, indipendentemente dal fatto che i dati siano all'origine o siano dati mirrorati o senza mirror.
+La protezione dei dati avanzata sfrutta NetApp MetroCluster per eseguire il mirroring dei dati tra due cluster fisicamente separati. Per gli aggregati mirrorati di MetroCluster, i dati vengono scritti due volte, una volta su ciascun cluster. Il servizio Keystone addebita i costi di consumo su ciascun lato in modo indipendente, con la conseguenza di due record di consumo identici. I costi aggiuntivi vengono applicati a tutte le capacità dell'abbonamento, indipendentemente dal fatto che i dati siano all'origine o siano dati mirrorati o senza mirror.
 
 Se si monitorano i cluster tramite Gestore di sistema di ONTAP (Gestore di sistema) o Active IQ Unified Manager (Gestore unificato), potrebbe verificarsi una discrepanza tra il consumo riportato su questi strumenti e Keystone. System Manager e Unified Manager non riportano i volumi sul cluster mirrorato (remoto) e, in questo modo, riporta la metà delle metriche di consumo riportate dal servizio Keystone.
 
 .Esempio:
 I siti A e B vengono configurati in una configurazione MetroCluster. Quando un utente crea un volume di 10 TB nel sito A, viene creato un volume identico di 10 TB nel sito B. Keystone identifica 10 TB di consumo in ogni sito, per un aumento totale di 20 TB. System Manager e Unified Manager segnalano un volume 10TB creato nel sito A, ma non un volume 10TB nel sito B.
 
-Inoltre, tutti i volumi creati su un sistema Keystone con Advanced Data Protection verranno conteggiati per il consumo di Advanced Data Protection, indipendentemente dal fatto che tali volumi siano o meno mirrorati.
+Inoltre, tutti i volumi creati su un sistema Keystone con data Protection avanzata verranno conteggiati per il consumo di data Protection avanzata, indipendentemente dal fatto che tali volumi siano mirrorati o meno.
 
 
 

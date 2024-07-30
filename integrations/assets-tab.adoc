@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: integrations/assets-tab.html 
 keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab 
-summary: 'Report e grafici dell"abbonamento Keystone' 
+summary: Utilizza la scheda risorse per visualizzare dettagli relativi ai cluster e ai nodi gestiti dalle tue iscrizioni Keystone. 
 ---
-= Scheda risorse
+= Visualizza i dettagli del cluster e dei nodi gestiti da Keystone
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 'Report e grafici dell"abbonamento Keystone'
 
 
 [role="lead"]
-Utilizza la scheda *risorse* per raccogliere prospettive sul tuo cluster e sui nodi gestiti dalle tue sottoscrizioni Keystone.
+Utilizza la scheda *risorse* per visualizzare dettagli sui cluster e sui nodi gestiti dalle tue iscrizioni Keystone.
 
 Digital Advisor fornisce informazioni complete a livello di inventario sulle implementazioni. La scheda *risorse* del dashboard Keystone, invece, accumula le informazioni a livello di cluster sulla base dei tuoi abbonamenti, segrega e le presenta con il livello accurato di dettagli.
 

@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: integrations/performance-tab.html 
 keywords: keystone-aiq, digital advisor keystone, performance tab 
-summary: 'Scheda Performance (prestazioni) nella dashboard Keystone Subscription AIQ da' 
+summary: Per monitorare le performance dei tuoi sistemi, puoi vedere le metriche delle performance dei ONTAP Volumes gestiti dalle tue iscrizioni a Keystone. 
 ---
-= Scheda prestazioni
+= Visualizza le metriche delle performance
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 'Scheda Performance (prestazioni) nella dashboard Keystone Subscription
 
 
 [role="lead"]
-La scheda *Performance* ti consente di visualizzare le metriche delle performance dei ONTAP Volumes gestiti dalle tue iscrizioni a Keystone.
+Per monitorare le performance dei tuoi sistemi, puoi vedere le metriche delle performance dei ONTAP Volumes gestiti dalle tue iscrizioni a Keystone.
 
 
 TIP: Questa scheda è disponibile come opzione. Contattare il supporto per la visualizzazione di questa scheda.

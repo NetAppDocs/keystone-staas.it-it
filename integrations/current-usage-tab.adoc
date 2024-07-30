@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: integrations/current-usage-tab.html 
 keywords: keystone-aiq, digital advisor keystone, current consumption tab 
-summary: Scheda consumo di corrente nella dashboard AIQ da Keystone 
+summary: 'Per comprendere l"utilizzo dell"iscrizione, puoi vedere la capacità impegnata, la capacità consumata, la capacità disponibile e molto altro ancora.' 
 ---
-= Scheda consumo di corrente
+= Visualizza il consumo corrente dei tuoi abbonamenti
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Scheda consumo di corrente nella dashboard AIQ da Keystone
 
 
 [role="lead"]
-La scheda *consumo corrente* visualizza i dettagli di utilizzo delle sottoscrizioni.
+Per comprendere l'utilizzo dell'iscrizione, puoi visualizzare dettagli di utilizzo come capacità impegnata, capacità consumata, capacità disponibile e altro ancora.
 
 Per visualizzare questa scheda, dal riquadro di navigazione a sinistra, vai a *GENERALE > Sottoscrizioni Keystone > consumo corrente* e seleziona il numero di abbonamento richiesto.
 

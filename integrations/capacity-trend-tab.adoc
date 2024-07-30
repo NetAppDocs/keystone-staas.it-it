@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: integrations/capacity-trend-tab.html 
 keywords: keystone-aiq, digital advisor keystone, consumption trend tab, historical usage, accrued burst, accrued, consumption 
-summary: Scheda Consumption trend nella dashboard Keystone Subscription 
+summary: 'Per aiutarti a monitorare l"utilizzo della tua iscrizione, puoi visualizzare i dati storici delle tue iscrizioni Keystone per un periodo di tempo specifico.' 
 ---
-= Scheda Trend consumi
+= Visualizza le tendenze di consumo
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Scheda Consumption trend nella dashboard Keystone Subscription
 
 
 [role="lead"]
-La scheda *tendenza al consumo* visualizza i dati storici delle sottoscrizioni Keystone per un periodo specifico.
+Per aiutarti a monitorare l'utilizzo della tua iscrizione, puoi visualizzare i dati storici delle tue iscrizioni Keystone per un periodo di tempo specifico.
 
 I grafici verticali visualizzano i dettagli di utilizzo per l'intervallo di tempo selezionato con gli indicatori appropriati per il confronto e la generazione di report.
 

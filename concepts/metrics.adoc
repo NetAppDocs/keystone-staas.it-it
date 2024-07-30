@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/metrics.html 
 keywords: metrics, GiB, IOPS, latency, durability 
-summary: Calcoli delle metriche e definizioni dei servizi Keystone 
+summary: 'Il servizio NetApp Keystone STaaS utilizza diversi termini per misurare le metriche. Potresti voler ottenere ulteriori informazioni su questi termini durante l"utilizzo di Keystone.' 
 ---
-= Metriche e definizioni utilizzate nei servizi Keystone
+= Metriche e definizioni utilizzate in Keystone
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,9 @@ summary: Calcoli delle metriche e definizioni dei servizi Keystone
 
 
 [role="lead"]
-I seguenti termini e definizioni vengono utilizzati all'interno del servizio STaaS NetApp Keystone (Keystone) per misurare le metriche:
+Il servizio NetApp Keystone STaaS utilizza diversi termini per misurare le metriche. Potresti voler ottenere ulteriori informazioni su questi termini durante l'utilizzo di Keystone.
+
+All'interno del servizio Keystone STaaS, per misurare le metriche vengono utilizzati i seguenti termini e definizioni:
 
 * Unità di misura della capacità: Gib, TIB e PIB
 * Densità io: IOPS/TIB: Numero di operazioni di input/output elaborate al secondo in base allo spazio totale consumato dal carico di lavoro, in tebibyte.

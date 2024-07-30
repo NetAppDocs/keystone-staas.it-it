@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: installation/installation-overview.html 
 keywords: installation, Keystone Collector 
-summary: 'Cos"è Keystone Collector' 
+summary: 'Keystone Collector è il software NetApp che viene installato in un host VMware vSphere o Linux presso il sito dell"utente. Raccoglie i dati di utilizzo per i sistemi Keystone.' 
 ---
-= Panoramica di Keystone Collector
+= Scopri Keystone Collector
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,15 +14,11 @@ summary: 'Cos"è Keystone Collector'
 
 
 [role="lead"]
-Per utilizzare i servizi Keystone e visualizzare i dati di utilizzo, è necessario installare Keystone Collector su un sistema VMware vSphere o Linux presso la propria sede.
+_Keystone Collector_ è il software NetApp installato in un host VMware vSphere o Linux presso il sito per accedere ai servizi Keystone. Raccoglie i dati di utilizzo per i sistemi Keystone.
 
+Keystone Collector è il componente di acquisizione dell'utilizzo della piattaforma di fatturazione Keystone. Sfrutta Active IQ Unified Manager e altre applicazioni per connettersi ai sistemi ONTAP e StorageGRID per raccogliere i metadati richiesti per l'utilizzo e la misurazione delle performance degli SLA dei tuoi abbonamenti Keystone. Consente di monitorare lo stato di salute del sistema e di inviare i dati di fatturazione per la creazione di report.
 
-NOTE: Keystone Collector rappresenta l'approccio standard di raccolta dei dati di utilizzo per i sistemi Keystone. Se il tuo ambiente non può supportare Keystone Collector, puoi richiedere l'autorizzazione alla gestione dei prodotti Keystone per utilizzare il meccanismo di telemetria di AutoSupport come alternativa. Per informazioni su AutoSupport, vedere https://docs.netapp.com/us-en/active-iq/concept_autosupport.html["AutoSupport"^]. Per informazioni sulla configurazione di AutoSupport per Keystone, consulta link:../installation/asup-config.html["Configura AutoSupport per Keystone"].
-
-Keystone Collector è il componente di acquisizione dell'utilizzo della piattaforma di fatturazione Keystone che sfrutta Active IQ Unified Manager e altre applicazioni per connettersi ai sistemi ONTAP e StorageGRID per raccogliere i metadati richiesti per l'utilizzo e il calcolo delle performance SLA delle sottoscrizioni Keystone. Consente di monitorare lo stato di salute del sistema e di inviare i dati di fatturazione per la creazione di report.
-
-
-NOTE: Le informazioni di installazione e configurazione disponibili sono valide per ONTAP e StorageGRID. I requisiti e le procedure sono generici sia per ONTAP che per StorageGRID, con le eccezioni evidenziate.
+Keystone Collector rappresenta l'approccio standard di raccolta dei dati di utilizzo per i sistemi Keystone. Se il tuo ambiente non può supportare Keystone Collector, puoi richiedere l'autorizzazione alla gestione dei prodotti Keystone per utilizzare il meccanismo di telemetria di AutoSupport come alternativa. Per informazioni su AutoSupport, vedere https://docs.netapp.com/us-en/active-iq/concept_autosupport.html["AutoSupport"^]. Per informazioni sulla configurazione di AutoSupport per Keystone, consulta link:../installation/asup-config.html["Configura AutoSupport per Keystone"].
 
 Questo diagramma di architettura illustra i componenti costitutivi e la loro connettività in un tipico ambiente Keystone.
 

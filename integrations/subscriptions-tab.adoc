@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: integrations/subscriptions-tab.html 
 keywords: keystone-aiq, digital advisor keystone, subscriptions-tab 
-summary: Scheda sottoscrizioni nella dashboard AIQ da Keystone 
+summary: Per ulteriori informazioni sulle tue iscrizioni Keystone, puoi visualizzare un elenco di tutte le tue iscrizioni nella scheda Sottoscrizioni. 
 ---
-= Scheda sottoscrizioni
+= Consente di visualizzare i dettagli delle sottoscrizioni
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Scheda sottoscrizioni nella dashboard AIQ da Keystone
 
 
 [role="lead"]
-È possibile visualizzare un elenco di tutte le sottoscrizioni nella scheda *Sottoscrizioni*.
+Per ulteriori informazioni sulle tue iscrizioni a Keystone, puoi visualizzare un elenco di tutte le tue iscrizioni dalla scheda *Sottoscrizioni*.
 
 Per visualizzare questa scheda, dal riquadro di navigazione a sinistra, vai a *GENERALE > Sottoscrizioni Keystone > Sottoscrizioni*. Sono elencati tutti i tuoi abbonamenti.
 

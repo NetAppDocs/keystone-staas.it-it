@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/service-levels.html 
 keywords: service levels, service level, rate plan or service level 
-summary: Livelli di servizio supportati 
+summary: Keystone STaaS offre capacità di storage a livelli di servizio predefiniti. Ogni volume gestito da Keystone è associato a un livello di servizio. 
 ---
 = Livelli di servizio in Keystone
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Livelli di servizio supportati
 
 
 [role="lead"]
-Keystone STaaS offre capacità di storage dei dati a livelli di servizio delle performance predefiniti (livelli di servizio) su base di abbonamento. Ogni volume gestito dai servizi Keystone è associato a un livello di servizio.
+Keystone STaaS offre capacità di storage dei dati a livelli di servizio di performance predefiniti. Ogni volume gestito dai servizi Keystone è associato a un livello di servizio.
 
 Un abbonamento può avere più piani tariffari e ciascun piano tariffario corrisponde a un livello di servizio. Ogni piano tariffario ha una capacità impegnata per livello di servizio.
 

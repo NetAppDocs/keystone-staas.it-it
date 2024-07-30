@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/nrnvc.html 
 keywords: Non-returnable, non-volatile components, SnapLock compliance, add-on service 
-summary: Componenti non restituibili, non volatili e conformità SnapLock 
+summary: 'Come parte della sottoscrizione a NetApp Keystone, NetApp estende l"offerta NRNVC per i servizi a file, a blocchi e a oggetti.' 
 ---
 = Componenti non restituibili, non volatili e conformità SnapLock
 :hardbreaks:
@@ -14,22 +14,21 @@ summary: Componenti non restituibili, non volatili e conformità SnapLock
 
 
 [role="lead"]
-Come parte dell'abbonamento NetApp Keystone, NetApp estende l'offerta di componenti non-volatile (NRNVC) non-restituibili per i servizi a file, blocchi e oggetti.
-
-Puoi iscriverti a questo servizio add-on come parte della tua iscrizione Keystone.
-Per informazioni sui servizi standard e cloud, vedere link:supported-storage-services.html["Servizi Keystone STaaS"].
-
-Per informazioni sui livelli di servizio, vedere link:../concepts/service-levels.html["Livelli di servizio in Keystone"].
+Come parte dell'abbonamento a NetApp Keystone, NetApp estende l'offerta di componenti non restituibili e non volatili (NRNVC) per i tuoi servizi a file, blocchi e oggetti.
 
 NetApp non recupera i supporti di storage fisici utilizzati durante l'intero periodo di servizio o alla cessazione del servizio quando NetApp recupera in altro modo tutte le risorse fisiche utilizzate per l'erogazione del servizio.
 
-Se è stato acquistato questo servizio, tenere presente quanto segue:
+Puoi iscriverti a questo servizio add-on come parte della tua iscrizione Keystone. Se è stato acquistato questo servizio, tenere presente quanto segue:
 
 * Non è necessario restituire alcun disco e la memoria non volatile al termine del periodo di servizio o se si è guastato o trovato difettoso durante il periodo di servizio.
 * Tuttavia, è necessario produrre un certificato di distruzione per i dischi e/o la memoria non volatile e non può essere utilizzato per altri scopi.
 * Il costo aggiuntivo associato a NRNVC viene addebitato in percentuale del conto mensile del totale dei servizi in abbonamento (include servizio standard, protezione avanzata dei dati e tiering dei dati).
 * Questo servizio è applicabile solo ai servizi di file, blocco e oggetti.
 
+
+Per informazioni sui servizi standard e cloud, vedere link:supported-storage-services.html["Servizi Keystone STaaS"].
+
+Per informazioni sui livelli di servizio, vedere link:../concepts/service-levels.html["Livelli di servizio in Keystone"].
 
 
 

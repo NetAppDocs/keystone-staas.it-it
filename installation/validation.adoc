@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: installation/validation.html 
 keywords: validate, validation 
-summary: Validare Keystone Collector su sistemi Linux 
+summary: 'Il repository Keystone è configurato per validare automaticamente l"integrità del software Keystone.' 
 ---
-= Convalida automatica dell'integrità del software
+= Convalida automatica del software Keystone
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,6 +14,6 @@ summary: Validare Keystone Collector su sistemi Linux
 
 
 [role="lead"]
-Esiste un processo ripetitivo per la convalida dell'integrità del software Keystone.
+Il repository Keystone è configurato per convalidare automaticamente l'integrità del software Keystone in modo che venga installato presso la tua sede solo software valido e autentico.
 
-La configurazione del client del repository YUM di Keystone fornita in `keystonerepo.rpm` Utilizza il controllo GPG forzato (`gpgcheck=1`) su tutto il software scaricato attraverso questo repository. Qualsiasi RPM scaricato attraverso il repository Keystone che non supera la convalida della firma non può essere installato. Questa funzionalità viene utilizzata nella funzionalità di aggiornamento automatico pianificato di Keystone Collector per garantire che nel sito sia installato solo software valido e autentico.
+La configurazione del client del repository Keystone YUM fornita in `keystonerepo.rpm` utilizza il controllo GPG forzato (`gpgcheck=1`) su tutto il software scaricato attraverso questo repository. Qualsiasi RPM scaricato attraverso il repository Keystone che non supera la convalida della firma non può essere installato. Questa funzionalità viene utilizzata nella funzionalità di aggiornamento automatico pianificato di Keystone Collector per garantire che nel sito sia installato solo software valido e autentico.

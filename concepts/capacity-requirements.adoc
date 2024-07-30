@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/capacity-requirements.html 
 keywords: storage capacity requirement for service levels, capacity definition per PSL, 
-summary: Requisiti di capacità per i livelli di servizio 
+summary: 'I requisiti di capacità per i livelli di servizio sono diversi a seconda dello storage di file, blocchi, oggetti o cloud supportato dall"iscrizione Keystone STaaS.' 
 ---
 = Requisiti di capacità per i livelli di servizio
 :hardbreaks:

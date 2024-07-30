@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: installation/upgrade.html 
 keywords: Keystone Collector upgrade 
-summary: Aggiorna Keystone Collector 
+summary: Aggiornare manualmente Keystone Collector se la funzione di aggiornamento automatico è stata disattivata. 
 ---
 = Aggiorna manualmente Keystone Collector
 :hardbreaks:

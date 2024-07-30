@@ -27,19 +27,19 @@ sidebar:
       url: "/concepts/overview.html"
     - title: Infrastruttura Keystone
       url: "/concepts/infra.html"
+    - title: Keystone Collector
+      url: "/installation/installation-overview.html"
     - title: Componenti
       url: "/concepts/components.html"
     - title: Flusso di dati
       url: "/concepts/data-flow.html"
     - title: Modelli operativi
       url: "/concepts/operational-models.html"
-    - title: Keystone Collector
-      url: "/installation/installation-overview.html"
   - title: Impostare e configurare Keystone
     entries:
     - title: Requisiti
       entries:
-      - title: VMware vSphere
+      - title: Infrastruttura virtuale
         url: "/installation/vapp-prereqs.html"
       - title: Linux
         url: "/installation/linux-prereqs.html"
@@ -51,7 +51,7 @@ sidebar:
         url: "/installation/vapp-installation.html"
       - title: Installare su Linux
         url: "/installation/linux-installation.html"
-      - title: Convalida dell'integrità
+      - title: Convalida automatica del software Keystone
         url: "/installation/validation.html"
     - title: Configurare Keystone Collector
       url: "/installation/configuration.html"
@@ -63,13 +63,13 @@ sidebar:
       url: "/installation/data-collection.html"
   - title: Monitoraggio e aggiornamento
     entries:
-    - title: Monitorare lo stato del sistema
+    - title: Monitorare la salute di Keystone Collector
       url: "/installation/monitor-health.html"
     - title: Aggiorna Keystone Collector
       url: "/installation/upgrade.html"
   - title: Dashboard Keystone
     entries:
-    - title: Visualizza la dashboard Keystone
+    - title: Panoramica della dashboard Keystone
       url: "/integrations/keystone-aiq.html"
     - title: Visualizzare i dettagli sull'utilizzo e generare report
       url: "/integrations/aiq-keystone-details.html"
@@ -85,13 +85,13 @@ sidebar:
       url: "/integrations/assets-tab.html"
     - title: Scheda prestazioni
       url: "/integrations/performance-tab.html"
-    - title: Gestione delle iscrizioni Keystone da BlueXP
+    - title: Scopri Keystone e BlueXP
       url: "/integrations/keystone-cm.html"
   - title: Servizi Keystone STaaS
     entries:
     - title: Metriche e definizioni
       url: "/concepts/metrics.html"
-    - title: Qualità del servizio
+    - title: Qualità del servizio storage
       url: "/concepts/qos.html"
     - title: Storage supportato
       url: "/concepts/supported-storage-services.html"
@@ -99,7 +99,7 @@ sidebar:
       url: "/concepts/supported-storage-capacity.html"
     - title: Livelli di servizio
       url: "/concepts/service-levels.html"
-    - title: Capacità supportata per i livelli di servizio
+    - title: Requisiti di capacità per i livelli di servizio
       url: "/concepts/capacity-requirements.html"
     - title: Keystone Subscription Services versione 1
       url: "/subscription-services-v1.html"
@@ -125,11 +125,11 @@ sidebar:
       url: "/concepts/consumed-capacity-billing.html"
     - title: Fatturazione basata sul consumo burst
       url: "/concepts/burst-consumption-billing.html"
-    - title: Fatturazione basata su diversi tipi di volume
+    - title: Scenari vari per la fatturazione Keystone
       url: "/concepts/misc-volume-billing.html"
     - title: Pianificazioni di fatturazione
       url: "/concepts/billing-schedules.html"
-  - title: NetApp Global Services Support Center
+  - title: Ottieni aiuto con Keystone
     url: "/concepts/gssc.html"
   - title: Note legali
     url: "/legal-notices.html"

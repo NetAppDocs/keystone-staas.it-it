@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: integrations/keystone-aiq.html 
 keywords: Keystone, Digital Advisor, keystone-aiq, aiq 
-summary: Keystone e Digital Advisor 
+summary: In qualità di abbonato a NetApp Keystone STaaS, è possibile ottenere una panoramica delle sottoscrizioni dalla dashboard di Digital Advisor. 
 ---
-= Visualizza la dashboard Keystone su Digital Advisor
+= Panoramica della dashboard Keystone
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Keystone e Digital Advisor
 
 
 [role="lead"]
-Se ti sei abbonato ai servizi NetApp Keystone STaaS, puoi ottenere una panoramica delle tue iscrizioni nel widget *Keystone Subscription* della dashboard di Active IQ Digital Advisor (detto anche Digital Advisor).
+In qualità di abbonato allo STaaS NetApp Keystone, è possibile ottenere una panoramica delle sottoscrizioni sul widget *Sottoscrizioni Keystone* della dashboard di consulente digitale Active IQ (detta anche consulente digitale).
 
 Puoi cercare un'iscrizione Keystone inserendo i primi tre caratteri del nome di un cliente o di una watchlist, o il numero di iscrizione Keystone. Per informazioni su come cercare le sottoscrizioni Keystone STaaS in base alle liste di controllo, vedere link:../integrations/keystone-aiq.html#search-by-keystone-watchlists["Effettuare una ricerca utilizzando gli elenchi di controllo Keystone"].
 

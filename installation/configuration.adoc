@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: installation/configuration.html 
 keywords: configuration keystone collector 
-summary: Configurazione di Keystone Collector 
+summary: Configurazione completa per abilitare Keystone Collector per raccogliere dati di utilizzo nel tuo ambiente storage. 
 ---
 = Configurare Keystone Collector
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Configurazione di Keystone Collector
 
 
 [role="lead"]
-È necessario completare alcune attività di configurazione per consentire a Keystone Collector di raccogliere i dati di utilizzo nell'ambiente di storage. Si tratta di un'attività una tantum per attivare e associare il componente di raccolta richiesto all'ambiente di storage.
+È necessario completare alcune attività di configurazione per consentire a Keystone Collector di raccogliere i dati di utilizzo nell'ambiente di storage. Si tratta di un'attività una tantum che consente di attivare e associare i componenti richiesti al tuo ambiente di storage.
 
 
 NOTE: Keystone Collector offre l'utility Keystone Collector Management Terminal User Interface (TUI) per eseguire le attività di configurazione e monitoraggio. Per selezionare le opzioni e spostarsi all'interno dell'interfaccia telefonica utente, è possibile utilizzare diversi comandi della tastiera, ad esempio i tasti Invio e freccia.
@@ -66,7 +66,7 @@ Il software Collector supporta l'utilizzo di un proxy HTTP per comunicare con In
 
 == Limita la raccolta di dati privati
 
-Keystone Collector raccoglie informazioni limitate su configurazione, stato e performance necessarie per eseguire il calcolo dell'abbonamento. È possibile limitare ulteriormente le informazioni raccolte mascherando le informazioni sensibili dal contenuto caricato. Ciò non influisce sul calcolo della fatturazione. Tuttavia, la limitazione delle informazioni potrebbe influire sull'usabilità delle informazioni di reporting, poiché alcuni elementi, facilmente identificabili dagli utenti, come il nome del volume, vengono sostituiti con UUID.
+Keystone Collector raccoglie informazioni limitate relative a configurazione, stato e performance per eseguire la misurazione delle iscrizioni. È possibile limitare ulteriormente le informazioni raccolte mascherando le informazioni sensibili dal contenuto caricato. Ciò non influisce sul calcolo della fatturazione. Tuttavia, la limitazione delle informazioni potrebbe influire sull'usabilità delle informazioni di reporting, poiché alcuni elementi, facilmente identificabili dagli utenti, come il nome del volume, vengono sostituiti con UUID.
 
 La limitazione della raccolta di dati specifici del cliente è un'opzione configurabile nella schermata TUI di Keystone Collector. Questa opzione, *Rimuovi dati privati*, è attivata per impostazione predefinita.
 

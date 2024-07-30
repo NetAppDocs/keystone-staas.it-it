@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/supported-storage-capacity.html 
 keywords: storage capacity, capacity definition, keystone STaaS storage capacity, 
-summary: Capacità di storage supportate 
+summary: Scopri i tipi di capacità dello storage supportati dal servizio STaaS NetApp Keystone. 
 ---
 = Capacità di storage supportate in Keystone
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Capacità di storage supportate
 
 
 [role="lead"]
-Le capacità del servizio NetApp Keystone STaaS includono:
+Il servizio NetApp Keystone STaaS supporta diversi tipi di capacità dello storage. Comprendere questi termini diversi di capacità può aiutarti durante l'utilizzo di Keystone.
 
 
 

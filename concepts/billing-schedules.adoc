@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/billing-schedules.html 
 keywords: billing schedules, schedule for payment 
-summary: Pianificazioni di fatturazione in chiave 
+summary: Gli abbonamenti a Keystone STaaS vengono fatturati mensilmente e annualmente. 
 ---
 = Pianificazioni di fatturazione
 :hardbreaks:

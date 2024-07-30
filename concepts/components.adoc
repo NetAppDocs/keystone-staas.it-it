@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/components.html 
 keywords: infrastructure component, deployment requirement, installation requirement 
-summary: 'Componenti dell"infrastruttura' 
+summary: Conoscere i componenti richiesti per abilitare i servizi NetApp Keystone STaaS nel tuo ambiente. 
 ---
-= Componenti per l'implementazione
+= Componenti necessari per l'implementazione
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 'Componenti dell"infrastruttura'
 
 
 [role="lead"]
-In questa sezione sono elencati i componenti necessari per attivare i servizi NetApp Keystone STaaS nel tuo ambiente.
+Per abilitare i servizi NetApp Keystone STaaS nel tuo ambiente sono necessari diversi componenti. Prima di iniziare, è necessario rivedere i dettagli su questi componenti.
 
 
 
@@ -56,13 +56,13 @@ NetApp è in grado di fornire le specifiche dei requisiti di raffreddamento (BTU
 
 === Macchine virtuali per lo storage
 
-Per l'implementazione di Keystone Collector e del gateway della soluzione AIOPS è necessaria una macchina virtuale di storage (VM di storage). I prerequisiti per l'installazione di Keystone Collector sono disponibili qui: link:../installation/installation-overview.html["Guida all'installazione di Keystone Collector"]. Gli altri requisiti vengono condivisi durante l'implementazione.
+È necessaria una Storage Virtual Machine (VM di storage) per l'implementazione di Keystone Collector e del gateway della soluzione AIOP. I prerequisiti per l'installazione di Keystone Collector sono disponibili qui: link:../installation/installation-overview.html["Guida all'installazione di Keystone Collector"]. Gli altri requisiti vengono condivisi durante l'implementazione.
 
 
 
 === Opzioni di implementazione
 
-Keystone Collector può essere implementato con i seguenti metodi:
+Keystone Collector può essere implementato utilizzando i seguenti metodi:
 
 * Modello VMware OVA (è richiesto VMware vCenter Server 6.7 o versione successiva)
 * Il cliente fornisce Red Hat Enterprise Linux 7, 8 o CentOS 7 Linux Server. Il software Keystone viene installato tramite `.rpm` processo di installazione.
@@ -84,7 +84,7 @@ Il gateway della soluzione AIOPS viene implementato nella seguente configurazion
 
 === Networking
 
-Per le operazioni e la manutenzione di Keystone Collector e AIOPS Solution gateway è richiesto l'accesso in uscita ai seguenti servizi:
+È necessario l'accesso in uscita ai seguenti servizi per le operazioni e la manutenzione di Keystone Collector e del gateway della soluzione AIOP:
 
 * support.netapp.com (caricamento dei dati di utilizzo)
 * keystone.netapp.com (aggiornamenti software)
