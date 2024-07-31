@@ -70,9 +70,9 @@ I livelli di servizio *CVO primario* e *CVO secondario* sono inclusi per support
 
 
 
-=== Funzione di ingrandimento per approfondimenti microbustici
+=== Funzione di ingrandimento per burst a breve termine
 
-La scheda *tendenza capacità* include ora una funzione di zoom per visualizzare i dettagli delle sovratensioni a breve termine, note come microbasti, nei grafici di utilizzo. Per ulteriori informazioni, vedere link:../integrations/capacity-trend-tab.html["Scheda Trend capacità"^].
+La scheda *Trend capacità* include ora una funzione di zoom per visualizzare i dettagli delle sequenze di burst a breve termine nei grafici di utilizzo. Per ulteriori informazioni, vedere link:../integrations/capacity-trend-tab.html["Scheda Trend capacità"^].
 
 
 

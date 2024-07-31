@@ -1,0 +1,107 @@
+---
+sidebar: sidebar 
+permalink: concepts/sla-sustainability.html 
+keywords: sustainability, sla, service level agreement, 
+summary: sustainability, sla, service level agreement 
+---
+= SLA di sostenibilità
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp Keystone fornisce una misura garantita del numero massimo di watt effettivi per tebibyte (W/TiB) per i servizi di storage basati sugli array di storage flash ONTAP con SLA di sostenibilità. Gli SLA di sostenibilità definiscono il consumo massimo di W/TiB per ogni livello di servizio idoneo, aiutando le organizzazioni a raggiungere i propri obiettivi di sostenibilità.
+
+
+
+== Metriche
+
+* *Watt*: Il consumo di energia riportato dal AutoSupport giornaliero, incluso l'utilizzo da parte del controller e degli shelf di dischi collegati.
+* *Tebibyte*: Il massimo di:
++
+** la capacità con commit + la capacità burst allocata per il livello di servizio, o.
+** la capacità effettiva distribuita, presupponendo un fattore di efficienza dello storage di `2:1`.
+
+
++
+Per ulteriori informazioni sul rapporto di efficienza dello storage, fare riferimento alla https://docs.netapp.com/us-en/active-iq/task_analyze_storage_efficiency.html["Analizza i risparmi in termini di capacità ed efficienza dello storage"^].
+
+
+
+
+
+== Livelli di servizio
+
+Gli SLA relativi alla sostenibilità si basano sui seguenti criteri di consumo:
+
+|===
+
+
+| *Livello di servizio* | *Criteri SLA* | *Capacità minima impegnata* | *Piattaforma* 
+
+
+ a| 
+Estremo
+| <=8 W/TiB | 200 TIB | AFF A800 e AFF A900 
+
+
+ a| 
+Premium
+| <=4 W/TiB | 300 TIB | AFF A800 e AFF A900 
+
+
+ a| 
+Performance
+| <=4 W/TiB | 300 TIB | AFF A800 e AFF A900 
+|===
+Per ulteriori informazioni, fare riferimento a link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage["Livelli di servizio in Keystone"].
+
+
+
+== Crediti di servizio
+
+Se il consumo W/TiB durante un periodo di fatturazione non soddisfa i criteri SLA, NetApp emette i crediti di servizio come segue:
+
+|===
+| Giorni SLA non rispettati nel periodo di fatturazione | Credito di servizio 
+
+
+ a| 
+da 1 a 2
+ a| 
+3%
+
+
+
+ a| 
+da 3 a 7
+ a| 
+15%
+
+
+
+ a| 
+14
+ a| 
+50%
+
+|===
+
+
+== Richiesta di credito di assistenza
+
+In caso di violazione dello SLA, aprire una richiesta di supporto con priorità 3 (P3) presso il Keystone Global Services and Support Center (GSSC) e fornire i dettagli richiesti nel foglio excel come illustrato di seguito:
+
+image:sla-breach.png["modello di foglio excel"]
+
+[NOTE]
+====
+* Una richiesta di credito di servizio deve essere avviata entro sei settimane dalla convalida di una violazione da parte del GSSC. Tutti i crediti di assistenza devono essere riconosciuti e approvati da NetApp.
+* I crediti di servizio possono essere applicati a una fattura futura. I crediti di servizio non si applicano alle iscrizioni Keystone scadute. Per ulteriori informazioni, fare riferimento a link:../concepts/gssc.html["NetApp Global Services Support Center"].
+
+
+====

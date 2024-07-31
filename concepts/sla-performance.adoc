@@ -1,0 +1,137 @@
+---
+sidebar: sidebar 
+permalink: concepts/sla-performance.html 
+keywords: sustainability, sla, service level agreement, 
+summary: sustainability, sla, service level agreement 
+---
+= SLA sulle performance
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp Keystone offre SLA basati sulla latenza per livello di servizio, come descritto nell'ordine di Keystone per la capacità consumata fino al limite di burst, in base ai termini e alle condizioni seguenti elencati.
+
+
+
+== Metriche
+
+* *Prestazioni degradate*: La quantità di tempo, in minuti, per incidente, durante il quale non viene soddisfatto il target di latenza percentile 90^th^.
+* La latenza percentile* *90^th^ viene misurata per volume, per livello di performance, per tutti i volumi all'interno di un ordine Keystone. La latenza viene campionata ogni cinque minuti e il valore del percentile 90^esimo^ calcolato in un periodo di 24 ore viene utilizzato come misura giornaliera, considerando i seguenti punti:
++
+** I volumi che registrano almeno cinque IOPS al momento della raccolta di metriche vengono presi in considerazione per un campione.
+** I volumi con operazioni di scrittura superiori al 30% al momento della raccolta delle metriche sono esclusi dal campione.
+** La latenza aggiunta da AQoS per gli IOPS/TiB richiesti superiori agli IOPS/TiB di destinazione sono escluse dal campione.
+** La latenza aggiunta da AQoS per mantenere il numero minimo di IOPS per volume è esclusa dal campione.
+** Per i volumi che hanno abilitato FabricPool, la latenza sostenuta a causa del trasferimento dei dati da e verso lo storage di destinazione (cold) non viene conteggiata.
+** La latenza causata dall'applicazione, dall'host o dalla rete del cliente al di fuori del cluster ONTAP non viene conteggiata.
+** Quando si utilizza il servizio avanzato di data Protection add-on, la latenza di destinazione include solo operazioni io da e verso lo storage array locale.
+** Durante un periodo di 24 ore, devono essere disponibili almeno dieci metriche valide. In caso contrario, le metriche verranno scartate.
+** Se uno o più volumi su uno storage array non dispongono di una policy AQoS valida, il numero di IOPS disponibili per gli altri volumi potrebbe essere influenzato e NetApp non sarà responsabile del targeting o del raggiungimento dei livelli di performance su tale storage array.
+** Nelle configurazioni FabricPool, i livelli di performance sono applicabili quando tutti i blocchi di dati richiesti sono sullo storage di origine FabricPool (hot) e lo storage di origine non è in una relazione di SnapMirror sincrono.
+
+
+
+
+
+
+== Livelli di servizio
+
+Tutti i livelli di servizio supportati dagli storage array flash ONTAP sono idonei per gli SLA di performance e garantiscono di soddisfare la seguente latenza di destinazione:
+
+|===
+
+
+| *Livello di servizio* | Estremo | Premium | Performance | Standard 
+
+
+ a| 
+*Target 90^th^ latenza percentile*
+| <1 ms. | <2 ms. | <4 ms. | <4 ms. 
+|===
+Per ulteriori informazioni sui requisiti di latenza dei livelli di servizio, fare riferimento alla link:../concepts/service-levels.html["Livelli di servizio in Keystone"].
+
+
+
+== Crediti di servizio
+
+NetApp emette crediti di servizio per le prestazioni ridotte:
+
+|===
+
+
+| *Soglia di prestazione* | *Credito di servizio* 
+
+
+ a| 
+90^th^ latenza percentile > latenza di destinazione
+| 3% per ogni giorno di ricorrenza 
+|===
+
+
+== Calcolo del credito di servizio
+
+I crediti di servizio vengono determinati utilizzando la seguente formula:
+
+Crediti di servizio = (capacità interessata / capacità impegnata totale) X quote di capacità X giorni interessati X percentuale di credito
+
+Dove:
+
+* *Capacità interessata*: La quantità di capacità memorizzata interessata.
+* *Capacità impegnata totale*: La capacità impegnata per il livello di servizio per l'ordine Keystone.
+* *Tariffe relative alla capacità*: Le tariffe per il livello di performance interessato, come da ordine Keystone.
+* *Giorni interessati*: Il numero di giorni di calendario interessati.
+* *Percentuale di credito*: La percentuale predeterminata per il credito di servizio.
+
+
+*Esempio*
+
+Nell'esempio seguente viene illustrato il metodo di calcolo per i crediti di servizio:
+
+|===
+
+
+| *Livello di servizio* | *Capacità interessata* | *Capacità impegnata totale* | *Costi di capacità* | *Giorni di calendario interessati* | *Percentuale di credito* 
+
+
+ a| 
+Estremo
+| 10 Tib | 50 Tib | 1,000 dollari | 2 | 3% 
+|===
+Utilizzando la formula: Crediti di servizio = ( 10 / 50 ) X 1000 x 2 x 0,03
+
+In base al calcolo, i crediti di servizio saranno pari a $12.
+
+
+
+== Richiesta di credito di assistenza
+
+In caso di violazione dello SLA, apri una richiesta di supporto con priorità 3 (P3) con il Keystone Global Services and Support Center (GSSC).
+
+* Sono necessari i seguenti dettagli:
++
+.. Numero di iscrizione Keystone
+.. Dettagli sui volumi e sullo storage controller
+.. Sede, ora, data e descrizione del problema
+.. Durata calcolata del rilevamento della latenza
+.. Strumenti e metodi di misurazione
+.. Qualsiasi altro documento applicabile
+
+
+* Fornisci i dettagli nel foglio excel illustrato di seguito per un ticket di P3 aperto con Keystone GSSC.
++
+image:sla-breach.png["modello di foglio excel"]
+
+
+
+[NOTE]
+====
+* Una richiesta di credito di servizio deve essere avviata entro sei settimane dalla convalida di una violazione da parte del GSSC. Tutti i crediti di assistenza devono essere riconosciuti e approvati da NetApp.
+* I crediti di servizio possono essere applicati a una fattura futura. I crediti di servizio non si applicano alle iscrizioni Keystone scadute. Per ulteriori informazioni, fare riferimento a link:../concepts/gssc.html["NetApp Global Services Support Center"].
+
+
+====
