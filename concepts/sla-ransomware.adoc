@@ -17,6 +17,9 @@ summary: NetApp garantisce il recovery dei dati Snapshot dai volumi di conformit
 NetApp garantisce il recovery dei dati Snapshot dai volumi di conformità SnapLock in caso di un attacco ransomware grazie al programma ransomware Recovery Guarantee. Il servizio NetApp ransomware Recovery Assurance è necessario per supportare il programma ransomware Recovery Guarantee e deve essere acquistato separatamente dall'ordine Keystone associato.
 
 
+NOTE: Gli SLA e le garanzie sono disponibili sulla base della candidatura.
+
+
 
 == Livelli di servizio
 

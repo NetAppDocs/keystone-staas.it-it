@@ -17,6 +17,9 @@ summary: disponibilità, sla, accordo sul livello di servizio
 Lo SLA di disponibilità prevede un uptime del 99,999% durante un periodo di fatturazione per gli storage array flash All NetApp ONTAP implementati per fornire l'ordine Keystone.
 
 
+NOTE: Gli SLA e le garanzie sono disponibili sulla base della candidatura.
+
+
 
 == Metriche
 

@@ -1770,4 +1770,5 @@ I dettagli degli abbonamenti, i grafici di utilizzo per ciascun livello di servi
   <block id="9cda68e54ae42ad7708b87ba7d09426f" category="sidebar">SLA Keystone STaaS</block>
   <block id="faeaec9eda6bc4c8cb6e1a9156a858be" category="sidebar">Disponibilità</block>
   <block id="19bea5bec76c66ef8bd189aa23a4c860" category="sidebar">Sostenibilità</block>
+  <block id="0fa7096028e231171f86212b096254bd" category="admonition">Gli SLA e le garanzie sono disponibili sulla base della candidatura.</block>
 </blocks>

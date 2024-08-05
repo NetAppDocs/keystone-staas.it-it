@@ -17,6 +17,9 @@ summary: sustainability, sla, service level agreement
 NetApp Keystone offre SLA basati sulla latenza per livello di servizio, come descritto nell'ordine di Keystone per la capacità consumata fino al limite di burst, in base ai termini e alle condizioni seguenti elencati.
 
 
+NOTE: Gli SLA e le garanzie sono disponibili sulla base della candidatura.
+
+
 
 == Metriche
 
