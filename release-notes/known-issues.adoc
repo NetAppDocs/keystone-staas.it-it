@@ -16,18 +16,4 @@ summary: Problemi noti identificano problemi che potrebbero impedirti di utilizz
 [role="lead"]
 Problemi noti identificano problemi che potrebbero impedirti di utilizzare in modo efficace i servizi di abbonamento Keystone.
 
-Viene segnalato il seguente problema noto:
-
-[cols="3*"]
-|===
-| Problema noto | Descrizione | Soluzione alternativa 
-
-
- a| 
-La TUI di gestione di Keystone Collector non risponde durante la configurazione delle policy AQoS.
- a| 
-Quando si tenta di creare criteri AQoS tramite l'interfaccia telefonica utente, l'interfaccia telefonica utente potrebbe riscontrare un problema e smettere di rispondere.
- a| 
-Contattare l'assistenza NetApp.
-
-|===
+Al momento non ci sono problemi noti.

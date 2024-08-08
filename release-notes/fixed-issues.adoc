@@ -22,6 +22,15 @@ I problemi riscontrati nelle precedenti release dei servizi NetApp Keystone STaa
 
 
  a| 
+La TUI di gestione di Keystone Collector non risponde durante la configurazione delle policy AQoS.
+ a| 
+Corretto
+ a| 
+7 agosto 2024
+
+
+
+ a| 
 I grafici di utilizzo visualizzano i dati oltre il periodo di un giorno specificato quando la data corrispondente al giorno corrente è selezionata come data di inizio e di fine per il mese precedente dall'opzione *Trend capacità* nella scheda *Trend capacità*.
  a| 
 I grafici di utilizzo ora visualizzano correttamente i dati per il periodo di un giorno specificato.
