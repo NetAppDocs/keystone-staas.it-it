@@ -17,7 +17,7 @@ summary: Prima di poter installare Keystone Collector, il tuo sistema VMware vSp
 Prima di poter installare Keystone Collector, il tuo sistema VMware vSphere deve soddisfare diversi requisiti.
 
 .Prerequisiti per la macchina virtuale del server Keystone Collector:
-* Sistema operativo: Server VMware vCenter e ESXi 6.5 o versione successiva
+* Sistema operativo: Server VMware vCenter e ESXi 6.7 o versione successiva
 * Core: 1 CPU
 * RAM: 2 GB DI RAM
 * Spazio su disco: Disco virtuale da 20 GB
