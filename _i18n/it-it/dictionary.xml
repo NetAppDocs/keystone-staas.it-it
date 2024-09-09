@@ -1794,4 +1794,6 @@ I dettagli degli abbonamenti, i grafici di utilizzo per ciascun livello di servi
   <block id="86e86c82820734a68c07adc56b6390a2" category="inline-image-macro">Schermata TUI per visualizzare il messaggio di errore per la creazione dei criteri</block>
   <block id="224dfc2fadc284cf45249b5ddb7bc7cd" category="admonition">Se esiste già un PSL per il livello di servizio selezionato sul server Active IQ Unified Manager specificato, non è possibile crearlo di nuovo. Se si tenta di farlo, viene visualizzato un messaggio di errore. <block ref="b503f359d5754d7d4260112bc56a05d7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1b787eed58abedc58337d9fef037fb67" category="list-text">Sistema operativo: Server VMware vCenter e ESXi 6.7 o versione successiva</block>
+  <block id="f7e13857abd03bc318b89fe886669d7d" category="paragraph">Il campo *da data* per selezionare l'intervallo di date visualizza una data futura per impostazione predefinita quando si passa alla scheda *Trend consumi*.</block>
+  <block id="443c63f2975d5902a80f1597e417d9f2" category="paragraph">4 settembre 2024</block>
 </blocks>

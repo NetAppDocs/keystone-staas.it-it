@@ -22,6 +22,15 @@ I problemi riscontrati nelle precedenti release dei servizi NetApp Keystone STaa
 
 
  a| 
+Il campo *da data* per selezionare l'intervallo di date visualizza una data futura per impostazione predefinita quando si passa alla scheda *Trend consumi*.
+ a| 
+Corretto
+ a| 
+4 settembre 2024
+
+
+
+ a| 
 La TUI di gestione di Keystone Collector non risponde durante la configurazione delle policy AQoS.
  a| 
 Corretto
