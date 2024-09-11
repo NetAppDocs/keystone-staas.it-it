@@ -20,6 +20,8 @@ indexpage:
       url: "/installation/vapp-installation.html"
     - title: Installare Keystone Collector su Linux
       url: "/installation/linux-installation.html"
+    - title: Installare Keystone Collector in modalità privata
+      url: "/dark-sites/overview.html"
     - title: Visualizzate il vostro utilizzo su Digital Advisor
       url: "/integrations/keystone-aiq.html"
     - title: Generare report sui consumi
