@@ -52,22 +52,22 @@ Occasionalmente, i volumi temporanei (TMP) vengono creati da ONTAP durante lo sp
 
 == Policy di fatturazione e QoS adattivi
 
-Keystone misura il consumo in base ai livelli di servizio. Ogni livello di servizio è associato a una specifica policy di qualità del servizio (QoS) adattativa. Durante l'implementazione, sarai informato dei dettagli di ogni policy QoS per i servizi Keystone sottoscritti. Durante le operazioni di gestione dello storage, assicurarsi che i volumi abbiano le policy QoS appropriate assegnate in base ai livelli di servizio sottoscritti, per evitare la fatturazione imprevista. Per ulteriori informazioni sui criteri QoS in ONTAP, vedere link:https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html["Garantire il throughput con la panoramica QoS"^].
+Keystone misura il consumo in base ai livelli di servizio. Ogni livello di servizio è associato a una specifica policy di qualità del servizio (QoS) adattativa. Durante l'implementazione, sarai informato dei dettagli di ogni policy di QoS adattiva per i servizi Keystone sottoscritti. Durante le operazioni di gestione dello storage, assicurati che i tuoi volumi abbiano assegnate le policy di QoS adattive appropriate in base ai livelli di servizio sottoscritti per evitare fatturazione imprevista. Per ulteriori informazioni sui criteri QoS adattativi in ONTAP, vedere link:https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html["Garantire il throughput con la panoramica QoS"^].
 
 
 
 == Fatturazione per destinazioni SnapMirror
 
-Il prezzo del volume di destinazione SnapMirror è regolato dalla policy QoS per il livello di servizio assegnato all'origine. Tuttavia, se l'origine non dispone di una policy QoS associata, la destinazione viene fatturata in base al livello di servizio più basso disponibile.
+I prezzi per il volume di destinazione SnapMirror sono regolati dalla policy di QoS adattiva per il livello di servizio assegnato all'origine. Tuttavia, se l'origine non dispone di una policy di QoS adattiva associata, la destinazione viene fatturata in base al livello di servizio più basso disponibile.
 
 
 
 == Fatturazione per LUN
 
-Per i LUN, viene seguito lo stesso modello di fatturazione dei volumi governati dalle policy di QoS. Se sui LUN sono impostate policy QoS separate, allora:
+Per i LUN viene seguito lo stesso schema di fatturazione utilizzato per i volumi governati da policy di QoS adattive. Se nei LUN sono impostate policy di QoS adattive separate, allora:
 
 * La dimensione del LUN viene conteggiata per il consumo in base al livello di servizio associato a tale LUN.
-* Il resto dello spazio nel volume, se presente, viene addebitato in base alla policy QoS del livello di servizio impostato sul volume.
+* L'eventuale spazio rimanente nel volume viene addebitato in base alla policy di QoS adattiva del livello di servizio impostato sul volume.
 
 
 

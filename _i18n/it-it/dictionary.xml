@@ -737,13 +737,9 @@
   <block id="ba4c22a98feebac558bbaac68b704e09" category="section-title">Fatturazione per volumi temporanei</block>
   <block id="480da42f59e7a8b523d40d52ba830cb8" category="paragraph">Occasionalmente, i volumi temporanei (TMP) vengono creati da ONTAP durante lo spostamento dei volumi. Questi volumi temporanei sono di breve durata e il consumo su questi volumi non viene misurato per la fatturazione.</block>
   <block id="f3fd1171857d8ea7abb7920fd1fd0c55" category="section-title">Policy di fatturazione e QoS adattivi</block>
-  <block id="31dc6a9375ebd13745edd88d9ad398fa" category="paragraph">Keystone misura il consumo in base ai livelli di servizio. Ogni livello di servizio è associato a una specifica policy di qualità del servizio (QoS) adattativa. Durante l'implementazione, sarai informato dei dettagli di ogni policy QoS per i servizi Keystone sottoscritti. Durante le operazioni di gestione dello storage, assicurarsi che i volumi abbiano le policy QoS appropriate assegnate in base ai livelli di servizio sottoscritti, per evitare la fatturazione imprevista. Per ulteriori informazioni sui criteri QoS in ONTAP, vedere <block ref="c361ea29a8da4892d7ebbf6b7b42594c" category="inline-link-macro-rx"></block>.</block>
   <block id="18b8a063bbf57f20dcdbb6f12a9dc0e9" category="section-title">Fatturazione per destinazioni SnapMirror</block>
-  <block id="34331c74c5db43631e74f0ed21504ce2" category="paragraph">Il prezzo del volume di destinazione SnapMirror è regolato dalla policy QoS per il livello di servizio assegnato all'origine. Tuttavia, se l'origine non dispone di una policy QoS associata, la destinazione viene fatturata in base al livello di servizio più basso disponibile.</block>
   <block id="c73be2f2aaeb82cecf852c49f3ea4cce" category="section-title">Fatturazione per LUN</block>
-  <block id="0d128bf188abd70ede35e6c24063c36b" category="paragraph">Per i LUN, viene seguito lo stesso modello di fatturazione dei volumi governati dalle policy di QoS. Se sui LUN sono impostate policy QoS separate, allora:</block>
   <block id="cb1713b138a78b69b1922aa45131c2df" category="list-text">La dimensione del LUN viene conteggiata per il consumo in base al livello di servizio associato a tale LUN.</block>
-  <block id="a0426b9dc757c80060e1b3657daf68d2" category="list-text">Il resto dello spazio nel volume, se presente, viene addebitato in base alla policy QoS del livello di servizio impostato sul volume.</block>
   <block id="1eba80d57d3138b5dae3b976f061f9d9" category="section-title">Volumi di sistema e root</block>
   <block id="3655e8bb18b4941a3bf9ce392c24bbb4" category="paragraph">I volumi di sistema e root vengono monitorati come parte del monitoraggio generale del servizio Keystone, ma non vengono conteggiati o fatturati. Il consumo su questi volumi è esentato per la fatturazione.</block>
   <block id="a6f1b0a7a0dc76c228aff931a7f131c9" category="summary">Prezzo Keystone</block>
@@ -1927,4 +1923,74 @@ I dettagli degli abbonamenti, i grafici di utilizzo per ciascun livello di servi
   <block id="d94b27c65b00f48ddf2590d54d34311d" category="list-text">Keystone Collector può essere configurato per le organizzazioni che non dispongono di accesso a Internet, anche note come _dark site_ o _private mode_. Per ulteriori informazioni, fare riferimento alla sezione <block ref="a6faf1739dac35fa9b42259f2ec27ee2" category="inline-link-macro-rx"></block>.</block>
   <block id="70746148197a1842a9455cddc0c18adc" category="paragraph">Keystone Collector può essere configurato in modalità _standard_, che funziona senza restrizioni di connettività, o in modalità _private_, progettata per le organizzazioni con restrizioni di connettività. Per installare Keystone Collector in modalità standard, fare riferimento alla <block ref="a9306132ed6aac4cbc6f1e3f3feb8703" category="inline-link-macro-rx"></block>; per la modalità privata, fare riferimento alla <block ref="a6faf1739dac35fa9b42259f2ec27ee2" category="inline-link-macro-rx"></block>.</block>
   <block id="67f289221dc2b8315be57c85a28e0619" category="sidebar">Preparazione per l'installazione</block>
+  <block id="5e2de39ee27d191717827ce53298c90c" category="paragraph">Keystone misura il consumo in base ai livelli di servizio. Ogni livello di servizio è associato a una specifica policy di qualità del servizio (QoS) adattativa. Durante l'implementazione, sarai informato dei dettagli di ogni policy di QoS adattiva per i servizi Keystone sottoscritti. Durante le operazioni di gestione dello storage, assicurati che i tuoi volumi abbiano assegnate le policy di QoS adattive appropriate in base ai livelli di servizio sottoscritti per evitare fatturazione imprevista. Per ulteriori informazioni sui criteri QoS adattativi in ONTAP, vedere <block ref="c361ea29a8da4892d7ebbf6b7b42594c" category="inline-link-macro-rx"></block>.</block>
+  <block id="b3f67b6d739086a60e5e83a06fc9385a" category="paragraph">I prezzi per il volume di destinazione SnapMirror sono regolati dalla policy di QoS adattiva per il livello di servizio assegnato all'origine. Tuttavia, se l'origine non dispone di una policy di QoS adattiva associata, la destinazione viene fatturata in base al livello di servizio più basso disponibile.</block>
+  <block id="48a2e47bd08859aaadb33439caee37ab" category="paragraph">Per i LUN viene seguito lo stesso schema di fatturazione utilizzato per i volumi governati da policy di QoS adattive. Se nei LUN sono impostate policy di QoS adattive separate, allora:</block>
+  <block id="6490b5d86d9c2c555b3e5beda0a2a9d5" category="list-text">L'eventuale spazio rimanente nel volume viene addebitato in base alla policy di QoS adattiva del livello di servizio impostato sul volume.</block>
+  <block id="9204b645e4eea2a02754c156cfd9e1a6" category="summary">Un token di aggiornamento viene utilizzato per ottenere a livello di programmazione un nuovo set di token di accesso ed è valido per una settimana o fino a quando non viene utilizzato per ottenere un nuovo set di token.</block>
+  <block id="145b307d4ba69aec19da1f45298d0331" category="doc">Generare token di aggiornamento e accesso</block>
+  <block id="927b8562aa4139e861d75cb3b52989c0" category="paragraph">Di seguito è riportata la procedura per generare un token di aggiornamento tramite il portale Digital Advisor:</block>
+  <block id="6000572c108dfa296d55e1b66e617881" category="inline-link">Portale Digital Advisor</block>
+  <block id="65b626e7fc3c2a629d8173445c374939" category="list-text">Accedere a<block ref="68e1c8d460b05c6b3487ddd972231b8a" category="inline-link-rx"></block> utilizzando le credenziali NetApp e selezionare *genera token*.</block>
+  <block id="84a0716e9996908ee6c3f7844b40f16e" category="inline-image-macro">Procedura per generare un token di aggiornamento utilizzando il portale Digital Advisor</block>
+  <block id="38ddf21c7008008f5756c8d45f73e98d" category="paragraph"><block ref="38ddf21c7008008f5756c8d45f73e98d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2eab0ef2787046e5ca1a37a551a84a52" category="admonition">Se l'opzione *genera token* non è disponibile per gli utenti alla prima volta, selezionare *Registra* per inviare una richiesta di autorizzazione. Compila il modulo di registrazione per abilitare la funzionalità.</block>
+  <block id="dfafc53dc163bc9e881aaefa4141b99b" category="list-text">Il sistema genera un token di accesso e un token di aggiornamento. Salvare il token di aggiornamento su una piattaforma attendibile.</block>
+  <block id="99a9cfa523a42e23621796dfca6edb0a" category="admonition">Il portale offre diversi modi per salvare uno o entrambi i token nell'insieme. È possibile copiarli negli Appunti, scaricarli come file di testo o visualizzarli come testo normale.</block>
+  <block id="0c985b7de8ddbf36c9ba269c6fa7d19d" category="inline-image-macro">Tipi di token</block>
+  <block id="e1b9a61b4bf198d118cecea54ef50f05" category="paragraph"><block ref="e1b9a61b4bf198d118cecea54ef50f05" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="76acfd7cc1462b0cb95165dff3d80956" category="section-title">Generare il token di accesso utilizzando l'API REST di Digital Advisor</block>
+  <block id="3bec9bdc64ea5ba7cdaa6b6cbcced8c1" category="paragraph">Il token di accesso viene utilizzato per autenticare le richieste API di Digital Advisor. Può essere generato direttamente tramite la console insieme al token di aggiornamento o utilizzando la seguente chiamata API:</block>
+  <block id="44ca1d23512f6b8b70e799213f0aa0cd" category="paragraph">*Richiesta:*</block>
+  <block id="28ed9b5b5df5d633073f9cca1d10bee9" category="cell">*Metodo*</block>
+  <block id="a02439ec229d8be0e74b0c1602392310" category="cell">POST</block>
+  <block id="55322ba3b4cd3b7782949a6debd00e1c" category="cell">*Endpoint*</block>
+  <block id="111ffa9d375a47f985e5a930df93acad" category="cell"><block ref="111ffa9d375a47f985e5a930df93acad" category="inline-link-rx"></block></block>
+  <block id="904069365b298cc4d7103f93cb31dbfc" category="cell">*Intestazioni*</block>
+  <block id="542ec3d8c98f371802d8fd77096ac7b2" category="list-text">accetta: applicazione/json</block>
+  <block id="30de7c9b045a8fbe02ed2b9d4ffe4425" category="list-text">Content-Type: Application/json</block>
+  <block id="b7fa10c6a4149a93a4eaaba61e0f23e1" category="cell">*Corpo della richiesta*</block>
+  <block id="13bdfec6f8b9e7cc7abb43fab0b6b384" category="paragraph">{ "refresh_token": "&lt;refresh-token&gt;" }</block>
+  <block id="7893264e0d59291df9deafb0e9f1b841" category="admonition">Per accedere a questo endpoint, è necessario disporre di un Privileges amministrativo per Digital Advisor.</block>
+  <block id="49fdcb561eb10ce1bc7df051ca7f8d08" category="paragraph">*Risposta:*</block>
+  <block id="746b4a10356112a607ace0b2038463aa" category="paragraph">L'API restituisce come risposta un token di accesso e un token di aggiornamento in formato JSON.</block>
+  <block id="fb024c1026b3468fe6493e58895bb1d2" category="paragraph">*Codice di stato*: 200 – richiesta riuscita</block>
+  <block id="c1243520ab8986b01d2c43fb104c0bce" category="paragraph">*Esempio Curl*:</block>
+  <block id="da50043d1f7c61447ab36e5a81e7ab67" category="section-title">Eseguire la chiamata API</block>
+  <block id="ffc141c1c95ba83a77683a29e2e3c158" category="paragraph">Una volta generato correttamente un token di accesso, è possibile eseguire chiamate API di Digital Advisor autorizzate per le informazioni richieste.</block>
+  <block id="60da99bd88f7966b796873420df2f1c3" category="summary">Questa API recupera i dettagli di consumo correnti per tutte le sottoscrizioni associate con l'ID cliente specificato.</block>
+  <block id="8bc9e7b2eb702a14a34a24bcc32c172d" category="doc">Ottieni dettagli sul consumo dei clienti utilizzando l'API REST di Digital Advisor</block>
+  <block id="7528035a93ee69cedb1dbddb2f0bfcc8" category="cell">OTTIENI</block>
+  <block id="41d2da547ce3e763f6eead2948c7bce6" category="cell">*Endpoint*</block>
+  <block id="7390986cba8738a130d09a1ae8c7619d" category="cell"><block ref="7390986cba8738a130d09a1ae8c7619d" category="inline-link-rx"></block></block>
+  <block id="ff42ec92d6bd64c6ab6d1f0800017eef" category="cell">*Parametri*</block>
+  <block id="5ee9048a2df6bae318564eb60313820f" category="list-text">tipo: "cliente"</block>
+  <block id="b6fcb149db1c33db8b3446e2f7582d90" category="list-text">id: &lt;customer-id&gt;</block>
+  <block id="630edeee8eb5e603fd6d970a407a9c25" category="list-text">AuthorizationToken: &lt;access_key&gt;</block>
+  <block id="3d19254bb03e315d634fc0986c9eb4f0" category="paragraph">*Risposta:* l'API risponderà con un oggetto JSON contenente un elenco di tutte le sottoscrizioni con le metriche di utilizzo del servizio correnti per il cliente specificato. Ecco un esempio di risposta:</block>
+  <block id="d3f7bd75a02cbe1c2370c78a86417b77" category="section-title">Ottenere i dettagli di consumo cronologici per un cliente</block>
+  <block id="aa781d0910bba8a0c595fe9b0cd9d3b8" category="paragraph">Questa API recupera i dettagli del consumo cronologico per tutte le sottoscrizioni associate all'ID cliente specificato in base all'intervallo di tempo specificato.</block>
+  <block id="1c706be136f0541b294fcc885fde1a63" category="cell"><block ref="1c706be136f0541b294fcc885fde1a63" category="inline-link-rx"></block></block>
+  <block id="72ce780c61cc8fc26c3fc393d965f9b7" category="list-text">From_date_utc: &lt;data di inizio (nel formato RFC3339)&gt;</block>
+  <block id="d4232bc3d79f7c2651bc3b089aa822c1" category="list-text">To_date_utc: &lt;data di fine (nel formato RFC3339)&gt;</block>
+  <block id="eb53e4bff92730b260ff2452a158fac7" category="paragraph">L'API risponderà con un oggetto JSON contenente un elenco di tutti gli abbonamenti con le metriche di utilizzo cronologico del servizio per il cliente specificato nell'intervallo di tempo selezionato. Ecco un esempio di risposta:</block>
+  <block id="20fa5f9b2d4cd9672cce24531c8f1666" category="summary">Questa API recupera un elenco di tutti gli ID cliente associati all'utente.</block>
+  <block id="2a2abaabc17b5a91d82e82303642b09c" category="doc">Ottieni un elenco di tutti i clienti utilizzando l'API REST di Digital Advisor</block>
+  <block id="b6c5a11b232c98606fb9ada3ec62627d" category="cell"><block ref="b6c5a11b232c98606fb9ada3ec62627d" category="inline-link-rx"></block></block>
+  <block id="5b7e7d763cd7702a1e75085674fe6768" category="paragraph">L'API risponderà con un oggetto JSON contenente un elenco di nomi di clienti e rispettivi ID. Ecco un esempio di risposta:</block>
+  <block id="796057698de87bb393ab8b61e5aff5f2" category="summary">Questa API recupera un elenco di tutte le sottoscrizioni e i livelli di servizio associati all'ID cliente specificato.</block>
+  <block id="9b6c21a9e3f04a27506fa4a5eb0cd41f" category="doc">Ottieni gli abbonamenti dei clienti utilizzando l'API REST di Digital Advisor</block>
+  <block id="bb50b1b9a7f23ddec00f27c428c363f2" category="cell"><block ref="bb50b1b9a7f23ddec00f27c428c363f2" category="inline-link-rx"></block></block>
+  <block id="7dad8be1becd1cd3fe4d2ec1306c3b82" category="paragraph">L'API risponderà con un oggetto JSON contenente un elenco di tutti gli abbonamenti e i dettagli del livello di servizio associati per il cliente specificato. Ecco un esempio di risposta:</block>
+  <block id="4add8177bc48d8ace8e3bcec902454ad" category="summary">Le API di consulente digitale ActiveIQ di NetApp Keystone forniscono un'interfaccia programmatica per recuperare dettagli e metriche del servizio Keystone.</block>
+  <block id="0a076b1454da01faf38e4805c15570ee" category="doc">Inizia a utilizzare l'API REST di Digital Advisor per recuperare i dati Keystone</block>
+  <block id="e29debe73c0e9065a4267dfae6adefe9" category="paragraph">L'API REST di Digital Advisor fornisce un'interfaccia programmatica per recuperare i dettagli dell'abbonamento Keystone e di consumo.</block>
+  <block id="c3091c7f241015a003ff982080a072b0" category="paragraph">Ad un livello elevato, il flusso di lavoro per interagire con l'API REST di Digital Advisor prevede i seguenti passaggi:</block>
+  <block id="6c0397360aa8b37bbbe1fa3a38744674" category="inline-link">Accedere a Digital Advisor.</block>
+  <block id="cb2ea5f9df257b4df0243d4cf9e535bf" category="list-text">Configurare l'account Digital Advisor. Per accedere a Digital Advisor, è necessario disporre di credenziali valide per il sito del supporto NetApp. Per ulteriori informazioni, fare riferimento a.<block ref="f7709f12f686047b8295b5977c1d6d33" category="inline-link-rx"></block></block>
+  <block id="d99ad2d9a576f68ae4b88fb369c0150d" category="list-text">Comprendere il processo di autenticazione in due fasi.</block>
+  <block id="10a330e0acf4a6c5af02e22d7528123d" category="list-text">*Generare un token di aggiornamento*: Un token di aggiornamento viene ottenuto tramite la console di Digital Advisor utilizzando le credenziali NetApp. Questo token viene utilizzato per garantire l'accesso continuo senza la necessità di accessi ripetuti.</block>
+  <block id="2242d62d3e8be601b23d94ea56e90d58" category="list-text">*Genera un token di accesso*: Il token di aggiornamento viene utilizzato per generare token di accesso. Per autorizzare le chiamate API al servizio Keystone è necessario un token di accesso valido per un'ora.</block>
+  <block id="f8f8242a29d5eb9256ae05747db07412" category="list-text">Eseguire una chiamata API per recuperare i dati desiderati.è possibile recuperare a livello di codice elenchi di clienti, dati di sottoscrizione del cliente e dettagli sul consumo del cliente.</block>
+  <block id="fad1e832526fa7449bfff5b810826110" category="sidebar">Accedi a Keystone dall'API REST di Digital Advisor</block>
 </blocks>

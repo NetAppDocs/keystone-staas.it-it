@@ -1,0 +1,29 @@
+---
+sidebar: sidebar 
+permalink: rest-api/retrieve-keystone-data-with-digital-advisor-rest-api.html 
+keywords: Keystone, ActiveIQ Digital Advisor, APIs, programmatic interface 
+summary: 'Le API di consulente digitale ActiveIQ di NetApp Keystone forniscono un"interfaccia programmatica per recuperare dettagli e metriche del servizio Keystone.' 
+---
+= Inizia a utilizzare l'API REST di Digital Advisor per recuperare i dati Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+L'API REST di Digital Advisor fornisce un'interfaccia programmatica per recuperare i dettagli dell'abbonamento Keystone e di consumo.
+
+Ad un livello elevato, il flusso di lavoro per interagire con l'API REST di Digital Advisor prevede i seguenti passaggi:
+
+. Configurare l'account Digital Advisor. Per accedere a Digital Advisor, è necessario disporre di credenziali valide per il sito del supporto NetApp. Per ulteriori informazioni, fare riferimento a. https://docs.netapp.com/us-en/active-iq/task_login_activeiq.html["Accedere a Digital Advisor."]
+. Comprendere il processo di autenticazione in due fasi.
++
+.. *Generare un token di aggiornamento*: Un token di aggiornamento viene ottenuto tramite la console di Digital Advisor utilizzando le credenziali NetApp. Questo token viene utilizzato per garantire l'accesso continuo senza la necessità di accessi ripetuti.
+.. *Genera un token di accesso*: Il token di aggiornamento viene utilizzato per generare token di accesso. Per autorizzare le chiamate API al servizio Keystone è necessario un token di accesso valido per un'ora.
+
+
+. Eseguire una chiamata API per recuperare i dati desiderati.è possibile recuperare a livello di codice elenchi di clienti, dati di sottoscrizione del cliente e dettagli sul consumo del cliente.
+
