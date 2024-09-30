@@ -65,7 +65,7 @@ NetApp è in grado di fornire le specifiche dei requisiti di raffreddamento (BTU
 Keystone Collector può essere implementato utilizzando i seguenti metodi:
 
 * Modello VMware OVA (è richiesto VMware vCenter Server 6.7 o versione successiva)
-* Il cliente fornisce Red Hat Enterprise Linux 7, 8 o CentOS 7 Linux Server. Il software Keystone viene installato tramite `.rpm` processo di installazione.
+* Il cliente fornisce un server Linux in esecuzione su Red Hat Enterprise Linux 8,6 o versioni successive 8.x o CentOS 7. Il software Keystone viene installato tramite il `.rpm` processo di installazione.
 
 
 Il gateway della soluzione AIOPS viene implementato nella seguente configurazione:
@@ -84,12 +84,7 @@ Il gateway della soluzione AIOPS viene implementato nella seguente configurazion
 
 === Networking
 
-È necessario l'accesso in uscita ai seguenti servizi per le operazioni e la manutenzione di Keystone Collector e del gateway della soluzione AIOP:
-
-* support.netapp.com (caricamento dei dati di utilizzo)
-* keystone.netapp.com (aggiornamenti software)
-* Hub.Docker.io (aggiornamenti software)
-
+L'accesso in uscita a _keystone.NetApp.com_ è necessario per gli aggiornamenti software e il caricamento dei dati di utilizzo, essenziali per il funzionamento e la manutenzione del gateway di soluzioni Keystone Collector e AIOps.
 
 A seconda dei requisiti del cliente e dei controller di storage utilizzati, NetApp può fornire connettività da 10 GB, 40 GB e 100 GB presso la sede del cliente.
 

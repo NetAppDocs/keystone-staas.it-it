@@ -377,7 +377,6 @@
   <block id="79e0703c840b981be16f9e1a40c5a0b4" category="inline-image-macro">architettura di collector</block>
   <block id="009d77d3b79ee4c7df16ef0658dd3bc3" category="paragraph"><block ref="009d77d3b79ee4c7df16ef0658dd3bc3" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ec42ecd035e3697033aaf0a3f87f6d29" category="doc">Requisiti di sistema per Linux</block>
-  <block id="29bc7d9ab3c94b603834dbbd074f9667" category="list-text">Sistema operativo: CentOS 7 o Red Hat Enterprise Linux 8.6 o versione successiva</block>
   <block id="6c0ecb6db472eae3c84276b7cd5ea34f" category="list-text">Tempo cronyd sincronizzato</block>
   <block id="25c10b524de794226cf520c9a3dacc83" category="list-text">Accesso ai repository software Linux standard</block>
   <block id="8dff4f66fbdc44d35cadc9cf566cab06" category="paragraph">Lo stesso server deve avere anche i seguenti pacchetti di terze parti:</block>
@@ -544,15 +543,12 @@
   <block id="b061e71795ea0169fae5918033aa1426" category="inline-link-macro">Guida all'installazione di Keystone Collector</block>
   <block id="b81687f75b28f9a0cfb73649c9cca458" category="section-title">Opzioni di implementazione</block>
   <block id="a100eabbc0de64e817f5268550f98e40" category="list-text">Modello VMware OVA (è richiesto VMware vCenter Server 6.7 o versione successiva)</block>
-  <block id="78723ce66f58e9e7caf198aa1ec6dc10" category="list-text">Il cliente fornisce Red Hat Enterprise Linux 7, 8 o CentOS 7 Linux Server. Il software Keystone viene installato tramite<block ref="a0d068ed6db680cb6ae54d799e889954" prefix=" " category="inline-code"></block> processo di installazione.</block>
   <block id="b264c507ce69115ec3b1ea258739f71a" category="paragraph">Il gateway della soluzione AIOPS viene implementato nella seguente configurazione:</block>
   <block id="982460f46a9c865b5659aba58b2214e3" category="list-text">Programma di installazione .iso avviabile per</block>
   <block id="12d3f37fc10bb62fe3297b7457e90417" category="list-text">Citrix XenServer</block>
   <block id="bbc2d665b02dc421c5c756db4b973610" category="list-text">Microsoft Hyper-V.</block>
   <block id="e05386baa04fdb8086234b221371bac1" category="list-text">Macchina virtuale basata su kernel (KVM Linux)</block>
   <block id="a5fa5746370b608090b994a97b49e98b" category="section-title">Networking</block>
-  <block id="6a289655b3295fc9e844e417d89ad1d9" category="list-text">support.netapp.com (caricamento dei dati di utilizzo)</block>
-  <block id="ebe9aca07858175421a1a9356e13ef73" category="list-text">Hub.Docker.io (aggiornamenti software)</block>
   <block id="9696806b0bc121063e619b6f0922f330" category="paragraph">A seconda dei requisiti del cliente e dei controller di storage utilizzati, NetApp può fornire connettività da 10 GB, 40 GB e 100 GB presso la sede del cliente.</block>
   <block id="bc9ce1a2001f13d5a3489030a7b630e9" category="paragraph">NetApp fornisce i ricetrasmettitori necessari solo per i dispositivi di infrastruttura forniti da NetApp. È necessario fornire i ricetrasmettitori necessari per i dispositivi del cliente e il cablaggio ai dispositivi dell'infrastruttura Keystone forniti da NetApp.</block>
   <block id="d701dcea67fd884a29f39c9adfdeb8bf" category="section-title">Requisito per l'accesso remoto</block>
@@ -1193,7 +1189,6 @@ Ecco un esempio:</block>
   <block id="0cd22f9baa25202637cff789fe1dfe9f" category="list-text">Active IQ Unified Manager (Unified Manager) 9,10 o versione successiva</block>
   <block id="81f184376266ed69a659d0030be070fc" category="list-text">Verificare che sia stato importato il certificato pubblico corretto controllando l'impronta digitale per Keystone Billing Platform nel database RPM:<block ref="ea7401e26ed6546568cda192cd234905" prefix=" " category="inline-code"></block>
 L'impronta digitale corretta è simile al seguente:<block ref="821b59fa560f6b692841b490c9d51dfe" prefix=" " category="inline-code"></block></block>
-  <block id="82141214645629808da05e70bbc23bcf" category="list-text">keystone.netapp.com (aggiornamenti software)</block>
   <block id="cbe21b6da30db10de9cd33de72b5dc48" category="paragraph">La tecnologia SnapLock abilita la funzione NRNVC rendendo il disco inutilizzabile dopo la data di scadenza impostata nel volume. Per utilizzare la tecnologia SnapLock sui tuoi volumi, devi iscriverti a NRNVC. Questo è applicabile solo ai servizi di file e blocco.</block>
   <block id="25ee4dffb8ff9627245188cd5d5a88f9" category="paragraph">NetApp Keystone (Keystone) è un modello di servizio pay-as-you-grow basato su abbonamento che offre un'esperienza di cloud ibrido perfetta per le aziende che preferiscono i modelli di consumo OPEX a CapEx anticipate o al leasing.</block>
   <block id="14ef43baeaecb16eed97981bac41fa1a" category="paragraph">Keystone consente ai clienti di accelerare il time-to-value riducendo gli ostacoli nella gestione di una crescita imprevedibile della capacità e di complessi cicli di approvvigionamento. Keystone consente ai clienti di allineare economia e operazioni alle loro priorità di business.</block>
@@ -1520,7 +1515,6 @@ I dettagli degli abbonamenti, i grafici di utilizzo per ciascun livello di servi
   <block id="1d338514e4b31738eb689c9e5bf1deca" category="paragraph">Per abilitare i servizi NetApp Keystone STaaS nel tuo ambiente sono necessari diversi componenti. Prima di iniziare, è necessario rivedere i dettagli su questi componenti.</block>
   <block id="147c46cde84c281f55a6c47d275ff845" category="paragraph">È necessaria una Storage Virtual Machine (VM di storage) per l'implementazione di Keystone Collector e del gateway della soluzione AIOP. I prerequisiti per l'installazione di Keystone Collector sono disponibili qui: <block ref="90d7b7caf953f72ddc1c63cc7891ca46" category="inline-link-macro-rx"></block>. Gli altri requisiti vengono condivisi durante l'implementazione.</block>
   <block id="d246f9b425c150eb3d6e174fbc2525d0" category="paragraph">Keystone Collector può essere implementato utilizzando i seguenti metodi:</block>
-  <block id="2ad06e7ec3a3005472f12c2250cfbe16" category="paragraph">È necessario l'accesso in uscita ai seguenti servizi per le operazioni e la manutenzione di Keystone Collector e del gateway della soluzione AIOP:</block>
   <block id="3332bc574644f77a870b242a631af1e3" category="summary">La capacità consumata è la capacità effettivamente utilizzata dai tuoi workload durante l'utilizzo del servizio.</block>
   <block id="7a6709ab5e3b396814fccf37c263ad1f" category="paragraph">Keystone STaaS ha una misurazione basata sulla capacità consumata dall'utente durante l'utilizzo del servizio. La capacità consumata è la capacità effettivamente utilizzata dai carichi di lavoro.</block>
   <block id="35ff061e0e3d6c0c79e597b4d638231e" category="paragraph">Nell'ambito dell'implementazione del servizio Keystone, NetApp monitora e misura continuamente il consumo del servizio. Almeno una volta ogni cinque minuti, il sistema genera un record di consumo, con dettagli sulla capacità consumata corrente per l'iscrizione. Questi record vengono aggregati nel periodo di fatturazione per generare fatture e report sull'utilizzo.</block>
@@ -1898,7 +1892,6 @@ I dettagli degli abbonamenti, i grafici di utilizzo per ciascun livello di servi
   <block id="4b78be970b5500221a819608df5616e7" category="list-text">Sistema operativo: Server VMware vCenter e ESXi 6,7 o versioni successive</block>
   <block id="0a07fd95ca9bf6935ce5e61609730be6" category="list-text">RAM: 2 GB</block>
   <block id="c53de6b17f1d8da5e4d60aca127be380" category="section-title">Requisiti per Linux</block>
-  <block id="839c50014246079994053b486bb0f80c" category="list-text">Sistema operativo: Debian V12 o Red Hat Enterprise Linux 8,6 o versioni successive</block>
   <block id="6adf0487ff5b4dadf30c70a5107314fc" category="list-text">Core: 2 CPU</block>
   <block id="9b254436141f0faf599283567283dff9" category="list-text">RAM: 4 GB</block>
   <block id="52bef7e9917e522c1436572ddc5a3a3f" category="list-text">Almeno 2 GB di spazio libero in<block ref="9854ed422bddbda845d9be18e5812dbc" prefix=" " category="inline-code"></block></block>
@@ -1993,4 +1986,8 @@ I dettagli degli abbonamenti, i grafici di utilizzo per ciascun livello di servi
   <block id="2242d62d3e8be601b23d94ea56e90d58" category="list-text">*Genera un token di accesso*: Il token di aggiornamento viene utilizzato per generare token di accesso. Per autorizzare le chiamate API al servizio Keystone è necessario un token di accesso valido per un'ora.</block>
   <block id="f8f8242a29d5eb9256ae05747db07412" category="list-text">Eseguire una chiamata API per recuperare i dati desiderati.è possibile recuperare a livello di codice elenchi di clienti, dati di sottoscrizione del cliente e dettagli sul consumo del cliente.</block>
   <block id="fad1e832526fa7449bfff5b810826110" category="sidebar">Accedi a Keystone dall'API REST di Digital Advisor</block>
+  <block id="aef0601039f80516fbc2cefd134a7b42" category="list-text">Il cliente fornisce un server Linux in esecuzione su Red Hat Enterprise Linux 8,6 o versioni successive 8.x o CentOS 7. Il software Keystone viene installato tramite il<block ref="a0d068ed6db680cb6ae54d799e889954" prefix=" " category="inline-code"></block> processo di installazione.</block>
+  <block id="4bfa7642bccc7e1047a0f5b699a01631" category="paragraph">L'accesso in uscita a _keystone.NetApp.com_ è necessario per gli aggiornamenti software e il caricamento dei dati di utilizzo, essenziali per il funzionamento e la manutenzione del gateway di soluzioni Keystone Collector e AIOps.</block>
+  <block id="f9d3d3159cdb3dcf297f1a90d133e474" category="list-text">Sistema operativo: Debian V12, o Red Hat Enterprise Linux (RHEL) 8,6, o versioni successive all'interno della serie RHEL 8.x</block>
+  <block id="2604f9447676294c730c1410115fcdc0" category="list-text">Sistema operativo: CentOS 7 o Red Hat Enterprise Linux (RHEL) 8,6 o versioni successive all'interno della serie RHEL 8.x</block>
 </blocks>
