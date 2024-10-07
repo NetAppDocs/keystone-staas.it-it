@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: rest-api/get-customer-subscriptions.html 
 keywords: subscriptions, service levels, customer IDs, keystone, api 
-summary: 'Questa API recupera un elenco di tutte le sottoscrizioni e i livelli di servizio associati all"ID cliente specificato.' 
+summary: 'L"API REST di Digital Advisor recupera un elenco di tutte le sottoscrizioni e i livelli di servizio associati all"ID cliente specificato.' 
 ---
 = Ottieni gli abbonamenti dei clienti utilizzando l'API REST di Digital Advisor
 :hardbreaks:
@@ -25,7 +25,7 @@ Questa API recupera un elenco di tutte le sottoscrizioni e i livelli di servizio
 | *Metodo* | OTTIENI 
 
 
-| *Endpoint* | https://api.activeiq.netapp.com/v1/keystone/customer/subscriptions-info[] 
+| *Endpoint* | `https://api.activeiq.netapp.com/v1/keystone/customer/subscriptions-info` 
 
 
 | *Parametri*  a| 

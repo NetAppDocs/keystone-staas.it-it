@@ -10,7 +10,7 @@ summary: Servizi di iscrizione Keystone STaaS su Keystone Flex
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 
 [role="lead"]

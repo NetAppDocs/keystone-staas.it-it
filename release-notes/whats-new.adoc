@@ -10,7 +10,7 @@ summary: NetApp offre funzionalità nuove e migliorate in ogni release dei servi
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

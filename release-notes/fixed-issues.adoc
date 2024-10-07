@@ -10,7 +10,7 @@ summary: I problemi riscontrati nelle precedenti release dei servizi NetApp Keys
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

@@ -10,7 +10,7 @@ summary: Problemi noti identificano problemi che potrebbero impedirti di utilizz
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

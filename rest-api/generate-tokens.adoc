@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: rest-api/generate-tokens.html 
-keywords: Refresh token, AIQ Digital Advisor portal,access 
-summary: Un token di aggiornamento viene utilizzato per ottenere a livello di programmazione un nuovo set di token di accesso ed è valido per una settimana o fino a quando non viene utilizzato per ottenere un nuovo set di token. 
+keywords: Refresh token, Digital Advisor portal,access 
+summary: Generare un token di aggiornamento per acquisire nuovi token di accesso. Autentica le richieste API e rimane valida per una settimana o fino alla sostituzione. È possibile ottenere il token di accesso tramite la console o una chiamata API. 
 ---
 = Generare token di aggiornamento e accesso
 :hardbreaks:
@@ -51,7 +51,7 @@ Il token di accesso viene utilizzato per autenticare le richieste API di Digital
 | *Metodo* | POST 
 
 
-| *Endpoint* | https://api.activeiq.netapp.com/v1/tokens/accessToken[] 
+| *Endpoint* | `https://api.activeiq.netapp.com/v1/tokens/accessToken` 
 
 
 | *Intestazioni*  a| 
@@ -66,7 +66,7 @@ Il token di accesso viene utilizzato per autenticare le richieste API di Digital
 
 |===
 
-NOTE: Per accedere a questo endpoint, è necessario disporre di un Privileges amministrativo per Digital Advisor.
+NOTE: Per accedere a questo endpoint è necessario disporre di Privileges amministrativo per Digital Advisor.
 
 *Risposta:*
 

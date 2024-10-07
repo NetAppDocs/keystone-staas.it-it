@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: rest-api/get-customer-consumption.html 
-keywords: api, consumption, subscriptions, customerID, keystone 
-summary: 'Questa API recupera i dettagli di consumo correnti per tutte le sottoscrizioni associate con l"ID cliente specificato.' 
+keywords: api, consumption, subscriptions, customerID, keystone, Digital Advisor 
+summary: 'L"API REST di Digital Advisor recupera i dettagli di consumo correnti per tutti gli abbonamenti associati con l"ID cliente specificato.' 
 ---
 = Ottieni dettagli sul consumo dei clienti utilizzando l'API REST di Digital Advisor
 :hardbreaks:
@@ -25,7 +25,7 @@ Questa API recupera i dettagli di consumo correnti per tutte le sottoscrizioni a
 | *Metodo* | OTTIENI 
 
 
-| *Endpoint* | https://api.activeiq.netapp.com/v1/keystone/customer/consumption-details[] 
+| *Endpoint* | `https://api.activeiq.netapp.com/v1/keystone/customer/consumption-details` 
 
 
 | *Parametri*  a| 
@@ -96,7 +96,7 @@ Questa API recupera i dettagli del consumo cronologico per tutte le sottoscrizio
 | *Metodo* | OTTIENI 
 
 
-| *Endpoint* | https://api.activeiq.netapp.com/v1/keystone/customer/historical-consumption-details[] 
+| *Endpoint* | `https://api.activeiq.netapp.com/v1/keystone/customer/historical-consumption-details` 
 
 
 | *Parametri*  a| 

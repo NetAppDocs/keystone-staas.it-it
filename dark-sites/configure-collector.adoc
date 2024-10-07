@@ -97,7 +97,7 @@ Per aggiornare ONTAP, procedere come segue:
 +
 image:dark-site-start-webserver-1.png["Avviare l'opzione Webserver"]
 
-.  http://<collector-ip>:8000[]Per assistenza sull'aggiornamento, visitare il sito Web utilizzo di un browser Web.
+.  `http://<collector-ip>:8000`Per assistenza sull'aggiornamento, visitare il sito Web utilizzo di un browser Web.
 
 
 
