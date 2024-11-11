@@ -16,4 +16,27 @@ summary: Problemi noti identificano problemi che potrebbero impedirti di utilizz
 [role="lead"]
 Problemi noti identificano problemi che potrebbero impedirti di utilizzare in modo efficace i servizi di abbonamento Keystone.
 
-Al momento non ci sono problemi noti.
+Nello STaaS NetApp Keystone sono riportati i seguenti problemi noti:
+
+[cols="3*"]
+|===
+| Problema noto | Descrizione | Soluzione alternativa 
+
+
+ a| 
+I dettagli del volume non sono disponibili per le sottoscrizioni principali e collegate
+ a| 
+La scheda *Volume Summary* mostra zero per il numero totale di volumi, lo stato di conformità QoS, il numero di volumi protetti e la capacità totale consumata per gli abbonamenti primari e secondari collegati.
+ a| 
+Nessuno
+
+
+
+ a| 
+La sottoscheda *Riepilogo volume* non viene caricata per gli abbonamenti StorageGRID
+ a| 
+Impossibile caricare la sottoscheda *Riepilogo volume* nella scheda *volumi e oggetti* per le sottoscrizioni StorageGRID.
+ a| 
+Nessuno
+
+|===
