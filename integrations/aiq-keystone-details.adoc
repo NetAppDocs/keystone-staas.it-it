@@ -60,6 +60,22 @@ image:report_1.png["csv del report"]
 
 
 
+== Generare un rapporto consolidato
+
+Puoi generare e visualizzare un report consolidato per le tue iscrizioni, lo storico di utilizzo, l'utilizzo dei burst, le performance, le risorse e i volumi e gli oggetti. A tale scopo, selezionare *Sottoscrizioni Keystone* come tipo di report dalla funzione Report di Digital Advisor. È possibile generare questi report a livello di cliente, cluster, watchlist o abbonamento.
+
+image:report-generation.png["Crea rapporto"]
+
+Il report viene generato in formato Excel, con ogni tipo di informazioni, come i dettagli della sottoscrizione o la cronologia di utilizzo, visualizzate su fogli separati. Questi fogli sono denominati in base alle schede della pagina *Sottoscrizioni Keystone* per una facile visualizzazione. È possibile salvare il report per uso futuro.
+
+Un report consolidato di esempio con i dettagli delle sottoscrizioni in un foglio:
+
+image:report-consolidated.png["Report generato in formato Excel con fogli separati"]
+
+Per ulteriori informazioni sulla generazione di rapporti, fare riferimento alla sezione link:https://docs.netapp.com/us-en/active-iq/task_generate_reports.html["Generare report personalizzati"^].
+
+
+
 == Visualizza avvisi
 
 La dashboard fornisce notifiche di avviso che ti consentono di comprendere i problemi che si verificano nel tuo ambiente di storage. Queste notifiche possono apparire come avvisi informativi o avvisi. Ad esempio, se all'interno dei cluster gestiti sono presenti volumi che non dispongono di criteri QoS adattivi (AQoS), viene visualizzato un messaggio di avviso. È possibile fare clic sul collegamento sul messaggio di avviso per visualizzare l'elenco dei volumi non conformi nella scheda *volumi e oggetti*.

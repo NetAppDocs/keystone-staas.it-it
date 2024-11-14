@@ -20,6 +20,16 @@ I seguenti miglioramenti sono stati introdotti nella schermata *Keystone Subscri
 
 
 
+== 11 novembre 2024
+
+
+
+=== Generazione di rapporti migliorata
+
+Ora puoi generare un report consolidato per visualizzare i dettagli dei tuoi dati Keystone utilizzando la funzionalità Report in Digital Advisor. Per ulteriori informazioni, fare riferimento a link:../integrations/aiq-keystone-details.html#generate-consolidated-report["Generare un rapporto consolidato"^].
+
+
+
 == 10 luglio 2024
 
 
