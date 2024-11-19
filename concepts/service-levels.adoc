@@ -55,6 +55,9 @@ I livelli di servizio di base per i tipi di storage supportati, file, blocchi, o
 
 
 | *Dimensione del blocco* 5+| 32.000 
+
+
+| *Tipo di capacità impegnata e misurata* 5+| Logico 
 |===
 
 
@@ -101,6 +104,9 @@ Le metriche del livello di servizio di base dipendono dalle seguenti condizioni:
 
 
 | *Latenza media* | N/A. 
+
+
+| *Tipo di capacità impegnata e misurata* | Fisico 
 |===
 
 NOTE: La latenza non include gli overhead associati al trasferimento dei dati nell'archivio di oggetti in caso di storage FabricPool.
