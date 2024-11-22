@@ -20,6 +20,28 @@ I seguenti miglioramenti sono stati introdotti nella schermata *Keystone Subscri
 
 
 
+== 21 novembre 2024
+
+
+
+=== Burst maturato fatturato migliorato
+
+È ora possibile visualizzare i dati sull'utilizzo del bursting maturato su base trimestrale tramite l'opzione *Burst maturato fatturato* se si è scelto un periodo di fatturazione trimestrale. Per ulteriori informazioni, fare riferimento a link:../integrations/capacity-trend-tab.html#view-invoiced-accrued-burst["Visualizza bursting maturato fatturato"^].
+
+
+
+=== Nuove colonne nella scheda Dettagli volumi
+
+Per migliorare la chiarezza nel calcolo dell'utilizzo logico, sono state aggiunte due nuove colonne alla scheda *Dettagli volume* nella scheda *volumi e oggetti*:
+
+* *AFS logico*: Visualizza la capacità logica utilizzata dal file system attivo del volume.
+* *Istantanea fisica*: Visualizza lo spazio fisico utilizzato dagli snapshot.
+
+
+Queste colonne forniscono una maggiore chiarezza nella colonna *logica utilizzata*, che mostra la capacità logica combinata utilizzata dal file system attivo del volume e lo spazio fisico utilizzato dagli snapshot.
+
+
+
 == 11 novembre 2024
 
 

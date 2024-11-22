@@ -22,6 +22,15 @@ I problemi riscontrati nelle precedenti release dei servizi NetApp Keystone STaa
 
 
  a| 
+Impossibile caricare la sottoscheda *Riepilogo volume* nella scheda *volumi e oggetti* per le sottoscrizioni StorageGRID.
+ a| 
+Corretto
+ a| 
+21 novembre 2024
+
+
+
+ a| 
 Il campo *da data* per selezionare l'intervallo di date visualizza una data futura per impostazione predefinita quando si passa alla scheda *Trend consumi*.
  a| 
 Corretto

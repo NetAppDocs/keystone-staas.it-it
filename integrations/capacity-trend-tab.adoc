@@ -92,18 +92,24 @@ Il burst è la differenza tra la capacità consumata e la capacità impegnata. A
 
 == Visualizza bursting maturato fatturato
 
-Se è stata selezionata l'opzione *Burst maturato fatturato*, per impostazione predefinita, è possibile visualizzare i dati mensili sull'utilizzo dei bursting maturati negli ultimi 12 mesi che sono stati fatturati. È possibile eseguire una query in base all'intervallo di date fino agli ultimi 30 mesi. I grafici a barre vengono visualizzati per i dati fatturati e, se l'utilizzo non è ancora stato fatturato, viene visualizzato _Pending_ per quel mese.
+Se hai selezionato l'opzione *Burst maturato fatturato*, puoi visualizzare i dati sull'utilizzo del bursting maturato su base mensile o trimestrale, a seconda del periodo di fatturazione selezionato. Questi dati sono disponibili per gli ultimi 12 mesi che sono stati fatturati ed è possibile eseguire una query in base all'intervallo di date fino agli ultimi 30 mesi. I grafici a barre visualizzano i dati fatturati e, se l'utilizzo non è ancora stato fatturato, saranno contrassegnati come _Pending_ per quel periodo.
 
 
 TIP: L'utilizzo dei bursting maturati fatturati viene calcolato per periodo di fatturazione in base alla capacità impegnata e consumata per un livello di servizio.
 
 image:accr-burst-1.png["grafici di utilizzo burst maturati"]
 
+Per un periodo di fatturazione trimestrale, se l'abbonamento inizia in una data diversa dal 1^o^ del mese, la fattura trimestrale coprirà il successivo periodo di 90 giorni. Ad esempio, se il tuo abbonamento inizia il 15 agosto, la fattura verrà generata per il periodo dal 15 agosto al 14 ottobre.
+
+Se passi dalla fatturazione trimestrale a quella mensile, la fattura trimestrale coprirà comunque il periodo di 90 giorni, con due fatture generate nell'ultimo mese del trimestre: Una per il periodo di fatturazione trimestrale e l'altra per i giorni rimanenti del mese. Questa transizione consente al periodo di fatturazione mensile di iniziare il 1^o^ del mese successivo. Ad esempio, se l'abbonamento inizia il 15 ottobre, riceverai due fatture a gennaio, una per il periodo dal 15 ottobre al 14 gennaio e una per il periodo dal 15 al 31 gennaio, prima che il periodo di fatturazione mensile inizi il 1 febbraio.
+
+image:accr-burst-2.png["utilizzo bursting maturato su base trimestrale"]
+
 Questa funzionalità è disponibile in una modalità di sola anteprima. Contattare il proprio KSM per ulteriori informazioni su questa funzione.
 
 
 
-== Grafici di riferimento per una protezione avanzata dei dati
+== Grafici di riferimento per la protezione avanzata dei dati per MetroCluster
 
 Se si è sottoscritto il servizio avanzato di protezione dei dati aggiuntivo, è possibile visualizzare la suddivisione dei dati di consumo per i siti partner MetroCluster nella scheda *tendenza al consumo*.
 
