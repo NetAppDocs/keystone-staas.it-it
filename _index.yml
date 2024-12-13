@@ -16,10 +16,10 @@ indexpage:
     links:
     - title: Che cos'è NetApp Keystone?
       url: "/concepts/overview.html"
-    - title: Installare Keystone Collector su VMware vSphere
+    - title: Installare Keystone Collector
       url: "/installation/vapp-installation.html"
-    - title: Installare Keystone Collector su Linux
-      url: "/installation/linux-installation.html"
+    - title: Installare ITOM Collector
+      url: "/installation/itom-prereqs.html"
     - title: Installare Keystone Collector in modalità privata
       url: "/dark-sites/overview.html"
     - title: Visualizzate il vostro utilizzo su Digital Advisor
@@ -50,14 +50,16 @@ indexpage:
       url: "/concepts/consumed-capacity-billing.html"
     - title: Cosa succede se ho consumato più della mia capacità impegnata?
       url: "/concepts/burst-consumption-billing.html"
-  - title: Ottieni di più con Keystone Services
+  - title: Fai di più con i servizi Keystone
     links:
-    - title: Conosci il tuo team di supporto (Keystone GSSC)
+    - title: Conosci il tuo team di supporto
       url: "/concepts/gssc.html"
     - title: Cosa posso fare con i dati cold o quelli meno utilizzati?
       url: "/concepts/data-tiering.html"
     - title: Come posso proteggere i miei dati Keystone?
       url: "/concepts/adp.html"
+    - title: Monitora, risolvi i problemi e migliora lo storage
+      url: "/concepts/data-infra-insights.html"
     - title: Keystone e BlueXP
       url: "/integrations/keystone-cm.html"
     - title: Supporto dei cittadini DEGLI STATI UNITI

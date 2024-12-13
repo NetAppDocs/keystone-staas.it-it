@@ -20,6 +20,28 @@ I seguenti miglioramenti sono stati introdotti nella schermata *Keystone Subscri
 
 
 
+== 12 dicembre 2024
+
+
+
+=== Rinominata colonna logica utilizzata
+
+La colonna *logica utilizzata* nella scheda *Dettagli volume* all'interno di *volumi e oggetti* è ora rinominata *Keystone Logical used*.
+
+
+
+=== Scheda risorse avanzate
+
+La scheda *risorse* nella schermata *Sottoscrizioni Keystone* contiene ora due nuove sotto-schede: *ONTAP* e *StorageGRID*. Queste sotto-schede offrono informazioni dettagliate a livello del cluster per ONTAP e informazioni a livello di grid per StorageGRID in base alle tue iscrizioni. Per ulteriori informazioni, fare riferimento a link:../integrations/assets-tab.html["Scheda risorse"^].
+
+
+
+=== Nuova opzione Nascondi/Mostra colonne
+
+La scheda *Dettagli volume* all'interno di *volumi e oggetti* include ora l'opzione *Nascondi/Mostra colonne*. Questa opzione consente di selezionare o deselezionare le colonne per personalizzare l'elenco tabulare dei volumi in base alle proprie preferenze. Per ulteriori informazioni, fare riferimento a link:../integrations/volumes-objects-tab.html["Scheda volumi  oggetti"^].
+
+
+
 == 21 novembre 2024
 
 

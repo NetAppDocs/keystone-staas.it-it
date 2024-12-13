@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: integrations/assets-tab.html 
-keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab 
-summary: Utilizza la scheda risorse per visualizzare dettagli relativi ai cluster e ai nodi gestiti dalle tue iscrizioni Keystone. 
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab, ONTAP, StorageGRID 
+summary: Utilizza la scheda delle risorse per visualizzare dettagli di cluster e nodi ONTAP, griglie StorageGRID, siti e nodi gestiti dalle tue iscrizioni Keystone. 
 ---
-= Visualizza i dettagli del cluster e dei nodi gestiti da Keystone
+= Visualizza i dettagli del cluster e del grid gestiti da Keystone
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,20 +14,41 @@ summary: Utilizza la scheda risorse per visualizzare dettagli relativi ai cluste
 
 
 [role="lead"]
-Utilizza la scheda *risorse* per visualizzare dettagli sui cluster e sui nodi gestiti dalle tue iscrizioni Keystone.
+Utilizza la scheda *Asset* per visualizzare dettagli di cluster e nodi ONTAP, griglie, siti e nodi StorageGRID gestiti dalle tue iscrizioni Keystone.
 
-Digital Advisor fornisce informazioni complete a livello di inventario sulle implementazioni. La scheda *risorse* del dashboard Keystone, invece, accumula le informazioni a livello di cluster sulla base dei tuoi abbonamenti, segrega e le presenta con il livello accurato di dettagli.
+La scheda *risorse* del dashboard Keystone include due sotto-schede: *ONTAP* e *StorageGRID*. Questa scheda accumula informazioni a livello di cluster per ONTAP e informazioni a livello di griglia per StorageGRID in base alle sottoscrizioni, segregando e presentando i dati con dettagli precisi. È possibile visualizzare queste informazioni facendo clic sulle rispettive sotto-schede.
 
+[role="tabbed-block"]
+====
+.ONTAP
+--
 .Fasi
-. Fare clic su *GENERALE > Iscrizioni Keystone > risorse*.
+. Fare clic su *GENERALE > Sottoscrizioni Keystone > risorse > ONTAP*.
 . Seleziona il numero di iscrizione per cui desideri visualizzare i cluster.
 +
-Vengono visualizzati i dettagli del cluster suddivisi per impostazioni di efficienza dello storage, tipo di piattaforma e dettagli sulla capacità. Facendo clic su uno dei cluster si accede al widget *cluster* nella schermata Digital Advisor, dove si ottengono informazioni aggiuntive per quel cluster.
+Vengono visualizzati i dettagli del cluster suddivisi per impostazioni di efficienza dello storage, tipo di piattaforma e dettagli sulla capacità. Facendo clic su uno dei cluster si accede al widget *cluster* nella schermata Digital Advisor, dove si ottengono informazioni aggiuntive per quel cluster. Digital Advisor fornisce informazioni complete a livello di inventario sulle implementazioni.
+
++
+image:assets-tab-3.png["Screenshot per visualizzare le informazioni a livello del cluster per ONTAP"]
 
 
 
-image:assets-tab-3.png["Scheda risorse"]
+--
+.StorageGRID
+--
+.Fasi
+. Fare clic su *GENERALE > Sottoscrizioni Keystone > risorse > StorageGRID*.
+. Selezionare il numero dell'abbonamento.
++
+Vengono visualizzati i dettagli della griglia, suddivisi in categorie per identificatori di nodi e grid, informazioni sui siti, specifiche hardware e dettagli sulla capacità, che consentono di monitorare e gestire i nodi dell'infrastruttura StorageGRID.
 
++
+image:assets-tab-storagegrid.png["Schermata per visualizzare le informazioni a livello di griglia per StorageGRID"]
+
+
+
+--
+====
 *Informazioni correlate*
 
 * link:../integrations/aiq-keystone-details.html["Utilizza la dashboard e il reporting Keystone"]

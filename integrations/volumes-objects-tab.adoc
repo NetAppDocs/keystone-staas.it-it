@@ -51,6 +51,9 @@ image:volume-summary-2.png["Scheda Volume Summary (Riepilogo volume)"]
 Puoi vedere un elenco tabulare dei volumi, come l'utilizzo della capacità, il tipo di volume, il cluster, l'aggregato e i livelli di servizio Keystone assegnati. È possibile scorrere le colonne e ottenere ulteriori informazioni facendo clic con il mouse sulle icone delle informazioni accanto alle intestazioni delle colonne. È possibile ordinare in base alle colonne e filtrare gli elenchi per visualizzare informazioni specifiche.
 
 +
+È possibile utilizzare *Nascondi/Mostra colonne* per aggiungere o rimuovere le colonne visualizzate nella tabella. Per impostazione predefinita, vengono selezionate tutte le colonne ad eccezione della colonna *reparto*. È possibile selezionare o deselezionare qualsiasi colonna, compresa la colonna *reparto*, e le preferenze verranno salvate per un utilizzo successivo. Quando si scarica il report CSV, i dettagli della colonna *reparto* verranno inclusi se selezionati, mentre le altre colonne verranno visualizzate indipendentemente dallo stato della selezione nella tabella.
+
++
 
 NOTE: Per il servizio add-on di protezione avanzata dei dati, viene visualizzata una colonna aggiuntiva per indicare se il volume è un volume primario o mirror nella configurazione di MetroCluster. È possibile copiare i numeri di serie dei singoli nodi facendo clic sul pulsante *Copy Node Serials* (Copia serie nodi).
 
