@@ -1,0 +1,45 @@
+---
+sidebar: sidebar 
+permalink: installation/install-itom-windows.html 
+keywords: Windows installation Keystone, ITOM Collector installation 
+summary: Installare ITOM Collector su sistemi basati su Windows. 
+---
+= Installare ITOM Collector su sistemi Windows
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Installare ITOM Collector su un sistema Windows scaricando il file di configurazione di ITOM Collector, eseguendo la procedura guidata InstallShield e immettendo le credenziali di monitoraggio richieste.
+
+
+NOTE: Il team di supporto Keystone fornisce un collegamento dinamico per scaricare il file di configurazione di ITOM Collector, che scade tra due ore.
+
+È possibile installarlo su sistemi Linux in base alle proprie esigenze. Per installare ITOM Collector su sistemi Linux, fare riferimento a link:../installation/install-itom-linux.html["Installare ITOM Collector su sistemi Linux"].
+
+Per installare il software ITOM Collector sul server Windows, procedere come segue:
+
+.Prima di iniziare
+Assicurarsi che il servizio ITOM Collector sia concesso *Accedi come servizio* in Criteri locali/assegnazione diritti utente nelle impostazioni dei criteri di protezione locali del server Windows.
+
+.Fasi
+. Scaricare il file di configurazione di ITOM Collector sul server Windows.
+. Aprire il file di installazione per avviare la procedura guidata InstallShield.
+. Accettare il contratto di licenza con l'utente finale (EULA). La procedura guidata InstallShield estrae i file binari necessari e richiede di immettere le credenziali.
+. Immettere le credenziali per l'account in cui verrà eseguito ITOM Collector:
++
+** Se ITOM Collector non sta monitorando altri server Windows, utilizzare il sistema locale.
+** Se ITOM Collector sta monitorando altri server Windows nello stesso dominio, utilizzare un account di dominio con autorizzazioni di amministratore locale.
+** Se ITOM Collector sta monitorando altri server Windows che non fanno parte dello stesso dominio, utilizzare un account amministratore locale e connettersi a ciascuna risorsa con credenziali di amministratore locale. È possibile scegliere di impostare la password in modo che non scada, per ridurre i problemi di autenticazione tra ITOM Collector e le risorse monitorate.
+
+
+. Selezionare la dimensione del raccoglitore. La dimensione predefinita è quella consigliata in base al file di installazione. Procedere con il formato consigliato a meno che non si disponga di requisiti specifici.
+. Selezionare _Avanti_ per iniziare l'installazione. È possibile utilizzare la cartella popolata o sceglierne una diversa. Una finestra di stato visualizza l'avanzamento dell'installazione, seguito dalla finestra di dialogo InstallShield Wizard Completed (Installazione guidata InstallShield completata).
+
+
+.Quali sono le prossime novità?
+Una volta completata l'installazione, contattare il team di supporto Keystone per convalidare l'installazione di ITOM Collector attraverso il portale di supporto ITOM. Dopo la verifica, il team di supporto Keystone configurerà l'ITOM Collector in remoto, includendo ulteriori impostazioni di rilevamento e monitoraggio dei dispositivi, e invierà una conferma al termine della configurazione. Per qualsiasi domanda o informazione aggiuntiva, contattare keystone.services@NetApp.com.

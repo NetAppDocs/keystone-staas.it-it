@@ -55,6 +55,14 @@ sidebar:
         url: "/installation/validation.html"
     - title: Configurare Keystone Collector
       url: "/installation/configuration.html"
+    - title: Installare ITOM Collector
+      entries:
+      - title: Preparazione per l'installazione
+        url: "/installation/itom-prereqs.html"
+      - title: Installare su Linux
+        url: "/installation/install-itom-linux.html"
+      - title: Installazione su Windows
+        url: "/installation/install-itom-windows.html"
     - title: Configurare AutoSupport
       url: "/installation/asup-config.html"
     - title: Sicurezza di Keystone Collector
@@ -115,8 +123,8 @@ sidebar:
         url: "/concepts/equinix.html"
       - title: Componenti non restituibili, non volatili e conformità SnapLock
         url: "/concepts/nrnvc.html"
-      - title: STATI UNITI Supporto cittadino (USCS)
-        url: "/concepts/uscs.html"
+      - title: Supporto protetto USA (USPS)
+        url: "/concepts/usps.html"
   - title: SLA Keystone STaaS
     entries:
     - title: Disponibilità

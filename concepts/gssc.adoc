@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concepts/gssc.html 
-keywords: Global Services Support Center, GSSC, Keystone support, service request, support ticket 
+keywords: Keystone support, service request, support ticket 
 summary: Per assistenza, contattare il Centro assistenza e servizi globali NetApp. 
 ---
 = Ottieni aiuto con Keystone
@@ -14,28 +14,22 @@ summary: Per assistenza, contattare il Centro assistenza e servizi globali NetAp
 
 
 [role="lead"]
-I servizi globali e di supporto NetApp (GSSC) e il manager del successo di NetApp Keystone (KSM) forniranno la tua assistenza per i tuoi abbonamenti Keystone. Se hai bisogno di aiuto, puoi contattare il team di supporto.
+Il team di supporto NetApp Keystone e il Keystone Success Manager (KSM) forniscono la tua assistenza per le tue iscrizioni a Keystone. Se hai bisogno di aiuto, puoi contattare il team di supporto Keystone.
 
 
 
-== Centro assistenza e servizi globali NetApp
+== Supporto NetApp Keystone
 
 NetApp fornisce servizi operativi in remoto ai clienti NetApp Keystone. Questi servizi comprendono una gamma di discipline operative per le attività di gestione dello storage. Questi servizi includono gestione delle risorse e della configurazione, gestione della capacità e delle performance, gestione delle modifiche, gestione di eventi, incidenti e problemi, evasione delle richieste di servizio e reporting. NetApp dimostra uno stato di controllo e prove a sostegno, come richiesto.
 
 
 
-== Informazioni aggiuntive e contatto per il supporto
+== Ulteriori informazioni
 
-Il team del centro di supporto e dei servizi globali NetApp supporta principalmente i servizi ai clienti NetApp Keystone. Puoi utilizzare le seguenti informazioni per contattare il team di supporto.
-
-* Contatti per il servizio globale:
-https://www.netapp.com/company/contact-us/support/[]
-* Se si dispone di un caso/ticket aperto che deve essere sottoposto a escalation, inviare un'e-mail a uno dei seguenti indirizzi: keystone.services@netapp.com keystone.escalations@netapp.com
-* NetApp utilizza la soluzione AIOPS per monitorare e connettersi in modo proattivo all'ambiente NetApp Keystone per la risoluzione dei problemi.
+NetApp utilizza la soluzione di monitoraggio ITOM per monitorare e connettersi in modo proattivo all'ambiente NetApp Keystone per la risoluzione dei problemi.
 
 
-
-NOTE: In un modello gestito dal partner, le richieste di servizio del tenant e del subtenant vengono assegnate al service desk del partner. Il tool di supporto del partner potrebbe essere integrato con la soluzione AIOPS e le applicazioni GSSC. Solo i problemi L3 vengono inoltrati a NetApp tramite GSSC.
+NOTE: In un modello gestito dal partner, le richieste di servizio del tenant e del subtenant vengono assegnate al service desk del partner. Lo strumento di supporto del partner potrebbe essere integrato con la soluzione ITOM.
 
 Per ulteriori informazioni sui servizi Keystone, consulta:
 
@@ -45,9 +39,9 @@ Per ulteriori informazioni sui servizi Keystone, consulta:
 
 
 
-== Monitoraggio GSSC
+== Monitoring del supporto Keystone
 
-Il centro di supporto e i servizi globali NetApp monitora la salute dei tuoi prodotti e dei servizi a cui ti sei abbonato, fornisce supporto da remoto e collabora con il tuo Keystone Success Manager. Tutto il personale che monitora i prodotti associati ai relativi ordini di abbonamento Keystone è U. S cittadini che operano sul suolo degli Stati Uniti.
+Il supporto NetApp Keystone monitora la salute dei tuoi prodotti e dei servizi a cui ti sei abbonato, offre supporto da remoto e collabora con il tuo Keystone Success Manager.
 
 .Keystone Success Manager
 Il Keystone Success Manager (KSM) lavora a stretto contatto con te sui tuoi servizi Keystone e ti aggiorna in merito alla fatturazione settimanale o mensile e ai report operativi. Le responsabilità sono specificate nel contratto NetApp Keystone.
@@ -60,6 +54,8 @@ Durante l'assunzione, se hai fornito le credenziali per accedere e utilizzare Ne
 
 https://netappgssc.service-now.com/csm[]
 
-Prima di inviare la richiesta di servizio, assicurarsi di disporre dei dettagli di sistema, dei registri e delle informazioni correlate. Quando si solleva una richiesta di servizio, il team GSSC riceve il ticket di supporto e accede alle informazioni per la risoluzione dei problemi. Puoi seguire il tuo ticket ServiceNow per conoscere lo stato e la risoluzione.
+Prima di inviare la richiesta di servizio, assicurarsi di disporre dei dettagli di sistema, dei registri e delle informazioni correlate. Quando rilanci una richiesta di servizio, il team di supporto Keystone riceve il ticket di supporto e accede alle informazioni per il troubleshooting. Puoi seguire il tuo ticket ServiceNow per conoscere lo stato e la risoluzione.
 
 Per informazioni sull'aggiunta di pacchetti di supporto, vedere link:../installation/monitor-health.html["Generare e raccogliere bundle di supporto"].
+
+Se si dispone di un caso/ticket aperto che deve essere sottoposto a escalation, inviare un'e-mail a uno dei seguenti indirizzi: keystone.services@netapp.com keystone.escalations@netapp.com
