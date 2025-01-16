@@ -92,7 +92,7 @@ Il burst è la differenza tra la capacità consumata e la capacità impegnata. A
 
 == Visualizza bursting maturato fatturato
 
-Se hai selezionato l'opzione *Burst maturato fatturato*, puoi visualizzare i dati sull'utilizzo del bursting maturato su base mensile o trimestrale, a seconda del periodo di fatturazione selezionato. Questi dati sono disponibili per gli ultimi 12 mesi che sono stati fatturati ed è possibile eseguire una query in base all'intervallo di date fino agli ultimi 30 mesi. I grafici a barre visualizzano i dati fatturati e, se l'utilizzo non è ancora stato fatturato, saranno contrassegnati come _Pending_ per quel periodo.
+Se hai selezionato l'opzione *Burst maturato fatturato*, puoi vedere l'utilizzo dei dati burst maturati su base mensile o trimestrale, a seconda del periodo di fatturazione selezionato. Questi dati sono disponibili per gli ultimi 12 mesi che sono stati fatturati ed è possibile eseguire una query in base all'intervallo di date fino agli ultimi 30 mesi. I grafici a barre visualizzano i dati fatturati e, se l'utilizzo non è ancora stato fatturato, saranno contrassegnati come _Pending_ per quel periodo.
 
 
 TIP: L'utilizzo dei bursting maturati fatturati viene calcolato per periodo di fatturazione in base alla capacità impegnata e consumata per un livello di servizio.
@@ -106,6 +106,22 @@ Se passi dalla fatturazione trimestrale a quella mensile, la fattura trimestrale
 image:accr-burst-2.png["utilizzo bursting maturato su base trimestrale"]
 
 Questa funzionalità è disponibile in una modalità di sola anteprima. Contattare il proprio KSM per ulteriori informazioni su questa funzione.
+
+
+
+== Visualizza l'utilizzo giornaliero dei dati burst maturati
+
+Puoi visualizzare l'utilizzo dei dati di bursting maturati giornalmente per un periodo di fatturazione mensile o trimestrale. Quando si fa clic sulla barra che visualizza i dati fatturati, la sezione capacità con provisioning fatturabile viene visualizzata sotto il grafico a barre, offrendo le opzioni di visualizzazione *grafico* e *Tabella*. La visualizzazione predefinita del grafico visualizza l'utilizzo giornaliero dei dati burst maturati in un formato grafico a linee, che mostra le modifiche nell'utilizzo nel tempo.
+
+image:invoiced-daily-accr-burst-1.png["schermata che mostra il grafico a barre"]
+
+Un'immagine di esempio che mostra l'utilizzo giornaliero dei dati burst maturati in un grafico a linee:
+
+image:invoiced-daily-accr-burst-2.png["schermata che mostra i dati di utilizzo burst in formato grafico a linee"]
+
+È possibile passare a una vista tabella facendo clic sull'opzione *Tabella* nell'angolo superiore destro del grafico. La vista della tabella fornisce metriche di utilizzo giornaliere dettagliate, inclusi livello di servizio, indicatore data e ora, capacità con commit, capacità consumata e capacità con provisioning fatturabile. È inoltre possibile generare un rapporto di questi dettagli in formato CSV per uso e confronto futuri.
+
+image:invoiced-daily-accr-burst-3.png["schermata che mostra i dati di utilizzo dei burst in formato tabella"]
 
 
 

@@ -20,6 +20,16 @@ I seguenti miglioramenti sono stati introdotti nella schermata *Keystone Subscri
 
 
 
+== 8 gennaio 2025
+
+
+
+=== Aggiunta di opzioni di visualizzazione dell'utilizzo giornaliero dei dati
+
+È ora possibile visualizzare l'utilizzo dei dati burst maturati giornalmente in formato grafico o tabella per un periodo di fatturazione mensile o trimestrale facendo clic sulla barra che visualizza i dati fatturati. Per ulteriori informazioni, fare riferimento a link:../integrations/capacity-trend-tab.html#view-daily-accrued-burst-data-usage["Visualizza l'utilizzo giornaliero dei dati burst maturati"].
+
+
+
 == 12 dicembre 2024
 
 

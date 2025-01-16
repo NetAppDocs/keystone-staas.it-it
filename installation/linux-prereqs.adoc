@@ -102,7 +102,7 @@ Internet (in base ai requisiti URL forniti in seguito)
  a| 
 HTTPS
  a| 
-TCP 80, TCP 443
+TCP 443
  a| 
 Obbligatorio (connettività Internet)
  a| 

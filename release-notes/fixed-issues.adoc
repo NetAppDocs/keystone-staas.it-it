@@ -22,6 +22,15 @@ I problemi riscontrati nelle precedenti release dei servizi NetApp Keystone STaa
 
 
  a| 
+Impossibile generare report per le sottoscrizioni quando si selezionano più di 10-12 sottoscrizioni dalla scheda *Sottoscrizioni* della pagina *Sottoscrizioni Keystone*.
+ a| 
+Corretto
+ a| 
+8 gennaio 2025
+
+
+
+ a| 
 Impossibile caricare la sottoscheda *Riepilogo volume* nella scheda *volumi e oggetti* per le sottoscrizioni StorageGRID.
  a| 
 Corretto

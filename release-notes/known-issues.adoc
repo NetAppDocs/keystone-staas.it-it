@@ -24,18 +24,18 @@ Nello STaaS NetApp Keystone sono riportati i seguenti problemi noti:
 
 
  a| 
-I dettagli del volume non sono disponibili per le sottoscrizioni principali e collegate
+Tipo di criterio QoS non corretto
  a| 
-La scheda *Volume Summary* mostra zero per il numero totale di volumi, lo stato di conformità QoS, il numero di volumi protetti e la capacità totale consumata per gli abbonamenti primari e secondari collegati.
+Nella scheda *Dettagli volume*, la colonna *tipo criterio QoS* visualizza _QoS_ quando non viene applicato alcun criterio QoS e la colonna conforme mostra _non impostato_, causando un'incoerenza nello stato del criterio QoS visualizzato.
  a| 
 Nessuno
 
 
 
  a| 
-Impossibile generare report per le sottoscrizioni
+I dettagli del volume non sono disponibili per le sottoscrizioni principali e collegate
  a| 
-Quando si selezionano più di 10-12 sottoscrizioni dalla scheda *Sottoscrizioni* della pagina *Sottoscrizioni Keystone*, il report non viene generato quando si fa clic sul pulsante *Scarica CSV* con l'opzione *Includi dati per ogni livello di servizio*.
+La scheda *Volume Summary* mostra zero per il numero totale di volumi, lo stato di conformità QoS, il numero di volumi protetti e la capacità totale consumata per gli abbonamenti primari e secondari collegati.
  a| 
 Nessuno
 

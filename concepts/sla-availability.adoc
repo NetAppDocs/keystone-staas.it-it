@@ -127,7 +127,7 @@ In base al calcolo, i crediti di servizio saranno pari a $5.
 
 == Richiesta di credito di assistenza
 
-In caso di violazione dello SLA, apri una richiesta di supporto con priorità 3 (P3) con il Keystone Global Services and Support Center (GSSC).
+Se viene rilevata una violazione dello SLA, aprire un ticket di assistenza con priorità 3 (P3) con l'assistenza NetApp Keystone.
 
 * Sono necessari i seguenti dettagli:
 +
@@ -139,7 +139,7 @@ In caso di violazione dello SLA, apri una richiesta di supporto con priorità 3 
 .. Qualsiasi altro documento applicabile
 
 
-* Fornisci i dettagli nel foglio excel illustrato di seguito per un ticket di P3 aperto con Keystone GSSC.
+* Fornire i dettagli nel foglio excel come mostrato di seguito per un ticket P3 aperto con il supporto NetApp Keystone.
 +
 image:sla-breach.png["modello di foglio excel"]
 
@@ -147,8 +147,8 @@ image:sla-breach.png["modello di foglio excel"]
 
 [NOTE]
 ====
-* Una richiesta di credito di servizio deve essere avviata entro sei settimane dalla convalida di una violazione da parte del GSSC. Tutti i crediti di assistenza devono essere riconosciuti e approvati da NetApp.
-* I crediti di servizio possono essere applicati a una fattura futura. I crediti di servizio non si applicano alle iscrizioni Keystone scadute. Per ulteriori informazioni, fare riferimento a link:../concepts/gssc.html["NetApp Global Services Support Center"].
+* Una richiesta di credito di assistenza deve essere avviata entro sei settimane dalla convalida di una violazione da parte del supporto NetApp Keystone. Tutti i crediti di assistenza devono essere riconosciuti e approvati da NetApp.
+* I crediti di servizio possono essere applicati a una fattura futura. I crediti di servizio non si applicano alle iscrizioni Keystone scadute. Per ulteriori informazioni, fare riferimento a link:../concepts/gssc.html["Supporto NetApp Keystone"].
 
 
 ====
