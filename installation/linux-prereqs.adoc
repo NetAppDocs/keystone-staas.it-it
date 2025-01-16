@@ -19,7 +19,13 @@ La preparazione del sistema Linux con il software richiesto garantisce un'instal
 Assicurati che la tua VM del server di raccolta Linux e Keystone disponga di queste configurazioni.
 
 .Server Linux:
-* Sistema operativo: CentOS 7 o Red Hat Enterprise Linux (RHEL) 8,6 o versioni successive all'interno della serie RHEL 8.x
+* Sistema operativo: Una delle seguenti opzioni:
++
+** Debian 12
+** Red Hat Enterprise Linux 8,6 o versioni successive 8.x
+** CentOS 7 (solo per gli ambienti esistenti)
+
+
 * Tempo cronyd sincronizzato
 * Accesso ai repository software Linux standard
 
