@@ -4,7 +4,7 @@ permalink: release-notes/known-limitations.html
 keywords: limitations, known limitations in Keystone STaaS 
 summary: Le limitazioni note identificano piattaforme, dispositivi o funzioni non supportate da questa versione del prodotto o che non interagiscono correttamente con esso. Esaminare attentamente queste limitazioni. 
 ---
-= Limitazioni note
+= Limitazioni note in Keystone STaaS
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

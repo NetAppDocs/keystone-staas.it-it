@@ -4,7 +4,7 @@ permalink: release-notes/fixed-issues.html
 keywords: fixed issues 
 summary: I problemi riscontrati nelle precedenti release dei servizi NetApp Keystone STaaS sono stati risolti nelle release successive. 
 ---
-= Problemi risolti
+= Problemi risolti nello STaaS di Keystone
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

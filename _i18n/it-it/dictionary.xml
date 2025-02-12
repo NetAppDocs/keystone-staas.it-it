@@ -2193,4 +2193,9 @@ I dettagli degli abbonamenti, i grafici di utilizzo per ciascun livello di servi
   <block id="2fd8a3db64e08617acb19923d6feb044" category="paragraph">Nella scheda *Dettagli volume*, la colonna *tipo criterio QoS* visualizza _QoS_ quando non viene applicato alcun criterio QoS e la colonna conforme mostra _non impostato_, causando un'incoerenza nello stato del criterio QoS visualizzato.</block>
   <block id="6fac87c4e304acd1c313d83787f9b7bd" category="section-title">Aggiunta di opzioni di visualizzazione dell'utilizzo giornaliero dei dati</block>
   <block id="bce353c38d140a9c3cfcff4f836af86f" category="paragraph">È ora possibile visualizzare l'utilizzo dei dati burst maturati giornalmente in formato grafico o tabella per un periodo di fatturazione mensile o trimestrale facendo clic sulla barra che visualizza i dati fatturati. Per ulteriori informazioni, fare riferimento a <block ref="2773c8880a0c489f5c889cad1b1aa49a" category="inline-link-macro-rx"></block>.</block>
+  <block id="0488df5729275bc610c775109a5e97ed" category="doc">Problemi risolti nello STaaS di Keystone</block>
+  <block id="e3cdc936dac2c0ff066e39a4166c9208" category="doc">Problemi noti in Keystone STaaS</block>
+  <block id="cf456956bf4b18082e3ed1243aff31f5" category="paragraph">Impossibile visualizzare i dati storici</block>
+  <block id="7b19f6e9d0fb85adf96f95ba11a7325e" category="paragraph">Nella scheda *tendenza consumo*, i livelli di servizio associati all'abbonamento precedente non vengono visualizzati una volta scaduto l'abbonamento e rinnovati con lo stesso ID di rilevamento ma con livelli di servizio diversi. Ciò comporta la perdita di accesso ai dati dei consumi cronologici.</block>
+  <block id="1dd6b840b80d1691b68b67682f45c121" category="doc">Limitazioni note in Keystone STaaS</block>
 </blocks>

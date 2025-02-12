@@ -4,7 +4,7 @@ permalink: release-notes/known-issues.html
 keywords: netapp, keystone, release notes, known issues 
 summary: Problemi noti identificano problemi che potrebbero impedirti di utilizzare in modo efficace i servizi di abbonamento Keystone. 
 ---
-= Problemi noti
+= Problemi noti in Keystone STaaS
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -21,6 +21,15 @@ Nello STaaS NetApp Keystone sono riportati i seguenti problemi noti:
 [cols="3*"]
 |===
 | Problema noto | Descrizione | Soluzione alternativa 
+
+
+ a| 
+Impossibile visualizzare i dati storici
+ a| 
+Nella scheda *tendenza consumo*, i livelli di servizio associati all'abbonamento precedente non vengono visualizzati una volta scaduto l'abbonamento e rinnovati con lo stesso ID di rilevamento ma con livelli di servizio diversi. Ciò comporta la perdita di accesso ai dati dei consumi cronologici.
+ a| 
+Nessuno
+
 
 
  a| 
