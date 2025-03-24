@@ -2183,7 +2183,6 @@ I dettagli degli abbonamenti, i grafici di utilizzo per ciascun livello di servi
   <block id="de75b30d787fc40e53cc46d0b5ab30cf" category="paragraph"><block ref="de75b30d787fc40e53cc46d0b5ab30cf" category="inline-image-macro-rx" type="image"></block></block>
   <block id="eba7556a1fc4fd160e9d81ddb2112a3e" category="paragraph">Un'immagine di esempio che mostra l'utilizzo giornaliero dei dati burst maturati in un grafico a linee:</block>
   <block id="515f3b344653c49257ced259fb9261bd" category="inline-image-macro">schermata che mostra i dati di utilizzo burst in formato grafico a linee</block>
-  <block id="47fdc60b1d26d7e27d3b186be572a4d8" category="paragraph"><block ref="47fdc60b1d26d7e27d3b186be572a4d8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="afb651343eb4e95550b828492b0990bf" category="paragraph">È possibile passare a una vista tabella facendo clic sull'opzione *Tabella* nell'angolo superiore destro del grafico. La vista della tabella fornisce metriche di utilizzo giornaliere dettagliate, inclusi livello di servizio, indicatore data e ora, capacità con commit, capacità consumata e capacità con provisioning fatturabile. È inoltre possibile generare un rapporto di questi dettagli in formato CSV per uso e confronto futuri.</block>
   <block id="ef839937832da4065ea73d2af5bb0212" category="inline-image-macro">schermata che mostra i dati di utilizzo dei burst in formato tabella</block>
   <block id="fd4179e96bb6b563483e2da193ee3515" category="paragraph"><block ref="fd4179e96bb6b563483e2da193ee3515" category="inline-image-macro-rx" type="image"></block></block>
@@ -2195,7 +2194,10 @@ I dettagli degli abbonamenti, i grafici di utilizzo per ciascun livello di servi
   <block id="bce353c38d140a9c3cfcff4f836af86f" category="paragraph">È ora possibile visualizzare l'utilizzo dei dati burst maturati giornalmente in formato grafico o tabella per un periodo di fatturazione mensile o trimestrale facendo clic sulla barra che visualizza i dati fatturati. Per ulteriori informazioni, fare riferimento a <block ref="2773c8880a0c489f5c889cad1b1aa49a" category="inline-link-macro-rx"></block>.</block>
   <block id="0488df5729275bc610c775109a5e97ed" category="doc">Problemi risolti nello STaaS di Keystone</block>
   <block id="e3cdc936dac2c0ff066e39a4166c9208" category="doc">Problemi noti in Keystone STaaS</block>
-  <block id="cf456956bf4b18082e3ed1243aff31f5" category="paragraph">Impossibile visualizzare i dati storici</block>
-  <block id="7b19f6e9d0fb85adf96f95ba11a7325e" category="paragraph">Nella scheda *tendenza consumo*, i livelli di servizio associati all'abbonamento precedente non vengono visualizzati una volta scaduto l'abbonamento e rinnovati con lo stesso ID di rilevamento ma con livelli di servizio diversi. Ciò comporta la perdita di accesso ai dati dei consumi cronologici.</block>
   <block id="1dd6b840b80d1691b68b67682f45c121" category="doc">Limitazioni note in Keystone STaaS</block>
+  <block id="d84ae5b6becc67f38fe4f478e713f236" category="paragraph"><block ref="d84ae5b6becc67f38fe4f478e713f236" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="71246a468b7dd0ee3663403dfb3f159b" category="paragraph">Opzione *Keystone Subscriptions* mancante da *Watchlist* e l'opzione *numero di abbonamento* da *Reports* sul dashboard di Digital Advisor.</block>
+  <block id="738bb3187467e21f957b2120a45e356a" category="paragraph">2025-03-19</block>
+  <block id="f2c2ba26aedbdce8dba144e80789d0b1" category="paragraph">Mancano alcune sottoscrizioni Keystone da *Watchlist* dopo la creazione o la modifica della lista di controllo dal dashboard di Digital Advisor.</block>
+  <block id="dd3b859a25ffcf974732975af6e5a4e9" category="paragraph">Impossibile visualizzare i dati storici nella scheda *tendenza consumo* per i livelli di servizio associati a un abbonamento scaduto e rinnovato con lo stesso ID di rilevamento ma con livelli di servizio diversi.</block>
 </blocks>

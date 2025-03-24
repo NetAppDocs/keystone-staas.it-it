@@ -22,6 +22,33 @@ I problemi riscontrati nelle precedenti release dei servizi NetApp Keystone STaa
 
 
  a| 
+Opzione *Keystone Subscriptions* mancante da *Watchlist* e l'opzione *numero di abbonamento* da *Reports* sul dashboard di Digital Advisor.
+ a| 
+Corretto
+ a| 
+2025-03-19
+
+
+
+ a| 
+Mancano alcune sottoscrizioni Keystone da *Watchlist* dopo la creazione o la modifica della lista di controllo dal dashboard di Digital Advisor.
+ a| 
+Corretto
+ a| 
+2025-03-19
+
+
+
+ a| 
+Impossibile visualizzare i dati storici nella scheda *tendenza consumo* per i livelli di servizio associati a un abbonamento scaduto e rinnovato con lo stesso ID di rilevamento ma con livelli di servizio diversi.
+ a| 
+Corretto
+ a| 
+2025-03-19
+
+
+
+ a| 
 Impossibile generare report per le sottoscrizioni quando si selezionano più di 10-12 sottoscrizioni dalla scheda *Sottoscrizioni* della pagina *Sottoscrizioni Keystone*.
  a| 
 Corretto

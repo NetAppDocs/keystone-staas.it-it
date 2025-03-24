@@ -24,15 +24,6 @@ Nello STaaS NetApp Keystone sono riportati i seguenti problemi noti:
 
 
  a| 
-Impossibile visualizzare i dati storici
- a| 
-Nella scheda *tendenza consumo*, i livelli di servizio associati all'abbonamento precedente non vengono visualizzati una volta scaduto l'abbonamento e rinnovati con lo stesso ID di rilevamento ma con livelli di servizio diversi. Ciò comporta la perdita di accesso ai dati dei consumi cronologici.
- a| 
-Nessuno
-
-
-
- a| 
 Tipo di criterio QoS non corretto
  a| 
 Nella scheda *Dettagli volume*, la colonna *tipo criterio QoS* visualizza _QoS_ quando non viene applicato alcun criterio QoS e la colonna conforme mostra _non impostato_, causando un'incoerenza nello stato del criterio QoS visualizzato.

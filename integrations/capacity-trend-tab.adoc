@@ -117,7 +117,7 @@ image:invoiced-daily-accr-burst-1.png["schermata che mostra il grafico a barre"]
 
 Un'immagine di esempio che mostra l'utilizzo giornaliero dei dati burst maturati in un grafico a linee:
 
-image:invoiced-daily-accr-burst-2.png["schermata che mostra i dati di utilizzo burst in formato grafico a linee"]
+image:invoiced-daily-accr-burst-date.png["schermata che mostra i dati di utilizzo burst in formato grafico a linee"]
 
 È possibile passare a una vista tabella facendo clic sull'opzione *Tabella* nell'angolo superiore destro del grafico. La vista della tabella fornisce metriche di utilizzo giornaliere dettagliate, inclusi livello di servizio, indicatore data e ora, capacità con commit, capacità consumata e capacità con provisioning fatturabile. È inoltre possibile generare un rapporto di questi dettagli in formato CSV per uso e confronto futuri.
 
