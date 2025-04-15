@@ -2200,4 +2200,27 @@ I dettagli degli abbonamenti, i grafici di utilizzo per ciascun livello di servi
   <block id="738bb3187467e21f957b2120a45e356a" category="paragraph">2025-03-19</block>
   <block id="f2c2ba26aedbdce8dba144e80789d0b1" category="paragraph">Mancano alcune sottoscrizioni Keystone da *Watchlist* dopo la creazione o la modifica della lista di controllo dal dashboard di Digital Advisor.</block>
   <block id="dd3b859a25ffcf974732975af6e5a4e9" category="paragraph">Impossibile visualizzare i dati storici nella scheda *tendenza consumo* per i livelli di servizio associati a un abbonamento scaduto e rinnovato con lo stesso ID di rilevamento ma con livelli di servizio diversi.</block>
+  <block id="b2a3bf9896e977dfd8243da5ea25ed44" category="paragraph">Soddisfare i seguenti requisiti se si intende raccogliere i dati di utilizzo solo tramite ONTAP:</block>
+  <block id="3e53b7d63056b7201f19b650655aad66" category="list-text">Assicurarsi che sia configurato ONTAP 9,8 o versione successiva. Per informazioni sulla configurazione di un nuovo cluster, vedere i seguenti collegamenti:</block>
+  <block id="16b35791c547ec7b12d2d1bc88d72f59" category="inline-link">Configurare ONTAP su un nuovo cluster con Gestione di sistema</block>
+  <block id="8c6eef0a3d7e69df22688da3d1e6d26e" category="list-text"><block ref="8c6eef0a3d7e69df22688da3d1e6d26e" category="inline-link-rx"></block></block>
+  <block id="ec797c5e4fe95fdba62563dda4040b7c" category="inline-link">Configurare un cluster con la CLI</block>
+  <block id="bf1c2cef91760714f3d41ccff2cdf9bb" category="list-text"><block ref="bf1c2cef91760714f3d41ccff2cdf9bb" category="inline-link-rx"></block></block>
+  <block id="e8f64c2c9954152b2bdf07515fefcbf3" category="inline-link">Ulteriori informazioni sulla creazione di account di accesso ONTAP</block>
+  <block id="38b5a2c7a8d52f27b8f9ac286e00f48d" category="list-text">Creare account di accesso ONTAP con ruoli specifici. Per ulteriori informazioni, fare riferimento a<block ref="e69e255c042cc41ab7a6547befcd4b4a" category="inline-link-rx"></block>.</block>
+  <block id="d1d5b0ca67cfe96cd1bace50b8b15cbd" category="list-text">*Interfaccia utente Web*</block>
+  <block id="53b500e941f815e0da37832bbbb3f265" category="inline-link">Gestione del cluster con System Manager</block>
+  <block id="249c3b3c6a9f619b64fc657020594eb4" category="list-text">Accedere a Gestione di sistema di ONTAP utilizzando le credenziali predefinite. Per ulteriori informazioni, fare riferimento a<block ref="6093e0d65a9e5cab5ae1ba1e186de22d" category="inline-link-rx"></block>.</block>
+  <block id="d07c5d1cca8977c9165277aa366fcad7" category="list-text">Creare un utente ONTAP con il ruolo "sola lettura" e il tipo di applicazione "http" e abilitare l'autenticazione della password accedendo a *Cluster &gt; Impostazioni &gt; sicurezza &gt; utenti*.</block>
+  <block id="1ad46d8f16866c3c58ccf12d81ea41ba" category="list-text">*CLI*</block>
+  <block id="0ac6939a607b25b41877b7739b73fac6" category="inline-link">Gestione cluster con CLI</block>
+  <block id="2aba549c4aa954187b9066ac9b8e6f24" category="list-text">Accedere alla CLI di ONTAP utilizzando le credenziali predefinite. Per ulteriori informazioni, fare riferimento a<block ref="80681c6be3483d3efa48f0733e30d252" category="inline-link-rx"></block>.</block>
+  <block id="da7599bcceca45d5f685a0c9ca169dd1" category="inline-link">Attiva l'accesso alla password dell'account ONTAP</block>
+  <block id="ce5996c36dc9e027cc9e9e6ac10b3c9f" category="list-text">Creare un utente ONTAP con il ruolo "sola lettura" e il tipo di applicazione "http" e abilitare l'autenticazione della password. Per ulteriori informazioni sull'autenticazione, fare riferimento a<block ref="ff30655b37a4a92ad3dccbb4dd39b63c" category="inline-link-rx"></block>.</block>
+  <block id="6fccd3079eed02626646a383fcba9c32" category="paragraph">Se si intende raccogliere dati di utilizzo tramite Active IQ Unified Manager, soddisfare i seguenti requisiti:</block>
+  <block id="ad822ed3350baf5e919fd093d9fce7c6" category="paragraph">I valori di consumo per gli abbonamenti collegati mostrano numeri negativi errati, causando la visualizzazione non accurata dell'utilizzo totale assegnato.</block>
+  <block id="1570fe5c09c488b2521f2eadf2c94b4a" category="paragraph">2025-04-14</block>
+  <block id="16fc27e61eb7cb21d80ac46bae8bf3c2" category="paragraph">Impossibile visualizzare i dati storici nella scheda *tendenza consumo* per i livelli di servizio per alcuni abbonamenti.</block>
+  <block id="cb0b0f23652246b2cc88085920b86963" category="paragraph">Fattura non corretta a causa della mancata corrispondenza dei dati</block>
+  <block id="5bf5a6c38d050a01f149d67dba290961" category="paragraph">Una mancata corrispondenza dei dati di consumo per gli abbonamenti AutoSupport comporta la generazione di fatture non corrette, causando inesattezze nella fatturazione.</block>
 </blocks>

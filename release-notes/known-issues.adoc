@@ -24,6 +24,15 @@ Nello STaaS NetApp Keystone sono riportati i seguenti problemi noti:
 
 
  a| 
+Fattura non corretta a causa della mancata corrispondenza dei dati
+ a| 
+Una mancata corrispondenza dei dati di consumo per gli abbonamenti AutoSupport comporta la generazione di fatture non corrette, causando inesattezze nella fatturazione.
+ a| 
+Nessuno
+
+
+
+ a| 
 Tipo di criterio QoS non corretto
  a| 
 Nella scheda *Dettagli volume*, la colonna *tipo criterio QoS* visualizza _QoS_ quando non viene applicato alcun criterio QoS e la colonna conforme mostra _non impostato_, causando un'incoerenza nello stato del criterio QoS visualizzato.
