@@ -2223,4 +2223,6 @@ I dettagli degli abbonamenti, i grafici di utilizzo per ciascun livello di servi
   <block id="16fc27e61eb7cb21d80ac46bae8bf3c2" category="paragraph">Impossibile visualizzare i dati storici nella scheda *tendenza consumo* per i livelli di servizio per alcuni abbonamenti.</block>
   <block id="cb0b0f23652246b2cc88085920b86963" category="paragraph">Fattura non corretta a causa della mancata corrispondenza dei dati</block>
   <block id="5bf5a6c38d050a01f149d67dba290961" category="paragraph">Una mancata corrispondenza dei dati di consumo per gli abbonamenti AutoSupport comporta la generazione di fatture non corrette, causando inesattezze nella fatturazione.</block>
+  <block id="433d1a34b63c347d592c720846bb3834" category="paragraph">Keystone Collector non raccoglie i dati di utilizzo per i cluster ONTAP che eseguono versioni inferiori a 9,11.</block>
+  <block id="ddb5adb9194c71f7e22975533efa8326" category="paragraph">2025-04-30</block>
 </blocks>

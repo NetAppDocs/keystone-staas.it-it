@@ -22,6 +22,15 @@ I problemi riscontrati nelle precedenti release dei servizi NetApp Keystone STaa
 
 
  a| 
+Keystone Collector non raccoglie i dati di utilizzo per i cluster ONTAP che eseguono versioni inferiori a 9,11.
+ a| 
+Corretto
+ a| 
+2025-04-30
+
+
+
+ a| 
 I valori di consumo per gli abbonamenti collegati mostrano numeri negativi errati, causando la visualizzazione non accurata dell'utilizzo totale assegnato.
  a| 
 Corretto
