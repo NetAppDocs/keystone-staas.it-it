@@ -47,7 +47,13 @@ Durante il periodo di validità di un abbonamento, è possibile modificare le ca
 
 == Capacità consumata
 
-La capacità consumata si riferisce alla capacità (in TIB dello storage) attualmente consumata nel servizio. Il servizio Keystone considera la somma delle dimensioni logiche utilizzate (non la capacità fisica utilizzata) di tutti i volumi su un determinato livello di servizio per calcolare la capacità consumata per quel livello di servizio.
+La capacità consumata si riferisce alla capacità (in TIB dello storage) attualmente consumata nel servizio. È la somma di:
+
+* Capacità logica utilizzata per memorizzare tutte le istanze e i tipi di dati degli utenti (ad esempio copie, copie con mirroring e versioni).
+* Capacità logica utilizzata per archiviare volumi clonati che sono oltre il 10% delle dimensioni del volume originale.
+* Capacità fisica utilizzata per archiviare i dati differenziali dalle copie Snapshot.
+* La capacità fisica allocata.
+
 
 
 

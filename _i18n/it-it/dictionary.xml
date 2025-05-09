@@ -791,7 +791,6 @@
   <block id="e80564e6a1386159e71203ed98662fc4" category="paragraph">Durante il periodo di validità di un abbonamento, è possibile modificare le capacità assegnate. Tuttavia, esistono alcune condizioni preliminari:</block>
   <block id="38ee5c58ab48cb8a1b633c2aea7a1e45" category="list-text">La capacità impegnata può essere ridotta in base a determinate condizioni. Per ulteriori informazioni, vedere <block ref="bce311488cda7b3fc83e86e7b3939fd8" category="inline-link-macro-rx"></block>.</block>
   <block id="dd83b22a815febb6c6547eab078bbf30" category="section-title">Capacità consumata</block>
-  <block id="9cd5acb8fb327acbb895954f39411c04" category="paragraph">La capacità consumata si riferisce alla capacità (in TIB dello storage) attualmente consumata nel servizio. Il servizio Keystone considera la somma delle dimensioni logiche utilizzate (non la capacità fisica utilizzata) di tutti i volumi su un determinato livello di servizio per calcolare la capacità consumata per quel livello di servizio.</block>
   <block id="08d63a30cdbc798edef3e21cacda1ac2" category="section-title">Capacità di burst</block>
   <block id="422cb43011b8f4dd25975e284b167728" category="list-text">La capacità di burst può essere consumata su base elastica e viene addebitata quotidianamente in base alla media consumata.</block>
   <block id="d634acbcc57e75a34f7ef2ecf60eb69c" category="list-text">La capacità burst è concordata nell'accordo Keystone. In genere, viene impostato fino al 20% al di sopra della capacità impegnata e viene addebitato allo stesso tasso della capacità impegnata.</block>
@@ -2225,4 +2224,9 @@ I dettagli degli abbonamenti, i grafici di utilizzo per ciascun livello di servi
   <block id="5bf5a6c38d050a01f149d67dba290961" category="paragraph">Una mancata corrispondenza dei dati di consumo per gli abbonamenti AutoSupport comporta la generazione di fatture non corrette, causando inesattezze nella fatturazione.</block>
   <block id="433d1a34b63c347d592c720846bb3834" category="paragraph">Keystone Collector non raccoglie i dati di utilizzo per i cluster ONTAP che eseguono versioni inferiori a 9,11.</block>
   <block id="ddb5adb9194c71f7e22975533efa8326" category="paragraph">2025-04-30</block>
+  <block id="95ff7c62926d2ecbfa68d2cb55e84679" category="paragraph">La capacità consumata si riferisce alla capacità (in TIB dello storage) attualmente consumata nel servizio. È la somma di:</block>
+  <block id="bc1fb831529945409538850faa16026e" category="list-text">Capacità logica utilizzata per memorizzare tutte le istanze e i tipi di dati degli utenti (ad esempio copie, copie con mirroring e versioni).</block>
+  <block id="b2a0ad297e26236d750246160723aa4e" category="list-text">Capacità logica utilizzata per archiviare volumi clonati che sono oltre il 10% delle dimensioni del volume originale.</block>
+  <block id="93fcc6bc4dfbcffb60fef19d3e82a054" category="list-text">Capacità fisica utilizzata per archiviare i dati differenziali dalle copie Snapshot.</block>
+  <block id="92103b58e95f2c7bb6f6903f55f4e0ca" category="list-text">La capacità fisica allocata.</block>
 </blocks>
