@@ -2229,4 +2229,6 @@ I dettagli degli abbonamenti, i grafici di utilizzo per ciascun livello di servi
   <block id="b2a0ad297e26236d750246160723aa4e" category="list-text">Capacità logica utilizzata per archiviare volumi clonati che sono oltre il 10% delle dimensioni del volume originale.</block>
   <block id="93fcc6bc4dfbcffb60fef19d3e82a054" category="list-text">Capacità fisica utilizzata per archiviare i dati differenziali dalle copie Snapshot.</block>
   <block id="92103b58e95f2c7bb6f6903f55f4e0ca" category="list-text">La capacità fisica allocata.</block>
+  <block id="b972ea8fcf6c823010b9b37178b9d608" category="paragraph">Keystone Collector for StorageGRID non viene configurato correttamente a causa di impostazioni comuni mancanti.</block>
+  <block id="3af3083ee373e5ebbb20d7719411dd4c" category="paragraph">2025-05-12</block>
 </blocks>
