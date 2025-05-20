@@ -2231,4 +2231,6 @@ I dettagli degli abbonamenti, i grafici di utilizzo per ciascun livello di servi
   <block id="92103b58e95f2c7bb6f6903f55f4e0ca" category="list-text">La capacità fisica allocata.</block>
   <block id="b972ea8fcf6c823010b9b37178b9d608" category="paragraph">Keystone Collector for StorageGRID non viene configurato correttamente a causa di impostazioni comuni mancanti.</block>
   <block id="3af3083ee373e5ebbb20d7719411dd4c" category="paragraph">2025-05-12</block>
+  <block id="e52daa0a0f5a4268d3b3cd4835eb59fa" category="paragraph">Quando il Keystone Collector esistente installato usando un pacchetto Debian tenta di configurare un proxy HTTP o di abilitare Unified Manager attraverso la TUI di gestione di Keystone Collector, la TUI non risponde.</block>
+  <block id="2d8e5cb76ecb9ff05fdec5e05251eb14" category="paragraph">2025-05-19</block>
 </blocks>

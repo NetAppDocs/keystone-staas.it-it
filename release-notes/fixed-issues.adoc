@@ -22,6 +22,15 @@ I problemi riscontrati nelle precedenti release dei servizi NetApp Keystone STaa
 
 
  a| 
+Quando il Keystone Collector esistente installato usando un pacchetto Debian tenta di configurare un proxy HTTP o di abilitare Unified Manager attraverso la TUI di gestione di Keystone Collector, la TUI non risponde.
+ a| 
+Corretto
+ a| 
+2025-05-19
+
+
+
+ a| 
 Keystone Collector for StorageGRID non viene configurato correttamente a causa di impostazioni comuni mancanti.
  a| 
 Corretto
