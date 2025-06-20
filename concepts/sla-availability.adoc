@@ -30,9 +30,9 @@ NOTE: Gli SLA e le garanzie sono disponibili sulla base della candidatura.
 
 
 
-== Livelli di servizio
+== Livelli di servizio prestazionali
 
-Tutti i livelli di servizio supportati dagli storage array flash ONTAP sono idonei per lo SLA di disponibilità. Per ulteriori informazioni, fare riferimento a link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage["Livelli di servizio in Keystone"].
+Tutti i livelli di servizio prestazionali supportati dagli array di storage flash ONTAP sono idonei per l'SLA di disponibilità. Per ulteriori informazioni, fare riferimento a link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage["Livelli di servizio prestazionali a Keystone"].
 
 
 
@@ -82,8 +82,8 @@ Crediti di servizio = (capacità interessata / capacità impegnata totale) X com
 Dove:
 
 * *Capacità interessata*: La quantità di capacità memorizzata interessata.
-* *Capacità impegnata totale*: La capacità impegnata per il livello di servizio per l'ordine Keystone.
-* *Tariffe di capacità*: Le tariffe per il livello di servizio interessato per il mese.
+* *capacità totale impegnata*: capacità impegnata per il livello di servizio prestazionale per l'ordine Keystone.
+* *commissioni di capacità*: le commissioni per il livello di servizio prestazionale interessato per il mese.
 * *Percentuale di credito*: La percentuale predeterminata per il credito di servizio.
 
 

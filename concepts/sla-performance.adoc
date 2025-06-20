@@ -14,7 +14,7 @@ summary: sustainability, sla, service level agreement
 
 
 [role="lead"]
-NetApp Keystone offre SLA basati sulla latenza per livello di servizio, come descritto nell'ordine di Keystone per la capacità consumata fino al limite di burst, in base ai termini e alle condizioni seguenti elencati.
+NetApp Keystone offre un SLA basato sulla latenza per livello di servizio prestazionale, come descritto nell'ordine Keystone per la capacità consumata fino al limite di burst, secondo i termini e le condizioni elencati di seguito.
 
 
 NOTE: Gli SLA e le garanzie sono disponibili sulla base della candidatura.
@@ -42,9 +42,9 @@ NOTE: Gli SLA e le garanzie sono disponibili sulla base della candidatura.
 
 
 
-== Livelli di servizio
+== Livelli di servizio prestazionali
 
-Tutti i livelli di servizio supportati dagli storage array flash ONTAP sono idonei per gli SLA di performance e garantiscono di soddisfare la seguente latenza di destinazione:
+Tutti i livelli di servizio prestazionali supportati dagli array di storage flash ONTAP sono idonei per il Performance SLA e garantiscono il rispetto della seguente latenza target:
 
 |===
 
@@ -56,7 +56,7 @@ Tutti i livelli di servizio supportati dagli storage array flash ONTAP sono idon
 *Target 90^th^ latenza percentile*
 | <1 ms. | <2 ms. | <4 ms. | <4 ms. 
 |===
-Per ulteriori informazioni sui requisiti di latenza dei livelli di servizio, fare riferimento alla link:../concepts/service-levels.html["Livelli di servizio in Keystone"].
+Per saperne di più sui requisiti di latenza dei livelli di servizio delle prestazioni, fare riferimento a link:../concepts/service-levels.html["Livelli di servizio prestazionali a Keystone"] .
 
 
 
@@ -85,7 +85,7 @@ Crediti di servizio = (capacità interessata / capacità impegnata totale) X quo
 Dove:
 
 * *Capacità interessata*: La quantità di capacità memorizzata interessata.
-* *Capacità impegnata totale*: La capacità impegnata per il livello di servizio per l'ordine Keystone.
+* *capacità totale impegnata*: capacità impegnata per il livello di servizio prestazionale per l'ordine Keystone.
 * *Tariffe relative alla capacità*: Le tariffe per il livello di performance interessato, come da ordine Keystone.
 * *Giorni interessati*: Il numero di giorni di calendario interessati.
 * *Percentuale di credito*: La percentuale predeterminata per il credito di servizio.

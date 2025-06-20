@@ -28,7 +28,7 @@ Puoi iscriverti a questo servizio add-on come parte della tua iscrizione Keyston
 
 Per informazioni sui servizi standard e cloud, vedere link:supported-storage-services.html["Servizi Keystone STaaS"].
 
-Per informazioni sui livelli di servizio, vedere link:../concepts/service-levels.html["Livelli di servizio in Keystone"].
+Per informazioni sui livelli di servizio delle prestazioni, vedere link:../concepts/service-levels.html["Livelli di servizio prestazionali in Keystone"] .
 
 
 

@@ -17,10 +17,12 @@ summary: Per monitorare le performance dei tuoi sistemi, puoi vedere le metriche
 Per monitorare le performance dei tuoi sistemi, puoi vedere le metriche delle performance dei ONTAP Volumes gestiti dalle tue iscrizioni a Keystone.
 
 
-TIP: Questa scheda è disponibile come opzione. Contattare il supporto per la visualizzazione di questa scheda.
+TIP: Questa scheda è disponibile facoltativamente in Digital Advisor. Contattare il supporto per la visualizzazione di questa scheda. Non è disponibile in BlueXP.
+
+Per visualizzare questa scheda in Digital Advisor, segui questi passaggi:
 
 .Fasi
-. Fare clic su *GENERALE > Iscrizioni Keystone > prestazioni*.
+. Fare clic su *Generale > Abbonamenti Keystone > Prestazioni*.
 . Selezionare il numero dell'abbonamento. Per impostazione predefinita, viene selezionato il primo numero di abbonamento.
 . Selezionare il nome del volume desiderato dall'elenco.
 +
@@ -29,20 +31,20 @@ In alternativa, è possibile fare clic su image:aiq-ks-time-icon.png["icona graf
 . Selezionare l'intervallo di date per la query. L'intervallo di date può essere l'inizio del mese o la data di inizio dell'abbonamento alla data corrente o la data di fine dell'abbonamento. Non è possibile selezionare una data futura.
 
 
-I dettagli recuperati si basano sull'obiettivo del livello di servizio per ogni livello di servizio. Ad esempio, gli IOPS di picco, il massimo throughput, la latenza di destinazione e le altre metriche sono determinati dalle singole impostazioni per il livello di servizio. Per ulteriori informazioni sulle impostazioni, vedere link:../concepts/service-levels.html["Livelli di servizio in Keystone"].
+I dettagli recuperati si basano sull'obiettivo del livello di servizio prestazionale per ciascun livello di servizio prestazionale. Ad esempio, il picco di IOPS, la velocità di trasmissione massima, la latenza target e altre metriche sono determinati dalle singole impostazioni per il livello di servizio prestazionale. Per ulteriori informazioni sulle impostazioni, consultare link:../concepts/service-levels.html["Livelli di servizio prestazionali a Keystone"] .
 
 
-NOTE: Se si seleziona la casella di controllo *linea di riferimento SLO*, il rendering dei grafici IOPS, throughput e latenza viene eseguito in base all'obiettivo del livello di servizio per il livello di servizio. In caso contrario, vengono visualizzati in numeri effettivi.
+NOTE: Se si seleziona la casella di controllo *SLO Reference Line*, i grafici IOPS, throughput e latenza vengono visualizzati in base all'obiettivo del livello di servizio delle prestazioni per il livello di servizio delle prestazioni. In caso contrario, vengono visualizzati in numeri effettivi.
 
 I dati delle prestazioni visualizzati sul grafico orizzontale sono una media ogni cinque minuti e ordinati in base all'intervallo di date della query. È possibile scorrere i grafici e passare il mouse su punti di dati specifici per analizzare ulteriormente i dati raccolti.
 
-È possibile visualizzare e confrontare le metriche delle prestazioni nelle sezioni seguenti in base alla combinazione del numero di abbonamento, del nome del volume e dell'intervallo di date selezionato. I dettagli vengono visualizzati in base al livello di servizio assegnato al volume. Puoi vedere il nome del cluster e il tipo di volume, ovvero i permessi di lettura e scrittura assegnati al volume. Viene visualizzato anche qualsiasi messaggio di avvertenza associato al volume.
+È possibile visualizzare e confrontare le metriche delle prestazioni nelle sezioni seguenti in base alla combinazione del numero di abbonamento, del nome del volume e dell'intervallo di date selezionato. I dettagli vengono visualizzati in base al livello di servizio prestazionale assegnato al volume. Puoi vedere il nome del cluster e il tipo di volume, ovvero i permessi di lettura e scrittura assegnati al volume. Viene visualizzato anche qualsiasi messaggio di avvertenza associato al volume.
 
 
 
 == IOPS/TiB
 
-In questa sezione vengono visualizzati i grafici di input-output per i carichi di lavoro nel volume in base all'intervallo di date della query. Vengono visualizzati gli IOPS di picco per il livello di servizio e gli IOPS correnti (negli ultimi cinque minuti, non in base all'intervallo di date della query), insieme agli IOPS minimi, massimi e medi per l'intervallo di tempo, in IOPS/TiB.
+In questa sezione vengono visualizzati i grafici di input-output per i carichi di lavoro nel volume in base all'intervallo di date della query. Vengono visualizzati il picco di IOPS per il livello di servizio delle prestazioni e gli IOPS correnti (negli ultimi cinque minuti, non basati sull'intervallo di date della query), insieme agli IOPS minimi, massimi e medi per l'intervallo di tempo, in IOPS/TiB.
 
 image:perf-iops.png["IOPS del grafico"]
 
@@ -50,7 +52,7 @@ image:perf-iops.png["IOPS del grafico"]
 
 == Throughput (Mbps/TiB)
 
-In questa sezione vengono visualizzati i grafici del throughput per i carichi di lavoro nel volume in base all'intervallo di date della query. Vengono visualizzati il throughput massimo per il livello di servizio (SLO Max) e il throughput corrente (negli ultimi cinque minuti, non in base all'intervallo di date della query), insieme al throughput minimo, massimo e medio per l'intervallo di tempo, in Mbps/TiB.
+In questa sezione vengono visualizzati i grafici del throughput per i carichi di lavoro nel volume in base all'intervallo di date della query. Vengono visualizzati il throughput massimo per il livello di servizio delle prestazioni (SLO Max) e il throughput corrente (negli ultimi cinque minuti, non in base all'intervallo di date della query), insieme al throughput minimo, massimo e medio per l'intervallo di tempo, in MBps/TiB.
 
 image:perf-thr.png["Grafici della produttività"]
 
@@ -58,7 +60,7 @@ image:perf-thr.png["Grafici della produttività"]
 
 == Latenza (ms)
 
-In questa sezione vengono visualizzati i grafici della latenza per i carichi di lavoro nel volume in base all'intervallo di date della query. Vengono visualizzate la latenza massima per il livello di servizio (destinazione SLO) e la latenza corrente (negli ultimi cinque minuti, non in base all'intervallo di date della query), insieme alla latenza minima, massima e media per l'intervallo di tempo, in millisecondi.
+In questa sezione vengono visualizzati i grafici della latenza per i carichi di lavoro nel volume in base all'intervallo di date della query. Vengono visualizzate la latenza massima per il livello di servizio delle prestazioni (SLO Target) e la latenza corrente (negli ultimi cinque minuti, non basata sull'intervallo di date della query), insieme alla latenza minima, massima e media per l'intervallo di tempo, in millisecondi.
 
 Questo grafico ha i seguenti colori:
 
@@ -78,10 +80,12 @@ image:perf-log-usd.png["grafico della capacità logica utilizzata"]
 
 *Informazioni correlate*
 
-* link:../integrations/aiq-keystone-details.html["Utilizza la dashboard e il reporting Keystone"]
-* link:../integrations/subscriptions-tab.html["Abbonamenti"]
-* link:../integrations/current-usage-tab.html["Consumo di corrente"]
-* link:../integrations/capacity-trend-tab.html["Trend di consumo"]
-* link:../integrations/volumes-objects-tab.html["Oggetti  volumi"]
-* link:../integrations/assets-tab.html["Risorse"]
+* link:../integrations/dashboard-overview.html["Comprendere la dashboard Keystone"]
+* link:../integrations/subscriptions-tab.html["Visualizza i dettagli del tuo abbonamento"]
+* link:../integrations/current-usage-tab.html["Visualizza i dettagli dei tuoi consumi attuali"]
+* link:../integrations/consumption-tab.html["Visualizza le tendenze di consumo"]
+* link:../integrations/subscription-timeline.html["Visualizza la cronologia del tuo abbonamento"]
+* link:../integrations/assets-tab.html["Visualizza le risorse del tuo abbonamento Keystone"]
+* link:../integrations/assets.html["Visualizza le risorse nei tuoi abbonamenti Keystone"]
+* link:../integrations/volumes-objects-tab.html["Visualizza i dettagli dei volumi e degli oggetti"]
 

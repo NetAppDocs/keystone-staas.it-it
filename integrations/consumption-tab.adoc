@@ -1,0 +1,206 @@
+---
+sidebar: sidebar 
+permalink: integrations/consumption-tab.html 
+keywords: keystone-aiq, digital advisor keystone, consumption trends, subscriptions, historical data, bluexp 
+summary: 'Per comprendere l"utilizzo dell"iscrizione, puoi vedere la capacità impegnata, la capacità consumata, la capacità disponibile e molto altro ancora.' 
+---
+= Visualizza i trend di consumo dei tuoi abbonamenti Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puoi monitorare l'utilizzo del tuo abbonamento visualizzando i dati storici dei tuoi abbonamenti Keystone per un periodo di tempo specifico. Questo ti consente di ottenere informazioni preziose sui tuoi modelli di utilizzo.
+
+Puoi visualizzare i dati storici dei tuoi abbonamenti Keystone tramite BlueXP o Digital Advisor:
+
+[role="tabbed-block"]
+====
+.BlueXP
+--
+.Fasi
+. Dal menu di navigazione a sinistra di BlueXP, seleziona *Archiviazione > Keystone > Abbonamenti*.
+. Selezionare il numero di abbonamento nella colonna *Numero di abbonamento*.
++
+Verrai reindirizzato alla scheda *Consumo attuale*.
+
+. Selezionare la scheda *Andamento dei consumi*.
+. Selezionare *Consumo storico* dal menu a discesa *Visualizza* e scegliere l'intervallo di tempo utilizzando l'icona del calendario nel campo *Periodo* per analizzare i trend di utilizzo della capacità.
++
+I dati storici sui consumi per ciascun livello di servizio prestazionale vengono visualizzati in un grafico a linee in base all'intervallo di tempo selezionato.
+
++
+
+NOTE: Puoi selezionare *Accrued Burst* dal menu a tendina *Visualizza* se desideri visualizzare i dati storici di utilizzo dei burst per i quali sono state generate fatture. Puoi utilizzare questi dati per analizzare l'utilizzo fatturato riportato in fattura. Per ulteriori informazioni, fare riferimento a link:../integrations/consumption-tab.html#view-accrued-burst["Visualizza il burst accumulato"].
+
++
+image:bxp-consumption-trend.png["schermata che mostra i consumi storici"]
+
++
+Il grafico a linee mostra i dati storici sui consumi e consente agli utenti di analizzare i trend in un intervallo di date selezionato. Il grafico mostra metriche come dati (capacità di archiviazione utilizzata dai dati utente), snapshot (capacità di archiviazione utilizzata dai dati snapshot) e capacità utilizzata (capacità di archiviazione totale, inclusi sia i dati che gli snapshot), insieme alla capacità impegnata e a quella di picco. La data e l'ora di ciascun punto dati sono visualizzate nella parte inferiore del grafico. In base all'intervallo di date della query, i grafici di utilizzo mostrano fino a 30 punti di raccolta dati. È possibile passare il cursore del mouse sul grafico per visualizzare la ripartizione dell'utilizzo in ciascun punto di raccolta dati.
+
++
+Puoi anche visualizzare un riepilogo dei consumi attuali insieme ai consumi storici per avere una chiara comprensione dei tuoi utilizzi.
+
+
+
+--
+.Consulente digitale
+--
+.Fasi
+. Fare clic su *Generale > Abbonamenti Keystone > Andamento dei consumi*.
+. Selezionare l'abbonamento richiesto per il quale si desidera visualizzare i dettagli. Per impostazione predefinita, viene selezionato il primo abbonamento nel nome dell'account.
+. Selezionare *tendenza consumo* se si desidera visualizzare i dati storici e analizzare la tendenza di utilizzo della capacità.
++
+
+NOTE: Puoi selezionare *Burst maturato fatturato* se desideri visualizzare i dati storici di utilizzo del burst per cui sono state generate fatture. Puoi utilizzare questi dati per analizzare l'utilizzo fatturato riportato in fattura. Per ulteriori informazioni, fare riferimento a link:../integrations/consumption-tab.html#view-accrued-burst["Visualizza il burst accumulato"].
+
+. Selezionare l'intervallo di tempo dalle icone del calendario nei campi *Data* e *Data*. Selezionare l'intervallo di date per la query. L'intervallo di date può essere l'inizio del mese o la data di inizio dell'abbonamento alla data corrente o la data di fine dell'abbonamento. Non è possibile selezionare una data futura.
++
+
+TIP: Per ottenere prestazioni ottimali e un'esperienza utente ottimale, limitare l'intervallo di date della query a tre mesi.
+
+. Fare clic su *View Details* (Visualizza dettagli). Vengono visualizzati i dati storici sui consumi dell'abbonamento per ciascun livello di servizio prestazionale in base all'intervallo di tempo selezionato.
++
+I grafici a barre mostrano il nome del livello di servizio delle prestazioni e la capacità consumata rispetto a tale livello di servizio delle prestazioni per l'intervallo di date. La data e l'ora della raccolta vengono visualizzate nella parte inferiore del grafico. In base all'intervallo di date della query, i grafici di utilizzo vengono visualizzati in un intervallo di 30 punti di raccolta dati. Puoi spostare il cursore del mouse sui grafici per visualizzare la suddivisione dell'utilizzo in termini di dati impegnati, consumati, burst e superiori al limite burst in quel punto di raccolta dati.
+
++
+I grafici a barre visualizzano burst a breve termine ed è possibile visualizzarli utilizzando la funzione di zoom. Quando è presente un burst a breve termine, esso è indicato da un punto blu sulla barra corrispondente o direttamente sull'asse x se non sono consumati dati. Per visualizzare i dettagli, fare clic e tenere premuto sulla barra o sull'asse x in cui viene visualizzato il punto blu, quindi trascinare il cursore sul grafico per selezionare l'intervallo di tempo desiderato e rilasciare per confermare la selezione. Questa azione consente di ingrandire i dati, fornendo una visione più dettagliata della capacità utilizzata a quel livello di servizio prestazionale per l'intervallo selezionato. È possibile fare clic sul pulsante *Reimposta zoom* per tornare alla vista originale della mappa.
+
++
+image:aiq-ks-subtime-7.png["Scheda Trend consumi con dettagli"]
+
++
+I seguenti colori nei grafici a barre indicano la capacità consumata come definita nel livello di servizio delle prestazioni. I dati mensili attraverso i grafici sono separati da una linea verticale.
+
++
+** Verde: Entro il 80%.
+** Ambra: 80% - 100%.
+** Rosso: Utilizzo burst (100% della capacità impegnata fino al limite burst concordato)
+** Viola: Al di sopra del limite di burst o. `Above Limit`.
++
+
+NOTE: Un grafico vuoto indica che non sono disponibili dati nell'ambiente in quel punto di raccolta dati.
+
++
+È possibile fare clic sul pulsante di attivazione/disattivazione *Mostra utilizzo corrente* per visualizzare i dati di consumo, utilizzo burst e burst maturati per il periodo di fatturazione corrente. Questi dettagli non sono basati sull'intervallo di date della query.
+
++
+*** *Attualmente consumata*: Indicatore della capacità consumata (in TiB) definita per il livello di servizio delle prestazioni. Questo campo utilizza colori specifici:
++
+**** Nessun colore: Utilizzo burst o burst superiore.
+**** Grigio: Nessun utilizzo.
+**** Verde: Entro il 80% della capacità impegnata.
+**** Ambra: 80% della capacità di burst impegnata.
+
+
+*** *Current Burst*: Indicatore della capacità consumata entro o al di sopra del limite di burst definito. Qualsiasi utilizzo entro il limite di burst per l'abbonamento, ad esempio, il 20% sopra la capacità impegnata è entro il limite di burst. L'utilizzo ulteriore viene considerato come utilizzo superiore al limite di burst. Questo campo visualizza colori specifici:
++
+**** Nessun colore: Nessun utilizzo di burst.
+**** Rosso: Utilizzo burst.
+**** Viola: Al di sopra del limite di burst.
+
+
+*** *Burst maturato*: Indicatore della capacità burst totale (in TIB) accumulata durante ogni intervallo di 2 minuti entro un mese per il ciclo di fatturazione corrente.
+
+
+
+
+
+
+--
+====
+
+
+== Calcolo del burst accumulato
+
+L'utilizzo del bursting maturato per un intero mese viene calcolato come segue:
+
+[somma dei burst in mese / ((giorni nel mese) x 24 x 60)] x durata dell'intervallo
+
+È possibile calcolare il burst maturato per brevi periodi, ad esempio ogni due minuti, utilizzando questo metodo:
+
+[burst / ((giorni al mese) x 24 x 60)] x durata dell'intervallo
+
+Il burst è la differenza tra la capacità consumata e la capacità impegnata. Ad esempio, con un periodo di 30 giorni al mese, se la capacità consumata raggiunge 120 TiB e la capacità impegnata è di 100 TiB per un intervallo di 2 minuti, ciò si traduce in una capacità di burst di 20 TiB, che equivale ad un utilizzo di burst maturato di 0,000925926 TiB per quell'intervallo.
+
+
+
+== Visualizza il burst accumulato
+
+Puoi visualizzare l'utilizzo di dati burst accumulati tramite BlueXP o Digital Advisor. Se hai selezionato *Accrued Burst* dal menu a tendina *Visualizza* nella scheda *Andamento dei consumi* in BlueXP, o l'opzione *Accrued Burst fatturato* dalla scheda *Andamento dei consumi* in Digital Advisor, puoi visualizzare l'utilizzo di dati burst accumulati su base mensile o trimestrale, a seconda del periodo di fatturazione selezionato. Questi dati sono disponibili per gli ultimi 12 mesi che sono stati fatturati ed è possibile eseguire una query in base all'intervallo di date fino agli ultimi 30 mesi. I grafici a barre visualizzano i dati fatturati e, se l'utilizzo non è ancora stato fatturato, saranno contrassegnati come _Pending_ per quel periodo.
+
+
+TIP: L'utilizzo burst maturato fatturato viene calcolato per periodo di fatturazione, in base alla capacità impegnata e consumata per un livello di servizio prestazionale.
+
+Per un periodo di fatturazione trimestrale, se l'abbonamento inizia in una data diversa dal 1^o^ del mese, la fattura trimestrale coprirà il successivo periodo di 90 giorni. Ad esempio, se il tuo abbonamento inizia il 15 agosto, la fattura verrà generata per il periodo dal 15 agosto al 14 ottobre.
+
+Se passi dalla fatturazione trimestrale a quella mensile, la fattura trimestrale coprirà comunque il periodo di 90 giorni, con due fatture generate nell'ultimo mese del trimestre: Una per il periodo di fatturazione trimestrale e l'altra per i giorni rimanenti del mese. Questa transizione consente al periodo di fatturazione mensile di iniziare il 1^o^ del mese successivo. Ad esempio, se l'abbonamento inizia il 15 ottobre, riceverai due fatture a gennaio, una per il periodo dal 15 ottobre al 14 gennaio e una per il periodo dal 15 al 31 gennaio, prima che il periodo di fatturazione mensile inizi il 1 febbraio.
+
+image:accr-burst-2.png["utilizzo bursting maturato su base trimestrale"]
+
+Questa funzionalità è disponibile in una modalità di sola anteprima. Contattare il proprio KSM per ulteriori informazioni su questa funzione.
+
+
+
+== Visualizza l'utilizzo giornaliero dei dati burst maturati
+
+È possibile visualizzare l'utilizzo giornaliero dei dati accumulati per un periodo di fatturazione mensile o trimestrale tramite BlueXP o Digital Advisor. In BlueXP, la tabella *Accrured Burst by Days* fornisce dati dettagliati, inclusi timestamp, capacità impegnata, consumata e capacità burst accumulata, se si seleziona *Accrured Burst* dal menu a discesa *Visualizza* nella scheda *Andamento dei consumi*.
+
+image:bxp-accrued-burst-days.png["schermata che mostra la tabella dei burst accumulati per giorni"]
+
+In Digital Advisor, quando fai clic sulla barra che visualizza i dati fatturati dall'opzione *Invoiced Accrued Burst*, sotto il grafico a barre viene visualizzata la sezione Billable Provisioned Capacity, che offre opzioni di visualizzazione sia tramite grafici che tramite tabelle. La visualizzazione predefinita del grafico visualizza l'utilizzo giornaliero dei dati burst maturati in un formato grafico a linee, che mostra le modifiche nell'utilizzo nel tempo.
+
+image:invoiced-daily-accr-burst-1.png["schermata che mostra il grafico a barre"]
+
+Un'immagine di esempio che mostra l'utilizzo giornaliero dei dati burst maturati in un grafico a linee:
+
+image:invoiced-daily-accr-burst-date.png["schermata che mostra i dati di utilizzo burst in formato grafico a linee"]
+
+È possibile passare a una vista tabella facendo clic sull'opzione *Tabella* nell'angolo superiore destro del grafico. La visualizzazione della tabella fornisce metriche dettagliate sull'utilizzo giornaliero, tra cui il livello di servizio delle prestazioni, la marca temporale, la capacità impegnata, la capacità consumata e la capacità fatturabile fornita. È inoltre possibile generare un rapporto di questi dettagli in formato CSV per uso e confronto futuri.
+
+
+
+== Grafici di riferimento per la protezione avanzata dei dati per MetroCluster
+
+Se hai sottoscritto il servizio aggiuntivo di protezione avanzata dei dati, puoi visualizzare la ripartizione dei dati di consumo per i siti partner di MetroCluster nella scheda *Andamento dei consumi* in Digital Advisor.
+
+Per informazioni sul servizio add-on per la protezione avanzata dei dati, vedere link:../concepts/adp.html["Protezione avanzata dei dati"].
+
+Se i cluster nel tuo ambiente di archiviazione ONTAP sono configurati in una configurazione MetroCluster, i dati di consumo del tuo abbonamento Keystone vengono suddivisi nello stesso grafico dei dati storici per visualizzare il consumo nei siti primari e mirror per i livelli di servizio delle prestazioni di base.
+
+
+NOTE: I grafici a barre dei consumi sono suddivisi solo per i livelli di servizio di base delle prestazioni. Per il servizio aggiuntivo di protezione dati avanzata, ovvero il livello di servizio di prestazioni _Advanced Data-Protect_, questa demarcazione non è presente.
+
+.Livello di servizio di prestazioni di protezione dei dati avanzata
+Per il livello di servizio di prestazioni _Advanced Data-Protect_, il consumo totale è suddiviso tra i siti partner e l'utilizzo in ciascun sito partner viene riflesso e fatturato in un abbonamento separato: un abbonamento per il sito primario e un altro per il sito mirror. Questo è il motivo per cui, quando si seleziona il numero di abbonamento per il sito primario nella scheda *tendenza consumo*, i grafici di consumo per il servizio aggiunto di protezione dati avanzata visualizzano i dettagli di consumo discreti solo del sito primario. Poiché ogni sito di un partner in una configurazione MetroCluster agisce sia come origine che come mirroring, il consumo totale in ogni sito include i volumi di origine e mirror creati in tale sito.
+
+
+TIP: La descrizione dei comandi accanto all'ID di rilevamento dell'abbonamento nella scheda *consumo corrente* consente di identificare l'abbonamento partner nella configurazione di MetroCluster.
+
+.Livelli di servizio delle prestazioni di base
+Per i livelli di servizio delle prestazioni di base, ogni volume viene addebitato in base a quanto previsto nei siti primario e mirror e, pertanto, lo stesso grafico a barre è suddiviso in base al consumo nei siti primario e mirror.
+
+.Cosa puoi vedere per l'abbonamento primario
+L'immagine seguente mostra i grafici per il livello di servizio con prestazioni _Extreme_ (livello di servizio con prestazioni di base) e un numero di abbonamento primario. Lo stesso grafico dei dati storici indica anche il consumo del sito mirror in una tonalità più chiara dello stesso codice colore utilizzato per il sito primario. La descrizione comandi al passaggio del mouse visualizza la suddivisione dei consumi (in TIB) per i siti primario e mirror, rispettivamente 22,24 TiB e 14,86 TiB.
+
+image:mcc-chart-1.png["mcc primario"]
+
+Per il livello di servizio delle prestazioni _Advanced Data-Protect_, i grafici appaiono in questo modo:
+
+image:adp-src-1.png["base primaria mcc"]
+
+.Cosa puoi vedere per l'abbonamento secondario (sito mirror)
+Quando si controlla l'abbonamento secondario, è possibile vedere che il grafico a barre per il livello di servizio con prestazioni _Extreme_ (livello di servizio con prestazioni di base) nello stesso punto di raccolta dati del sito partner è invertito e la ripartizione del consumo nei siti primario e mirror è rispettivamente di 14,86 TiB e 22,24 TiB.
+
+image:mcc-chart-mirror-1.png["mirror mcc"]
+
+Per il livello di servizio delle prestazioni _Advanced Data-Protect_, il grafico appare in questo modo per lo stesso punto di raccolta del sito partner:
+
+image:adp-mir-1.png["base mirror mcc"]
+
+Per informazioni su come MetroCluster protegge i dati, consulta https://docs.netapp.com/us-en/ontap-metrocluster/manage/concept_understanding_mcc_data_protection_and_disaster_recovery.html["Comprensione della protezione dei dati e del disaster recovery di MetroCluster"^].

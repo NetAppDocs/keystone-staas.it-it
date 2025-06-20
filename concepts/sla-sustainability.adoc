@@ -14,7 +14,7 @@ summary: sustainability, sla, service level agreement
 
 
 [role="lead"]
-NetApp Keystone fornisce una misura garantita del numero massimo di watt effettivi per tebibyte (W/TiB) per i servizi di storage basati sugli array di storage flash ONTAP con SLA di sostenibilità. Gli SLA di sostenibilità definiscono il consumo massimo di W/TiB per ogni livello di servizio idoneo, aiutando le organizzazioni a raggiungere i propri obiettivi di sostenibilità.
+NetApp Keystone fornisce una misura garantita del numero massimo di watt effettivi per tebibyte (W/TiB) per i servizi di storage basati sugli array di storage flash ONTAP con SLA di sostenibilità. L'SLA di sostenibilità definisce il consumo massimo di W/TiB per ciascun livello di servizio prestazionale idoneo, aiutando le organizzazioni a raggiungere i propri obiettivi di sostenibilità.
 
 
 NOTE: Gli SLA e le garanzie sono disponibili sulla base della candidatura.
@@ -26,7 +26,7 @@ NOTE: Gli SLA e le garanzie sono disponibili sulla base della candidatura.
 * *Watt*: Il consumo di energia riportato dal AutoSupport giornaliero, incluso l'utilizzo da parte del controller e degli shelf di dischi collegati.
 * *Tebibyte*: Il massimo di:
 +
-** la capacità con commit + la capacità burst allocata per il livello di servizio, o.
+** la capacità impegnata + la capacità burst assegnata per il livello di servizio delle prestazioni, oppure
 ** la capacità effettiva distribuita, presupponendo un fattore di efficienza dello storage di `2:1`.
 
 
@@ -37,7 +37,7 @@ Per ulteriori informazioni sul rapporto di efficienza dello storage, fare riferi
 
 
 
-== Livelli di servizio
+== Livelli di servizio prestazionali
 
 Gli SLA relativi alla sostenibilità si basano sui seguenti criteri di consumo:
 
@@ -61,7 +61,7 @@ Premium
 Performance
 | <=4 W/TiB | 300 TIB | AFF A800 e AFF A900 
 |===
-Per ulteriori informazioni, fare riferimento a link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage["Livelli di servizio in Keystone"].
+Per ulteriori informazioni, fare riferimento a link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage["Livelli di servizio prestazionali a Keystone"].
 
 
 

@@ -16,7 +16,7 @@ summary: Servizi di iscrizione Keystone STaaS su Keystone Flex
 [role="lead"]
 Keystone STaaS è stato preceduto da servizi di iscrizione Keystone (precedentemente noti come servizi di iscrizione Keystone Flex).
 
-Mentre la navigazione delle due offerte è simile in link:./integrations/aiq-keystone-details.html["Dashboard Keystone"^], I servizi di iscrizione Keystone sono diversi da Keystone STaaS per quanto riguarda i livelli di servizio, le offerte di servizio e i principi di fatturazione costituenti. Ad aprile 2024, NetApp conserva e pubblica la documentazione solo per Keystone STaaS. Se utilizzi ancora i servizi di iscrizione Keystone, contatta il tuo KSM per ottenere supporto nella migrazione a Keystone STaaS. Se necessario, puoi accedere a una versione PDF della documentazione dei servizi di abbonamento Keystone qui:
+Mentre la navigazione delle due offerte è simile nella link:./integrations/keystone-bluexp.html["Dashboard Keystone"^] I servizi di abbonamento Keystone differiscono da Keystone STaaS nei livelli di servizio delle prestazioni costituenti, nell'offerta di servizi e nei principi di fatturazione. Ad aprile 2024, NetApp conserva e pubblica la documentazione solo per Keystone STaaS. Se utilizzi ancora i servizi di iscrizione Keystone, contatta il tuo KSM per ottenere supporto nella migrazione a Keystone STaaS. Se necessario, puoi accedere a una versione PDF della documentazione dei servizi di abbonamento Keystone qui:
 
 * https://docs.netapp.com/a/keystone/1.0/keystone-subscription-services-guide.pdf["Inglese"^]
 * https://docs.netapp.com/a/keystone/1.0/keystone-subscription-services-guide-ja-jp.pdf["Giapponese"^]

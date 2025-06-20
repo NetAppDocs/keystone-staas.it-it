@@ -4,7 +4,7 @@ permalink: concepts/capacity-requirements.html
 keywords: storage capacity requirement for service levels, capacity definition per PSL, 
 summary: 'I requisiti di capacità per i livelli di servizio sono diversi a seconda dello storage di file, blocchi, oggetti o cloud supportato dall"iscrizione Keystone STaaS.' 
 ---
-= Requisiti di capacità per i livelli di servizio
+= Requisiti di capacità per i livelli di servizio prestazionali
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,13 +14,13 @@ summary: 'I requisiti di capacità per i livelli di servizio sono diversi a seco
 
 
 [role="lead"]
-I requisiti di capacità per i livelli di servizio di Keystone STaaS differiscono in base allo storage di file, blocchi, oggetti o cloud supportato dall'abbonamento a Keystone STaaS.
+I requisiti di capacità per i livelli di servizio delle prestazioni Keystone STaaS variano a seconda del tipo di archiviazione di file, blocchi, oggetti o cloud supportata dall'abbonamento Keystone STaaS.
 
 
 
 == Requisiti minimi di capacità per i servizi di file e blocchi
 
-La capacità minima e la capacità incrementale consentite per ciascun abbonamento sono descritte nella seguente tabella. La capacità minima per livello di servizio è la stessa per i movimenti di vendita Keystone. La capacità superiore alla capacità minima all'inizio dell'abbonamento, come servizio aggiuntivo all'abbonamento o dopo la riallocazione durante l'abbonamento è strutturata anche nella tabella.
+La capacità minima e la capacità incrementale consentite per ciascun abbonamento sono descritte nella seguente tabella. La capacità minima per livello di servizio prestazionale è definita come la stessa in tutte le mozioni di vendita Keystone. La capacità superiore alla capacità minima all'inizio dell'abbonamento, come servizio aggiuntivo all'abbonamento o dopo la riallocazione durante l'abbonamento è strutturata anche nella tabella.
 
 |===
 
@@ -98,10 +98,10 @@ Non applicabile
 
 Per le rettifiche di capacità, osservare le seguenti clausole:
 
-* La capacità può essere aggiunta in qualsiasi momento durante il periodo di validità, ad eccezione degli ultimi 90 giorni del contratto, in incrementi per livello di servizio, come descritto nelle tabelle della sezione precedente. L'aggiunta di capacità e/o servizi è consentita entro gli ultimi 90 giorni della durata del contratto, a condizione che vi sia il consenso al rinnovo del servizio. Qualsiasi aggiunta di capacità, nuovo servizio on-premise o cloud può essere co-utilizzata con il termine esistente. La fattura inviata all'utente in seguito all'attivazione dei nuovi servizi riflette la fatturazione modificata. La capacità impegnata dei servizi cloud non può essere ridotta in alcun momento durante il periodo di validità dell'abbonamento. Nel frattempo, la capacità impegnata e la spesa impegnata per i servizi on-premise durante il periodo di validità del contratto possono essere ridotte in base a determinati criteri, come definito nella sezione seguente _riduzione della capacità_.
-* In ogni sito è disponibile una capacità burst, in base all'accordo Keystone. Di solito, è del 20% superiore alla capacità impegnata per un livello di servizio. Qualsiasi utilizzo burst viene fatturato solo per quel periodo di fatturazione. Se hai requisiti di bursting aggiuntivi superiori alla capacità concordata, contatta il supporto.
+* La capacità può essere aggiunta in qualsiasi momento durante la durata del contratto, ad eccezione degli ultimi 90 giorni, con incrementi per livello di servizio prestazionale, come descritto nelle tabelle della sezione precedente. L'aggiunta di capacità e/o servizi è consentita entro gli ultimi 90 giorni della durata del contratto, a condizione che vi sia il consenso al rinnovo del servizio. Qualsiasi aggiunta di capacità, nuovo servizio on-premise o cloud può essere co-utilizzata con il termine esistente. La fattura inviata all'utente in seguito all'attivazione dei nuovi servizi riflette la fatturazione modificata. La capacità impegnata dei servizi cloud non può essere ridotta in alcun momento durante il periodo di validità dell'abbonamento. Nel frattempo, la capacità impegnata e la spesa impegnata per i servizi on-premise durante il periodo di validità del contratto possono essere ridotte in base a determinati criteri, come definito nella sezione seguente _riduzione della capacità_.
+* In ogni sito è disponibile una capacità burst, in base all'accordo Keystone. Solitamente è superiore del 20% alla capacità impegnata per un livello di servizio prestazionale. Qualsiasi utilizzo burst viene fatturato solo per quel periodo di fatturazione. Se hai requisiti di bursting aggiuntivi superiori alla capacità concordata, contatta il supporto.
 * La capacità impegnata può essere modificata durante un periodo contrattuale, solo in determinate condizioni, come descritto nella sezione seguente _riduzione della capacità_.
-* È consentito aumentare la capacità o passare a un livello di servizio superiore durante un periodo di sottoscrizione. Tuttavia, non è consentito passare da un livello di servizio superiore a un livello di servizio inferiore.
+* È consentito aumentare la capacità o passare a un livello di servizio con prestazioni superiori durante il periodo di validità dell'abbonamento. Tuttavia, non è consentito passare da un livello di servizio con prestazioni superiori a uno con prestazioni inferiori.
 * Qualsiasi richiesta di modifica negli ultimi 90 giorni del periodo di validità del servizio richiede un rinnovo del servizio per almeno un anno.
 
 
@@ -131,7 +131,7 @@ Requisiti e condizioni a livello di abbonamento:
 * Le nuove richieste entrano in vigore solo dal ciclo di fatturazione consecutivo.
 
 
-Puoi allocare una parte delle spese ai servizi di cloud storage ibrido che hai sottoscritto, a blocchi o a oggetti. Fino al 25% del valore del contratto annuale (ACV) può essere riassegnato su base trimestrale ai servizi primari e secondari di Cloud Volumes ONTAP e Cloud Volumes ONTAP:
+Puoi destinare una parte delle tue spese ai livelli di servizio di prestazioni di archiviazione di file, blocchi o oggetti a cui hai sottoscritto un abbonamento per i servizi di archiviazione cloud ibrida. Fino al 25% del valore del contratto annuale (ACV) può essere riassegnato su base trimestrale ai servizi primari e secondari di Cloud Volumes ONTAP e Cloud Volumes ONTAP:
 
 image:reallocation.png["spiegazione della logica di riallocazione"]
 
@@ -157,6 +157,6 @@ Questa tabella fornisce una serie di valori campione per dimostrare come funzion
 
 |  |  | 37.376 
 |===
-La riduzione è di (125-108) = 17 TiB della capacità allocata per il livello Extreme service. Durante la riallocazione della spesa, il cloud storage ibrido assegnato non è di 17 TiB, ma una capacità equivalente che è possibile acquistare da $5000. In questo esempio, per $ 5000, è possibile ottenere una capacità di storage on-premise 17 TiB per il livello di servizio Extreme e una capacità di cloud ibrido 47 TiB del livello di servizio Cloud Volumes ONTAP. Pertanto, la riassegnazione riguarda la spesa, non la capacità.
+La riduzione è pari a (125-108) = 17 TiB di capacità allocata per il livello di servizio Extreme Performance. Durante la riallocazione della spesa, il cloud storage ibrido assegnato non è di 17 TiB, ma una capacità equivalente che è possibile acquistare da $5000. In questo esempio, per $ 5000, è possibile ottenere 17 TiB di capacità di storage on-prem per il livello di servizio Extreme Performance e 47 TiB di capacità cloud ibrida per il livello di servizio Cloud Volumes ONTAP Performance. Pertanto, la riassegnazione riguarda la spesa, non la capacità.
 
 Contatta il tuo Keystone Success Manager (KSM) per riallocare le spese dai servizi on-premise ai servizi cloud.

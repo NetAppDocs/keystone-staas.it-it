@@ -1,0 +1,47 @@
+---
+sidebar: sidebar 
+permalink: integrations/subscription-timeline.html 
+keywords: keystone, BlueXP, subscriptions, timeline, lifecycle, activation, modification, renewal 
+summary: Visualizza la cronologia degli abbonamenti da BlueXP, che include eventi quali date di attivazione, modifica e rinnovo. 
+---
+= Visualizza la cronologia dei tuoi abbonamenti Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+La dashboard Keystone di BlueXP offre una visualizzazione cronologica dei tuoi abbonamenti Keystone, mostrando eventi come date di attivazione, modifica e rinnovo. Questa visualizzazione cronologica non è disponibile in Digital Advisor.
+
+Per visualizzare la cronologia degli abbonamenti, segui questi passaggi:
+
+.Fasi
+. Dal menu di navigazione a sinistra di BlueXP, seleziona *Archiviazione > Keystone > Abbonamenti*.
+. Selezionare il numero di abbonamento nella colonna *Numero di abbonamento* per visualizzare la cronologia dell'abbonamento.
++
+Verrai reindirizzato alla scheda *Consumo attuale*.
+
+. Selezionare la scheda *Cronologia abbonamenti*.
++
+image:bxp-subscription-timeline-graph.png["uno screenshot per mostrare la cronologia degli abbonamenti in un formato grafico a linee insieme agli eventi importanti"]
+
++
+Per impostazione predefinita, la cronologia degli abbonamenti viene visualizzata come un grafico a linee, con icone che contrassegnano gli eventi importanti. Passando il mouse su un evento, è possibile visualizzare informazioni dettagliate, come la data e le modifiche apportate alla capacità impegnata durante una modifica. Per visualizzare questi eventi in una tabella, seleziona l'opzione *Tabella* dal menu a discesa *Visualizza come*. Puoi anche visualizzare la cronologia di altri abbonamenti selezionando o cercando dall'elenco a discesa *ID di monitoraggio*.
+
++
+image:bxp-subscription-timeline.png["uno screenshot per mostrare la cronologia degli abbonamenti in un formato grafico a tabella insieme agli eventi importanti"]
+
+
+
+*Informazioni correlate*
+
+* link:../integrations/dashboard-overview.html["Comprendere la dashboard Keystone"]
+* link:../integrations/subscriptions-tab.html["Visualizza i dettagli del tuo abbonamento"]
+* link:../integrations/consumption-tab.html["Visualizza le tendenze di consumo"]
+* link:../integrations/assets-tab.html["Visualizza le risorse del tuo abbonamento Keystone"]
+* link:../integrations/assets.html["Visualizza le risorse nei tuoi abbonamenti Keystone"]
+* link:../integrations/volumes-objects-tab.html["Visualizza i dettagli dei volumi e degli oggetti"]
+

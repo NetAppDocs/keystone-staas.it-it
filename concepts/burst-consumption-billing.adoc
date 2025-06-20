@@ -18,10 +18,10 @@ La fatturazione di Keystone STaaS si basa sulla _capacità di burst_, ovvero la 
 
 Il limite di burst viene determinato e specificato nel contratto Keystone. In genere, è superiore del 20% alla capacità impegnata.
 
-La capacità impegnata è la capacità che ti viene dedicata durante l'acquisto dell'abbonamento. La capacità impegnata e la capacità burst vengono misurate in base al livello di servizio. La capacità consumata è la capacità effettivamente utilizzata dai carichi di lavoro.
+La capacità impegnata è la capacità che ti viene dedicata durante l'acquisto dell'abbonamento. La capacità impegnata e la capacità di picco vengono misurate in base al livello di servizio delle prestazioni. La capacità consumata è la capacità effettivamente utilizzata dai carichi di lavoro.
 
-Quando la capacità consumata è maggiore della capacità impegnata per un livello di servizio, il consumo di burst viene registrato e addebitato di conseguenza. In genere, è superiore del 20% alla capacità impegnata. L'utilizzo al di sopra della capacità di burst viene indicato come "al di sopra del limite di burst".
+Quando la capacità consumata è maggiore della capacità impegnata per un livello di servizio prestazionale, il consumo a raffica viene registrato e addebitato di conseguenza. In genere, è superiore del 20% alla capacità impegnata. L'utilizzo al di sopra della capacità di burst viene indicato come "al di sopra del limite di burst".
 
-Questo processo si verifica per ogni record di consumo generato. Il consumo di burst, pertanto, riflette sia la quantità che la durata delle capacità di consumo eccessivo in aggiunta alle capacità impegnate. Per ulteriori informazioni, fare riferimento a link:../integrations/capacity-trend-tab.html["Scheda Trend consumi"].
+Questo processo si verifica per ogni record di consumo generato. Il consumo di burst, pertanto, riflette sia la quantità che la durata delle capacità di consumo eccessivo in aggiunta alle capacità impegnate. Per ulteriori informazioni, fare riferimento a link:../integrations/consumption-tab.html["Visualizza i trend di consumo dei tuoi abbonamenti Keystone"].
 
 Per informazioni sulle diverse capacità supportate in Keystone, vedere link:../concepts/supported-storage-capacity.html["Capacità di storage supportate in Keystone"].

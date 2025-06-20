@@ -1,0 +1,104 @@
+---
+sidebar: sidebar 
+permalink: integrations/assets.html 
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab, ONTAP, StorageGRID 
+summary: Utilizza la scheda delle risorse per visualizzare dettagli di cluster e nodi ONTAP, griglie StorageGRID, siti e nodi gestiti dalle tue iscrizioni Keystone. 
+---
+= Visualizza le risorse su più abbonamenti Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+La dashboard Keystone di BlueXP consente di visualizzare informazioni dettagliate sui nodi nei cluster, sui volumi provisionati e sui nodi StorageGRID su più abbonamenti Keystone, in base alle autorizzazioni di accesso. Questa visualizzazione non è disponibile in Digital Advisor.
+
+[role="tabbed-block"]
+====
+.Nodi nei cluster
+--
+.Fasi
+. Dal menu di navigazione a sinistra di BlueXP, seleziona *Archiviazione > Keystone > Risorse*.
++
+La scheda *Risorse* mostra la sotto-scheda *Nodi nel cluster*.
+
++
+image:bxp-nodes-clusters-multiple-subscription.png["Uno screenshot dei nodi nei cluster per più abbonamenti"]
+
++
+È possibile visualizzare informazioni dettagliate su tutti i nodi nei cluster negli abbonamenti Keystone, inclusi numeri di serie dei nodi, stato, impostazioni di efficienza dello storage, tipo di piattaforma e dettagli sulla capacità. È inoltre disponibile una panoramica di:
+
++
+** Numero totale di abbonamenti e nodi ONTAP.
+** Consumo di capacità del nodo, con un pulsante *Visualizza* cliccabile per filtrare la tabella e visualizzare le risorse che soddisfano criteri specifici (> 90% consumato o < 50% consumato).
+** Nodi basati sulle versioni ONTAP, con il pulsante *Visualizza* per filtrare i nodi nelle ultime tre versioni o precedenti.
++
+
+TIP: È possibile personalizzare la tabella utilizzando il selettore di colonna image:column-selector.png["icona di selezione della colonna"] icona e utilizzare la barra di ricerca in alto per cercare e filtrare i dati Keystone in base ai parametri della colonna.
+
+
+
+
+
+--
+.Volumi in cluster
+--
+.Fasi
+. Dal menu di navigazione a sinistra di BlueXP, seleziona *Archiviazione > Keystone > Risorse*.
+. Selezionare la scheda *Volumi in cluster*.
++
+image:bxp-volumes-clusters-multiple-sub.png["Uno screenshot dei volumi nei cluster per più abbonamenti"]
+
++
+Sono disponibili informazioni dettagliate su tutti i volumi nei cluster degli abbonamenti Keystone, inclusi nome del volume, numero di abbonamento, numero di serie del nodo, conformità con le policy QoS, nome del cluster, nome host e livelli di servizio delle prestazioni. È possibile monitorare la capacità fornita, l'utilizzo logico e fisico e i dati inattivi. È inoltre disponibile una panoramica di:
+
++
+** Numero totale di abbonamenti, cluster e volumi.
+** Conformità del volume e stato di protezione, con un pulsante *Visualizza* per filtrare la tabella e visualizzare le risorse in base a criteri quali conforme, non conforme o non protetto.
++
+
+TIP: È possibile personalizzare la tabella utilizzando il selettore di colonna image:column-selector.png["icona di selezione della colonna"] icona e utilizzare la barra di ricerca in alto per cercare e filtrare i dati Keystone in base ai parametri della colonna.
+
++
+Puoi fare clic su un numero di abbonamento nella colonna *Numero di abbonamento* per accedere alla scheda *Abbonamenti*, dove puoi visualizzare i dettagli sul consumo dell'abbonamento, le tempistiche e le informazioni sulle risorse associate. Per ulteriori informazioni, fare riferimento a link:../integrations/current-usage-tab.html["Visualizza i dettagli dei tuoi consumi attuali"].
+
+
+
+
+
+--
+.Nodi nelle griglie
+--
+.Fasi
+. Dal menu di navigazione a sinistra di BlueXP, seleziona *Archiviazione > Keystone > Risorse*.
+. Selezionare la scheda *Nodi nelle griglie*.
++
+image:bxp-nodes-grids-multiple-sub.png["Uno screenshot dei nodi nelle griglie per più abbonamenti"]
+
++
+È possibile visualizzare informazioni dettagliate su tutti i nodi nelle griglie degli abbonamenti Keystone, inclusi nome del nodo, ID del nodo, numero di abbonamento, nome della griglia, tipo di nodo e cliente. È possibile monitorare la capacità dati consumata e disponibile, l'utilizzo della CPU e la capacità dati utilizzabile.
+
++
+
+TIP: È possibile personalizzare la tabella utilizzando il selettore di colonna image:column-selector.png["icona di selezione della colonna"] icona e utilizzare la barra di ricerca in alto per cercare e filtrare i dati Keystone in base ai parametri della colonna.
+
++
+Puoi fare clic su un numero di abbonamento nella colonna *Numero di abbonamento* per accedere alla scheda *Abbonamenti*, dove puoi visualizzare i dettagli sul consumo dell'abbonamento, le tempistiche e le informazioni sulle risorse associate. Per ulteriori informazioni, fare riferimento a link:../integrations/current-usage-tab.html["Visualizza i dettagli dei tuoi consumi attuali"].
+
+
+
+--
+====
+*Informazioni correlate*
+
+* link:../integrations/dashboard-overview.html["Comprendere la dashboard Keystone"]
+* link:../integrations/subscriptions-tab.html["Visualizza i dettagli del tuo abbonamento"]
+* link:../integrations/current-usage-tab.html["Visualizza i dettagli dei tuoi consumi attuali"]
+* link:../integrations/consumption-tab.html["Visualizza le tendenze di consumo"]
+* link:../integrations/subscription-timeline.html["Visualizza la cronologia del tuo abbonamento"]
+* link:../integrations/assets-tab.html["Visualizza le risorse del tuo abbonamento Keystone"]
+* link:../integrations/volumes-objects-tab.html["Visualizza i dettagli dei volumi e degli oggetti"]
+

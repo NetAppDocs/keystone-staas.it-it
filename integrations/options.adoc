@@ -1,0 +1,67 @@
+---
+sidebar: sidebar 
+permalink: integrations/options.html 
+keywords: Keystone, BlueXP, Keystone dashboard, search and filter, Keystone data, generate reports, view alerts, digital advisor 
+summary: In qualità di abbonato NetApp Keystone STaaS, puoi cercare e filtrare i tuoi dati, generare report per abbonamenti e utilizzo, controllare i timestamp e visualizzare gli avvisi. 
+---
+= Cerca i dati Keystone, genera report e visualizza avvisi
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puoi cercare e filtrare i tuoi dati, generare report per abbonamenti e utilizzo e visualizzare avvisi per rimanere informato sul tuo ambiente di archiviazione.
+
+
+
+== Cerca e filtra i dati da BlueXP
+
+In BlueXP, è possibile cercare e filtrare i dati Keystone in base ai parametri di colonna disponibili nella tabella all'interno di una scheda. Ad esempio, nella sotto-scheda *Abbonamenti* della scheda *Abbonamenti*, è possibile filtrare i dati inserendo la versione di Keystone nella casella di ricerca. Analogamente, nella scheda *Volumi in cluster* della scheda *Asset*, è possibile filtrare i volumi inserendo il nome del volume nella casella di ricerca.
+
+È possibile perfezionare le ricerche utilizzando l'opzione di filtro avanzato, ove disponibile. Ad esempio, nella sotto-scheda *Abbonamenti*, è possibile filtrare i dati per versione Keystone, periodo di fatturazione, capacità massima e giorni mancanti alla scadenza dell'abbonamento, mentre nella scheda *Volumi nei cluster* è possibile filtrare per nome del volume, nome del cluster, conformità QoS, tipo di volume e altro ancora. È possibile applicare più filtri contemporaneamente per restringere i risultati con precisione. image:bxp-filter-search.png["opzione filtro avanzato"]
+
+
+
+== Genera report da BlueXP o Digital Advisor
+
+Puoi generare e visualizzare report sui tuoi dati Keystone utilizzando il pulsante di download disponibile nelle schede di BlueXP o Digital Advisor. Queste schede ti consentono di generare report per abbonamenti, utilizzo storico, utilizzo a raffica, prestazioni, asset, volumi e oggetti.
+
+[cols="1,1"]
+|===
+| Pulsante di download in BlueXP | Pulsante di download in Digital Advisor 
+
+
+| image:bluexp-download-report-1.png["icona di download del report 1 in BlueXP"] o. image:bluexp-download-report-2.png["icona di download del report 2 in BlueXP"] | image:download-report-da.png["icona di download del report"] 
+|===
+I dettagli vengono generati in formato CSV, che è possibile salvare per uso e confronto futuri.
+
+
+
+== Genera un report consolidato da Digital Advisor
+
+In Digital Advisor puoi generare e visualizzare un report consolidato per i tuoi abbonamenti, l'utilizzo storico, l'utilizzo a raffica, le prestazioni, le risorse, i volumi e gli oggetti. A tale scopo, selezionare *Sottoscrizioni Keystone* come tipo di report dalla funzione Report di Digital Advisor. È possibile generare questi report a livello di cliente, cluster, watchlist o abbonamento.
+
+image:report-generation.png["Crea rapporto"]
+
+Il report viene generato in formato Excel, con ogni tipo di informazioni, come i dettagli della sottoscrizione o la cronologia di utilizzo, visualizzate su fogli separati. Questi fogli sono denominati in base alle schede della pagina *Sottoscrizioni Keystone* per una facile visualizzazione. È possibile salvare il report per uso futuro.
+
+Per ulteriori informazioni sulla generazione di rapporti, fare riferimento alla sezione link:https://docs.netapp.com/us-en/active-iq/task_generate_reports.html["Generare report personalizzati"^].
+
+
+
+== Visualizza gli avvisi di Digital Advisor
+
+In Digital Advisor, la dashboard di Keystone fornisce notifiche di avviso che consentono di comprendere i problemi che si verificano nel proprio ambiente di storage. Queste notifiche possono apparire come avvisi informativi o avvisi. Ad esempio, se all'interno dei cluster gestiti sono presenti volumi che non dispongono di criteri QoS adattivi (AQoS), viene visualizzato un messaggio di avviso. Selezionare il messaggio di avviso per visualizzare l'elenco dei volumi non conformi nella scheda *Volumi e oggetti*.
+
+
+NOTE: Se hai sottoscritto un abbonamento a un singolo livello di servizio o piano tariffario, non potrai visualizzare l'avviso relativo ai volumi non conformi.
+
+image:alert-aiq-3.png["avviso"]
+
+Per informazioni sui criteri AQoS, vedere link:../concepts/qos.html["QoS adattiva"].
+
+Contattare l'assistenza NetApp Keystone per ulteriori informazioni su questi messaggi. Per informazioni su come inviare richieste di servizio, consultare link:../concepts/gssc.html#generating-service-requests["Generazione di richieste di servizio"] .

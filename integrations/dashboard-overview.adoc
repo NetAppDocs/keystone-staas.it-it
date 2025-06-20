@@ -1,0 +1,102 @@
+---
+sidebar: sidebar 
+permalink: integrations/dashboard-overview.html 
+keywords: Keystone, Digital Advisor, keystone-aiq, aiq, BlueXP, Keystone dashboard 
+summary: In qualità di abbonato NetApp Keystone STaaS, puoi ottenere una panoramica dei tuoi abbonamenti da NetApp BlueXP o Digital Advisor. 
+---
+= Scopri di più sulla dashboard Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+La dashboard Keystone è la soluzione ideale per monitorare, analizzare e gestire in modo efficiente i tuoi abbonamenti Keystone. Grazie alla dashboard Keystone, puoi raggiungere i seguenti obiettivi:
+
+* *Monitoraggio dei dettagli dell'abbonamento*: visualizza informazioni dettagliate sui tuoi abbonamenti Keystone, inclusi livelli di servizio delle prestazioni, utilizzo della capacità, risorse e avvisi.
+* *Monitoraggio dell'utilizzo della capacità e generazione di report*: tieni traccia dell'utilizzo attuale e storico della capacità e genera report per analizzare i dati degli abbonamenti e prendere decisioni informate.
+* *Visualizza la cronologia degli abbonamenti*: rimani informato sulle date e gli eventi principali monitorando la cronologia dei tuoi abbonamenti.
+* *Gestisci abbonamenti*: invia richieste di modifica dei livelli di servizio delle prestazioni o di altri parametri di abbonamento in base alle tue esigenze.
+* *Analizza volumi e oggetti*: ottieni informazioni dettagliate sui volumi e sugli oggetti dei tuoi abbonamenti, inclusa la loro capacità sia a livello di volume che di oggetto.
+
+
+
+
+== Accedi alla dashboard Keystone
+
+È possibile accedere alla dashboard Keystone tramite:
+
+* *BlueXP*: accedi alla dashboard da *Archiviazione > Keystone > Panoramica* in BlueXP. Per ulteriori informazioni, fare riferimento a link:../integrations/keystone-bluexp.html["Dashboard Keystone in BlueXP"^].
+* *Active IQ Digital Advisor* (noto anche come Digital Advisor): accedi alla dashboard da *Generale > Abbonamenti Keystone* in Digital Advisor. Per ulteriori informazioni, fare riferimento a link:../integrations/keystone-aiq.html["Dashboard Keystone in Digital Advisor"^].
+
+
+Tenere presente quanto segue:
+
+* Mentre BlueXP e Digital Advisor offrono alcune funzionalità esclusive, BlueXP fornisce funzionalità amministrative per Keystone, consentendo di gestire gli abbonamenti e apportare le modifiche necessarie.
+* Per modificare gli abbonamenti, devi essere assegnato al ruolo di *amministratore Keystone*. Per ulteriori informazioni, fare riferimento a link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Ulteriori informazioni sui ruoli di accesso di BlueXP"^].
+* Digital Advisor è integrato con BlueXP, consentendoti di accedere a tutte le funzionalità di Digital Advisor, inclusa la dashboard Keystone, direttamente da BlueXP. Per ulteriori informazioni, fare riferimento a link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html#integration-overview["Integrazione di Digital Advisor con BlueXP"^].
+
+
+
+
+== Funzionalità Keystone in BlueXP e Digital Advisor
+
+La tabella seguente mostra la disponibilità delle funzionalità in BlueXP e Digital Advisor, aiutandoti a identificare rapidamente la piattaforma adatta alle tue esigenze:
+
+|===
+
+
+| *Funzione* | *BlueXP* | *Consulente digitale* 
+
+
+ a| 
+link:../integrations/subscriptions-tab.html["Visualizza i dettagli del tuo abbonamento"]
+| Sì | Sì 
+
+
+ a| 
+link:../integrations/current-usage-tab.html["Monitorare l'utilizzo attuale e storico della capacità"]
+| Sì | Sì 
+
+
+ a| 
+link:../integrations/subscription-timeline.html["Tieni traccia della cronologia degli abbonamenti"]
+| Sì | No 
+
+
+ a| 
+link:../integrations/assets-tab.html["Visualizza le risorse associate a un abbonamento Keystone"]
+| Sì | Sì 
+
+
+| link:../integrations/assets.html["Visualizza le risorse su più abbonamenti Keystone"] | Sì | No 
+
+
+ a| 
+link:../integrations/modify-subscription.html["Modifica i tuoi abbonamenti"] (solo per gli amministratori Keystone)
+| Sì | No 
+
+
+ a| 
+link:../integrations/options.html#generate-reports-from-bluexp-or-digital-advisor["Generare report"]
+| Sì | Sì 
+
+
+ a| 
+link:../integrations/volumes-objects-tab.html["Visualizzare i dettagli di volumi e oggetti"]
+| Sì | Sì 
+
+
+ a| 
+link:../integrations/performance-tab.html["Visualizza le metriche delle performance"]
+| No | Sì 
+|===
+*Informazioni correlate*
+
+* link:../integrations/dashboard-access.html["Inizia con la dashboard Keystone"]
+* link:../integrations/keystone-bluexp.html["Dashboard Keystone in BlueXP"]
+* link:..//integrations/keystone-aiq.html["Dashboard Keystone in Digital Advisor"]
+

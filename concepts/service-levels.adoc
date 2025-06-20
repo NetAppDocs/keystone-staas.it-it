@@ -4,7 +4,7 @@ permalink: concepts/service-levels.html
 keywords: service levels, service level, rate plan or service level 
 summary: Keystone STaaS offre capacità di storage a livelli di servizio predefiniti. Ogni volume gestito da Keystone è associato a un livello di servizio. 
 ---
-= Livelli di servizio in Keystone
+= Livelli di servizio prestazionali a Keystone
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,29 +14,29 @@ summary: Keystone STaaS offre capacità di storage a livelli di servizio predefi
 
 
 [role="lead"]
-Keystone STaaS offre capacità di storage dei dati a livelli di servizio di performance predefiniti. Ogni volume gestito dai servizi Keystone è associato a un livello di servizio.
+Keystone STaaS offre capacità di storage dei dati a livelli di servizio di performance predefiniti. A ciascun volume gestito dai servizi Keystone è associato un livello di servizio prestazionale.
 
-Un abbonamento può avere più piani tariffari e ciascun piano tariffario corrisponde a un livello di servizio. Ogni piano tariffario ha una capacità impegnata per livello di servizio.
+Un abbonamento può prevedere più piani tariffari, ognuno dei quali corrisponde a un livello di servizio di performance. Ogni piano tariffario prevede una capacità impegnata per livello di servizio di performance.
 
-Ciascun livello di servizio è definito dalla densità i/o, ovvero IOPS/TIB/volume. Si tratta del rapporto tra performance (operazioni di input/output al secondo [IOPS]) e capacità di storage utilizzata (TIB), ovvero IOPS/TIB con latenza media per volume.
+Ogni livello di servizio prestazionale è definito dalla sua densità I/O, ovvero IOPS/TiB/volume. Si tratta del rapporto tra performance (operazioni di input/output al secondo [IOPS]) e capacità di storage utilizzata (TIB), ovvero IOPS/TIB con latenza media per volume.
 
-È possibile selezionare i livelli di servizio in base all'ambiente di storage e alle esigenze di storage e consumo. I livelli di servizio di base sono disponibili per impostazione predefinita. Sono inoltre disponibili livelli di servizio specifici, se hai scelto servizi aggiuntivi. Ad esempio, per il servizio add-on per la protezione avanzata dei dati, il livello di servizio _Advanced Data-Protect_ viene assegnato all'abbonamento.
-
-
-TIP: È disponibile una descrizione dettagliata del servizio per i livelli di servizio NetApp Keystone STaaS https://www.netapp.com/services/keystone/terms-and-conditions/["qui"^].
-
-I livelli di servizio di base per i tipi di storage supportati, file, blocchi, oggetti e servizi cloud sono descritti nelle seguenti sezioni:
+È possibile selezionare i livelli di servizio prestazionali in base al proprio ambiente di storage e alle esigenze di storage e consumo. I livelli di servizio prestazionali di base sono disponibili per impostazione predefinita. Sono inoltre disponibili livelli di servizio prestazionali specifici, se si sono optati per servizi aggiuntivi. Ad esempio, per il servizio aggiuntivo di protezione avanzata dei dati, al proprio abbonamento viene assegnato il livello di servizio prestazionale _Advanced Data-Protect_.
 
 
+TIP: È disponibile una descrizione dettagliata del servizio per i livelli di servizio delle prestazioni NetApp Keystone STaaS  https://www.netapp.com/services/keystone/terms-and-conditions/["qui"^] .
 
-== Livelli di servizio per lo storage a blocchi e file
+I livelli di servizio delle prestazioni di base per i tipi di archiviazione supportati, file, blocchi, oggetti e servizi cloud sono descritti nelle sezioni seguenti:
+
+
+
+== Livelli di servizio prestazionali per l'archiviazione di file e blocchi
 
 *Protocolli supportati*: NFS, CIFS, iSCSI e FC
 
 |===
 
 
-| *Livello di servizio* | *Estrema* | *Premium* | *Prestazioni* | *Standard* | *Valore* 
+| *Livello di servizio prestazionale* | *Estrema* | *Premium* | *Prestazioni* | *Standard* | *Valore* 
 
 
 | *Tipi di workload di esempio* | Analytics, database, applicazioni mission-critical | VDI, VSI, sviluppo software | OLTP, OLAP, container, sviluppo software | Condivisioni di file, server web | Backup 
@@ -61,23 +61,23 @@ I livelli di servizio di base per i tipi di storage supportati, file, blocchi, o
 |===
 
 
-=== Ulteriori informazioni sui livelli di servizio per lo storage a blocchi e file
+=== Ulteriori informazioni sui livelli di servizio delle prestazioni per l'archiviazione di file e blocchi
 
-Le metriche del livello di servizio di base dipendono dalle seguenti condizioni:
+Le metriche del livello di servizio delle prestazioni di base dipendono dalle seguenti condizioni:
 
-* I livelli di servizio per lo storage a blocchi e file supportano ONTAP 9.7 e versioni successive.
-* I valori di IOPS/TIB/volume, Mbps/TIB/volume e latenza per i livelli di servizio si basano sulla quantità di dati memorizzati nel volume, sulla dimensione del blocco di 32 KB e su una combinazione casuale di operazioni io in lettura al 70% e in scrittura al 30%.
+* I livelli di servizio delle prestazioni per l'archiviazione di file e blocchi supportano ONTAP 9.7 e versioni successive.
+* I valori IOPS/TiB/volume, MBps/TiB/volume e latenza per i livelli di servizio delle prestazioni si basano sulla quantità di dati archiviati nel volume, sulla dimensione del blocco da 32 KB e su una combinazione casuale del 70% di operazioni di I/O in lettura e del 30% in scrittura.
 * IOPS/TIB/volume effettivo e Mbps/TIB/volume possono variare in base alle dimensioni effettive o presunte del blocco, alla concorrenza dei carichi di lavoro del sistema o alle operazioni input-output.
 * La latenza non include quanto segue:
 +
 ** latenza dell'applicazione o dell'host
 ** latenza di rete del cliente da o verso le porte del controller
 ** Overhead associati al trasferimento dei dati nell'archivio di oggetti in caso di FabricPool
-** Latenza applicata automaticamente dalla QoS per mantenere i/o entro i massimi livelli di servizio
+** latenza applicata automaticamente da QoS per mantenere l'IO entro i massimi livelli di servizio delle prestazioni
 
 
 * I valori di latenza non sono applicabili alle operazioni di scrittura MetroCluster. Queste operazioni di scrittura dipendono dalla distanza dei sistemi remoti.
-* Se uno o più volumi su un sistema storage non hanno una policy AQoS assegnata, questi volumi vengono considerati come volumi non conformi e non sono applicabili livelli di servizio di destinazione per tali sistemi.
+* Se a uno o più volumi di un sistema di storage non è assegnata una policy AQoS, tali volumi vengono considerati non conformi e per tali sistemi non sono applicabili livelli di servizio di prestazioni target.
 * _Gli IOPS previsti_ sono destinati a FabricPool solo se la policy di tiering è impostata su "nessuno" e non ci sono blocchi nel cloud. _Gli IOPS previsti_ sono destinati a volumi che non sono in una relazione sincrona di SnapMirror.
 * Le operazioni di i/o dei workload devono essere bilanciate in tutti i controller implementati, come stabilito dall'ordine Keystone.
 
@@ -91,7 +91,7 @@ Le metriche del livello di servizio di base dipendono dalle seguenti condizioni:
 |===
 
 
-| *Livello di servizio* | Oggetto 
+| *Livello di servizio prestazionale* | Oggetto 
 
 
 | *Tipo di carico di lavoro* | Repository di contenuti multimediali, archiviazione 
@@ -120,7 +120,7 @@ NOTE: La latenza non include gli overhead associati al trasferimento dei dati ne
 |===
 
 
-| *Livello di servizio* | Cloud Volumes ONTAP 
+| *Livello di servizio prestazionale* | Cloud Volumes ONTAP 
 
 
 | *Tipo di carico di lavoro* | Disaster Recovery, sviluppo/test software, applicazioni aziendali 

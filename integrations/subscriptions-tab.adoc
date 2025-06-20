@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: integrations/subscriptions-tab.html 
-keywords: keystone-aiq, digital advisor keystone, subscriptions-tab 
+keywords: keystone-aiq, digital advisor keystone, subscriptions-tab, performance levels, keystone-bluexp 
 summary: Per ulteriori informazioni sulle tue iscrizioni Keystone, puoi visualizzare un elenco di tutte le tue iscrizioni nella scheda Sottoscrizioni. 
 ---
-= Consente di visualizzare i dettagli delle sottoscrizioni
+= Visualizza i dettagli sui tuoi abbonamenti Keystone
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,42 +14,108 @@ summary: Per ulteriori informazioni sulle tue iscrizioni Keystone, puoi visualiz
 
 
 [role="lead"]
-Per ulteriori informazioni sulle tue iscrizioni a Keystone, puoi visualizzare un elenco di tutte le tue iscrizioni dalla scheda *Sottoscrizioni*.
+Puoi visualizzare l'elenco di tutti i tuoi abbonamenti dalla scheda *Abbonamenti* sia in BlueXP che in Digital Advisor. Questa scheda fornisce informazioni di facile comprensione basate sullo stato e sull'utilizzo del tuo abbonamento, aiutandoti a rimanere informato e ad agire quando necessario.
 
-Per visualizzare questa scheda, dal riquadro di navigazione a sinistra, vai a *GENERALE > Sottoscrizioni Keystone > Sottoscrizioni*. Sono elencati tutti i tuoi abbonamenti.
+[role="tabbed-block"]
+====
+.BlueXP
+--
+La scheda *Abbonamenti* di BlueXP è divisa in due sezioni: *Abbonamenti* e *Livelli di servizio prestazionali*. Ogni sezione offre informazioni specifiche per aiutarti a gestire e monitorare i tuoi abbonamenti Keystone. Per visualizzare informazioni dettagliate sui tuoi abbonamenti, segui questi passaggi:
 
-image:all-subs-3.png["Un'immagine della scheda Abbonamenti"]
+.Fasi
+. Dal menu di navigazione a sinistra di BlueXP, vai a *Archiviazione > Keystone > Abbonamenti*.
++
+image:bxp-subscription- list.png["visualizza i dettagli della scheda abbonamento"]
 
-È possibile filtrare la selezione facendo clic sull'icona dell'hamburger image:icon-hamburger.png["icona hamburger"] Per visualizzare una colonna o tutte le sottoscrizioni, fare clic sul pulsante *Cancella filtri*. Per alcuni campi e colonne, è possibile visualizzare informazioni o icone di avvertenza e descrizioni dei comandi che forniscono informazioni aggiuntive sui dati.
++
+Vengono visualizzate le metriche chiave quali lo stato della capacità, lo stato di scadenza dell'abbonamento e la versione Keystone per tutti gli abbonamenti. Per ulteriori informazioni, fare riferimento a link:../integrations/keystone-bluexp.html["Dashboard Keystone in BlueXP"].
 
-* *Subscription Number*: Il numero di abbonamento Keystone assegnato da NetApp.
-* *Tracking ID*: L'ID di tracciamento assegnato al momento dell'attivazione dell'abbonamento. Si tratta di un ID univoco per ciascun abbonamento e sito, utilizzato per tenere traccia dell'abbonamento.
++
+Nella tabella puoi vedere i seguenti dettagli:
+
++
+** *Numero di abbonamento*: numero di abbonamento dell'abbonamento Keystone assegnato da NetApp.
+** *Tracking ID*: L'ID di tracciamento assegnato al momento dell'attivazione dell'abbonamento. Si tratta di un ID univoco per ciascun abbonamento e sito, utilizzato per tenere traccia dell'abbonamento.
+** *Nome del cliente*: Nome del cliente associato all'abbonamento Keystone.
+** *Abbonamenti collegati*: Se hai abbonamenti secondari collegati al tuo abbonamento principale, questa colonna elenca i numeri di abbonamento collegati per l'abbonamento principale. Questo numero di abbonamento può essere quello del tuo abbonamento principale o secondario (collegato).
+** *Versione Keystone*: la versione del servizio Keystone utilizzata per l'abbonamento.
+** *Periodo di fatturazione*: periodo di fatturazione dell'abbonamento.
+** *Livelli di servizio prestazionali*: numero di piani tariffari associati all'abbonamento, dove ciascun piano tariffario corrisponde a uno specifico livello di servizio prestazionale e a una capacità impegnata.
+** *Capacità massima*: capacità massima consumata nell'ambito dell'abbonamento.
+** *Giorni alla scadenza dell'abbonamento*: Numero di giorni rimanenti fino alla scadenza dell'abbonamento.
 +
 
-TIP: Se si è abbonati al servizio add-on per la protezione avanzata dei dati, è possibile fare clic sulla descrizione del comando relativa al numero di abbonamento per visualizzare l'ID di registrazione dell'abbonamento partner in una configurazione MetroCluster. Per informazioni su come visualizzare il consumo dettagliato in base agli abbonamenti dei partner in una configurazione MetroCluster, vedere link:../integrations/capacity-trend-tab.html#reference-charts-for-advanced-data-protection-for-metrocluster["Grafici di riferimento per una protezione avanzata dei dati"].
-
-* *Tipo di utilizzo*: Potresti aver sottoscritto più abbonamenti Keystone (versione 1) o Keystone STaaS (versione 2). Le regole del piano tariffario per i livelli di servizio possono variare in base ai due tipi di abbonamento. Esaminando il valore in questa colonna, si sa se il tipo di utilizzo viene fatturato in base all'utilizzo fornito, fisico o logico per `v1` o `v2`. Per ulteriori informazioni sugli abbonamenti Keystone versione 1, fare riferimento alla https://docs.netapp.com/us-en/keystone/index.html["Documentazione per NetApp Keystone"^].
-* *Billing Period* (periodo di fatturazione): Periodo di fatturazione dell'abbonamento, ad esempio mensile, trimestrale o annuale.
-* *Data di inizio*: La data di inizio dell'abbonamento.
-* *Data di fine*: Data di fine dell'abbonamento. Se si dispone di un abbonamento mensile fatturabile che viene rinnovato automaticamente ogni mese, viene visualizzato `Month-on-month` anziché la data di fine. In base a questa data, è possibile che vengano visualizzate notifiche per le sottoscrizioni che stanno per terminare o che hanno criteri di rinnovo automatico allegati.
-* *Usage Status* (Stato utilizzo): Visualizza l'indicatore di utilizzo per indicare se il consumo rientra o supera il limite di abbonamento. È possibile ordinare l'elenco in base a questa colonna se si desidera visualizzare i record di consumo più elevato.
-* image:subs-dtls-icon.png["icona"]: Facendo clic su questa icona per un abbonamento, viene aperta la scheda *consumo corrente* con i dettagli di utilizzo dell'abbonamento.
-* image:aiq-ks-time-icon.png["icona"]: Facendo clic su questa icona si apre la scheda *tendenza consumi*, in cui è possibile visualizzare i dati cronologici di utilizzo per ciascun livello di servizio incluso in questo abbonamento.
+TIP: È possibile personalizzare le colonne visualizzate nella tabella utilizzando il selettore di colonne image:column-selector.png["icona di selezione della colonna"] icona. Per alcuni campi e colonne, è possibile visualizzare informazioni o icone di avvertenza e descrizioni dei comandi che forniscono informazioni aggiuntive sui dati.
 
 
+
+. È possibile selezionare la sotto-scheda *Livelli di servizio delle prestazioni* per visualizzare i livelli di servizio delle prestazioni per tutti gli abbonamenti.
++
+image:bxp-performance-levels.png["visualizza i livelli di servizio delle prestazioni su tutti gli abbonamenti"]
+
++
+** *Livelli di servizio delle prestazioni tra gli abbonamenti*: visualizza il numero di livelli di servizio delle prestazioni tra gli abbonamenti.
+** *Coerenza del provisioning tra gli abbonamenti*: mostra i conteggi dei livelli di servizio con prestazioni eccessive e insufficienti.
++
+È possibile visualizzare l'elenco dei livelli di servizio prestazionali, inclusi dettagli chiave come il nome del cliente, il numero di abbonamento, il tipo di livello di servizio prestazionale, il numero totale di volumi e il loro stato di conformità QoS. La tabella mostra anche il conteggio dei volumi protetti, la capacità totale impegnata, consumata, fornita, disponibile (con e senza burst) e la capacità burst accumulata.
+
+
+
+
+
+--
+.Consulente digitale
+--
+Per visualizzare i tuoi abbonamenti in Digital Advisor, segui questi passaggi:
+
+.Fasi
+. Dal riquadro di navigazione sinistro di Digital Advisor, vai a *Generale > Abbonamenti Keystone > Abbonamenti*.
++
+Qui puoi visualizzare tutti i tuoi abbonamenti, con informazioni dettagliate per ciascuno.
+
++
+image:all-subs-3.png["Un'immagine della scheda Abbonamenti"]
+
++
+Per alcuni campi e colonne, è possibile visualizzare informazioni o icone di avvertenza e descrizioni dei comandi che forniscono informazioni aggiuntive sui dati.
+
++
+** *Subscription Number*: Il numero di abbonamento Keystone assegnato da NetApp.
+** *Tracking ID*: L'ID di tracciamento assegnato al momento dell'attivazione dell'abbonamento. Si tratta di un ID univoco per ogni abbonamento e sito.
++
+
+TIP: Se si è abbonati al servizio add-on per la protezione avanzata dei dati, è possibile fare clic sulla descrizione del comando relativa al numero di abbonamento per visualizzare l'ID di registrazione dell'abbonamento partner in una configurazione MetroCluster. Per visualizzare il consumo dettagliato per abbonamento partner in una configurazione MetroCluster, vedere link:../integrations/consumption-tab.html#reference-charts-for-advanced-data-protection-for-metrocluster["Grafici di riferimento per una protezione avanzata dei dati"] .
+
+** *Tipo di utilizzo*: Potresti aver sottoscritto più versioni di Keystone. Le regole del piano tariffario per i livelli di servizio prestazionali potrebbero variare tra le versioni di abbonamento. Esaminando il valore in questa colonna, puoi sapere se il tipo di utilizzo viene fatturato in base all'utilizzo provisioned, fisico o logico. Per ulteriori informazioni sulla versione 1, consulta  https://docs.netapp.com/us-en/keystone/index.html["Servizi di abbonamento Keystone | Documentazione della versione 1"^] .
+** *Periodo di fatturazione*: periodo di fatturazione dell'abbonamento.
+** *Data di inizio*: La data di inizio dell'abbonamento.
+** *Data di fine*: Data di fine dell'abbonamento. Se si dispone di un abbonamento mensile fatturabile che viene rinnovato automaticamente ogni mese, viene visualizzato `Month-on-month` anziché la data di fine. In base a questa data, è possibile che vengano visualizzate notifiche per le sottoscrizioni che stanno per terminare o che hanno criteri di rinnovo automatico allegati.
+** *Usage Status* (Stato utilizzo): Visualizza l'indicatore di utilizzo per indicare se il consumo rientra o supera il limite di abbonamento. È possibile ordinare l'elenco in base a questa colonna se si desidera visualizzare i record di consumo più elevato.
+** image:subs-dtls-icon.png["icona"]: Facendo clic su questa icona per un abbonamento, viene aperta la scheda *consumo corrente* con i dettagli di utilizzo dell'abbonamento.
+** image:aiq-ks-time-icon.png["icona"] : Facendo clic su questa icona si apre la scheda *Andamento dei consumi*, in cui è possibile visualizzare i dati storici di utilizzo per ciascun livello di servizio prestazionale incluso in questo abbonamento.
++
 Per verificare lo stato di utilizzo di ciascun abbonamento, fare riferimento ai seguenti indicatori di utilizzo:
 
++
 image:usage-indicator-2.png["icona"]
 
++
 .Indice
-image:icon-grey.png["icona del punto grigio"]: Nessun utilizzo della capacità registrato rispetto alla capacità impegnata del livello di servizioimage:icon-green.png["icona del punto verde"]: Il consumo è normale, entro il 80% della capacità impegnataimage:icon-amber.png["icona del punto ambra"]: Il consumo massimo, cioè l'utilizzo sta per raggiungere il 100% o più della capacità impegnata. La colonna *consumato* visualizza questo indicatore per qualsiasi consumo superiore al 80% della capacità impegnataimage:icon-red.png["icona con punto rosso"]: Il consumo rientra nel limite di burst. Il consumo burst è il consumo che supera il 100% della capacità impegnata di un livello di servizio e rientra nel limite di utilizzo burst concordato, ad esempio il 120%image:icon-purple.png["icona del punto viola"]Indica un consumo superiore al limite di burst stabilito
+image:icon-grey.png["icona del punto grigio"] : Nessun utilizzo di capacità registrato rispetto alla capacità impegnata del livello di servizio delle prestazioni image:icon-green.png["icona del punto verde"] : Il consumo è normale, entro l'80% della capacità impegnata image:icon-amber.png["icona del punto ambra"] : Consumo massimo, ovvero l'utilizzo sta per raggiungere il 100% o più della capacità impegnata. La colonna *Consumato* mostra questo indicatore per qualsiasi consumo superiore all'80% della capacità impegnata. image:icon-red.png["icona con punto rosso"] : Il consumo rientra nel limite di burst. Il consumo di burst è il consumo che supera il 100% della capacità impegnata di un livello di servizio prestazionale ed è compreso nel limite di utilizzo di burst concordato, ad esempio il 120%. image:icon-purple.png["icona del punto viola"] : Indica un consumo superiore al limite di scoppio stabilito
 
+
+
+
+
+--
+====
 *Informazioni correlate*
 
-* link:../integrations/aiq-keystone-details.html["Utilizza la dashboard e il reporting Keystone"]
-* link:../integrations/current-usage-tab.html["Consumo di corrente"]
-* link:../integrations/capacity-trend-tab.html["Trend di consumo"]
-* link:../integrations/volumes-objects-tab.html["Oggetti  volumi"]
-* link:../integrations/assets-tab.html["Risorse"]
-* link:../integrations/performance-tab.html["Performance"]
+* link:../integrations/dashboard-overview.html["Comprendere la dashboard Keystone"]
+* link:../integrations/current-usage-tab.html["Visualizza i dettagli dei tuoi consumi attuali"]
+* link:../integrations/consumption-tab.html["Visualizza le tendenze di consumo"]
+* link:../integrations/subscription-timeline.html["Visualizza la cronologia del tuo abbonamento"]
+* link:../integrations/assets-tab.html["Visualizza le risorse del tuo abbonamento Keystone"]
+* link:../integrations/assets.html["Visualizza le risorse nei tuoi abbonamenti Keystone"]
+* link:../integrations/volumes-objects-tab.html["Visualizza i dettagli dei volumi e degli oggetti"]
 

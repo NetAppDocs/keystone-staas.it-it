@@ -14,7 +14,9 @@ summary: Puoi visualizzare i dettagli della capacità a livello di volume o stor
 
 
 [role="lead"]
-Se si desidera visualizzare i dettagli della capacità a livello di volume o di storage a oggetti, è possibile accedere a *volumi e oggetti*. Per StorageGRID, puoi utilizzare questa scheda per leggere l'utilizzo da parte dei singoli nodi nel tuo ambiente di storage a oggetti.
+Per visualizzare i dettagli della capacità a livello di archiviazione di volumi o oggetti, è possibile accedere alla scheda *Volumi e oggetti* in Digital Advisor. Per StorageGRID, puoi utilizzare questa scheda per leggere l'utilizzo da parte dei singoli nodi nel tuo ambiente di storage a oggetti.
+
+È possibile consultare la scheda *Risorse* in BlueXP per visualizzare questi dettagli. a link:../integrations/assets.html["Visualizza le risorse nei tuoi abbonamenti Keystone"] .
 
 
 NOTE: Il titolo di questa scheda varia in base alla natura della distribuzione presso il sito. Se si dispone di archiviazione ONTAP e a oggetti, il titolo della scheda viene visualizzato come *volumi e oggetti*. Solo per ONTAP, il nome viene visualizzato *volumi*. Per l'archiviazione di oggetti StorageGRID, è possibile visualizzare la scheda *oggetti*.
@@ -23,16 +25,13 @@ NOTE: Il titolo di questa scheda varia in base alla natura della distribuzione p
 
 == Visualizza i volumi ONTAP e i dettagli dello storage a oggetti
 
-La scheda *volumi e oggetti* offre informazioni dettagliate sui volumi del sistema ONTAP e sullo storage a oggetti a diversi livelli di dettaglio. Per i volumi ONTAP, sono disponibili due sotto-schede: *Riepilogo volume*, che fornisce un conteggio complessivo dei volumi mappati ai livelli di servizio sottoscritti, e *Dettagli volume*, che elenca nuovamente questi volumi con i loro particolari specifici. La sottoscheda *oggetti* fornisce dettagli sull'archiviazione di oggetti per le sottoscrizioni che includono livelli di servizio per l'archiviazione di file e oggetti.
-
-
-NOTE: La sottoscheda *oggetti* non è disponibile nella scheda *volumi* e nella scheda *oggetti* le sottoscheda *Riepilogo volume* e *Dettagli volume* non contengono dati.
+La scheda *volumi e oggetti* offre informazioni dettagliate sui volumi del sistema ONTAP e sullo storage a oggetti a diversi livelli di dettaglio. Per i volumi ONTAP, sono presenti due sotto-schede: *Riepilogo Volume*, che fornisce un conteggio complessivo dei volumi mappati ai livelli di servizio prestazionali sottoscritti, e *Dettagli Volume*, che elenca nuovamente questi volumi con le relative informazioni specifiche. La sotto-scheda *Oggetti* fornisce dettagli sull'archiviazione degli oggetti per le sottoscrizioni che includono livelli di servizio prestazionali sia per l'archiviazione di file che per quella di oggetti.
 
 [role="tabbed-block"]
 ====
 .Riepilogo volume
 --
-. Fare clic su *GENERALE > Sottoscrizioni Keystone > volumi e oggetti > Riepilogo volume*.
+. Dal riquadro di navigazione sinistro di Digital Advisor, vai a *Generale > Abbonamenti Keystone > Volumi e oggetti > Riepilogo volumi*.
 . Selezionare il numero dell'abbonamento.
 +
 Per l'iscrizione Keystone STaaS selezionata, puoi vedere il numero totale di volumi, il relativo stato di conformità QoS, il numero di volumi protetti e la capacità totale impegnata, consumata e disponibile in tutti questi volumi. Se si fa clic sul numero di volumi non conformi o protetti, viene visualizzata la scheda *Dettagli volume*, in cui è possibile visualizzare un elenco filtrato che mostra i volumi non conformi o i volumi protetti, in base alla selezione effettuata.
@@ -45,10 +44,10 @@ image:volume-summary-2.png["Scheda Volume Summary (Riepilogo volume)"]
 --
 .Dettagli volume
 --
-. Fare clic su *GENERALE > Iscrizioni Keystone > volumi > Dettagli volume*.
+. Dal riquadro di navigazione sinistro di Digital Advisor, vai a *Generale > Abbonamenti Keystone > Volumi > Dettagli volume*.
 . Selezionare il numero dell'abbonamento.
 +
-Puoi vedere un elenco tabulare dei volumi, come l'utilizzo della capacità, il tipo di volume, il cluster, l'aggregato e i livelli di servizio Keystone assegnati. È possibile scorrere le colonne e ottenere ulteriori informazioni facendo clic con il mouse sulle icone delle informazioni accanto alle intestazioni delle colonne. È possibile ordinare in base alle colonne e filtrare gli elenchi per visualizzare informazioni specifiche.
+È possibile visualizzare l'elenco tabellare dei volumi, ad esempio utilizzo della capacità, tipo di volume, cluster, aggregato e livelli di servizio delle prestazioni Keystone assegnati. È possibile scorrere le colonne e ottenere ulteriori informazioni facendo clic con il mouse sulle icone delle informazioni accanto alle intestazioni delle colonne. È possibile ordinare in base alle colonne e filtrare gli elenchi per visualizzare informazioni specifiche.
 
 +
 È possibile utilizzare *Nascondi/Mostra colonne* per aggiungere o rimuovere le colonne visualizzate nella tabella. Per impostazione predefinita, vengono selezionate tutte le colonne ad eccezione della colonna *reparto*. È possibile selezionare o deselezionare qualsiasi colonna, compresa la colonna *reparto*, e le preferenze verranno salvate per un utilizzo successivo. Quando si scarica il report CSV, i dettagli della colonna *reparto* verranno inclusi se selezionati, mentre le altre colonne verranno visualizzate indipendentemente dallo stato della selezione nella tabella.
@@ -65,8 +64,8 @@ image:volume-details-3.png["Scheda Dettagli volumi"]
 --
 .Oggetti
 --
-. Fare clic su *GENERALE > Iscrizioni Keystone > oggetti*.
-. Selezionare il numero dell'abbonamento. Per impostazione predefinita, il primo numero di abbonamento disponibile è selezionato se l'abbonamento selezionato in precedenza non include livelli di servizio per lo storage a oggetti e file.
+. Dal riquadro di navigazione sinistro di Digital Advisor, vai a *Generale > Abbonamenti Keystone > Oggetti*.
+. Selezionare il numero dell'abbonamento. Per impostazione predefinita, viene selezionato il primo numero di abbonamento disponibile se l'abbonamento selezionato in precedenza non include livelli di servizio di prestazioni per l'archiviazione di file e oggetti.
 +
 
 NOTE: Per StorageGRID, questa scheda visualizza l'utilizzo fisico dei nodi per lo storage a oggetti.
@@ -80,10 +79,12 @@ image:objects-details.png["Scheda oggetti"]
 ====
 *Informazioni correlate*
 
-* link:../integrations/aiq-keystone-details.html["Utilizza la dashboard e il reporting Keystone"]
-* link:../integrations/subscriptions-tab.html["Abbonamenti"]
-* link:../integrations/current-usage-tab.html["Consumo di corrente"]
-* link:../integrations/capacity-trend-tab.html["Trend di consumo"]
-* link:../integrations/assets-tab.html["Risorse"]
-* link:../integrations/performance-tab.html["Performance"]
+* link:../integrations/dashboard-overview.html["Comprendere la dashboard Keystone"]
+* link:../integrations/subscriptions-tab.html["Visualizza i dettagli del tuo abbonamento"]
+* link:../integrations/current-usage-tab.html["Visualizza i dettagli dei tuoi consumi attuali"]
+* link:../integrations/consumption-tab.html["Visualizza le tendenze di consumo"]
+* link:../integrations/subscription-timeline.html["Visualizza la cronologia del tuo abbonamento"]
+* link:../integrations/assets-tab.html["Visualizza le risorse del tuo abbonamento Keystone"]
+* link:../integrations/assets.html["Visualizza le risorse nei tuoi abbonamenti Keystone"]
+* link:../integrations/performance-tab.html["Visualizza le metriche delle performance"]
 

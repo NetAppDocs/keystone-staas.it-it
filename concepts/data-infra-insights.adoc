@@ -18,9 +18,9 @@ NetApp Data Infrastructure Insights (DII, in precedenza noto come Cloud Insights
 
 Per ulteriori informazioni su Data Infrastructure Insights, fare riferimento a link:https://docs.netapp.com/us-en/data-infrastructure-insights/["Documentazione Data Infrastructure Insights"^].
 
-DII è disponibile sia per gli abbonamenti nuovi che per quelli esistenti. Può essere integrato in un'iscrizione Keystone come un add-on per la capacità impegnata. Quando DII è integrato in un abbonamento Keystone, avrà un livello di servizio corrispondente per ogni livello di servizio di base nell'abbonamento. Ad esempio, Extreme si associa a DII Extreme, Premium a DII Premium e Performance a DII Performance. Queste mappature garantiscono che il livello di servizio DII sia allineato al livello di servizio di base della tua iscrizione Keystone.
+DII è disponibile sia per gli abbonamenti nuovi che per quelli esistenti. Può essere integrato in un'iscrizione Keystone come un add-on per la capacità impegnata. Quando DII è integrato in un abbonamento Keystone, avrà un livello di servizio prestazionale corrispondente per ogni livello di servizio prestazionale di base presente nell'abbonamento. Ad esempio, Extreme si associa a DII Extreme, Premium a DII Premium e Performance a DII Performance. Queste mappature garantiscono che il livello di servizio prestazionale di DII sia allineato al livello di servizio prestazionale di base del tuo abbonamento Keystone.
 
-Una vista dei livelli di servizio DII all'interno di un widget *Keystone Subscription* sul dashboard di Digital Advisor:
+Una visualizzazione dei livelli di servizio delle prestazioni DII all'interno di un widget *Abbonamenti Keystone* nella dashboard del Consulente digitale:
 
 image:keystone-widget-dii.png["Schermata del widget Keystone Subscription che mostra i livelli di servizio DII"]
 
@@ -51,9 +51,12 @@ Tenere presente quanto segue:
 | Cloud Volumes ONTAP | NetApp Cloud Volumes ONTAP 
 |===
 +
-Una volta configurata, l'istanza DII inizierà a monitorare lo storage Keystone.
+Una volta configurata, l'istanza DII inizierà a monitorare le risorse di storage NetApp distribuite come parte di Keystone.
 
 
+
+
+NOTE: Sebbene DII offra ampie funzionalità di monitoraggio per l'hardware distribuito, non fornisce informazioni dettagliate sull'abbonamento Keystone, come l'utilizzo dell'abbonamento o dettagli sui livelli di servizio prestazionali. Per informazioni dettagliate sull'abbonamento, consultare link:../integrations/keystone-aiq.html["Dashboard e reporting Keystone"] .
 
 
 
@@ -66,7 +69,7 @@ Di seguito sono illustrati i dettagli relativi alla fatturazione e alla misurazi
 image:current-consumption-dii.png["Schermata della scheda consumo corrente che visualizza la misurazione dei livelli di servizio"]
 
 * Il servizio viene misurato e fatturato insieme all'iscrizione Keystone sulla stessa fattura. Se configuri DII per Keystone prima di attivare l'abbonamento Keystone, la fatturazione inizia ancora dalla data di attivazione dell'abbonamento Keystone o dalla data di modifica degli abbonamenti esistenti.
-* Questo servizio viene misurato e fatturato in base alla capacità con commit e all'utilizzo burst per i livelli di servizio DII, in aggiunta alla fattura Keystone standard. La misurazione di questo servizio add-on segue la stessa metodologia del livello di servizio di abbonamento Keystone sottostante, che potrebbe essere logica, con provisioning o fisica.
+* Questo servizio viene misurato e fatturato in base alla capacità impegnata e all'utilizzo di picco per i livelli di servizio di prestazioni DII, in aggiunta alla fattura Keystone standard. La misurazione di questo servizio aggiuntivo segue la stessa metodologia del livello di servizio di prestazioni dell'abbonamento Keystone sottostante, che può essere logica, provisioned o fisica.
 * Questo servizio termina con l'iscrizione Keystone a cui è collegato. Al momento del rinnovo, puoi scegliere se rinnovare il servizio aggiuntivo. Se non rinnova l'abbonamento Keystone, l'hardware monitorato viene dismesso e il servizio aggiuntivo termina automaticamente.
 
 

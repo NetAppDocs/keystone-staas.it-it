@@ -1,0 +1,60 @@
+---
+sidebar: sidebar 
+permalink: integrations/dashboard-access.html 
+keywords: Keystone, Digital Advisor, keystone-aiq, aiq, BlueXP, Keystone dashboard, Keystone subscriptions 
+summary: In qualità di abbonato a NetApp Keystone STaaS, puoi accedere alla dashboard Keystone tramite NetApp BlueXP o Digital Advisor 
+---
+= Inizia con la dashboard Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile accedere alla dashboard Keystone tramite NetApp BlueXP o Digital Advisor dopo aver sottoscritto i servizi NetApp Keystone.
+
+[role="tabbed-block"]
+====
+.BlueXP
+--
+Per accedere a BlueXP, puoi utilizzare le credenziali del sito di supporto NetApp oppure registrarti su BlueXP utilizzando il tuo indirizzo e-mail e una password. Ulteriori informazioni su link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["Accesso a BlueXP"^].
+
+.Fasi
+. Accedere a BlueXP.
+. Dal menu di navigazione a sinistra di BlueXP, seleziona *Archiviazione > Keystone*.
++
+Viene visualizzata la dashboard Keystone.
+
++
+image:discover-subscriptions-1.png["la pagina della dashboard Keystone"]
+
++
+
+NOTE: Contatta l'assistenza NetApp Keystone se le tue credenziali di accesso non sono collegate ad alcun abbonamento Keystone.
+
+
+
+--
+.Consulente digitale
+--
+La dashboard del Consulente Digitale ti consente di visualizzare i dettagli dei tuoi abbonamenti Keystone. Per accedere a Digital Advisor, è possibile utilizzare le credenziali del sito di supporto NetApp.
+
+.Fasi
+. Apri un browser web e vai su link:https://activeiq.netapp.com/?source=onlinedocs["Consulente digitale"^] pagina di accesso.
+. Inserisci il tuo nome utente e la password e fai clic su *Accedi*.
++
+Puoi visualizzare i dettagli del tuo abbonamento e del tuo utilizzo, nonché un riepilogo dell'utilizzo della capacità rispetto ai servizi Keystone acquistati, nel widget *Abbonamenti Keystone* nella dashboard del Consulente Digitale. Per ulteriori informazioni sul widget *Abbonamenti Keystone*, consulta link:../integrations/keystone-aiq.html["Dashboard Keystone in Digital Advisor"] .
+
+
+
+--
+====
+*Informazioni correlate*
+
+* link:../integrations/keystone-bluexp.html["Dashboard Keystone in BlueXP"]
+* link:..//integrations/keystone-aiq.html["Dashboard Keystone in Digital Advisor"]
+* link:../integrations/subscriptions-tab.html["Visualizza i dettagli del tuo abbonamento"]
+
