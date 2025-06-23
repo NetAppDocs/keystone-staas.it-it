@@ -33,7 +33,7 @@ Con la dashboard Keystone in BlueXP puoi:
 * Rimani aggiornato sulle ultime informazioni relative al tuo ambiente di archiviazione.
 
 
-Per iniziare, vai su *Archiviazione > Keystone* nel menu di navigazione a sinistra di BlueXP. Per ulteriori informazioni, fare riferimento a link:../integrations/dashboard-overview.html["Panoramica della dashboard Keystone"^].
+Per iniziare, vai su *Archiviazione > Keystone* nel menu di navigazione a sinistra di BlueXP. Per ulteriori informazioni, fare riferimento a link:../integrations/dashboard-overview.html["Panoramica della dashboard Keystone"].
 
 
 
@@ -245,7 +245,7 @@ Per una maggiore chiarezza dei volumi del sistema ONTAP, nella scheda *volumi* s
 
 === Migliore esperienza di ricerca su Digital Advisor
 
-I parametri di ricerca nella schermata *Digital Advisor* ora includono i numeri di iscrizione Keystone e le liste di controllo create per le iscrizioni Keystone. È possibile immettere i primi tre caratteri del numero di abbonamento o del nome della lista di controllo. Per ulteriori informazioni, vedere link:../integrations/keystone-aiq.html["Visualizza la dashboard Keystone sul consulente digitale Active IQ"^].
+I parametri di ricerca nella schermata *Digital Advisor* ora includono i numeri di iscrizione Keystone e le liste di controllo create per le iscrizioni Keystone. È possibile immettere i primi tre caratteri del numero di abbonamento o del nome della lista di controllo. Per ulteriori informazioni, vedere link:../integrations/keystone-aiq.html["Visualizza la dashboard Keystone su Active IQ Digital Advisor"^].
 
 
 
