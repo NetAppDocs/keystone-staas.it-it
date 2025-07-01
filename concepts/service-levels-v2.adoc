@@ -1,0 +1,150 @@
+---
+sidebar: sidebar 
+permalink: concepts/service-levels-v2.html 
+keywords: service levels, service level, rate plan or service level 
+summary: Keystone STaaS offre capacità di storage a livelli di servizio predefiniti. Ogni volume gestito da Keystone è associato a un livello di servizio. 
+---
+= Livelli di servizio prestazionali a Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Keystone STaaS per la versione 2 (v2) offre capacità di archiviazione dati a livelli di servizio prestazionali predefiniti. A ciascun volume gestito dai servizi Keystone è associato un livello di servizio prestazionale.
+
+Un abbonamento può prevedere più piani tariffari, ognuno dei quali corrisponde a un livello di servizio di performance. Ogni piano tariffario prevede una capacità impegnata per livello di servizio di performance.
+
+Ogni livello di servizio prestazionale è definito dalla sua densità I/O, ovvero IOPS/TiB/volume. Si tratta del rapporto tra performance (operazioni di input/output al secondo [IOPS]) e capacità di storage utilizzata (TIB), ovvero IOPS/TIB con latenza media per volume.
+
+È possibile selezionare i livelli di servizio prestazionali in base al proprio ambiente di storage e alle esigenze di storage e consumo. I livelli di servizio prestazionali di base sono disponibili per impostazione predefinita. Sono inoltre disponibili livelli di servizio prestazionali specifici, se si sono optati per servizi aggiuntivi. Ad esempio, per il servizio aggiuntivo di protezione avanzata dei dati, al proprio abbonamento viene assegnato il livello di servizio prestazionale _Advanced Data-Protect_.
+
+
+TIP: È disponibile una descrizione dettagliata del servizio per i livelli di servizio delle prestazioni NetApp Keystone STaaS  https://www.netapp.com/services/keystone/terms-and-conditions/["qui"^] .
+
+I livelli di servizio delle prestazioni di base per i tipi di archiviazione supportati, file, blocchi, oggetti e servizi cloud sono descritti nelle sezioni seguenti:
+
+
+
+== Livelli di servizio prestazionali per l'archiviazione di file e blocchi
+
+*Protocolli supportati*: NFS, CIFS, iSCSI e FC
+
+|===
+
+
+| *Livello di servizio prestazionale* | *Estrema* | *Premium* | *Prestazioni* | *Standard* | *Valore* 
+
+
+| *Tipi di workload di esempio* | Analytics, database, applicazioni mission-critical | VDI, VSI, sviluppo software | OLTP, OLAP, container, sviluppo software | Condivisioni di file, server web | Backup 
+
+
+| *Massimo IOPS/tbs logici memorizzati per volume* | 12,288 | 4,096 | 2,048 | 512 | 128 
+
+
+| *IOPS massimi/tbs logici allocati per volume* | 6,144 | 2,048 | 1,024 | 256 | 64 
+
+
+| *Numero massimo di Mbps/tierati logici memorizzati per volume @ 32K B/S* | 384 | 128 | 64 | 16 | 4 
+
+
+| *Target 90^th^ latenza percentile* | <1 ms. | <2 ms. | <4 ms. | <4 ms. | <17 ms. 
+
+
+| *Dimensione del blocco* 5+| 32.000 
+
+
+| *Tipo di capacità impegnata e misurata* 5+| Logico 
+|===
+
+
+=== Ulteriori informazioni sui livelli di servizio delle prestazioni per l'archiviazione di file e blocchi
+
+Le metriche del livello di servizio delle prestazioni di base dipendono dalle seguenti condizioni:
+
+* I livelli di servizio delle prestazioni per l'archiviazione di file e blocchi supportano ONTAP 9.7 e versioni successive.
+* I valori IOPS/TiB/volume, MBps/TiB/volume e latenza per i livelli di servizio delle prestazioni si basano sulla quantità di dati archiviati nel volume, sulla dimensione del blocco da 32 KB e su una combinazione casuale del 70% di operazioni di I/O in lettura e del 30% in scrittura.
+* IOPS/TIB/volume effettivo e Mbps/TIB/volume possono variare in base alle dimensioni effettive o presunte del blocco, alla concorrenza dei carichi di lavoro del sistema o alle operazioni input-output.
+* La latenza non include quanto segue:
++
+** latenza dell'applicazione o dell'host
+** latenza di rete del cliente da o verso le porte del controller
+** Overhead associati al trasferimento dei dati nell'archivio di oggetti in caso di FabricPool
+** latenza applicata automaticamente da QoS per mantenere l'IO entro i massimi livelli di servizio delle prestazioni
+
+
+* I valori di latenza non sono applicabili alle operazioni di scrittura MetroCluster. Queste operazioni di scrittura dipendono dalla distanza dei sistemi remoti.
+* Se a uno o più volumi di un sistema di storage non è assegnata una policy AQoS, tali volumi vengono considerati non conformi e per tali sistemi non sono applicabili livelli di servizio di prestazioni target.
+* _Gli IOPS previsti_ sono destinati a FabricPool solo se la policy di tiering è impostata su "nessuno" e non ci sono blocchi nel cloud. _Gli IOPS previsti_ sono destinati a volumi che non sono in una relazione sincrona di SnapMirror.
+* Le operazioni di i/o dei workload devono essere bilanciate in tutti i controller implementati, come stabilito dall'ordine Keystone.
+
+
+
+
+== Storage a oggetti
+
+*Protocollo supportato*: S3
+
+|===
+
+
+| *Livello di servizio prestazionale* | Oggetto 
+
+
+| *Tipo di carico di lavoro* | Repository di contenuti multimediali, archiviazione 
+
+
+| *Massimo IOPS/TIB logico memorizzato per volume* | N/A. 
+
+
+| *Numero massimo di Mbps/TIB logici memorizzati per volume* | N/A. 
+
+
+| *Latenza media* | N/A. 
+
+
+| *Tipo di capacità impegnata e misurata* | Fisico 
+|===
+
+NOTE: La latenza non include gli overhead associati al trasferimento dei dati nell'archivio di oggetti in caso di storage FabricPool.
+
+
+
+== Cloud storage
+
+*Protocollo supportato*: NFS, CIFS, iSCSI e S3 (solo AWS e Azure)
+
+|===
+
+
+| *Livello di servizio prestazionale* | Cloud Volumes ONTAP 
+
+
+| *Tipo di carico di lavoro* | Disaster Recovery, sviluppo/test software, applicazioni aziendali 
+
+
+| *Massimo IOPS/TIB logico memorizzato per volume* | N/A. 
+
+
+| *Numero massimo di Mbps/TIB logici memorizzati per volume* | N/A. 
+
+
+| *Latenza media* | N/A. 
+|===
+[NOTE]
+====
+* I servizi nativi del cloud, come il calcolo, lo storage, il networking, sono fatturati dai cloud provider.
+* Questi servizi dipendono dalle caratteristiche di cloud storage e calcolo.
+
+
+====
+*Informazioni correlate*
+
+* link:../concepts/supported-storage-capacity-v2.html["Capacità di storage supportate"]
+* link:..//concepts/metrics-v2.html["Metriche e definizioni utilizzate nei servizi Keystone"]
+* link:../concepts/qos.html["Qualità del servizio (QoS) in Keystone"]
+* link:../concepts/pricing-v2.html["Prezzo Keystone"]
+

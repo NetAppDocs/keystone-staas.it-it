@@ -37,6 +37,10 @@ La scheda *volumi e oggetti* offre informazioni dettagliate sui volumi del siste
 Per l'iscrizione Keystone STaaS selezionata, puoi vedere il numero totale di volumi, il relativo stato di conformità QoS, il numero di volumi protetti e la capacità totale impegnata, consumata e disponibile in tutti questi volumi. Se si fa clic sul numero di volumi non conformi o protetti, viene visualizzata la scheda *Dettagli volume*, in cui è possibile visualizzare un elenco filtrato che mostra i volumi non conformi o i volumi protetti, in base alla selezione effettuata.
 
 +
+
+NOTE: I criteri QoS non sono applicabili nella versione 3 (v3) di Keystone.
+
++
 image:volume-summary-2.png["Scheda Volume Summary (Riepilogo volume)"]
 
 
@@ -48,6 +52,10 @@ image:volume-summary-2.png["Scheda Volume Summary (Riepilogo volume)"]
 . Selezionare il numero dell'abbonamento.
 +
 È possibile visualizzare l'elenco tabellare dei volumi, ad esempio utilizzo della capacità, tipo di volume, cluster, aggregato e livelli di servizio delle prestazioni Keystone assegnati. È possibile scorrere le colonne e ottenere ulteriori informazioni facendo clic con il mouse sulle icone delle informazioni accanto alle intestazioni delle colonne. È possibile ordinare in base alle colonne e filtrare gli elenchi per visualizzare informazioni specifiche.
+
++
+
+NOTE: I criteri QoS non sono applicabili nella versione 3 di Keystone.
 
 +
 È possibile utilizzare *Nascondi/Mostra colonne* per aggiungere o rimuovere le colonne visualizzate nella tabella. Per impostazione predefinita, vengono selezionate tutte le colonne ad eccezione della colonna *reparto*. È possibile selezionare o deselezionare qualsiasi colonna, compresa la colonna *reparto*, e le preferenze verranno salvate per un utilizzo successivo. Quando si scarica il report CSV, i dettagli della colonna *reparto* verranno inclusi se selezionati, mentre le altre colonne verranno visualizzate indipendentemente dallo stato della selezione nella tabella.

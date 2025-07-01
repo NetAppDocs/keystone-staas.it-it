@@ -14,14 +14,14 @@ summary: Keystone offre un modello pay-as-you-grow per le tue esigenze di consum
 
 
 [role="lead"]
-Se preferisci il modello di consumo delle spese operative (OpEx) rispetto alle spese in conto capitale (CapEx) o al leasing, puoi optare per il modello di pagamento STaaS pay-as-you-grow NetApp Keystone, che offre un consumo flessibile e scalabile con prezzi prevedibili e anticipati per l'iscrizione allo storage.
+Il servizio di abbonamento NetApp Keystone STaaS con pagamento in base al consumo offre un consumo flessibile e scalabile con prezzi prevedibili e anticipati per le tue esigenze di storage.
 
-Keystone offre le seguenti funzioni di fatturazione:
+Keystone per la versione 3 (v3) ti offre le seguenti funzionalità di fatturazione:
 
-* Puoi pagare in base agli IOPS e alla capacità di latenza impegnata per soddisfare le varie esigenze di carico di lavoro. I diversi livelli di servizio per le performance: Extreme, Premium, Performance, Standard, Value, Gli oggetti consentono di gestire lo storage in base al livello di servizio acquistato.
+* Puoi pagare in base agli IOPS e alla capacità di latenza impegnata per soddisfare le varie esigenze di carico di lavoro. I diversi livelli di prestazioni del servizio (Extreme, Premium, Standard, Value, Object e Cloud Volumes ONTAP) consentono di gestire lo storage in base al livello di servizio acquistato.
 * Presenta una fatturazione prevedibile per la capacità impegnata e pay-per-use per l'utilizzo della capacità variabile (burst).
-* Puoi scegliere un prezzo bundle per hardware, sistema operativo core e supporto per un prezzo CIB/dollari. Hai una singola fattura per ogni tipo di storage, file, blocco, oggetto o servizi di cloud storage.
-* Seleziona un termine flessibile per i servizi e il pagamento: Puoi optare per 12 mesi, 25 TiB o più per sito. In seguito, è possibile effettuare il rinnovo automatico per 12 mesi.
+* Puoi scegliere un prezzo bundle per hardware, sistema operativo core e supporto per un prezzo CIB/dollari. Per ogni tipo di archiviazione, servizio di archiviazione unificato, a blocchi, ottimizzato, a oggetti o cloud, viene fornita un'unica fattura.
+* È possibile selezionare una durata flessibile per i servizi e le opzioni di pagamento, ad esempio mensile, trimestrale, semestrale o annuale.
 
 
 La fatturazione di Keystone si basa sulla capacità impegnata e sul consumo variabile di burst.

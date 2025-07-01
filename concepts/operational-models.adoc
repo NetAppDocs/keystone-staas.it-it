@@ -16,15 +16,20 @@ summary: 'NetApp Keystone STaaS offre due modelli operativi per l"erogazione del
 [role="lead"]
 NetApp Keystone STaaS offre due modelli operativi per l'erogazione del servizio: Un modello gestito dal partner e un modello gestito dal cliente. Devi comprendere queste opzioni prima di iniziare a usare Keystone.
 
-* *Modello gestito dal partner*: Un partner o un service provider gestisce i servizi per i propri clienti finali. Per NetApp, il partner è la parte contrattuale di riferimento. I tenant sono clienti di partner e non hanno rapporti di fatturazione con NetApp. Un modello gestito dal partner dispone di un ambiente multi-tenant in cui i tenant e i clienti finali/subtenant dispongono di sottoscrizioni proprie fatturate dal partner. L'amministratore del partner esegue le attività amministrative per tutti i tenant.
-* *Modello gestito dal cliente*: In qualità di cliente, puoi iscriverti ai servizi Keystone in base ai livelli di servizio e allo storage selezionati. NetApp definisce l'architettura e i prodotti e implementa Keystone presso la tua sede. È necessario gestire l'infrastruttura attraverso lo storage e le risorse IT. In qualità di cliente, sei il tenant o il subtenant di NetApp o di un partner/service provider. In base al contratto, è possibile inoltrare richieste di servizio da parte di NetApp o del provider di servizi. Un amministratore dell'utente finale può eseguire le attività amministrative presso la propria sede (ambiente). Queste attività sono legate agli utenti del tuo ambiente.
+* *Modello gestito dal partner*: questo modello offre due opzioni:
++
+** *Fornitore di servizi*: un fornitore di servizi gestisce i servizi per i propri clienti finali. In qualità di contraente di NetApp, il fornitore di servizi gestisce un ambiente multi-tenant in cui ogni tenant, cliente del fornitore di servizi, ha un proprio abbonamento, fatturato dal fornitore di servizi. L'amministratore del fornitore di servizi è responsabile dell'esecuzione di tutte le attività amministrative per i tenant.
+** *Rivenditore*: in qualità di rivenditore, un partner funge da ponte tra NetApp e il cliente. Il partner vende i servizi Keystone al cliente finale e gestisce la fatturazione. Mentre il partner si occupa della fatturazione, NetApp fornisce supporto diretto al cliente. Il supporto Keystone interagisce con il cliente e gestisce tutte le attività amministrative per i tenant.
+
+
+* *Modello gestito dal cliente*: in qualità di cliente, puoi abbonarti ai servizi Keystone in base ai livelli di servizio e di storage selezionati. NetApp definisce l'architettura e i prodotti e implementa Keystone presso la tua sede. È necessario gestire l'infrastruttura attraverso lo storage e le risorse IT. In base al contratto, è possibile inoltrare richieste di servizio da parte di NetApp o del provider di servizi. Un amministratore della tua organizzazione può eseguire le attività amministrative presso la tua sede (ambiente). Queste attività sono associate agli utenti del tuo ambiente.
 
 
 
 
 == Ruoli e responsabilità durante l'intero ciclo di vita del servizio
 
-* *Modello gestito dal partner*: La condivisione dei ruoli e delle responsabilità dipende dallo SLA tra l'utente e il provider di servizi o il partner. Per ulteriori informazioni, rivolgersi al provider di servizi.
+* *Modello gestito dal partner*: la condivisione di ruoli e responsabilità dipende dall'accordo tra te e il fornitore del servizio o il partner. Per ulteriori informazioni, rivolgersi al provider di servizi.
 * *Modello gestito dal cliente*: La seguente tabella riassume il modello di ciclo di vita generale del servizio e i ruoli e le responsabilità ad essi associati in un ambiente gestito dal cliente.
 
 

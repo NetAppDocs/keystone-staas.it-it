@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: concepts/metrics.html 
-keywords: metrics, GiB, IOPS, latency, durability 
-summary: 'Il servizio NetApp Keystone STaaS utilizza diversi termini per misurare le metriche. Potresti voler ottenere ulteriori informazioni su questi termini durante l"utilizzo di Keystone.' 
+keywords: metrics, GiB, IOPS, latency, durability, v3, version 3 
+summary: Il servizio NetApp Keystone STaaS utilizza diversi termini per misurare le metriche. Potresti voler approfondire la conoscenza di questi termini mentre utilizzi Keystone per la versione 3 del servizio. 
 ---
 = Metriche e definizioni utilizzate in Keystone
 :hardbreaks:
@@ -14,12 +14,12 @@ summary: 'Il servizio NetApp Keystone STaaS utilizza diversi termini per misurar
 
 
 [role="lead"]
-Il servizio NetApp Keystone STaaS utilizza diversi termini per misurare le metriche. Potresti voler ottenere ulteriori informazioni su questi termini durante l'utilizzo di Keystone.
+Il servizio NetApp Keystone STaaS utilizza diversi termini per misurare le metriche. Potresti voler approfondire la conoscenza di questi termini mentre utilizzi Keystone per la versione 3 (v3).
 
 All'interno del servizio Keystone STaaS, per misurare le metriche vengono utilizzati i seguenti termini e definizioni:
 
 * Unità di misura della capacità: Gib, TIB e PIB
-* Densità io: IOPS/TIB: Numero di operazioni di input/output elaborate al secondo in base allo spazio totale consumato dal carico di lavoro, in tebibyte.
+* IOPS: numero di operazioni di input/output elaborate al secondo.
 * Disponibilità del servizio
 * Durata in un accesso preciso ai dati
 * Latenza e velocità
@@ -30,7 +30,7 @@ All'interno del servizio Keystone STaaS, per misurare le metriche vengono utiliz
 == Misurazione delle metriche
 
 * *Misurazione della capacità in gibibyte (GiB), tebibyte (TIB) e pebibyte (PIB)*: Misurazioni della capacità di storage dei dati utilizzando una base di 1024 (1 GiB = 1024^3^ byte, 1 TIB = 1024^4^ byte e 1PIB = 1024^5^ byte).
-* *Grafico delle operazioni in IOPS/TIB*: Le operazioni del protocollo al secondo, richieste dall'applicazione, divise per la dimensione del volume utilizzato dai carichi di lavoro.
+* *Grafico del contatore delle operazioni in IOPS*: operazioni del protocollo al secondo, richieste dall'applicazione.
 * *Disponibilità*: Misurata come percentuale del numero di richieste di i/o a cui il servizio ha risposto correttamente, diviso per il numero totale di richieste di i/o inviate al servizio. Questo valore viene misurato al termine del servizio in un mese e non include i tempi di inattività programmati o la mancata disponibilità delle strutture, della rete o di altri servizi forniti dal cliente.
 * *Durata*: Percentuale di dati a cui si accede senza perdita di fedeltà, ad esclusione della cancellazione o del danneggiamento causati dal cliente.
 * *Latenza*: Tempo di servizio di una richiesta i/o ricevuta da un client, misurato alla delimitazione del servizio (porta i/o del controller di storage).
@@ -38,43 +38,18 @@ All'interno del servizio Keystone STaaS, per misurare le metriche vengono utiliz
 
 
 
-=== Metriche delle performance di throughput
+=== Metriche delle performance
 
-Le metriche delle performance di throughput sono applicabili solo ai servizi di file e blocchi basati su:
+Le seguenti metriche prestazionali sono applicabili ai servizi unificati e ottimizzati a blocchi:
 
-* Dimensioni del blocco di 32 KB
-* 70% lettura/30% scrittura mix i/O.
+*Servizi unificati:*
 
-
-
-
-=== Variazioni nella densità io
-
-La densità io calcolata in IOPS/TIB e/o Mbps/TIB varia in base ai seguenti fattori:
-
-* Caratteristiche del carico di lavoro
-* Latenza, ad esclusione di quanto segue:
-+
-** Latenza dell'applicazione
-** Latenza dell'host
-** Latenza nella rete del cliente durante il trasferimento dei dati da e verso le porte del controller
-** Latenza overhead associata al trasferimento dei dati nell'archivio di oggetti nel caso di FabricPool
-** La latenza applicata automaticamente dalla QoS per mantenere i/o entro i massimi livelli di servizio
+* *IOPS*: Per ONTAP 9.16.1 con NFS, ogni istanza del livello di prestazioni supporta l'accesso casuale con un rapporto di lettura del 70% e di scrittura del 30%, una dimensione del blocco di 8 KB e una latenza di 1 ms (4 ms per Standard).
+* *Capacità*: per ONTAP 9.16.1 con NFS, ogni istanza del livello di prestazioni supporta l'accesso sequenziale con lettura al 100% e una dimensione del blocco di 32 KB.
 
 
-* I dati di copia dell'utente e di Snapshot conteggiati come parte della capacità utilizzata
-* Gli IOPS minimi assoluti allocati su ciascun volume ONTAP, indipendentemente dalla quantità di dati nel volume:
-+
-** Extreme: 1,000 IOPS
-** Premium: 500 IOPS
-** Performance, Standard e Value: 75 IOPS
+*Blocca servizi ottimizzati:*
 
+* *IOPS*: Per ONTAP 9.16.1 con FCP, ogni istanza del livello di prestazioni supporta l'accesso casuale con un rapporto di lettura del 70% e di scrittura del 30%, una dimensione del blocco di 8 KB e una latenza di 1 ms.
+* *Rendimento*: per ONTAP 9.16.1 con FCP, ogni istanza del livello di prestazioni supporta l'accesso sequenziale con lettura al 100% e una dimensione del blocco di 64 KB.
 
-* Durante l'utilizzo dei servizi add-on di Advanced Data Protection, la latenza di destinazione si applica solo alle richieste di servizio io dallo storage locale.
-
-
-
-
-=== Volume AQoS
-
-Ciascun volume ONTAP deve applicare la policy di qualità del servizio adattiva (AQoS) applicabile. In caso contrario, la capacità all'interno di ciascun volume che non ha una policy AQoS applicata viene fatturata al tasso del livello di servizio più alto.

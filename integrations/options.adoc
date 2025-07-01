@@ -28,15 +28,8 @@ In BlueXP, è possibile cercare e filtrare i dati Keystone in base ai parametri 
 
 == Genera report da BlueXP o Digital Advisor
 
-Puoi generare e visualizzare report sui tuoi dati Keystone utilizzando il pulsante di download disponibile nelle schede di BlueXP o Digital Advisor. Queste schede ti consentono di generare report per abbonamenti, utilizzo storico, utilizzo a raffica, prestazioni, asset, volumi e oggetti.
+Puoi generare e visualizzare report per i tuoi dati Keystone utilizzando il pulsante di download image:bluexp-download-report-2.png["icona di download del report 2 in BlueXP"] disponibili nelle schede all'interno di BlueXP o Digital Advisor. Queste schede ti consentono di generare report per abbonamenti, utilizzo storico, utilizzo a raffica, prestazioni, asset, volumi e oggetti.
 
-[cols="1,1"]
-|===
-| Pulsante di download in BlueXP | Pulsante di download in Digital Advisor 
-
-
-| image:bluexp-download-report-1.png["icona di download del report 1 in BlueXP"] o. image:bluexp-download-report-2.png["icona di download del report 2 in BlueXP"] | image:download-report-da.png["icona di download del report"] 
-|===
 I dettagli vengono generati in formato CSV, che è possibile salvare per uso e confronto futuri.
 
 
@@ -55,7 +48,7 @@ Per ulteriori informazioni sulla generazione di rapporti, fare riferimento alla 
 
 == Visualizza gli avvisi di Digital Advisor
 
-In Digital Advisor, la dashboard di Keystone fornisce notifiche di avviso che consentono di comprendere i problemi che si verificano nel proprio ambiente di storage. Queste notifiche possono apparire come avvisi informativi o avvisi. Ad esempio, se all'interno dei cluster gestiti sono presenti volumi che non dispongono di criteri QoS adattivi (AQoS), viene visualizzato un messaggio di avviso. Selezionare il messaggio di avviso per visualizzare l'elenco dei volumi non conformi nella scheda *Volumi e oggetti*.
+In Digital Advisor, la dashboard di Keystone fornisce notifiche di avviso che consentono di comprendere i problemi che si verificano nel proprio ambiente di storage. Queste notifiche possono apparire come avvisi informativi o avvisi. Ad esempio, con Keystone versione 2 (v2), se nei cluster gestiti sono presenti volumi a cui non sono associati criteri QoS adattivi (AQoS), è possibile che venga visualizzato un messaggio di avviso. Selezionare il messaggio di avviso per visualizzare l'elenco dei volumi non conformi nella scheda *Volumi e oggetti*.
 
 
 NOTE: Se hai sottoscritto un abbonamento a un singolo livello di servizio o piano tariffario, non potrai visualizzare l'avviso relativo ai volumi non conformi.

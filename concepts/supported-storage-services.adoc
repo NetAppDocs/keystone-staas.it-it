@@ -14,7 +14,14 @@ summary: I servizi Keystone STaaS supportano ONTAP e StorageGRID.
 
 
 [role="lead"]
-I servizi STaaS di Keystone supportano lo storage a blocchi e file di ONTAP, lo storage a oggetti della piattaforma StorageGRID e le funzionalità di gestione dei dati di Cloud Volumes ONTAP.
+I servizi Keystone STaaS per la versione 3 (v3) supportano l'archiviazione unificata, ottimizzata per blocchi e di oggetti di NetApp e Cloud Volumes ONTAP.
+
+Ogni tipo di archiviazione include:
+
+* *Archiviazione unificata*: include archiviazione di file, blocchi e oggetti S3, disponibile sui sistemi NetApp ONTAP AFF e FAS.
+* *Archiviazione ottimizzata a blocchi*: include l'archiviazione a blocchi disponibile sui sistemi NetApp ONTAP ASA.
+* *Archiviazione oggetti*: include l'archiviazione oggetti disponibile sui sistemi NetApp StorageGRID.
+
 
 Keystone STaaS offre servizi standard e opzionali per il tuo storage.
 
@@ -22,62 +29,37 @@ Keystone STaaS offre servizi standard e opzionali per il tuo storage.
 
 *Servizi aggiuntivi Keystone STaaS*: Servizi opzionali a pagamento che offrono utility e vantaggi aggiuntivi rispetto ai servizi di abbonamento standard Keystone STaaS.
 
-I servizi STaaS di Keystone possono coesistere tra loro. Ad esempio, un abbonamento allo storage cloud può essere co-term con abbonamenti a file, blocchi e storage a oggetti. Un servizio cloud può essere incluso in qualsiasi momento durante il periodo di validità di un abbonamento allo storage esistente. Tuttavia, se non intendi rinnovare un abbonamento a file, blocchi e oggetti esistente, non sarà possibile aggiungere un abbonamento allo storage cloud negli ultimi 90 giorni dell'abbonamento.
+I servizi Keystone STaaS possono essere utilizzati contemporaneamente. Ad esempio, un abbonamento all'archiviazione cloud può avere la stessa durata degli abbonamenti all'archiviazione unificata, ottimizzata a blocchi e a oggetti. Un servizio cloud può essere incluso in qualsiasi momento durante il periodo di validità di un abbonamento allo storage esistente. Tuttavia, se non si prevede di rinnovare un abbonamento esistente all'archiviazione unificata, ottimizzata a blocchi o a oggetti, non è possibile aggiungere un abbonamento all'archiviazione cloud durante gli ultimi 90 giorni dell'abbonamento.
 
 
 
-== Servizi per lo storage di file, blocchi e oggetti
+== Servizi per l'archiviazione unificata, ottimizzata a blocchi e a oggetti
 
-I servizi STaaS di Keystone per lo storage a blocchi e file ONTAP e lo storage a oggetti StorageGRID supportano più funzionalità e protocolli, descritti nella tabella seguente:
+I servizi Keystone STaaS per l'archiviazione unificata, ottimizzata a blocchi e a oggetti supportano più funzionalità e protocolli e sono descritti nella tabella seguente:
 
 |===
 | Storage | Piattaforma | Protocolli | Funzionalità supportate 
 
 
  a| 
-Storage di file
+Storage unificato
  a| 
 ONTAP
  a| 
 NFS e CIFS
  a| 
-Funzionalità ONTAP supportate:
-
-* FlexVol
-* FlexGroup
-* Copie Snapshot
-* SnapMirror (asincrono)
-* SnapVault
-* Azienda SnapLock
-* FabricPool/Tiering cloud
-* SnapRestore
-* FlexClone
-* SnapCenter (la licenza è inclusa ma non fa parte dei servizi Keystone e la gestione non è garantita)
-* Protezione autonoma contro il ransomware^1^
-
+Supporta tutte le funzionalità di ONTAP One
 
 
 
  a| 
-Storage a blocchi
+Archiviazione ottimizzata a blocchi
  a| 
 ONTAP
  a| 
 FC e iSCSI
  a| 
-Funzionalità ONTAP supportate:
-
-* FlexVol
-* FlexGroup
-* Copie Snapshot
-* SnapMirror (asincrono)
-* SnapVault
-* Azienda SnapLock
-* FabricPool/Tiering cloud
-* SnapRestore
-* FlexClone
-* SnapCenter (la licenza è inclusa ma non fa parte dei servizi Keystone e la gestione non è garantita)
-
+Supporta tutte le funzionalità di ONTAP One
 
 
 
@@ -88,12 +70,10 @@ StorageGRID
  a| 
 S3
  a| 
-Supporta più policy ILM (Information Lifecycle Management) in più siti^2^
+Supporta tutte le funzionalità di ONTAP One
 
 |===
-
-NOTE: ^1^ per informazioni sulla protezione dal ransomware in ONTAP, vedere https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["Protezione ransomware autonoma"^].
-^2^ ogni sito richiede un abbonamento separato.
+Per saperne di più su ONTAP One, fare riferimento a link:https://docs.netapp.com/us-en/ontap/system-admin/manage-licenses-concept.html#licenses-included-with-ontap-one["Panoramica delle licenze ONTAP"^] E link:https://www.netapp.com/blog/ontap-one/["ONTAP One: tutta la potenza di ONTAP, ora tutto in uno"^] .
 
 
 

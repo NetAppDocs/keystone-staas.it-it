@@ -49,10 +49,14 @@ image:bxp-current-consumption-table.png["dettagli del consumo attuale in formato
 . Dal riquadro di navigazione sinistro di Digital Advisor, vai a *Generale > Abbonamenti Keystone > Consumo attuale*.
 . Seleziona o cerca il numero di abbonamento richiesto dall'elenco a discesa *Abbonamento*.
 +
-image:aiq-ks-dtls-3.png["Scheda consumo di corrente"]
+image:aiq-ks-dtls-4.png["Scheda consumo di corrente"]
 
 +
 Per l'abbonamento selezionato, è possibile visualizzare i dettagli, ad esempio le date di inizio e di fine dell'abbonamento e il periodo di fatturazione, ad esempio mensile o annuale. Nell'ambito dell'utilizzo dell'abbonamento, è possibile visualizzare il nome del livello di servizio prestazionale, le capacità impegnate, consumate e disponibili e l'utilizzo burst attuale e accumulato (in TiB). Sono evidenziati i livelli di servizio prestazionali specifici che registrano un consumo più elevato. È inoltre possibile visualizzare avvisi e avvisi generati per i volumi.
+
++
+
+NOTE: Con Keystone versione 3 (v3), è possibile visualizzare i dettagli del consumo attuale per ogni istanza del livello di servizio Performance. Ad esempio, se si dispone di due istanze del livello di servizio Performance Extreme all'interno di un abbonamento, ciascuna istanza visualizzerà separatamente le proprie capacità impegnate, consumate e disponibili. Per ulteriori informazioni sui livelli di servizio Performance, consultare link:../concepts/service-levels.html["Livelli di servizio prestazionali a Keystone"] .
 
 +
 Insieme al consumo corrente, è possibile visualizzare i dati di utilizzo cronologici per il confronto. Fare clic sul pulsante *Visualizza dati storici* per passare alla scheda *Trend consumi* per visualizzare i dati storici relativi alla stessa sottoscrizione.

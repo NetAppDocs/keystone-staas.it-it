@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: concepts/capacity-requirements.html 
+permalink: concepts/capacity-requirements-v2.html 
 keywords: storage capacity requirement for service levels, capacity definition per PSL, 
 summary: 'I requisiti di capacità per i livelli di servizio sono diversi a seconda dello storage di file, blocchi, oggetti o cloud supportato dall"iscrizione Keystone STaaS.' 
 ---
@@ -14,60 +14,34 @@ summary: 'I requisiti di capacità per i livelli di servizio sono diversi a seco
 
 
 [role="lead"]
-I requisiti di capacità per i livelli di servizio delle prestazioni Keystone STaaS nella versione 3 (v3) variano tra le offerte di archiviazione unificata, ottimizzata per blocchi, a oggetti o cloud supportate dall'abbonamento Keystone STaaS.
+I requisiti di capacità per i livelli di servizio delle prestazioni Keystone STaaS nella versione 2 (v2) variano a seconda delle offerte di archiviazione di file, blocchi, oggetti o cloud supportate dall'abbonamento Keystone STaaS.
 
 
 
-== Requisiti minimi di capacità per l'archiviazione unificata e ottimizzata a blocchi
+== Requisiti minimi di capacità per i servizi di file e blocchi
 
-Nelle tabelle seguenti puoi vedere la capacità minima e incrementale consentita per abbonamento per l'archiviazione unificata e ottimizzata a blocchi:
-
-*Storage unificato*
+La capacità minima e la capacità incrementale consentite per ciascun abbonamento sono descritte nella seguente tabella. La capacità minima per livello di servizio prestazionale è definita come la stessa in tutte le mozioni di vendita Keystone. La capacità superiore alla capacità minima all'inizio dell'abbonamento, come servizio aggiuntivo all'abbonamento o dopo la riallocazione durante l'abbonamento è strutturata anche nella tabella.
 
 |===
 
 
-| Capacità | Estremo | Premium | Standard | Valore 
+| Capacità | Estremo | Premium | Performance | Standard | Valore 
 
 
  a| 
 Capacità minima [in TIB]
-2+| 50 2+| 100 
+3+| 25 2+| 100 
 
 
  a| 
 Capacità incrementale (e in multipli) consentita all'inizio dell'abbonamento [in TIB]
-4+| 25 
+3+| 25 2+| 25 
 
 
  a| 
 Capacità incrementale (e in multipli) consentita come add-on durante l'abbonamento [in TIB]
-4+| 25 
+3+| 25 2+| 25 
 |===
-*Archiviazione ottimizzata a blocchi*
-
-|===
-
-
-| Capacità | Estremo | Premium 
-
-
- a| 
-Capacità minima [in TIB]
-2+| 50 
-
-
- a| 
-Capacità incrementale (e in multipli) consentita all'inizio dell'abbonamento [in TIB]
-2+| 25 
-
-
- a| 
-Capacità incrementale (e in multipli) consentita come add-on durante l'abbonamento [in TIB]
-2+| 25 
-|===
-La capacità minima per ogni livello di servizio prestazionale è la stessa per tutte le vendite Keystone.
-
 
 
 == Requisiti minimi di capacità per lo storage a oggetti
@@ -77,48 +51,46 @@ Nella tabella seguente sono riportati i requisiti minimi di capacità per lo sto
 |===
 
 
-| Capacità | Standard | Valore 
+| Capacità | Tiering dei dati | Oggetto | Cloud Volumes ONTAP | Cloud Backup Service 
 
 
  a| 
-Capacità minima [in TiB] per ordine
-| 200 | 500 
-
-
+Capacità minima [in TIB]
  a| 
-Capacità incrementale (e in multipli) consentita all'inizio dell'abbonamento [in TIB]
-| 25 | 100 
-
-
+Non applicabile
  a| 
-Capacità incrementale (e in multipli) consentita come add-on durante l'abbonamento [in TIB]
-| 25 | 100 
-|===
-
-
-== Requisiti minimi di capacità per i servizi cloud
-
-Nella tabella seguente puoi vedere i requisiti minimi di capacità per i servizi cloud:
-
-|===
-
-
-| Capacità | Cloud Volumes ONTAP 
-
-
+500
  a| 
-Capacità minima [in TiB] per ordine
-| 4 
+4
+ a| 
+4
+
 
 
  a| 
 Capacità incrementale (e in multipli) consentita all'inizio dell'abbonamento [in TIB]
-| 1 
+ a| 
+Non applicabile
+ a| 
+100
+ a| 
+1
+ a| 
+1
+
 
 
  a| 
 Capacità incrementale (e in multipli) consentita come add-on durante l'abbonamento [in TIB]
-| 1 
+ a| 
+Non applicabile
+ a| 
+100
+ a| 
+1
+ a| 
+1
+
 |===
 
 
@@ -127,7 +99,7 @@ Capacità incrementale (e in multipli) consentita come add-on durante l'abboname
 Scopri di più sulle regolazioni della capacità:
 
 * La capacità può essere aggiunta in qualsiasi momento durante la durata del contratto, ad eccezione degli ultimi 90 giorni, con incrementi per livello di servizio prestazionale, come descritto nelle tabelle della sezione precedente. L'aggiunta di capacità o servizi è consentita negli ultimi 90 giorni della durata del contratto, a condizione che vi sia il consenso al rinnovo del servizio. Qualsiasi aggiunta di capacità, nuovo servizio on-premise o cloud può essere co-utilizzata con il termine esistente. La fattura inviata all'utente in seguito all'attivazione dei nuovi servizi riflette la fatturazione modificata. La capacità impegnata dei servizi cloud non può essere ridotta in alcun momento durante il periodo di validità dell'abbonamento. Nel frattempo, la capacità impegnata e la spesa impegnata per i servizi on-premise durante il periodo di validità del contratto possono essere ridotte in base a determinati criteri, come definito nella sezione seguente _riduzione della capacità_.
-* In ogni sito è disponibile una capacità burst, in base all'accordo Keystone. Solitamente, è impostato al 20% in più rispetto alla capacità impegnata per un livello di servizio prestazionale. Qualsiasi utilizzo burst viene fatturato solo per quel periodo di fatturazione. Se hai requisiti di bursting aggiuntivi superiori alla capacità concordata, contatta il supporto.
+* In ogni sito è disponibile una capacità burst, in base all'accordo Keystone. Solitamente è superiore del 20% alla capacità impegnata per un livello di servizio prestazionale. Qualsiasi utilizzo burst viene fatturato solo per quel periodo di fatturazione. Se hai requisiti di bursting aggiuntivi superiori alla capacità concordata, contatta il supporto.
 * La capacità impegnata può essere modificata durante un periodo contrattuale, solo in determinate condizioni, come descritto nella sezione seguente _riduzione della capacità_.
 * È consentito aumentare la capacità o passare a un livello di servizio con prestazioni superiori durante il periodo di validità dell'abbonamento. Tuttavia, non è consentito passare da un livello di servizio con prestazioni superiori a uno con prestazioni inferiori.
 * Qualsiasi richiesta di modifica negli ultimi 90 giorni del periodo di validità del servizio richiede un rinnovo del servizio per almeno un anno.

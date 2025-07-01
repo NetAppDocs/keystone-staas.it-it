@@ -94,14 +94,10 @@ TIP: Se si è abbonati al servizio add-on per la protezione avanzata dei dati, �
 ** image:subs-dtls-icon.png["icona"]: Facendo clic su questa icona per un abbonamento, viene aperta la scheda *consumo corrente* con i dettagli di utilizzo dell'abbonamento.
 ** image:aiq-ks-time-icon.png["icona"] : Facendo clic su questa icona si apre la scheda *Andamento dei consumi*, in cui è possibile visualizzare i dati storici di utilizzo per ciascun livello di servizio prestazionale incluso in questo abbonamento.
 +
-Per verificare lo stato di utilizzo di ciascun abbonamento, fare riferimento ai seguenti indicatori di utilizzo:
+È possibile fare riferimento agli indicatori di utilizzo per verificare lo stato di utilizzo di ciascun abbonamento:
 
 +
-image:usage-indicator-2.png["icona"]
-
-+
-.Indice
-image:icon-grey.png["icona del punto grigio"] : Nessun utilizzo di capacità registrato rispetto alla capacità impegnata del livello di servizio delle prestazioni image:icon-green.png["icona del punto verde"] : Il consumo è normale, entro l'80% della capacità impegnata image:icon-amber.png["icona del punto ambra"] : Consumo massimo, ovvero l'utilizzo sta per raggiungere il 100% o più della capacità impegnata. La colonna *Consumato* mostra questo indicatore per qualsiasi consumo superiore all'80% della capacità impegnata. image:icon-red.png["icona con punto rosso"] : Il consumo rientra nel limite di burst. Il consumo di burst è il consumo che supera il 100% della capacità impegnata di un livello di servizio prestazionale ed è compreso nel limite di utilizzo di burst concordato, ad esempio il 120%. image:icon-purple.png["icona del punto viola"] : Indica un consumo superiore al limite di scoppio stabilito
+image:icon-grey.png["icona del punto grigio"] *Nessun consumo*: non è stato registrato alcun utilizzo della capacità rispetto alla capacità impegnata del livello di servizio prestazionale. image:icon-green.png["icona del punto verde"] *Normale*: Il consumo è normale. image:icon-amber.png["icona del punto ambra"] *Alto*: Consumo massimo, ovvero l'utilizzo sta per raggiungere il 100% o più della capacità impegnata. image:icon-red.png["icona con punto rosso"] *Burst*: Il consumo rientra nel limite di burst. Il consumo di burst è il consumo che supera il 100% della capacità impegnata di un livello di servizio di prestazioni ed è compreso nel limite di utilizzo di burst concordato. image:icon-purple.png["icona del punto viola"] *Sopra il limite di burst*: indica un consumo superiore al limite di burst concordato.
 
 
 

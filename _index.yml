@@ -1,16 +1,17 @@
 ---
 indexpage:
   title: Documentazione Keystone
-  summary: NetApp Keystone è un'offerta di storage as a service pay-as-you-grow per
-    servizi di storage dei dati on-premise e cloud con un'unica sottoscrizione con
-    la possibilità di riallocare la spesa per lo storage nei cloud.
+  summary: NetApp Keystone è un'offerta di storage-as-a-service con pagamento in base
+    al consumo, per servizi di storage dati sia in locale che nel cloud, con un unico
+    abbonamento e la possibilità di riallocare la spesa di storage tra i cloud.
   keywords: Keystone STaaS
-  lead: NetApp Keystone è un servizio flessibile basato su abbonamento pay-as-you-grow
-    che offre un'esperienza di cloud ibrido perfetta per i clienti che preferiscono
-    OpEx a CapEx o il leasing. Ti offre la possibilità di accelerare il time-to-value
-    rimuovendo l'onere DELL'IT nella gestione delle risorse e del lungo ciclo di approvvigionamento.
-    Sfoglia la documentazione in questo archivio per scoprire di più sull'offerta
-    NetApp Keystone STaaS nel tuo ambiente ONTAP o StorageGRID.
+  lead: NetApp Keystone è un servizio flessibile in abbonamento con pagamento a consumo
+    che offre un'esperienza cloud ibrida fluida ai clienti che preferiscono le spese
+    operative alle spese in conto capitale o al leasing. Ti offre la possibilità di
+    accelerare il time-to-value rimuovendo l'onere DELL'IT nella gestione delle risorse
+    e del lungo ciclo di approvvigionamento. Consulta la documentazione in questa
+    libreria per saperne di più sull'offerta NetApp Keystone Storage-as-a-Service
+    (STaaS) nel tuo ambiente ONTAP o StorageGRID.
   tiles:
   - title: Inizia subito
     links:
@@ -62,6 +63,8 @@ indexpage:
     links:
     - title: Conosci il tuo team di supporto
       url: "/concepts/gssc.html"
+    - title: Aumentare la capacità di scoppio
+      url: "/concepts/burst-capacity.html"
     - title: Cosa posso fare con i dati cold o quelli meno utilizzati?
       url: "/concepts/data-tiering.html"
     - title: Come posso proteggere i miei dati Keystone?

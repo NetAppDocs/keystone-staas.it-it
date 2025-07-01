@@ -22,13 +22,13 @@ I dati nei sistemi Keystone STaaS passano attraverso Keystone Collector e la sol
 
 Keystone Collector avvia le chiamate API REST ai controller di storage e ottiene periodicamente i dettagli di utilizzo dei controller, come indicato nel seguente diagramma di flusso:
 
-image:collector-data-flow-2.png["mostra il flusso di dati all'interno dei componenti di raccolta"]
+image:data-collector-flow.png["mostra il flusso di dati all'interno dei componenti di raccolta"]
 
 .Legenda
-. NetApp Collector avvia una sessione HTTPS sul portale cloud Active-IQ.
+. NetApp Keystone Collector avvia la connessione al cloud Keystone.
 . Il firewall gestito dal cliente consente la connessione.
-. Il portale cloud Active IQ accetta la connessione e stabilisce un tunnel per NetApp Collector.
-. NetApp Collector stabilisce una sessione API REST per la connessione di gestione dello storage controller, ottiene i dati ambientali e li invia al portale Active IQ.
+. Keystone Collector stabilisce una connessione REST API direttamente alla connessione di gestione del controller di storage o dei tunnel tramite Active IQ Unified Manager per raccogliere dati su utilizzo e prestazioni.
+. Questi dati vengono inviati in modo sicuro ai componenti cloud di Keystone tramite HTTPS.
 
 
 
@@ -37,7 +37,7 @@ image:collector-data-flow-2.png["mostra il flusso di dati all'interno dei compon
 
 Il monitoraggio continuo dello stato dell'infrastruttura storage è una delle funzionalità più importanti del servizio Keystone. Per il monitoring e il reporting, Keystone utilizza la soluzione di monitoraggio ITOM. L'immagine seguente descrive come l'accesso remoto alla posizione del cliente è protetto dalla soluzione di monitoraggio ITOM. I clienti possono scegliere di attivare la funzione di sessione remota, che consente al team di supporto Keystone di connettersi ai dispositivi monitorati per la risoluzione dei problemi.
 
-image:monitoring-flow-1.png["flusso di dati"]
+image:monitoring-flow-2.png["flusso di dati"]
 
 .Legenda
 . Il gateway della soluzione di monitoraggio ITOM avvia una sessione TLS al portale cloud.

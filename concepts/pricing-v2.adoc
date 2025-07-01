@@ -1,0 +1,38 @@
+---
+sidebar: sidebar 
+permalink: concepts/pricing-v2.html 
+keywords: pricing, billing introduction, Keystone billing 
+summary: Keystone offre un modello pay-as-you-grow per le tue esigenze di consumo flessibili e scalabili. 
+---
+= Prezzo Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Il servizio di abbonamento NetApp Keystone STaaS con pagamento in base al consumo offre un consumo flessibile e scalabile con prezzi prevedibili e anticipati per le tue esigenze di storage.
+
+Keystone per la versione 2 (v2) ti offre le seguenti funzionalità di fatturazione:
+
+* Puoi pagare in base agli IOPS e alla capacità di latenza impegnata per soddisfare le varie esigenze di carico di lavoro. I diversi livelli di servizio per le performance: Extreme, Premium, Performance, Standard, Value, Gli oggetti consentono di gestire lo storage in base al livello di servizio acquistato.
+* Presenta una fatturazione prevedibile per la capacità impegnata e pay-per-use per l'utilizzo della capacità variabile (burst).
+* Puoi scegliere un prezzo bundle per hardware, sistema operativo core e supporto per un prezzo CIB/dollari. Hai una singola fattura per ogni tipo di storage, file, blocco, oggetto o servizi di cloud storage.
+* È possibile selezionare una durata flessibile per i servizi e le opzioni di pagamento, ad esempio mensile, trimestrale o annuale.
+
+
+La fatturazione di Keystone si basa sulla capacità impegnata e sul consumo variabile di burst.
+
+Per informazioni sulle diverse capacità supportate in Keystone, vedere link:../concepts/supported-storage-capacity.html["Capacità di storage supportate in Keystone"].
+
+*Informazioni correlate*
+
+* link:../concepts/committed-capacity-billing-v2.html["Fatturazione basata sulla capacità impegnata"]
+* link:../concepts/consumed-capacity-billing-v2.html["Misurazione basata sulla capacità consumata"]
+* link:../concepts/burst-consumption-billing-v2.html["Fatturazione basata sul consumo burst"]
+* link:../concepts/misc-volume-billing-v2.html["Fatturazione basata su diversi tipi di volume"]
+* link:../concepts/billing-schedules-v2.html["Pianificazioni di fatturazione"]
+

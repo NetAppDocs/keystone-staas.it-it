@@ -34,7 +34,13 @@ Si può installare il software Keystone Collector su un server Linux usando un R
 . Installare il file repository del software YUM:
 `# yum install keystonerepo.rpm`
 . Una volta installato Keystone repo, installare il pacchetto keystone-collector tramite YUM Package Manager:
++
 `# yum install keystone-collector`
+
++
+Per Red Hat Enterprise Linux 9, eseguire il seguente comando per installare il pacchetto keystone-collector: 
+`# yum install keystone-collector-rhel9`
+
 
 
 --

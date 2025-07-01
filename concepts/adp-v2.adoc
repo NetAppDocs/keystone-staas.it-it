@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: concepts/adp.html 
+permalink: concepts/adp-v2.html 
 keywords: data protection advanced 
 summary: 'Utilizza il servizio add-on di protezione avanzata dei dati per garantire un"efficiente protezione dei dati dei carichi di lavoro mission-critical.' 
 ---

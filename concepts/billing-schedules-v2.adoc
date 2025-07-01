@@ -1,0 +1,29 @@
+---
+sidebar: sidebar 
+permalink: concepts/billing-schedules-v2.html 
+keywords: billing schedules, schedule for payment 
+summary: Gli abbonamenti a Keystone STaaS vengono fatturati mensilmente e annualmente. 
+---
+= Pianificazioni di fatturazione
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Gli abbonamenti Keystone STaaS nella versione 2 (v2) vengono fatturati su base mensile o annuale.
+
+
+
+== Fatturazione mensile
+
+Le fatture vengono inviate mensilmente. Per il mese in cui i servizi sono disponibili, viene inviata una fattura nel mese successivo. Ad esempio, la fattura per i servizi utilizzati a gennaio viene consegnata all'inizio di febbraio. La fattura include i costi per la capacità impegnata e, se applicabile, l'utilizzo in caso di burst.
+
+
+
+== Fatturazione annuale
+
+All'inizio di ogni anno di abbonamento viene generata una fattura per il pagamento minimo della capacità impegnata. Viene generato alla data di inizio dell'abbonamento. Un'altra fattura viene inviata alla fine di un trimestre di abbonamento, riassumendo gli addebiti applicabili di qualsiasi utilizzo burst maturato in quel trimestre. Se la capacità impegnata viene modificata durante un abbonamento, viene inviata una fattura lo stesso giorno per i pagamenti minimi proporzionalmente per il resto dell'anno di abbonamento. La fatturazione viene calcolata a partire dal giorno in cui la modifica della capacità impegnata è effettiva.
