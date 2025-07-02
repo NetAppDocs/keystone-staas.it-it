@@ -15,4 +15,4 @@ Con la dashboard Keystone in BlueXP puoi:
 * Rimani aggiornato sulle ultime informazioni relative al tuo ambiente di archiviazione.
 
 
-Per iniziare, vai su *Archiviazione > Keystone* nel menu di navigazione a sinistra di BlueXP. Per ulteriori informazioni, fare riferimento a link:../integrations/dashboard-overview.html["Panoramica della dashboard Keystone"].
+Per iniziare, vai su *Archiviazione > Keystone* nel menu di navigazione a sinistra di BlueXP. Per ulteriori informazioni, fare riferimento a link:https://docs.netapp.com/us-en/keystone-staas/integrations/dashboard-overview.html["Panoramica della dashboard Keystone"].

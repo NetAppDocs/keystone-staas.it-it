@@ -1131,10 +1131,6 @@ Ecco un esempio:</block>
   <block id="6c48d999111838f1ba95a5cf4091e681" category="section-title">Visualizzazione migliorata degli abbonamenti</block>
   <block id="f5bd7be5a51d8e07eec34f2c9ddb662a" category="section-title">Display burst migliorato</block>
   <block id="f42805586acc16ac661193d0d72e676a" category="paragraph">La descrizione comandi visualizzata quando si passa il mouse sul grafico a barre dell'utilizzo della capacità nella scheda *tendenza capacità* visualizza ora il tipo di burst maturato in base alla capacità impegnata. Esso differenzia tra burst accantonato provvisorio e fatturato, indicando *consumo accantonato provvisorio* e *consumo maturato fatturato* per abbonamenti con piani tasso di capacità impegnati zero, e *Burst accantonato provvisorio* e *Burst maturato fatturato* per quelli con capacità impegnata diversa da zero.</block>
-  <block id="c7f25f44be7b366785438d8acef9c492" category="section-title">09 maggio 2024</block>
-  <block id="b45b03a249b5f6cfa9e1cc559ba79e40" category="section-title">13 febbraio 2024</block>
-  <block id="b06c73c3805ce52954e13f27b28cb072" category="section-title">11 gennaio 2024</block>
-  <block id="6171bdf5841e2bfa70f97036e02d1f44" category="section-title">15 dicembre 2023</block>
   <block id="8a19ac37aa90f4bbe7f16a2f7767bbcd" category="list-text">*Privacy by design*-Keystone Collector raccoglie i dati minimi per eseguire la misurazione dell'utilizzo e il monitoraggio delle prestazioni. Per ulteriori informazioni, vedere <block ref="d45e4cc5f7d31c567a5a7e94087cf357" category="inline-link-macro-rx"></block>. Il <block ref="056e2bf20fc58bf3ad9e840fe1ebc39f" category="inline-link-macro-rx"></block> l'opzione è attivata per impostazione predefinita, che maschera e protegge le informazioni riservate.</block>
   <block id="252857c59cbe54ddba7bda3d2d19b7a3" category="list-text">*Accesso con privilegi minimi*-Keystone Collector richiede autorizzazioni minime per monitorare i sistemi di storage, minimizzando i rischi per la sicurezza e impedendo qualsiasi modifica involontaria dei dati. Questo approccio è in linea con il principio del minimo privilegio, migliorando la sicurezza generale degli ambienti monitorati.</block>
   <block id="8f14f42f9cacaaf485cd3e478fca2ae7" category="list-text">*Framework di sviluppo software sicuro*- Keystone utilizza un framework di sviluppo software sicuro durante tutto il ciclo di sviluppo, che riduce i rischi, riduce le vulnerabilità e protegge il sistema da potenziali minacce.</block>
@@ -1192,7 +1188,6 @@ Ecco un esempio:</block>
   <block id="8f0fe81a9b7f4cb142f2a7084f33fd88" category="inline-image-macro">Scheda oggetti</block>
   <block id="ff86b04f28e9deb882d5f8b709958474" category="paragraph"><block ref="ff86b04f28e9deb882d5f8b709958474" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d3be07034d0ea358558d4e2243a27e4a" category="paragraph">La TUI di gestione di Keystone Collector non risponde durante la configurazione delle policy AQoS.</block>
-  <block id="e358ee99bcdc82fedabffa4fe9dda483" category="section-title">10 luglio 2024</block>
   <block id="fff7af8a2fab8d84dd9f7858aff6d7d9" category="section-title">Modifiche alle etichette</block>
   <block id="6176afc8abbdfc6c0a7c0274a19d9ef8" category="paragraph">L'etichetta *uso corrente* viene modificata in *consumo corrente* e *tendenza capacità* viene modificata in *tendenza consumo*.</block>
   <block id="b7e76ab52f2e3b0375203a91e2e782c6" category="section-title">Barra di ricerca per gli abbonamenti</block>
@@ -1659,7 +1654,6 @@ Ecco un esempio:</block>
   <block id="f1ac17aa812b21fe2bbdc58cbe5d6efa" category="paragraph">Il report viene generato in formato Excel, con ogni tipo di informazioni, come i dettagli della sottoscrizione o la cronologia di utilizzo, visualizzate su fogli separati. Questi fogli sono denominati in base alle schede della pagina *Sottoscrizioni Keystone* per una facile visualizzazione. È possibile salvare il report per uso futuro.</block>
   <block id="8b00815fc5298212e3dc28a279ed4a10" category="inline-link-macro">Generare report personalizzati</block>
   <block id="05ae21f139b4223ee2536ce651cf54b9" category="paragraph">Per ulteriori informazioni sulla generazione di rapporti, fare riferimento alla sezione <block ref="5ee515b7098121299290c8d9ddbc9e18" category="inline-link-macro-rx"></block>.</block>
-  <block id="8a1116f55c6659c55d506df698030041" category="section-title">11 novembre 2024</block>
   <block id="1503d912784bec55335f32e3c747c9df" category="section-title">Generazione di rapporti migliorata</block>
   <block id="70852ac05a65501c650a9135c4a2ab17" category="cell">*Tipo di capacità impegnata e misurata*</block>
   <block id="e7a731a6342f126055b89b80d800a180" category="cell">Logico</block>
@@ -1837,7 +1831,6 @@ Ecco un esempio:</block>
   <block id="a5c5b30c416c34eb8d2fb09f3946721b" category="inline-image-macro">Schermata per visualizzare le informazioni a livello di griglia per StorageGRID</block>
   <block id="dcaaab8361575caaad35a500d6864bd1" category="paragraph"><block ref="dcaaab8361575caaad35a500d6864bd1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1cedef25ccb6885eb8bfdc7660435962" category="paragraph">È possibile utilizzare *Nascondi/Mostra colonne* per aggiungere o rimuovere le colonne visualizzate nella tabella. Per impostazione predefinita, vengono selezionate tutte le colonne ad eccezione della colonna *reparto*. È possibile selezionare o deselezionare qualsiasi colonna, compresa la colonna *reparto*, e le preferenze verranno salvate per un utilizzo successivo. Quando si scarica il report CSV, i dettagli della colonna *reparto* verranno inclusi se selezionati, mentre le altre colonne verranno visualizzate indipendentemente dallo stato della selezione nella tabella.</block>
-  <block id="bc6d0fec5ccd5f580ac081a7231e72de" category="section-title">12 dicembre 2024</block>
   <block id="4e80b9aaf481494b7698c02bcd4558ab" category="section-title">Rinominata colonna logica utilizzata</block>
   <block id="4067362b8a27e9feb45b3dad3b225588" category="paragraph">La colonna *logica utilizzata* nella scheda *Dettagli volume* all'interno di *volumi e oggetti* è ora rinominata *Keystone Logical used*.</block>
   <block id="5676116bf1b268637a4e6fe8dd1485ca" category="section-title">Scheda risorse avanzate</block>
@@ -2294,7 +2287,6 @@ Ecco un esempio:</block>
   <block id="5b7c6725d8b710448bbafba8cd2d8b2d" category="sidebar">Visualizza le risorse su più abbonamenti</block>
   <block id="2be8bdf6afad72e1374d8e9f15f013b7" category="sidebar">Visualizza la tua richiesta di servizio</block>
   <block id="3f775298ba0cfa10a0ca4aa35ffb3451" category="sidebar">Visualizza i dettagli dei volumi e dell'archiviazione degli oggetti</block>
-  <block id="4898fd0a5ee16e30d54e5fbe3aa21539" category="paragraph">Per iniziare, vai su *Archiviazione &gt; Keystone* nel menu di navigazione a sinistra di BlueXP. Per ulteriori informazioni, fare riferimento a <block ref="5a609c392d8730053e3d7fc9f1d0ffab" category="inline-link-macro-rx"></block>.</block>
   <block id="1ed44c5a16415a7d9d45f3042a5ab4d6" category="inline-link-macro">Comprendere la dashboard Keystone</block>
   <block id="d8bb10358d95aee9ba36f75f10ee0402" category="list-text"><block ref="d8bb10358d95aee9ba36f75f10ee0402" category="inline-link-macro-rx"></block></block>
   <block id="f9aa2dce9983bf50b4dea33bd009613c" category="doc">Inizia con la dashboard Keystone</block>
@@ -2524,7 +2516,6 @@ Ecco un esempio:</block>
   <block id="4b74c9be479e8905d4e8f29ad9f1af7c" category="paragraph"><block ref="52273d64c65862ef424a47885fe81b01" category="inline-image-macro-rx" type="image"></block> *Nessun consumo*: non è stato registrato alcun utilizzo della capacità rispetto alla capacità impegnata del livello di servizio prestazionale. <block ref="d72ea1f055275eb6c806c044808270ee" category="inline-image-macro-rx" type="image"></block> *Normale*: Il consumo è normale. <block ref="26b60b3bc680636be1bff71d9158314a" category="inline-image-macro-rx" type="image"></block> *Alto*: Consumo massimo, ovvero l'utilizzo sta per raggiungere il 100% o più della capacità impegnata. <block ref="25206057152159ddc0d0e53262070870" category="inline-image-macro-rx" type="image"></block> *Burst*: Il consumo rientra nel limite di burst. Il consumo di burst è il consumo che supera il 100% della capacità impegnata di un livello di servizio di prestazioni ed è compreso nel limite di utilizzo di burst concordato. <block ref="49884f5051327fb7a920e2ee64178452" category="inline-image-macro-rx" type="image"></block> *Sopra il limite di burst*: indica un consumo superiore al limite di burst concordato.</block>
   <block id="b4bfc97b4a6664c07d3cb265b1f77f66" category="admonition">I criteri QoS non sono applicabili nella versione 3 (v3) di Keystone.</block>
   <block id="288b4e42b32faccce4a2d55e94593bd9" category="admonition">I criteri QoS non sono applicabili nella versione 3 di Keystone.</block>
-  <block id="456bce9e2eb71173431186ef514e346e" category="section-title">2025-06-30</block>
   <block id="b0ff511b21770d18a844437708e370f3" category="inline-link-macro">Servizi Keystone STaaS per v3</block>
   <block id="cbe56bacc5be238a1afeadbbf1210e9d" category="paragraph">È ora possibile abbonarsi a Keystone versione 3 (v3), l'ultima release dell'offerta NetApp Keystone STaaS. Questa versione introduce diversi miglioramenti, tra cui livelli di servizio prestazionali semplificati, opzioni aggiuntive di capacità burst e frequenze di fatturazione flessibili. Questi miglioramenti semplificano la gestione, l'ottimizzazione e la scalabilità delle soluzioni di storage. Per ulteriori informazioni, fare riferimento a <block ref="b4f947544b8e7d98521ee012686e2640" category="inline-link-macro-rx"></block>.</block>
   <block id="ee326973c25ecfa958c9bcb665f7c905" category="list-text">Dati sui consumi e sull'utilizzo a raffica accumulato dalla scheda *Tendenze capacità*.</block>
@@ -2537,4 +2528,20 @@ Ecco un esempio:</block>
   <block id="66fb046e2c5f18ee0925adc05ac14d1f" category="sidebar">SLO Keystone STaaS</block>
   <block id="af7cd0085fe6b7c0200fe4c5a018cbdc" category="sidebar">Concetti STaaS Keystone per v2</block>
   <block id="cfa9db7c89ff68cb147c3dad7e8b0b59" category="section-title">Rilascio Keystone versione 3 (v3).</block>
+  <block id="e4662d7ea2c66dc53eb2e68d2bceffac" category="paragraph">Per iniziare, vai su *Archiviazione &gt; Keystone* nel menu di navigazione a sinistra di BlueXP. Per ulteriori informazioni, fare riferimento a <block ref="d1eddf69542d0beadf02459455377203" category="inline-link-macro-rx"></block>.</block>
+  <block id="b77e8ec0a3425747f32b3dbc303adecb" category="section-title">30 giugno 2025</block>
+  <block id="273397c35cb726b0eb4cc33e4cf912da" category="section-title">19 giugno 2025</block>
+  <block id="71eeb52ffaba4c6613b9365a34bd8e71" category="section-title">08 gennaio 2025</block>
+  <block id="e3f867c1e04dce86520c139a0ae60b18" category="section-title">12 dicembre 2024</block>
+  <block id="47ce8cbac679bab0474690083f967486" category="section-title">21 novembre 2024</block>
+  <block id="ecbeaffbfe15c72e3bf702b0d0bf9694" category="section-title">11 novembre 2024</block>
+  <block id="ea20f074fbafdf3f3dab344dbef51b10" category="section-title">10 luglio 2024</block>
+  <block id="032f76ed9b6cf8701fd026535eb70ffc" category="section-title">27 giugno 2024</block>
+  <block id="a0fddfafeaadc4d32eb33ea13f162dd4" category="section-title">29 maggio 2024</block>
+  <block id="55dbbb1b9d8c3fb56ba5e847c7dd506c" category="section-title">09 maggio 2024</block>
+  <block id="83c0915932deaf70b0873b6eb47c3a28" category="section-title">28 marzo 2024</block>
+  <block id="ee994369582acbd0aa1a2c594329160a" category="section-title">29 febbraio 2024</block>
+  <block id="96e33a5d1e2356ba12a5de62a859d567" category="section-title">13 febbraio 2024</block>
+  <block id="17c3c89f25f7684516a883f30f10b747" category="section-title">11 gennaio 2024</block>
+  <block id="8017dc46d55f13a6a86439ecb091248d" category="section-title">15 dicembre 2023</block>
 </blocks>
