@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: release-notes/whats-new.html 
+permalink: whats-new.html 
 keywords: 'new features, release notes, enhancements, what"s new' 
 summary: NetApp offre funzionalità nuove e migliorate in ogni release dei servizi Keystone STaaS. 
 ---
@@ -10,7 +10,7 @@ summary: NetApp offre funzionalità nuove e migliorate in ogni release dei servi
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 
 [role="lead"]
@@ -24,7 +24,7 @@ NetApp offre funzionalità nuove e migliorate in ogni release dei servizi Keysto
 
 === Rilascio Keystone versione 3 (v3).
 
-È ora possibile abbonarsi a Keystone versione 3 (v3), l'ultima release dell'offerta NetApp Keystone STaaS. Questa versione introduce diversi miglioramenti, tra cui livelli di servizio prestazionali semplificati, opzioni aggiuntive di capacità burst e frequenze di fatturazione flessibili. Questi miglioramenti semplificano la gestione, l'ottimizzazione e la scalabilità delle soluzioni di storage. Per ulteriori informazioni, fare riferimento a link:../concepts/metrics.html["Servizi Keystone STaaS per v3"].
+È ora possibile abbonarsi a Keystone versione 3 (v3), l'ultima release dell'offerta NetApp Keystone STaaS. Questa versione introduce diversi miglioramenti, tra cui livelli di servizio prestazionali semplificati, opzioni aggiuntive di capacità burst e frequenze di fatturazione flessibili. Questi miglioramenti semplificano la gestione, l'ottimizzazione e la scalabilità delle soluzioni di storage. Per ulteriori informazioni, fare riferimento a link:./concepts/metrics.html["Servizi Keystone STaaS per v3"].
 
 
 
@@ -53,7 +53,7 @@ Per iniziare, vai su *Archiviazione > Keystone* nel menu di navigazione a sinist
 
 === Aggiunta di opzioni di visualizzazione dell'utilizzo giornaliero dei dati
 
-È ora possibile visualizzare l'utilizzo dei dati burst maturati giornalmente in formato grafico o tabella per un periodo di fatturazione mensile o trimestrale facendo clic sulla barra che visualizza i dati fatturati. Per ulteriori informazioni, fare riferimento a link:../integrations/consumption-tab.html#view-daily-accrued-burst-data-usage["Visualizza l'utilizzo giornaliero dei dati burst maturati"].
+È ora possibile visualizzare l'utilizzo dei dati burst maturati giornalmente in formato grafico o tabella per un periodo di fatturazione mensile o trimestrale facendo clic sulla barra che visualizza i dati fatturati. Per ulteriori informazioni, fare riferimento a link:./integrations/consumption-tab.html#view-daily-accrued-burst-data-usage["Visualizza l'utilizzo giornaliero dei dati burst maturati"].
 
 
 
@@ -69,13 +69,13 @@ La colonna *logica utilizzata* nella scheda *Dettagli volume* all'interno di *vo
 
 === Scheda risorse avanzate
 
-La scheda *risorse* nella schermata *Sottoscrizioni Keystone* contiene ora due nuove sotto-schede: *ONTAP* e *StorageGRID*. Queste sotto-schede offrono informazioni dettagliate a livello del cluster per ONTAP e informazioni a livello di grid per StorageGRID in base alle tue iscrizioni. Per ulteriori informazioni, fare riferimento a link:../integrations/assets-tab.html["Scheda risorse"^].
+La scheda *risorse* nella schermata *Sottoscrizioni Keystone* contiene ora due nuove sotto-schede: *ONTAP* e *StorageGRID*. Queste sotto-schede offrono informazioni dettagliate a livello del cluster per ONTAP e informazioni a livello di grid per StorageGRID in base alle tue iscrizioni. Per ulteriori informazioni, fare riferimento a link:./integrations/assets-tab.html["Scheda risorse"^].
 
 
 
 === Nuova opzione Nascondi/Mostra colonne
 
-La scheda *Dettagli volume* all'interno di *volumi e oggetti* include ora l'opzione *Nascondi/Mostra colonne*. Questa opzione consente di selezionare o deselezionare le colonne per personalizzare l'elenco tabulare dei volumi in base alle proprie preferenze. Per ulteriori informazioni, fare riferimento a link:../integrations/volumes-objects-tab.html["Scheda volumi  oggetti"^].
+La scheda *Dettagli volume* all'interno di *volumi e oggetti* include ora l'opzione *Nascondi/Mostra colonne*. Questa opzione consente di selezionare o deselezionare le colonne per personalizzare l'elenco tabulare dei volumi in base alle proprie preferenze. Per ulteriori informazioni, fare riferimento a link:./integrations/volumes-objects-tab.html["Scheda volumi  oggetti"^].
 
 
 
@@ -85,7 +85,7 @@ La scheda *Dettagli volume* all'interno di *volumi e oggetti* include ora l'opzi
 
 === Burst maturato fatturato migliorato
 
-È ora possibile visualizzare i dati sull'utilizzo del bursting maturato su base trimestrale tramite l'opzione *Burst maturato fatturato* se si è scelto un periodo di fatturazione trimestrale. Per ulteriori informazioni, fare riferimento a link:../integrations/consumption-tab.html#view-accrued-burst["Visualizza bursting maturato fatturato"^].
+È ora possibile visualizzare i dati sull'utilizzo del bursting maturato su base trimestrale tramite l'opzione *Burst maturato fatturato* se si è scelto un periodo di fatturazione trimestrale. Per ulteriori informazioni, fare riferimento a link:./integrations/consumption-tab.html#view-accrued-burst["Visualizza bursting maturato fatturato"^].
 
 
 
@@ -107,7 +107,7 @@ Queste colonne forniscono una maggiore chiarezza nella colonna *logica utilizzat
 
 === Generazione di rapporti migliorata
 
-Ora puoi generare un report consolidato per visualizzare i dettagli dei tuoi dati Keystone utilizzando la funzionalità Report in Digital Advisor. Per saperne di più, fare riferimento a link:../integrations/options.html#generate-consolidated-report-from-digital-advisor["Generare un rapporto consolidato"^] .
+Ora puoi generare un report consolidato per visualizzare i dettagli dei tuoi dati Keystone utilizzando la funzionalità Report in Digital Advisor. Per saperne di più, fare riferimento a link:./integrations/options.html#generate-consolidated-report-from-digital-advisor["Generare un rapporto consolidato"^] .
 
 
 
@@ -163,7 +163,7 @@ I livelli di servizio *CVO primario* e *CVO secondario* sono inclusi per support
 
 === Funzione di ingrandimento per burst a breve termine
 
-La scheda *Trend capacità* include ora una funzione di zoom per visualizzare i dettagli delle sequenze di burst a breve termine nei grafici di utilizzo. Per ulteriori informazioni, vedere link:../integrations/consumption-tab.html["Scheda Trend capacità"^].
+La scheda *Trend capacità* include ora una funzione di zoom per visualizzare i dettagli delle sequenze di burst a breve termine nei grafici di utilizzo. Per ulteriori informazioni, vedere link:./integrations/consumption-tab.html["Scheda Trend capacità"^].
 
 
 
@@ -207,14 +207,14 @@ La scheda *Dettagli volume* all'interno della scheda *volumi e oggetti* fornisce
 
 === Miglioramento della conformità alle policy QoS nella scheda Volume Details (Dettagli volume)
 
-La scheda *Dettagli volume* all'interno della scheda *volumi e oggetti* offre ora una migliore visibilità della conformità alle policy QoS (Quality of Service). La colonna precedentemente nota come *AQoS* viene rinominata *conforme*, che indica se il criterio QoS è conforme. Inoltre, viene aggiunta una nuova colonna *tipo di criterio QoS*, che specifica se il criterio è fisso o adattivo. Se non è applicabile, la colonna visualizza _non disponibile_. Per ulteriori informazioni, vedere link:../integrations/volumes-objects-tab.html["Scheda volumi  oggetti"^].
+La scheda *Dettagli volume* all'interno della scheda *volumi e oggetti* offre ora una migliore visibilità della conformità alle policy QoS (Quality of Service). La colonna precedentemente nota come *AQoS* viene rinominata *conforme*, che indica se il criterio QoS è conforme. Inoltre, viene aggiunta una nuova colonna *tipo di criterio QoS*, che specifica se il criterio è fisso o adattivo. Se non è applicabile, la colonna visualizza _non disponibile_. Per ulteriori informazioni, vedere link:./integrations/volumes-objects-tab.html["Scheda volumi  oggetti"^].
 
 
 
 === Nella scheda Volume Summary (Riepilogo volume) vengono visualizzate una nuova colonna e una sottoscrizione semplificata
 
 * La scheda *Volume Summary* nella scheda *Volumes & Objects* include ora una nuova colonna denominata *Protected*. Questa colonna fornisce un conteggio dei volumi protetti associati ai livelli di servizio sottoscritti. Se si fa clic sul numero di volumi protetti, viene visualizzata la scheda *Dettagli volume*, in cui è possibile visualizzare un elenco filtrato di volumi protetti.
-* La scheda *Riepilogo volume* viene aggiornata per visualizzare solo le sottoscrizioni di base, esclusi i servizi aggiuntivi. Per ulteriori informazioni, vedere link:../integrations/volumes-objects-tab.html["Scheda volumi  oggetti"^].
+* La scheda *Riepilogo volume* viene aggiornata per visualizzare solo le sottoscrizioni di base, esclusi i servizi aggiuntivi. Per ulteriori informazioni, vedere link:./integrations/volumes-objects-tab.html["Scheda volumi  oggetti"^].
 
 
 
@@ -243,19 +243,19 @@ I dati vengono visualizzati in base alla data di inizio selezionata per l'abbona
 
 === Aggiunta della scheda risorse
 
-La schermata *Iscrizioni Keystone* ora include la scheda *risorse*. Questa nuova scheda fornisce informazioni a livello del cluster in base alle iscrizioni. Per ulteriori informazioni, vedere link:../integrations/assets-tab.html["Scheda risorse"^].
+La schermata *Iscrizioni Keystone* ora include la scheda *risorse*. Questa nuova scheda fornisce informazioni a livello del cluster in base alle iscrizioni. Per ulteriori informazioni, vedere link:./integrations/assets-tab.html["Scheda risorse"^].
 
 
 
 === Miglioramenti alla scheda volumi e oggetti
 
-Per una maggiore chiarezza dei volumi del sistema ONTAP, nella scheda *volumi* sono stati aggiunti due nuovi pulsanti di tabulazione, *Riepilogo volume* e *Dettagli volume*. La scheda *Volume Summary* fornisce un conteggio complessivo dei volumi associati ai livelli di servizio sottoscritti, incluse le informazioni sullo stato di conformità AQoS e sulla capacità. La scheda *Dettagli volume* elenca tutti i volumi e le relative specifiche. Per ulteriori informazioni, vedere link:../integrations/volumes-objects-tab.html["Scheda volumi  oggetti"^].
+Per una maggiore chiarezza dei volumi del sistema ONTAP, nella scheda *volumi* sono stati aggiunti due nuovi pulsanti di tabulazione, *Riepilogo volume* e *Dettagli volume*. La scheda *Volume Summary* fornisce un conteggio complessivo dei volumi associati ai livelli di servizio sottoscritti, incluse le informazioni sullo stato di conformità AQoS e sulla capacità. La scheda *Dettagli volume* elenca tutti i volumi e le relative specifiche. Per ulteriori informazioni, vedere link:./integrations/volumes-objects-tab.html["Scheda volumi  oggetti"^].
 
 
 
 === Migliore esperienza di ricerca su Digital Advisor
 
-I parametri di ricerca nella schermata *Digital Advisor* ora includono i numeri di iscrizione Keystone e le liste di controllo create per le iscrizioni Keystone. È possibile immettere i primi tre caratteri del numero di abbonamento o del nome della lista di controllo. Per ulteriori informazioni, vedere link:../integrations/keystone-aiq.html["Visualizza la dashboard Keystone su Active IQ Digital Advisor"^].
+I parametri di ricerca nella schermata *Digital Advisor* ora includono i numeri di iscrizione Keystone e le liste di controllo create per le iscrizioni Keystone. È possibile immettere i primi tre caratteri del numero di abbonamento o del nome della lista di controllo. Per ulteriori informazioni, vedere link:./integrations/keystone-aiq.html["Visualizza la dashboard Keystone su Active IQ Digital Advisor"^].
 
 
 
@@ -281,7 +281,7 @@ Alcuni abbonamenti primari possono avere abbonamenti secondari collegati. In que
 
 === Dati fatturati restituiti per il burst maturato
 
-Le etichette per *Burst maturato* sono ora modificate in *Burst maturato fatturato* nella scheda *Trend capacità*. Selezionando questa opzione è possibile visualizzare i grafici mensili per i dati burst maturati fatturati. Per ulteriori informazioni, vedere link:../integrations/consumption-tab.html#view-accrued-burst["Visualizza bursting maturato fatturato"^].
+Le etichette per *Burst maturato* sono ora modificate in *Burst maturato fatturato* nella scheda *Trend capacità*. Selezionando questa opzione è possibile visualizzare i grafici mensili per i dati burst maturati fatturati. Per ulteriori informazioni, vedere link:./integrations/consumption-tab.html#view-accrued-burst["Visualizza bursting maturato fatturato"^].
 
 
 
@@ -297,10 +297,10 @@ Se si dispone di un abbonamento con piani tariffari con capacità impegnata _zer
 
 === Possibilità di effettuare ricerche in base alle liste di controllo
 
-Il supporto per le liste di controllo in Digital Advisor è stato esteso per includere i sistemi Keystone. È ora possibile visualizzare i dettagli degli abbonamenti per più clienti effettuando una ricerca con gli elenchi di controllo. Per ulteriori informazioni sull'utilizzo delle liste di controllo in Keystone STaaS, vedere link:../integrations/keystone-aiq.html#search-by-keystone-watchlists["Ricerca per elenchi di controllo Keystone"^].
+Il supporto per le liste di controllo in Digital Advisor è stato esteso per includere i sistemi Keystone. È ora possibile visualizzare i dettagli degli abbonamenti per più clienti effettuando una ricerca con gli elenchi di controllo. Per ulteriori informazioni sull'utilizzo delle liste di controllo in Keystone STaaS, vedere link:./integrations/keystone-aiq.html#search-by-keystone-watchlists["Ricerca per elenchi di controllo Keystone"^].
 
 
 
 === Data di conversione in fuso orario UTC
 
-I dati restituiti nelle schede della schermata *Abbonamenti Keystone* di Digital Advisor vengono visualizzati in base all'ora UTC (fuso orario del server). Quando si immette una data per la query, questa viene automaticamente considerata nel fuso orario UTC. Per ulteriori informazioni, vedere link:../integrations/keystone-aiq.html["Dashboard e reporting per l'abbonamento Keystone"^].
+I dati restituiti nelle schede della schermata *Abbonamenti Keystone* di Digital Advisor vengono visualizzati in base all'ora UTC (fuso orario del server). Quando si immette una data per la query, questa viene automaticamente considerata nel fuso orario UTC. Per ulteriori informazioni, vedere link:./integrations/keystone-aiq.html["Dashboard e reporting per l'abbonamento Keystone"^].

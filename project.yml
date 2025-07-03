@@ -14,7 +14,7 @@ sidebar:
   - title: Note di rilascio
     entries:
     - title: Novità di Keystone STaaS
-      url: "/release-notes/whats-new.html"
+      url: "/whats-new.html"
     - title: Problemi risolti
       url: "/release-notes/fixed-issues.html"
     - title: Problemi noti
