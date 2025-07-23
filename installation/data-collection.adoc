@@ -14,7 +14,7 @@ summary: 'Keystone raccoglie informazioni sulla configurazione, sullo stato e su
 
 
 [role="lead"]
-Keystone raccoglie informazioni sulla configurazione, sullo stato e sull'utilizzo per i tuoi abbonamenti Keystone ONTAP e Keystone StorageGRID. Può anche raccogliere i dati sulle prestazioni solo per ONTAP, se l'opzione è attivata in Keystone Collector.
+Keystone raccoglie informazioni su configurazione, stato e utilizzo dagli abbonamenti Keystone ONTAP e Keystone StorageGRID , nonché dati di telemetria dalla macchina virtuale (VM) che ospita Keystone Collector. Può raccogliere dati sulle prestazioni solo per ONTAP , se questa opzione è abilitata in Keystone Collector.
 
 
 
@@ -310,6 +310,56 @@ Quando l'opzione *Rimuovi dati privati* è attivata in Keystone Collector, le se
 * Nome BucketName
 * Nome del sito
 * Instance/nodename
+
+
+====
+
+
+== Raccolta dati di telemetria
+
+.<strong>Dati di telemetria raccolti dalla VM Keystone Collector: Scopri di più</strong>
+[%collapsible]
+====
+L'elenco seguente è un campione rappresentativo dei dati di telemetria raccolti per i sistemi Keystone :
+
+* Informazioni di sistema
++
+** Nome del sistema operativo
+** Versione del sistema operativo
+** ID del sistema operativo
+** Nome host del sistema
+** Indirizzo IP predefinito del sistema
+
+
+* Utilizzo delle risorse di sistema
++
+** Tempo di attività del sistema
+** Numero di core della CPU
+** Carico di sistema (1 min, 5 min, 15 min)
+** Memoria totale
+** Memoria libera
+** Memoria disponibile
+** Memoria condivisa
+** Memoria buffer
+** Memoria memorizzata nella cache
+** Scambio totale
+** Scambio gratuito
+** Scambio memorizzato nella cache
+** Nome del file system del disco
+** Dimensioni del disco
+** Disco utilizzato
+** Disco disponibile
+** Percentuale di utilizzo del disco
+** Punto di montaggio del disco
+
+
+* Pacchetti installati
+* Configurazione del collettore
+* Registri di servizio
++
+** Registri di servizio dai servizi Keystone
+
+
 
 
 ====
