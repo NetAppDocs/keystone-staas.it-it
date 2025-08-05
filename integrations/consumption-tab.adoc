@@ -38,10 +38,14 @@ I dati storici sui consumi per ciascun livello di servizio prestazionale vengono
 NOTE: Puoi selezionare *Accrued Burst* dal menu a tendina *Visualizza* se desideri visualizzare i dati storici di utilizzo dei burst per i quali sono state generate fatture. Puoi utilizzare questi dati per analizzare l'utilizzo fatturato riportato in fattura. Per ulteriori informazioni, fare riferimento a link:../integrations/consumption-tab.html#view-accrued-burst["Visualizza il burst accumulato"].
 
 +
-image:bxp-consumption-trend.png["schermata che mostra i consumi storici"]
+image:bxp-consumption-trend-1.png["schermata che mostra i consumi storici"]
 
 +
-Il grafico a linee mostra i dati storici sui consumi e consente agli utenti di analizzare i trend in un intervallo di date selezionato. Il grafico mostra metriche come dati (capacità di archiviazione utilizzata dai dati utente), snapshot (capacità di archiviazione utilizzata dai dati snapshot) e capacità utilizzata (capacità di archiviazione totale, inclusi sia i dati che gli snapshot), insieme alla capacità impegnata e a quella di picco. La data e l'ora di ciascun punto dati sono visualizzate nella parte inferiore del grafico. In base all'intervallo di date della query, i grafici di utilizzo mostrano fino a 30 punti di raccolta dati. È possibile passare il cursore del mouse sul grafico per visualizzare la ripartizione dell'utilizzo in ciascun punto di raccolta dati.
+Il grafico a linee mostra i dati storici sui consumi e consente agli utenti di analizzare le tendenze in un intervallo di date selezionato. Il grafico mostra parametri quali la capacità utilizzata (capacità di archiviazione totale, inclusi sia i dati che i dati snapshot), i dati (capacità di archiviazione utilizzata dai dati utente) e gli snapshot (capacità di archiviazione utilizzata dai dati snapshot), insieme alla capacità impegnata e burst. La data e l'ora di ciascun punto dati vengono visualizzate nella parte inferiore del grafico. In base all'intervallo di date della query, i grafici di utilizzo mostrano fino a 30 punti di raccolta dati. È possibile passare il cursore del mouse sul grafico per visualizzare la ripartizione dell'utilizzo in ciascun punto di raccolta dati.
+
++
+
+NOTE: Se un livello di servizio delle prestazioni ha più istanze, è possibile filtrare per istanza per visualizzare i dati storici per ciascuna di esse separatamente.
 
 +
 Puoi anche visualizzare un riepilogo dei consumi attuali insieme ai consumi storici per avere una chiara comprensione dei tuoi utilizzi.
@@ -155,45 +159,3 @@ Un'immagine di esempio che mostra l'utilizzo giornaliero dei dati burst maturati
 image:invoiced-daily-accr-burst-date.png["schermata che mostra i dati di utilizzo burst in formato grafico a linee"]
 
 È possibile passare a una vista tabella facendo clic sull'opzione *Tabella* nell'angolo superiore destro del grafico. La visualizzazione della tabella fornisce metriche dettagliate sull'utilizzo giornaliero, tra cui il livello di servizio delle prestazioni, la marca temporale, la capacità impegnata, la capacità consumata e la capacità fatturabile fornita. È inoltre possibile generare un rapporto di questi dettagli in formato CSV per uso e confronto futuri.
-
-
-
-== Grafici di riferimento per la protezione avanzata dei dati per MetroCluster
-
-Se hai sottoscritto il servizio aggiuntivo di protezione avanzata dei dati, puoi visualizzare la ripartizione dei dati di consumo per i siti partner di MetroCluster nella scheda *Andamento dei consumi* in Digital Advisor.
-
-Per informazioni sul servizio add-on per la protezione avanzata dei dati, vedere link:../concepts/adp.html["Protezione avanzata dei dati"].
-
-Se i cluster nel tuo ambiente di archiviazione ONTAP sono configurati in una configurazione MetroCluster, i dati di consumo del tuo abbonamento Keystone vengono suddivisi nello stesso grafico dei dati storici per visualizzare il consumo nei siti primari e mirror per i livelli di servizio delle prestazioni di base.
-
-
-NOTE: I grafici a barre dei consumi sono suddivisi solo per i livelli di servizio di base delle prestazioni. Per il servizio aggiuntivo di protezione dati avanzata, ovvero il livello di servizio di prestazioni _Advanced Data-Protect_, questa demarcazione non è presente.
-
-.Livello di servizio di prestazioni di protezione dei dati avanzata
-Per il livello di servizio di prestazioni _Advanced Data-Protect_, il consumo totale è suddiviso tra i siti partner e l'utilizzo in ciascun sito partner viene riflesso e fatturato in un abbonamento separato: un abbonamento per il sito primario e un altro per il sito mirror. Questo è il motivo per cui, quando si seleziona il numero di abbonamento per il sito primario nella scheda *tendenza consumo*, i grafici di consumo per il servizio aggiunto di protezione dati avanzata visualizzano i dettagli di consumo discreti solo del sito primario. Poiché ogni sito di un partner in una configurazione MetroCluster agisce sia come origine che come mirroring, il consumo totale in ogni sito include i volumi di origine e mirror creati in tale sito.
-
-
-TIP: La descrizione dei comandi accanto all'ID di rilevamento dell'abbonamento nella scheda *consumo corrente* consente di identificare l'abbonamento partner nella configurazione di MetroCluster.
-
-.Livelli di servizio delle prestazioni di base
-Per i livelli di servizio delle prestazioni di base, ogni volume viene addebitato in base a quanto previsto nei siti primario e mirror e, pertanto, lo stesso grafico a barre è suddiviso in base al consumo nei siti primario e mirror.
-
-.Cosa puoi vedere per l'abbonamento primario
-L'immagine seguente mostra i grafici per il livello di servizio con prestazioni _Extreme_ (livello di servizio con prestazioni di base) e un numero di abbonamento primario. Lo stesso grafico dei dati storici indica anche il consumo del sito mirror in una tonalità più chiara dello stesso codice colore utilizzato per il sito primario. La descrizione comandi al passaggio del mouse visualizza la suddivisione dei consumi (in TIB) per i siti primario e mirror, rispettivamente 22,24 TiB e 14,86 TiB.
-
-image:mcc-chart-1.png["mcc primario"]
-
-Per il livello di servizio delle prestazioni _Advanced Data-Protect_, i grafici appaiono in questo modo:
-
-image:adp-src-1.png["base primaria mcc"]
-
-.Cosa puoi vedere per l'abbonamento secondario (sito mirror)
-Quando si controlla l'abbonamento secondario, è possibile vedere che il grafico a barre per il livello di servizio con prestazioni _Extreme_ (livello di servizio con prestazioni di base) nello stesso punto di raccolta dati del sito partner è invertito e la ripartizione del consumo nei siti primario e mirror è rispettivamente di 14,86 TiB e 22,24 TiB.
-
-image:mcc-chart-mirror-1.png["mirror mcc"]
-
-Per il livello di servizio delle prestazioni _Advanced Data-Protect_, il grafico appare in questo modo per lo stesso punto di raccolta del sito partner:
-
-image:adp-mir-1.png["base mirror mcc"]
-
-Per informazioni su come MetroCluster protegge i dati, consulta https://docs.netapp.com/us-en/ontap-metrocluster/manage/concept_understanding_mcc_data_protection_and_disaster_recovery.html["Comprensione della protezione dei dati e del disaster recovery di MetroCluster"^].

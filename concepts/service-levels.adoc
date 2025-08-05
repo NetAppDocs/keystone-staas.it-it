@@ -20,7 +20,7 @@ Un abbonamento può prevedere più piani tariffari, ognuno dei quali corrisponde
 
 Un livello di servizio prestazionale può avere più istanze, ciascuna delle quali rappresenta un array di storage separato assegnato a tale livello di servizio prestazionale nell'ambiente del cliente. Ogni livello di servizio prestazionale è definito da operazioni di input/output al secondo (IOPS), throughput (GBps) e latenza (ms), con queste metriche misurate e applicate per ogni istanza del livello di servizio prestazionale.
 
-È possibile selezionare i livelli di servizio prestazionali in base al proprio ambiente di storage e alle esigenze di storage e consumo. I livelli di servizio prestazionali di base sono disponibili per impostazione predefinita. Sono inoltre disponibili livelli di servizio prestazionali specifici, se si sono optati per servizi aggiuntivi. Ad esempio, per il servizio aggiuntivo di protezione avanzata dei dati, al proprio abbonamento viene assegnato il livello di servizio prestazionale _Advanced Data-Protect_.
+È possibile selezionare i livelli di servizio delle prestazioni in base al proprio ambiente di archiviazione e alle esigenze di archiviazione e consumo. I livelli di servizio delle prestazioni di base sono disponibili per impostazione predefinita. Sono inoltre disponibili livelli di servizio di prestazioni specifici, se hai optato per servizi aggiuntivi.
 
 
 TIP: È disponibile una descrizione dettagliata del servizio per i livelli di servizio delle prestazioni NetApp Keystone STaaS  https://www.netapp.com/services/keystone/terms-and-conditions/["qui"^] .

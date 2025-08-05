@@ -50,7 +50,7 @@ TIP: È possibile personalizzare la tabella utilizzando il selettore di colonna 
 . Dal menu di navigazione a sinistra di BlueXP, seleziona *Archiviazione > Keystone > Risorse*.
 . Selezionare la scheda *Volumi in cluster*.
 +
-image:bxp-volumes-clusters-multiple-sub.png["Uno screenshot dei volumi nei cluster per più abbonamenti"]
+image:bxp-volumes-clusters-multiple-sub-1.png["Uno screenshot dei volumi nei cluster per più abbonamenti"]
 
 +
 Sono disponibili informazioni dettagliate su tutti i volumi nei cluster degli abbonamenti Keystone, inclusi nome del volume, numero di abbonamento, numero di serie del nodo, conformità con le policy QoS, nome del cluster, nome host e livelli di servizio delle prestazioni. È possibile monitorare la capacità fornita, l'utilizzo logico e fisico e i dati inattivi. È inoltre disponibile una panoramica di:

@@ -14,12 +14,12 @@ summary: I servizi Keystone STaaS supportano ONTAP e StorageGRID.
 
 
 [role="lead"]
-I servizi Keystone STaaS per la versione 3 (v3) supportano l'archiviazione unificata, ottimizzata per blocchi e di oggetti di NetApp e Cloud Volumes ONTAP.
+Il servizio Keystone STaaS supporta l'archiviazione unificata, ottimizzata per blocchi e di oggetti di NetApp e Cloud Volumes ONTAP.
 
-Ogni tipo di archiviazione include:
+Le opzioni di archiviazione supportate sono:
 
 * *Archiviazione unificata*: include archiviazione di file, blocchi e oggetti S3, disponibile sui sistemi NetApp ONTAP AFF e FAS.
-* *Archiviazione ottimizzata a blocchi*: include l'archiviazione a blocchi disponibile sui sistemi NetApp ONTAP ASA.
+* *Archiviazione ottimizzata a blocchi*: include l'archiviazione a blocchi disponibile sui sistemi NetApp ONTAP ASA .
 * *Archiviazione oggetti*: include l'archiviazione oggetti disponibile sui sistemi NetApp StorageGRID.
 
 

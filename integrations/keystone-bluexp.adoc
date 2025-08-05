@@ -18,18 +18,14 @@ Puoi utilizzare la scheda *Panoramica* per individuare rapidamente i carichi di 
 
 Per visualizzare la scheda *Panoramica*, dal menu di navigazione sinistro di BlueXP, vai a *Archiviazione > Keystone > Panoramica*.
 
-image:bxp-dashboard-overview.png["uno screenshot della scheda Panoramica"]
+image:bxp-dashboard-overview-1.png["uno screenshot della scheda Panoramica"]
 
 La scheda *Panoramica* offre le seguenti informazioni:
 
 * *Riepilogo*: Visualizza il numero totale di sottoscrizioni, cluster ONTAP, nodi StorageGRID e nodi ONTAP. Ogni categoria dispone di un pulsante *Visualizza* per accedere facilmente alle sezioni dettagliate nella scheda *Sottoscrizioni* o *Risorse*.
+* *In scadenza a breve*: numero di abbonamenti in scadenza entro 6 mesi. Fare clic su *Visualizza* per visualizzare questi abbonamenti nella scheda *Abbonamenti*.
 * *Richieste aperte*: Numero totale di richieste di servizio aperte.
-* *Stato della capacità dell'abbonamento*: lo stato di consumo della capacità per gli abbonamenti che superano il limite massimo, che lo utilizzano e che sono sottoutilizzati. Ogni categoria include un pulsante *Visualizza* per accedere alla scheda *Abbonamenti* con i filtri pertinenti applicati.
-* *Stato di scadenza dell'abbonamento*: il numero di abbonamenti scaduti e di quelli in scadenza entro 90 giorni. Ogni categoria include un pulsante *Visualizza* per accedere alla scheda *Abbonamenti* con i filtri pertinenti applicati.
-* *Versione Keystone tra gli abbonamenti*: una ripartizione degli abbonamenti Keystone per versione. Le regole del piano tariffario per i livelli di servizio prestazionali possono variare tra le versioni dell'abbonamento. È possibile filtrare gli abbonamenti per versione utilizzando il pulsante *Visualizza*, che porta alla scheda *Abbonamenti* con i filtri pertinenti applicati. Per ulteriori informazioni sulla versione v1, consultare  https://docs.netapp.com/us-en/keystone/index.html["Servizi di abbonamento Keystone | Documentazione della versione 1"^] .
-+
-image:version-across-subscriptions.png["Un grafico a torta degli abbonamenti Keystone nelle versioni v1, v2 e v3."]
-
+* *Utilizzo della capacità*: lo stato di consumo della capacità per gli abbonamenti che superano il burst, che utilizzano il burst e che sono sottoutilizzati. Ogni categoria include un pulsante *Visualizza* per passare alla scheda *Abbonamenti* con i filtri pertinenti applicati.
 * *I 5 abbonamenti con il più alto utilizzo della capacità*: visualizza una tabella dei primi cinque abbonamenti Keystone con la più alta percentuale di utilizzo della capacità. È possibile fare clic sul numero di abbonamento nella colonna *Abbonamento* per ottenere informazioni dettagliate.
 
 

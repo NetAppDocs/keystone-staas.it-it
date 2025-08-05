@@ -1,0 +1,9 @@
+= Visualizza i dati di consumo a livello di istanza
+:allow-uri-read: 
+
+
+
+
+=== Visualizza i dati di consumo a livello di istanza
+
+È possibile visualizzare i dati storici e di consumo correnti per ogni istanza del livello di servizio delle prestazioni tramite la dashboard Keystone in BlueXP. Questa funzionalità è disponibile per livelli di servizio di prestazioni con più istanze, a condizione che si disponga di un abbonamento Keystone versione 3 (v3). Per saperne di più, fare riferimento alink:https://docs.netapp.com/us-en/keystone-staas/integrations/current-usage-tab.html["Visualizza il consumo dei tuoi abbonamenti Keystone"] .

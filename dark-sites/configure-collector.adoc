@@ -54,14 +54,14 @@ image:dark-site-generate-collector-keypair-1.png["Opzione genera tastiera di rac
 
 . Verificare che Keystone Collector sia in uno stato integro tornando alla schermata principale dell'interfaccia telefonica utente e verificando le informazioni *Stato servizio*. Il sistema dovrebbe mostrare che i servizi sono in uno stato *generale: Sano*. Attendere fino a 10 minuti, se lo stato generale rimane non corretto dopo questo periodo, rivedere i passaggi di configurazione precedenti e contattare il team di supporto NetApp.
 +
-image:dark-site-overall-healthy-1.png["Stato del servizio"]
+image:dark-site-overall-healthy-2.png["Stato del servizio"]
 
 . Uscire dalla TUI di gestione di Keystone Collector selezionando l'opzione *Esci alla shell* nella schermata iniziale.
 . Recuperare la chiave pubblica generata:
 +
 `~/collector-public.pem`
 
-. Inviare un'e-mail con questo file a keystone.services@NetApp.com.
+. Invia un'e-mail con questo file a ng-keystone-secure-site-upload@netapp.com per siti non USPS sicuri, oppure a ng-keystone-secure-site-usps-upload@netapp.com per siti USPS sicuri.
 
 
 
@@ -73,7 +73,7 @@ Alla fine di ogni mese, dovresti inviare il report mensile di riepilogo dell'uti
 Per generare il rapporto di utilizzo, procedere come segue:
 
 . Andare a *Esporta utilizzo* nella schermata iniziale di Keystone Collector TUI.
-. Raccogliere i file e inviarli a keystone.services@NetApp.com.
+. Raccogli i file e inviali a ng-keystone-secure-site-upload@netapp.com per i siti non USPS sicuri, oppure a ng-keystone-secure-site-usps-upload@netapp.com per i siti USPS sicuri.
 +
 Keystone Collector genera sia un file non crittografato che un file crittografato, che devono essere inviati manualmente a NetApp. Il report su file in chiaro contiene i seguenti dettagli che possono essere convalidati dal cliente.
 

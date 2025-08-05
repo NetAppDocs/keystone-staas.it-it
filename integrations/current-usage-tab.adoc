@@ -29,16 +29,20 @@ Per visualizzare lo stato attuale dei consumi dei tuoi abbonamenti tramite BlueX
 Verrai reindirizzato alla scheda *Consumo attuale*.
 
 +
-image:bxp-current-consumption-graph.png["dettagli del consumo attuale in formato grafico"]
+image:bxp-current-consumption-graph-1.png["dettagli del consumo attuale in formato grafico"]
 
 +
 Per l'abbonamento selezionato, è possibile visualizzare i dettagli del consumo in formato tabella o grafico utilizzando l'opzione *Tabella* o *Grafico* dal menu a discesa *Visualizza come*. Nella visualizzazione grafica, è possibile visualizzare il consumo attuale per livello di servizio di prestazioni, inclusi capacità utilizzata, capacità fornita, limite di capacità impegnata e limite di capacità di picco.
 
 +
+
+NOTE: Se un livello di servizio di prestazioni ha più istanze, è possibile espandere *Visualizza per istanze* in una delle due viste per visualizzare separatamente i dettagli del consumo corrente per ciascuna istanza.  Ad esempio, se si dispone di due istanze del livello di servizio Extreme Performance all'interno di un abbonamento, ciascuna istanza visualizzerà separatamente le proprie capacità impegnate, consumate e disponibili.
+
++
 Nella vista tabella, puoi visualizzare dettagli come la capacità massima consumata e i giorni rimanenti alla scadenza. Nell'ambito del monitoraggio dell'utilizzo dell'abbonamento, puoi visualizzare il nome del livello di servizio delle prestazioni, lo stato del consumo, le capacità impegnate e utilizzate, le capacità fornite e in burst, la capacità disponibile e i volumi. Puoi personalizzare la tabella utilizzando il selettore di colonne. image:column-selector.png["icona di selezione della colonna"] icona.
 
 +
-image:bxp-current-consumption-table.png["dettagli del consumo attuale in formato tabella"]
+image:bxp-current-consumption-table-1.png["dettagli del consumo attuale in formato tabella"]
 
 
 
@@ -56,7 +60,7 @@ Per l'abbonamento selezionato, è possibile visualizzare i dettagli, ad esempio 
 
 +
 
-NOTE: Con Keystone versione 3 (v3), è possibile visualizzare i dettagli del consumo attuale per ogni istanza del livello di servizio Performance. Ad esempio, se si dispone di due istanze del livello di servizio Performance Extreme all'interno di un abbonamento, ciascuna istanza visualizzerà separatamente le proprie capacità impegnate, consumate e disponibili. Per ulteriori informazioni sui livelli di servizio Performance, consultare link:../concepts/service-levels.html["Livelli di servizio prestazionali a Keystone"] .
+NOTE: Se un livello di servizio di prestazioni ha più istanze, è possibile selezionare la scheda *Istanze* per visualizzare i dettagli del consumo corrente per ciascuna istanza.  Ad esempio, se si dispone di due istanze del livello di servizio Extreme Performance all'interno di un abbonamento, ciascuna istanza visualizzerà separatamente le proprie capacità impegnate, consumate e disponibili.  Per saperne di più sui livelli di servizio delle prestazioni, vederelink:../concepts/service-levels.html["Livelli di servizio prestazionali a Keystone"] .
 
 +
 Insieme al consumo corrente, è possibile visualizzare i dati di utilizzo cronologici per il confronto. Fare clic sul pulsante *Visualizza dati storici* per passare alla scheda *Trend consumi* per visualizzare i dati storici relativi alla stessa sottoscrizione.

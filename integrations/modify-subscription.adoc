@@ -36,7 +36,7 @@ Nella pagina *Modifica abbonamento* vengono visualizzati i dettagli dei livelli 
 NOTE: Facoltativamente, puoi accedere alla pagina *Modifica abbonamento* cliccando su *Gestisci abbonamento* nella sezione dei dettagli dell'abbonamento e selezionando quindi *Modifica*.
 
 +
-image:bxp-modify-subscription.png["uno screenshot che mostra l'opzione di modifica dall'elenco degli abbonamenti"]
+image:bxp-modify-subscription-1.png["uno screenshot che mostra l'opzione di modifica dall'elenco degli abbonamenti"]
 
 . Fare clic su *Modifica capacità* per modificare la capacità impegnata per i livelli di servizio delle prestazioni, fornire i dettagli necessari e fare clic su *Invia*.
 +

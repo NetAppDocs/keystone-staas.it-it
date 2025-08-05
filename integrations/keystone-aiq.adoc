@@ -31,13 +31,8 @@ Puoi vedere la suddivisione dell'utilizzo della capacità in base alle tue sotto
 * *Utilizzo della capacità*: dati di consumo quali nessun utilizzo, consumo superiore all'80% della capacità impegnata, utilizzo a raffica e consumo superiore alla capacità a raffica.
 * *Avvisi*: Vengono visualizzati avvisi per vari scenari, se applicabili.
 +
-** *In scadenza*: Nel caso in cui i tuoi abbonamenti scadano entro 90 giorni.
-** *QoS Warnings*: Sono stati assegnati volumi senza criteri AQoS.
-+
 
 TIP: Fare clic sul collegamento *Sottoscrizioni* per visualizzare l'elenco delle sottoscrizioni filtrate nella scheda *Sottoscrizioni*.
-
-
 
 
 

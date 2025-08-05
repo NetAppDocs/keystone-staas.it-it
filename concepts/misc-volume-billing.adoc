@@ -14,7 +14,7 @@ summary: Scopri la fatturazione di Keystone per configurazioni specifiche, tra c
 
 
 [role="lead"]
-Comprendere la fatturazione Keystone per configurazioni specifiche nella versione 3 (v3) può aiutarti a ottimizzare l'utilizzo del servizio e a gestire i costi. Le configurazioni includono volumi clonati, protezione avanzata dei dati, volumi temporanei, destinazioni SnapMirror, LUN e volumi di sistema/root.
+Comprendere la fatturazione Keystone per configurazioni specifiche nella versione 3 (v3) può aiutarti a ottimizzare l'utilizzo del servizio e a gestire i costi.  Le configurazioni includono volumi clonati, volumi temporanei, destinazioni SnapMirror , LUN e volumi di sistema/root.
 
 
 
@@ -28,19 +28,6 @@ Tenere presente quanto segue:
 * Non è previsto un periodo di grazia di 24 ore per i volumi clonati. Viene considerata solo la dimensione del clone.
 * Una volta che il volume clone supera il 10% delle dimensioni fisiche dell'immagine principale, il clone viene fatturato come volume standard (capacità logica utilizzata).
 
-
-
-
-== Fatturazione per una protezione dei dati avanzata
-
-La protezione dei dati avanzata sfrutta NetApp MetroCluster per eseguire il mirroring dei dati tra due cluster fisicamente separati. Per gli aggregati mirrorati di MetroCluster, i dati vengono scritti due volte, una volta su ciascun cluster. Il servizio Keystone addebita i costi di consumo su ciascun lato in modo indipendente, con la conseguenza di due record di consumo identici. I costi aggiuntivi vengono applicati a tutte le capacità dell'abbonamento, indipendentemente dal fatto che i dati siano all'origine o siano dati mirrorati o senza mirror.
-
-Se si monitorano i cluster tramite Gestore di sistema di ONTAP (Gestore di sistema) o Active IQ Unified Manager (Gestore unificato), potrebbe verificarsi una discrepanza tra il consumo riportato su questi strumenti e Keystone. System Manager e Unified Manager non riportano i volumi sul cluster mirrorato (remoto) e, in questo modo, riporta la metà delle metriche di consumo riportate dal servizio Keystone.
-
-.Esempio:
-I siti A e B vengono configurati in una configurazione MetroCluster. Quando un utente crea un volume di 10 TB nel sito A, viene creato un volume identico di 10 TB nel sito B. Keystone identifica 10 TB di consumo in ogni sito, per un aumento totale di 20 TB. System Manager e Unified Manager segnalano un volume 10TB creato nel sito A, ma non un volume 10TB nel sito B.
-
-Inoltre, tutti i volumi creati su un sistema Keystone con data Protection avanzata verranno conteggiati per il consumo di data Protection avanzata, indipendentemente dal fatto che tali volumi siano mirrorati o meno.
 
 
 

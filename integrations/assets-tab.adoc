@@ -40,10 +40,10 @@ Verrai reindirizzato alla scheda *Consumo attuale*.
 . Selezionare la scheda *Risorse*.
 . Selezionare *Volumi nel cluster* dal menu a discesa *Visualizza*.
 +
-image:bxp-volumes-clusters-single-subscription.png["Uno screenshot dei volumi nei cluster per un abbonamento"]
+image:bxp-volumes-clusters-single-subscription-1.png["Uno screenshot dei volumi nei cluster per un abbonamento"]
 
 +
-Vengono visualizzate informazioni dettagliate sui volumi nei cluster, tra cui nome del volume, numero di serie del nodo, conformità con le policy QoS, nome del cluster, nome host e livelli di servizio prestazionali. È inoltre possibile monitorare la capacità fornita, l'utilizzo logico e fisico e i dati inattivi.
+Vengono visualizzate informazioni dettagliate sui volumi nei cluster, tra cui il nome del volume, il numero di serie del nodo, il nome del cluster, il nome host e i livelli di servizio delle prestazioni. È inoltre possibile monitorare la capacità fornita, l'utilizzo logico e fisico e i dati inattivi.
 
 +
 
