@@ -14,7 +14,7 @@ summary: Scopri la fatturazione di Keystone per configurazioni specifiche, tra c
 
 
 [role="lead"]
-Comprendere la fatturazione Keystone per configurazioni specifiche nella versione 3 (v3) può aiutarti a ottimizzare l'utilizzo del servizio e a gestire i costi.  Le configurazioni includono volumi clonati, volumi temporanei, destinazioni SnapMirror , LUN e volumi di sistema/root.
+Comprendere la fatturazione Keystone per configurazioni specifiche può aiutarti a ottimizzare l'utilizzo del servizio e a gestire i costi. Le configurazioni includono volumi clonati, volumi temporanei, destinazioni SnapMirror , LUN e volumi di sistema/root.
 
 
 
@@ -46,28 +46,6 @@ Il prezzo dei volumi di destinazione SnapMirror, sia per il disaster recovery ch
 == Fatturazione per LUN
 
 Per le LUN, la fatturazione si basa sui livelli di servizio delle prestazioni del volume.
-
-
-
-== Volumi di sistema e root
-
-I volumi di sistema e root vengono monitorati come parte del monitoraggio generale del servizio Keystone, ma non vengono conteggiati o fatturati. Il consumo su questi volumi è esentato per la fatturazione.
-
-
-
-== Fatturazione per destinazioni SnapMirror
-
-I prezzi per il volume di destinazione SnapMirror sono regolati dalla policy di QoS adattiva per il livello di servizio assegnato all'origine. Tuttavia, se l'origine non dispone di una policy di QoS adattiva associata, la destinazione viene fatturata in base al livello di servizio più basso disponibile.
-
-
-
-== Fatturazione per LUN
-
-Per i LUN viene seguito lo stesso schema di fatturazione utilizzato per i volumi governati da policy di QoS adattive. Se nei LUN sono impostate policy di QoS adattive separate, allora:
-
-* La dimensione del LUN viene conteggiata per il consumo in base al livello di servizio associato a tale LUN.
-* L'eventuale spazio rimanente nel volume viene addebitato in base alla policy di QoS adattiva del livello di servizio impostato sul volume.
-
 
 
 

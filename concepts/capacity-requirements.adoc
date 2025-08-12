@@ -14,7 +14,7 @@ summary: 'I requisiti di capacità per i livelli di servizio sono diversi a seco
 
 
 [role="lead"]
-I requisiti di capacità per i livelli di servizio delle prestazioni Keystone STaaS nella versione 3 (v3) variano tra le offerte di archiviazione unificata, ottimizzata per blocchi, a oggetti o cloud supportate dall'abbonamento Keystone STaaS.
+I requisiti di capacità per i livelli di servizio delle prestazioni Keystone STaaS variano tra le offerte di archiviazione unificata, ottimizzata per blocchi, a oggetti o cloud supportate dall'abbonamento Keystone STaaS.
 
 
 

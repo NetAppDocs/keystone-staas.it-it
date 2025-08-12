@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/billing-schedules.html 
 keywords: billing schedules, schedule for payment 
-summary: Gli abbonamenti a Keystone STaaS vengono fatturati mensilmente e annualmente. 
+summary: Gli abbonamenti Keystone STaaS vengono fatturati mensilmente, trimestralmente, semestralmente o annualmente. 
 ---
 = Pianificazioni di fatturazione
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Gli abbonamenti a Keystone STaaS vengono fatturati mensilmente e annual
 
 
 [role="lead"]
-Gli abbonamenti Keystone STaaS nella versione 3 (v3) vengono fatturati su base mensile, trimestrale, semestrale o annuale.
+Gli abbonamenti Keystone STaaS vengono fatturati su base mensile, trimestrale, semestrale o annuale.
 
 
 
@@ -26,11 +26,11 @@ Le fatture vengono inviate mensilmente. Per il mese in cui i servizi sono dispon
 
 == Fatturazione trimestrale, semestrale e annuale
 
-Per la fatturazione trimestrale, semestrale e annuale, il processo è simile, con leggere variazioni nei tempi:
+Per la fatturazione trimestrale, semestrale e annuale, il processo è simile, con lievi variazioni nella tempistica:
 
 * *Fatturazione trimestrale*: all'inizio di ogni trimestre di abbonamento viene generata una fattura per il pagamento minimo della capacità impegnata. Un'altra fattura viene inviata alla fine del trimestre per eventuali picchi di utilizzo maturati.
-* *Fatturazione semestrale*: all'inizio di ogni sei mesi viene generata una fattura per il pagamento minimo della capacità impegnata. Un'altra fattura viene inviata alla fine di ogni trimestre per eventuali picchi di utilizzo maturati.
-* *Fatturazione annuale*: All'inizio di ogni anno di abbonamento viene generata una fattura per il pagamento minimo della capacità impegnata. Un'altra fattura viene inviata alla fine di ogni trimestre per l'eventuale utilizzo di picco maturato.
+* *Fatturazione semestrale*: all'inizio di ogni sei mesi viene generata una fattura per il pagamento minimo della capacità impegnata.  Un'altra fattura viene inviata alla fine di ogni trimestre per ogni utilizzo eccessivo accumulato.
+* *Fatturazione annuale*: all'inizio di ogni anno di abbonamento viene generata una fattura per il pagamento minimo della capacità impegnata.  Un'altra fattura viene inviata alla fine di ogni trimestre per ogni utilizzo eccessivo accumulato.
 
 
-Per la fatturazione trimestrale, semestrale e annuale, se la capacità impegnata viene modificata durante un abbonamento, lo stesso giorno viene inviata una fattura per i pagamenti minimi ripartiti per il resto dell'anno di abbonamento. La fatturazione viene calcolata a partire dal giorno in cui la modifica della capacità impegnata è effettiva.
+Per la fatturazione trimestrale, semestrale e annuale, se la capacità impegnata viene modificata durante un abbonamento, lo stesso giorno viene inviata una fattura per i pagamenti minimi ripartiti per il resto dell'anno di abbonamento.  La fatturazione viene calcolata a partire dal giorno in cui la modifica della capacità impegnata diventa effettiva.

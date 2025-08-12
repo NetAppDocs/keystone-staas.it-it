@@ -14,7 +14,7 @@ summary: Scopri i tipi di capacità di archiviazione supportati dal servizio Net
 
 
 [role="lead"]
-Il servizio NetApp Keystone STaaS per la versione 3 (v3) supporta diversi tipi di capacità di archiviazione. Comprendere questi termini diversi di capacità può aiutarti durante l'utilizzo di Keystone.
+Il servizio NetApp Keystone STaaS supporta diversi tipi di capacità di archiviazione. La comprensione di questi diversi termini di capacità può essere utile durante l'utilizzo Keystone.
 
 
 
@@ -49,16 +49,16 @@ Durante il periodo di validità di un abbonamento, è possibile modificare le ca
 
 La capacità consumata si riferisce alla capacità (in TIB dello storage) attualmente consumata nel servizio. Viene calcolato in modo diverso in base al tipo di archiviazione:
 
-* *Archiviazione unificata o ottimizzata a blocchi*: la capacità consumata viene calcolata in base al tipo di capacità selezionato nell'ordine, che può essere logica o fisica. Il calcolo viene eseguito per istanza con livello di servizio prestazionale.
+* *Archiviazione unificata o ottimizzata per blocchi*: la capacità consumata viene calcolata in base al tipo di capacità (logica o fisica) selezionata durante il processo di ordinazione.  Il calcolo viene eseguito per istanza del livello di servizio delle prestazioni.
 +
-.. *Capacità logica*: è la somma di:
+.. *Capacità logica*: È la somma di:
 +
 *** Capacità logica misurata, prima dell'efficienza dei dati dell'array di archiviazione, per archiviare tutte le istanze e i tipi di dati dei clienti, come copie, copie speculari, versioni e cloni.
 *** Capacità fisica utilizzata per archiviare metadati e dati differenziali di snapshot e determinati cloni.
 *** Qualsiasi capacità fisica di grandi dimensioni.
 
 
-.. *Capacità fisica*: è la somma di:
+.. *Capacità fisica*: È la somma di:
 +
 *** Capacità fisica misurata, dopo l'efficienza dei dati dell'array di archiviazione, per archiviare tutte le istanze e i tipi di dati dei clienti, come copie, copie speculari, versioni, cloni.
 *** Capacità fisica utilizzata per archiviare metadati e dati differenziali degli snapshot.

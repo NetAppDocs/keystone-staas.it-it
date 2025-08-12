@@ -14,11 +14,11 @@ summary: Il servizio NetApp Keystone STaaS utilizza diversi termini per misurare
 
 
 [role="lead"]
-Il servizio NetApp Keystone STaaS utilizza diversi termini per misurare le metriche. Potresti voler approfondire la conoscenza di questi termini mentre utilizzi Keystone per la versione 3 (v3).
+Il servizio NetApp Keystone STaaS utilizza diversi termini per misurare le metriche. Potresti voler approfondire l'argomento utilizzando Keystone.
 
 All'interno del servizio Keystone STaaS, per misurare le metriche vengono utilizzati i seguenti termini e definizioni:
 
-* Unità di misura della capacità: Gib, TIB e PIB
+* Capacità: misurata in GiB, TiB e PiB.
 * IOPS: numero di operazioni di input/output elaborate al secondo.
 * Disponibilità del servizio
 * Durata in un accesso preciso ai dati
@@ -29,7 +29,7 @@ All'interno del servizio Keystone STaaS, per misurare le metriche vengono utiliz
 
 == Misurazione delle metriche
 
-* *Misurazione della capacità in gibibyte (GiB), tebibyte (TIB) e pebibyte (PIB)*: Misurazioni della capacità di storage dei dati utilizzando una base di 1024 (1 GiB = 1024^3^ byte, 1 TIB = 1024^4^ byte e 1PIB = 1024^5^ byte).
+* *Misurazione della capacità in GiB, TiB e PiB*: Misurazioni della capacità di archiviazione dei dati utilizzando la base 1024 (1 GiB = 1024^3^ byte, 1 TiB = 1024^4^ byte e 1 PiB = 1024^5^ byte).
 * *Grafico del contatore delle operazioni in IOPS*: operazioni del protocollo al secondo, richieste dall'applicazione.
 * *Disponibilità*: Misurata come percentuale del numero di richieste di i/o a cui il servizio ha risposto correttamente, diviso per il numero totale di richieste di i/o inviate al servizio. Questo valore viene misurato al termine del servizio in un mese e non include i tempi di inattività programmati o la mancata disponibilità delle strutture, della rete o di altri servizi forniti dal cliente.
 * *Durata*: Percentuale di dati a cui si accede senza perdita di fedeltà, ad esclusione della cancellazione o del danneggiamento causati dal cliente.
@@ -40,7 +40,7 @@ All'interno del servizio Keystone STaaS, per misurare le metriche vengono utiliz
 
 === Metriche delle performance
 
-Le seguenti metriche prestazionali sono applicabili ai servizi unificati e ottimizzati a blocchi:
+Le seguenti metriche delle prestazioni sono applicabili ai servizi unificati e ottimizzati per blocchi:
 
 *Servizi unificati:*
 

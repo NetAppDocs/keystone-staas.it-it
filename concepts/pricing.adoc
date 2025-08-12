@@ -16,7 +16,7 @@ summary: Keystone offre un modello pay-as-you-grow per le tue esigenze di consum
 [role="lead"]
 Il servizio di abbonamento NetApp Keystone STaaS con pagamento in base al consumo offre un consumo flessibile e scalabile con prezzi prevedibili e anticipati per le tue esigenze di storage.
 
-Keystone per la versione 3 (v3) ti offre le seguenti funzionalità di fatturazione:
+Keystone ti offre i seguenti servizi di fatturazione:
 
 * Puoi pagare in base agli IOPS e alla capacità di latenza impegnata per soddisfare le varie esigenze di carico di lavoro. I diversi livelli di prestazioni del servizio (Extreme, Premium, Standard, Value, Object e Cloud Volumes ONTAP) consentono di gestire lo storage in base al livello di servizio acquistato.
 * Presenta una fatturazione prevedibile per la capacità impegnata e pay-per-use per l'utilizzo della capacità variabile (burst).

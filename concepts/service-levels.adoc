@@ -14,7 +14,7 @@ summary: Keystone STaaS per la versione 3 offre capacità di archiviazione a liv
 
 
 [role="lead"]
-Keystone STaaS per la versione 3 (v3) offre capacità di archiviazione dati a livelli di servizio prestazionali predefiniti. A ciascun volume gestito dai servizi Keystone è associato un livello di servizio prestazionale.
+Keystone STaaS offre capacità di archiviazione dati a livelli di servizio prestazionali predefiniti. A ciascun volume gestito dai servizi Keystone è associato un livello di servizio prestazionale.
 
 Un abbonamento può prevedere più piani tariffari, ognuno dei quali corrisponde a un livello di servizio di performance. Ogni piano tariffario prevede una capacità impegnata per livello di servizio di performance.
 
