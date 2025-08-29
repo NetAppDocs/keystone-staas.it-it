@@ -18,6 +18,22 @@ Scopri le ultime funzionalità e i miglioramenti dei servizi Keystone STaaS.
 
 
 
+== 28 agosto 2025
+
+
+
+=== Monitoraggio dell'utilizzo logico migliorato con una nuova colonna
+
+È stata aggiunta una nuova colonna, Impronta totale, per migliorare il monitoraggio del consumo Keystone per i volumi FabricPool :
+
+* * Dashboard Keystone in BlueXP*: puoi visualizzare la colonna *Impronta totale* nella scheda *Volumi nei cluster* all'interno della scheda *Risorse*.
+* * Digital Advisor*: puoi visualizzare la colonna *Impronta totale* nella scheda *Dettagli volume* all'interno della scheda *Volumi e oggetti*.
+
+
+Questa colonna visualizza l'ingombro logico totale per i volumi che utilizzano la suddivisione in livelli FabricPool , inclusi i dati provenienti sia dai livelli di prestazioni che da quelli di cold, in modo da poter calcolare con precisione il consumo Keystone .
+
+
+
 == 05 agosto 2025
 
 
