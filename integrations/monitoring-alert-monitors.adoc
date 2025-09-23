@@ -1,0 +1,138 @@
+---
+sidebar: sidebar 
+permalink: integrations/monitoring-alert-monitors.html 
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, monitoring, bluexp. console 
+summary: Utilizzare la scheda Monitoraggio per visualizzare e creare monitor di avviso per gli abbonamenti Keystone . 
+---
+= Visualizza e crea monitor di avviso per gli abbonamenti Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile visualizzare e creare monitor di avviso per gli abbonamenti Keystone dalla dashboard Keystone in BlueXP.  La dashboard visualizza sia i monitor generati dal sistema sia quelli definiti dall'utente per l'utilizzo della capacità e la scadenza dell'abbonamento.  È possibile creare monitor per impostare soglie, scegliere la gravità degli avvisi e aggiungere destinatari e-mail per le notifiche.  Questa funzionalità non è disponibile in Digital Advisor.
+
+
+
+== Visualizza i monitor di avviso
+
+Per visualizzare i monitor di avviso, seguire questi passaggi:
+
+.Fasi
+. Dal menu di navigazione a sinistra BlueXP , seleziona *Archiviazione > Keystone > Monitoraggio > Monitor avvisi*.
++
+image:monitoring-alert-monitors-default-view.png["Uno screenshot dei monitor di avviso per gli abbonamenti Keystone"]
+
++
+È possibile visualizzare un elenco dei monitor di avviso per tutti gli abbonamenti Keystone , inclusi i nomi dei monitor, le condizioni di avviso che attivano le notifiche, i livelli di gravità, i numeri di abbonamento, i livelli di servizio delle prestazioni e lo stato.  È possibile controllare la colonna *Creato da* per determinare se i monitor di avviso sono generati dal sistema o definiti dall'utente.
+
+
+
+
+
+== Creare e gestire monitor di avviso
+
+Dalla scheda *Monitoraggio avvisi* è possibile creare monitor per monitorare l'utilizzo della capacità e la scadenza degli abbonamenti.  È inoltre possibile modificare, duplicare o eliminare i monitor esistenti, a seconda delle esigenze.
+
+[role="tabbed-block"]
+====
+.Crea un monitor
+--
+Per creare un monitor di avviso, seguire questi passaggi:
+
+.Fasi
+. Fare clic sul pulsante *Crea monitor*.
++
+Viene visualizzata la pagina *Crea monitor avvisi*.
+
++
+image:create-alert-monitor.png["Uno screenshot della creazione di un monitor di avviso per gli abbonamenti Keystone"]
+
+. Selezionare *Utilizzo capacità* o *Scadenza abbonamento* per definire il tipo di monitor.  In base alla tua selezione, fornisci i seguenti dettagli:
++
+** *Dettagli generali*: Fornire un nome per l'avviso e selezionare il livello di gravità.
+** *Selezione delle risorse*: scegli di creare il monitor per abbonamenti specifici.  In base al tipo di monitor selezionato, compila i campi obbligatori visualizzati, ad esempio numeri di abbonamento e livelli di servizio delle prestazioni per i monitor di utilizzo della capacità oppure solo numeri di abbonamento per i monitor di scadenza degli abbonamenti.
++
+image:resource-selection.png["Uno screenshot della selezione delle risorse per il monitoraggio dell'utilizzo della capacità"]
+
+** *Condizione*: imposta la condizione di soglia che attiva l'avviso.  Ad esempio, è possibile attivare un avviso quando l'utilizzo della capacità supera una percentuale specificata.
+** *Notifiche*: seleziona gli utenti che riceveranno le notifiche di avviso.
+
+
+. Fare clic su *Crea*.
++
+Dopo aver creato il monitor, il sistema torna alla pagina *Monitor avvisi* e visualizza il nuovo monitor avvisi nell'elenco con lo stato attivo.
+
+
+
+--
+.Modifica monitor
+--
+.Fasi
+. Selezionare l'icona con i puntini di sospensione per il monitor di avviso che si desidera modificare.
++
+image:edit-alert-monitor.png["Uno screenshot della modifica di un monitor di avviso per gli abbonamenti Keystone"]
+
+. Selezionare *Modifica*.
++
+Viene visualizzata la pagina *Modifica monitor avvisi* con la configurazione del monitor corrente.
+
+. Modificare i campi necessari.  Per le descrizioni dei campi, fare riferimento alink:../integrations/monitoring-alert-monitors.html#create-and-manage-alert-monitors["Crea un monitor"] .
++
+
+NOTE: Per i monitor di avviso generati dal sistema, è possibile modificare solo i numeri di abbonamento e i livelli di servizio delle prestazioni per i monitor di utilizzo della capacità e solo i numeri di abbonamento per i monitor di scadenza degli abbonamenti.
+
+. Seleziona *Salva modifiche*.
++
+Il sistema riporta alla pagina *Monitoraggio avvisi*, dove il monitor aggiornato appare nell'elenco.
+
+
+
+--
+.Monitor duplicato
+--
+.Fasi
+. Selezionare l'icona con i puntini di sospensione per il monitor che si desidera copiare.
+. Seleziona *Duplica*.
++
+Viene visualizzata la pagina *Crea monitor avvisi* con i valori dei campi esistenti già compilati.
+
+. Modificare i campi come richiesto e fare clic su *Crea*.
++
+Un nuovo monitor di avviso viene creato con la configurazione aggiornata e appare nell'elenco *Monitor di avviso*.
+
+
+
+--
+.Elimina monitor
+--
+.Fasi
+. Selezionare l'icona con i puntini di sospensione per il monitor che si desidera rimuovere.
+. Selezionare *Elimina* e confermare l'eliminazione.
++
+Dopo l'eliminazione, gli abbonamenti collegati al monitor non riceveranno più notifiche.
+
++
+
+NOTE: I monitor generati dal sistema non possono essere eliminati dagli utenti.
+
+
+
+--
+====
+*Informazioni correlate*
+
+* link:../integrations/dashboard-overview.html["Comprendere la dashboard Keystone"]
+* link:../integrations/subscriptions-tab.html["Visualizza i dettagli del tuo abbonamento"]
+* link:../integrations/current-usage-tab.html["Visualizza i dettagli dei tuoi consumi attuali"]
+* link:../integrations/consumption-tab.html["Visualizza le tendenze di consumo"]
+* link:../integrations/subscription-timeline.html["Visualizza la cronologia del tuo abbonamento"]
+* link:../integrations/assets-tab.html["Visualizza le risorse del tuo abbonamento Keystone"]
+* link:../integrations/monitoring-alerts.html["Visualizza e gestisci gli avvisi"]
+* link:../integrations/volumes-objects-tab.html["Visualizza i dettagli dei volumi e degli oggetti"]
+* link:../integrations/monitoring-alerts.html["Visualizza e gestisci gli avvisi per gli abbonamenti Keystone"]
+

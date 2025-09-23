@@ -76,6 +76,11 @@ link:../integrations/assets-tab.html["Visualizza le risorse associate a un abbon
 
 
  a| 
+link:../integrations/monitoring-alerts.html["Visualizza e gestisci avvisi e monitor"]
+| Sì | No 
+
+
+ a| 
 link:../integrations/modify-subscription.html["Modifica i tuoi abbonamenti"] (solo per gli amministratori Keystone)
 | Sì | No 
 

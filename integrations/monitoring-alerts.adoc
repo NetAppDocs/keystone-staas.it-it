@@ -1,0 +1,62 @@
+---
+sidebar: sidebar 
+permalink: integrations/monitoring-alerts.html 
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, monitoring, bluexp. console 
+summary: Utilizza la scheda Monitoraggio per visualizzare e gestire gli avvisi per i tuoi abbonamenti Keystone . 
+---
+= Visualizza e gestisci gli avvisi per gli abbonamenti Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+La dashboard Keystone in BlueXP consente di visualizzare e gestire gli avvisi attivi nel tuo ambiente di archiviazione Keystone .  È possibile visualizzare sia gli avvisi generati dal sistema sia quelli definiti dall'utente per l'utilizzo della capacità e la scadenza dell'abbonamento.  Da questa vista è possibile valutare rapidamente la gravità dell'avviso, identificare problemi di archiviazione e adottare misure correttive. Questa visualizzazione non è disponibile in Digital Advisor.
+
+Per configurare gli avvisi definiti dall'utente, fare riferimento alink:../integrations/monitoring-alert-monitors.html#create-and-manage-alert-monitors["Creare e gestire monitor di avviso"] .
+
+
+
+== Visualizza avvisi
+
+Per visualizzare gli avvisi attivi, segui questi passaggi:
+
+.Fasi
+. Dal menu di navigazione a sinistra BlueXP , seleziona *Archiviazione > Keystone > Monitoraggio > Avvisi*.
++
+image:monitoring-alerts-default-view.png["Uno screenshot degli avvisi attivi per gli abbonamenti Keystone"]
+
++
+È possibile visualizzare i dettagli dell'avviso, quali gravità, ID, descrizione, ora di attivazione, numero di abbonamento, ID di tracciamento, livello di servizio delle prestazioni e stato.  La pagina mostra anche il totale degli avvisi non risolti, suddivisi per gravità e tipo.
+
+
+
+
+
+== Gestisci gli avvisi
+
+Dalla scheda *Avvisi* è possibile eseguire le seguenti azioni:
+
+* *Esamina e risolvi gli avvisi*: seleziona il numero ID dell'avviso per aprire una visualizzazione dettagliata dell'avviso.  Questa vista mostra la descrizione dell'avviso e i passaggi suggeriti per la risoluzione.  Da questa vista dettagliata è possibile:
++
+** Contrassegna l'avviso come risolto selezionando il pulsante *Modifica* dopo aver risolto il problema.
+** Se necessario, aggiungere note di supporto selezionando il pulsante *Aggiungi nota*.
+
+
+* *Filtra avvisi*: utilizza l'icona del filtro nella colonna *Stato* per visualizzare solo gli avvisi attivi, quelli risolti o entrambi.
+* *Visualizza i dettagli dell'abbonamento*: seleziona il numero dell'abbonamento dalla colonna *Abbonamento* per accedere ai dettagli dell'abbonamento, alle tendenze di consumo e alle informazioni sulle risorse che possono aiutarti a comprendere e gestire l'avviso. Per ulteriori informazioni, fare riferimento a link:../integrations/current-usage-tab.html["Visualizza i dettagli dei tuoi consumi attuali"] .
+
+
+*Informazioni correlate*
+
+* link:../integrations/dashboard-overview.html["Comprendere la dashboard Keystone"]
+* link:../integrations/subscriptions-tab.html["Visualizza i dettagli del tuo abbonamento"]
+* link:../integrations/consumption-tab.html["Visualizza le tendenze di consumo"]
+* link:../integrations/subscription-timeline.html["Visualizza la cronologia del tuo abbonamento"]
+* link:../integrations/assets-tab.html["Visualizza le risorse del tuo abbonamento Keystone"]
+* link:../integrations/monitoring-alert-monitors.html["Visualizza e crea monitor di avviso"]
+* link:../integrations/volumes-objects-tab.html["Visualizzare i dettagli di volumi e oggetti"]
+

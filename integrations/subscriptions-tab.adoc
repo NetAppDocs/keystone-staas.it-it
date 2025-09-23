@@ -20,18 +20,15 @@ Puoi visualizzare l'elenco di tutti i tuoi abbonamenti dalla scheda *Abbonamenti
 ====
 .BlueXP
 --
-La scheda *Abbonamenti* di BlueXP è divisa in due sezioni: *Abbonamenti* e *Livelli di servizio prestazionali*. Ogni sezione offre informazioni specifiche per aiutarti a gestire e monitorare i tuoi abbonamenti Keystone. Per visualizzare informazioni dettagliate sui tuoi abbonamenti, segui questi passaggi:
+Per visualizzare informazioni dettagliate sui tuoi abbonamenti, segui questi passaggi:
 
 .Fasi
 . Dal menu di navigazione a sinistra di BlueXP, vai a *Archiviazione > Keystone > Abbonamenti*.
 +
-image:bxp-subscription-list-1.png["visualizza i dettagli della scheda abbonamento"]
+image:bxp-subscription-list-2.png["visualizza i dettagli della scheda abbonamento"]
 
 +
-Vengono visualizzate le metriche chiave, quali l'utilizzo della capacità, lo stato di scadenza dell'abbonamento e la versione Keystone tra gli abbonamenti. Per saperne di più, fare riferimento alink:../integrations/keystone-bluexp.html["Dashboard Keystone in BlueXP"] .
-
-+
-Nella tabella puoi vedere i seguenti dettagli:
+Vengono visualizzate le metriche chiave, quali l'utilizzo della capacità, lo stato di scadenza dell'abbonamento e gli avvisi non risolti. Nella tabella è possibile visualizzare i seguenti dettagli:
 
 +
 ** *Numero di abbonamento*: numero di abbonamento dell'abbonamento Keystone assegnato da NetApp.
@@ -45,19 +42,11 @@ Nella tabella puoi vedere i seguenti dettagli:
 ** *Giorni alla scadenza dell'abbonamento*: Numero di giorni rimanenti fino alla scadenza dell'abbonamento.
 +
 
+NOTE: È possibile fare clic sulla freccia rivolta verso il basso accanto alla colonna *Data di scadenza* per visualizzare le informazioni sui livelli di servizio delle prestazioni per ciascun abbonamento.  Vengono visualizzate informazioni dettagliate sulla capacità, tra cui l'utilizzo corrente, la capacità impegnata, la capacità fornita, la capacità di picco e la capacità disponibile.
+
++
+
 TIP: È possibile personalizzare le colonne visualizzate nella tabella utilizzando il selettore di colonne image:column-selector.png["icona di selezione della colonna"] icona. Per alcuni campi e colonne, è possibile visualizzare informazioni o icone di avvertenza e descrizioni dei comandi che forniscono informazioni aggiuntive sui dati.
-
-
-
-. È possibile selezionare la sotto-scheda *Livelli di servizio delle prestazioni* per visualizzare i livelli di servizio delle prestazioni per tutti gli abbonamenti.
-+
-image:bxp-performance-levels.png["visualizza i livelli di servizio delle prestazioni su tutti gli abbonamenti"]
-
-+
-** *Livelli di servizio delle prestazioni tra gli abbonamenti*: visualizza il numero di livelli di servizio delle prestazioni tra gli abbonamenti.
-** *Coerenza del provisioning tra gli abbonamenti*: mostra i conteggi dei livelli di servizio con prestazioni eccessive e insufficienti.
-+
-È possibile visualizzare l'elenco dei livelli di servizio delle prestazioni, inclusi dettagli chiave quali il nome del cliente, il numero di abbonamento, il tipo di livello di servizio delle prestazioni e il numero totale di volumi. La tabella mostra anche il conteggio dei volumi protetti, la capacità totale impegnata, consumata, fornita, disponibile (con e senza burst) e la capacità burst accumulata.
 
 
 
@@ -110,5 +99,6 @@ image:icon-grey.png["icona del punto grigio"] *Nessun consumo*: non è stato reg
 * link:../integrations/subscription-timeline.html["Visualizza la cronologia del tuo abbonamento"]
 * link:../integrations/assets-tab.html["Visualizza le risorse del tuo abbonamento Keystone"]
 * link:../integrations/assets.html["Visualizza le risorse nei tuoi abbonamenti Keystone"]
+* link:../integrations/monitoring-alerts.html["Visualizza e gestisci avvisi e monitor"]
 * link:../integrations/volumes-objects-tab.html["Visualizza i dettagli dei volumi e degli oggetti"]
 

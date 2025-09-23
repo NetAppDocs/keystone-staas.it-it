@@ -36,5 +36,6 @@ La scheda *Panoramica* offre le seguenti informazioni:
 * link:..//integrations/keystone-aiq.html["Dashboard Keystone in Digital Advisor"]
 * link:../integrations/subscriptions-tab.html["Visualizza i dettagli del tuo abbonamento"]
 * link:../integrations/current-usage-tab.html["Visualizza i dettagli dei tuoi consumi attuali"]
+* link:../integrations/monitoring-alerts.html["Visualizza e gestisci avvisi e monitor"]
 * link:../integrations/consumption-tab.html["Visualizza le tendenze di consumo"]
 

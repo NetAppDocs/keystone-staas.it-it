@@ -31,7 +31,7 @@ Verrai reindirizzato alla scheda *Consumo attuale*.
 . Selezionare la scheda *Andamento dei consumi*.
 . Selezionare *Consumo storico* dal menu a discesa *Visualizza* e scegliere l'intervallo di tempo utilizzando l'icona del calendario nel campo *Periodo* per analizzare i trend di utilizzo della capacità.
 +
-I dati storici sui consumi per ciascun livello di servizio prestazionale vengono visualizzati in un grafico a linee in base all'intervallo di tempo selezionato.
+I dati storici sui consumi per ciascun livello di servizio prestazionale vengono visualizzati in un grafico a linee in base all'intervallo di tempo selezionato. Se un abbonamento Keystone viene modificato o rinnovato, è possibile impostare la data di inizio su una data precedente per visualizzare i dati sui consumi passati.
 
 +
 

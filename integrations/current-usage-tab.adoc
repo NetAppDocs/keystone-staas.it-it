@@ -79,5 +79,6 @@ Per informazioni sui servizi di archiviazione Keystone e sui relativi livelli di
 * link:../integrations/subscription-timeline.html["Visualizza la cronologia del tuo abbonamento"]
 * link:../integrations/assets-tab.html["Visualizza le risorse del tuo abbonamento Keystone"]
 * link:../integrations/assets.html["Visualizza le risorse nei tuoi abbonamenti Keystone"]
+* link:../integrations/monitoring-alerts.html["Visualizza e gestisci avvisi e monitor"]
 * link:../integrations/volumes-objects-tab.html["Visualizza i dettagli dei volumi e degli oggetti"]
 
