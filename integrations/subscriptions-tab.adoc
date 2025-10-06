@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: integrations/subscriptions-tab.html 
-keywords: keystone-aiq, digital advisor keystone, subscriptions-tab, performance levels, keystone-bluexp 
+keywords: keystone-aiq, digital advisor keystone, subscriptions-tab, performance levels, keystone-bluexp, NetApp Console, Console 
 summary: Per ulteriori informazioni sulle tue iscrizioni Keystone, puoi visualizzare un elenco di tutte le tue iscrizioni nella scheda Sottoscrizioni. 
 ---
 = Visualizza i dettagli sui tuoi abbonamenti Keystone
@@ -14,21 +14,24 @@ summary: Per ulteriori informazioni sulle tue iscrizioni Keystone, puoi visualiz
 
 
 [role="lead"]
-Puoi visualizzare l'elenco di tutti i tuoi abbonamenti dalla scheda *Abbonamenti* sia in BlueXP che in Digital Advisor. Questa scheda fornisce informazioni di facile comprensione basate sullo stato e sull'utilizzo del tuo abbonamento, aiutandoti a rimanere informato e ad agire quando necessario.
+Puoi visualizzare un elenco di tutti i tuoi abbonamenti da *Abbonamenti* nella Console NetApp e in Digital Advisor. Questa visualizzazione fornisce informazioni di facile comprensione basate sullo stato e sull'utilizzo dell'abbonamento, aiutandoti a rimanere informato e ad agire quando necessario.
 
 [role="tabbed-block"]
 ====
-.BlueXP
+.Console NetApp
 --
 Per visualizzare informazioni dettagliate sui tuoi abbonamenti, segui questi passaggi:
 
 .Fasi
-. Dal menu di navigazione a sinistra di BlueXP, vai a *Archiviazione > Keystone > Abbonamenti*.
+. Dal menu di navigazione a sinistra della Console, seleziona *Archiviazione > Keystone > Abbonamenti*.
 +
-image:bxp-subscription-list-2.png["visualizza i dettagli della scheda abbonamento"]
+image:bxp-subscription-list-3.png["visualizza i dettagli della scheda abbonamento"]
 
 +
-Vengono visualizzate le metriche chiave, quali l'utilizzo della capacità, lo stato di scadenza dell'abbonamento e gli avvisi non risolti. Nella tabella è possibile visualizzare i seguenti dettagli:
+Vengono visualizzate le metriche chiave, quali l'utilizzo della capacità, lo stato di scadenza dell'abbonamento e gli avvisi non risolti.
+
++
+Nella tabella è possibile visualizzare i seguenti dettagli:
 
 +
 ** *Numero di abbonamento*: numero di abbonamento dell'abbonamento Keystone assegnato da NetApp.

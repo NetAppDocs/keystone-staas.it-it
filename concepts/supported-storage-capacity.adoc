@@ -28,7 +28,7 @@ Si tratta della quantità di capacità di archiviazione richiesta per archiviare
 
 La capacità logica minima fatturata ogni mese durante l'abbonamento:
 
-* La capacità viene impegnata in base a ciascun livello di servizio.
+* La capacità è impegnata per ogni livello di servizio prestazionale.
 * Durante il periodo di validità del contratto è possibile aggiungere capacità impegnata e livelli di servizio aggiuntivi.
 
 
@@ -40,7 +40,7 @@ Durante il periodo di validità di un abbonamento, è possibile modificare le ca
 
 * La capacità impegnata può essere ridotta in base a determinate condizioni. Per ulteriori informazioni, vedere link:../concepts/capacity-requirements.html["Riduzione della capacità"].
 * La capacità impegnata non può essere aumentata di 90 giorni prima della scadenza dell'abbonamento, a meno che l'abbonamento non venga rinnovato per un ulteriore periodo di 12 mesi.
-* Puoi richiedere modifiche alla capacità impegnata tramite l'interfaccia BlueXP o dal tuo Keystone Success Manager (KSM). Per informazioni sulla richiesta di modifiche, vedere link:../concepts/gssc.html["Supporto NetApp Keystone"].
+* Puoi richiedere modifiche alla capacità impegnata tramite la Console o dal tuo Keystone Success Manager (KSM). Per informazioni sulla richiesta di modifiche, vederelink:../concepts/gssc.html["Supporto NetApp Keystone"] .
 
 
 

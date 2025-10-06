@@ -110,7 +110,7 @@ image:kc-custom-ca.png["Schermata TUI per la personalizzazione della CA"]
 
 == Crea livelli di servizio delle performance
 
-È possibile creare livelli di servizio delle performance (PSL) utilizzando l'utility TUI di gestione del Collector Keystone. La creazione di PSL tramite l'interfaccia telefonica utente seleziona automaticamente i valori predefiniti impostati per ciascun livello di servizio, riducendo la possibilità di errori che potrebbero verificarsi quando si impostano manualmente questi valori durante la creazione di PSL tramite Active IQ Unified Manager.
+È possibile creare livelli di servizio delle prestazioni (PSL) utilizzando l'utilità TUI di gestione Keystone Collector. La creazione di PSL tramite TUI seleziona automaticamente i valori predefiniti impostati per ciascun livello di servizio delle prestazioni, riducendo la possibilità di errori che potrebbero verificarsi quando si impostano manualmente questi valori durante la creazione di PSL tramite Active IQ Unified Manager.
 
 Per ulteriori informazioni sui PSL, fare riferimento alla sezione link:https://docs.netapp.com/us-en/active-iq-unified-manager/storage-mgmt/concept_manage_performance_service_levels.html["Performance livelli di servizio"^].
 
@@ -133,15 +133,15 @@ image:qos-STaaS-selection-2.png["Schermata TUI per specificare la versione Keyst
 
 +
 
-NOTE: È possibile evidenziare l'opzione *KFS* per i servizi di abbonamento Keystone versione 1. I servizi di iscrizione Keystone sono diversi da Keystone STaaS per quanto riguarda i livelli di servizio, le offerte di servizio e i principi di fatturazione. Per ulteriori informazioni, fare riferimento a link:https://docs.netapp.com/us-en/keystone-staas/subscription-services-v1.html["Servizi di iscrizione Keystone | versione 1"^].
+NOTE: È possibile evidenziare l'opzione *KFS* per i servizi di abbonamento Keystone versione 1. I servizi di abbonamento Keystone differiscono da Keystone STaaS per i livelli di servizio delle prestazioni costituenti, le offerte di servizi e i principi di fatturazione. Per saperne di più, fare riferimento alink:https://docs.netapp.com/us-en/keystone-staas/subscription-services-v1.html["Servizi di iscrizione Keystone | versione 1"^] .
 
-. Tutti i livelli di servizio Keystone supportati verranno visualizzati all'interno dell'opzione *Select Keystone Service Levels* per la versione Keystone specificata. Attivare i livelli di servizio desiderati dall'elenco.
+. Tutti i livelli di servizio Keystone supportati verranno visualizzati nell'opzione *Seleziona livelli di servizio Keystone * per la versione Keystone specificata. Abilitare i livelli di servizio delle prestazioni desiderati dall'elenco.
 +
 image:qos-STaaS-selection-3.png["Schermata TUI per visualizzare tutti i livelli di servizio Keystone supportati"]
 
 +
 
-NOTE: Puoi selezionare più livelli di servizio simultaneamente per creare PSL.
+NOTE: È possibile selezionare contemporaneamente più livelli di servizio prestazionali per creare PSL.
 
 . Selezionare *Salva* e premere Invio. Verranno creati i livelli di servizio delle prestazioni.
 +
@@ -153,4 +153,4 @@ image:qos-performance-sl.png["Schermata dell'interfaccia utente per visualizzare
 
 
 
-TIP: Se esiste già un PSL per il livello di servizio selezionato sul server Active IQ Unified Manager specificato, non è possibile crearlo di nuovo. Se si tenta di farlo, viene visualizzato un messaggio di errore. image:qos-failed-policy-1.png["Schermata TUI per visualizzare il messaggio di errore per la creazione dei criteri"]
+TIP: Se sul server Active IQ Unified Manager specificato esiste già un PSL per il livello di servizio delle prestazioni selezionato, non sarà possibile crearlo di nuovo. Se provi a farlo, riceverai un messaggio di errore.image:qos-failed-policy-1.png["Schermata TUI per visualizzare il messaggio di errore per la creazione dei criteri"]

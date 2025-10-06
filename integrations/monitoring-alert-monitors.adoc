@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: integrations/monitoring-alert-monitors.html 
-keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, monitoring, bluexp. console 
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, monitoring, bluexp, netapp console 
 summary: Utilizzare la scheda Monitoraggio per visualizzare e creare monitor di avviso per gli abbonamenti Keystone . 
 ---
 = Visualizza e crea monitor di avviso per gli abbonamenti Keystone
@@ -14,7 +14,7 @@ summary: Utilizzare la scheda Monitoraggio per visualizzare e creare monitor di 
 
 
 [role="lead"]
-È possibile visualizzare e creare monitor di avviso per gli abbonamenti Keystone dalla dashboard Keystone in BlueXP.  La dashboard visualizza sia i monitor generati dal sistema sia quelli definiti dall'utente per l'utilizzo della capacità e la scadenza dell'abbonamento.  È possibile creare monitor per impostare soglie, scegliere la gravità degli avvisi e aggiungere destinatari e-mail per le notifiche.  Questa funzionalità non è disponibile in Digital Advisor.
+È possibile visualizzare e creare monitor di avviso per gli abbonamenti Keystone dalla dashboard Keystone nella console NetApp . La dashboard visualizza sia i monitor generati dal sistema sia quelli definiti dall'utente per l'utilizzo della capacità e la scadenza dell'abbonamento. È possibile creare monitor per impostare soglie, scegliere la gravità degli avvisi e aggiungere destinatari e-mail per le notifiche. Questa funzionalità non è disponibile in Digital Advisor.
 
 
 
@@ -23,9 +23,9 @@ summary: Utilizzare la scheda Monitoraggio per visualizzare e creare monitor di 
 Per visualizzare i monitor di avviso, seguire questi passaggi:
 
 .Fasi
-. Dal menu di navigazione a sinistra BlueXP , seleziona *Archiviazione > Keystone > Monitoraggio > Monitor avvisi*.
+. Dal menu di navigazione a sinistra della Console, selezionare *Archiviazione > Keystone > Monitoraggio > Monitor avvisi*.
 +
-image:monitoring-alert-monitors-default-view.png["Uno screenshot dei monitor di avviso per gli abbonamenti Keystone"]
+image:monitoring-alert-monitors-default-view-1.png["Uno screenshot dei monitor di avviso per gli abbonamenti Keystone"]
 
 +
 È possibile visualizzare un elenco dei monitor di avviso per tutti gli abbonamenti Keystone , inclusi i nomi dei monitor, le condizioni di avviso che attivano le notifiche, i livelli di gravità, i numeri di abbonamento, i livelli di servizio delle prestazioni e lo stato.  È possibile controllare la colonna *Creato da* per determinare se i monitor di avviso sono generati dal sistema o definiti dall'utente.

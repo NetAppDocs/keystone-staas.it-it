@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
-permalink: integrations/keystone-bluexp.html 
-keywords: Keystone, BlueXP, Keystone dashboard, overview, subscription manage, monitor 
-summary: In qualità di abbonato NetApp Keystone STaaS, puoi ottenere una panoramica dei tuoi abbonamenti da NetApp BlueXP. 
+permalink: integrations/keystone-console.html 
+keywords: Keystone, BlueXP, Keystone dashboard, overview, subscription manage, monitor, NetApp Console, Console 
+summary: In qualità di abbonato a NetApp Keystone STaaS, puoi ottenere una panoramica dei tuoi abbonamenti da NetApp Console. 
 ---
-= Dashboard Keystone in BlueXP
+= Dashboard Keystone nella console NetApp
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,13 +14,13 @@ summary: In qualità di abbonato NetApp Keystone STaaS, puoi ottenere una panora
 
 
 [role="lead"]
-Puoi utilizzare la scheda *Panoramica* per individuare rapidamente i carichi di lavoro a rischio, visualizzare la capacità e lo stato di scadenza degli abbonamenti, identificare gli avvisi irrisolti e visualizzare gli abbonamenti con il maggiore utilizzo di capacità. Puoi anche visualizzare lo stato dei tuoi abbonamenti nelle diverse versioni di Keystone, evidenziando eventuali problemi che richiedono attenzione.
+È possibile utilizzare la pagina *Panoramica* per determinare rapidamente i carichi di lavoro a rischio, visualizzare la capacità e lo stato di scadenza degli abbonamenti, identificare gli avvisi non risolti e visualizzare gli abbonamenti con il più alto utilizzo della capacità. Puoi anche visualizzare lo stato dei tuoi abbonamenti nelle diverse versioni di Keystone, evidenziando eventuali problemi che richiedono la tua attenzione.
 
-Per visualizzare la scheda *Panoramica*, dal menu di navigazione sinistro di BlueXP, vai a *Archiviazione > Keystone > Panoramica*.
+Per visualizzare la pagina *Panoramica*, dal menu di navigazione a sinistra della Console, vai a *Archiviazione > Keystone > Panoramica*.
 
-image:bxp-dashboard-overview-1.png["uno screenshot della scheda Panoramica"]
+image:bxp-dashboard-overview-2.png["uno screenshot della pagina Panoramica"]
 
-La scheda *Panoramica* offre le seguenti informazioni:
+La pagina *Panoramica* offre i seguenti approfondimenti:
 
 * *Riepilogo*: Visualizza il numero totale di sottoscrizioni, cluster ONTAP, nodi StorageGRID e nodi ONTAP. Ogni categoria dispone di un pulsante *Visualizza* per accedere facilmente alle sezioni dettagliate nella scheda *Sottoscrizioni* o *Risorse*.
 * *In scadenza a breve*: numero di abbonamenti in scadenza entro 6 mesi. Fare clic su *Visualizza* per visualizzare questi abbonamenti nella scheda *Abbonamenti*.
@@ -36,6 +36,5 @@ La scheda *Panoramica* offre le seguenti informazioni:
 * link:..//integrations/keystone-aiq.html["Dashboard Keystone in Digital Advisor"]
 * link:../integrations/subscriptions-tab.html["Visualizza i dettagli del tuo abbonamento"]
 * link:../integrations/current-usage-tab.html["Visualizza i dettagli dei tuoi consumi attuali"]
-* link:../integrations/monitoring-alerts.html["Visualizza e gestisci avvisi e monitor"]
 * link:../integrations/consumption-tab.html["Visualizza le tendenze di consumo"]
 

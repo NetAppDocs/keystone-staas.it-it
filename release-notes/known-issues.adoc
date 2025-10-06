@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: release-notes/known-issues.html 
 keywords: netapp, keystone, release notes, known issues 
-summary: Problemi noti identificano problemi che potrebbero impedirti di utilizzare in modo efficace i servizi di abbonamento Keystone. 
+summary: I problemi noti identificano i problemi che potrebbero impedirti di utilizzare Keystone in modo efficace. 
 ---
 = Problemi noti in Keystone STaaS
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Problemi noti identificano problemi che potrebbero impedirti di utilizz
 
 
 [role="lead"]
-Problemi noti identificano problemi che potrebbero impedirti di utilizzare in modo efficace i servizi di abbonamento Keystone.
+I problemi noti identificano i problemi che potrebbero impedirti di utilizzare Keystone STaaS in modo efficace.
 
 Nello STaaS NetApp Keystone sono riportati i seguenti problemi noti:
 

@@ -17,12 +17,12 @@ summary: Per monitorare le performance dei tuoi sistemi, puoi vedere le metriche
 Per monitorare le performance dei tuoi sistemi, puoi vedere le metriche delle performance dei ONTAP Volumes gestiti dalle tue iscrizioni a Keystone.
 
 
-TIP: Questa scheda è disponibile facoltativamente in Digital Advisor. Contattare il supporto per la visualizzazione di questa scheda. Non è disponibile in BlueXP.
+TIP: Questa scheda è facoltativamente disponibile in Digital Advisor. Contattare l'assistenza per visualizzare questa scheda. Non è disponibile nella console NetApp .
 
 Per visualizzare questa scheda in Digital Advisor, segui questi passaggi:
 
 .Fasi
-. Fare clic su *Generale > Abbonamenti Keystone > Prestazioni*.
+. Selezionare *Generale > Abbonamenti Keystone > Prestazioni*.
 . Selezionare il numero dell'abbonamento. Per impostazione predefinita, viene selezionato il primo numero di abbonamento.
 . Selezionare il nome del volume desiderato dall'elenco.
 +

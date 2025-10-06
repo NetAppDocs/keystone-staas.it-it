@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: integrations/dashboard-overview.html 
-keywords: Keystone, Digital Advisor, keystone-aiq, aiq, BlueXP, Keystone dashboard 
-summary: In qualità di abbonato NetApp Keystone STaaS, puoi ottenere una panoramica dei tuoi abbonamenti da NetApp BlueXP o Digital Advisor. 
+keywords: Keystone, Digital Advisor, keystone-aiq, aiq, BlueXP, Keystone dashboard, NetApp Console, Console 
+summary: In qualità di abbonato a NetApp Keystone STaaS, puoi ottenere una panoramica dei tuoi abbonamenti da NetApp Console o Digital Advisor. 
 ---
 = Scopri di più sulla dashboard Keystone
 :hardbreaks:
@@ -29,27 +29,39 @@ La dashboard Keystone è la soluzione ideale per monitorare, analizzare e gestir
 
 È possibile accedere alla dashboard Keystone tramite:
 
-* *BlueXP*: accedi alla dashboard da *Archiviazione > Keystone > Panoramica* in BlueXP. Per ulteriori informazioni, fare riferimento a link:../integrations/keystone-bluexp.html["Dashboard Keystone in BlueXP"^].
+* * Console NetApp *: accedi alla dashboard da *Storage > Keystone > Panoramica* nella Console. Per saperne di più, fare riferimento alink:../integrations/keystone-console.html["Dashboard Keystone nella console NetApp"^] .
 * *Active IQ Digital Advisor* (noto anche come Digital Advisor): accedi alla dashboard da *Generale > Abbonamenti Keystone* in Digital Advisor. Per ulteriori informazioni, fare riferimento a link:../integrations/keystone-aiq.html["Dashboard Keystone in Digital Advisor"^].
 
 
+
+
+== Informazioni su NetApp Console
+
+Keystone è accessibile tramite la console NetApp .
+
+NetApp Console offre una gestione centralizzata dei servizi di archiviazione e dati NetApp in ambienti on-premise e cloud su scala aziendale. La console è necessaria per accedere e utilizzare i servizi dati NetApp . In quanto interfaccia di gestione, consente di gestire numerose risorse di archiviazione da un'unica interfaccia. Gli amministratori della console possono controllare l'accesso allo storage e ai servizi per tutti i sistemi all'interno dell'azienda.
+
+Per iniziare a utilizzare la Console non è necessaria una licenza o un abbonamento e verranno addebitati dei costi solo quando sarà necessario distribuire gli agenti della Console nel cloud per garantire la connettività ai sistemi di storage o ai servizi dati NetApp . Tuttavia, alcuni servizi dati NetApp accessibili dalla Console sono concessi in licenza o basati su abbonamento.
+
+Scopri di più sulink:https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["Console NetApp"^] .
+
 Tenere presente quanto segue:
 
-* Mentre BlueXP e Digital Advisor offrono alcune funzionalità esclusive, BlueXP fornisce funzionalità amministrative per Keystone, consentendo di gestire gli abbonamenti e apportare le modifiche necessarie.
-* Per modificare gli abbonamenti, devi essere assegnato al ruolo di *amministratore Keystone*. Per ulteriori informazioni, fare riferimento a link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Ulteriori informazioni sui ruoli di accesso di BlueXP"^].
-* Digital Advisor è integrato con BlueXP, consentendoti di accedere a tutte le funzionalità di Digital Advisor, inclusa la dashboard Keystone, direttamente da BlueXP. Per ulteriori informazioni, fare riferimento a link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html#integration-overview["Integrazione di Digital Advisor con BlueXP"^].
+* Sebbene la Console e il Digital Advisor offrano alcune funzionalità esclusive, la Console fornisce funzionalità amministrative per Keystone, consentendo di gestire gli abbonamenti e apportare le modifiche necessarie.
+* Per modificare gli abbonamenti è necessario essere assegnati al ruolo di * amministratore Keystone *. Per saperne di più, fare riferimento alink:https://docs.netapp.com/console-setup-admin/reference-iam-predefined-roles.html["Scopri di più sui ruoli di accesso alla console NetApp"^] .
+* Digital Advisor è integrato con la Console, consentendoti di accedere a tutte le funzionalità Digital Advisor , inclusa la dashboard Keystone , direttamente dalla Console. Per saperne di più, fare riferimento alink:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-console.html#netapp-console["Integrazione Digital Advisor con NetApp Console"^] .
 
 
 
 
-== Funzionalità Keystone in BlueXP e Digital Advisor
+== Funzionalità Keystone in NetApp Console e Digital Advisor
 
-La tabella seguente mostra la disponibilità delle funzionalità in BlueXP e Digital Advisor, aiutandoti a identificare rapidamente la piattaforma adatta alle tue esigenze:
+La tabella seguente mostra la disponibilità delle funzionalità nella NetApp Console e in Digital Advisor, aiutandoti a identificare rapidamente la piattaforma più adatta alle tue esigenze:
 
 |===
 
 
-| *Funzione* | *BlueXP* | *Consulente digitale* 
+| *Funzione* | * Console NetApp * | *Consulente digitale* 
 
 
  a| 
@@ -86,7 +98,7 @@ link:../integrations/modify-subscription.html["Modifica i tuoi abbonamenti"] (so
 
 
  a| 
-link:../integrations/options.html#generate-reports-from-bluexp-or-digital-advisor["Generare report"]
+link:../integrations/options.html#generate-reports-from-console-or-digital-advisor["Generare report"]
 | Sì | Sì 
 
 
@@ -102,6 +114,6 @@ link:../integrations/performance-tab.html["Visualizza le metriche delle performa
 *Informazioni correlate*
 
 * link:../integrations/dashboard-access.html["Inizia con la dashboard Keystone"]
-* link:../integrations/keystone-bluexp.html["Dashboard Keystone in BlueXP"]
+* link:../integrations/keystone-console.html["Dashboard Keystone nella console NetApp"]
 * link:..//integrations/keystone-aiq.html["Dashboard Keystone in Digital Advisor"]
 

@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: integrations/monitoring-alerts.html 
-keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, monitoring, bluexp. console 
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, monitoring, bluexp, console 
 summary: Utilizza la scheda Monitoraggio per visualizzare e gestire gli avvisi per i tuoi abbonamenti Keystone . 
 ---
 = Visualizza e gestisci gli avvisi per gli abbonamenti Keystone
@@ -14,7 +14,7 @@ summary: Utilizza la scheda Monitoraggio per visualizzare e gestire gli avvisi p
 
 
 [role="lead"]
-La dashboard Keystone in BlueXP consente di visualizzare e gestire gli avvisi attivi nel tuo ambiente di archiviazione Keystone .  È possibile visualizzare sia gli avvisi generati dal sistema sia quelli definiti dall'utente per l'utilizzo della capacità e la scadenza dell'abbonamento.  Da questa vista è possibile valutare rapidamente la gravità dell'avviso, identificare problemi di archiviazione e adottare misure correttive. Questa visualizzazione non è disponibile in Digital Advisor.
+La dashboard Keystone nella console NetApp consente di visualizzare e gestire gli avvisi attivi nel tuo ambiente di storage Keystone . È possibile visualizzare sia gli avvisi generati dal sistema sia quelli definiti dall'utente per l'utilizzo della capacità e la scadenza dell'abbonamento. Da questa vista è possibile valutare rapidamente la gravità dell'avviso, identificare problemi di archiviazione e adottare misure correttive. Questa visualizzazione non è disponibile in Digital Advisor.
 
 Per configurare gli avvisi definiti dall'utente, fare riferimento alink:../integrations/monitoring-alert-monitors.html#create-and-manage-alert-monitors["Creare e gestire monitor di avviso"] .
 
@@ -25,9 +25,9 @@ Per configurare gli avvisi definiti dall'utente, fare riferimento alink:../integ
 Per visualizzare gli avvisi attivi, segui questi passaggi:
 
 .Fasi
-. Dal menu di navigazione a sinistra BlueXP , seleziona *Archiviazione > Keystone > Monitoraggio > Avvisi*.
+. Dal menu di navigazione a sinistra della Console, selezionare *Archiviazione > Keystone > Monitoraggio > Avvisi*.
 +
-image:monitoring-alerts-default-view.png["Uno screenshot degli avvisi attivi per gli abbonamenti Keystone"]
+image:monitoring-alerts-default-view-1.png["Uno screenshot degli avvisi attivi per gli abbonamenti Keystone"]
 
 +
 È possibile visualizzare i dettagli dell'avviso, quali gravità, ID, descrizione, ora di attivazione, numero di abbonamento, ID di tracciamento, livello di servizio delle prestazioni e stato.  La pagina mostra anche il totale degli avvisi non risolti, suddivisi per gravità e tipo.

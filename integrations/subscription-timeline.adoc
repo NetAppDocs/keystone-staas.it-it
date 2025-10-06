@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: integrations/subscription-timeline.html 
-keywords: keystone, BlueXP, subscriptions, timeline, lifecycle, activation, modification, renewal 
-summary: Visualizza la cronologia degli abbonamenti da BlueXP, che include eventi quali date di attivazione, modifica e rinnovo. 
+keywords: keystone, BlueXP, subscriptions, timeline, lifecycle, activation, modification, renewal, NetApp Console, Console 
+summary: 'Visualizza la cronologia dell"abbonamento dalla console NetApp , che include eventi quali date di attivazione, modifica e rinnovo.' 
 ---
 = Visualizza la cronologia dei tuoi abbonamenti Keystone
 :hardbreaks:
@@ -14,12 +14,12 @@ summary: Visualizza la cronologia degli abbonamenti da BlueXP, che include event
 
 
 [role="lead"]
-La dashboard Keystone di BlueXP offre una visualizzazione cronologica dei tuoi abbonamenti Keystone, mostrando eventi come date di attivazione, modifica e rinnovo. Questa visualizzazione cronologica non è disponibile in Digital Advisor.
+La dashboard Keystone nella console NetApp fornisce una visualizzazione cronologica degli abbonamenti Keystone , mostrando eventi quali date di attivazione, modifica e rinnovo. Questa visualizzazione della cronologia non è disponibile in Digital Advisor.
 
 Per visualizzare la cronologia degli abbonamenti, segui questi passaggi:
 
 .Fasi
-. Dal menu di navigazione a sinistra di BlueXP, seleziona *Archiviazione > Keystone > Abbonamenti*.
+. Dal menu di navigazione a sinistra della Console, seleziona *Archiviazione > Keystone > Abbonamenti*.
 . Selezionare il numero di abbonamento nella colonna *Numero di abbonamento* per visualizzare la cronologia dell'abbonamento.
 +
 Verrai reindirizzato alla scheda *Consumo attuale*.
@@ -29,7 +29,7 @@ Verrai reindirizzato alla scheda *Consumo attuale*.
 image:bxp-subscription-timeline-graph.png["uno screenshot per mostrare la cronologia degli abbonamenti in un formato grafico a linee insieme agli eventi importanti"]
 
 +
-Per impostazione predefinita, la cronologia degli abbonamenti viene visualizzata come un grafico a linee, con icone che contrassegnano gli eventi importanti. Passando il mouse su un evento, è possibile visualizzare informazioni dettagliate, come la data e le modifiche apportate alla capacità impegnata durante una modifica. Per visualizzare questi eventi in una tabella, seleziona l'opzione *Tabella* dal menu a discesa *Visualizza come*. Puoi anche visualizzare la cronologia di altri abbonamenti selezionando o cercando dall'elenco a discesa *ID di monitoraggio*.
+Per impostazione predefinita, la cronologia degli abbonamenti viene visualizzata come un grafico a linee, con icone che contrassegnano gli eventi importanti. Passa il mouse su un evento per visualizzarne i dettagli, tra cui la data e le modifiche alla capacità impegnata. Per visualizzare questi eventi in una tabella, seleziona l'opzione *Tabella* dal menu a discesa *Visualizza come*. Per visualizzare altre cronologie di abbonamento, seleziona o cerca dal menu a discesa *ID di monitoraggio*.
 
 +
 image:bxp-subscription-timeline.png["uno screenshot per mostrare la cronologia degli abbonamenti in un formato grafico a tabella insieme agli eventi importanti"]

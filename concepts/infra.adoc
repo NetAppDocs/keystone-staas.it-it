@@ -27,7 +27,7 @@ NetApp si riserva il diritto di intraprendere le seguenti azioni:
 L'infrastruttura Keystone include diversi componenti, tra cui:
 
 * L'infrastruttura Keystone, inclusi i sistemi di storage NetApp.
-* Strumenti per gestire e operare il servizio, quali la soluzione di monitoraggio ITOM, BlueXP, Active IQ e Active IQ Unified Manager.
+* Strumenti per gestire e far funzionare il servizio, come la soluzione di monitoraggio ITOM, NetApp Console, Active IQ e Active IQ Unified Manager.
 
 
 
@@ -50,4 +50,4 @@ Oltre alle apparecchiature di storage, vengono forniti due tool di monitoraggio 
 
 image:data-collector-flow.png["flusso di dati del collettore"]
 
-Puoi visualizzare i dettagli dell'abbonamento e dei consumi dei tuoi abbonamenti Keystone tramite BlueXP o Digital Advisor. Per ulteriori informazioni sui report Keystone, consulta link:../integrations/dashboard-overview.html["Panoramica della dashboard Keystone"] .
+Puoi visualizzare i dettagli di abbonamento e consumo per i tuoi abbonamenti Keystone tramite NetApp Console o Digital Advisor. Per saperne di più sui report Keystone , fare riferimento alink:../integrations/dashboard-overview.html["Panoramica della dashboard Keystone"] .

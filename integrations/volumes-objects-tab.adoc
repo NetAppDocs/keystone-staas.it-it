@@ -16,7 +16,7 @@ summary: Puoi visualizzare i dettagli della capacità a livello di volume o stor
 [role="lead"]
 Per visualizzare i dettagli della capacità a livello di archiviazione di volumi o oggetti, è possibile accedere alla scheda *Volumi e oggetti* in Digital Advisor. Per StorageGRID, puoi utilizzare questa scheda per leggere l'utilizzo da parte dei singoli nodi nel tuo ambiente di storage a oggetti.
 
-È possibile consultare la scheda *Risorse* in BlueXP per visualizzare questi dettagli. a link:../integrations/assets.html["Visualizza le risorse nei tuoi abbonamenti Keystone"] .
+Per visualizzare questi dettagli, puoi fare riferimento alla pagina *Risorse* nella console NetApp . Per visualizzare i dettagli di un abbonamento Keystone STaaS specifico, fare riferimento alink:../integrations/assets-tab.html["Visualizza le risorse associate a un abbonamento Keystone"] . Se desideri visualizzare i dettagli di più abbonamenti Keystone , fai riferimento alink:../integrations/assets.html["Visualizza le risorse nei tuoi abbonamenti Keystone"] .
 
 
 NOTE: Il titolo di questa scheda varia in base alla natura della distribuzione presso il sito. Se si dispone di archiviazione ONTAP e a oggetti, il titolo della scheda viene visualizzato come *volumi e oggetti*. Solo per ONTAP, il nome viene visualizzato *volumi*. Per l'archiviazione di oggetti StorageGRID, è possibile visualizzare la scheda *oggetti*.

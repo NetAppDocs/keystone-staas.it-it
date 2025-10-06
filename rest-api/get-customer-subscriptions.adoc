@@ -14,7 +14,7 @@ summary: 'L"API REST di Digital Advisor recupera un elenco di tutte le sottoscri
 
 
 [role="lead"]
-Questa API recupera un elenco di tutte le sottoscrizioni e i livelli di servizio associati all'ID cliente specificato.
+Questa API recupera un elenco di tutti gli abbonamenti e dei livelli di servizio delle prestazioni associati al customerID specificato.
 
 *Richiesta:*
 
@@ -43,7 +43,7 @@ Questa API recupera un elenco di tutte le sottoscrizioni e i livelli di servizio
 |===
 *Risposta:*
 
-L'API risponderà con un oggetto JSON contenente un elenco di tutti gli abbonamenti e i dettagli del livello di servizio associati per il cliente specificato. Ecco un esempio di risposta:
+L'API risponderà con un oggetto JSON contenente un elenco di tutti gli abbonamenti e i dettagli del livello di servizio delle prestazioni associato per il cliente specificato. Ecco un esempio di risposta:
 
 [listing]
 ----

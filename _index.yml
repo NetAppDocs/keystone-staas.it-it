@@ -23,7 +23,7 @@ indexpage:
       url: "/installation/itom-prereqs.html"
     - title: Installare Keystone Collector in modalità privata
       url: "/dark-sites/overview.html"
-  - title: Dashboard Keystone in BlueXP e Digital Advisor
+  - title: Dashboard Keystone in NetApp Console e Digital Advisor
     links:
     - title: Comprendere la dashboard Keystone
       url: "/integrations/dashboard-overview.html"
@@ -75,7 +75,7 @@ indexpage:
     links:
     - title: Consulente digitale Active IQ
       url: https://docs.netapp.com/us-en/active-iq/index.html
-    - title: BlueXP
+    - title: Console NetApp
       url: https://docs.netapp.com/us-en/cloud-manager-family/
     - title: Active IQ Unified Manager
       url: https://docs.netapp.com/us-en/active-iq-unified-manager/

@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: integrations/modify-subscription.html 
-keywords: performance service levels, keystone-bluexp, modify subscription, edit capacity, manage subscription 
-summary: Modifica il tuo abbonamento Keystone per cambiare la capacità impegnata per i livelli di servizio delle prestazioni associati tramite BlueXP. 
+keywords: performance service levels, keystone-bluexp, modify subscription, edit capacity, manage subscription, NetApp Console, Console 
+summary: Modifica il tuo abbonamento Keystone per cambiare la capacità impegnata per i livelli di servizio delle prestazioni associati tramite NetApp Console. 
 ---
-= Modifica il tuo abbonamento Keystone da BlueXP
+= Modifica il tuo abbonamento Keystone dalla console NetApp
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,19 +14,19 @@ summary: Modifica il tuo abbonamento Keystone per cambiare la capacità impegnat
 
 
 [role="lead"]
-È possibile modificare la capacità impegnata dell'abbonamento Keystone per i livelli di servizio delle prestazioni associati tramite BlueXP.
+È possibile modificare la capacità impegnata del proprio abbonamento Keystone per i livelli di servizio delle prestazioni associati tramite la console NetApp .
 
 [NOTE]
 ====
 * È possibile modificare la capacità impegnata se mancano più di 90 giorni alla scadenza dell'abbonamento.
-* Per modificare la capacità impegnata, è necessario essere assegnati al ruolo di *amministratore Keystone*. Per ulteriori informazioni, fare riferimento a link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Ulteriori informazioni sui ruoli di accesso di BlueXP"^].
+* Per modificare la capacità impegnata, è necessario essere assegnati al ruolo di * amministratore Keystone *. Per saperne di più, fare riferimento alink:https://docs.netapp.com/console-setup-admin/reference-iam-predefined-roles.html["Scopri di più sui ruoli di accesso alla console NetApp"^] .
 
 
 ====
 Per modificare la capacità impegnata, seguire questi passaggi:
 
 .Fasi
-. Dal menu BlueXP, seleziona *Archiviazione > Keystone > Abbonamenti*.
+. Dal menu di navigazione a sinistra della Console, seleziona *Archiviazione > Keystone > Abbonamenti*.
 . Fare clic sull'icona con i puntini di sospensione nella tabella relativa all'abbonamento che si desidera modificare, quindi selezionare *Modifica*.
 +
 Nella pagina *Modifica abbonamento* vengono visualizzati i dettagli dei livelli di servizio delle prestazioni sottoscritti associati al numero di abbonamento selezionato.
@@ -36,7 +36,7 @@ Nella pagina *Modifica abbonamento* vengono visualizzati i dettagli dei livelli 
 NOTE: Facoltativamente, puoi accedere alla pagina *Modifica abbonamento* cliccando su *Gestisci abbonamento* nella sezione dei dettagli dell'abbonamento e selezionando quindi *Modifica*.
 
 +
-image:bxp-modify-subscription-1.png["uno screenshot che mostra l'opzione di modifica dall'elenco degli abbonamenti"]
+image:console-modify-subscription.png["uno screenshot che mostra l'opzione di modifica dall'elenco degli abbonamenti"]
 
 . Fare clic su *Modifica capacità* per modificare la capacità impegnata per i livelli di servizio delle prestazioni, fornire i dettagli necessari e fare clic su *Invia*.
 +

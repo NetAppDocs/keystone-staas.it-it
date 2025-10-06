@@ -21,7 +21,7 @@ Ad un livello elevato, il flusso di lavoro per interagire con l'API REST di Digi
 . Configurare l'account Digital Advisor. Per accedere a Digital Advisor, è necessario disporre di credenziali valide per il sito del supporto NetApp. Per ulteriori informazioni, fare riferimento a. https://docs.netapp.com/us-en/active-iq/task_login_activeiq.html["Accedere a Digital Advisor."]
 . Comprendere il processo di autenticazione in due fasi.
 +
-.. *Generare un token di aggiornamento*: Un token di aggiornamento viene ottenuto tramite la console di Digital Advisor utilizzando le credenziali NetApp. Questo token viene utilizzato per garantire l'accesso continuo senza la necessità di accessi ripetuti.
+.. *Genera un token di aggiornamento*: un token di aggiornamento viene ottenuto tramite la console Digital Advisor utilizzando le credenziali NetApp . Questo token viene utilizzato per garantire un accesso continuo senza la necessità di ripetuti accessi.
 .. *Genera un token di accesso*: Il token di aggiornamento viene utilizzato per generare token di accesso. Per autorizzare le chiamate API al servizio Keystone è necessario un token di accesso valido per un'ora.
 
 
