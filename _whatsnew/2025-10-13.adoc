@@ -1,0 +1,20 @@
+= Colonna di override della policy QoS nella scheda Risorse
+:allow-uri-read: 
+
+
+Nuovi miglioramenti nella dashboard Keystone nella NetApp Console:
+
+
+
+=== Colonna di override della policy QoS nella scheda Risorse
+
+La scheda *Volumi nei cluster* all'interno della scheda *Risorse* ora include una colonna *Override policy QoS* che indica se le regole QoS vengono ignorate per i volumi di backup e mirror, visualizzando *true* (regole ignorate), *false* (regole applicate) o *N/D* (per i volumi mirror).
+
+
+NOTE: Per gli abbonamenti Keystone v3, questa colonna visualizza *N/D* poiché i criteri QoS non sono applicabili nell'offerta v3.
+
+
+
+=== Visibilità degli avvisi migliorata nella pagina Panoramica
+
+La pagina *Panoramica* ora include due nuove sezioni di avviso denominate *Avvisi non risolti per gravità* e *Avvisi Keystone non risolti più vecchi*. Per saperne di più, fare riferimento alink:https://docs.netapp.com/us-en/keystone-staas/integrations/keystone-console.html["Dashboard Keystone nella console NetApp"] .

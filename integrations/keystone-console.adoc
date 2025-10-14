@@ -18,14 +18,16 @@ summary: In qualità di abbonato a NetApp Keystone STaaS, puoi ottenere una pano
 
 Per visualizzare la pagina *Panoramica*, dal menu di navigazione a sinistra della Console, vai a *Archiviazione > Keystone > Panoramica*.
 
-image:bxp-dashboard-overview-2.png["uno screenshot della pagina Panoramica"]
+image:console-overview.png["uno screenshot della pagina Panoramica"]
 
 La pagina *Panoramica* offre i seguenti approfondimenti:
 
 * *Riepilogo*: Visualizza il numero totale di sottoscrizioni, cluster ONTAP, nodi StorageGRID e nodi ONTAP. Ogni categoria dispone di un pulsante *Visualizza* per accedere facilmente alle sezioni dettagliate nella scheda *Sottoscrizioni* o *Risorse*.
 * *In scadenza a breve*: numero di abbonamenti in scadenza entro 6 mesi. Fare clic su *Visualizza* per visualizzare questi abbonamenti nella scheda *Abbonamenti*.
 * *Richieste aperte*: Numero totale di richieste di servizio aperte.
+* *Avvisi non risolti per gravità*: elenca il totale degli avvisi non risolti in base alla gravità: Critico, Avviso e Informativo.  Ogni categoria include un pulsante *Visualizza* per rivedere i dettagli e intraprendere ulteriori azioni.
 * *Utilizzo della capacità*: lo stato di consumo della capacità per gli abbonamenti che superano il burst, che utilizzano il burst e che sono sottoutilizzati. Ogni categoria include un pulsante *Visualizza* per passare alla scheda *Abbonamenti* con i filtri pertinenti applicati.
+* *Avvisi Keystone non risolti più vecchi*: visualizza una tabella degli avvisi critici non risolti più vecchi tra gli abbonamenti.
 * *I 5 abbonamenti con il più alto utilizzo della capacità*: visualizza una tabella dei primi cinque abbonamenti Keystone con la più alta percentuale di utilizzo della capacità. È possibile fare clic sul numero di abbonamento nella colonna *Abbonamento* per ottenere informazioni dettagliate.
 
 

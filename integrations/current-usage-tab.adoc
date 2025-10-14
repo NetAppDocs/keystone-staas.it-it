@@ -29,7 +29,7 @@ Per visualizzare lo stato di consumo attuale dei tuoi abbonamenti tramite NetApp
 Verrai reindirizzato alla scheda *Consumo attuale*.
 
 +
-image:bxp-current-consumption-graph-1.png["dettagli del consumo attuale in formato grafico"]
+image:console-current-consumption-graph.png["dettagli del consumo attuale in formato grafico"]
 
 +
 Per l'abbonamento selezionato, è possibile visualizzare i dettagli del consumo in formato tabella o grafico utilizzando l'opzione *Tabella* o *Grafico* dal menu a discesa *Visualizza come*. Nella visualizzazione grafica, è possibile visualizzare il consumo attuale per livello di servizio di prestazioni, inclusi capacità utilizzata, capacità fornita, limite di capacità impegnata e limite di capacità di picco.
@@ -39,10 +39,10 @@ Per l'abbonamento selezionato, è possibile visualizzare i dettagli del consumo 
 NOTE: Se un livello di servizio di prestazioni ha più istanze, è possibile espandere *Visualizza per istanze* in una delle due viste per visualizzare separatamente i dettagli del consumo corrente per ciascuna istanza.  Ad esempio, se si dispone di due istanze del livello di servizio Extreme Performance all'interno di un abbonamento, ciascuna istanza visualizzerà separatamente le proprie capacità impegnate, consumate e disponibili.
 
 +
-Nella vista tabella, puoi visualizzare dettagli come la capacità massima consumata e i giorni rimanenti alla scadenza. Nell'ambito del monitoraggio dell'utilizzo dell'abbonamento, puoi visualizzare il nome del livello di servizio delle prestazioni, lo stato del consumo, le capacità impegnate e utilizzate, le capacità fornite e in burst, la capacità disponibile e i volumi. Puoi personalizzare la tabella utilizzando il selettore di colonne. image:column-selector.png["icona di selezione della colonna"] icona.
+Nella vista tabella puoi vedere dettagli come la capacità massima consumata e i giorni rimanenti fino alla scadenza. Come parte del monitoraggio dell'utilizzo dell'abbonamento, puoi visualizzare il nome del livello di servizio delle prestazioni, l'utilizzo della capacità, le capacità impegnate e utilizzate, le capacità fornite e di picco, la capacità disponibile e i volumi. È possibile personalizzare la tabella utilizzando il selettore di colonnaimage:column-selector.png["icona di selezione della colonna"] icona.
 
 +
-image:bxp-current-consumption-table-1.png["dettagli del consumo attuale in formato tabella"]
+image:console-current-consumption-table.png["dettagli del consumo attuale in formato tabella"]
 
 
 

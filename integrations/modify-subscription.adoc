@@ -19,7 +19,7 @@ summary: Modifica il tuo abbonamento Keystone per cambiare la capacità impegnat
 [NOTE]
 ====
 * È possibile modificare la capacità impegnata se mancano più di 90 giorni alla scadenza dell'abbonamento.
-* Per modificare la capacità impegnata, è necessario essere assegnati al ruolo di * amministratore Keystone *. Per saperne di più, fare riferimento alink:https://docs.netapp.com/console-setup-admin/reference-iam-predefined-roles.html["Scopri di più sui ruoli di accesso alla console NetApp"^] .
+* Per modificare la capacità impegnata, è necessario essere assegnati al ruolo di * amministratore Keystone *. Per saperne di più, fare riferimento alink:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Scopri di più sui ruoli di accesso alla console NetApp"^] .
 
 
 ====

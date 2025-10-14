@@ -78,6 +78,10 @@ Il seguente elenco è un esempio rappresentativo dei dati sul consumo di capacit
 ** StorageType
 ** Nome aggregato
 ** UUID aggregato
+** Fisico utilizzato
+** Dimensioni disponibili
+** Dimensione
+** Dimensioni utilizzate
 
 
 * Aggregare gli archivi di oggetti
@@ -174,6 +178,17 @@ Il seguente elenco è un esempio rappresentativo dei dati sul consumo di capacit
 ** VolumeBlocksFootprintBin1
 
 
+* MetroCluster
++
+** Nodo
+** Aggregato
+** LIF
+** Replica della configurazione
+** Connessioni
+** Cluster
+** Volumi
+
+
 * Cluster MetroCluster
 +
 ** ClusterUID
@@ -182,6 +197,36 @@ Il seguente elenco è un esempio rappresentativo dei dati sul consumo di capacit
 ** RemoteCluserName
 ** LocalConfigurationState
 ** RemoteConfigurationState
+
+
+* Nodi MetroCluster
++
+** Stato di mirroring DR
+** Intercluster LIF
+** Raggiungibilità del nodo
+** Nodo partner DR
+** Nodo partner DR Aux
+** Relazione simmetrica tra i nodi DR, DR Aux e HA
+** Passaggio automatico non pianificato
+
+
+* Replica della configurazione MetroCluster
++
+** Battito cardiaco remoto
+** Ultimo battito cardiaco inviato
+** Ultimo battito cardiaco ricevuto
+** Flusso Vserver
+** Flusso di cluster
+** Storage
+** Volume di stoccaggio in uso
+
+
+* Mediatori MetroCluster
++
+** Indirizzo del mediatore
+** Porto mediatore
+** Mediatore configurato
+** Mediatore raggiungibile
 ** Modalità
 
 
@@ -243,6 +288,13 @@ Il seguente elenco è un esempio rappresentativo dei dati sulle performance racc
 * QoSPolicyGroupLatency
 * ReadMBps
 * QoSSyncSnapmirrorLatency
+* Dati a livello di sistema
++
+** Scrittura/Lettura/Altro/IOPS totali
+** Scrittura/Lettura/Altro/Rendimento totale
+** Scrittura/Lettura/Altro/Latenza totale
+
+
 * WriteIOPS
 
 
@@ -298,6 +350,11 @@ L'elenco seguente è un esempio rappresentativo di `Physical Data` Raccolti per 
 * Istanza
 * Byte di utilizzo dello storage StorageGRID
 * Byte di metadati per l'utilizzo dello storage StorageGRID
+
+
+L'elenco seguente è un campione rappresentativo del `Availability/Uptime Data` raccolti per StorageGRID:
+
+* Percentuale di uptime SLA
 
 
 ====
