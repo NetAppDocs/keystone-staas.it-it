@@ -21,16 +21,16 @@ Si può installare il software Keystone Collector su un server Linux usando un R
 .Utilizzo di RPM
 --
 . SSH al server di Keystone Collector e passare a. `root` privilegio.
-. Importare la firma pubblica Keystone:
-`# rpm --import https://keystone.netapp.com/repo/RPM-GPG-NetApp-Keystone-20221101`
-. Assicurarsi che il certificato pubblico corretto sia stato importato controllando l'impronta digitale per Keystone Billing Platform nel database RPM:
-`# rpm -qa gpg-pubkey --qf '%{Description}'|gpg --show-keys --fingerprint` L'impronta digitale corretta è simile al seguente:
-`90B3 83AF E07B 658A 6058 5B4E 76C2 45E4 33B6 C17D`
-. Scaricare il `keystonerepo.rpm` file:
-`curl -O https://keystone.netapp.com/repo/keystonerepo.rpm`
+. Importa la firma pubblica Keystone :
+`# rpm --import https://keystone.netapp.com/repo1/RPM-GPG-NetApp-Keystone-20251020`
+. Verificare che sia stato importato il certificato pubblico corretto controllando l'impronta digitale per Keystone Billing Platform nel database RPM:
+`# rpm -qa gpg-pubkey --qf '%{Description}'|gpg --show-keys --fingerprint` L'impronta digitale corretta si presenta così:
+`9297 0DB6 0867 22E7 7646 E400 4493 5CBB C9E9 FEDC`
+. Scarica il `keystonerepo.rpm` file:
+`curl -O https://keystone.netapp.com/repo1/keystonerepo.rpm`
 . Verificare l'autenticità del file:
-`rpm --checksig -v keystonerepo.rpm`Una firma per un file autentico è simile a questa:
-`Header V4 RSA/SHA512 Signature, key ID 33b6c17d: OK`
+`rpm --checksig -v keystonerepo.rpm` La firma di un file autentico si presenta così:
+`Header V4 RSA/SHA512 Signature, key ID c9e9fedc: OK`
 . Installare il file repository del software YUM:
 `# yum install keystonerepo.rpm`
 . Una volta installato Keystone repo, installare il pacchetto keystone-collector tramite YUM Package Manager:

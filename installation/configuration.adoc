@@ -104,6 +104,9 @@ NOTE: Le estensioni file supportate sono `.pem`, `.crt`, `.cert`. Verificare che
 . Selezionare *Salva*. La configurazione viene applicata.
 
 
+
+NOTE: Il certificato CA viene copiato in `/opt/netapp/ks-collector/ca.pem` sul server Keystone Collector.
+
 image:kc-custom-ca.png["Schermata TUI per la personalizzazione della CA"]
 
 
