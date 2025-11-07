@@ -33,11 +33,27 @@ Prima di configurare AutoSupport in modo da includere i dati Keystone, devi pren
 ----
 autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,performance,snapshot,object_store_server,san,raid,snapmirror -troubleshooting-additional wafl
 ----
++
+Se il cluster è in una configurazione MetroCluster , eseguire questo comando:
+
++
+[source]
+----
+autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,performance,snapshot,object_store_server,san,raid,snapmirror,metrocluster -troubleshooting-additional wafl
+----
 ** Per le versioni precedenti ONTAP , eseguire questo comando per modificare il contenuto del registro giornaliero:
 +
 [source]
 ----
 autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,performance,snapshot,platform,object_store_server,san,raid,snapmirror -troubleshooting-additional wafl
+----
++
+Se il cluster è in una configurazione MetroCluster , eseguire questo comando:
+
++
+[source]
+----
+autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,performance,snapshot,platform,object_store_server,san,raid,snapmirror,metrocluster -troubleshooting-additional wafl
 ----
 ** Eseguire questo comando per modificare il contenuto del registro settimanale:
 +
