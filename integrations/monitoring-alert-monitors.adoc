@@ -14,7 +14,7 @@ summary: Utilizzare la scheda Monitoraggio per visualizzare e creare monitor di 
 
 
 [role="lead"]
-È possibile visualizzare e creare monitor di avviso per gli abbonamenti Keystone dalla dashboard Keystone nella console NetApp . La dashboard visualizza sia i monitor generati dal sistema sia quelli definiti dall'utente per l'utilizzo della capacità e la scadenza dell'abbonamento. È possibile creare monitor per impostare soglie, scegliere la gravità degli avvisi e aggiungere destinatari e-mail per le notifiche. Questa funzionalità non è disponibile in Digital Advisor.
+È possibile visualizzare e creare monitor di avviso per gli abbonamenti Keystone dalla dashboard Keystone nella NetApp Console.  La dashboard mostra sia i monitor generati dal sistema sia quelli definiti dall'utente per l'utilizzo della capacità e la scadenza degli abbonamenti. È possibile creare monitor per impostare soglie, scegliere la gravità degli avvisi e aggiungere destinatari e-mail per le notifiche.  È possibile colmare le lacune nella copertura aggiungendo monitor agli abbonamenti non coperti o risolvendo i monitor non utilizzati. Questa funzionalità non è disponibile in Digital Advisor.
 
 
 
@@ -28,7 +28,7 @@ Per visualizzare i monitor di avviso, seguire questi passaggi:
 image:monitoring-alert-monitors-default-view-1.png["Uno screenshot dei monitor di avviso per gli abbonamenti Keystone"]
 
 +
-È possibile visualizzare un elenco dei monitor di avviso per tutti gli abbonamenti Keystone , inclusi i nomi dei monitor, le condizioni di avviso che attivano le notifiche, i livelli di gravità, i numeri di abbonamento, i livelli di servizio delle prestazioni e lo stato.  È possibile controllare la colonna *Creato da* per determinare se i monitor di avviso sono generati dal sistema o definiti dall'utente.
+È possibile visualizzare un elenco dei monitor di avviso per tutti gli abbonamenti Keystone , inclusi i nomi dei monitor, le condizioni di avviso che attivano le notifiche, i livelli di gravità, i numeri di abbonamento, i livelli di servizio delle prestazioni e lo stato. È possibile controllare la colonna *Creato da* per verificare se i monitor di avviso sono generati dal sistema o definiti dall'utente.
 
 
 
@@ -45,7 +45,7 @@ Dalla scheda *Monitoraggio avvisi* è possibile creare monitor per monitorare l'
 Per creare un monitor di avviso, seguire questi passaggi:
 
 .Fasi
-. Fare clic sul pulsante *Crea monitor*.
+. Selezionare il pulsante *Crea monitor*.
 +
 Viene visualizzata la pagina *Crea monitor avvisi*.
 
@@ -101,7 +101,7 @@ Il sistema riporta alla pagina *Monitoraggio avvisi*, dove il monitor aggiornato
 +
 Viene visualizzata la pagina *Crea monitor avvisi* con i valori dei campi esistenti già compilati.
 
-. Modificare i campi come richiesto e fare clic su *Crea*.
+. Modifica i campi necessari e clicca su *Crea*.
 +
 Un nuovo monitor di avviso viene creato con la configurazione aggiornata e appare nell'elenco *Monitor di avviso*.
 
@@ -119,6 +119,58 @@ Dopo l'eliminazione, gli abbonamenti collegati al monitor non riceveranno più n
 +
 
 NOTE: I monitor generati dal sistema non possono essere eliminati dagli utenti.
+
+
+
+--
+====
+
+
+== Gestire le lacune di copertura
+
+Quando è necessario intervenire, sopra l'elenco dei monitor di avviso viene visualizzata una casella di notifica comprimibile *Completa la copertura*.  Ti aiuta a:
+
+* Identificare e gestire gli abbonamenti che non dispongono di un monitoraggio dell'utilizzo della capacità o della scadenza dell'abbonamento.
+* Esamina e gestisci i monitor che non sono attualmente associati ad alcun abbonamento.
++
+image:coverage-gaps.png["Uno screenshot delle lacune di copertura per i monitor di avviso per gli abbonamenti Keystone"]
+
+
+
+Per risolvere gli abbonamenti senza monitor o con monitor inutilizzati, segui questi passaggi:
+
+[role="tabbed-block"]
+====
+.Abbonamenti senza monitor
+--
+.Fasi
+. Selezionare la scheda *Scadenza abbonamenti* o *Utilizzo capacità*.
+. Nella colonna *Risolvi*, seleziona l'icona con i puntini di sospensione relativa all'abbonamento che desideri risolvere.
+. Scegline uno:
++
+** *Aggiungi al monitor esistente*: viene visualizzato un pop-up.  Selezionare un monitor e confermare.
+** *Crea nuovo monitor*: il sistema visualizza la pagina *Crea monitor avvisi*.  Segui i passaggi inlink:../integrations/monitoring-alert-monitors.html#create-and-manage-alert-monitors["Crea un monitor"] per creare un nuovo monitor.
++
+Dopo aver aggiunto la copertura, l'abbonamento scompare dalla scheda.
+
+
+
+
+
+--
+.Monitor inutilizzati
+--
+.Fasi
+. Selezionare la scheda *Non utilizzato*.
+. Nella colonna *Risolvi*, seleziona l'icona con i puntini di sospensione per il monitor che desideri gestire.
+. Scegline uno:
++
+** *Modifica*: il sistema visualizza la pagina *Modifica monitor avvisi*.  Modificare i campi necessari e salvare.  Per saperne di più, fare riferimento a vederelink:../integrations/monitoring-alert-monitors.html#create-and-manage-alert-monitors["Modifica monitor"] .
+** *Elimina*: conferma l'eliminazione per rimuovere il monitor.
++
+Il monitor viene rimosso dalla scheda dopo aver aggiunto abbonamenti o averlo eliminato.
+
+
 
 
 

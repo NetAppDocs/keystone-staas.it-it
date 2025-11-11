@@ -18,6 +18,18 @@ Scopri le ultime funzionalità e i miglioramenti dei servizi Keystone STaaS.
 
 
 
+== 10 novembre 2025
+
+Nuovi miglioramenti nella dashboard Keystone nella NetApp Console:
+
+
+
+=== Completa la casella di notifica della tua copertura
+
+La scheda *Monitoraggio avvisi* nella pagina *Monitoraggio* include una casella di notifica *Completa la copertura* che appare quando ci sono lacune nella copertura.  In questa casella sono elencati gli abbonamenti per i quali mancano i monitor di capacità o scadenza e i monitor senza abbonamenti.  È possibile colmare le lacune aggiungendo abbonamenti ai monitor esistenti, creando nuovi monitor o eliminando quelli non utilizzati. Per saperne di più, fare riferimento a link:https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alert-monitors.html#manage-coverage-gaps["Gestire le lacune di copertura per i monitor di allerta"].
+
+
+
 == 13 ottobre 2025
 
 Nuovi miglioramenti nella dashboard Keystone nella NetApp Console:
