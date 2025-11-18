@@ -60,7 +60,7 @@ indexpage:
   - title: Fai di più con i servizi Keystone
     links:
     - title: Scopri di più sul tuo team di supporto
-      url: "/concepts/gssc.html"
+      url: "/concepts/support-services.html"
     - title: Aumentare la capacità di scoppio
       url: "/concepts/burst-capacity.html"
     - title: Cosa posso fare con i dati cold o quelli meno utilizzati?

@@ -119,7 +119,7 @@ Questa colonna visualizza l'ingombro logico totale per i volumi che utilizzano l
 
 Ora puoi abbonarti a Keystone versione 3 (v3), l'ultima release dell'offerta NetApp Keystone STaaS. Questa versione introduce diversi miglioramenti, tra cui livelli di servizio delle prestazioni semplificati, opzioni di capacità burst aggiuntive e frequenze di fatturazione flessibili. Questi miglioramenti semplificano la gestione, l'ottimizzazione e il ridimensionamento delle soluzioni di storage. Per saperne di più, fare riferimento alink:https://docs.netapp.com/us-en/keystone-staas/concepts/metrics.html["Servizi Keystone STaaS per v3"] .
 
-Puoi contattare il team di supporto Keystone per abbonarti alla versione 3 (v3) Keystone . Per maggiori dettagli, fare riferimento alink:https://docs.netapp.com/us-en/keystone-staas/concepts/gssc.html["Ottieni aiuto con Keystone"] .
+Puoi contattare il team di supporto Keystone per abbonarti alla versione 3 (v3) Keystone . Per maggiori dettagli, fare riferimento a link:https://docs.netapp.com/us-en/keystone-staas/concepts/support-services.html["Ottieni aiuto con Keystone"].
 
 
 

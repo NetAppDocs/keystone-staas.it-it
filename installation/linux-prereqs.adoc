@@ -23,6 +23,7 @@ Assicurati che la tua VM del server di raccolta Linux e Keystone disponga di que
 +
 ** Debian 12
 ** Red Hat Enterprise Linux 8,6 o versioni successive 8.x
+** Red Hat Enterprise Linux 9.0 o versioni successive
 ** CentOS 7 (solo per gli ambienti esistenti)
 
 

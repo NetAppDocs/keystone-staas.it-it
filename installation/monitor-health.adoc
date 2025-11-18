@@ -105,5 +105,5 @@ L'interfaccia telefonica utente di Keystone Collector consente di generare bundl
 `$ keystone-collector-tui`
 . Accedere a *risoluzione dei problemi > genera bundle di supporto*.image:tui-sup-bundl.png["schermata tui"]
 . Una volta generato, viene visualizzata la posizione in cui il bundle viene salvato. Utilizzare FTP, SFTP o SCP per connettersi alla posizione e scaricare il file di log su un sistema locale.image:tui-sup-bundl-2.png["schermata tui"]
-. Una volta scaricato il file, è possibile allegarlo al ticket di supporto di Keystone ServiceNow. Per informazioni sulla richiesta di ticket, vedere link:../concepts/gssc.html["Generazione di richieste di servizio"].
+. Una volta scaricato il file, è possibile allegarlo al ticket di supporto Keystone ServiceNow. Per informazioni sull'emissione dei biglietti, vedere link:../concepts/support-services.html["Generazione di richieste di servizio"].
 

@@ -133,7 +133,7 @@ image:sla-breach.png["modello di foglio excel"]
 [NOTE]
 ====
 * Una richiesta di credito di assistenza deve essere avviata entro sei settimane dalla convalida di una violazione da parte del supporto NetApp Keystone. Tutti i crediti di assistenza devono essere riconosciuti e approvati da NetApp.
-* I crediti di servizio possono essere applicati a una fattura futura. I crediti di servizio non si applicano alle iscrizioni Keystone scadute. Per ulteriori informazioni, fare riferimento a link:../concepts/gssc.html["Supporto NetApp Keystone"].
+* I crediti di servizio potranno essere applicati a una fattura futura. I crediti di servizio non si applicano agli abbonamenti Keystone scaduti. Per saperne di più, fare riferimento a link:../concepts/support-services.html["Supporto NetApp Keystone"].
 
 
 ====

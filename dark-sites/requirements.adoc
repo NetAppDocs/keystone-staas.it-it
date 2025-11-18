@@ -30,7 +30,13 @@ Prima di installare Keystone Collector in un ambiente senza accesso a Internet, 
 
 == Requisiti per Linux
 
-* Sistema operativo: Debian 12, o Red Hat Enterprise Linux (RHEL) 8,6, o versioni successive all'interno della serie RHEL 8.x
+* Sistema operativo (scegline uno):
++
+** Red Hat Enterprise Linux (RHEL) 8.6 o qualsiasi serie successiva 8.x
+** Red Hat Enterprise Linux 9.0 o versioni successive
+** Debian 12
+
+
 * Core: 2 CPU
 * RAM: 4 GB
 * Spazio su disco: Disco virtuale da 50 GB
@@ -43,9 +49,18 @@ Prima di installare Keystone Collector in un ambiente senza accesso a Internet, 
 
 Sullo stesso server dovrebbero essere installati anche i seguenti pacchetti di terze parti. Se disponibili tramite il repository, questi pacchetti verranno installati automaticamente come prerequisiti:
 
-* RHEL8
+* RHEL 8.6+ (8.x)
 +
 ** python3 >=v3,6.8, python3 \<=v3,9.13
+** podman
+** sos
+** yum-utils
+** python3-dnf-plugin-versionlock
+
+
+* RHEL 9,0+
++
+** python3 >= v3.9.0, python3 \<= v3.9.13
 ** podman
 ** sos
 ** yum-utils
@@ -71,5 +86,5 @@ I requisiti di rete per Keystone Collector includono quanto segue:
 * Il server Unified Manager deve essere accessibile dal server Keystone Collector sulla porta 443 (HTTPS).
 * È necessario configurare un account di servizio con autorizzazioni Application User per Keystone Collector sul server Unified Manager.
 * La connettività Internet esterna non è necessaria.
-* Ogni mese, esportare un file da Keystone Collector e inviarlo tramite e-mail al team di supporto NetApp. Per ulteriori informazioni su come contattare il team di supporto, fare riferimento a link:../concepts/gssc.html["Ottieni aiuto con Keystone"].
+* Ogni mese, esporta un file da Keystone Collector e invialo via e-mail al team di supporto NetApp . Per maggiori informazioni su come contattare il team di supporto, fare riferimento a link:../concepts/support-services.html["Ottieni aiuto con Keystone"].
 
