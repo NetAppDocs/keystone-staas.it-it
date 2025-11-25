@@ -30,6 +30,10 @@ image:monitoring-alert-monitors-default-view-1.png["Uno screenshot dei monitor d
 +
 È possibile visualizzare un elenco dei monitor di avviso per tutti gli abbonamenti Keystone , inclusi i nomi dei monitor, le condizioni di avviso che attivano le notifiche, i livelli di gravità, i numeri di abbonamento, i livelli di servizio delle prestazioni e lo stato. È possibile controllare la colonna *Creato da* per verificare se i monitor di avviso sono generati dal sistema o definiti dall'utente.
 
++
+
+NOTE: La scheda *Report* non è attualmente disponibile per gli abbonamenti Keystone .
+
 
 
 
@@ -133,7 +137,7 @@ Quando è necessario intervenire, sopra l'elenco dei monitor di avviso viene vis
 * Identificare e gestire gli abbonamenti che non dispongono di un monitoraggio dell'utilizzo della capacità o della scadenza dell'abbonamento.
 * Esamina e gestisci i monitor che non sono attualmente associati ad alcun abbonamento.
 +
-image:coverage-gaps.png["Uno screenshot delle lacune di copertura per i monitor di avviso per gli abbonamenti Keystone"]
+image:coverage-gaps-1.png["Uno screenshot delle lacune di copertura per i monitor di avviso per gli abbonamenti Keystone"]
 
 
 

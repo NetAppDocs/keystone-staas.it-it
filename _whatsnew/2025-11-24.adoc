@@ -1,0 +1,11 @@
+= ID di tracciamento per abbonamenti con copertura gap
+:allow-uri-read: 
+
+
+Nuovi miglioramenti nella dashboard Keystone nella NetApp Console:
+
+
+
+=== ID di tracciamento per abbonamenti con copertura gap
+
+Nella casella di notifica *Completa la tua copertura* in *Monitoraggio > Monitor avvisi*, ogni abbonamento ora visualizza il proprio ID di monitoraggio accanto al numero di abbonamento.

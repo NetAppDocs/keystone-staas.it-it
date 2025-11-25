@@ -32,6 +32,10 @@ image:monitoring-alerts-default-view-1.png["Uno screenshot degli avvisi attivi p
 +
 È possibile visualizzare i dettagli dell'avviso, quali gravità, ID, descrizione, ora di attivazione, numero di abbonamento, ID di tracciamento, livello di servizio delle prestazioni e stato.  La pagina mostra anche il totale degli avvisi non risolti, suddivisi per gravità e tipo.
 
++
+
+NOTE: La scheda *Report* non è attualmente disponibile per gli abbonamenti Keystone .
+
 
 
 

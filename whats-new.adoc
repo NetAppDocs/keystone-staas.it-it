@@ -18,6 +18,18 @@ Scopri le ultime funzionalità e i miglioramenti dei servizi Keystone STaaS.
 
 
 
+== 24 novembre 2025
+
+Nuovi miglioramenti nella dashboard Keystone nella NetApp Console:
+
+
+
+=== ID di tracciamento per abbonamenti con copertura gap
+
+Nella casella di notifica *Completa la tua copertura* in *Monitoraggio > Monitor avvisi*, ogni abbonamento ora visualizza il proprio ID di monitoraggio accanto al numero di abbonamento.
+
+
+
 == 10 novembre 2025
 
 Nuovi miglioramenti nella dashboard Keystone nella NetApp Console:

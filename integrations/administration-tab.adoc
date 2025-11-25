@@ -19,13 +19,17 @@ summary: Visualizza o annulla la richiesta del servizio di abbonamento Keystone.
 Per visualizzare lo stato di avanzamento o annullare una richiesta, segui questi passaggi:
 
 .Fasi
-. Dal menu di navigazione a sinistra della Console, selezionare *Archiviazione > Keystone > Amministrazione*.
+. Dal menu di navigazione a sinistra della Console, selezionare *Archiviazione > Keystone > Amministrazione > Richieste*.
 +
 Viene visualizzato un elenco di tutte le richieste di servizio, con il numero della richiesta, il tipo di richiesta e lo stato attuale.
 
++
+
+NOTE: Le schede *Gestione agenti* e *Report* non sono attualmente disponibili per gli abbonamenti Keystone .
+
 . Puoi cliccare su image:down-arrow.png["icona freccia giù"] accanto alla colonna *Data di invio* per espandere il numero di richiesta e visualizzarne i dettagli. Vengono visualizzati i livelli di servizio prestazionali per cui vengono inviate le richieste.
 +
-image:console-service-request-list.png["uno screenshot mostra per quali livelli di servizio prestazionali vengono sollevate le richieste di modifica"]
+image:console-service-request-list.png["uno screenshot mostra i livelli di servizio delle prestazioni per le richieste di modifica"]
 
 . Selezionare il numero di richiesta per visualizzare informazioni dettagliate, tra cui i dettagli delle modifiche per l'abbonamento richiesto e lo stato di avanzamento attuale.
 +
