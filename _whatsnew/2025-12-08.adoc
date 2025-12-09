@@ -1,0 +1,11 @@
+= Etichetta di capacità di burst accumulata rinominata
+:allow-uri-read: 
+
+
+Nuovi miglioramenti nella dashboard Keystone nella NetApp Console:
+
+
+
+=== Etichetta di capacità di burst accumulata rinominata
+
+L'etichetta *Capacità burst accumulata* viene rinominata in *Burst accumulato*.

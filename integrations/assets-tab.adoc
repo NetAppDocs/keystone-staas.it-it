@@ -22,9 +22,13 @@ summary: Utilizza la scheda delle risorse per visualizzare dettagli di cluster e
 
 La scheda *Risorse* nella pagina *Sottoscrizioni* mostra informazioni dettagliate sui volumi nei cluster, sui nodi StorageGRID e sui nodi ONTAP associati alla sottoscrizione, inclusi vari dettagli e lo stato della capacità.
 
+[NOTE]
+====
+* Questa visualizzazione è limitata a un abbonamento Keystone alla volta. Puoi anche visualizzare le risorse di altri abbonamenti selezionandole dall'elenco a discesa *ID di monitoraggio*. La dashboard Keystone nella console NetApp consente di visualizzare le risorse di più abbonamenti Keystone . Per saperne di più, fare riferimento alink:../integrations/assets.html["Visualizza le risorse nei tuoi abbonamenti Keystone"] .
+* Le opzioni del menu a discesa *Visualizza* dipendono dalle piattaforme di abbonamento Keystone . *Volumi in cluster* e *Nodi in cluster* sono disponibili per ONTAP. Per StorageGRID, il menu a discesa *Visualizza* non è disponibile, la tabella *Nodi nelle griglie* viene visualizzata automaticamente. Se il tuo abbonamento include entrambe le piattaforme, saranno disponibili tutte e tre le opzioni.
 
-NOTE: Questa visualizzazione è limitata a un abbonamento Keystone alla volta. Puoi anche visualizzare le risorse di altri abbonamenti selezionandole dall'elenco a discesa *ID di monitoraggio*. La dashboard Keystone nella console NetApp consente di visualizzare le risorse di più abbonamenti Keystone . Per saperne di più, fare riferimento alink:../integrations/assets.html["Visualizza le risorse nei tuoi abbonamenti Keystone"] .
 
+====
 Puoi visualizzare queste informazioni seguendo questi passaggi:
 
 [role="tabbed-block"]
@@ -34,9 +38,6 @@ Puoi visualizzare queste informazioni seguendo questi passaggi:
 .Fasi
 . Dal menu di navigazione a sinistra della Console, seleziona *Archiviazione > Keystone > Abbonamenti*.
 . Selezionare il numero di abbonamento nella colonna *Numero di abbonamento* della tabella.
-+
-Il sistema apre la scheda *Consumo attuale*.
-
 . Selezionare la scheda *Risorse*.
 . Selezionare *Volumi nel cluster* dal menu a discesa *Visualizza*.
 +

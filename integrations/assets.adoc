@@ -16,6 +16,9 @@ summary: Utilizza la scheda delle risorse per visualizzare dettagli di cluster e
 [role="lead"]
 La dashboard Keystone nella console NetApp consente di visualizzare informazioni dettagliate sui nodi nei cluster, sui volumi forniti e sui nodi StorageGRID su più abbonamenti Keystone , in base alle autorizzazioni di accesso. Questa visualizzazione non è disponibile in Digital Advisor.
 
+
+NOTE: La pagina *Risorse* visualizza le schede in base alle piattaforme associate ai tuoi abbonamenti Keystone . Per ONTAP sono disponibili sia le schede *Nodi nei cluster* che *Volumi nei cluster*. Per StorageGRID, la tabella *Nodi nelle griglie* viene visualizzata direttamente senza una selezione tramite scheda. Se gli abbonamenti includono entrambe le piattaforme, saranno disponibili tutte e tre le schede.
+
 [role="tabbed-block"]
 ====
 .Nodi nei cluster

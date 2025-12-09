@@ -29,34 +29,21 @@ Attenersi alla seguente procedura:
 . Nella _fase 1_ della procedura guidata *Deploy OVF Template*, fare clic su *Select and OVF template* (Seleziona e modello OVF) per selezionare il modello scaricato `KeystoneCollector-latest.ova` file.
 . Al _passaggio 2_, specificare il nome della macchina virtuale e selezionare la cartella della macchina virtuale.
 . Nel _passaggio 3_, specificare la risorsa di calcolo richiesta per l'esecuzione della macchina virtuale.
-. Al _passaggio 4: Verifica dei dettagli_, verifica la correttezza e l'autenticità del file OVA.
-Le versioni di vCenter precedenti al 7.0u2 non sono in grado di verificare automaticamente l'autenticità del certificato con firma del codice. VCenter 7.0u2 e versioni successive possono eseguire le verifiche; tuttavia, a tale scopo, l'autorità di certificazione della firma deve essere aggiunta a vCenter. Seguire queste istruzioni per la versione di vCenter in uso:
+. Nel _Passaggio 4: Verifica i dettagli_, verifica la correttezza e l'autenticità del file OVA.
 +
-.VCenter 7.0u1 e versioni precedenti: Ulteriori informazioni
-[%collapsible]
-====
-VCenter convalida l'integrità del contenuto del file OVA e fornisce un digest valido per la firma del codice per i file contenuti nel file OVA. Tuttavia, non convalida l'autenticità del certificato con firma del codice. Per verificare l'integrità, devi scaricare il certificato digest completo della firma e verificarlo rispetto al certificato pubblico pubblicato da Keystone.
+L'archivio attendibilità radice di vCenter contiene solo certificati VMware. NetApp utilizza Entrust come autorità di certificazione e tali certificati devono essere aggiunti all'archivio attendibile di vCenter.
 
-.. Fare clic sul collegamento *Publisher* per scaricare il certificato di digest completo della firma.
-.. Scarica il certificato pubblico _Keystone Billing_ da https://keystone.netapp.com/downloads/OVA-SSL-NetApp-Keystone-20251020.pem["questo link"^].
-.. Verificare l'autenticità del certificato di firma OVA rispetto al certificato pubblico utilizzando OpenSSL:
-`openssl verify -CAfile OVA-SSL-NetApp-Keystone-20251020.pem keystone-collector.cert`
-
-
-====
 +
-.VCenter 7.0u2 e versioni successive: Ulteriori informazioni
-[%collapsible]
-====
-7.0u2 e le versioni successive di vCenter sono in grado di validare l'integrità del contenuto del file OVA e l'autenticità del certificato di firma del codice, quando viene fornito un digest valido per la firma del codice. L'archivio root trust vCenter contiene solo certificati VMware. NetApp utilizza Entrust come autorità di certificazione e tali certificati devono essere aggiunti all'archivio di fiducia di vCenter.
-
 .. Scarica il certificato CA di firma del codice da Sectigo https://comodoca.my.salesforce.com/sfc/p/1N000002Ljih/a/3l000000oAhy/QCCby12C7cYo50nNyic6AuG1KFcwe1rDn1EknfTaUzY["qui"^].
 .. Seguire la procedura descritta in `Resolution` Sezione di questo articolo della Knowledge base (KB): https://kb.vmware.com/s/article/84240[].
++
 
+NOTE: Per le versioni vCenter 7.x e precedenti, è necessario aggiornare vCenter ed ESXi alla versione 8.0 o successiva. Le versioni precedenti non sono più supportate.
 
-====
 +
 Una volta convalidata l'integrità e l'autenticità del Keystone Collector OVA, è possibile visualizzare il testo `(Trusted certificate)` con l'editore. image:ova-deploy-1.png["OVA UI che visualizza un certificato verificato"]
+
+
 
 . Nella _fase 5_ della procedura guidata *Deploy OVF Template*, specificare la posizione in cui memorizzare la macchina virtuale.
 . Nel _passaggio 6_, selezionare la rete di destinazione per la macchina virtuale da utilizzare.

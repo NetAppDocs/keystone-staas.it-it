@@ -22,6 +22,15 @@ I problemi riscontrati nelle precedenti release dei servizi NetApp Keystone STaa
 
 
  a| 
+Gli abbonamenti visualizzano erroneamente lo stato *Sopra il limite di burst* nella dashboard Digital Advisor nonostante il consumo rientri nei limiti di burst consentiti.
+ a| 
+Corretto
+ a| 
+2025-12-08
+
+
+
+ a| 
 Manca la linea della soglia di burst dai grafici di tendenza del consumo per gli abbonamenti configurati con una configurazione MetroCluster nella dashboard di Digital Advisor , che mostra uno stato *Sopra il limite di burst* errato.
  a| 
 Corretto

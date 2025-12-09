@@ -18,6 +18,18 @@ Scopri le ultime funzionalità e i miglioramenti dei servizi Keystone STaaS.
 
 
 
+== 08 dicembre 2025
+
+Nuovi miglioramenti nella dashboard Keystone nella NetApp Console:
+
+
+
+=== Etichetta di capacità di burst accumulata rinominata
+
+L'etichetta *Capacità burst accumulata* viene rinominata in *Burst accumulato*.
+
+
+
 == 24 novembre 2025
 
 Nuovi miglioramenti nella dashboard Keystone nella NetApp Console:
