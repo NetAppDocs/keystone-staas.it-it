@@ -373,7 +373,6 @@
   <block id="8a43eb05c3b74f093be84dcedec105e4" category="list-text">Podman (gestore POD)</block>
   <block id="431e077067178a6dd061f1e2ab20209d" category="list-text">sos</block>
   <block id="e284374909d82a81c5150b7908e00147" category="list-text">cronico</block>
-  <block id="3c048c264642c17c1d0bbd50b9e23bfe" category="list-text">python 3 (da 3.6.8 a 3.9.13)</block>
   <block id="3cd8ee624224889231554d68f6c0f471" category="list-text">Core: 2 CPU</block>
   <block id="729c0bdf36ec5a81531eff6e6786c89d" category="list-text">RAM: 4 GB DI RAM</block>
   <block id="6689c36f38716c4f3b09772966e38e5d" category="list-text">Spazio su disco: Disco virtuale da 50 GB</block>
@@ -2486,4 +2485,5 @@ Ecco un esempio:</block>
   <block id="7a29351a5aff62fec009044b13aad77f" category="paragraph">Gli abbonamenti visualizzano erroneamente lo stato *Sopra il limite di burst* nella dashboard Digital Advisor nonostante il consumo rientri nei limiti di burst consentiti.</block>
   <block id="81899b5a6230dd4cf7e0bff4dbc71dfb" category="paragraph">2025-12-08</block>
   <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">08 dicembre 2025</block>
+  <block id="ee53a2d144b153a8ad44855abe0429a8" category="list-text">python 3 (da 3.9.14 a 3.11.8)</block>
 </blocks>

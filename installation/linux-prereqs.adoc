@@ -36,7 +36,7 @@ Lo stesso server deve avere anche i seguenti pacchetti di terze parti:
 * Podman (gestore POD)
 * sos
 * cronico
-* python 3 (da 3.6.8 a 3.9.13)
+* python 3 (da 3.9.14 a 3.11.8)
 
 
 .Macchina virtuale del server collettore di Keystone:
