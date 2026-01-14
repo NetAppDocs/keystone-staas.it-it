@@ -4,7 +4,7 @@ permalink: concepts/pricing.html
 keywords: pricing, billing introduction, Keystone billing 
 summary: Keystone offre un modello pay-as-you-grow per le tue esigenze di consumo flessibili e scalabili. 
 ---
-= Prezzo Keystone
+= Scopri i prezzi Keystone
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

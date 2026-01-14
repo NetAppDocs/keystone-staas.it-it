@@ -4,7 +4,7 @@ permalink: concepts/committed-capacity-billing.html
 keywords: Billing based on committed capacity, committed capacity billing 
 summary: 'La capacità impegnata è la capacità impegnata per un determinato livello di servizio durante l"acquisto dell"abbonamento.' 
 ---
-= Fatturazione basata sulla capacità impegnata
+= Comprendere la fatturazione della capacità impegnata Keystone
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

@@ -366,7 +366,6 @@
   <block id="f5dfacf7a95f4945b3caa091e27ec747" category="doc">Panoramica di Keystone Collector</block>
   <block id="082821bd60f72deca861daa75a2c3020" category="paragraph">Questo diagramma di architettura illustra i componenti costitutivi e la loro connettività in un tipico ambiente Keystone.</block>
   <block id="79e0703c840b981be16f9e1a40c5a0b4" category="inline-image-macro">architettura di collector</block>
-  <block id="ec42ecd035e3697033aaf0a3f87f6d29" category="doc">Requisiti di sistema per Linux</block>
   <block id="6c0ecb6db472eae3c84276b7cd5ea34f" category="list-text">Tempo cronyd sincronizzato</block>
   <block id="25c10b524de794226cf520c9a3dacc83" category="list-text">Accesso ai repository software Linux standard</block>
   <block id="8dff4f66fbdc44d35cadc9cf566cab06" category="paragraph">Lo stesso server deve avere anche i seguenti pacchetti di terze parti:</block>
@@ -498,7 +497,6 @@
   <block id="39fd5e3ddc496ef780ff5e3fe13bb2d1" category="section-title">Conformità SnapLock</block>
   <block id="f14c7b4687be07acacb0f5aeed1474f5" category="inline-link">Che cos'è SnapLock</block>
   <block id="83cd48b4617f1e69361a1ecec3f5b3a3" category="summary">Fatturazione basata su diversi tipi di volume</block>
-  <block id="bb6903e39254cc1a8d4ee2116c8e91e1" category="doc">Scenari vari per la fatturazione Keystone</block>
   <block id="ff6306dccf086261b36fc9764ec0a69c" category="section-title">Fatturazione per volumi clonati</block>
   <block id="ba4c22a98feebac558bbaac68b704e09" category="section-title">Fatturazione per volumi temporanei</block>
   <block id="480da42f59e7a8b523d40d52ba830cb8" category="paragraph">Occasionalmente, i volumi temporanei (TMP) vengono creati da ONTAP durante lo spostamento dei volumi. Questi volumi temporanei sono di breve durata e il consumo su questi volumi non viene misurato per la fatturazione.</block>
@@ -584,7 +582,6 @@
   <block id="2951c1f61944250838607486af8b4ac0" category="sidebar">Aggiorna Keystone Collector</block>
   <block id="cdc9f551ac993c356214a8c16ca3cec2" category="sidebar">Dati raccolti per la fatturazione</block>
   <block id="a84d47a9c10091a234dee7fdfbd4ae68" category="sidebar">Metriche e definizioni</block>
-  <block id="780c462e85ba4399a5d42e88f69a15ca" category="sidebar">Fatturazione</block>
   <block id="05bbb43b3d923283e0b6ffafd088f41f" category="sidebar">Componenti</block>
   <block id="51e229527022b23ef548bfc016bfb0ac" category="sidebar">Flusso di dati</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Inizia subito</block>
@@ -703,7 +700,6 @@ Ecco un esempio:</block>
   <block id="36234decc68306d26e71012f98474aa1" category="paragraph">Questa funzionalità è disponibile in una modalità di sola anteprima. Contattare il proprio KSM per ulteriori informazioni su questa funzione.</block>
   <block id="efca37f4dc4125775aa5043cc3e4ba6c" category="list-text">Selezionare l'intervallo di date per la query. L'intervallo di date può essere l'inizio del mese o la data di inizio dell'abbonamento alla data corrente o la data di fine dell'abbonamento. Non è possibile selezionare una data futura.</block>
   <block id="f9e4dd599c840788d289af630bc65cdb" category="list-text">*Current Burst*: Indicatore della capacità consumata entro o al di sopra del limite di burst definito. Qualsiasi utilizzo entro il limite di burst per l'abbonamento, ad esempio, il 20% sopra la capacità impegnata è entro il limite di burst. L'utilizzo ulteriore viene considerato come utilizzo superiore al limite di burst. Questo campo visualizza colori specifici:</block>
-  <block id="9f06d116e9e0b83604b7fd60a2234a51" category="doc">Requisiti per ONTAP e StorageGRID</block>
   <block id="c3ce6809be6bdc67ae978395484d0585" category="list-text">ONTAP 9,8 o versione successiva</block>
   <block id="ad98fcce772f03d25a2b4758c7fbf35c" category="list-text">Verificare che Unified Manager 9,10 o versione successiva sia configurato Per informazioni sull'installazione di Unified Manager, consultare i seguenti collegamenti:</block>
   <block id="8414d36b2c6d9865a2f13b42f9ef6e91" category="list-text">StorageGRID<block ref="eb0ecbdf20891e5963990e2643405555" prefix=" " category="inline-code"></block> o versioni successive. Per informazioni sull'aggiornamento di StorageGRID, vedere <block ref="97cb3175bb06374adaf739435d4e2f76" category="inline-link-macro-rx"></block>.</block>
@@ -907,7 +903,6 @@ Ecco un esempio:</block>
   <block id="bff50f1947dbec1e11bc66d60ca0b1d9" category="sidebar">Storage supportato</block>
   <block id="7618f9f854f7d4bc7c7026ffaab24dae" category="sidebar">Capacità supportata</block>
   <block id="c6f45ce2284ef7f44c38a58ebbd013e0" category="sidebar">Livelli di servizio</block>
-  <block id="ab556116f6e3e88a66d6fb6d623318fa" category="sidebar">Servizi add-on</block>
   <block id="a896a08a07f491f10b65b593a6b1ecd6" category="paragraph">Posizionamento errato dei dati Keystone nei report CSV se la colonna *Nome account* nei report CSV, generata dalla scheda *Trend capacità*, include un nome account con una virgola<block ref="e1266d71c305ae3767d9d953acaf0aae" prefix=" " category="inline-code"></block>.</block>
   <block id="b424d6cf899d73ac410dfcf534d8fb4d" category="paragraph">I dati Keystone sono correttamente allineati nei report CSV.</block>
   <block id="f0ee2833137c8c18cdfab03dc246ee49" category="paragraph">29 maggio 2024</block>
@@ -981,15 +976,12 @@ Ecco un esempio:</block>
   <block id="44356560df15caffd928422c99dc9948" category="summary">I requisiti di capacità per i livelli di servizio sono diversi a seconda dello storage di file, blocchi, oggetti o cloud supportato dall'iscrizione Keystone STaaS.</block>
   <block id="d19b993b24e968320c9cf842a96fd2e4" category="summary">La capacità impegnata è la capacità impegnata per un determinato livello di servizio durante l'acquisto dell'abbonamento.</block>
   <block id="7053560fccb48096070dc008e686cf8d" category="summary">Conoscere i componenti richiesti per abilitare i servizi NetApp Keystone STaaS nel tuo ambiente.</block>
-  <block id="605e1ff8075e66e13ef5bc1257800be7" category="doc">Componenti necessari per l'implementazione</block>
-  <block id="1d338514e4b31738eb689c9e5bf1deca" category="paragraph">Per abilitare i servizi NetApp Keystone STaaS nel tuo ambiente sono necessari diversi componenti. Prima di iniziare, è necessario rivedere i dettagli su questi componenti.</block>
   <block id="d246f9b425c150eb3d6e174fbc2525d0" category="paragraph">Keystone Collector può essere implementato utilizzando i seguenti metodi:</block>
   <block id="3332bc574644f77a870b242a631af1e3" category="summary">La capacità consumata è la capacità effettivamente utilizzata dai tuoi workload durante l'utilizzo del servizio.</block>
   <block id="7a6709ab5e3b396814fccf37c263ad1f" category="paragraph">Keystone STaaS ha una misurazione basata sulla capacità consumata dall'utente durante l'utilizzo del servizio. La capacità consumata è la capacità effettivamente utilizzata dai carichi di lavoro.</block>
   <block id="35ff061e0e3d6c0c79e597b4d638231e" category="paragraph">Nell'ambito dell'implementazione del servizio Keystone, NetApp monitora e misura continuamente il consumo del servizio. Almeno una volta ogni cinque minuti, il sistema genera un record di consumo, con dettagli sulla capacità consumata corrente per l'iscrizione. Questi record vengono aggregati nel periodo di fatturazione per generare fatture e report sull'utilizzo.</block>
   <block id="a0bf4fc3f702627df39c1daec928bb04" category="summary">I dati nei sistemi Keystone STaaS passano attraverso Keystone Collector e lo strumento di soluzione AIOP, che è il sistema di monitoring associato.</block>
   <block id="fd730f411ecf3d749480ce42fb6b5281" category="summary">Il servizio add-on di tiering dei dati identifica i dati utilizzati meno di frequente ed esegue il tiering dei dati nello storage supportato.</block>
-  <block id="1ef28d15d6a0ac03d072691320e9c61b" category="doc">Scopri di più sul tiering dei dati</block>
   <block id="9c749342ce1dc8c39f5e67d29a9500ac" category="doc">Ottieni aiuto con Keystone</block>
   <block id="24acde87a618c9dc2d11377311afc495" category="summary">L'infrastruttura, la progettazione, la scelta della tecnologia e i prodotti componenti Keystone risiedono esclusivamente in NetApp.</block>
   <block id="7954e225c8bd390ff2168144c5e393c1" category="paragraph">NetApp è l'unico responsabile dell'infrastruttura, della progettazione, delle scelte tecnologiche e dei componenti di Keystone, che si applica sia agli ambienti NetApp che agli ambienti gestiti dal cliente.</block>
@@ -1039,7 +1031,6 @@ Ecco un esempio:</block>
   <block id="983166db9c209be0406993868f07319e" category="doc">Visualizza le metriche delle performance</block>
   <block id="a7a03de7b430dd390a52a4acaf198ea0" category="summary">Per ulteriori informazioni sulle tue iscrizioni Keystone, puoi visualizzare un elenco di tutte le tue iscrizioni nella scheda Sottoscrizioni.</block>
   <block id="91ccf36d6487c0c6be127a65f4ee107b" category="summary">Puoi visualizzare i dettagli della capacità a livello di volume o storage a oggetti.</block>
-  <block id="3641aacbdeb7ae21200b69f8628f5b4e" category="doc">Visualizza dettagli sui volumi ONTAP e sullo storage a oggetti</block>
   <block id="a7a411a95daabfbcf6e39078b5f44902" category="summary">I problemi riscontrati nelle precedenti release dei servizi NetApp Keystone STaaS sono stati risolti nelle release successive.</block>
   <block id="6ee3962f219413522af2700bec386d97" category="sidebar">Documentazione Keystone</block>
   <block id="dcb83accddabcabf987373583a058d0d" category="sidebar">Infrastruttura virtuale</block>
@@ -1276,7 +1267,6 @@ Ecco un esempio:</block>
   <block id="faedc5ec46a38871a78be1ed37e01e63" category="inline-image-macro">premessa per il cliente</block>
   <block id="1d43476b2c183791ba51d56636a41b1c" category="paragraph"><block ref="1d43476b2c183791ba51d56636a41b1c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ddedaabf1afb461a6e3d2fe1320dcca0" category="summary">Prima di installare Keystone Collector in un ambiente senza accesso a Internet, noto anche come _dark site_ o _private mode_, assicurarsi che i sistemi siano preparati con il software necessario e soddisfino tutti i prerequisiti richiesti.</block>
-  <block id="fd7fae83015d688b86a7ec1ed256864e" category="doc">Preparare l'installazione in modalità privata</block>
   <block id="2b9854b0330b42530e0aaf8e893e2f28" category="section-title">Requisiti di VMware vSphere</block>
   <block id="0a07fd95ca9bf6935ce5e61609730be6" category="list-text">RAM: 2 GB</block>
   <block id="c53de6b17f1d8da5e4d60aca127be380" category="section-title">Requisiti per Linux</block>
@@ -1406,7 +1396,6 @@ Ecco un esempio:</block>
   <block id="4a1c882b0ab41fd998beccee85292567" category="list-text">*Istantanea fisica*: Visualizza lo spazio fisico utilizzato dagli snapshot.</block>
   <block id="ff17f3533de401f605df9cf9c2553b80" category="paragraph">Queste colonne forniscono una maggiore chiarezza nella colonna *logica utilizzata*, che mostra la capacità logica combinata utilizzata dal file system attivo del volume e lo spazio fisico utilizzato dagli snapshot.</block>
   <block id="28734ee482d13456cc49c54e4f4ae12f" category="summary">Data Infrastructure Insights migliora l'efficienza Keystone STaaS monitorando, risoluzione dei problemi e ottimizzando lo storage nei cloud pubblici e nei data center privati.</block>
-  <block id="a66177733b1b85eabceb5f32ad65a8f2" category="doc">Scopri di più su Data Infrastructure</block>
   <block id="3b95e9802e539ed39990d7c53e7f63cc" category="paragraph">NetApp Data Infrastructure Insights (DII, in precedenza noto come Cloud Insights) è un'offerta aggiuntiva per Keystone STaaS. L'integrazione di questo servizio con Keystone STaaS migliora le funzionalità di monitoraggio, troubleshooting e ottimizzazione delle risorse storage fornite da Keystone tra cloud pubblici e data center privati.</block>
   <block id="b4116a637c9ad7ac63e4694f7d72fe47" category="inline-link-macro">Documentazione Data Infrastructure Insights</block>
   <block id="791f81543da974a0b785676eb2cfa67d" category="paragraph">Per ulteriori informazioni su Data Infrastructure Insights, fare riferimento a <block ref="d3b10d06b902e7a0afb7dc49b48a5ee1" category="inline-link-macro-rx"></block>.</block>
@@ -1473,7 +1462,6 @@ Ecco un esempio:</block>
   <block id="4bb1ec7470540bdb0d6aeee19ef42670" category="paragraph">Prima di inviare la richiesta di servizio, assicurarsi di disporre dei dettagli di sistema, dei registri e delle informazioni correlate. Quando rilanci una richiesta di servizio, il team di supporto Keystone riceve il ticket di supporto e accede alle informazioni per il troubleshooting. Puoi seguire il tuo ticket ServiceNow per conoscere lo stato e la risoluzione.</block>
   <block id="8851c6fe19bf967cca1a7747c9a0b08e" category="list-text">Soluzione di monitoring Keystone IT Operations Management (ITOM): Un'applicazione SaaS basata sul cloud utilizzata per monitorare il tuo ambiente Keystone. Dispone di integrazioni integrate con le piattaforme storage NetApp per raccogliere dati ambientali e monitorare i componenti di calcolo, rete e storage della tua infrastruttura Keystone. Questa funzionalità di monitoraggio si estende alle configurazioni on-premise, ai data center, agli ambienti cloud o a qualsiasi combinazione di questi. Il servizio è abilitato con l'aiuto di un ITOM Collector locale installato nel vostro sito che comunica con il portale cloud.</block>
   <block id="b9582a9d01a3bb00c5c7df318f3cd4ed" category="summary">Il supporto protetto degli Stati Uniti è un servizio add-on che offre la fornitura e il supporto dei servizi Keystone in corso da parte dei cittadini degli Stati Uniti in territorio statunitense.</block>
-  <block id="3ed89ff08462e73f47156395fd0c75ac" category="doc">Ulteriori informazioni su USPS</block>
   <block id="21fe13388dd575bae131356d62eb3d04" category="paragraph">USPS (United States Protected Support) è un'offerta aggiuntiva per gli abbonamenti NetApp Keystone. Ti dà diritto a ricevere la consegna e il supporto dei servizi Keystone in corso dai cittadini degli Stati Uniti in territorio statunitense.</block>
   <block id="10d701676d6c78ebafad1c0adf816cc7" category="section-title">Monitoraggio USPS NetApp</block>
   <block id="75d0ff56559c8650dad12b15a71e6950" category="paragraph">Il team di supporto NetApp USPS Keystone monitora la salute dei tuoi prodotti e dei servizi sottoscritti, fornisce supporto remoto e collabora con il tuo Keystone Success Manager. Tutto il personale che monitora i prodotti associati ai relativi ordini di abbonamento Keystone è U. S cittadini che operano sul suolo degli Stati Uniti.</block>
@@ -1997,14 +1985,11 @@ Ecco un esempio:</block>
   <block id="09db5cf9dee1953ac746dd636e0db3e0" category="cell">4 TIB</block>
   <block id="4e5cad9a39114e168c84b904c78fec9d" category="cell">1 TIB</block>
   <block id="bc77ca7eec2239d9c8adeac7ce7f82d5" category="summary">Lo SLO di disponibilità prevede un uptime del 99,999% durante un periodo di fatturazione per gli storage array flash All NetApp ONTAP implementati per fornire l'ordine Keystone.</block>
-  <block id="e8c509dfbc0b346aec123561cefe21f5" category="doc">SLO di disponibilità</block>
   <block id="42feb95053e6c0f7f616750b23dd7d6b" category="paragraph">Tutti i livelli di servizio prestazionali supportati dagli array di storage flash ONTAP sono idonei per l'SLO di disponibilità. Per ulteriori informazioni, fare riferimento a <block ref="b7d94ab5747cf2f7821847d435faf714" category="inline-link-macro-rx"></block>.</block>
   <block id="e89bdbf88ea78e787698305e26fb7442" category="summary">Keystone offre SLO basato sulla latenza per livello di servizio delle prestazioni, come descritto nell'ordine Keystone per la capacità consumata fino al limite di burst.</block>
-  <block id="f0957db7a6996ab97df608582080c892" category="doc">SLO sulle performance</block>
   <block id="9f6ccc631816a7182a52d977c6827823" category="paragraph">NetApp Keystone offre un SLO basato sulla latenza per livello di servizio prestazionale, come descritto nell'ordine Keystone per la capacità consumata fino al limite di burst, secondo i termini e le condizioni elencati di seguito.</block>
   <block id="ee885029cef025cf8095b86bb4f661a1" category="paragraph">Tutti i livelli di servizio prestazionali supportati dagli array di storage flash ONTAP sono idonei per il Performance SLO e garantiscono il rispetto della seguente latenza target:</block>
   <block id="6f7cc0a1419b02f4c77b218d576fc3c6" category="summary">Keystone fornisce una misurazione garantita del numero massimo di watt effettivi per tebibyte (W/TiB) per i servizi di storage basati su array di storage flash ONTAP con Sustainability SLO.</block>
-  <block id="c1449940fb5db82f8f5705ebd6ebb96a" category="doc">SLO di sostenibilità</block>
   <block id="c55e6c034cd841d3f6ae411f366dff41" category="paragraph">NetApp Keystone fornisce una misura garantita del numero massimo di watt effettivi per tebibyte (W/TiB) per i servizi di storage basati sugli array di storage flash ONTAP con SLO di sostenibilità. L'SLO di sostenibilità definisce il consumo massimo di W/TiB per ciascun livello di servizio prestazionale idoneo, aiutando le organizzazioni a raggiungere i propri obiettivi di sostenibilità.</block>
   <block id="a34e28733c3e31c61bc771774cdf1a91" category="paragraph">Gli SLO relativi alla sostenibilità si basano sui seguenti criteri di consumo:</block>
   <block id="7649a9c2aa81e74af3af6ce5c9dcb1f7" category="cell">*Criteri SLO*</block>
@@ -2059,7 +2044,6 @@ Ecco un esempio:</block>
   <block id="ac75d9678d2b707154377e207cada198" category="paragraph">I dati vengono visualizzati in base alla data di inizio selezionata per l'abbonamento.</block>
   <block id="914dcbba0b077ce4f352aa32f6a6d389" category="sidebar">NetApp Keystone è un'offerta di storage-as-a-service con pagamento in base al consumo, per servizi di storage dati sia in locale che nel cloud, con un unico abbonamento e la possibilità di riallocare la spesa di storage tra i cloud.</block>
   <block id="d390d1bb241eb25a8ca394226a403023" category="sidebar">Aumentare la capacità di scoppio</block>
-  <block id="66fb046e2c5f18ee0925adc05ac14d1f" category="sidebar">SLO Keystone STaaS</block>
   <block id="cfa9db7c89ff68cb147c3dad7e8b0b59" category="section-title">Rilascio Keystone versione 3 (v3).</block>
   <block id="e4662d7ea2c66dc53eb2e68d2bceffac" category="paragraph">Per iniziare, vai su *Archiviazione &gt; Keystone* nel menu di navigazione a sinistra di BlueXP. Per ulteriori informazioni, fare riferimento a <block ref="d1eddf69542d0beadf02459455377203" category="inline-link-macro-rx"></block>.</block>
   <block id="b77e8ec0a3425747f32b3dbc303adecb" category="section-title">30 giugno 2025</block>
@@ -2486,4 +2470,39 @@ Ecco un esempio:</block>
   <block id="81899b5a6230dd4cf7e0bff4dbc71dfb" category="paragraph">2025-12-08</block>
   <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">08 dicembre 2025</block>
   <block id="ee53a2d144b153a8ad44855abe0429a8" category="list-text">python 3 (da 3.9.14 a 3.11.8)</block>
+  <block id="40dc71902dbb22353822b7c6f15c3256" category="doc">Scopri di più sulle pianificazioni di fatturazione Keystone</block>
+  <block id="584993c35b748425f19f9e50be222b34" category="doc">Componente aggiuntivo di capacità burst per gli abbonamenti Keystone</block>
+  <block id="ffd6b4f303043d2028c208b958f00d68" category="doc">Comprendere la fatturazione dei consumi a raffica Keystone</block>
+  <block id="e1ae7a5642f41154cb522f32ff888693" category="doc">Requisiti di capacità per i livelli di servizio delle prestazioni Keystone</block>
+  <block id="43a8976cc8e9860d073f99a10c9863d6" category="doc">Comprendere la fatturazione della capacità impegnata Keystone</block>
+  <block id="a2cec0e19e9a9e466d5734a20002287a" category="doc">Componenti necessari per i servizi Keystone</block>
+  <block id="e6031ccc926a297ed489fed2eb5fc832" category="paragraph">Per abilitare i servizi NetApp Keystone STaaS sono necessari diversi componenti. Prima di iniziare, esamina questi componenti.</block>
+  <block id="58e037d24f45a1e3501979b1777d7d37" category="doc">Comprendere la misurazione della capacità consumata Keystone</block>
+  <block id="7b2a0cab269bf73e47e958a9123402e1" category="doc">Componente aggiuntivo Data Infrastructure Insights per Keystone</block>
+  <block id="f4661181da0130d61f3128498582908f" category="doc">Servizio aggiuntivo di tiering dei dati per Keystone</block>
+  <block id="ac6db46674728d3a4cb59b937dd96ead" category="doc">Comprendere l'infrastruttura Keystone</block>
+  <block id="1bd0df1c0529e8e6ca90f1e4081e2d82" category="doc">Scopri di più sulla fatturazione Keystone per configurazioni di volume specifiche</block>
+  <block id="62fb7818da74bdf8e586f11aa4b2f85f" category="doc">Componenti non restituibili e non volatili e servizio aggiuntivo di conformità SnapLock per Keystone</block>
+  <block id="43b82c4e7e58013ebe91d40fcb3f7718" category="doc">SLO di disponibilità per Keystone</block>
+  <block id="259bdb910694b04b20beea4776938bc1" category="doc">SLO di prestazioni per Keystone</block>
+  <block id="55f8301e147b74d377ba17c059419cab" category="doc">Garanzia di recupero ransomware per Keystone</block>
+  <block id="34a4bf3e6647e3dbdeb2e4f10c663eab" category="doc">SLO di sostenibilità per Keystone</block>
+  <block id="27aa1272743b7f2386d3189a53b56acd" category="doc">Componente aggiuntivo USPS per Keystone</block>
+  <block id="640eca2728ec0e817f889513c2454e02" category="doc">Prepararsi all'installazione Keystone Collector in modalità privata</block>
+  <block id="52f54d887aa41d09a6436a07a2e0764c" category="doc">Requisiti per ONTAP e StorageGRID per Keystone</block>
+  <block id="116f188b55b3963186369fe6e76fae16" category="doc">Installa Keystone ITOM Collector sui sistemi Linux</block>
+  <block id="d647eab7452f325c298991f79290af31" category="doc">Installa Keystone ITOM Collector sui sistemi Windows</block>
+  <block id="74f090b00ecfc3bb510bf3a2b3fdddf6" category="doc">Requisiti di installazione per Keystone ITOM Collector</block>
+  <block id="55475d8525e013b6947b8ede53eb8ae5" category="doc">Requisiti Linux per Keystone Collector</block>
+  <block id="6fc90e2a8d0946c1f1f194899150fe9b" category="doc">Requisiti dell'infrastruttura virtuale per Keystone Collector</block>
+  <block id="38be486c4673fb74ade0038da0ecfa65" category="doc">Visualizza le metriche delle prestazioni per gli abbonamenti Keystone</block>
+  <block id="1dd0253353633fba5037901ed7ca93a1" category="doc">Visualizza i volumi ONTAP e i dettagli di archiviazione degli oggetti per gli abbonamenti Keystone</block>
+  <block id="8beb28d57ca1bb568fef4619e190f809" category="doc">Genera token di aggiornamento e accesso per Keystone</block>
+  <block id="bac9b6c348c931a976006431b4b392d7" category="doc">Ottieni i dettagli sui consumi dei clienti Keystone utilizzando l'API REST Digital Advisor</block>
+  <block id="70233a54c59d50201e00e568353b8e42" category="doc">Ottieni un elenco di tutti i clienti Keystone che utilizzano l'API REST Digital Advisor</block>
+  <block id="bb9f69edc6b159c2172c134f7b8ec8d9" category="doc">Ottieni abbonamenti clienti Keystone utilizzando l'API REST Digital Advisor</block>
+  <block id="ec3c5dc2acc96dd435267e93ff378ceb" category="sidebar">Scopri di più sui servizi aggiuntivi</block>
+  <block id="1c0706b323b25df07171d935dadca63d" category="sidebar">Scopri di più su Keystone STaaS SLO</block>
+  <block id="4996475aff4a957b37439e45da70e7da" category="sidebar">Comprendere la fatturazione</block>
+  <block id="d7343c0d20dd2babfa5f38e0b87a6939" category="sidebar">Fatturazione per configurazioni di volume specifiche</block>
 </blocks>

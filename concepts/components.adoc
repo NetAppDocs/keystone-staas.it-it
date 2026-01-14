@@ -4,7 +4,7 @@ permalink: concepts/components.html
 keywords: infrastructure component, deployment requirement, installation requirement 
 summary: Conoscere i componenti richiesti per abilitare i servizi NetApp Keystone STaaS nel tuo ambiente. 
 ---
-= Componenti necessari per l'implementazione
+= Componenti necessari per i servizi Keystone
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Conoscere i componenti richiesti per abilitare i servizi NetApp Keyston
 
 
 [role="lead"]
-Per abilitare i servizi NetApp Keystone STaaS nel tuo ambiente sono necessari diversi componenti. Prima di iniziare, è necessario rivedere i dettagli su questi componenti.
+Per abilitare i servizi NetApp Keystone STaaS sono necessari diversi componenti. Prima di iniziare, esamina questi componenti.
 
 
 

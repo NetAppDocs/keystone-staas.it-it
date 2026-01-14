@@ -4,7 +4,7 @@ permalink: concepts/billing-schedules.html
 keywords: billing schedules, schedule for payment 
 summary: Gli abbonamenti Keystone STaaS vengono fatturati mensilmente, trimestralmente, semestralmente o annualmente. 
 ---
-= Pianificazioni di fatturazione
+= Scopri di più sulle pianificazioni di fatturazione Keystone
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

@@ -152,7 +152,7 @@ sidebar:
         url: "/concepts/service-levels.html"
       - title: Requisiti di capacità per i livelli di servizio prestazionali
         url: "/concepts/capacity-requirements.html"
-    - title: Servizi add-on
+    - title: Scopri di più sui servizi aggiuntivi
       entries:
       - title: Opzioni di capacità di burst
         url: "/concepts/burst-capacity.html"
@@ -164,7 +164,7 @@ sidebar:
         url: "/concepts/nrnvc.html"
       - title: Supporto protetto USA (USPS)
         url: "/concepts/usps.html"
-    - title: SLO Keystone STaaS
+    - title: Scopri di più su Keystone STaaS SLO
       entries:
       - title: Disponibilità
         url: "/concepts/sla-availability.html"
@@ -174,7 +174,7 @@ sidebar:
         url: "/concepts/sla-sustainability.html"
       - title: Garanzia di ripristino dal ransomware
         url: "/concepts/sla-ransomware.html"
-    - title: Fatturazione
+    - title: Comprendere la fatturazione
       entries:
       - title: Prezzo Keystone
         url: "/concepts/pricing.html"
@@ -184,7 +184,7 @@ sidebar:
         url: "/concepts/consumed-capacity-billing.html"
       - title: Fatturazione basata sul consumo burst
         url: "/concepts/burst-consumption-billing.html"
-      - title: Scenari vari per la fatturazione Keystone
+      - title: Fatturazione per configurazioni di volume specifiche
         url: "/concepts/misc-volume-billing.html"
       - title: Pianificazioni di fatturazione
         url: "/concepts/billing-schedules.html"
