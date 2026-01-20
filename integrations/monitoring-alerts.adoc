@@ -48,6 +48,10 @@ Dalla scheda *Avvisi* è possibile eseguire le seguenti azioni:
 +
 ** Contrassegna l'avviso come risolto selezionando il pulsante *Modifica* dopo aver risolto il problema.
 ** Se necessario, aggiungere note di supporto selezionando il pulsante *Aggiungi nota*.
++
+
+NOTE: Per modificare gli avvisi è necessario il ruolo * Amministratore Keystone *. Il ruolo * Visualizzatore Keystone * può solo visualizzare i dettagli degli avvisi. Per saperne di più, fare riferimento a link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-keystone-roles.html["Ruoli di accesso Keystone nella NetApp Console"^].
+
 
 
 * *Filtra avvisi*: utilizza l'icona del filtro nella colonna *Stato* per visualizzare solo gli avvisi attivi, quelli risolti o entrambi.

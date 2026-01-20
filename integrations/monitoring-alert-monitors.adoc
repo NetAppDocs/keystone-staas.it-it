@@ -42,6 +42,9 @@ NOTE: La scheda *Report* non è attualmente disponibile per gli abbonamenti Keys
 
 Dalla scheda *Monitoraggio avvisi* è possibile creare monitor per monitorare l'utilizzo della capacità e la scadenza degli abbonamenti.  È inoltre possibile modificare, duplicare o eliminare i monitor esistenti, a seconda delle esigenze.
 
+
+NOTE: Per creare e gestire i monitor di avviso è necessario essere assegnati al ruolo di * amministratore Keystone *. Per saperne di più, fare riferimento a link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-keystone-roles.html["Ruoli di accesso Keystone nella NetApp Console"^].
+
 [role="tabbed-block"]
 ====
 .Crea un monitor

@@ -1,0 +1,11 @@
+= Modifica abbonamento non disponibile
+:allow-uri-read: 
+
+
+Aggiornamenti nella dashboard Keystone nella NetApp Console:
+
+
+
+=== Modifica abbonamento non disponibile
+
+L'opzione per modificare la capacità impegnata per gli abbonamenti Keystone non è attualmente disponibile. Questa funzionalità verrà reintrodotta in una versione futura.

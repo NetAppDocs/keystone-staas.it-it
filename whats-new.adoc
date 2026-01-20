@@ -18,6 +18,18 @@ Scopri le ultime funzionalità e i miglioramenti dei servizi Keystone STaaS.
 
 
 
+== 19 gennaio 2026
+
+Aggiornamenti nella dashboard Keystone nella NetApp Console:
+
+
+
+=== Modifica abbonamento non disponibile
+
+L'opzione per modificare la capacità impegnata per gli abbonamenti Keystone non è attualmente disponibile. Questa funzionalità verrà reintrodotta in una versione futura.
+
+
+
 == 08 dicembre 2025
 
 Nuovi miglioramenti nella dashboard Keystone nella NetApp Console:
