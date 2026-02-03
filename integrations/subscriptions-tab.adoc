@@ -25,7 +25,7 @@ Per visualizzare informazioni dettagliate sui tuoi abbonamenti, segui questi pas
 .Fasi
 . Dal menu di navigazione a sinistra della Console, seleziona *Archiviazione > Keystone > Abbonamenti*.
 +
-image:bxp-subscription-list-3.png["visualizza i dettagli della scheda abbonamento"]
+image:bxp-subscription-list-4.png["visualizza i dettagli della scheda abbonamento"]
 
 +
 Vengono visualizzate le metriche chiave, quali l'utilizzo della capacità, lo stato di scadenza dell'abbonamento e gli avvisi non risolti.
@@ -39,13 +39,14 @@ Nella tabella è possibile visualizzare i seguenti dettagli:
 ** *Nome del cliente*: Nome del cliente associato all'abbonamento Keystone.
 ** *Abbonamenti collegati*: Se hai abbonamenti secondari collegati al tuo abbonamento principale, questa colonna elenca i numeri di abbonamento collegati per l'abbonamento principale. Questo numero di abbonamento può essere quello del tuo abbonamento principale o secondario (collegato).
 ** * Versione Keystone *: la versione del servizio Keystone utilizzata per l'abbonamento. Le regole del piano tariffario per i livelli di servizio delle prestazioni possono variare a seconda delle versioni di abbonamento. Per saperne di più sulla versione v1, fare riferimento a https://docs.netapp.com/us-en/keystone/index.html["Servizi di abbonamento Keystone | Documentazione della versione 1"^] .
+** *Tipo di utilizzo*: potresti aver sottoscritto più versioni di Keystone. Le regole del piano tariffario per i livelli di servizio prestazionali potrebbero variare tra le versioni di abbonamento. Osservando il valore in questa colonna, puoi sapere se il tipo di utilizzo viene fatturato in base all'utilizzo previsto, fisico o logico. Per ulteriori informazioni sulla versione 1, consulta  https://docs.netapp.com/us-en/keystone/index.html["Servizi di abbonamento Keystone | Documentazione della versione 1"^].
 ** *Periodo di fatturazione*: periodo di fatturazione dell'abbonamento.
 ** *Livelli di servizio prestazionali*: numero di piani tariffari associati all'abbonamento, dove ciascun piano tariffario corrisponde a uno specifico livello di servizio prestazionale e a una capacità impegnata.
 ** *Capacità massima*: capacità massima consumata nell'ambito dell'abbonamento.
 ** *Giorni alla scadenza dell'abbonamento*: Numero di giorni rimanenti fino alla scadenza dell'abbonamento.
 +
 
-NOTE: È possibile fare clic sulla freccia rivolta verso il basso accanto alla colonna *Data di scadenza* per visualizzare le informazioni sui livelli di servizio delle prestazioni per ciascun abbonamento.  Vengono visualizzate informazioni dettagliate sulla capacità, tra cui l'utilizzo corrente, la capacità impegnata, la capacità fornita, la capacità di picco e la capacità disponibile.
+NOTE: È possibile fare clic sulla freccia rivolta verso il basso image:down-arrow.png["icona di espansione"] nell'intestazione della tabella per espandere tutti gli abbonamenti e visualizzare le informazioni sui livelli di servizio delle prestazioni per ciascun abbonamento contemporaneamente. Vengono visualizzate informazioni dettagliate sulla capacità, inclusi utilizzo corrente, capacità impegnata, capacità fornita, capacità di picco e capacità disponibile per tutti gli abbonamenti. In alternativa, è possibile fare clic sulla freccia rivolta verso il basso accanto alla colonna *Expiration date* nelle singole righe degli abbonamenti per espanderle una alla volta.
 
 +
 

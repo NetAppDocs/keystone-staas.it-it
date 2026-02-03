@@ -1,0 +1,29 @@
+= Filtraggio interattivo per i dati burst accumulati quotidianamente
+:allow-uri-read: 
+
+
+Nuovi miglioramenti nella dashboard Keystone nella NetApp Console:
+
+
+
+=== Filtraggio interattivo per i dati burst accumulati quotidianamente
+
+La tabella *Accrued burst by days* nella scheda *Consumption trend* ora supporta il filtro interattivo. Seleziona una barra qualsiasi nel grafico di fatturazione degli accumuli per visualizzare solo i giorni all'interno di quel periodo di fatturazione. Per ulteriori informazioni, consulta link:./integrations/consumption-tab.html#view-daily-accrued-burst-data-usage["Visualizza l'utilizzo giornaliero dei dati burst maturati"].
+
+
+
+=== Visualizzazione migliorata dell'intervallo di date nel grafico a raffica accumulato
+
+Il grafico della fatturazione a raffica maturata nella scheda *Andamento dei consumi* ora visualizza intervalli di date completi per ciascun periodo di fatturazione, come dal 01 ott 2025 al 31 ott 2025, invece di solo mese e anno.
+
+
+
+=== Visualizzazione espandibile dei dettagli dell'abbonamento
+
+La scheda *Abbonamenti* include un'opzione per espandere tutti gli abbonamenti e visualizzare contemporaneamente le informazioni sui livelli di servizio delle prestazioni per ciascun abbonamento. Per ulteriori informazioni, consultare link:./integrations/subscriptions-tab.html["Visualizza i dettagli sui tuoi abbonamenti Keystone"].
+
+
+
+=== Nuova colonna Tipo di utilizzo
+
+La scheda *Abbonamenti* include una colonna *Tipo di utilizzo* che indica se l'abbonamento viene fatturato in base all'utilizzo previsto, fisico o logico. Per ulteriori informazioni, consultare link:./integrations/subscriptions-tab.html["Visualizza i dettagli sui tuoi abbonamenti Keystone"].
