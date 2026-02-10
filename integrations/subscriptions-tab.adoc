@@ -34,7 +34,7 @@ Vengono visualizzate le metriche chiave, quali l'utilizzo della capacità, lo st
 Nella tabella è possibile visualizzare i seguenti dettagli:
 
 +
-** *Numero di abbonamento*: numero di abbonamento dell'abbonamento Keystone assegnato da NetApp.
+** *Numero di abbonamento*: il numero di abbonamento Keystone assegnato da NetApp. Gli abbonamenti con l'icona image:metrocluster-icon.png["Simbolo di abbonamento MetroCluster"] sono abbonamenti MetroCluster. Per ulteriori informazioni sugli abbonamenti MetroCluster, consultare link:../integrations/adp-tab.html["Visualizza il consumo e lo stato delle tue sottoscrizioni Keystone MetroCluster"].
 ** *Tracking ID*: L'ID di tracciamento assegnato al momento dell'attivazione dell'abbonamento. Si tratta di un ID univoco per ciascun abbonamento e sito, utilizzato per tenere traccia dell'abbonamento.
 ** *Nome del cliente*: Nome del cliente associato all'abbonamento Keystone.
 ** *Abbonamenti collegati*: Se hai abbonamenti secondari collegati al tuo abbonamento principale, questa colonna elenca i numeri di abbonamento collegati per l'abbonamento principale. Questo numero di abbonamento può essere quello del tuo abbonamento principale o secondario (collegato).

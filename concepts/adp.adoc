@@ -1,8 +1,72 @@
 ---
+sidebar: sidebar 
 permalink: concepts/adp.html 
-redirect: keystone-staas/concepts/metrics.html 
+keywords: data protection advanced 
+summary: Utilizza il servizio aggiuntivo di protezione dati avanzata per garantire una protezione efficiente dei dati dei carichi di lavoro mission-critical. 
 ---
-= 
+= Componente aggiuntivo avanzato per la protezione dei dati per Keystone
+:hardbreaks:
 :allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
 
 
+[role="lead"]
+È possibile abbonarsi al servizio aggiuntivo di protezione avanzata dei dati (ADP) con il tuo abbonamento Keystone STaaS. Mentre i servizi Keystone standard includono la protezione dei dati predefinita tramite SnapMirror, SnapVault e Snapshot, questo servizio aggiuntivo utilizza la tecnologia NetApp MetroCluster per garantire un'efficace protezione dei dati dei carichi di lavoro mission-critical con un recovery point objective (RPO) pari a 0.
+
+Il servizio avanzato di protezione dati Keystone può sincronamente mirroring dati su un sito secondario. In caso di disastro presso il sito primario, il sito secondario può subentrare senza alcuna perdita di dati. Questa funzionalità utilizza la configurazione link:https://docs.netapp.com/us-en/ontap-metrocluster["MetroCluster"^] tra due siti per abilitare la protezione dei dati. Puoi utilizzare i servizi aggiuntivi di protezione dati avanzata solo per i tuoi servizi di file e storage a blocchi. Come parte di questo servizio aggiuntivo, il livello di servizio  `Advanced Data-Protect` performance viene assegnato al tuo abbonamento.
+
+È possibile monitorare il consumo e le metriche di salute per la configurazione MetroCluster. Per ulteriori informazioni, consultare link:../integrations/adp-tab.html["Visualizza il consumo e lo stato dei tuoi abbonamenti MetroCluster"].
+
+
+
+== Comprendere i prezzi
+
+Il servizio aggiuntivo di protezione avanzata dei dati viene tariffato in base alla capacità impegnata in ciascun sito. Questo aiuta a determinare il costo effettivo del servizio di protezione avanzata dei dati in $/TiB. I costi aggiuntivi si applicano a tutte le capacità incluse nell'abbonamento, inclusi i dati sorgente, le copie mirrorate e i dati non mirrorati.
+
+Per la configurazione MetroCluster, ogni sito richiede un proprio abbonamento e ti verrà addebitata la capacità impegnata in modo indipendente su ogni sito.
+
+Tenere presente quanto segue:
+
+* Il servizio utilizza il 100% della capacità impegnata sullo storage associato come capacità impegnata.
+* Le tariffe si applicano sia ai siti primari che a quelli secondari, coprendo sia i cluster di origine che quelli di destinazione.
+* I costi si applicano solo ai servizi di storage a blocchi e file.
+
+
+
+
+== Configurazioni MetroCluster supportate
+
+Keystone supporta i seguenti scenari di distribuzione MetroCluster:
+
+Configurazione attiva/passiva:: In questa configurazione, i dati primari di un sito vengono mirrorati su un sito secondario. Ad esempio, se 100 TiB di dati logici vengono consumati nel sito A, questi vengono replicati nel sito B. Entrambi i siti richiedono abbonamenti identici:
++
+--
+* *Abbonamento 1 (sito A):* 100 TiB storage service + 100 TiB ADP
+* *Abbonamento 2 (sito B):* 100 TiB storage service + 100 TiB ADP
+
+
+--
+Configurazione Active/Active con mirroring completo:: In questa configurazione, entrambi i siti ospitano dati primari che vengono mirrorati bidirezionalmente. Ad esempio, 100 TiB di dati primari del sito A vengono mirrorati sul sito B e 100 TiB di dati primari del sito B vengono mirrorati sul sito A. Entrambi i siti richiedono abbonamenti per la capacità combinata:
++
+--
+* *Abbonamento 1 (sito A):* 200 TiB storage service + 200 TiB ADP
+* *Abbonamento 2 (sito B):* 200 TiB storage service + 200 TiB ADP
+
+
+--
+Configurazione Active/Active con mirroring parziale:: In questa configurazione, un sito ospita dati mirrorati mentre l'altro sito ospita sia dati mirrorati che non mirrorati. Ad esempio, 100 TiB di dati primari presso il sito A sono mirrorati sul sito B, mentre il sito B ospita anche ulteriori 100 TiB di dati non mirrorati. Gli abbonamenti variano in base alla capacità di ciascun sito:
++
+--
+* *Abbonamento 1 (sito A):* 100 TiB storage service + 100 TiB ADP
+* *Abbonamento 2 (sito B):* 200 TiB storage service + 200 TiB ADP
+
+
+--
+
+
+Il diagramma seguente mostra queste configurazioni MetroCluster supportate:
+
+image:mcc-1.png["Diagramma che mostra tre configurazioni MetroCluster: Attivo/Passivo con mirroring simmetrico, Attivo/Attivo con mirroring bidirezionale completo e Attivo/Attivo con mirroring parziale"]
