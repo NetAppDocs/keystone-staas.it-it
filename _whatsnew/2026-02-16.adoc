@@ -1,0 +1,11 @@
+= Visualizzazione del consumo aggiuntivo DII
+:allow-uri-read: 
+
+
+Nuovi miglioramenti nella dashboard Keystone nella NetApp Console:
+
+
+
+=== Visualizzazione del consumo aggiuntivo DII
+
+Il consumo del componente aggiuntivo Data Infrastructure Insights (DII) ora viene visualizzato nelle schede *Consumo attuale* e *Tendenza del consumo*. Per ulteriori informazioni, consultare link:./concepts/data-infra-insights.html#view-dii-consumption["Visualizza il consumo DII"].

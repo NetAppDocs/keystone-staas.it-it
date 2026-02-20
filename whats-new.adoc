@@ -18,6 +18,18 @@ Scopri le ultime funzionalità e i miglioramenti dei servizi Keystone STaaS.
 
 
 
+== 16 febbraio 2026
+
+Nuovi miglioramenti nella dashboard Keystone nella NetApp Console:
+
+
+
+=== Visualizzazione del consumo aggiuntivo DII
+
+Il consumo del componente aggiuntivo Data Infrastructure Insights (DII) ora viene visualizzato nelle schede *Consumo attuale* e *Tendenza del consumo*. Per ulteriori informazioni, consultare link:./concepts/data-infra-insights.html#view-dii-consumption["Visualizza il consumo DII"].
+
+
+
 == 02 febbraio 2026
 
 Nuovi miglioramenti nella dashboard Keystone nella NetApp Console:
