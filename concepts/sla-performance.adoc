@@ -21,16 +21,13 @@ NetApp Keystone offre un SLO basato sulla latenza per livello di servizio presta
 == Metriche
 
 * *Prestazioni degradate*: La quantità di tempo, in minuti, per incidente, durante il quale non viene soddisfatto il target di latenza percentile 90^th^.
-* La latenza percentile* *90^th^ viene misurata per volume, per livello di performance, per tutti i volumi all'interno di un ordine Keystone. La latenza viene campionata ogni cinque minuti e il valore del percentile 90^esimo^ calcolato in un periodo di 24 ore viene utilizzato come misura giornaliera, considerando i seguenti punti:
+* La  viene misurata per volume, per istanza del livello di servizio prestazionale, per tutti i volumi all'interno di un ordine Keystone. La latenza viene campionata ogni cinque minuti e il valore del 90° percentile calcolato su un periodo di 24 ore viene utilizzato come misura giornaliera, considerando i seguenti punti:
 +
 ** I volumi che registrano almeno cinque IOPS al momento della raccolta di metriche vengono presi in considerazione per un campione.
 ** I volumi con operazioni di scrittura superiori al 30% al momento della raccolta delle metriche sono esclusi dal campione.
-** La latenza aggiunta da AQoS per gli IOPS/TiB richiesti superiori agli IOPS/TiB di destinazione sono escluse dal campione.
-** La latenza aggiunta da AQoS per mantenere il numero minimo di IOPS per volume è esclusa dal campione.
 ** Per i volumi che hanno abilitato FabricPool, la latenza sostenuta a causa del trasferimento dei dati da e verso lo storage di destinazione (cold) non viene conteggiata.
 ** La latenza causata dall'applicazione, dall'host o dalla rete del cliente al di fuori del cluster ONTAP non viene conteggiata.
-** Durante un periodo di 24 ore, devono essere disponibili almeno dieci metriche valide. In caso contrario, le metriche verranno scartate.
-** Se uno o più volumi su uno storage array non dispongono di una policy AQoS valida, il numero di IOPS disponibili per gli altri volumi potrebbe essere influenzato e NetApp non sarà responsabile del targeting o del raggiungimento dei livelli di performance su tale storage array.
+** Durante un periodo di 24 ore, devono essere disponibili almeno dieci metriche valide. Se la condizione non viene soddisfatta, le metriche verranno scartate.
 ** Nelle configurazioni FabricPool, i livelli di performance sono applicabili quando tutti i blocchi di dati richiesti sono sullo storage di origine FabricPool (hot) e lo storage di origine non è in una relazione di SnapMirror sincrono.
 
 
@@ -45,14 +42,14 @@ Tutti i livelli di servizio prestazionali supportati dagli array di storage flas
 |===
 
 
-| *Livello di servizio* | Estremo | Premium | Performance | Standard 
+| *Livello di servizio* | Estremo | Premium | Standard | Valore 
 
 
  a| 
 *Target 90^th^ latenza percentile*
-| <1 ms. | <2 ms. | <4 ms. | <4 ms. 
+| <=1ms | <=1ms | <=4ms | >=4ms 
 |===
-Per saperne di più sui requisiti di latenza dei livelli di servizio delle prestazioni, fare riferimento a link:../concepts/service-levels.html["Livelli di servizio prestazionali a Keystone"] .
+Per saperne di più sui requisiti di latenza dei livelli di servizio delle prestazioni, fare riferimento a link:../concepts/service-levels.html["Livelli di servizio prestazionali a Keystone"].
 
 
 
@@ -106,7 +103,7 @@ Estremo
 |===
 Utilizzando la formula: Crediti di servizio = ( 10 / 50 ) X 1000 x 2 x 0,03
 
-In base al calcolo, i crediti di servizio saranno pari a $12.
+In base al calcolo, i crediti per il servizio saranno pari a $12.
 
 
 
@@ -124,7 +121,7 @@ Se viene rilevata una violazione dello SLA, aprire un ticket di assistenza con p
 .. Qualsiasi altro documento applicabile
 
 
-* Fornire i dettagli nel foglio excel come mostrato di seguito per un ticket P3 aperto con il supporto NetApp Keystone.
+* Fornire i dettagli nel foglio Excel come mostrato di seguito per un ticket P3 aperto con NetApp Keystone support.
 +
 image:sla-breach.png["modello di foglio excel"]
 
@@ -133,7 +130,7 @@ image:sla-breach.png["modello di foglio excel"]
 [NOTE]
 ====
 * Una richiesta di credito di assistenza deve essere avviata entro sei settimane dalla convalida di una violazione da parte del supporto NetApp Keystone. Tutti i crediti di assistenza devono essere riconosciuti e approvati da NetApp.
-* I crediti di servizio potranno essere applicati a una fattura futura. I crediti di servizio non si applicano agli abbonamenti Keystone scaduti. Per saperne di più, fare riferimento a link:../concepts/support-services.html["Supporto NetApp Keystone"].
+* I crediti di servizio potrebbero essere applicati a una fattura futura. I crediti di servizio non si applicano agli abbonamenti Keystone scaduti. Per ulteriori informazioni, consultare link:../concepts/support-services.html["Supporto NetApp Keystone"].
 
 
 ====

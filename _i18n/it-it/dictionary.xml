@@ -1085,19 +1085,11 @@ Ecco un esempio:</block>
   <block id="892db0165f2238f40c3370386d79cac7" category="inline-image-macro">modello di foglio excel</block>
   <block id="f0fbc9cddebee973debd106e878bebdd" category="paragraph"><block ref="f0fbc9cddebee973debd106e878bebdd" category="inline-image-macro-rx" type="image"></block></block>
   <block id="23f04236d1f84e52d087f768059adbbe" category="list-text">*Prestazioni degradate*: La quantità di tempo, in minuti, per incidente, durante il quale non viene soddisfatto il target di latenza percentile 90^th^.</block>
-  <block id="3fe43b4ffa54563c104bbdf1eeea2b59" category="list-text">La latenza percentile* *90^th^ viene misurata per volume, per livello di performance, per tutti i volumi all'interno di un ordine Keystone. La latenza viene campionata ogni cinque minuti e il valore del percentile 90^esimo^ calcolato in un periodo di 24 ore viene utilizzato come misura giornaliera, considerando i seguenti punti:</block>
   <block id="35254eb51c71659b3cf343855354b8b1" category="list-text">I volumi che registrano almeno cinque IOPS al momento della raccolta di metriche vengono presi in considerazione per un campione.</block>
   <block id="0e0e9d5bae73de26860af74cb8fc6ac2" category="list-text">I volumi con operazioni di scrittura superiori al 30% al momento della raccolta delle metriche sono esclusi dal campione.</block>
-  <block id="ab4c900b0e1430edc1bd09939be8859a" category="list-text">La latenza aggiunta da AQoS per gli IOPS/TiB richiesti superiori agli IOPS/TiB di destinazione sono escluse dal campione.</block>
-  <block id="565d8433df6c6c23be6de8fd7871abae" category="list-text">La latenza aggiunta da AQoS per mantenere il numero minimo di IOPS per volume è esclusa dal campione.</block>
   <block id="f901dbc53f8dea2d74e68635ec84a298" category="list-text">Per i volumi che hanno abilitato FabricPool, la latenza sostenuta a causa del trasferimento dei dati da e verso lo storage di destinazione (cold) non viene conteggiata.</block>
   <block id="23ca5c8d56457bbd625ff236b3c706ef" category="list-text">La latenza causata dall'applicazione, dall'host o dalla rete del cliente al di fuori del cluster ONTAP non viene conteggiata.</block>
-  <block id="efbd8d78a7008161e0e4f42c63d84ad6" category="list-text">Durante un periodo di 24 ore, devono essere disponibili almeno dieci metriche valide. In caso contrario, le metriche verranno scartate.</block>
-  <block id="5b8e1d393a8c6bf1b5c0be8eb268aba3" category="list-text">Se uno o più volumi su uno storage array non dispongono di una policy AQoS valida, il numero di IOPS disponibili per gli altri volumi potrebbe essere influenzato e NetApp non sarà responsabile del targeting o del raggiungimento dei livelli di performance su tale storage array.</block>
   <block id="d8ace9c4f3c105767c7ec01ce669eca3" category="list-text">Nelle configurazioni FabricPool, i livelli di performance sono applicabili quando tutti i blocchi di dati richiesti sono sullo storage di origine FabricPool (hot) e lo storage di origine non è in una relazione di SnapMirror sincrono.</block>
-  <block id="ce8f4bd254d7fa591c64caccc3aa3eeb" category="cell">&lt;1 ms.</block>
-  <block id="101d21e523f12f01303be5acdf4141d9" category="cell">&lt;2 ms.</block>
-  <block id="65e7d97f5e59814284d01d2b0cd62581" category="cell">&lt;4 ms.</block>
   <block id="4528f5e882cc88c8842dcf9b1ac1b1bc" category="paragraph">NetApp emette crediti di servizio per le prestazioni ridotte:</block>
   <block id="72c2dabc519f204563247ef9d2fd1c7a" category="cell">*Soglia di prestazione*</block>
   <block id="133c2090971805c26a4b7780a43a4e1f" category="paragraph">90^th^ latenza percentile &gt; latenza di destinazione</block>
@@ -1105,13 +1097,11 @@ Ecco un esempio:</block>
   <block id="68bff7f600a4d4bddae207bf52b8dbdb" category="paragraph">Crediti di servizio = (capacità interessata / capacità impegnata totale) X quote di capacità X giorni interessati X percentuale di credito</block>
   <block id="518fb0e9794f4b9e14b0dc061ac61fda" category="list-text">*Tariffe relative alla capacità*: Le tariffe per il livello di performance interessato, come da ordine Keystone.</block>
   <block id="9bd7cf79d77a54ab7c62e80f778e9d2a" category="list-text">*Giorni interessati*: Il numero di giorni di calendario interessati.</block>
-  <block id="b452a2e7bf15034c9bd63c001b3e6e64" category="cell">*Giorni di calendario interessati*</block>
   <block id="a22d50cab82690cbdc8113c3ff9c2076" category="cell">10 Tib</block>
   <block id="58f24a17f570c7949880710fdf616d32" category="cell">50 Tib</block>
   <block id="c81e728d9d4c2f636f067f89cc14862c" category="cell">2</block>
   <block id="dcfe0b3ef8eb8156a5e83949c2e2f7b6" category="cell">3%</block>
   <block id="b9ad6821bc2a0e4300b5b91ca5245476" category="paragraph">Utilizzando la formula: Crediti di servizio = ( 10 / 50 ) X 1000 x 2 x 0,03</block>
-  <block id="732192040cca36723308ae6b02982093" category="paragraph">In base al calcolo, i crediti di servizio saranno pari a $12.</block>
   <block id="fed70707a2e768c22f4b0fc06a401786" category="summary">NetApp garantisce il recovery dei dati Snapshot dai volumi di conformità SnapLock in caso di un attacco ransomware grazie al programma ransomware Recovery Guarantee</block>
   <block id="30a37a729e8d5bdf11c9e3c6965f6872" category="doc">Garanzia di ripristino dal ransomware</block>
   <block id="c314df61fd93029a87d16eb15b842e7d" category="paragraph">NetApp garantisce il recovery dei dati Snapshot dai volumi di conformità SnapLock in caso di un attacco ransomware grazie al programma ransomware Recovery Guarantee. Il servizio NetApp ransomware Recovery Assurance è necessario per supportare il programma ransomware Recovery Guarantee e deve essere acquistato separatamente dall'ordine Keystone associato.</block>
@@ -1562,7 +1552,6 @@ Ecco un esempio:</block>
   <block id="bcd6ed294af34e837c537b83a1a3de21" category="list-text">CentOS 7 (solo per gli ambienti esistenti)</block>
   <block id="265561b81e51364d306e58144832b7a8" category="summary">Se hai bisogno di assistenza, contatta il team di supporto NetApp Keystone.</block>
   <block id="9dc4e2b4f34e5f118e35019c46b06a4a" category="paragraph">Se viene rilevata una violazione dello SLA, aprire un ticket di assistenza con priorità 3 (P3) con l'assistenza NetApp Keystone.</block>
-  <block id="5ece80a8e6fc51ca90ea8b795dbe7f83" category="list-text">Fornire i dettagli nel foglio excel come mostrato di seguito per un ticket P3 aperto con il supporto NetApp Keystone.</block>
   <block id="cac189ace7fac11fbcff63b35adf8770" category="list-text">Una richiesta di credito di assistenza deve essere avviata entro sei settimane dalla convalida di una violazione da parte del supporto NetApp Keystone. Tutti i crediti di assistenza devono essere riconosciuti e approvati da NetApp.</block>
   <block id="3a36d2372ffa5421518253f5c68f7c51" category="paragraph">Se viene rilevata una violazione dello SLA, aprire un ticket di assistenza con priorità 3 (P3) con il supporto NetApp Keystone e fornire i dettagli come richiesto nel foglio excel come mostrato di seguito:</block>
   <block id="cb74be13d3a600957d1ee583265f537d" category="section-title">Visualizza l'utilizzo giornaliero dei dati burst maturati</block>
@@ -1643,8 +1632,6 @@ Ecco un esempio:</block>
   <block id="5f351af05581a0eadaf1177970b72a10" category="section-title">Livelli di servizio prestazionali</block>
   <block id="e1a2df339e5e1d4b2b6d447c58823500" category="list-text">*capacità totale impegnata*: capacità impegnata per il livello di servizio prestazionale per l'ordine Keystone.</block>
   <block id="651923524521408d98ff12d09f60af11" category="list-text">*commissioni di capacità*: le commissioni per il livello di servizio prestazionale interessato per il mese.</block>
-  <block id="b4b730f8748f9304cf03a7bd9ca06fbf" category="inline-link-macro">Livelli di servizio prestazionali a Keystone</block>
-  <block id="256f997b6fa99f6bde704d4194be3d6c" category="paragraph">Per saperne di più sui requisiti di latenza dei livelli di servizio delle prestazioni, fare riferimento a <block ref="d8f18ae99fd2b456a3470321b1aded8e" category="inline-link-macro-rx"></block> .</block>
   <block id="edab02bbfaf3788182e3fa77788a9e44" category="list-text">la capacità impegnata + la capacità burst assegnata per il livello di servizio delle prestazioni, oppure</block>
   <block id="1ef86c84141cbf98bc2a59eeffa9afd3" category="paragraph">Per ulteriori informazioni, fare riferimento a <block ref="b7d94ab5747cf2f7821847d435faf714" category="inline-link-macro-rx"></block>.</block>
   <block id="33a7d9c43d0ae3063679287913d61f25" category="summary">Visualizza o annulla la richiesta del servizio di abbonamento Keystone.</block>
@@ -2392,7 +2379,6 @@ Ecco un esempio:</block>
   <block id="77750efa6f5ff153acdc42067058017f" category="section-title">10 novembre 2025</block>
   <block id="0c359189f8e07afc4bf0a432b108a2f7" category="list-text">Il cliente fornisce un server Linux in esecuzione su uno dei seguenti sistemi operativi: Debian 12, Red Hat Enterprise Linux 8.6 o versioni successive 8.x, Red Hat Enterprise Linux 9.0 o versioni successive oppure CentOS 7 (solo per ambienti esistenti). Il software Keystone viene installato utilizzando<block ref="27b0f8226ae1a7f1b973155b13221df6" prefix=" " category="inline-code"></block> O<block ref="a0d068ed6db680cb6ae54d799e889954" prefix=" " category="inline-code"></block> pacchetto, a seconda della distribuzione Linux.</block>
   <block id="188a74af3438876c97ac7877f4af6cc9" category="list-text">Il cliente fornisce un server Linux in esecuzione su Debian 12, Ubuntu 20.04 LTS, Red Hat Enterprise Linux (RHEL) 8.x, Red Hat Enterprise Linux 9.0, Amazon Linux 2023 o versioni più recenti.</block>
-  <block id="079d46d4e807d9ca797d92cd97e9c5ea" category="list-text">I crediti di servizio potranno essere applicati a una fattura futura. I crediti di servizio non si applicano agli abbonamenti Keystone scaduti. Per saperne di più, fare riferimento a <block ref="4e739353290fa4a9ebb5e0d958a5945c" category="inline-link-macro-rx"></block>.</block>
   <block id="75269ad6e7abe01d12768761ab748b48" category="paragraph"><block ref="75269ad6e7abe01d12768761ab748b48" category="inline-link-rx"></block></block>
   <block id="8e3e0d66dd46c331ec4b3a698a38a9e7" category="list-text">Puoi richiedere modifiche alla capacità impegnata tramite la Console o dal tuo Keystone Success Manager (KSM). Per informazioni sulla richiesta di modifiche, vedere <block ref="4e739353290fa4a9ebb5e0d958a5945c" category="inline-link-macro-rx"></block>.</block>
   <block id="17766f6125f71fd7cf26ceef70d4e504" category="list-text">Una volta scaricato il file, è possibile allegarlo al ticket di supporto Keystone ServiceNow. Per informazioni sull'emissione dei biglietti, vedere <block ref="fa4c1fe482109028db7ac27dab34833d" category="inline-link-macro-rx"></block>.</block>
@@ -2610,4 +2596,14 @@ Ecco un esempio:</block>
   <block id="3a0ac91f607c4908d1e3d47d382884f8" category="list-text">*Abbonamenti collegati*: Se hai abbonamenti secondari collegati al tuo abbonamento principale, questa colonna elenca i numeri degli abbonamenti collegati per l'abbonamento principale.</block>
   <block id="b3f613e3d8f464b4f2aaf03e58cd7343" category="list-text">*Abbonamenti collegati*: Se hai abbonamenti secondari collegati al tuo abbonamento principale, questa colonna elenca i numeri degli abbonamenti collegati per l'abbonamento principale.</block>
   <block id="fb042b7b99959e391eeb7c417511098a" category="section-title">16 febbraio 2026</block>
+  <block id="5232623a9d0949665269220e42d1050b" category="list-text">Fornire i dettagli nel foglio Excel come mostrato di seguito per un ticket P3 aperto con NetApp Keystone support.</block>
+  <block id="13505dac4434596c4a796389e650eb08" category="list-text">I crediti di servizio potrebbero essere applicati a una fattura futura. I crediti di servizio non si applicano agli abbonamenti Keystone scaduti. Per ulteriori informazioni, consultare <block ref="4e739353290fa4a9ebb5e0d958a5945c" category="inline-link-macro-rx"></block>.</block>
+  <block id="1f5595c5befe745db8dadf46b35fce52" category="list-text">La  viene misurata per volume, per istanza del livello di servizio prestazionale, per tutti i volumi all'interno di un ordine Keystone. La latenza viene campionata ogni cinque minuti e il valore del 90° percentile calcolato su un periodo di 24 ore viene utilizzato come misura giornaliera, considerando i seguenti punti:</block>
+  <block id="40f098b2e9bcd6666815272fd1d0b84e" category="list-text">Durante un periodo di 24 ore, devono essere disponibili almeno dieci metriche valide. Se la condizione non viene soddisfatta, le metriche verranno scartate.</block>
+  <block id="0e20d6162625fb8fb8b7b598f96e52da" category="cell">&lt;=1ms</block>
+  <block id="692ed37295bb7f348009da0eb9d9f9ba" category="cell">&lt;=4ms</block>
+  <block id="6efe08597c08ab2309936c3460daafb5" category="cell">&gt;=4ms</block>
+  <block id="da4bea38cc1244c367fa4751943a1de3" category="paragraph">Per saperne di più sui requisiti di latenza dei livelli di servizio delle prestazioni, fare riferimento a <block ref="d534e2cd061f06b6e0ad742d6dda7fee" category="inline-link-macro-rx"></block>.</block>
+  <block id="b4508efb1fe09000c916385cb19795aa" category="cell">*Giorni di calendario interessati*</block>
+  <block id="2f8ed0b357b613711aa9e5d215bc6566" category="paragraph">In base al calcolo, i crediti per il servizio saranno pari a $12.</block>
 </blocks>
