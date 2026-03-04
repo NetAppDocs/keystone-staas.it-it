@@ -27,14 +27,18 @@ Per visualizzare gli avvisi attivi, segui questi passaggi:
 .Fasi
 . Dal menu di navigazione a sinistra della Console, selezionare *Archiviazione > Keystone > Monitoraggio > Avvisi*.
 +
-image:monitoring-alerts-default-view-1.png["Uno screenshot degli avvisi attivi per gli abbonamenti Keystone"]
+image:monitoring-alerts-default-view-2.png["Uno screenshot degli avvisi attivi per gli abbonamenti Keystone"]
 
 +
-È possibile visualizzare i dettagli dell'avviso, quali gravità, ID, descrizione, ora di attivazione, numero di abbonamento, ID di tracciamento, livello di servizio delle prestazioni e stato.  La pagina mostra anche il totale degli avvisi non risolti, suddivisi per gravità e tipo.
+È possibile visualizzare i dettagli degli avvisi, come gravità, ID, tipo e condizione, descrizione, ora di attivazione, numero di abbonamento, ID di tracciamento, livello di servizio delle prestazioni e stato. La pagina mostra anche il totale degli avvisi non risolti per gravità e tipo.
 
 +
 
 NOTE: La scheda *Report* non è attualmente disponibile per gli abbonamenti Keystone .
+
++
+
+TIP: È possibile personalizzare la tabella utilizzando l'icona di selezione delle colonne image:column-selector.png["icona di selezione della colonna"].
 
 
 
@@ -44,10 +48,14 @@ NOTE: La scheda *Report* non è attualmente disponibile per gli abbonamenti Keys
 
 Dalla scheda *Avvisi* è possibile eseguire le seguenti azioni:
 
-* *Esamina e risolvi gli avvisi*: seleziona il numero ID dell'avviso per aprire una visualizzazione dettagliata dell'avviso.  Questa vista mostra la descrizione dell'avviso e i passaggi suggeriti per la risoluzione.  Da questa vista dettagliata è possibile:
+* *Esamina e risolvi avvisi*: seleziona l'ID dell'avviso per aprire una vista dettagliata dell'avviso. Questa vista mostra la descrizione dell'avviso e i passaggi di risoluzione suggeriti. Da questa vista dettagliata, puoi contrassegnare l'avviso come risolto utilizzando il pulsante *Edit* o aggiungere note di supporto utilizzando il pulsante *Add note*.
 +
-** Contrassegna l'avviso come risolto selezionando il pulsante *Modifica* dopo aver risolto il problema.
-** Se necessario, aggiungere note di supporto selezionando il pulsante *Aggiungi nota*.
+È anche possibile utilizzare l'icona con i puntini di sospensione accanto alla colonna *Status* per eseguire le seguenti azioni:
+
++
+** *Modifica*: apre una finestra pop-up per cambiare lo stato dell'avviso e aggiungere dettagli sulla risoluzione.
+** *Aggiungi nota*: apre un pop-up per aggiungere una nota all'alert.
+** *Visualizza*: apre la stessa vista dettagliata come selezionare l'alert ID.
 +
 
 NOTE: Per modificare gli avvisi è necessario il ruolo * Amministratore Keystone *. Il ruolo * Visualizzatore Keystone * può solo visualizzare i dettagli degli avvisi. Per saperne di più, fare riferimento a link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-keystone-roles.html["Ruoli di accesso Keystone nella NetApp Console"^].

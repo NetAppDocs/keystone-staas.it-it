@@ -45,7 +45,11 @@ NOTE: Se hai sottoscritto servizi aggiuntivi come advanced data protection (ADP)
 image:bxp-consumption-trend-1.png["schermata che mostra i consumi storici"]
 
 +
-Il grafico a linee mostra i dati storici sui consumi e consente agli utenti di analizzare le tendenze in un intervallo di date selezionato. Il grafico mostra parametri quali la capacità utilizzata (capacità di archiviazione totale, inclusi sia i dati che i dati snapshot), i dati (capacità di archiviazione utilizzata dai dati utente) e gli snapshot (capacità di archiviazione utilizzata dai dati snapshot), insieme alla capacità impegnata e burst. La data e l'ora di ciascun punto dati vengono visualizzate nella parte inferiore del grafico. In base all'intervallo di date della query, i grafici di utilizzo mostrano fino a 30 punti di raccolta dati. È possibile passare il cursore del mouse sul grafico per visualizzare la ripartizione dell'utilizzo in ciascun punto di raccolta dati.
+Il grafico a linee mostra i dati storici sui consumi e consente agli utenti di analizzare le tendenze in un intervallo di date selezionato. Il grafico mostra metriche quali capacità utilizzata (capacità di archiviazione totale, inclusi sia i dati che i dati snapshot), dati (capacità di archiviazione utilizzata dai dati utente) e snapshot (capacità di archiviazione utilizzata dai dati snapshot), insieme alla capacità impegnata e di picco. In base all'intervallo di date della query, i grafici di utilizzo mostrano fino a 30 punti di raccolta di dati. Puoi passare il cursore del mouse sul grafico per visualizzare la ripartizione dell'utilizzo in ciascun punto di raccolta di dati.
+
++
+
+NOTE: L'intervallo di date selezionato determina il livello di dettaglio mostrato nella parte inferiore del grafico. Per periodi di 30 giorni o meno, vengono visualizzati sia la data che l'ora per ogni punto dati. Per periodi superiori a 30 giorni, viene visualizzata solo la data.
 
 +
 
@@ -135,6 +139,10 @@ Il burst è la differenza tra la capacità consumata e la capacità impegnata. A
 
 È possibile visualizzare l'utilizzo dei dati burst accumulati tramite la Console o Digital Advisor. Se si è selezionato *Accrued burst* dal menu a discesa *View* nella scheda *Consumption trend* nella Console, o l'opzione *Invoiced Accrued Burst* dalla scheda *Consumption Trend* in Digital Advisor, è possibile visualizzare l'utilizzo dei dati burst accumulati su base mensile o trimestrale, a seconda del periodo di fatturazione selezionato. Questi dati sono disponibili per gli ultimi 12 mesi fatturati ed è possibile effettuare query per intervallo di date fino agli ultimi 30 mesi.
 
+Nella Console, oltre all'utilizzo burst fatturato, puoi anche visualizzare l'utilizzo burst non fatturato (accumulato ma non ancora fatturato) e l'utilizzo burst provvisorio (accumulato nel periodo di fatturazione corrente e non ancora fatturato).
+
+image:accr-burst-provision-invoice.png["screenshot che mostra l'utilizzo burst accumulato nella Console"]
+
 [TIP]
 ====
 * Nella Console, puoi interagire con il grafico di fatturazione burst accumulata per filtrare l'utilizzo giornaliero dei dati. Per saperne di più, consulta link:../integrations/consumption-tab.html#view-daily-accrued-burst-data-usage["Visualizza l'utilizzo giornaliero dei dati burst maturati"].
@@ -157,6 +165,8 @@ image:accr-burst-2.png["utilizzo bursting maturato su base trimestrale"]
 Nella Console, puoi filtrare la tabella selezionando una qualsiasi barra che rappresenta un periodo di fatturazione nel grafico di fatturazione a raffica maturata. Quando è filtrata, la tabella mostra solo i giorni all'interno del periodo di fatturazione selezionato. Per visualizzare nuovamente il set di dati completo, usa l'opzione *Cancella filtri*. Se non sono disponibili dati per il periodo selezionato, viene visualizzato un messaggio che indica che non sono disponibili dati.
 
 image:bxp-accrued-burst-days-1.png["schermata che mostra la tabella dei burst accumulati per giorni"]
+
+Puoi anche scaricare i dati in formato Excel, inclusi lo stato di burst (fatturato, non fatturato o provvisorio) e il periodo di fatturazione.
 
 In Digital Advisor, quando fai clic sulla barra che visualizza i dati fatturati dall'opzione *Invoiced Accrued Burst*, sotto il grafico a barre viene visualizzata la sezione Billable Provisioned Capacity, che offre opzioni di visualizzazione sia tramite grafici che tramite tabelle. La visualizzazione predefinita del grafico visualizza l'utilizzo giornaliero dei dati burst maturati in un formato grafico a linee, che mostra le modifiche nell'utilizzo nel tempo.
 

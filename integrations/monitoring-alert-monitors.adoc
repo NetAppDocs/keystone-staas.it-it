@@ -28,7 +28,7 @@ Per visualizzare i monitor di avviso, seguire questi passaggi:
 image:monitoring-alert-monitors-default-view-1.png["Uno screenshot dei monitor di avviso per gli abbonamenti Keystone"]
 
 +
-È possibile visualizzare un elenco dei monitor di avviso per tutti gli abbonamenti Keystone , inclusi i nomi dei monitor, le condizioni di avviso che attivano le notifiche, i livelli di gravità, i numeri di abbonamento, i livelli di servizio delle prestazioni e lo stato. È possibile controllare la colonna *Creato da* per verificare se i monitor di avviso sono generati dal sistema o definiti dall'utente.
+È possibile visualizzare un elenco dei monitor di avviso attraverso le proprie sottoscrizioni Keystone, inclusi i nomi dei monitor, le condizioni dei monitor che attivano le notifiche, i livelli di gravità, i numeri di sottoscrizione, i livelli di servizio delle prestazioni e lo stato. È possibile controllare la colonna *Created by* per vedere se i monitor di avviso sono generati dal sistema o definiti dall'utente.
 
 +
 
@@ -84,6 +84,10 @@ Dopo aver creato il monitor, il sistema torna alla pagina *Monitor avvisi* e vis
 +
 image:edit-alert-monitor.png["Uno screenshot della modifica di un monitor di avviso per gli abbonamenti Keystone"]
 
++
+
+NOTE: I monitor generati dal sistema non possono essere modificati.
+
 . Selezionare *Modifica*.
 +
 Viene visualizzata la pagina *Modifica monitor avvisi* con la configurazione del monitor corrente.
@@ -119,13 +123,13 @@ Un nuovo monitor di avviso viene creato con la configurazione aggiornata e appar
 --
 .Fasi
 . Selezionare l'icona con i puntini di sospensione per il monitor che si desidera rimuovere.
++
+
+NOTE: I monitor generati dal sistema non possono essere eliminati.
+
 . Selezionare *Elimina* e confermare l'eliminazione.
 +
 Dopo l'eliminazione, gli abbonamenti collegati al monitor non riceveranno più notifiche.
-
-+
-
-NOTE: I monitor generati dal sistema non possono essere eliminati dagli utenti.
 
 
 

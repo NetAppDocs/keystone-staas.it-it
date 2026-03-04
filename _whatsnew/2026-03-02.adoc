@@ -1,0 +1,29 @@
+= Nuove colonne nella scheda Volumes in clusters
+:allow-uri-read: 
+
+
+Nuovi miglioramenti nella dashboard Keystone nella NetApp Console:
+
+
+
+=== Nuove colonne nella scheda Volumes in clusters
+
+Tre nuove colonne, *Dati attivi*, *Livello freddo (%)* e *Livello attivo (%)*, sono state aggiunte alla scheda *Volumi nei cluster* in *Risorse*. Per ulteriori informazioni, fare riferimento a link:./integrations/assets-tab.html["Visualizza le risorse associate a un abbonamento Keystone"] e link:./integrations/assets.html["Visualizza le risorse nei tuoi abbonamenti Keystone"].
+
+
+
+=== Utilizzo fatturato, non fatturato e burst provvisorio in Consumption trend
+
+Il grafico della fatturazione dei consumi a raffica accumulati nella scheda *Andamento dei consumi* ora mostra i consumi fatturati, non fatturati e provvisori. Per ulteriori informazioni, consultare link:./integrations/consumption-tab.html#view-accrued-burst["Visualizza il burst accumulato"].
+
+
+
+=== Miglioramenti alla vista Monitoring
+
+La vista *Monitoring* include i seguenti aggiornamenti:
+
+* *Scheda Alerts*: la colonna *Alert* è stata rinominata *Alert type & condition*. Ora puoi anche utilizzare l'icona con i puntini di sospensione accanto alla colonna *Status* per modificare un alert, aggiungere una nota o visualizzare i dettagli dell'alert.
+* *Scheda Monitor avvisi*: la colonna *Condizione* è stata rinominata *Tipo di monitor e condizione*.
+
+
+Per saperne di più, fare riferimento a link:./integrations/monitoring-alerts.html["Visualizza e gestisci gli avvisi per gli abbonamenti Keystone"] e link:./integrations/monitoring-alert-monitors.html["Visualizza e crea monitor di avviso per gli abbonamenti Keystone"].

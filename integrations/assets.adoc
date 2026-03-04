@@ -56,11 +56,15 @@ TIP: È possibile personalizzare la tabella utilizzando il selettore di colonna 
 image:console-volumes-clusters-multiple-sub.png["Uno screenshot dei volumi nei cluster per più abbonamenti"]
 
 +
-Sono disponibili informazioni dettagliate su tutti i volumi nei cluster degli abbonamenti Keystone, inclusi nome del volume, numero di abbonamento, numero di serie del nodo, conformità con le policy QoS, nome del cluster, nome host e livelli di servizio delle prestazioni. È possibile monitorare la capacità fornita, l'utilizzo logico e fisico e i dati inattivi. È inoltre disponibile una panoramica di:
+Sono disponibili informazioni dettagliate su tutti i volumi nei cluster delle sottoscrizioni Keystone, inclusi nome del volume, numero di sottoscrizione, numero di serie del nodo, conformità alle policy QoS, nome del cluster, host name e livelli di servizio delle prestazioni. Puoi monitorare la capacità fornita, l'utilizzo logico e fisico, i dati inattivi e quelli attivi. Ottieni anche una panoramica di:
 
 +
 ** Numero totale di abbonamenti, cluster e volumi.
 ** Conformità del volume e stato di protezione, con un pulsante *Visualizza* per filtrare la tabella e visualizzare le risorse in base a criteri quali conforme, non conforme o non protetto.
++
+
+NOTE: Le colonne *Cold tier %* e *Hot tier %* mostrano la percentuale di dati su ciascun tier, calcolata come (Cold data / Total footprint) × 100 e (Hot data / Total footprint) × 100 rispettivamente.
+
 +
 
 TIP: È possibile personalizzare la tabella utilizzando il selettore di colonna image:column-selector.png["icona di selezione della colonna"] icona e utilizzare la barra di ricerca in alto per cercare e filtrare i dati Keystone in base ai parametri della colonna.
