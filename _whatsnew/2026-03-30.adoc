@@ -1,0 +1,29 @@
+= Capacità di burst superiore nel grafico dei consumi storici
+:allow-uri-read: 
+
+
+Nuovi miglioramenti nella dashboard Keystone nella NetApp Console:
+
+
+
+=== Capacità di burst superiore nel grafico dei consumi storici
+
+Il grafico storico dei consumi nella scheda *Andamento dei consumi* ora evidenzia l'utilizzo che supera il limite di picco. Per ulteriori informazioni, consultare link:./integrations/consumption-tab.html["Visualizza i trend di consumo dei tuoi abbonamenti Keystone"].
+
+
+
+=== Previsioni sull'utilizzo della capacità
+
+È possibile utilizzare l'interruttore *Previsione* nella vista *Consumo storico* della scheda *Andamento dei consumi* per prevedere l'utilizzo della capacità per i prossimi 120 giorni a partire dalla data corrente. Per ulteriori informazioni, consultare link:./integrations/consumption-tab.html#view-forecast-data["Visualizza i dati previsionali"].
+
+
+
+=== ID di tracciamento nell'esportazione dell'abbonamento
+
+Il report sugli abbonamenti scaricato dalla pagina *Abbonamenti* ora include il *Tracking ID* nei dati relativi al livello di servizio delle prestazioni, sia in formato Excel che CSV.
+
+
+
+=== Aggiornamenti sulla visibilità delle colonne nella pagina degli abbonamenti
+
+Nella pagina *Abbonamenti*, la colonna *Versione Keystone* è ora nascosta per impostazione predefinita e la colonna *Abbonamenti collegati* viene visualizzata solo quando sono disponibili abbonamenti collegati.

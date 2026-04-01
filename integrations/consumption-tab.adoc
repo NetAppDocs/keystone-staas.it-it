@@ -42,10 +42,20 @@ NOTE: Puoi selezionare *Accrued Burst* dal menu a tendina *Visualizza* se deside
 NOTE: Se hai sottoscritto servizi aggiuntivi come advanced data protection (ADP) o Data Infrastructure Insights (DII), i dati di consumo per questi servizi vengono visualizzati insieme ai livelli di servizio delle prestazioni di base sia nella vista storica dei consumi che in quella dei burst accumulati. Per ulteriori informazioni sui servizi aggiuntivi, consulta link:../concepts/adp.html["Scopri i servizi aggiuntivi"].
 
 +
-image:bxp-consumption-trend-1.png["schermata che mostra i consumi storici"]
+image:consumption-trend-burst.png["schermata che mostra i consumi storici"]
 
 +
-Il grafico a linee mostra i dati storici sui consumi e consente agli utenti di analizzare le tendenze in un intervallo di date selezionato. Il grafico mostra metriche quali capacità utilizzata (capacità di archiviazione totale, inclusi sia i dati che i dati snapshot), dati (capacità di archiviazione utilizzata dai dati utente) e snapshot (capacità di archiviazione utilizzata dai dati snapshot), insieme alla capacità impegnata e di picco. In base all'intervallo di date della query, i grafici di utilizzo mostrano fino a 30 punti di raccolta di dati. Puoi passare il cursore del mouse sul grafico per visualizzare la ripartizione dell'utilizzo in ciascun punto di raccolta di dati.
+Il grafico a linee visualizza i dati storici di consumo e consente agli utenti di analizzare le tendenze in un intervallo di date selezionato. Il grafico mostra le seguenti metriche:
+
++
+** *Capacità utilizzata*: Spazio di archiviazione totale in uso, comprensivo sia dei dati che degli snapshot.
+** *Dati*: Capacità di archiviazione utilizzata dai dati dell'utente.
+** *Snapshot*: Capacità di archiviazione utilizzata dai dati dello snapshot.
+** *Impegnata*: La capacità impegnata da contratto.
+** *Capacità di burst*: Il limite massimo di burst consentito per il tuo abbonamento.
+** *Above burst capacity*: Consumo di storage oltre il limite di burst. Questa metrica viene visualizzata solo quando il limite di burst viene superato.
++
+In base all'intervallo di date della query, i grafici di utilizzo mostrano fino a 30 punti di raccolta di dati. Puoi passare il cursore del mouse sul grafico per visualizzare la ripartizione dell'utilizzo in ciascun punto di raccolta di dati.
 
 +
 
@@ -57,6 +67,8 @@ NOTE: Se un livello di servizio delle prestazioni ha più istanze, è possibile 
 
 +
 Puoi anche visualizzare un riepilogo dei consumi attuali insieme ai consumi storici per avere una chiara comprensione dei tuoi utilizzi.
+
+
 
 
 
@@ -123,6 +135,20 @@ NOTE: Un grafico vuoto indica che non sono disponibili dati nell'ambiente in que
 
 --
 ====
+
+
+== Visualizza i dati previsionali
+
+È possibile visualizzare l'utilizzo previsto della capacità per i prossimi 120 giorni a partire dalla data odierna tramite l'interruttore *Previsione* disponibile nella vista *Consumo storico* della scheda *Andamento dei consumi* nella Console. L'interruttore è abilitato per impostazione predefinita.
+
+Di default, il grafico visualizza gli ultimi 30 giorni di consumo storico e una proiezione a 120 giorni dalla data odierna, sullo stesso grafico. Vengono tracciati fino a 30 punti dati in totale (20 per dati storici e 10 per dati di previsione), con una linea verticale che separa i due segmenti.
+
+image:forecast-1.png["screenshot che mostra i dati di previsione"]
+
+Selezionando un intervallo di date che non termina con la data odierna, le previsioni vengono automaticamente disabilitate. Per riattivarle, viene visualizzata una finestra di dialogo di conferma che informa l'utente che i dati di forecast sono disponibili solo quando l'intervallo di tempo selezionato termina con la data odierna. Confermando, la visualizzazione viene ripristinata all'intervallo predefinito, ovvero gli ultimi 30 giorni di dati storici più i successivi 120 giorni di forecast.
+
+Se si prevede che il consumo previsto superi la capacità di burst, sul grafico compare un indicatore di allarme che consiglia un upgrade della capacità.
+
 
 
 == Calcolo del burst accumulato

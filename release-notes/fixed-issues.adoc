@@ -26,7 +26,7 @@ Gli abbonamenti visualizzano erroneamente lo stato *Sopra il limite di burst* ne
  a| 
 Corretto
  a| 
-2025-12-08
+2026-03-30
 
 
 
