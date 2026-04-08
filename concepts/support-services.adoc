@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/support-services.html 
 keywords: Keystone support, service request, support ticket 
-summary: Se hai bisogno di assistenza, contatta il team di supporto NetApp Keystone. 
+summary: Utilizza il NetApp Support Site per creare una richiesta di supporto o trovare le informazioni di contatto per i tuoi abbonamenti Keystone. 
 ---
 = Ottieni aiuto con Keystone
 :hardbreaks:
@@ -14,48 +14,53 @@ summary: Se hai bisogno di assistenza, contatta il team di supporto NetApp Keyst
 
 
 [role="lead"]
-Il team di supporto NetApp Keystone e il Keystone Success Manager (KSM) forniscono la tua assistenza per le tue iscrizioni a Keystone. Se hai bisogno di aiuto, puoi contattare il team di supporto Keystone.
+NetApp fornisce ai clienti Keystone servizi operativi. I clienti ricevono un Keystone Success Manager (KSM) dedicato, opzioni di contatto diretto con il supporto e monitoraggio proattivo tramite la soluzione ITOM.
 
 
 
-== Supporto NetApp Keystone
+== NetApp supporto tecnico
 
-NetApp fornisce servizi operativi in remoto ai clienti NetApp Keystone. Questi servizi comprendono una gamma di discipline operative per le attività di gestione dello storage. Questi servizi includono gestione delle risorse e della configurazione, gestione della capacità e delle performance, gestione delle modifiche, gestione di eventi, incidenti e problemi, evasione delle richieste di servizio e reporting. NetApp dimostra uno stato di controllo e prove a sostegno, come richiesto.
+NetApp fornisce servizi operativi da remoto ai clienti Keystone. Questi servizi comprendono una vasta gamma di attività di gestione dello storage, tra cui la gestione degli asset e della configurazione, la gestione della capacità e delle prestazioni, la gestione delle modifiche, la gestione degli eventi e degli incidenti, l'evasione delle richieste di servizio e la reportistica.
 
-
-
-== Ulteriori informazioni
-
-NetApp utilizza la soluzione di monitoraggio ITOM per monitorare e connettersi in modo proattivo all'ambiente NetApp Keystone per la risoluzione dei problemi.
+.Keystone Success Manager
+Il tuo KSM collabora a stretto contatto con te sui tuoi servizi Keystone e fornisce report di fatturazione e operativi settimanali o mensili. Le responsabilità specifiche sono definite nel tuo accordo NetApp Keystone.
 
 
-NOTE: In un modello gestito dal partner, le richieste di servizio del tenant e del subtenant vengono assegnate al service desk del partner. Lo strumento di supporto del partner potrebbe essere integrato con la soluzione ITOM.
+
+== Contatta il supporto
+
+Se riscontri un problema con il tuo abbonamento Keystone, accedi al link:https://support.netapp.com["Sito di supporto NetApp"^] utilizzando le tue credenziali NSS per creare una richiesta di supporto tecnico.
+
+Se non si dispone di un login NSS, link:https://mysupport.netapp.com/site/user/registration["registra il tuo account"^] utilizzare il numero di serie (SN) di uno dei nodi del proprio abbonamento.
+
+Per istruzioni dettagliate con schermate illustrative, vedere link:https://kb.netapp.com/nss/Support_Site/How_to_open_a_technical_support_case["Come aprire un caso di supporto tecnico"^].
+
+Se preferisci parlare direttamente con un rappresentante del supporto tecnico, chiama uno dei seguenti numeri:
+
+* Stati Uniti / Canada: 888 463 8277
+* Europa: 00 800 44 638277
+* India: 000 800 100 8948
+* Altri dati globali: link:https://www.netapp.com/company/contact-us/support/["https://www.netapp.com/company/contact-us/support/"^]
+
+
+
+
+== Monitoraggio del supporto
+
+NetApp utilizza la soluzione di monitoraggio ITOM per monitorare in modo proattivo lo stato di salute dei tuoi prodotti e dei servizi in abbonamento e connettersi all'ambiente NetApp Keystone per la risoluzione dei problemi.
+
+
+
+== Risorse aggiuntive
 
 Per ulteriori informazioni sui servizi Keystone, consulta:
 
-* NetApp Keystonehttps://www.netapp.com/us/solutions/keystone/index.aspx["https://www.netapp.com/us/solutions/keystone/index.aspx"^]
-* Documentazione sui prodotti NetApphttps://docs.netapp.com["https://docs.netapp.com"^]
+* link:https://www.netapp.com/us/solutions/keystone/index.aspx["NetApp Keystone"^]
+* link:https://docs.netapp.com["Documentazione del prodotto NetApp"^]
 
 
+*Informazioni correlate*
 
+* link:https://kb.netapp.com/on-prem/ontap/OHW/OHW-KBs/How_to_Identify_Serial_Number_of_ONTAP_Platform["Come identificare il numero di serie della piattaforma ONTAP"^]
+* link:https://kb.netapp.com/hybrid/StorageGRID/Maintenance/Which_serial_number_to_use_when_creating_StorageGRID_technical_support_case["Quale numero di serie utilizzare quando si crea un caso di supporto tecnico StorageGRID"^]
 
-== Monitoring del supporto Keystone
-
-Il supporto NetApp Keystone monitora la salute dei tuoi prodotti e dei servizi a cui ti sei abbonato, offre supporto da remoto e collabora con il tuo Keystone Success Manager.
-
-.Keystone Success Manager
-Il Keystone Success Manager (KSM) lavora a stretto contatto con te sui tuoi servizi Keystone e ti aggiorna in merito alla fatturazione settimanale o mensile e ai report operativi. Le responsabilità sono specificate nel contratto NetApp Keystone.
-
-
-
-== Generazione di richieste di servizio
-
-Durante l'assunzione, se hai fornito le credenziali per accedere e utilizzare NetApp Keystone ServiceNow, puoi utilizzare il portale per generare richieste di servizio per problemi relativi alle tue sottoscrizioni Keystone:
-
-https://netappkeystone.service-now.com/csm[]
-
-Prima di inviare la richiesta di servizio, assicurarsi di disporre dei dettagli di sistema, dei registri e delle informazioni correlate. Quando rilanci una richiesta di servizio, il team di supporto Keystone riceve il ticket di supporto e accede alle informazioni per il troubleshooting. Puoi seguire il tuo ticket ServiceNow per conoscere lo stato e la risoluzione.
-
-Per informazioni sull'aggiunta di pacchetti di supporto, vedere link:../installation/monitor-health.html["Generare e raccogliere bundle di supporto"].
-
-Se si dispone di un caso/ticket aperto che deve essere sottoposto a escalation, inviare un'e-mail a uno dei seguenti indirizzi: keystone.services@netapp.com keystone.escalations@netapp.com
