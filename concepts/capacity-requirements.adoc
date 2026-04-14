@@ -124,46 +124,66 @@ Capacità incrementale (e in multipli) consentita come add-on durante l'abboname
 
 == Regolazioni della capacità
 
-Scopri di più sulle regolazioni della capacità:
+Comunica tempestivamente a NetApp qualsiasi modifica pianificata alla capacità per consentire la pianificazione e l'implementazione. Le seguenti condizioni si applicano a tutte le modifiche di capacità:
 
-* La capacità può essere aggiunta in qualsiasi momento durante la durata del contratto, ad eccezione degli ultimi 90 giorni, con incrementi per livello di servizio prestazionale, come descritto nelle tabelle della sezione precedente. L'aggiunta di capacità o servizi è consentita negli ultimi 90 giorni della durata del contratto, a condizione che vi sia il consenso al rinnovo del servizio. Qualsiasi aggiunta di capacità, nuovo servizio on-premise o cloud può essere co-utilizzata con il termine esistente. La fattura inviata all'utente in seguito all'attivazione dei nuovi servizi riflette la fatturazione modificata. La capacità impegnata dei servizi cloud non può essere ridotta in alcun momento durante il periodo di validità dell'abbonamento. Nel frattempo, la capacità impegnata e la spesa impegnata per i servizi on-premise durante il periodo di validità del contratto possono essere ridotte in base a determinati criteri, come definito nella sezione seguente _riduzione della capacità_.
-* In ogni sito è disponibile una capacità burst, in base all'accordo Keystone. Solitamente, è impostato al 20% in più rispetto alla capacità impegnata per un livello di servizio prestazionale. Qualsiasi utilizzo burst viene fatturato solo per quel periodo di fatturazione. Se hai requisiti di bursting aggiuntivi superiori alla capacità concordata, contatta il supporto.
-* La capacità impegnata può essere modificata durante un periodo contrattuale, solo in determinate condizioni, come descritto nella sezione seguente _riduzione della capacità_.
-* È consentito aumentare la capacità o passare a un livello di servizio con prestazioni superiori durante il periodo di validità dell'abbonamento. Tuttavia, non è consentito passare da un livello di servizio con prestazioni superiori a uno con prestazioni inferiori.
-* Qualsiasi richiesta di modifica negli ultimi 90 giorni del periodo di validità del servizio richiede un rinnovo del servizio per almeno un anno.
+* *Aumenti di capacità*: La capacità impegnata può essere aumentata durante il periodo di abbonamento con gli incrementi specificati, ad eccezione degli ultimi 90 giorni prima della scadenza, a meno che l'abbonamento non venga rinnovato. Una volta confermato da NetApp, l'aumento si applica per il resto del periodo e il pagamento minimo viene rivisto di conseguenza. Tutte le aggiunte di capacità e i nuovi servizi, sia on-premises che cloud, coincidono con la durata dell'abbonamento esistente. La capacità impegnata per i servizi cloud non può essere ridotta in nessun momento durante il periodo di abbonamento.
+* *Fatturazione per aumenti*: Per gli abbonamenti con modello di pagamento _Annuale anticipato_, NetApp emetterà fattura per qualsiasi aumento proporzionale dei pagamenti minimi dovuti per il resto del periodo di fatturazione corrente. La fattura inviata dopo l’attivazione dei nuovi servizi riflette la fatturazione rivista.
+* *Capacità di picco*: in ogni sito è disponibile una capacità aggiuntiva rispetto al livello concordato, in genere fino al 20% per livello di servizio. Per i dettagli sui limiti di picco e sulla fatturazione, consultare link:../concepts/supported-storage-capacity.html["Capacità di storage supportate in Keystone"].
+* *Modifiche al livello di servizio prestazionale*: È consentito passare a un livello di servizio prestazionale superiore durante il periodo di validità dell'abbonamento. Non è consentito passare a un livello di servizio prestazionale inferiore.
+* *Riduzione della capacità on-premises*: La capacità impegnata per i servizi on-premises può essere ridotta in determinate condizioni. Vedere _Riduzione della capacità_ per i dettagli.
 
 
 
 
 === Riduzione della capacità
 
-La riduzione della capacità (annuale) è applicabile al modello di pagamento _annuale in anticipo_ e alle implementazioni solo on-premise. Non è disponibile per servizi cloud o servizi di cloud ibrido. Fornisce il provisioning della capacità on-premise, che può essere ridotta fino al 25% per livello di servizio per abbonamento. Questa riduzione è consentita una volta all'anno per essere effettiva all'inizio del successivo periodo di fatturazione annuale. I pagamenti annuali basati sui servizi on-premise devono essere superiori a 200 milioni di dollari in qualsiasi momento durante il periodo di validità per sfruttare la riduzione della capacità. Poiché è supportato solo per le implementazioni on-premise, questo modello di fatturazione non fornisce la riallocazione delle spese dai servizi on-premise ai servizi cloud. Un esempio di riduzione annuale della capacità è illustrato nella seguente immagine.
+La riduzione del requisito di capacità si applica esclusivamente al modello di pagamento _Annual in Advance_ e alle implementazioni Keystone on-premises. È richiesto un termine di abbonamento minimo di 24 mesi per essere idonei. I servizi cloud e le implementazioni di cloud storage ibrido non sono idonei per la riduzione del requisito di capacità.
 
-image:reallocation.png["spiegazione della logica di riallocazione"]
+Le seguenti condizioni regolano tutte le richieste di riduzione della capacità impegnata:
+
+* *Richiesta scritta*: Le richieste devono essere presentate per iscritto e pervenire a NetApp almeno 60 giorni prima del successivo periodo di abbonamento annuale in cui la riduzione avrà effetto.
+* *Riduzioni consentite per periodo*:
++
+** Per gli abbonamenti di 2 o 3 anni: è consentita una sola riduzione durante il periodo di abbonamento.
+** Per gli abbonamenti di 4 o 5 anni: sono consentite due riduzioni durante il periodo di validità dell'abbonamento.
+
+
+* *Limite di riduzione per richiesta*: Una singola riduzione non può superare il 25% della capacità impegnata al momento della richiesta.
+* *Soglia di capacità minima*: Una riduzione non può comportare che la capacità impegnata scenda al di sotto del requisito di capacità minima impegnata per il livello di servizio di prestazione applicabile.
+* *Data di entrata in vigore*: Le riduzioni approvate avranno effetto a partire dall'inizio del successivo periodo di abbonamento annuale.
+
+
+Affinché una richiesta di riduzione venga approvata, i pagamenti annuali basati sui servizi in loco devono rimanere pari o superiori a USD 200K dopo l'applicazione della riduzione.
+
+L'immagine seguente mostra un esempio di come le riduzioni di capacità si applicano a un abbonamento Keystone di 3 anni.
+
+image:capacity-reduction.png["spiegazione della logica di riallocazione"]
+
+In questo esempio, la capacità iniziale impegnata è di 300 TiB (pagamento annuo di 300K USD). Nel primo anno, viene ricevuta una richiesta di riduzione della capacità a 225 TiB. NetApp verifica che la riduzione (75 TiB) rientri nel limite del 25% e che il pagamento risultante rimanga pari o superiore a 200K USD. La richiesta viene approvata ed entra in vigore all'inizio del secondo anno. Nel secondo anno, viene ricevuta una richiesta di riduzione della capacità a 100 TiB. NetApp rifiuta la richiesta perché la riduzione supera il 25% della capacità impegnata attuale (225 TiB) e l'unica riduzione consentita per questo periodo di 3 anni è già stata utilizzata. La capacità per il terzo anno rimane a 225 TiB (pagamento annuo di 225K USD) e non sono consentite ulteriori riduzioni.
 
 
 
 === Riallocazione della spesa trimestrale
 
-Keystone STaaS ti offre la possibilità di riallocare la spesa del servizio on-premise alla spesa relativa a Cloud Volumes ONTAP.
+La riallocazione della spesa trimestrale è disponibile solo per i servizi cloud ibridi. Consente di riallocare la spesa per i servizi on-premises alla spesa per i servizi cloud su base trimestrale. Non è consentita la riallocazione dai servizi cloud ai servizi on-premises.
 
-Requisiti e condizioni a livello di abbonamento:
+Le seguenti condizioni si applicano a tutte le richieste di riallocazione:
 
-* Si applica solo alla fatturazione mensile nei modelli arretrati.
-* Si applica solo agli abbonamenti con impegni a 1, 2 o 3 anni.
-* La capacità per Cloud Volumes ONTAP e Cloud Backup Service deve essere acquistata tramite Keystone.
-* Fino al 25% dei pagamenti mensili on-premise basati sui servizi può essere utilizzato per la riallocazione ai servizi cloud.
-* Le richieste di riallocazione sono effettive solo dopo 90 giorni dalla data di attivazione precedente della riallocazione.
-* Non è possibile riassegnare i servizi cloud ai servizi on-premise.
-* Una richiesta di riallocazione deve essere inviata formalmente dal cliente o dal partner a Keystone Success Manager (KSM) almeno una settimana prima del ciclo di fatturazione successivo.
-* Le nuove richieste entrano in vigore solo dal ciclo di fatturazione consecutivo.
+* *Limite di riallocazione*: È possibile riallocare fino al 25% del valore contrattuale annuo (ACV) al momento della richiesta.
+* *Pagamento minimo dopo riallocazione*: Dopo la riallocazione, il pagamento minimo mensile per abbonamento on-premises deve rimanere pari o superiore a USD 16.667.
+* *Blocco di 90 giorni*: una nuova richiesta di riallocazione non può essere attivata prima che siano trascorsi almeno 90 giorni dall'attivazione della precedente riallocazione.
+* *Restrizione di fine periodo*: La riallocazione non è consentita durante gli ultimi 90 giorni del periodo di validità dell'abbonamento, a meno che l'abbonamento non venga rinnovato.
+* *Termine ultimo per la richiesta*: Le richieste devono essere inviate almeno 5 giorni lavorativi prima del successivo ciclo di fatturazione.
+* *Data di entrata in vigore*: Le richieste approvate avranno effetto a partire dal primo giorno del ciclo di fatturazione successivo.
 
 
-Puoi destinare una parte delle tue spese ai livelli di servizio di prestazioni di archiviazione di file, blocchi o oggetti a cui hai sottoscritto un abbonamento per i servizi di archiviazione cloud ibrida. Fino al 25% del valore del contratto annuale (ACV) può essere riassegnato su base trimestrale ai servizi primari e secondari di Cloud Volumes ONTAP e Cloud Volumes ONTAP:
+L'immagine seguente illustra come funziona la riallocazione trimestrale della spesa.
 
 image:reallocation.png["spiegazione della logica di riallocazione"]
 
-Questa tabella fornisce una serie di valori campione per dimostrare come funziona la riallocazione delle spese. In questo esempio, `$5000` dalla spesa mensile viene riallocata al servizio di cloud storage ibrido.
+In questo esempio, la spesa on-premises è di 30K USD al mese. A febbraio, la Richiesta A per spostare 5K USD verso i servizi cloud viene approvata e attivata a marzo, innescando un blocco di 90 giorni fino a maggio. La Richiesta B, presentata durante il periodo di blocco, si attiva dopo la scadenza del blocco, riducendo la spesa on-premises a 20K USD e aumentando la spesa per i servizi cloud a 10K USD a partire da luglio. Non è consentita alcuna riallocazione negli ultimi 90 giorni del periodo.
+
+Questa tabella fornisce una serie di valori esemplificativi per illustrare come funziona la riallocazione delle spese. In questo esempio, 5.000 USD della spesa mensile vengono riallocati al servizio di cloud storage ibrido.
 
 |===
 
@@ -187,4 +207,6 @@ Questa tabella fornisce una serie di valori campione per dimostrare come funzion
 |===
 La riduzione è pari a (125-108) = 17 TiB di capacità allocata per il livello di servizio Extreme Performance. Durante la riallocazione della spesa, il cloud storage ibrido assegnato non è di 17 TiB, ma una capacità equivalente che è possibile acquistare da $5000. In questo esempio, per $ 5000, è possibile ottenere 17 TiB di capacità di storage on-prem per il livello di servizio Extreme Performance e 47 TiB di capacità cloud ibrida per il livello di servizio Cloud Volumes ONTAP Performance. Pertanto, la riassegnazione riguarda la spesa, non la capacità.
 
-Contatta il tuo Keystone Success Manager (KSM) per riallocare le spese dai servizi on-premise ai servizi cloud.
+Contatta il tuo Keystone Success Manager (KSM) per inviare una richiesta di riallocazione.
+
+Per saperne di più, fare riferimento a https://fieldportal.netapp.com/s/article/Changes-to-Keystone-STaaS-Service-Description-and-Supplement-v3-Reference-Guide["Keystone STaaS v3 Guida di riferimento e descrizione del servizio"^].
