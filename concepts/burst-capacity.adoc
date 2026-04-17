@@ -16,7 +16,7 @@ summary: Consente ai clienti di utilizzare capacità di archiviazione aggiuntiva
 [role="lead"]
 Puoi optare per il servizio aggiuntivo Burst Capacity come parte del tuo abbonamento NetApp Keystone. Questo servizio ti consente di aumentare i limiti di burst capacity del 40% o del 60% rispetto alla capacità impegnata, offrendoti la flessibilità necessaria per gestire picchi imprevisti di carico di lavoro.
 
-La capacità di burst si riferisce alla capacità di archiviazione aggiuntiva che può essere utilizzata oltre la capacità impegnata dal tuo abbonamento. Viene misurata e fatturata in base al livello di servizio prestazionale. Per impostazione predefinita, il limite di burst è impostato al 20% in più rispetto alla capacità impegnata. Tuttavia, con questo servizio aggiuntivo, puoi aumentare il limite al 40% o al 60%.
+La capacità di burst si riferisce alla capacità di storage aggiuntiva che può essere utilizzata oltre la capacità garantita dall'abbonamento. Viene misurata e fatturata per livello di servizio delle performance. Per impostazione predefinita, il limite di burst è impostato al 20% in più rispetto alla capacità garantita. Tuttavia, è possibile aumentare il limite al 40% o al 60% solo per i tipi di storage dati unificati e ottimizzati a blocchi.
 
 Per modificare il limite di burst al 40% o al 60%, contattare il team di supporto NetApp Keystone.
 

@@ -24,4 +24,4 @@ Quando la capacità consumata è maggiore della capacità impegnata per un livel
 
 Questo processo si verifica per ogni record di consumo generato. Il consumo di burst, pertanto, riflette sia la quantità che la durata delle capacità di consumo eccessivo in aggiunta alle capacità impegnate. Per ulteriori informazioni, fare riferimento a link:../integrations/consumption-tab.html["Visualizza i trend di consumo dei tuoi abbonamenti Keystone"].
 
-Per informazioni sulle diverse capacità supportate in Keystone, vedere link:../concepts/supported-storage-capacity.html["Capacità di storage supportate in Keystone"].
+Per informazioni sulle diverse capacità supportate in Keystone, vedere link:../concepts/supported-storage-capacity.html["Tipi di capacità di archiviazione in Keystone"].

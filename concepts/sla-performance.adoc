@@ -14,7 +14,7 @@ summary: 'Keystone offre SLO basato sulla latenza per livello di servizio delle 
 
 
 [role="lead"]
-NetApp Keystone offre un SLO basato sulla latenza per livello di servizio prestazionale, come descritto nell'ordine Keystone per la capacità consumata fino al limite di burst, secondo i termini e le condizioni elencati di seguito.
+Keystone STaaS offre un obiettivo di livello di servizio (SLO) basato sulla latenza, che punta al 90° percentile di latenza per istanza di livello di servizio delle prestazioni (PSLI) per storage unificato (escluso il livello di servizio _Value_), storage a blocchi ottimizzato e storage AFX. Scopri come verificare le prestazioni, quali regole si applicano e come ricevere crediti di servizio se Keystone non soddisfa l'obiettivo di latenza per la capacità utilizzata fino al limite di burst, come specificato nei termini e condizioni d'ordine di Keystone.
 
 
 
@@ -27,29 +27,15 @@ NetApp Keystone offre un SLO basato sulla latenza per livello di servizio presta
 ** I volumi con operazioni di scrittura superiori al 30% al momento della raccolta delle metriche sono esclusi dal campione.
 ** Per i volumi che hanno abilitato FabricPool, la latenza sostenuta a causa del trasferimento dei dati da e verso lo storage di destinazione (cold) non viene conteggiata.
 ** La latenza causata dall'applicazione, dall'host o dalla rete del cliente al di fuori del cluster ONTAP non viene conteggiata.
+** Quando si utilizza il servizio aggiuntivo di protezione dati avanzata, la latenza include solo le operazioni di I/O da e verso l'array di storage locale.
 ** Durante un periodo di 24 ore, devono essere disponibili almeno dieci metriche valide. Se la condizione non viene soddisfatta, le metriche verranno scartate.
 ** Nelle configurazioni FabricPool, i livelli di performance sono applicabili quando tutti i blocchi di dati richiesti sono sullo storage di origine FabricPool (hot) e lo storage di origine non è in una relazione di SnapMirror sincrono.
 
 
+* Applicabile esclusivamente alle piattaforme NetApp AFF e AFX.
+* Tutti i limiti minimi e massimi di capacità e gli altri limiti per ciascuna istanza del livello di servizio delle performance, come specificato nell'ordine Keystone, sono applicabili.
+* Tutte le istanze del livello di servizio delle prestazioni richiedono l'abilitazione completa e continua dello strumento di monitoraggio e AutoSupport (ASUP).
 
-
-
-
-== Livelli di servizio prestazionali
-
-Tutti i livelli di servizio prestazionali supportati dagli array di storage flash ONTAP sono idonei per il Performance SLO e garantiscono il rispetto della seguente latenza target:
-
-|===
-
-
-| *Livello di servizio* | Estremo | Premium | Standard | Valore 
-
-
- a| 
-*Target 90^th^ latenza percentile*
-| <=1ms | <=1ms | <=4ms | >=4ms 
-|===
-Per saperne di più sui requisiti di latenza dei livelli di servizio delle prestazioni, fare riferimento a link:../concepts/service-levels.html["Livelli di servizio prestazionali a Keystone"].
 
 
 
@@ -89,7 +75,7 @@ Dove:
 
 *Esempio*
 
-Nell'esempio seguente viene illustrato il metodo di calcolo per i crediti di servizio:
+L'esempio seguente mostra come calcolare i crediti di servizio:
 
 |===
 
@@ -103,7 +89,7 @@ Estremo
 |===
 Utilizzando la formula: Crediti di servizio = ( 10 / 50 ) X 1000 x 2 x 0,03
 
-In base al calcolo, i crediti per il servizio saranno pari a $12.
+In base ai calcoli, i crediti di servizio sono $12.
 
 
 
@@ -130,7 +116,7 @@ image:sla-breach.png["modello di foglio excel"]
 [NOTE]
 ====
 * Una richiesta di credito di assistenza deve essere avviata entro sei settimane dalla convalida di una violazione da parte del supporto NetApp Keystone. Tutti i crediti di assistenza devono essere riconosciuti e approvati da NetApp.
-* I crediti di servizio potrebbero essere applicati a una fattura futura. I crediti di servizio non si applicano agli abbonamenti Keystone scaduti. Per ulteriori informazioni, consultare link:../concepts/support-services.html["Supporto NetApp Keystone"].
+* I crediti di servizio potrebbero essere applicati a una fattura futura. I crediti di servizio non si applicano agli abbonamenti Keystone scaduti. Per contattare il supporto NetApp e aprire il caso di supporto necessario per una richiesta di credito di servizio, consultare link:../concepts/support-services.html["Ottieni aiuto con Keystone"].
 
 
 ====

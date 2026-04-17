@@ -4,7 +4,7 @@ permalink: concepts/metrics.html
 keywords: metrics, GiB, IOPS, latency, durability, v3, version 3 
 summary: Il servizio NetApp Keystone STaaS utilizza diversi termini per misurare le metriche. Potresti voler approfondire la conoscenza di questi termini mentre utilizzi Keystone per la versione 3 del servizio. 
 ---
-= Metriche e definizioni utilizzate in Keystone
+= Comprendere le metriche e le definizioni di storage in Keystone
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,16 +14,7 @@ summary: Il servizio NetApp Keystone STaaS utilizza diversi termini per misurare
 
 
 [role="lead"]
-Il servizio NetApp Keystone STaaS utilizza diversi termini per misurare le metriche. Potresti voler approfondire l'argomento utilizzando Keystone.
-
-All'interno del servizio Keystone STaaS, per misurare le metriche vengono utilizzati i seguenti termini e definizioni:
-
-* Capacità: misurata in GiB, TiB e PiB.
-* IOPS: numero di operazioni di input/output elaborate al secondo.
-* Disponibilità del servizio
-* Durata in un accesso preciso ai dati
-* Latenza e velocità
-
+Scopri i termini chiave che Keystone STaaS utilizza per misurare e generare report sul tuo abbonamento di storage, tra cui unità di capacità, metriche delle prestazioni e definizioni di disponibilità.
 
 
 
@@ -34,22 +25,4 @@ All'interno del servizio Keystone STaaS, per misurare le metriche vengono utiliz
 * *Disponibilità*: Misurata come percentuale del numero di richieste di i/o a cui il servizio ha risposto correttamente, diviso per il numero totale di richieste di i/o inviate al servizio. Questo valore viene misurato al termine del servizio in un mese e non include i tempi di inattività programmati o la mancata disponibilità delle strutture, della rete o di altri servizi forniti dal cliente.
 * *Durata*: Percentuale di dati a cui si accede senza perdita di fedeltà, ad esclusione della cancellazione o del danneggiamento causati dal cliente.
 * *Latenza*: Tempo di servizio di una richiesta i/o ricevuta da un client, misurato alla delimitazione del servizio (porta i/o del controller di storage).
-
-
-
-
-=== Metriche delle performance
-
-Le seguenti metriche delle prestazioni sono applicabili ai servizi unificati e ottimizzati per blocchi:
-
-*Servizi unificati:*
-
-* *IOPS*: Per ONTAP 9.16.1 con NFS, ogni istanza del livello di prestazioni supporta l'accesso casuale con un rapporto di lettura del 70% e di scrittura del 30%, una dimensione del blocco di 8 KB e una latenza di 1 ms (4 ms per Standard).
-* *Capacità*: per ONTAP 9.16.1 con NFS, ogni istanza del livello di prestazioni supporta l'accesso sequenziale con lettura al 100% e una dimensione del blocco di 32 KB.
-
-
-*Blocca servizi ottimizzati:*
-
-* *IOPS*: Per ONTAP 9.16.1 con FCP, ogni istanza del livello di prestazioni supporta l'accesso casuale con un rapporto di lettura del 70% e di scrittura del 30%, una dimensione del blocco di 8 KB e una latenza di 1 ms.
-* *Rendimento*: per ONTAP 9.16.1 con FCP, ogni istanza del livello di prestazioni supporta l'accesso sequenziale con lettura al 100% e una dimensione del blocco di 64 KB.
 

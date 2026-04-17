@@ -26,7 +26,7 @@ Keystone ti offre i seguenti servizi di fatturazione:
 
 La fatturazione di Keystone si basa sulla capacità impegnata e sul consumo variabile di burst.
 
-Per informazioni sulle diverse capacità supportate in Keystone, vedere link:../concepts/supported-storage-capacity.html["Capacità di storage supportate in Keystone"].
+Per informazioni sulle diverse capacità supportate in Keystone, vedere link:../concepts/supported-storage-capacity.html["Tipi di capacità di archiviazione in Keystone"].
 
 *Informazioni correlate*
 

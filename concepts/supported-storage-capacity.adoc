@@ -4,7 +4,7 @@ permalink: concepts/supported-storage-capacity.html
 keywords: storage capacity, capacity definition, keystone STaaS storage capacity, 
 summary: Scopri i tipi di capacità di archiviazione supportati dal servizio NetApp Keystone STaaS per la versione 3. 
 ---
-= Capacità di storage supportate in Keystone
+= Tipi di capacità di archiviazione in Keystone
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Scopri i tipi di capacità di archiviazione supportati dal servizio Net
 
 
 [role="lead"]
-Il servizio NetApp Keystone STaaS supporta diversi tipi di capacità di archiviazione. La comprensione di questi diversi termini di capacità può essere utile durante l'utilizzo Keystone.
+Keystone STaaS utilizza diversi termini relativi alla capacità per misurare, impegnare e fatturare lo storage. Comprendere questi termini ti aiuterà a pianificare il tuo abbonamento e a interpretare i report di utilizzo e le fatture.
 
 
 
@@ -28,7 +28,7 @@ Si tratta della quantità di capacità di archiviazione richiesta per archiviare
 
 La capacità logica minima fatturata ogni mese durante l'abbonamento:
 
-* La capacità è impegnata per ogni livello di servizio prestazionale.
+* La capacità è assegnata a ciascuna istanza del livello di servizio delle prestazioni per lo storage unificato o ottimizzato a blocchi, oppure per ciascun cluster AFX.
 * Durante il periodo di validità del contratto è possibile aggiungere capacità impegnata e livelli di servizio aggiuntivi.
 
 
@@ -36,13 +36,13 @@ La capacità logica minima fatturata ogni mese durante l'abbonamento:
 
 === Modifiche alla capacità impegnata
 
-Durante un abbonamento, è possibile modificare le capacità impegnate, a determinate condizioni. Per dettagli completi sulle regole di aumento e diminuzione della capacità, vedere link:../concepts/capacity-requirements.html["Requisiti di capacità per i livelli di servizio delle prestazioni Keystone"]. Per richiedere una modifica, contattare il proprio Keystone Success Manager (KSM) o vedere link:../concepts/support-services.html["Supporto NetApp Keystone"].
+Durante un abbonamento, è possibile modificare le capacità impegnate, a determinate condizioni. Per dettagli completi sulle regole di aumento e diminuzione della capacità, vedere link:../concepts/capacity-requirements.html["Requisiti di capacità per i livelli di servizio delle prestazioni Keystone"]. Per richiedere una modifica, contattare il proprio Keystone Success Manager (KSM) o link:../concepts/support-services.html["NetApp supporto"].
 
 
 
 == Capacità consumata
 
-La capacità consumata si riferisce alla capacità (in TIB dello storage) attualmente consumata nel servizio. Viene calcolato in modo diverso in base al tipo di archiviazione:
+La capacità consumata si riferisce alla capacità (in TiB di storage) attualmente utilizzata dal servizio. Il calcolo varia a seconda del tipo di storage dati:
 
 * *Archiviazione unificata o ottimizzata per blocchi*: la capacità consumata viene calcolata in base al tipo di capacità (logica o fisica) selezionata durante il processo di ordinazione.  Il calcolo viene eseguito per istanza del livello di servizio delle prestazioni.
 +
@@ -55,15 +55,22 @@ La capacità consumata si riferisce alla capacità (in TIB dello storage) attual
 
 .. *Capacità fisica*: È la somma di:
 +
-*** Capacità fisica misurata, dopo l'efficienza dei dati dell'array di archiviazione, per archiviare tutte le istanze e i tipi di dati dei clienti, come copie, copie speculari, versioni, cloni.
+*** Capacità fisica misurata, al netto dell'efficienza dei dati dell'array di storage, per archiviare tutte le istanze e i tipi di dati del cliente, come copie, copie speculari, versioni e cloni.
 *** Capacità fisica utilizzata per archiviare metadati e dati differenziali degli snapshot.
 *** Qualsiasi capacità fisica di grandi dimensioni.
 
 
 
 
+* *Archiviazione AFX*: viene calcolata per cluster AFX come somma di:
++
+** Capacità fisica misurata, al netto dell'efficienza dei dati dell'array di storage, per archiviare tutte le istanze e i tipi di dati del cliente, come copie, copie speculari, versioni e cloni.
+** Capacità fisica utilizzata per archiviare metadati e dati differenziali degli snapshot.
+** Qualsiasi capacità fisica di grandi dimensioni.
+
+
 * *Archiviazione di oggetti*: la capacità consumata viene calcolata come la quantità di capacità fisica misurata utilizzata per archiviare tutte le istanze e i tipi di dati dei clienti su tutti i nodi. Questo calcolo si basa sulle policy di gestione del ciclo di vita delle informazioni (ILM) configurate.
-* *Cloud Volumes ONTAP*: la capacità consumata viene calcolata come la quantità di capacità fornita e misurata di tutti i volumi Cloud Volumes ONTAP.
+* *Cloud Volumes ONTAP*: La capacità consumata viene calcolata come la quantità di capacità logica allocata e misurata di tutti i volumi Cloud Volumes ONTAP.
 
 
 
@@ -74,8 +81,8 @@ Il servizio NetApp Keystone STaaS consente di utilizzare capacità aggiuntiva ol
 
 Prendere nota di questi punti:
 
-* La capacità burst è concordata nell'accordo Keystone. Di solito è impostato fino al 20% in più rispetto alla capacità impegnata, per istanza del livello di servizio delle prestazioni, con opzioni aggiuntive disponibili per selezionare limiti di capacità burst del 40% o del 60% della capacità impegnata.
-* Il consumo di capacità burst viene fatturato alla stessa tariffa della capacità impegnata corrispondente al livello di servizio prestazionale selezionato.
+* Il limite di capacità di burst viene concordato nell'ordine Keystone. Solitamente è impostato su un valore predefinito del 20% in più rispetto alla capacità impegnata per istanza del livello di servizio delle prestazioni o per AFX cluster, con opzioni aggiuntive disponibili per lo storage unificato e ottimizzato a blocchi per selezionare limiti di capacità di burst del 40% o del 60% della capacità impegnata.
+* Il consumo di capacità a picco viene fatturato alla stessa tariffa della capacità impegnata corrispondente al tipo di storage dati (DST) e al livello di servizio prestazionale selezionato.
 * I servizi Keystone STaaS prevedono un periodo di deroga di 60 giorni a partire dalla data di inizio.
 
 

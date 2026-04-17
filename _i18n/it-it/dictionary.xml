@@ -383,18 +383,13 @@
   <block id="419f3742e6de8e0ec4b22cce005e7630" category="cell">Piattaforma</block>
   <block id="9985b4390c40137573e6da05caf85874" category="cell">Protocolli</block>
   <block id="f6d7a1a39c7e76b0a2ad7044af130caf" category="cell">Funzionalità supportate</block>
-  <block id="bcb30b4b4c5f93b9e66badd1fc91f6dc" category="paragraph">NFS e CIFS</block>
   <block id="f208065131ee7ec38a881083b91c06e2" category="paragraph">FC e iSCSI</block>
-  <block id="670aaecb1a526fbed439dad3ec353a96" category="paragraph">Storage a oggetti</block>
   <block id="e2ab7c65b21ed8cc1c3b642b5e36429e" category="paragraph">S3</block>
   <block id="141b2b4361a2b3c206d10e1c27378c2e" category="section-title">Servizi per il cloud storage</block>
   <block id="d96e0cf44b3111cb9ae984add2b97c74" category="paragraph">Keystone STaaS offre servizi di cloud storage. Keystone STaaS supporta le funzionalità di gestione dei dati Cloud Volumes ONTAP su Amazon Web Services (AWS), Microsoft Azure e piattaforma cloud Google.</block>
-  <block id="2a947eac17f71a99037966f44ce8252d" category="admonition">I servizi di calcolo, storage e rete basati su hyperscalar richiesti da Cloud Volumes ONTAP non sono forniti da NetApp come parte degli abbonamenti STaaS Keystone; questi abbonamenti devono essere acquistati direttamente dai provider di servizi cloud hyperscalar.</block>
   <block id="8a73a45becb1972a998dc8490856f730" category="summary">Fatturazione basata sul consumo burst</block>
   <block id="b3f5d2a190d6e7bd7689ffbabbb1e2f2" category="inline-link-macro">Capacità di storage supportate in Keystone</block>
-  <block id="6dd7fd4aac069a06bec3ae24a6b1b39b" category="paragraph">Per informazioni sulle diverse capacità supportate in Keystone, vedere <block ref="85c4e06da3b978d5cb2b8ba9dc870124" category="inline-link-macro-rx"></block>.</block>
   <block id="4f0b4700902f5cec62b2b3a60c2d65b9" category="doc">Misurazione basata sulla capacità consumata</block>
-  <block id="2dd5f36775604dad2303abf8267a2c4a" category="summary">Capacità di storage supportate</block>
   <block id="da0abce09003b51065ed5b06d06021f1" category="doc">Fatturazione basata sulla capacità impegnata</block>
   <block id="8b9ebc949c2bd3b7f585608d2fec312f" category="doc">Flusso di dati Keystone</block>
   <block id="0476a04360a8efd6e70433fd2939cef7" category="section-title">Flusso di dati di Keystone Collector</block>
@@ -466,9 +461,6 @@
   <block id="3ecb63821538cb0fde443d82bdb28861" category="cell">*Standard*</block>
   <block id="4cc402eecdb589b122553e660ac696c4" category="cell">*Valore*</block>
   <block id="5ac36e6be3720d69479533a204a80ef9" category="inline-link-macro">Metriche e definizioni utilizzate nei servizi Keystone</block>
-  <block id="36e9a03898f9ae86972da464b865fd7e" category="list-text">Disponibilità del servizio</block>
-  <block id="f99112a4c6eaa146943fa5e2ddfd9879" category="list-text">Durata in un accesso preciso ai dati</block>
-  <block id="4e8c569f63eedc90f70f80e1008f201e" category="list-text">Latenza e velocità</block>
   <block id="0719eeba43039e5122ee28a4a45955e4" category="section-title">Misurazione delle metriche</block>
   <block id="dda89d5ef0cb22d8ac7b37078e4ba438" category="list-text">*Durata*: Percentuale di dati a cui si accede senza perdita di fedeltà, ad esclusione della cancellazione o del danneggiamento causati dal cliente.</block>
   <block id="9ffbb75c521c240c36fc4eedce45c367" category="list-text">*Latenza*: Tempo di servizio di una richiesta i/o ricevuta da un client, misurato alla delimitazione del servizio (porta i/o del controller di storage).</block>
@@ -481,7 +473,6 @@
   <block id="66da45e9c280e17b214fda19697e0c52" category="list-text">Overhead associati al trasferimento dei dati nell'archivio di oggetti in caso di FabricPool</block>
   <block id="85bc0e8522deb39494936f2ff6c542e4" category="list-text">I valori di latenza non sono applicabili alle operazioni di scrittura MetroCluster. Queste operazioni di scrittura dipendono dalla distanza dei sistemi remoti.</block>
   <block id="d292740ed171285325a91f3bddbbc59d" category="list-text">_Gli IOPS previsti_ sono destinati a FabricPool solo se la policy di tiering è impostata su "nessuno" e non ci sono blocchi nel cloud. _Gli IOPS previsti_ sono destinati a volumi che non sono in una relazione sincrona di SnapMirror.</block>
-  <block id="58d801506333ab644845942779162cbc" category="paragraph">*Protocollo supportato*: S3</block>
   <block id="6872c2b6282a1ff41523f7b84a51d4da" category="section-title">Cloud storage</block>
   <block id="4de39da4981120681cbe9328c80e44c0" category="list-text">Selezionare, sostituire o cambiare destinazione d'uso dei prodotti.</block>
   <block id="8ee500899221695e76d9d58e146df90f" category="list-text">Aggiorna i prodotti con nuove tecnologie quando lo riterrà opportuno.</block>
@@ -522,7 +513,6 @@
   <block id="9446a98ad14416153cc4d45ab8b531bf" category="cell">Performance</block>
   <block id="eb6d8ae6f20283755b339c0dc273988b" category="cell">Standard</block>
   <block id="689202409e48743b914713f96d93947c" category="cell">Valore</block>
-  <block id="c8878f880559d69deeaabcf46c7f8f0f" category="paragraph">Capacità minima [in TIB]</block>
   <block id="8e296a067a37563370ded05f5a3bf3ec" category="cell">25</block>
   <block id="f899139df5e1059396431415e770c6dd" category="cell">100</block>
   <block id="1d9f5e05ed20ff32c476cb05ba8a11a4" category="paragraph">Capacità incrementale (e in multipli) consentita all'inizio dell'abbonamento [in TIB]</block>
@@ -642,7 +632,6 @@
   <block id="e35bc286817799a8ecac7de0060837be" category="list-text">Non è necessario restituire alcun disco e la memoria non volatile al termine del periodo di servizio o se si è guastato o trovato difettoso durante il periodo di servizio.</block>
   <block id="b178e2d86eb51156fb8d9a2bd509938c" category="list-text">I servizi nativi del cloud, come il calcolo, lo storage, il networking, sono fatturati dai cloud provider.</block>
   <block id="296ad65314dcbf027a7993304c7a165d" category="list-text">Questi servizi dipendono dalle caratteristiche di cloud storage e calcolo.</block>
-  <block id="783e590ecfbaebc7caa0409a8cae6926" category="paragraph">I servizi standard di Keystone STaaS per lo storage a blocchi e file includono funzionalità di tiering che identificano i dati utilizzati con minore frequenza e lo Tier allo storage a freddo NetApp supportato da Keystone STaaS. Puoi utilizzare il tiering dei dati come servizio add-on per eseguire il tiering dei dati cold su qualsiasi storage non NetApp supportato da Keystone STaaS.</block>
   <block id="2809966e22bd3439cbbfaae3d51268b2" category="list-text">*Disponibilità*: Misurata come percentuale del numero di richieste di i/o a cui il servizio ha risposto correttamente, diviso per il numero totale di richieste di i/o inviate al servizio. Questo valore viene misurato al termine del servizio in un mese e non include i tempi di inattività programmati o la mancata disponibilità delle strutture, della rete o di altri servizi forniti dal cliente.</block>
   <block id="82ed1e96c97e812264424ac485673960" category="paragraph">Se disponibili, le attività di installazione e implementazione in sede e in remoto sono condotte da U.S. Cittadini negli Stati Uniti suolo. Nota a piè di pagina:esclusione di responsabilità[la disponibilità del personale appropriato per le attività in loco dipende dall'ubicazione geografica in cui vengono distribuiti i sistemi Keystone.]</block>
   <block id="9415cbbaeaf88bca0512bbfe3c3cb334" category="paragraph">Per impostazione predefinita, i servizi sanitari Keystone non accettano connessioni da alcun IP diverso da localhost. L'endpoint di salute di Keystone è<block ref="b2445934e628b68d6950a1056d38299a" prefix=" " category="inline-code"></block>E ascolta su tutte le interfacce del server Keystone Collector sulla porta<block ref="d79c8788088c2193f0244d8f1f36d2db" prefix=" " category="inline-code"></block>. In caso di query, un codice di stato della richiesta HTTP con un output JSON viene restituito dall'endpoint come risposta, descrivendo lo stato del sistema Keystone Collector.
@@ -751,7 +740,6 @@ Ecco un esempio:</block>
   <block id="91ad65d98336ef29959957165ed0c9ea" category="list-text"><block ref="91ad65d98336ef29959957165ed0c9ea" category="inline-link-macro-rx"></block></block>
   <block id="d7e5ccf918d68bf60a6b52690444d5ea" category="list-text"><block ref="d7e5ccf918d68bf60a6b52690444d5ea" category="inline-link-macro-rx"></block></block>
   <block id="df7d31258a77cf6838aec404025cc8f0" category="list-text"><block ref="df7d31258a77cf6838aec404025cc8f0" category="inline-link-macro-rx"></block></block>
-  <block id="a2e2f97253342349ff9ef2b936b778d0" category="list-text"><block ref="a2e2f97253342349ff9ef2b936b778d0" category="inline-link-macro-rx"></block></block>
   <block id="9a951c3d80a9377bd47aaa657c36398a" category="list-text"><block ref="9a951c3d80a9377bd47aaa657c36398a" category="inline-link-macro-rx"></block></block>
   <block id="fe53175072711abfe4bc0ec0a1c8feda" category="list-text"><block ref="fe53175072711abfe4bc0ec0a1c8feda" category="inline-link-macro-rx"></block></block>
   <block id="666607765db8e2a230407163fc7ea704" category="list-text"><block ref="666607765db8e2a230407163fc7ea704" category="inline-link-macro-rx"></block></block>
@@ -871,7 +859,6 @@ Ecco un esempio:</block>
   <block id="6f97d409f18fbb10e56aad800fa8f000" category="inline-link-macro">CA attendibile personalizzata</block>
   <block id="495ae3f7931870e35eab3d7f70b370f6" category="inline-link-macro">Programma di certificazione Mozilla CA</block>
   <block id="bff50f1947dbec1e11bc66d60ca0b1d9" category="sidebar">Storage supportato</block>
-  <block id="7618f9f854f7d4bc7c7026ffaab24dae" category="sidebar">Capacità supportata</block>
   <block id="c6f45ce2284ef7f44c38a58ebbd013e0" category="sidebar">Livelli di servizio</block>
   <block id="a896a08a07f491f10b65b593a6b1ecd6" category="paragraph">Posizionamento errato dei dati Keystone nei report CSV se la colonna *Nome account* nei report CSV, generata dalla scheda *Trend capacità*, include un nome account con una virgola<block ref="e1266d71c305ae3767d9d953acaf0aae" prefix=" " category="inline-code"></block>.</block>
   <block id="b424d6cf899d73ac410dfcf534d8fb4d" category="paragraph">I dati Keystone sono correttamente allineati nei report CSV.</block>
@@ -957,8 +944,6 @@ Ecco un esempio:</block>
   <block id="7954e225c8bd390ff2168144c5e393c1" category="paragraph">NetApp è l'unico responsabile dell'infrastruttura, della progettazione, delle scelte tecnologiche e dei componenti di Keystone, che si applica sia agli ambienti NetApp che agli ambienti gestiti dal cliente.</block>
   <block id="adf9ce2fefed448c1faa955a05142679" category="paragraph">NetApp si riserva il diritto di intraprendere le seguenti azioni:</block>
   <block id="1e5c40b1bf2557793e21f12b8450b6d8" category="section-title">Piattaforme di storage</block>
-  <block id="e38b5058398d45181914283e348c4f38" category="doc">Metriche e definizioni utilizzate in Keystone</block>
-  <block id="3a79a2a5d18c98a3e6880bfa3a826f9f" category="paragraph">All'interno del servizio Keystone STaaS, per misurare le metriche vengono utilizzati i seguenti termini e definizioni:</block>
   <block id="23b37b253ca769ce608c60059a855b79" category="summary">Scopri la fatturazione di Keystone per configurazioni specifiche, tra cui volumi clonati, data Protection avanzata e altro ancora.</block>
   <block id="554b9774fcd47c93aacebd604a76b86c" category="summary">Come parte della sottoscrizione a NetApp Keystone, NetApp estende l'offerta NRNVC per i servizi a file, a blocchi e a oggetti.</block>
   <block id="6a69842e6e38f4acc01bbde008bf7a4f" category="doc">Componenti non restituibili, non volatili e conformità SnapLock</block>
@@ -1007,9 +992,6 @@ Ecco un esempio:</block>
   <block id="d339106c5234c4fffed6b25356ff263d" category="sidebar">Monitoraggio e aggiornamento</block>
   <block id="7b373ff6530e34788cfaf1ee2a5d46b5" category="sidebar">Monitorare la salute di Keystone Collector</block>
   <block id="f32c3edaacea72c0ddb30ecf0135c4de" category="section-title">Metriche</block>
-  <block id="e67906640477f8681e506869bc6e612e" category="list-text">*Percentuale di uptime mensile* = [(numero di secondi idonei in un mese - media del numero di secondi di downtime per tutti gli storage array AFF implementati per fornire l'ordine Keystone in quel mese) / numero di secondi idonei in un mese] x 100%</block>
-  <block id="53ca36728241336dcf15ee413e4d7946" category="list-text">*Downtime*: Il periodo di tempo in cui entrambi i controller in una coppia all'interno di un array di storage non sono disponibili, come determinato da NetApp.</block>
-  <block id="e3af360bffb0ac501e3dff5765197e4e" category="list-text">*Numero di secondi ammessi*: Si tratta di secondi in un mese che contano per il calcolo dell'uptime. Non include il periodo di tempo in cui i servizi STaaS non sono disponibili a causa di manutenzione pianificata, aggiornamenti, attività di supporto concordate con NetApp o per circostanze che esulano dal controllo o dalla responsabilità dei servizi NetApp o Keystone.</block>
   <block id="3b916544092c6bba180097d47f80505f" category="section-title">Crediti di servizio</block>
   <block id="563fcbc0524e38c0a55e5aece4d67824" category="paragraph">Se la disponibilità degli storage array flash ONTAP per gli abbonamenti idonei scende al di sotto dell'obiettivo di uptime mensile del 99,999% entro un periodo di fatturazione, NetApp emette i seguenti crediti di servizio:</block>
   <block id="e92fc6300f495b762ab94da55380457b" category="cell">*Tempo di attività mensile (inferiore a)*</block>
@@ -1032,9 +1014,7 @@ Ecco un esempio:</block>
   <block id="1bddd707a0359d778b1d813a90c93052" category="paragraph">Nell'esempio seguente viene illustrato il metodo di calcolo per i crediti di servizio:</block>
   <block id="8675aaab182cd1ede22d88336898c1ea" category="list-text">Calcolare il tempo di attività mensile per determinare la percentuale di credito del servizio:</block>
   <block id="fefccd3601226bfde489bb3cb07d859b" category="list-text">Secondi idonei in un mese di 30 giorni: 30 (giorni) X 24 (ore/giorno) X 60 (minuti/ora) X 60 (secondi/minuto) = 2.592.000 secondi</block>
-  <block id="df212c5e5de67c296152f5d72add0126" category="list-text">Downtime in pochi secondi: 95 secondi</block>
   <block id="b40d5e2f3db898060ede6a53207406c4" category="paragraph">Utilizzando la formula: Percentuale di tempo di attività mensile = [(2.592.000 - 95)/(2.592.000)] X 100</block>
-  <block id="d5a0ad93e7cae0cea5d2164c32e6c7bb" category="paragraph">In base ai calcoli, l'uptime mensile sarà del 99,996% e la percentuale di credito del servizio sarà del 5%.</block>
   <block id="b63c272bec6c081cf8f64799562fc87e" category="list-text">Calcolare i crediti di servizio:</block>
   <block id="57083671d3a4c5d078576f2774acaae3" category="cell">*Capacità interessata*</block>
   <block id="6319b3ae1be9dc9c6905e608cb789a7a" category="cell">*Capacità impegnata totale*</block>
@@ -1044,7 +1024,6 @@ Ecco un esempio:</block>
   <block id="6855eef8daff30988247789b63790191" category="cell">100 Tib</block>
   <block id="6ff79498e54770f62cf549ca824c38fc" category="cell">1,000 dollari</block>
   <block id="9eae698db2f9979943823c8ee1440c7d" category="paragraph">Utilizzando la formula: Crediti di servizio = ( 10 / 100 ) X 1000 x 0,05</block>
-  <block id="df3634b399ce52d35f1816fa036f42b4" category="paragraph">In base al calcolo, i crediti di servizio saranno pari a $5.</block>
   <block id="182bf07a2845568515ca20b4e4654296" category="section-title">Richiesta di credito di assistenza</block>
   <block id="6d3089ef2f50007a659aa12b3a7415f8" category="list-text">Sono necessari i seguenti dettagli:</block>
   <block id="e3e23368bff57e5796042f5fba6c3fbd" category="list-text">Numero di iscrizione Keystone</block>
@@ -1082,7 +1061,6 @@ Ecco un esempio:</block>
   <block id="edb32d0cffb273251a459f28452610a9" category="list-text">I crediti vengono forniti durante il periodo di iscrizione attivo del relativo ordine Keystone.</block>
   <block id="a5c0e3b5e544c9e98cfff04374762f87" category="list-text">Per gli abbonamenti con fatturazione mensile, i crediti verranno divisi nei prossimi 12 mesi e possono essere utilizzati per qualsiasi fattura Keystone futura fino al termine del periodo di iscrizione. Se l'abbonamento termina entro meno di 12 mesi, può essere rinnovato per continuare a utilizzare i crediti oppure i crediti possono essere applicati ad altre fatture NetApp.</block>
   <block id="accb4d9ec21427fc3d795090c44c8639" category="list-text">Per gli abbonamenti annuali, i crediti verranno applicati alla fattura Keystone successiva, se disponibile. In assenza di fatture Keystone future, i crediti possono essere applicati ad altre fatture NetApp.</block>
-  <block id="864c642a56d20e6430164211b9f12588" category="list-text">*Watt*: Il consumo di energia riportato dal AutoSupport giornaliero, incluso l'utilizzo da parte del controller e degli shelf di dischi collegati.</block>
   <block id="fbce2f0375e75ac94f7d2ed62924d9bc" category="list-text">*Tebibyte*: Il massimo di:</block>
   <block id="359b2a968ad487e93ac13bd70001517c" category="list-text">la capacità effettiva distribuita, presupponendo un fattore di efficienza dello storage di<block ref="6af2d30e671ebc9deaa134b9f0a1e248" prefix=" " category="inline-code"></block>.</block>
   <block id="7c6137cde05014e7fab83f78a553dffa" category="inline-link">Analizza i risparmi in termini di capacità ed efficienza dello storage</block>
@@ -1090,9 +1068,6 @@ Ecco un esempio:</block>
   <block id="1319573781151fa1f86a29da308f602f" category="cell">*Capacità minima impegnata*</block>
   <block id="b86f7ac7010a768aee36fc0e592eceed" category="cell">*Piattaforma*</block>
   <block id="7d2e99b7f21ff40f996fbbab5c1d6feb" category="cell">200 TIB</block>
-  <block id="72c62eae5362784360f3e531446bec41" category="cell">AFF A800 e AFF A900</block>
-  <block id="4dd4655034851cefb46869bef690cc22" category="cell">300 TIB</block>
-  <block id="27bddf685047b887365f1db06595c078" category="paragraph">Se il consumo W/TiB durante un periodo di fatturazione non soddisfa i criteri SLA, NetApp emette i crediti di servizio come segue:</block>
   <block id="ecbb890e24d251759ba476b9c893862e" category="cell">Giorni SLA non rispettati nel periodo di fatturazione</block>
   <block id="499023bc51a126935827ef29f6bd520b" category="cell">Credito di servizio</block>
   <block id="5aebd95c292f266eb59b8073d99a7699" category="paragraph">da 1 a 2</block>
@@ -1406,7 +1381,6 @@ Ecco un esempio:</block>
   <block id="c41ce7fe395738925814b2d06467e3ec" category="section-title">Standard di conformità</block>
   <block id="03242372ae5b03ca7f547f3cb7dab64f" category="inline-link-macro">Appendice sulla protezione dei dati (DPA)</block>
   <block id="a58e8ea096956351960d74a5b466e9e0" category="paragraph">La soluzione di monitoring Keystone ITOM è conforme al GDPR (General Data Protection Regulation) dell'Unione europea e al CCPA (California Consumer Privacy Act). Essa prevede inoltre una <block ref="12861122e9a15898b646770ef3c2b260" category="inline-link-macro-rx"></block> per documentare tali impegni. La soluzione di monitoraggio ITOM non raccoglie né memorizza dati personali.</block>
-  <block id="1d15537f2746347dfa1ac4acd53c9adb" category="section-title">Supporto NetApp Keystone</block>
   <block id="8851c6fe19bf967cca1a7747c9a0b08e" category="list-text">Soluzione di monitoring Keystone IT Operations Management (ITOM): Un'applicazione SaaS basata sul cloud utilizzata per monitorare il tuo ambiente Keystone. Dispone di integrazioni integrate con le piattaforme storage NetApp per raccogliere dati ambientali e monitorare i componenti di calcolo, rete e storage della tua infrastruttura Keystone. Questa funzionalità di monitoraggio si estende alle configurazioni on-premise, ai data center, agli ambienti cloud o a qualsiasi combinazione di questi. Il servizio è abilitato con l'aiuto di un ITOM Collector locale installato nel vostro sito che comunica con il portale cloud.</block>
   <block id="b9582a9d01a3bb00c5c7df318f3cd4ed" category="summary">Il supporto protetto degli Stati Uniti è un servizio add-on che offre la fornitura e il supporto dei servizi Keystone in corso da parte dei cittadini degli Stati Uniti in territorio statunitense.</block>
   <block id="21fe13388dd575bae131356d62eb3d04" category="paragraph">USPS (United States Protected Support) è un'offerta aggiuntiva per gli abbonamenti NetApp Keystone. Ti dà diritto a ricevere la consegna e il supporto dei servizi Keystone in corso dai cittadini degli Stati Uniti in territorio statunitense.</block>
@@ -1516,7 +1490,6 @@ Ecco un esempio:</block>
   <block id="bcd6ed294af34e837c537b83a1a3de21" category="list-text">CentOS 7 (solo per gli ambienti esistenti)</block>
   <block id="9dc4e2b4f34e5f118e35019c46b06a4a" category="paragraph">Se viene rilevata una violazione dello SLA, aprire un ticket di assistenza con priorità 3 (P3) con l'assistenza NetApp Keystone.</block>
   <block id="cac189ace7fac11fbcff63b35adf8770" category="list-text">Una richiesta di credito di assistenza deve essere avviata entro sei settimane dalla convalida di una violazione da parte del supporto NetApp Keystone. Tutti i crediti di assistenza devono essere riconosciuti e approvati da NetApp.</block>
-  <block id="3a36d2372ffa5421518253f5c68f7c51" category="paragraph">Se viene rilevata una violazione dello SLA, aprire un ticket di assistenza con priorità 3 (P3) con il supporto NetApp Keystone e fornire i dettagli come richiesto nel foglio excel come mostrato di seguito:</block>
   <block id="cb74be13d3a600957d1ee583265f537d" category="section-title">Visualizza l'utilizzo giornaliero dei dati burst maturati</block>
   <block id="bc3f9a56f76203c42fc9f8ff6b19fe46" category="inline-image-macro">schermata che mostra il grafico a barre</block>
   <block id="de75b30d787fc40e53cc46d0b5ab30cf" category="paragraph"><block ref="de75b30d787fc40e53cc46d0b5ab30cf" category="inline-image-macro-rx" type="image"></block></block>
@@ -1586,7 +1559,6 @@ Ecco un esempio:</block>
   <block id="effc5725f73525238563e67c654a7578" category="inline-link-macro">Livelli di servizio prestazionali in Keystone</block>
   <block id="3baadf2264f6a3ed3c5dfbc1e7a94348" category="paragraph">Per informazioni sui livelli di servizio delle prestazioni, vedere <block ref="d2021ebe74ad4577de5c973838fa2a38" category="inline-link-macro-rx"></block> .</block>
   <block id="d534e2cd061f06b6e0ad742d6dda7fee" category="list-text"><block ref="d534e2cd061f06b6e0ad742d6dda7fee" category="inline-link-macro-rx"></block></block>
-  <block id="391d525ac5052ae01c2eb2bf929d6706" category="paragraph">Un abbonamento può prevedere più piani tariffari, ognuno dei quali corrisponde a un livello di servizio di performance. Ogni piano tariffario prevede una capacità impegnata per livello di servizio di performance.</block>
   <block id="b1951e8ebdcabd07a41b38adc74988e3" category="admonition">È disponibile una descrizione dettagliata del servizio per i livelli di servizio delle prestazioni NetApp Keystone STaaS <block ref="d71be405d81c1e2747195607ed9eca90" category="inline-link-rx"></block> .</block>
   <block id="7c917a242507a352850575e21d7b1850" category="paragraph">Le metriche del livello di servizio delle prestazioni di base dipendono dalle seguenti condizioni:</block>
   <block id="acfc67d5d434abd61811abf81c0d1571" category="cell">*Livello di servizio prestazionale*</block>
@@ -1594,7 +1566,6 @@ Ecco un esempio:</block>
   <block id="e1a2df339e5e1d4b2b6d447c58823500" category="list-text">*capacità totale impegnata*: capacità impegnata per il livello di servizio prestazionale per l'ordine Keystone.</block>
   <block id="651923524521408d98ff12d09f60af11" category="list-text">*commissioni di capacità*: le commissioni per il livello di servizio prestazionale interessato per il mese.</block>
   <block id="edab02bbfaf3788182e3fa77788a9e44" category="list-text">la capacità impegnata + la capacità burst assegnata per il livello di servizio delle prestazioni, oppure</block>
-  <block id="1ef86c84141cbf98bc2a59eeffa9afd3" category="paragraph">Per ulteriori informazioni, fare riferimento a <block ref="b7d94ab5747cf2f7821847d435faf714" category="inline-link-macro-rx"></block>.</block>
   <block id="33a7d9c43d0ae3063679287913d61f25" category="summary">Visualizza o annulla la richiesta del servizio di abbonamento Keystone.</block>
   <block id="d1852e78062b5753f2098c5dc933a1cb" category="doc">Visualizza le richieste di servizio per gli abbonamenti Keystone</block>
   <block id="50d5a25394fedc4774cab128322dbb14" category="paragraph">Per visualizzare lo stato di avanzamento o annullare una richiesta, segui questi passaggi:</block>
@@ -1723,7 +1694,6 @@ Ecco un esempio:</block>
   <block id="04b6860f42857b6be85ce17b2702d1ee" category="list-text">*Utilizzo della capacità*: dati di consumo quali nessun utilizzo, consumo superiore all'80% della capacità impegnata, utilizzo a raffica e consumo superiore alla capacità a raffica.</block>
   <block id="bc6b76aa49ea2853b899d4ef4f641b5b" category="paragraph">Puoi cliccare su *Visualizza tutti gli abbonamenti* per visualizzare i dettagli di utilizzo e gli avvisi sui tuoi volumi nella pagina *Abbonamenti Keystone*.</block>
   <block id="0ac2603a30f809b1ee224bf6bf74c951" category="paragraph">I dettagli degli abbonamenti, i grafici di utilizzo per ciascun livello di servizio prestazionale e i dettagli del volume vengono visualizzati nelle diverse schede della schermata *Abbonamenti Keystone*.</block>
-  <block id="020f370908e2e8464da46c9ec5591933" category="admonition">Il consumo di capacità nelle sottoscrizioni Keystone viene visualizzato in Tibers su dashboard e report e arrotondato a due cifre decimali. Se l'utilizzo è inferiore a 0,01 TiB, il valore viene visualizzato come 0 o Nessun utilizzo. I dati di queste schermate vengono visualizzati in ora UTC (fuso orario del server). Quando si immette una data per la query, questa viene automaticamente considerata nel fuso orario UTC. Per ulteriori informazioni sulle metriche di utilizzo, fare riferimento alla sezione <block ref="c526a2ccdbb16224fb861d4fec1eb67c" category="inline-link-macro-rx"></block>. Per informazioni sulle diverse capacità utilizzate in Keystone, vedere <block ref="a2e2f97253342349ff9ef2b936b778d0" category="inline-link-macro-rx"></block>.</block>
   <block id="6d1a758f446f1f9fd581fcc90feed806" category="paragraph">La watchlist è una funzionalità disponibile in Digital Advisor. Per informazioni, vedere<block ref="5d023a7962c7eae7e0af56f6e7f92603" category="inline-link-rx"></block>. Per informazioni sulla creazione di watchlist, consultare <block ref="2539846485ed670b4851c404ba8cd9b6" category="inline-link-rx"></block> .</block>
   <block id="0d795ac2b71a9eb357ea37a87aee3d75" category="paragraph">È possibile creare liste di controllo per clienti o numeri di abbonamento e cercare un abbonamento Keystone utilizzando i primi tre caratteri del numero di abbonamento o del nome della lista di controllo nella schermata Consulente Digitale. Quando si effettua una ricerca per nome della lista di controllo, è possibile visualizzare i clienti e i relativi abbonamenti nell'elenco a discesa *Abbonamento* del widget *Abbonamenti Keystone*.</block>
   <block id="eb8b05f2c3cb48609e4fe07ccdcb9e3e" category="list-text">*Riepilogo*: Visualizza il numero totale di sottoscrizioni, cluster ONTAP, nodi StorageGRID e nodi ONTAP. Ogni categoria dispone di un pulsante *Visualizza* per accedere facilmente alle sezioni dettagliate nella scheda *Sottoscrizioni* o *Risorse*.</block>
@@ -1800,7 +1770,6 @@ Ecco un esempio:</block>
   <block id="1ae0b00f6871c042811b2ef5f0368dc4" category="summary">Consente ai clienti di utilizzare capacità di archiviazione aggiuntiva oltre quella impegnata.</block>
   <block id="8a2359cfa062fe95972fc70674d2584a" category="doc">Opzioni di capacità di burst</block>
   <block id="742967428ed77679e00109c8b478ea9d" category="paragraph">Puoi optare per il servizio aggiuntivo Burst Capacity come parte del tuo abbonamento NetApp Keystone. Questo servizio ti consente di aumentare i limiti di burst capacity del 40% o del 60% rispetto alla capacità impegnata, offrendoti la flessibilità necessaria per gestire picchi imprevisti di carico di lavoro.</block>
-  <block id="7f47b8ee067aaac2bc090f2155ebbfb0" category="paragraph">La capacità di burst si riferisce alla capacità di archiviazione aggiuntiva che può essere utilizzata oltre la capacità impegnata dal tuo abbonamento. Viene misurata e fatturata in base al livello di servizio prestazionale. Per impostazione predefinita, il limite di burst è impostato al 20% in più rispetto alla capacità impegnata. Tuttavia, con questo servizio aggiuntivo, puoi aumentare il limite al 40% o al 60%.</block>
   <block id="aefad734c06988971c818d41e4af2b8c" category="paragraph">Per modificare il limite di burst al 40% o al 60%, contattare il team di supporto NetApp Keystone.</block>
   <block id="1db1ab512ec07d15bf8d3f03a076139a" category="paragraph">Per saperne di più su come viene fatturata la capacità burst, fare riferimento a <block ref="da7adc48e3ef5d5cba8270d6542a88e9" category="inline-link-macro-rx"></block> .</block>
   <block id="17a67557c6c448eedbaeeb25e2409ca8" category="inline-link-macro">Opzioni di aumento della capacità di burst</block>
@@ -1826,13 +1795,9 @@ Ecco un esempio:</block>
   <block id="c072efe8294d1003e257c7dd4fe0687d" category="inline-image-macro">flusso di dati del collettore</block>
   <block id="92c812556434526899af3c97a106a849" category="paragraph"><block ref="92c812556434526899af3c97a106a849" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6f93f55b981dd0322ebbd8e3f04d4db1" category="summary">Il servizio NetApp Keystone STaaS utilizza diversi termini per misurare le metriche. Potresti voler approfondire la conoscenza di questi termini mentre utilizzi Keystone per la versione 3 del servizio.</block>
-  <block id="947a74aac556a4978330239679ebabf1" category="list-text">IOPS: numero di operazioni di input/output elaborate al secondo.</block>
   <block id="06270a3cff387fa75ec0294b7ef6f62c" category="list-text">*Grafico del contatore delle operazioni in IOPS*: operazioni del protocollo al secondo, richieste dall'applicazione.</block>
-  <block id="e2e6f514a423f7cfe97845b24dae97b3" category="section-title">Metriche delle performance</block>
-  <block id="12beeb9989a5699e469400e0bce1c8fb" category="paragraph">*Servizi unificati:*</block>
   <block id="b4c0f0b2da46ea7f6c48938cbb43241d" category="list-text">*IOPS*: Per ONTAP 9.16.1 con NFS, ogni istanza del livello di prestazioni supporta l'accesso casuale con un rapporto di lettura del 70% e di scrittura del 30%, una dimensione del blocco di 8 KB e una latenza di 1 ms (4 ms per Standard).</block>
   <block id="8223729bf5a771d590fde341043bac3d" category="list-text">*Capacità*: per ONTAP 9.16.1 con NFS, ogni istanza del livello di prestazioni supporta l'accesso sequenziale con lettura al 100% e una dimensione del blocco di 32 KB.</block>
-  <block id="3bb74cf9f4497420cd995b7ac6103817" category="paragraph">*Blocca servizi ottimizzati:*</block>
   <block id="3d7debc9f9eb6961623316d3dcefaeb8" category="list-text">*IOPS*: Per ONTAP 9.16.1 con FCP, ogni istanza del livello di prestazioni supporta l'accesso casuale con un rapporto di lettura del 70% e di scrittura del 30%, una dimensione del blocco di 8 KB e una latenza di 1 ms.</block>
   <block id="743bda28c7e3ff71e63d96fad8b96946" category="list-text">*Rendimento*: per ONTAP 9.16.1 con FCP, ogni istanza del livello di prestazioni supporta l'accesso sequenziale con lettura al 100% e una dimensione del blocco di 64 KB.</block>
   <block id="4a71061ce212df640aef8be8d2595397" category="list-text">Non è previsto un periodo di grazia di 24 ore per i volumi clonati. Viene considerata solo la dimensione del clone.</block>
@@ -1860,21 +1825,14 @@ Ecco un esempio:</block>
   <block id="50e0459d44500ff84b442895fa1a64f1" category="list-text">Puoi scegliere un prezzo bundle per hardware, sistema operativo core e supporto per un prezzo CIB/dollari. Per ogni tipo di archiviazione, servizio di archiviazione unificato, a blocchi, ottimizzato, a oggetti o cloud, viene fornita un'unica fattura.</block>
   <block id="6770f961b4c4aaa762fb284da8cafd6f" category="list-text">È possibile selezionare una durata flessibile per i servizi e le opzioni di pagamento, ad esempio mensile, trimestrale, semestrale o annuale.</block>
   <block id="65f13786054dfad371efd46410aaee0a" category="summary">Keystone STaaS per la versione 3 offre capacità di archiviazione a livelli di servizio predefiniti. Ogni volume gestito da Keystone è associato a un livello di servizio.</block>
-  <block id="04d889d69e926414f8e3667e8632108a" category="paragraph">Un livello di servizio prestazionale può avere più istanze, ciascuna delle quali rappresenta un array di storage separato assegnato a tale livello di servizio prestazionale nell'ambiente del cliente. Ogni livello di servizio prestazionale è definito da operazioni di input/output al secondo (IOPS), throughput (GBps) e latenza (ms), con queste metriche misurate e applicate per ogni istanza del livello di servizio prestazionale.</block>
-  <block id="9459562bac413dd151fd642f91cbdf4a" category="paragraph">I livelli di servizio delle prestazioni di base per i tipi di storage supportati, ovvero servizi unificati, ottimizzati per blocchi, oggetti e cloud, sono descritti nelle sezioni seguenti:</block>
   <block id="ef2cb5595bf65cf069d594658bcda8d1" category="section-title">Livelli di servizio prestazionali per l'archiviazione unificata</block>
-  <block id="26da5e20d8fffab771df9a1d152675cd" category="paragraph">*Protocolli supportati*: FC, iSCSI, NFS, NFSv4/RDMA, NVMe/FC, NVMe/TCP, SMB, S3</block>
-  <block id="ab0b467095242d38a96572434be91251" category="cell">*Livello di servizio delle prestazioni* (tutte le specifiche per istanza di livello di servizio delle prestazioni)</block>
   <block id="1542ef6889c18a1989b129e50a4702ca" category="cell">AI/ML, HPC, database InMem</block>
   <block id="6aa07a7abeb9497eacc86475d1f571ae" category="cell">Analisi, EDA, OLTP</block>
   <block id="65d27c5f5a28a4723d2b5a869731821e" category="cell">OLAP, IoT, Contenitori</block>
   <block id="d81dc8707a0071b49edad10f4d35820d" category="cell">Backup, Archivio</block>
-  <block id="3406ad4f7a6b25005e23e77c04c6f570" category="cell">*IOPS massimi*^1^</block>
   <block id="7e4bff1b4cafa5451a1b2556c17ce320" category="cell">1M</block>
   <block id="36a4118620111db133b6db7f109f177f" category="cell">550 mila</block>
-  <block id="0992220490f77884f02171619d6ad8fb" category="cell">500 mila</block>
   <block id="d4cd0dabcf4caa22ad92fab40844c786" category="cell">NA</block>
-  <block id="e72a135ae0901ed98b9a1dfe21928cc8" category="cell">*Massimo GBps*</block>
   <block id="d645920e395fedad7bbbed0eca3fe2e0" category="cell">40</block>
   <block id="98f13708210194c475687be6106a3b84" category="cell">20</block>
   <block id="ec7de9e102294de3292cf2084c92428b" category="cell">&lt;=1 ms</block>
@@ -1886,13 +1844,11 @@ Ecco un esempio:</block>
   <block id="848410028b91634f6c1161e46bdd4c96" category="cell">25TiB</block>
   <block id="417a3d5f9432a8f549b7e2badda11b13" category="cell">Logico o fisico</block>
   <block id="0ff3b7f7b780798f1ee59bb0b482ad2e" category="section-title">Livelli di servizio prestazionali per l'archiviazione ottimizzata a blocchi</block>
-  <block id="eea910b6cd4c9ee0f0991b5978bcd562" category="paragraph">*Protocolli supportati*: NVMe/TCP, NVMe/FC, FC, iSCSI</block>
   <block id="481e00f01f276ce9adc452f9a0f2a833" category="cell">SAP HANA, Oracle, MS SQL Server, EPIC</block>
   <block id="ecba1997645bca8b56554c817fb1c824" category="cell">850 mila</block>
   <block id="12ef337fc67f142f37352b6777711514" category="cell">450 mila</block>
   <block id="fc490ca45c00b1249bbe3554a4fdf6fb" category="cell">65</block>
   <block id="89d126c0c19146c11d315a1fd1a7a70b" category="admonition">^1^Obiettivi reciprocamente esclusivi. Le prestazioni effettive possono variare in base a vari fattori, tra cui la versione del sistema operativo, l'hardware, il tipo di carico di lavoro e il numero di operazioni simultanee.</block>
-  <block id="72636530c56b26f6ba3b5fd39091d3c7" category="section-title">Ulteriori informazioni sui livelli di servizio delle prestazioni per l'archiviazione unificata e ottimizzata a blocchi</block>
   <block id="9f820dd2adaf4fc80f5d4c1005e203c8" category="list-text">I livelli di servizio delle prestazioni supportano ONTAP 9.8 e versioni successive.</block>
   <block id="851e2b2989102e57853dba158880969f" category="list-text">Per un'archiviazione unificata,</block>
   <block id="09e9dc682c34129c76fcf2151ab60988" category="list-text">Per l'archiviazione ottimizzata a blocchi,</block>
@@ -1900,44 +1856,21 @@ Ecco un esempio:</block>
   <block id="b8ab35844a7e9382461ec1ace0bdd467" category="cell">*Capacità minima impegnata per ordine*</block>
   <block id="19ba0bee3ead4cf9a87650ff8f2fdf93" category="cell">500 TIB</block>
   <block id="7143d2451eb843694f0db7a7c055bc1c" category="cell">25 TIB</block>
-  <block id="d87640c300795bdb335fb7a02a47b64c" category="paragraph">*Protocolli supportati*: NFS, CIFS, iSCSI e S3 (solo AWS e Azure)</block>
   <block id="09db5cf9dee1953ac746dd636e0db3e0" category="cell">4 TIB</block>
   <block id="4e5cad9a39114e168c84b904c78fec9d" category="cell">1 TIB</block>
-  <block id="bc77ca7eec2239d9c8adeac7ce7f82d5" category="summary">Lo SLO di disponibilità prevede un uptime del 99,999% durante un periodo di fatturazione per gli storage array flash All NetApp ONTAP implementati per fornire l'ordine Keystone.</block>
-  <block id="42feb95053e6c0f7f616750b23dd7d6b" category="paragraph">Tutti i livelli di servizio prestazionali supportati dagli array di storage flash ONTAP sono idonei per l'SLO di disponibilità. Per ulteriori informazioni, fare riferimento a <block ref="b7d94ab5747cf2f7821847d435faf714" category="inline-link-macro-rx"></block>.</block>
   <block id="e89bdbf88ea78e787698305e26fb7442" category="summary">Keystone offre SLO basato sulla latenza per livello di servizio delle prestazioni, come descritto nell'ordine Keystone per la capacità consumata fino al limite di burst.</block>
-  <block id="9f6ccc631816a7182a52d977c6827823" category="paragraph">NetApp Keystone offre un SLO basato sulla latenza per livello di servizio prestazionale, come descritto nell'ordine Keystone per la capacità consumata fino al limite di burst, secondo i termini e le condizioni elencati di seguito.</block>
-  <block id="ee885029cef025cf8095b86bb4f661a1" category="paragraph">Tutti i livelli di servizio prestazionali supportati dagli array di storage flash ONTAP sono idonei per il Performance SLO e garantiscono il rispetto della seguente latenza target:</block>
-  <block id="6f7cc0a1419b02f4c77b218d576fc3c6" category="summary">Keystone fornisce una misurazione garantita del numero massimo di watt effettivi per tebibyte (W/TiB) per i servizi di storage basati su array di storage flash ONTAP con Sustainability SLO.</block>
-  <block id="c55e6c034cd841d3f6ae411f366dff41" category="paragraph">NetApp Keystone fornisce una misura garantita del numero massimo di watt effettivi per tebibyte (W/TiB) per i servizi di storage basati sugli array di storage flash ONTAP con SLO di sostenibilità. L'SLO di sostenibilità definisce il consumo massimo di W/TiB per ciascun livello di servizio prestazionale idoneo, aiutando le organizzazioni a raggiungere i propri obiettivi di sostenibilità.</block>
-  <block id="a34e28733c3e31c61bc771774cdf1a91" category="paragraph">Gli SLO relativi alla sostenibilità si basano sui seguenti criteri di consumo:</block>
-  <block id="7649a9c2aa81e74af3af6ce5c9dcb1f7" category="cell">*Criteri SLO*</block>
-  <block id="05a7c939901eab929ebc44c3b2bea033" category="cell">&lt;= 8 W/TiB</block>
-  <block id="a219a5819e6733ccfc6f4bfd2c2de9c4" category="cell">&lt;= 4 W/TiB</block>
   <block id="8bf4a89637b88a17fe1be4dad5d23488" category="paragraph">Prendere nota di questi punti:</block>
   <block id="aa26b728d618a456dca6365c13707f90" category="summary">Scopri i tipi di capacità di archiviazione supportati dal servizio NetApp Keystone STaaS per la versione 3.</block>
   <block id="d0178ba7ef0d480555c11a8e0e008358" category="paragraph">Si tratta della quantità di capacità di archiviazione richiesta per archiviare i dati utente prima che vengano applicate le efficienze dei dati fornite dall'array di archiviazione.</block>
   <block id="cbb9609bde7005fdffcc438e9935f911" category="list-text">Durante il periodo di validità del contratto è possibile aggiungere capacità impegnata e livelli di servizio aggiuntivi.</block>
-  <block id="896ba0ddfb3556ea24a8ab69820f732d" category="paragraph">La capacità consumata si riferisce alla capacità (in TIB dello storage) attualmente consumata nel servizio. Viene calcolato in modo diverso in base al tipo di archiviazione:</block>
   <block id="330cf8188d7a3b58592b4c81821c0f57" category="list-text">Capacità logica misurata, prima dell'efficienza dei dati dell'array di archiviazione, per archiviare tutte le istanze e i tipi di dati dei clienti, come copie, copie speculari, versioni e cloni.</block>
   <block id="10bec3c494dd9bec3b24fa97cf339ed5" category="list-text">Capacità fisica utilizzata per archiviare metadati e dati differenziali di snapshot e determinati cloni.</block>
   <block id="16e3fe3518e138a40219bf6cc72c86b0" category="list-text">Qualsiasi capacità fisica di grandi dimensioni.</block>
-  <block id="fecf90808eeead85938e2c165357060d" category="list-text">Capacità fisica misurata, dopo l'efficienza dei dati dell'array di archiviazione, per archiviare tutte le istanze e i tipi di dati dei clienti, come copie, copie speculari, versioni, cloni.</block>
   <block id="b329b0abe6bbbcab63fca174e7088d74" category="list-text">Capacità fisica utilizzata per archiviare metadati e dati differenziali degli snapshot.</block>
   <block id="1e36ff768e1131f8fc01f855cb88fb27" category="list-text">*Archiviazione di oggetti*: la capacità consumata viene calcolata come la quantità di capacità fisica misurata utilizzata per archiviare tutte le istanze e i tipi di dati dei clienti su tutti i nodi. Questo calcolo si basa sulle policy di gestione del ciclo di vita delle informazioni (ILM) configurate.</block>
-  <block id="241017f8581c011a79323f1a8cd28b66" category="list-text">*Cloud Volumes ONTAP*: la capacità consumata viene calcolata come la quantità di capacità fornita e misurata di tutti i volumi Cloud Volumes ONTAP.</block>
   <block id="f9bf6144ccb5f45c61042e35d5d4ef56" category="paragraph">Il servizio NetApp Keystone STaaS consente di utilizzare capacità aggiuntiva oltre a quella impegnata per un livello di servizio di performance. Questo è definito utilizzo di capacità burst.</block>
-  <block id="39e8174efdec154af4f9c69757cc5fee" category="list-text">La capacità burst è concordata nell'accordo Keystone. Di solito è impostato fino al 20% in più rispetto alla capacità impegnata, per istanza del livello di servizio delle prestazioni, con opzioni aggiuntive disponibili per selezionare limiti di capacità burst del 40% o del 60% della capacità impegnata.</block>
-  <block id="ee07c6373035e91351baca56c1404db1" category="list-text">Il consumo di capacità burst viene fatturato alla stessa tariffa della capacità impegnata corrispondente al livello di servizio prestazionale selezionato.</block>
   <block id="7cca77e7db25de35fd08005008af1f32" category="list-text">I servizi Keystone STaaS prevedono un periodo di deroga di 60 giorni a partire dalla data di inizio.</block>
-  <block id="2f5118ac9c7b726f2e3fb3f02a8d2bc3" category="list-text">*Archiviazione unificata*: include archiviazione di file, blocchi e oggetti S3, disponibile sui sistemi NetApp ONTAP AFF e FAS.</block>
-  <block id="86164c66223c4b45cdcc32b7ef27af38" category="list-text">*Archiviazione oggetti*: include l'archiviazione oggetti disponibile sui sistemi NetApp StorageGRID.</block>
-  <block id="c828c0f1013974e213c30783b2330308" category="paragraph">I servizi Keystone STaaS possono essere utilizzati contemporaneamente. Ad esempio, un abbonamento all'archiviazione cloud può avere la stessa durata degli abbonamenti all'archiviazione unificata, ottimizzata a blocchi e a oggetti. Un servizio cloud può essere incluso in qualsiasi momento durante il periodo di validità di un abbonamento allo storage esistente. Tuttavia, se non si prevede di rinnovare un abbonamento esistente all'archiviazione unificata, ottimizzata a blocchi o a oggetti, non è possibile aggiungere un abbonamento all'archiviazione cloud durante gli ultimi 90 giorni dell'abbonamento.</block>
-  <block id="e2481d555d88554b2cab041888938da0" category="section-title">Servizi per l'archiviazione unificata, ottimizzata a blocchi e a oggetti</block>
-  <block id="3f67733abd297f18543f9161e15be0d6" category="paragraph">I servizi Keystone STaaS per l'archiviazione unificata, ottimizzata a blocchi e a oggetti supportano più funzionalità e protocolli e sono descritti nella tabella seguente:</block>
-  <block id="c0916addb4f26afa58c5a6df4f463fa5" category="paragraph">Storage unificato</block>
   <block id="732032ab383cc985a4aa8741171d28a2" category="paragraph">Supporta tutte le funzionalità di ONTAP One</block>
-  <block id="6f04d85b3b7ca00da4a82eae698d5b77" category="paragraph">Archiviazione ottimizzata a blocchi</block>
   <block id="d9374af96a68f98b2e73d35fada43a6f" category="inline-link-macro">Panoramica delle licenze ONTAP</block>
   <block id="c5808afbd20dfa63abd66a2d8a4d9085" category="inline-link-macro">ONTAP One: tutta la potenza di ONTAP, ora tutto in uno</block>
   <block id="48253bd066795a2facb396b656e80739" category="paragraph">Per saperne di più su ONTAP One, fare riferimento a <block ref="2385cd8a90d8020136016b7d34b32baf" category="inline-link-macro-rx"></block> E <block ref="a896c96ece5f68865a35c0c7b3ab15b7" category="inline-link-macro-rx"></block> .</block>
@@ -2030,10 +1963,6 @@ Ecco un esempio:</block>
   <block id="c1682b4af830f8e1dcda8da16400f7e1" category="doc">Visualizza i dati di consumo a livello di istanza</block>
   <block id="10d5879ffcf41a017554a80a63e4b46e" category="inline-link-macro">Visualizza il consumo dei tuoi abbonamenti Keystone</block>
   <block id="d2c70766af411fb0e8a745645e1d2b86" category="paragraph">È possibile visualizzare i dati storici e di consumo correnti per ogni istanza del livello di servizio delle prestazioni tramite la dashboard Keystone in BlueXP. Questa funzionalità è disponibile per livelli di servizio di prestazioni con più istanze, a condizione che si disponga di un abbonamento Keystone versione 3 (v3). Per saperne di più, fare riferimento a<block ref="500828148463e083954a63124cb9a7bb" category="inline-link-macro-rx"></block> .</block>
-  <block id="9a074d3c3d3b3789030128089b065c8d" category="paragraph">È possibile selezionare i livelli di servizio delle prestazioni in base al proprio ambiente di archiviazione e alle esigenze di archiviazione e consumo. I livelli di servizio delle prestazioni di base sono disponibili per impostazione predefinita. Sono inoltre disponibili livelli di servizio di prestazioni specifici, se hai optato per servizi aggiuntivi.</block>
-  <block id="cc625dd61c8f93252f42b4f3adf096b7" category="paragraph">Il servizio Keystone STaaS supporta l'archiviazione unificata, ottimizzata per blocchi e di oggetti di NetApp e Cloud Volumes ONTAP.</block>
-  <block id="a38c4c1572c8ef4e4dba4054df60c293" category="paragraph">Le opzioni di archiviazione supportate sono:</block>
-  <block id="6cbacdcb488aa4e37079dcf1d4dc7e92" category="list-text">*Archiviazione ottimizzata a blocchi*: include l'archiviazione a blocchi disponibile sui sistemi NetApp ONTAP ASA .</block>
   <block id="4e78bdae86afc20e1dc87f90302287c9" category="paragraph"><block ref="4e78bdae86afc20e1dc87f90302287c9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c1602534a88a762a1ce3972cdede18e6" category="list-text">Invia un'e-mail con questo file a ng-keystone-secure-site-upload@netapp.com per siti non USPS sicuri, oppure a ng-keystone-secure-site-usps-upload@netapp.com per siti USPS sicuri.</block>
   <block id="f554b3f79210a232f43aa1148b762978" category="list-text">Raccogli i file e inviali a ng-keystone-secure-site-upload@netapp.com per i siti non USPS sicuri, oppure a ng-keystone-secure-site-usps-upload@netapp.com per i siti USPS sicuri.</block>
@@ -2062,20 +1991,13 @@ Ecco un esempio:</block>
   <block id="8282acd43de45bece37539cf9cd85d3e" category="list-text">*Fatturazione semestrale*: all'inizio di ogni sei mesi viene generata una fattura per il pagamento minimo della capacità impegnata.  Un'altra fattura viene inviata alla fine di ogni trimestre per ogni utilizzo eccessivo accumulato.</block>
   <block id="5c0f38443ff2151fb1c13d71699c56d1" category="list-text">*Fatturazione annuale*: all'inizio di ogni anno di abbonamento viene generata una fattura per il pagamento minimo della capacità impegnata.  Un'altra fattura viene inviata alla fine di ogni trimestre per ogni utilizzo eccessivo accumulato.</block>
   <block id="a9ee4095c5a2fc7c776c32332a3eddf8" category="paragraph">Per la fatturazione trimestrale, semestrale e annuale, se la capacità impegnata viene modificata durante un abbonamento, lo stesso giorno viene inviata una fattura per i pagamenti minimi ripartiti per il resto dell'anno di abbonamento.  La fatturazione viene calcolata a partire dal giorno in cui la modifica della capacità impegnata diventa effettiva.</block>
-  <block id="a7af8cd0550a9638bb9f3a3c4e9a4be6" category="paragraph">I requisiti di capacità per i livelli di servizio delle prestazioni Keystone STaaS variano tra le offerte di archiviazione unificata, ottimizzata per blocchi, a oggetti o cloud supportate dall'abbonamento Keystone STaaS.</block>
-  <block id="ae4fed5779bc20e71bc742b9b20f3572" category="admonition">Il servizio aggiuntivo di tiering è necessario solo quando i dati sono suddivisi in livelli su qualsiasi storage non NetApp , come Amazon Web Services (AWS) S3, Azure Blob, Google Cloud Platform (GCP) e altri storage di oggetti di terze parti compatibili con S3 e supportati Keystone STaaS.</block>
   <block id="5a7ddcb67d8774d8c3bdc821152d43f1" category="paragraph">Il servizio aggiuntivo di suddivisione in livelli dei dati consente la suddivisione in livelli da Extreme, Premium, Performance, Standard e Value a una destinazione di archiviazione di oggetti. Il rapporto tra dati attivi e dati passivi da suddividere in livelli non è fisso e ogni livello viene misurato e fatturato separatamente.</block>
   <block id="f02c5e27d3f80e7755fdb672ca0a6235" category="list-text">Livello Keystone STaaS Value, livello Keystone STaaS StorageGRID Object o griglia StorageGRID Webscale (SGWS) esistente (di proprietà del cliente): non sono previsti costi aggiuntivi; fa parte del servizio standard.</block>
   <block id="8e4d26d9b322f38152cd72b8fdf2ed25" category="admonition">I servizi di elaborazione, archiviazione e rete basati su hyperscaler richiesti da Cloud Volumes ONTAP non sono forniti da NetApp come parte degli abbonamenti Keystone STaaS; questi servizi devono essere acquistati direttamente dai provider di servizi cloud hyperscaler.</block>
   <block id="7362a3703ab6814c98fdb90fe873b654" category="paragraph">Le applicazioni aziendali necessitano di piattaforme di storage per supportare flussi di lavoro di provisioning rapidi, mantenere una disponibilità continua, sostenere carichi di lavoro elevati con bassa latenza, offrire prestazioni più elevate e supportare l'integrazione con i principali provider cloud. NetApp dispone di diversi prodotti e tecnologie per supportare questi requisiti. Per il servizio Keystone , NetApp utilizza i sistemi ONTAP (AFF, ASA e FAS) e i sistemi StorageGRID .</block>
-  <block id="96528977c8366dbda111370e25501602" category="paragraph">Il servizio NetApp Keystone STaaS utilizza diversi termini per misurare le metriche. Potresti voler approfondire l'argomento utilizzando Keystone.</block>
-  <block id="dc2f3454954797b5fb83b2868fdaf36f" category="list-text">Capacità: misurata in GiB, TiB e PiB.</block>
   <block id="aefe5d691bbfd5f85d52918fd2b8748f" category="list-text">*Misurazione della capacità in GiB, TiB e PiB*: Misurazioni della capacità di archiviazione dei dati utilizzando la base 1024 (1 GiB = 1024^3^ byte, 1 TiB = 1024^4^ byte e 1 PiB = 1024^5^ byte).</block>
-  <block id="06b4fe504fde53b65e7b1a98f18d5dc6" category="paragraph">Le seguenti metriche delle prestazioni sono applicabili ai servizi unificati e ottimizzati per blocchi:</block>
   <block id="fbddd54f90ac215e40b766ce9c3f4612" category="paragraph">Comprendere la fatturazione Keystone per configurazioni specifiche può aiutarti a ottimizzare l'utilizzo del servizio e a gestire i costi. Le configurazioni includono volumi clonati, volumi temporanei, destinazioni SnapMirror , LUN e volumi di sistema/root.</block>
   <block id="ef379c37057d9a196c5c79f68a141fe6" category="paragraph">Keystone ti offre i seguenti servizi di fatturazione:</block>
-  <block id="75391a46d0c1b04a9b5062edcf0906ac" category="paragraph">Keystone STaaS offre capacità di archiviazione dati a livelli di servizio prestazionali predefiniti. A ciascun volume gestito dai servizi Keystone è associato un livello di servizio prestazionale.</block>
-  <block id="e561d7dfcd6620325c8edbb7b2c1d749" category="paragraph">Il servizio NetApp Keystone STaaS supporta diversi tipi di capacità di archiviazione. La comprensione di questi diversi termini di capacità può essere utile durante l'utilizzo Keystone.</block>
   <block id="52bde02f3e1edb6d6e28dca0d312445a" category="list-text">*Archiviazione unificata o ottimizzata per blocchi*: la capacità consumata viene calcolata in base al tipo di capacità (logica o fisica) selezionata durante il processo di ordinazione.  Il calcolo viene eseguito per istanza del livello di servizio delle prestazioni.</block>
   <block id="845131517a9dd7f41b73102338bac133" category="list-text">*Capacità logica*: È la somma di:</block>
   <block id="0649df2b2e490a85273ef7528dbeb91a" category="list-text">*Capacità fisica*: È la somma di:</block>
@@ -2161,7 +2083,6 @@ Ecco un esempio:</block>
   <block id="468705a461bd39c3c6cc91cf30d78d23" category="list-text">Strumenti per gestire e far funzionare il servizio, come la soluzione di monitoraggio ITOM, NetApp Console, Active IQ e Active IQ Unified Manager.</block>
   <block id="8a982cf9d4fce545e4c4210341623864" category="paragraph">Puoi visualizzare i dettagli di abbonamento e consumo per i tuoi abbonamenti Keystone tramite NetApp Console o Digital Advisor. Per saperne di più sui report Keystone , fare riferimento a<block ref="5a609c392d8730053e3d7fc9f1d0ffab" category="inline-link-macro-rx"></block> .</block>
   <block id="c3d65a3c50cdc5589b31f6ea38479a67" category="list-text">È possibile pagare in base alla capacità impegnata di IOPS e latenza per soddisfare diverse esigenze di carico di lavoro. I diversi livelli di servizio delle prestazioni (Extreme, Premium, Standard, Value, Object e Cloud Volumes ONTAP) consentono di gestire lo storage in base al livello di servizio delle prestazioni acquistato.</block>
-  <block id="ba17302e854fad784b3a0f21ef030b25" category="list-text">La capacità è impegnata per ogni livello di servizio prestazionale.</block>
   <block id="876a76983fba3da801a1f6d2d41a5db3" category="paragraph">È possibile creare livelli di servizio delle prestazioni (PSL) utilizzando l'utilità TUI di gestione Keystone Collector. La creazione di PSL tramite TUI seleziona automaticamente i valori predefiniti impostati per ciascun livello di servizio delle prestazioni, riducendo la possibilità di errori che potrebbero verificarsi quando si impostano manualmente questi valori durante la creazione di PSL tramite Active IQ Unified Manager.</block>
   <block id="084a50394b54545f96247d840d02d0cf" category="admonition">È possibile evidenziare l'opzione *KFS* per i servizi di abbonamento Keystone versione 1. I servizi di abbonamento Keystone differiscono da Keystone STaaS per i livelli di servizio delle prestazioni costituenti, le offerte di servizi e i principi di fatturazione. Per saperne di più, fare riferimento a<block ref="28860fa9118cfd783678772e54f9b578" category="inline-link-macro-rx"></block> .</block>
   <block id="8b8e55daf5c09f217fffc6d663a276de" category="list-text">Tutti i livelli di servizio Keystone supportati verranno visualizzati nell'opzione *Seleziona livelli di servizio Keystone * per la versione Keystone specificata. Abilitare i livelli di servizio delle prestazioni desiderati dall'elenco.</block>
@@ -2422,12 +2343,10 @@ Ecco un esempio:</block>
   <block id="e6437d0fab94a9cc41e9fc0354b23716" category="section-title">02 febbraio 2026</block>
   <block id="3173b2ec37a82d2973529cd167d6287e" category="summary">Utilizza il servizio aggiuntivo di protezione dati avanzata per garantire una protezione efficiente dei dati dei carichi di lavoro mission-critical.</block>
   <block id="642f94d714f235631bdda58a0641ee29" category="doc">Componente aggiuntivo avanzato per la protezione dei dati per Keystone</block>
-  <block id="13c48d4700ad4af5c8fd956e1cfe906e" category="paragraph">È possibile abbonarsi al servizio aggiuntivo di protezione avanzata dei dati (ADP) con il tuo abbonamento Keystone STaaS. Mentre i servizi Keystone standard includono la protezione dei dati predefinita tramite SnapMirror, SnapVault e Snapshot, questo servizio aggiuntivo utilizza la tecnologia NetApp MetroCluster per garantire un'efficace protezione dei dati dei carichi di lavoro mission-critical con un recovery point objective (RPO) pari a 0.</block>
   <block id="71d3312e0355ab7d413073f4793122fc" category="paragraph">Il servizio avanzato di protezione dati Keystone può sincronamente mirroring dati su un sito secondario. In caso di disastro presso il sito primario, il sito secondario può subentrare senza alcuna perdita di dati. Questa funzionalità utilizza la configurazione <block ref="64ff7fce7f50f4f1d4bf30022fac8148" category="inline-link-macro-rx"></block> tra due siti per abilitare la protezione dei dati. Puoi utilizzare i servizi aggiuntivi di protezione dati avanzata solo per i tuoi servizi di file e storage a blocchi. Come parte di questo servizio aggiuntivo, il livello di servizio <block ref="fb78d2349716eae6da0fd092c4f02857" prefix=" " category="inline-code"></block> performance viene assegnato al tuo abbonamento.</block>
   <block id="88447a30bf60d09ff5ebf0642e6380e8" category="inline-link-macro">Visualizza il consumo e lo stato dei tuoi abbonamenti MetroCluster</block>
   <block id="e799b5eff99a155a4912e68e26db204f" category="paragraph">È possibile monitorare il consumo e le metriche di salute per la configurazione MetroCluster. Per ulteriori informazioni, consultare <block ref="0b2e2940da985e8c5260b9ec964b2073" category="inline-link-macro-rx"></block>.</block>
   <block id="738272188927126099f39cbe7024dbf9" category="section-title">Comprendere i prezzi</block>
-  <block id="a9defa509a6012981ff7f002dd53d0e6" category="paragraph">Il servizio aggiuntivo di protezione avanzata dei dati viene tariffato in base alla capacità impegnata in ciascun sito. Questo aiuta a determinare il costo effettivo del servizio di protezione avanzata dei dati in $/TiB. I costi aggiuntivi si applicano a tutte le capacità incluse nell'abbonamento, inclusi i dati sorgente, le copie mirrorate e i dati non mirrorati.</block>
   <block id="880dc4bb6f99da8936686e254cb50669" category="paragraph">Per la configurazione MetroCluster, ogni sito richiede un proprio abbonamento e ti verrà addebitata la capacità impegnata in modo indipendente su ogni sito.</block>
   <block id="07a4905cb08550d85832c59c39e6d61c" category="list-text">Il servizio utilizza il 100% della capacità impegnata sullo storage associato come capacità impegnata.</block>
   <block id="35837aec92cf4ad38b86eaea542a0d30" category="list-text">Le tariffe si applicano sia ai siti primari che a quelli secondari, coprendo sia i cluster di origine che quelli di destinazione.</block>
@@ -2538,15 +2457,9 @@ Ecco un esempio:</block>
   <block id="b3f613e3d8f464b4f2aaf03e58cd7343" category="list-text">*Abbonamenti collegati*: Se hai abbonamenti secondari collegati al tuo abbonamento principale, questa colonna elenca i numeri degli abbonamenti collegati per l'abbonamento principale.</block>
   <block id="fb042b7b99959e391eeb7c417511098a" category="section-title">16 febbraio 2026</block>
   <block id="5232623a9d0949665269220e42d1050b" category="list-text">Fornire i dettagli nel foglio Excel come mostrato di seguito per un ticket P3 aperto con NetApp Keystone support.</block>
-  <block id="13505dac4434596c4a796389e650eb08" category="list-text">I crediti di servizio potrebbero essere applicati a una fattura futura. I crediti di servizio non si applicano agli abbonamenti Keystone scaduti. Per ulteriori informazioni, consultare <block ref="4e739353290fa4a9ebb5e0d958a5945c" category="inline-link-macro-rx"></block>.</block>
   <block id="1f5595c5befe745db8dadf46b35fce52" category="list-text">La  viene misurata per volume, per istanza del livello di servizio prestazionale, per tutti i volumi all'interno di un ordine Keystone. La latenza viene campionata ogni cinque minuti e il valore del 90° percentile calcolato su un periodo di 24 ore viene utilizzato come misura giornaliera, considerando i seguenti punti:</block>
   <block id="40f098b2e9bcd6666815272fd1d0b84e" category="list-text">Durante un periodo di 24 ore, devono essere disponibili almeno dieci metriche valide. Se la condizione non viene soddisfatta, le metriche verranno scartate.</block>
-  <block id="0e20d6162625fb8fb8b7b598f96e52da" category="cell">&lt;=1ms</block>
-  <block id="692ed37295bb7f348009da0eb9d9f9ba" category="cell">&lt;=4ms</block>
-  <block id="6efe08597c08ab2309936c3460daafb5" category="cell">&gt;=4ms</block>
-  <block id="da4bea38cc1244c367fa4751943a1de3" category="paragraph">Per saperne di più sui requisiti di latenza dei livelli di servizio delle prestazioni, fare riferimento a <block ref="d534e2cd061f06b6e0ad742d6dda7fee" category="inline-link-macro-rx"></block>.</block>
   <block id="b4508efb1fe09000c916385cb19795aa" category="cell">*Giorni di calendario interessati*</block>
-  <block id="2f8ed0b357b613711aa9e5d215bc6566" category="paragraph">In base al calcolo, i crediti per il servizio saranno pari a $12.</block>
   <block id="3006a02699b8df924e1d005be208a0d9" category="doc">Nuove colonne nella scheda Volumes in clusters</block>
   <block id="0d7094993a6b3f640bb98a53fea4c3fe" category="paragraph">Tre nuove colonne, *Dati attivi*, *Livello freddo (%)* e *Livello attivo (%)*, sono state aggiunte alla scheda *Volumi nei cluster* in *Risorse*. Per ulteriori informazioni, fare riferimento a <block ref="7a83cbc726dfc64910620370804f995c" category="inline-link-macro-rx"></block> e <block ref="4baf769758bbb5f82afb8a6245e88ae4" category="inline-link-macro-rx"></block>.</block>
   <block id="c9a8bf8065acc2e0c13bda0c7508bd25" category="section-title">Utilizzo fatturato, non fatturato e burst provvisorio in Consumption trend</block>
@@ -2668,8 +2581,129 @@ Ecco un esempio:</block>
   <block id="ec5cac371498d025c7a80f8462e7d9b0" category="paragraph">In questo esempio, la spesa on-premises è di 30K USD al mese. A febbraio, la Richiesta A per spostare 5K USD verso i servizi cloud viene approvata e attivata a marzo, innescando un blocco di 90 giorni fino a maggio. La Richiesta B, presentata durante il periodo di blocco, si attiva dopo la scadenza del blocco, riducendo la spesa on-premises a 20K USD e aumentando la spesa per i servizi cloud a 10K USD a partire da luglio. Non è consentita alcuna riallocazione negli ultimi 90 giorni del periodo.</block>
   <block id="068c2643291801b07fc0b1d5411c5f44" category="paragraph">Questa tabella fornisce una serie di valori esemplificativi per illustrare come funziona la riallocazione delle spese. In questo esempio, 5.000 USD della spesa mensile vengono riallocati al servizio di cloud storage ibrido.</block>
   <block id="06edadfbc4ba35d2e9cfcdbd12cae4dc" category="paragraph">Contatta il tuo Keystone Success Manager (KSM) per inviare una richiesta di riallocazione.</block>
-  <block id="fada2eb6c577ac59ac127d87709bdeba" category="inline-link">Keystone STaaS v3 Guida di riferimento e descrizione del servizio</block>
-  <block id="379bdcbc355b1c85f12e4fe26ce9ce52" category="paragraph">Per saperne di più, fare riferimento a<block ref="713f77483e33d0957b3e04d7bb3c25f3" category="inline-link-rx"></block>.</block>
   <block id="091e308f3acc3715bded09fcb636bf53" category="summary">L'obiettivo di disponibilità SLO è un uptime del 99,999% durante un periodo di fatturazione per tutti gli array di storage flash NetApp ONTAP implementati per la realizzazione dell'ordine Keystone.</block>
-  <block id="fb3c717f6d7580452350dcd4dcbd5ce8" category="paragraph">Durante un abbonamento, è possibile modificare le capacità impegnate, a determinate condizioni. Per dettagli completi sulle regole di aumento e diminuzione della capacità, vedere <block ref="7bcdec1ed35620533b43c63b4f4340ca" category="inline-link-macro-rx"></block>. Per richiedere una modifica, contattare il proprio Keystone Success Manager (KSM) o vedere <block ref="4e739353290fa4a9ebb5e0d958a5945c" category="inline-link-macro-rx"></block>.</block>
+  <block id="63585ffc081d689ccb5ced7606680dc7" category="paragraph">Abbonatevi al componente aggiuntivo di protezione dati avanzata (ADP) con il vostro abbonamento Keystone STaaS. ADP utilizza la tecnologia NetApp MetroCluster per la replica sincrona dei dati tra siti. Con un obiettivo di punto di ripristino (RPO) pari a 0, evitate la perdita di dati durante i guasti dei siti. Scoprite come funziona ADP, le configurazioni supportate e i prezzi.</block>
+  <block id="c17e666618ba237713ec3af11b06617e" category="admonition">Il servizio aggiuntivo di protezione dati avanzata è disponibile per lo storage unificato solo su array di storage AFF (livelli di servizio prestazionali _Extreme_, _Premium_ e _Standard_). Non è supportato su array di storage FAS (livello di servizio prestazionale _Value_).</block>
+  <block id="a7ef462afdec11a1c14e326bda155a59" category="paragraph">Il servizio aggiuntivo di protezione avanzata dei dati viene tariffato in base alla capacità impegnata in ciascun sito. I costi aggiuntivi si applicano a tutte le capacità incluse nell'abbonamento, inclusi i dati sorgente, le copie mirrorate e i dati non mirrorati.</block>
+  <block id="a4310d73f780750663c3602120bbc3b0" category="paragraph">La capacità di burst si riferisce alla capacità di storage aggiuntiva che può essere utilizzata oltre la capacità garantita dall'abbonamento. Viene misurata e fatturata per livello di servizio delle performance. Per impostazione predefinita, il limite di burst è impostato al 20% in più rispetto alla capacità garantita. Tuttavia, è possibile aumentare il limite al 40% o al 60% solo per i tipi di storage dati unificati e ottimizzati a blocchi.</block>
+  <block id="1ed342711f67dbf9a9ec0d44d0a87997" category="inline-link-macro">Tipi di capacità di archiviazione in Keystone</block>
+  <block id="de0a1ffd5945a7c03b043b1b02676ff7" category="paragraph">Per informazioni sulle diverse capacità supportate in Keystone, vedere <block ref="0ea2e5735a73cb1292027bc1604190c4" category="inline-link-macro-rx"></block>.</block>
+  <block id="724916146bfc3bc66e8deddecfa76c99" category="doc">Requisiti di capacità e adeguamenti in Keystone</block>
+  <block id="e7428377a60709c47544d358e09574fb" category="paragraph">I requisiti minimi di capacità e gli incrementi incrementali per i livelli di servizio prestazionali di Keystone STaaS variano a seconda del tipo di storage. Questa pagina descrive anche come la capacità impegnata può essere aumentata, diminuita o riallocata durante il periodo di abbonamento.</block>
+  <block id="8ed91d5e0c37ad81bec715aab6a2e10e" category="paragraph">Capacità minima per PSLI [in TiB]</block>
+  <block id="93a5d11c035d31b33ba55595f21dc177" category="section-title">Requisiti minimi di capacità per lo storage AFX</block>
+  <block id="6972d440546b1041e3eb6f9ad336124f" category="paragraph">Nella tabella seguente è possibile visualizzare i requisiti minimi di capacità per lo storage AFX:</block>
+  <block id="c657fe6d4583f5979133dc07a89798bf" category="paragraph">Capacità minima [in TiB] per cluster AFX</block>
+  <block id="26e38ecf975660cbeeab3546610f30ab" category="admonition">Per lo storage AFX, la capacità viene allocata e misurata a livello di cluster AFX, su tutti gli alloggiamenti per unità disco presenti nel cluster. Ciò è indipendente dal numero di storage controller AFX presenti nel cluster.</block>
+  <block id="48b11c6f6db8a6a3328baeb0a51c976d" category="paragraph">I servizi standard Keystone STaaS per file e storage a blocchi includono funzionalità di tiering che identificano i dati utilizzati meno frequentemente e li spostano nello storage a freddo NetApp supportato da Keystone STaaS. È possibile utilizzare il tiering dei dati come servizio aggiuntivo se si desidera spostare i dati a freddo in qualsiasi storage supportato da Keystone STaaS, non-NetApp. Questo servizio aggiuntivo è supportato solo sul tipo di storage dati unificato.</block>
+  <block id="75e68181255b1c90bd260488cd15b20b" category="admonition">Il servizio aggiuntivo di tiering è necessario solo quando i dati vengono suddivisi in livelli verso qualsiasi storage non-NetApp, come Amazon Web Services (AWS) S3, Azure Blob, Google Cloud Platform (GCP) e altri storage a oggetti di terze parti compatibili S3 supportati da Keystone STaaS. Questo servizio è disponibile solo per il tipo di storage dati unificato.</block>
+  <block id="e4939875bf7b1945d089de8588791605" category="doc">Comprendere le metriche e le definizioni di storage in Keystone</block>
+  <block id="ab111be95a3b1e0a20af6d3cc9835537" category="paragraph">Scopri i termini chiave che Keystone STaaS utilizza per misurare e generare report sul tuo abbonamento di storage, tra cui unità di capacità, metriche delle prestazioni e definizioni di disponibilità.</block>
+  <block id="b5481634031c8db3579143636cc56f56" category="paragraph">Keystone STaaS offre livelli di servizio di prestazioni (PSL) predefiniti per ogni tipo di storage. Ogni PSL specifica gli obiettivi di prestazioni (IOPS, throughput e latenza), i protocolli supportati, la piattaforma e i requisiti minimi di capacità. Esamina i PSL disponibili per selezionare il livello di servizio più adatto al tuo carico di lavoro e pianifica il tuo abbonamento.</block>
+  <block id="b0dc64ee46414f1cba4fa86cb3cecb46" category="paragraph">Un abbonamento Keystone può includere più PSL su uno o più tipi di storage. Ogni PSL ha una capacità garantita, che rappresenta la capacità minima fatturata per quel livello di servizio durante il periodo di validità dell'abbonamento.</block>
+  <block id="61d50a4de5460f878250bbbb0807eaa0" category="admonition">L'abbonamento AFX è limitato al tipo di storage AFX e attualmente offre un solo PSL, Extreme.</block>
+  <block id="4e4e6e5b08219061956b8d07df28d2e9" category="section-title">istanze dei livelli di servizio delle prestazioni</block>
+  <block id="6ce1cf2a62e30b759db4d32bd3cfeeb8" category="paragraph">Un livello di servizio prestazionale (PSL) può avere più istanze, denominate istanze del livello di servizio prestazionale (PSLI), nel tuo ambiente. Ogni PSLI è un sistema storage assegnato a quel livello di servizio prestazionale, con capacità impegnata misurata per PSLI.</block>
+  <block id="94844f9e5a75eef95a3833fe3d0b9f42" category="list-text">Per lo storage unificato o ottimizzato a blocchi, un PSLI è un array di storage composto da due storage controller in una coppia HA con supporti di storage collegati internamente o esternamente.</block>
+  <block id="65d647a32175b690173930855255fd99" category="list-text">Per lo storage AFX, un PSLI è un singolo storage controller. AFX utilizza un'architettura disaggregata in cui i controller (compute) e gli alloggiamenti per unità disco (storage) sono indipendenti e possono essere scalati separatamente. Gli obiettivi di IOPS e throughput si applicano a ciascun controller; la capacità impegnata viene misurata a livello di cluster AFX, che include tutti i controller e gli alloggiamenti per unità disco presenti nel cluster.</block>
+  <block id="4dacd00a4da2b12913df6fd2442cb6f3" category="paragraph">Le metriche delle prestazioni come IOPS, throughput (GBps) e latenza (ms) vengono misurate per ogni PSLI.</block>
+  <block id="0516a0281a553774f8ca5e8a2eeca6d6" category="paragraph">I livelli di servizio di base per le prestazioni dei tipi di storage dati supportati: unificato, ottimizzato per i blocchi, AFX, a oggetti e servizi cloud sono descritti nelle sezioni seguenti:</block>
+  <block id="7b875953c4f3286c05225742cb19fba5" category="cell">*Livello di servizio delle prestazioni* (tutte le specifiche per istanza del livello di servizio delle prestazioni [coppia HA])</block>
+  <block id="c30a3f1c136c94528c87e3a5b4a431cf" category="cell">*Protocolli supportati*</block>
+  <block id="a3dfd161b312ce8d880997c971d62270" category="cell">FC, iSCSI, NFS, NFSv4/RDMA, NVMe/FC, NVMe/TCP, SMB, S3</block>
+  <block id="9f51f3588cd21e5b45f794b9b5789f77" category="cell">*Obiettivo massimo di IOPS*^1^</block>
+  <block id="5eabc7abd8a276fef32c46137796f3a6" category="cell">250K</block>
+  <block id="a25328a5a775c1bdf0202f95ebc35f43" category="cell">*Target massimo GBps*^1^</block>
+  <block id="d3d9446802a44259755d38e6d163e820" category="cell">10</block>
+  <block id="8ef73cf5ea5a09bb4cb7393f715d2618" category="cell">AFF A-Series</block>
+  <block id="71642a8ed4161123d0530fb7e39a80f1" category="cell">AFF C-Series</block>
+  <block id="149f0ea389848f479bd80af6375b383b" category="cell">FAS</block>
+  <block id="ae60667b98f75b59ea0bdec9f176a22d" category="cell">NVMe/TCP, NVMe/FC, FC, iSCSI</block>
+  <block id="089179584da8b90531deb9f3894322c8" category="cell">120K</block>
+  <block id="322099edf92b840eea0e581625516366" category="cell">*Velocità massima target in GBps*</block>
+  <block id="1679091c5a880faf6fb5e6087eb1b2dc" category="cell">6</block>
+  <block id="e74e816dd7cc6f70a065fed35442bdba" category="cell">ASA A-Series</block>
+  <block id="eab12603d471c1206ae118fe245f03eb" category="cell">ASA C-Series</block>
+  <block id="c83ab9a191efe5f8a93ef670926ec421" category="section-title">Livelli di servizio prestazionali per lo storage AFX</block>
+  <block id="cbb2b156759634c1f6e27a9b2b7c3614" category="cell">*Livello di servizio delle prestazioni* (tutte le specifiche per istanza del livello di servizio delle prestazioni [uno storage controller AFX])</block>
+  <block id="04746c26c149ffd4244aa53c22148df7" category="cell">NFSv3, NFSv4/RDMA, pNFS, SMB, S3</block>
+  <block id="49429284b8dce3d22311c8ec810c618d" category="cell">625K</block>
+  <block id="e9d7397e9772df2e11071d57657f4b22" category="cell">AFX</block>
+  <block id="04fb9c9421e769b5b55f0e298c46425d" category="cell">*Capacità minima garantita per cluster AFX*^2^</block>
+  <block id="8f05aab381a319cd1244cd3a57264b9f" category="list-text">^2^In un cluster AFX, gli obiettivi di prestazioni si applicano per storage controller. Ogni controller aggiunto al cluster contribuisce con gli stessi IOPS e throughput. La capacità impegnata e gli incrementi incrementali si applicano alla capacità totale degli shelf di dischi nel cluster.</block>
+  <block id="ca207a661decaf8cd1a1d8bedbe2d0d0" category="section-title">Condizioni di misurazione delle prestazioni per lo storage unificato, ottimizzato a blocchi e AFX</block>
+  <block id="12a093634a456612b8fb5ecaa5bdb281" category="list-text">Per l'archiviazione AFX,</block>
+  <block id="d66402519ca1e00b2e9854efcd21d55e" category="list-text">*IOPS*: Per ONTAP 9.18.1 con NFSv4, ogni istanza del livello di prestazioni supporta l'accesso casuale con un rapporto di lettura del 70% e di scrittura del 30% e una dimensione del blocco di 4 KB.</block>
+  <block id="806eb2c12e313137e16faace53c65074" category="list-text">*Throughput*: Per ONTAP 9.18.1 con NFSv4, ogni istanza del livello di prestazioni supporta l'accesso sequenziale con lettura al 100% e una dimensione del blocco di 64 KB.</block>
+  <block id="4145dec9eb95aa77a0a388a7f89aa836" category="cell">*Protocollo supportato*</block>
+  <block id="a60c7f8a52030dd7cd31f6ef8eda327f" category="cell">SGF6112</block>
+  <block id="3d653a616afd117e668b1ec6d4cda21b" category="cell">SG6160</block>
+  <block id="bd92684886c3b8e5ae4c9d6659e6d2c1" category="cell">*Cloud Volumes ONTAP*</block>
+  <block id="45c845bdacf0df0a1a74d1b82ad96256" category="cell">NFS, CIFS, iSCSI e S3 (solo AWS e Azure)</block>
+  <block id="0ea2e5735a73cb1292027bc1604190c4" category="list-text"><block ref="0ea2e5735a73cb1292027bc1604190c4" category="inline-link-macro-rx"></block></block>
+  <block id="f2166097f138ef9b03ffdc4d7661da74" category="paragraph">L'obiettivo di livello di servizio di disponibilità (SLO) punta a una disponibilità del servizio del 99,999% per istanza di livello di servizio di prestazioni (PSLI) per lo storage unificato e ottimizzato a blocchi, o per storage controller AFX. I dettagli includono le modalità di misurazione della disponibilità, i tipi di storage e i livelli di servizio di prestazioni inclusi, nonché i crediti di servizio in caso di mancato raggiungimento degli obiettivi.</block>
+  <block id="057e02892456ecd2a8b3705b83c5a2d4" category="list-text">*Percentuale di uptime mensile* = [(numero di secondi idonei in un mese - numero di secondi di indisponibilità del servizio per un PSLI in quel mese) / numero di secondi idonei in un mese] x 100%</block>
+  <block id="f8d9817b19a43241d1102db9ef8a06fa" category="list-text">*Indisponibilità del servizio*: Il periodo durante il quale le operazioni di lettura o scrittura dei dati non vengono gestite da un PSLI, come riportato dallo strumento di monitoraggio. Sono esclusi i periodi in cui i servizi STaaS non sono disponibili a causa di manutenzione programmata, aggiornamenti o attività di supporto concordate con NetApp, o a causa di circostanze al di fuori del controllo o della responsabilità di NetApp.</block>
+  <block id="f8971c76f1b886f18346b05bcd3f42eb" category="list-text">*Secondi validi*: Secondi in un mese che vengono conteggiati nel calcolo del tempo di attività, escludendo qualsiasi periodo di indisponibilità del servizio come definito sopra.</block>
+  <block id="6e99b4605e2844bad11c683ae61a5295" category="list-text">Tempo di indisponibilità del servizio in secondi: 95 secondi</block>
+  <block id="9d62424c2ca4c3cda958cf473e3fb9f2" category="paragraph">In base ai calcoli, il tempo di attività mensile è del 99,996% e la percentuale di credito di servizio è del 5%.</block>
+  <block id="5f9c79bf01a54229f5239d632d0d58be" category="paragraph">In base ai calcoli, il credito di servizio è di $5.</block>
+  <block id="a55cec6d826c4a17c522ee2c6e214342" category="list-text">I crediti di servizio potrebbero essere applicati a una fattura futura. I crediti di servizio non si applicano agli abbonamenti Keystone scaduti. Per contattare il supporto NetApp e aprire il caso di supporto necessario per una richiesta di credito di servizio, consultare <block ref="da15ada5eca0cf6d8fba09a6cd49576b" category="inline-link-macro-rx"></block>.</block>
+  <block id="969217a02fe5cd6d0928004fe76c034c" category="paragraph">Keystone STaaS offre un obiettivo di livello di servizio (SLO) basato sulla latenza, che punta al 90° percentile di latenza per istanza di livello di servizio delle prestazioni (PSLI) per storage unificato (escluso il livello di servizio _Value_), storage a blocchi ottimizzato e storage AFX. Scopri come verificare le prestazioni, quali regole si applicano e come ricevere crediti di servizio se Keystone non soddisfa l'obiettivo di latenza per la capacità utilizzata fino al limite di burst, come specificato nei termini e condizioni d'ordine di Keystone.</block>
+  <block id="57d56dc842f4da79392d5bc2178582dc" category="list-text">Quando si utilizza il servizio aggiuntivo di protezione dati avanzata, la latenza include solo le operazioni di I/O da e verso l'array di storage locale.</block>
+  <block id="3acccb377ba516abf2132c1adc6423bf" category="list-text">Applicabile esclusivamente alle piattaforme NetApp AFF e AFX.</block>
+  <block id="a91917c53f37c42ea4f42351b4244d50" category="list-text">Tutti i limiti minimi e massimi di capacità e gli altri limiti per ciascuna istanza del livello di servizio delle performance, come specificato nell'ordine Keystone, sono applicabili.</block>
+  <block id="bdcd0790b387669bdb07fee0a1463b92" category="list-text">Tutte le istanze del livello di servizio delle prestazioni richiedono l'abilitazione completa e continua dello strumento di monitoraggio e AutoSupport (ASUP).</block>
+  <block id="dce1b40515aa817043b0bf0763077312" category="paragraph">L'esempio seguente mostra come calcolare i crediti di servizio:</block>
+  <block id="30ffee792d3072c7be1c949f62571d1a" category="paragraph">In base ai calcoli, i crediti di servizio sono $12.</block>
+  <block id="f098ec66e0f26f5df7a5592bdb141c0a" category="summary">Scopri come l'SLO di sostenibilità di Keystone definisce gli obiettivi di consumo di energia per la tua implementazione STaaS e come richiedere crediti di servizio se tali obiettivi non vengono raggiunti.</block>
+  <block id="8d35a7b89502c52082173da04de457f8" category="paragraph">L'obiettivo di livello di servizio di sostenibilità (SLO) mira al consumo di energia fino al massimo valore nominale in watt per i prodotti STaaS distribuiti per fornire l'istanza di livello di servizio di prestazioni (PSLI) per lo storage unificato (escluso il livello di servizio di prestazioni _Value_) e lo storage ottimizzato per blocchi, oppure per ogni cluster AFX. Scopri come l'obiettivo di sostenibilità di Keystone influisce sulla tua configurazione STaaS e come ottenere crediti di servizio se i limiti non vengono rispettati.</block>
+  <block id="e5e09031843479ef9ef8cbbd4c2f404c" category="inline-link-macro">NetApp Hardware Universe</block>
+  <block id="0957c568dff0d0f914638526e7f1a262" category="list-text">*Watt*: La potenza consumata dagli array di storage o dal cluster AFX, come riportato dallo strumento di monitoraggio. I limiti massimi di consumo di energia di riferimento sono forniti in <block ref="43b42c26c42f7c6fe4ef77f9f2ed17ff" category="inline-link-macro-rx"></block>.</block>
+  <block id="1f0b82560627b660c6c6958a1df834b8" category="section-title">Configurazioni supportate</block>
+  <block id="7b734bd95cc612f2180222cd0966d01a" category="paragraph">L'obiettivo di livello di servizio (SLO) in materia di sostenibilità si applica agli ordini standard di Keystone STaaS con le seguenti configurazioni supportate:</block>
+  <block id="d84af230e5256387df720dc6e6401783" category="list-text">Compatibile solo con array di storage ONTAP AFF serie A o cluster AFX.</block>
+  <block id="eef5e20586564143edd70f950ca5727a" category="list-text">Solo configurazioni di cluster senza switch a due nodi.</block>
+  <block id="43c0052492b4cf22f1061e8b253a8b7c" category="list-text">Solo configurazioni non miste.</block>
+  <block id="d2278bb8c254ac125b34f0484a6761a2" category="list-text">Solo configurazioni non-MetroCluster.</block>
+  <block id="6c85a12186f0a6666e6748da41a8b1b5" category="list-text">Attivazione completa e continua dello strumento di monitoraggio e AutoSupport (ASUP) su tutti gli array di storage.</block>
+  <block id="37e0401ff29d70ff45dc4a329f698232" category="list-text">La temperatura ambiente di funzionamento durante la misurazione del consumo di energia deve essere compresa tra 25°C e 27°C.</block>
+  <block id="de8a5d7b6fe1ed65382a0c659b08f09c" category="paragraph">Se il consumo di energia durante un periodo di fatturazione supera la potenza nominale massima in watt per i prodotti STaaS implementati, allora NetApp emette crediti di servizio in base alla capacità impegnata come segue:</block>
+  <block id="82fd6f0d4eac87689d3947d1d64173cf" category="paragraph">Per richiedere un credito di servizio, apri un ticket di supporto di priorità 3 (P3) con NetApp Keystone support entro 7 giorni dalla fine del mese di servizio e fornisci i dettagli richiesti nel foglio Excel come mostrato di seguito:</block>
+  <block id="eb0a3518d4d04ab2b4270613e64c483b" category="paragraph">Nota le seguenti condizioni per le richieste di accredito del servizio:</block>
+  <block id="3b7152544c75c62ded24e1fd1a685b73" category="list-text">NetApp determina se si è verificata una violazione del livello di servizio.</block>
+  <block id="8b45152d7e3ba182c3c6da98ff9554f3" category="list-text">È necessario fornire ulteriori informazioni come richiesto da NetApp, inclusi i dati relativi al consumo di watt e al metodo di misurazione.</block>
+  <block id="29efe66e5d977e648c0b8fe8ded78f64" category="list-text">I crediti di servizio vengono calcolati solo in base alla capacità garantita.</block>
+  <block id="aef3ca4f7faa27b1414b3600146ecccd" category="list-text">I crediti di servizio possono essere applicati solo alla fattura del mese successivo. Non si applicano agli abbonamenti Keystone scaduti. Per contattare il supporto NetApp e aprire il caso di supporto necessario per una richiesta di credito di servizio, consultare <block ref="da15ada5eca0cf6d8fba09a6cd49576b" category="inline-link-macro-rx"></block>.</block>
+  <block id="b19633d0cb8d2d57513d2cc23138bc62" category="paragraph">Keystone STaaS utilizza diversi termini relativi alla capacità per misurare, impegnare e fatturare lo storage. Comprendere questi termini ti aiuterà a pianificare il tuo abbonamento e a interpretare i report di utilizzo e le fatture.</block>
+  <block id="264b7a5ed1f918cbf7c442e0e60373aa" category="list-text">La capacità è assegnata a ciascuna istanza del livello di servizio delle prestazioni per lo storage unificato o ottimizzato a blocchi, oppure per ciascun cluster AFX.</block>
+  <block id="0659d428df833a806e29e65e632d380a" category="inline-link-macro">NetApp supporto</block>
+  <block id="e5a2be6d0ccccb64a8b7b744fb113602" category="paragraph">Durante un abbonamento, è possibile modificare le capacità impegnate, a determinate condizioni. Per dettagli completi sulle regole di aumento e diminuzione della capacità, vedere <block ref="7bcdec1ed35620533b43c63b4f4340ca" category="inline-link-macro-rx"></block>. Per richiedere una modifica, contattare il proprio Keystone Success Manager (KSM) o <block ref="1c9a6e99a7c2e3996e73f5bc2292ac5b" category="inline-link-macro-rx"></block>.</block>
+  <block id="56ae4bcb822e971e4c40a45fcdc8fe7c" category="paragraph">La capacità consumata si riferisce alla capacità (in TiB di storage) attualmente utilizzata dal servizio. Il calcolo varia a seconda del tipo di storage dati:</block>
+  <block id="ac24d860f9ed456787c6adde87f5cdec" category="list-text">Capacità fisica misurata, al netto dell'efficienza dei dati dell'array di storage, per archiviare tutte le istanze e i tipi di dati del cliente, come copie, copie speculari, versioni e cloni.</block>
+  <block id="7a82a6c6825909fc68fecd9286f3ac2e" category="list-text">*Archiviazione AFX*: viene calcolata per cluster AFX come somma di:</block>
+  <block id="474b185f5d41440b6fd87e927f87c541" category="list-text">*Cloud Volumes ONTAP*: La capacità consumata viene calcolata come la quantità di capacità logica allocata e misurata di tutti i volumi Cloud Volumes ONTAP.</block>
+  <block id="f234322ad18556ff16aa01dee7300a47" category="list-text">Il limite di capacità di burst viene concordato nell'ordine Keystone. Solitamente è impostato su un valore predefinito del 20% in più rispetto alla capacità impegnata per istanza del livello di servizio delle prestazioni o per AFX cluster, con opzioni aggiuntive disponibili per lo storage unificato e ottimizzato a blocchi per selezionare limiti di capacità di burst del 40% o del 60% della capacità impegnata.</block>
+  <block id="dbdc1a5faef8b8ddb2e25e6f74f5bcad" category="list-text">Il consumo di capacità a picco viene fatturato alla stessa tariffa della capacità impegnata corrispondente al tipo di storage dati (DST) e al livello di servizio prestazionale selezionato.</block>
+  <block id="ee8a9a50b86a2c256eab909e35a02e93" category="paragraph">Keystone STaaS supporta storage unificato, ottimizzato per blocchi, AFX e storage a oggetti sulle piattaforme NetApp, nonché Cloud Volumes ONTAP. Ogni tipo di storage è definito come tipo di storage dati (DST) ed è disponibile con i servizi standard inclusi nell'abbonamento base, insieme a servizi aggiuntivi opzionali.</block>
+  <block id="cf709c54f33c36288707362879eb2dfc" category="section-title">Keystone STaaS servizi standard e aggiuntivi</block>
+  <block id="fea9eb0cc582a232ee51b0b1795cb10d" category="paragraph">È possibile abbonarsi contemporaneamente a più servizi Keystone STaaS. Quando si aggiungono servizi cloud a un abbonamento, questi condividono la stessa durata delle soluzioni unificate, ottimizzate per i blocchi e/o dello storage a oggetti. Un servizio cloud può essere aggiunto in qualsiasi momento durante la validità di un abbonamento storage attivo. Tuttavia, se non si prevede di rinnovare un abbonamento esistente per lo storage unificato, ottimizzato a blocchi o a oggetti, non è possibile aggiungere un servizio cloud negli ultimi 90 giorni di validità di tale abbonamento.</block>
+  <block id="38ae0b328c3e26812a7b700ae678f4fd" category="admonition">L'abbonamento AFX è autonomo e non può essere combinato con unified, block-optimized o storage a oggetti nello stesso abbonamento. Se hai bisogno di AFX insieme ad altri tipi di storage, devi sottoscriverli come abbonamenti separati.</block>
+  <block id="a23e642130f1faeaf44b0ea678dfb545" category="section-title">Tipi di archiviazione dati supportati</block>
+  <block id="4b145c1a0a082ca2088077335b5b27ad" category="paragraph">I servizi Keystone STaaS per lo storage unificato, ottimizzato a blocchi, a oggetti e AFX supportano molteplici funzionalità e protocolli, descritti nella tabella seguente:</block>
+  <block id="89c4606de5985538d49b5c4d2de1f372" category="cell">Tipo di archiviazione dati</block>
+  <block id="1dbd464eef96e9cc4151734185a50c7a" category="paragraph">Unificato</block>
+  <block id="6ecc4697f1d9c05f24082ff3ce9e5332" category="paragraph">Include storage file, a blocchi e S3 a oggetti</block>
+  <block id="7be22e84c6b6dd889b6512a3a909473d" category="paragraph">ONTAP sui sistemi AFF e FAS</block>
+  <block id="c8cdbe16cfc746d5d45679b593aa96f9" category="paragraph">Ottimizzato a blocchi</block>
+  <block id="9fcbe2959ad6ae31dd4236c7692f85a5" category="paragraph">Include storage a blocchi</block>
+  <block id="0eac61638ee43a0176a5562b3e8d3ee0" category="paragraph">Supporta tutte le funzionalità di ONTAP One for SAN</block>
+  <block id="7ac2c1fb9d73869eb302a675ce9e626a" category="paragraph">Include storage file e storage a oggetti su una piattaforma di storage disaggregata</block>
+  <block id="31a9d0fc9a4d05dfcf904af47370352a" category="paragraph">ONTAP sui sistemi AFX</block>
+  <block id="497031794414a552435f90151ac3b54b" category="paragraph">Oggetto</block>
+  <block id="210e56fe3363d08baaade2dc0b9e44d3" category="paragraph">Include storage a oggetti</block>
+  <block id="ae566ca3a7090c62a4e64db6763e5fc9" category="paragraph">Supporta tutte le funzionalità di StorageGRID</block>
+  <block id="6d1270d83b59c4d34695059058ba3873" category="admonition">I servizi di calcolo, storage e rete basati su hyperscaler richiesti da Cloud Volumes ONTAP non sono forniti da NetApp come parte degli abbonamenti Keystone STaaS; questi abbonamenti devono essere acquistati direttamente dai fornitori di servizi cloud hyperscaler.</block>
+  <block id="c148f39d208183361daf2e5ab75c9a60" category="admonition">Il consumo di capacità negli abbonamenti Keystone viene visualizzato in TiBs sulle dashboard e nei report, ed è arrotondato a due cifre decimali. Se l'utilizzo è inferiore a 0,01 TiB, il valore viene visualizzato come 0 o Nessun utilizzo. I dati in queste schermate vengono visualizzati in orario UTC (fuso orario del server). Quando si inserisce una data per la query, questa viene automaticamente considerata in orario UTC. Per ulteriori informazioni sulle metriche di utilizzo, consultare <block ref="c526a2ccdbb16224fb861d4fec1eb67c" category="inline-link-macro-rx"></block>. Per informazioni sulle diverse capacità utilizzate in Keystone, vedere <block ref="0ea2e5735a73cb1292027bc1604190c4" category="inline-link-macro-rx"></block>.</block>
+  <block id="e6664e13d8023d762b4d6f2f644a6287" category="sidebar">Tipologie di capacità di storage</block>
 </blocks>
