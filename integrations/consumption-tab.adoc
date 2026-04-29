@@ -39,6 +39,10 @@ NOTE: Puoi selezionare *Accrued Burst* dal menu a tendina *Visualizza* se deside
 
 +
 
+NOTE: È possibile utilizzare l'interruttore *Previsione* per visualizzare l'utilizzo previsto della capacità nella vista *Consumo storico* e il picco accumulato previsto nella vista *Picco accumulato*. Per ulteriori informazioni, consultare link:../integrations/consumption-tab.html#view-forecast-data["Visualizza i dati previsionali"].
+
++
+
 NOTE: Se hai sottoscritto servizi aggiuntivi come advanced data protection (ADP) o Data Infrastructure Insights (DII), i dati di consumo per questi servizi vengono visualizzati insieme ai livelli di servizio delle prestazioni di base sia nella vista storica dei consumi che in quella dei burst accumulati. Per ulteriori informazioni sui servizi aggiuntivi, consulta link:../concepts/adp.html["Scopri i servizi aggiuntivi"].
 
 +
@@ -137,20 +141,6 @@ NOTE: Un grafico vuoto indica che non sono disponibili dati nell'ambiente in que
 ====
 
 
-== Visualizza i dati previsionali
-
-È possibile visualizzare l'utilizzo previsto della capacità per i prossimi 120 giorni a partire dalla data odierna tramite l'interruttore *Previsione* disponibile nella vista *Consumo storico* della scheda *Andamento dei consumi* nella Console. L'interruttore è abilitato per impostazione predefinita.
-
-Di default, il grafico visualizza gli ultimi 30 giorni di consumo storico e una proiezione a 120 giorni dalla data odierna, sullo stesso grafico. Vengono tracciati fino a 30 punti dati in totale (20 per dati storici e 10 per dati di previsione), con una linea verticale che separa i due segmenti.
-
-image:forecast-1.png["screenshot che mostra i dati di previsione"]
-
-Selezionando un intervallo di date che non termina con la data odierna, le previsioni vengono automaticamente disabilitate. Per riattivarle, viene visualizzata una finestra di dialogo di conferma che informa l'utente che i dati di forecast sono disponibili solo quando l'intervallo di tempo selezionato termina con la data odierna. Confermando, la visualizzazione viene ripristinata all'intervallo predefinito, ovvero gli ultimi 30 giorni di dati storici più i successivi 120 giorni di forecast.
-
-Se si prevede che il consumo previsto superi la capacità di burst, sul grafico compare un indicatore di allarme che consiglia un upgrade della capacità.
-
-
-
 == Calcolo del burst accumulato
 
 L'utilizzo del bursting maturato per un intero mese viene calcolato come segue:
@@ -167,9 +157,9 @@ Il burst è la differenza tra la capacità consumata e la capacità impegnata. A
 
 == Visualizza il burst accumulato
 
-È possibile visualizzare l'utilizzo dei dati burst accumulati tramite la Console o Digital Advisor. Se si è selezionato *Accrued burst* dal menu a discesa *View* nella scheda *Consumption trend* nella Console, o l'opzione *Invoiced Accrued Burst* dalla scheda *Consumption Trend* in Digital Advisor, è possibile visualizzare l'utilizzo dei dati burst accumulati su base mensile o trimestrale, a seconda del periodo di fatturazione selezionato. Questi dati sono disponibili per gli ultimi 12 mesi fatturati ed è possibile effettuare query per intervallo di date fino agli ultimi 30 mesi.
+È possibile visualizzare l'utilizzo dei dati burst accumulati tramite la Console o Digital Advisor. Se si è selezionato *Accrued burst* dal menu a discesa *View* nella scheda *Consumption trend* nella Console, o l'opzione *Invoiced Accrued Burst* dalla scheda *Consumption Trend* in Digital Advisor, è possibile visualizzare l'utilizzo dei dati burst accumulati su base mensile o trimestrale, a seconda del periodo di fatturazione selezionato.
 
-Nella Console, oltre all'utilizzo burst fatturato, puoi anche visualizzare l'utilizzo burst non fatturato (accumulato ma non ancora fatturato) e l'utilizzo burst provvisorio (accumulato nel periodo di fatturazione corrente e non ancora fatturato).
+Nella Console, quando l'opzione *Previsione* è disabilitata, è possibile visualizzare l'utilizzo burst fatturato insieme all'utilizzo burst non fatturato (maturato ma non ancora fatturato) e all'utilizzo burst provvisorio (maturato nel periodo di fatturazione corrente e non ancora fatturato). Quando l'opzione *Previsione* è abilitata, il grafico visualizza anche l'utilizzo burst maturato previsto per i successivi 120 giorni dalla data corrente. Per ulteriori informazioni sull'opzione *Previsione*, consultare link:../integrations/consumption-tab.html#view-forecast-data["Visualizza i dati previsionali"].
 
 image:accr-burst-provision-invoice.png["screenshot che mostra l'utilizzo burst accumulato nella Console"]
 
@@ -188,15 +178,36 @@ image:accr-burst-2.png["utilizzo bursting maturato su base trimestrale"]
 
 
 
+== Visualizza i dati previsionali
+
+Nella Console, è possibile utilizzare l'interruttore *Previsione* nella scheda *Andamento dei consumi* per visualizzare l'utilizzo previsto della capacità nella vista *Consumo storico* e il picco accumulato previsto nella vista *Picco accumulato*. L'interruttore è abilitato per impostazione predefinita in entrambe le viste.
+
+Nella visualizzazione *Consumo storico*, il grafico mostra gli ultimi 30 giorni di dati storici e una proiezione a 120 giorni dalla data odierna, sullo stesso grafico. Vengono tracciati fino a 30 punti dati in totale (20 per dati storici e 10 per dati di previsione), con una linea verticale che separa i due segmenti.
+
+image:forecast-1.png["screenshot che mostra i dati di previsione"]
+
+Nella vista *Consumo accumulato*, il grafico mostra la cronologia del consumo accumulato degli ultimi 6 mesi e una proiezione a 120 giorni dalla data corrente, con una linea verticale che separa i dati storici da quelli previsti. La barra del periodo di fatturazione corrente mostra sia l'utilizzo provvisorio del consumo che i dati previsti per i giorni rimanenti. È possibile fare clic su una qualsiasi barra per visualizzare la ripartizione giornaliera nella tabella *Consumo accumulato per giorno*. Per ulteriori informazioni sulla tabella *Consumo accumulato per giorno*, consultare link:../integrations/consumption-tab.html#view-daily-accrued-burst-data-usage["Visualizza l'utilizzo giornaliero dei dati burst maturati"].
+
+image:accrued-burst-forecast.png["screenshot che mostra la previsione di burst accumulata"]
+
+Selezionando un intervallo di date che non termina con la data odierna, la previsione viene automaticamente disabilitata. Per riattivarla, viene visualizzata una finestra di dialogo di conferma che informa l'utente che i dati di previsione sono disponibili solo quando l'intervallo temporale selezionato termina con la data odierna. Se si conferma la finestra di dialogo, la visualizzazione viene ripristinata all'intervallo predefinito per la visualizzazione selezionata: gli ultimi 30 giorni di dati storici più i successivi 120 giorni di previsione nella visualizzazione *Consumo storico*, oppure gli ultimi 6 mesi di dati storici dei picchi accumulati più i successivi 120 giorni di previsione nella visualizzazione *Picchi accumulati*.
+
+Se si prevede che il consumo superi la capacità assegnata, sul grafico compare un indicatore di allerta arancione che consiglia un potenziamento della capacità. Se si prevede che superi la capacità di picco, compare anche un indicatore di allerta rosso che consiglia un potenziamento della capacità.
+
+
+
 == Visualizza l'utilizzo giornaliero dei dati burst maturati
 
 È possibile visualizzare l'utilizzo giornaliero dei dati accumulati per un periodo di fatturazione mensile o trimestrale tramite la Console o il Digital Advisor. Nella Console, la tabella *Accrued burst by days* fornisce dati dettagliati, tra cui timestamp, capacità di burst impegnata, consumata e accumulata se si seleziona *Accrued burst* dal menu a discesa *View* nella scheda *Consumo trend*.
 
 Nella Console, puoi filtrare la tabella selezionando una qualsiasi barra che rappresenta un periodo di fatturazione nel grafico di fatturazione a raffica maturata. Quando è filtrata, la tabella mostra solo i giorni all'interno del periodo di fatturazione selezionato. Per visualizzare nuovamente il set di dati completo, usa l'opzione *Cancella filtri*. Se non sono disponibili dati per il periodo selezionato, viene visualizzato un messaggio che indica che non sono disponibili dati.
 
+
+NOTE: I dati visualizzati nel grafico dipendono dal fatto che l'opzione *Previsioni* sia attivata o disattivata.
+
 image:bxp-accrued-burst-days-1.png["schermata che mostra la tabella dei burst accumulati per giorni"]
 
-Puoi anche scaricare i dati in formato Excel, inclusi lo stato di burst (fatturato, non fatturato o provvisorio) e il periodo di fatturazione.
+È inoltre possibile scaricare i dati disponibili in formato Excel, inclusi lo stato di burst (fatturato, non fatturato, provvisorio o previsto, a seconda dei casi) e il periodo di fatturazione.
 
 In Digital Advisor, quando fai clic sulla barra che visualizza i dati fatturati dall'opzione *Invoiced Accrued Burst*, sotto il grafico a barre viene visualizzata la sezione Billable Provisioned Capacity, che offre opzioni di visualizzazione sia tramite grafici che tramite tabelle. La visualizzazione predefinita del grafico visualizza l'utilizzo giornaliero dei dati burst maturati in un formato grafico a linee, che mostra le modifiche nell'utilizzo nel tempo.
 

@@ -18,6 +18,24 @@ Scopri le ultime funzionalità e i miglioramenti dei servizi Keystone STaaS.
 
 
 
+== 27 aprile 2026
+
+Nuovi miglioramenti nella dashboard Keystone nella NetApp Console:
+
+
+
+=== Etichetta Provisioned capacity rinominata
+
+L'etichetta *Provisioned capacity* è stata rinominata in *Provisioned volume capacity*. L'etichetta aggiornata è riportata anche nei relativi report in formato CSV ed Excel.
+
+
+
+=== Interruttore di previsione per il burst accumulato
+
+Ora è possibile utilizzare l'interruttore *Previsione* nella vista *Consumo massimo accumulato* della scheda *Andamento dei consumi* per proiettare il consumo massimo accumulato per i prossimi 120 giorni a partire dalla data corrente. Per ulteriori informazioni, consultare link:./integrations/consumption-tab.html#view-forecast-data["Visualizza i dati previsionali"].
+
+
+
 == 30 marzo 2026
 
 Nuovi miglioramenti nella dashboard Keystone nella NetApp Console:
