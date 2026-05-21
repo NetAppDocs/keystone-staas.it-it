@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: concepts/misc-volume-billing.html 
-keywords: Billing and miscellaneous scenarios 
-summary: Scopri la fatturazione di Keystone per configurazioni specifiche, tra cui volumi clonati, data Protection avanzata e altro ancora. 
+keywords: Keystone billing, special volume types, cloned volumes, SnapMirror destinations, LUNs, temporary volumes 
+summary: Le regole di fatturazione di Keystone variano a seconda della configurazione del volume. Questa pagina illustra la fatturazione per volumi clonati, SnapMirror destinazioni, LUN, volumi temporanei e volumi di sistema. 
 ---
-= Scopri di più sulla fatturazione Keystone per configurazioni di volume specifiche
+= Fatturazione Keystone per tipologie di volume specifiche
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,20 +14,34 @@ summary: Scopri la fatturazione di Keystone per configurazioni specifiche, tra c
 
 
 [role="lead"]
-Comprendere la fatturazione Keystone per configurazioni specifiche può aiutarti a ottimizzare l'utilizzo del servizio e a gestire i costi. Le configurazioni includono volumi clonati, volumi temporanei, destinazioni SnapMirror , LUN e volumi di sistema/root.
+Le regole di fatturazione di Keystone variano a seconda della configurazione del volume. Conoscere queste eccezioni consente di evitare addebiti imprevisti quando si lavora con volumi clonati, destinazioni SnapMirror, LUN o storage temporaneo.
 
+La tabella seguente riassume le regole di fatturazione per ciascun tipo di volume.
+
+[cols="1,2"]
+|===
+| Tipo di volume | Regola di fatturazione 
+
+
+| Volumi clonati | Fatturati secondo i volumi standard 
+
+
+| Volumi temporanei | Non fatturato 
+
+
+| SnapMirror destinazioni | Fatturato in base al livello di servizio di prestazione della destinazione 
+
+
+| LUN | Fatturato in base al livello di servizio prestazionale del volume di riferimento 
+
+
+| Volumi di sistema e root | Monitorato ma non fatturato 
+|===
 
 
 == Fatturazione per volumi clonati
 
-Se i volumi vengono clonati in ONTAP e utilizzati per il backup e il ripristino dei dati, è possibile continuare a utilizzare i cloni senza alcun pagamento aggiuntivo. Tuttavia, vengono addebitati i volumi clonati utilizzati per qualsiasi altro scopo dell'azienda per un periodo di tempo esteso.
-
-Tenere presente quanto segue:
-
-* I volumi clonati non possono essere caricati purché le loro dimensioni siano inferiori al 10% del volume principale (la capacità fisica utilizzata nel volume clone rispetto alla capacità fisica utilizzata nel volume principale).
-* Non è previsto un periodo di grazia di 24 ore per i volumi clonati. Viene considerata solo la dimensione del clone.
-* Una volta che il volume clone supera il 10% delle dimensioni fisiche dell'immagine principale, il clone viene fatturato come volume standard (capacità logica utilizzata).
-
+I volumi clonati vengono fatturati come volumi standard allo stesso livello di servizio prestazionale del volume da cui sono stati clonati. Tutti i volumi clonati vengono misurati e fatturati indipendentemente dalle loro dimensioni o finalità.
 
 
 

@@ -387,10 +387,7 @@
   <block id="e2ab7c65b21ed8cc1c3b642b5e36429e" category="paragraph">S3</block>
   <block id="141b2b4361a2b3c206d10e1c27378c2e" category="section-title">Servizi per il cloud storage</block>
   <block id="d96e0cf44b3111cb9ae984add2b97c74" category="paragraph">Keystone STaaS offre servizi di cloud storage. Keystone STaaS supporta le funzionalità di gestione dei dati Cloud Volumes ONTAP su Amazon Web Services (AWS), Microsoft Azure e piattaforma cloud Google.</block>
-  <block id="8a73a45becb1972a998dc8490856f730" category="summary">Fatturazione basata sul consumo burst</block>
   <block id="b3f5d2a190d6e7bd7689ffbabbb1e2f2" category="inline-link-macro">Capacità di storage supportate in Keystone</block>
-  <block id="4f0b4700902f5cec62b2b3a60c2d65b9" category="doc">Misurazione basata sulla capacità consumata</block>
-  <block id="da0abce09003b51065ed5b06d06021f1" category="doc">Fatturazione basata sulla capacità impegnata</block>
   <block id="8b9ebc949c2bd3b7f585608d2fec312f" category="doc">Flusso di dati Keystone</block>
   <block id="0476a04360a8efd6e70433fd2939cef7" category="section-title">Flusso di dati di Keystone Collector</block>
   <block id="9e2f9cd4a9ee8b88a18988f62eb67dd7" category="paragraph">Keystone Collector avvia le chiamate API REST ai controller di storage e ottiene periodicamente i dettagli di utilizzo dei controller, come indicato nel seguente diagramma di flusso:</block>
@@ -487,7 +484,6 @@
   <block id="a7bfd854f2e9dacfba92f6c8e2081c3e" category="list-text">Questo servizio è applicabile solo ai servizi di file, blocco e oggetti.</block>
   <block id="39fd5e3ddc496ef780ff5e3fe13bb2d1" category="section-title">Conformità SnapLock</block>
   <block id="f14c7b4687be07acacb0f5aeed1474f5" category="inline-link">Che cos'è SnapLock</block>
-  <block id="83cd48b4617f1e69361a1ecec3f5b3a3" category="summary">Fatturazione basata su diversi tipi di volume</block>
   <block id="ff6306dccf086261b36fc9764ec0a69c" category="section-title">Fatturazione per volumi clonati</block>
   <block id="ba4c22a98feebac558bbaac68b704e09" category="section-title">Fatturazione per volumi temporanei</block>
   <block id="480da42f59e7a8b523d40d52ba830cb8" category="paragraph">Occasionalmente, i volumi temporanei (TMP) vengono creati da ONTAP durante lo spostamento dei volumi. Questi volumi temporanei sono di breve durata e il consumo su questi volumi non viene misurato per la fatturazione.</block>
@@ -499,8 +495,6 @@
   <block id="5866f5199f36da24870932aa9db6ab49" category="list-text">Presenta una fatturazione prevedibile per la capacità impegnata e pay-per-use per l'utilizzo della capacità variabile (burst).</block>
   <block id="1506e8c7e13ed05e538e60e10a3477b1" category="paragraph">La fatturazione di Keystone si basa sulla capacità impegnata e sul consumo variabile di burst.</block>
   <block id="dfd0252d57910ac70c5c31013436bba6" category="doc">Pianificazioni di fatturazione</block>
-  <block id="7f5043ec0394d759e4ce437fc8c9cd52" category="section-title">Fatturazione mensile</block>
-  <block id="4984e08f464a2069cf4e4d2bc61ffe7e" category="paragraph">Le fatture vengono inviate mensilmente. Per il mese in cui i servizi sono disponibili, viene inviata una fattura nel mese successivo. Ad esempio, la fattura per i servizi utilizzati a gennaio viene consegnata all'inizio di febbraio. La fattura include i costi per la capacità impegnata e, se applicabile, l'utilizzo in caso di burst.</block>
   <block id="5e3fca9227064d2d04c47a0f13b4fffe" category="paragraph">Per ulteriori informazioni sui servizi Keystone, consulta:</block>
   <block id="b47b3a710484adb2c8cfacd64043b550" category="paragraph-title">Keystone Success Manager</block>
   <block id="8816d718cde960556e2d767cd7bc6a24" category="paragraph">Leggi le seguenti sezioni per capire quali elementi degli abbonamenti sono vincolati da questo servizio add-on e sono forniti in base ai termini del contratto NetApp Keystone.Footnote:disclaimer 1[i servizi e le offerte qui descritti sono soggetti, limitati e regolati da un contratto Keystone pienamente eseguito.]</block>
@@ -560,8 +554,6 @@
   <block id="272552b591277a155ab212d038a32279" category="sidebar">Quali sono le unità di misura?</block>
   <block id="202e5e87c64fed77827697acb780124e" category="sidebar">Qual è lo storage di base supportato?</block>
   <block id="bf871fbeda66c457eaf1656d09ea34de" category="sidebar">Servizi supportati in Keystone</block>
-  <block id="7fb6ecbfc2c7172d977f1ac481edef36" category="sidebar">Le mie pianificazioni di fatturazione</block>
-  <block id="e6bdb181d03ed18f61204d6fa6f9e26d" category="sidebar">Cosa succede se ho consumato più della mia capacità impegnata?</block>
   <block id="0e0fe605239796a7018441e65fa28979" category="sidebar">Supporto dei cittadini DEGLI STATI UNITI</block>
   <block id="dab2edf9eaac3950e92c281ce358af01" category="sidebar">Consulente digitale Active IQ</block>
   <block id="5ecb6b24c169667ff1a176768115659e" category="sidebar">Active IQ Unified Manager</block>
@@ -660,9 +652,6 @@ Ecco un esempio:</block>
   <block id="72870aad377aa9744011edff931cfbe7" category="paragraph">Questa sezione visualizza le capacità del volume oggetto del provisioning e quelle logiche utilizzate. La capacità logica utilizzata corrente (negli ultimi cinque minuti, non in base all'intervallo di date della query), insieme all'utilizzo minimo, massimo e medio per l'intervallo di tempo vengono visualizzati in Tibs. In questo grafico, l'area grigia rappresenta la capacità di commit e il grafico giallo indica l'utilizzo logico.</block>
   <block id="55501f4ad85eceeadd5249ad583111f6" category="inline-image-macro">grafico della capacità logica utilizzata</block>
   <block id="5d511ef587684e994c938c0e19441988" category="paragraph"><block ref="5d511ef587684e994c938c0e19441988" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0e3a3dc0c3eeb16df240b7eafc4a840c" category="paragraph">Se i volumi vengono clonati in ONTAP e utilizzati per il backup e il ripristino dei dati, è possibile continuare a utilizzare i cloni senza alcun pagamento aggiuntivo. Tuttavia, vengono addebitati i volumi clonati utilizzati per qualsiasi altro scopo dell'azienda per un periodo di tempo esteso.</block>
-  <block id="308838aa7669887098042a1899ce59bc" category="list-text">I volumi clonati non possono essere caricati purché le loro dimensioni siano inferiori al 10% del volume principale (la capacità fisica utilizzata nel volume clone rispetto alla capacità fisica utilizzata nel volume principale).</block>
-  <block id="5e46e614581cd458f9521294062d3783" category="list-text">Una volta che il volume clone supera il 10% delle dimensioni fisiche dell'immagine principale, il clone viene fatturato come volume standard (capacità logica utilizzata).</block>
   <block id="efca37f4dc4125775aa5043cc3e4ba6c" category="list-text">Selezionare l'intervallo di date per la query. L'intervallo di date può essere l'inizio del mese o la data di inizio dell'abbonamento alla data corrente o la data di fine dell'abbonamento. Non è possibile selezionare una data futura.</block>
   <block id="f9e4dd599c840788d289af630bc65cdb" category="list-text">*Current Burst*: Indicatore della capacità consumata entro o al di sopra del limite di burst definito. Qualsiasi utilizzo entro il limite di burst per l'abbonamento, ad esempio, il 20% sopra la capacità impegnata è entro il limite di burst. L'utilizzo ulteriore viene considerato come utilizzo superiore al limite di burst. Questo campo visualizza colori specifici:</block>
   <block id="c3ce6809be6bdc67ae978395484d0585" category="list-text">ONTAP 9,8 o versione successiva</block>
@@ -741,11 +730,6 @@ Ecco un esempio:</block>
   <block id="d7e5ccf918d68bf60a6b52690444d5ea" category="list-text"><block ref="d7e5ccf918d68bf60a6b52690444d5ea" category="inline-link-macro-rx"></block></block>
   <block id="df7d31258a77cf6838aec404025cc8f0" category="list-text"><block ref="df7d31258a77cf6838aec404025cc8f0" category="inline-link-macro-rx"></block></block>
   <block id="9a951c3d80a9377bd47aaa657c36398a" category="list-text"><block ref="9a951c3d80a9377bd47aaa657c36398a" category="inline-link-macro-rx"></block></block>
-  <block id="fe53175072711abfe4bc0ec0a1c8feda" category="list-text"><block ref="fe53175072711abfe4bc0ec0a1c8feda" category="inline-link-macro-rx"></block></block>
-  <block id="666607765db8e2a230407163fc7ea704" category="list-text"><block ref="666607765db8e2a230407163fc7ea704" category="inline-link-macro-rx"></block></block>
-  <block id="da7adc48e3ef5d5cba8270d6542a88e9" category="list-text"><block ref="da7adc48e3ef5d5cba8270d6542a88e9" category="inline-link-macro-rx"></block></block>
-  <block id="e9fba53fca09f539e7c7027e5b60c861" category="list-text"><block ref="e9fba53fca09f539e7c7027e5b60c861" category="inline-link-macro-rx"></block></block>
-  <block id="98bee96ae0c26b26f72606ccdc5c56ce" category="list-text"><block ref="98bee96ae0c26b26f72606ccdc5c56ce" category="inline-link-macro-rx"></block></block>
   <block id="b08a55fcdae4be7efabe97ebd6da5f96" category="section-title">Dati fatturati restituiti per il burst maturato</block>
   <block id="038fa77b2d09a08187d251d11af66fec" category="section-title">Dettagli sui consumi maturati per piani tariffari specifici</block>
   <block id="e8eb002764288209a5c4ba14af40e3c1" category="paragraph">Se si dispone di un abbonamento con piani tariffari con capacità impegnata _zero_, è possibile visualizzare i dettagli sui consumi maturati nella scheda *tendenza capacità*. Selezionando l'opzione *consumo maturato fatturato*, è possibile visualizzare i grafici mensili per i dati di consumo maturato fatturato.</block>
@@ -928,15 +912,9 @@ Ecco un esempio:</block>
   <block id="479449c6cb6b88b7c379b1672435686c" category="admonition">La porta predefinita per MySQL, 3306, è limitata solo all'host locale durante una nuova installazione di Unified Manager, che impedisce la raccolta delle metriche di performance per Keystone Collector. Per ulteriori informazioni, vedere <block ref="997798a1af398517058dc0d935faaa2c" category="inline-link-macro-rx"></block>.</block>
   <block id="1b1d9e9b28e55ae75dd476a860b48088" category="inline-link-macro">Opzioni di menu aggiuntive</block>
   <block id="915546b63309e4afc31cc6f77934d3f4" category="admonition">La porta predefinita per MySQL, 3306, è limitata solo all'host locale durante una nuova installazione di Unified Manager, il che impedisce la raccolta dei dati di performance per Keystone ONTAP. È possibile modificare questa configurazione e rendere la connessione disponibile ad altri host utilizzando l'opzione presente<block ref="dd441ca9450a58c2c7b09ab86e8f7a28" prefix=" " category="inline-code"></block> nella console di manutenzione di Unified Manager. Per informazioni, vedere <block ref="df7524dc87f6643f2fa76eb53a86ec87" category="inline-link-macro-rx"></block>.</block>
-  <block id="c9830eb427c91a86a2ded324ba8b803d" category="summary">La fatturazione Keystone STaaS si basa sulla capacità di picco, ovvero la capacità consumata da te, oltre alla capacità impegnata della tua iscrizione.</block>
-  <block id="b1c4c6aab8cd7c824717fc1621d76273" category="paragraph">La fatturazione di Keystone STaaS si basa sulla _capacità di burst_, ovvero la capacità consumata da te, oltre alla capacità impegnata della tua iscrizione.</block>
   <block id="44356560df15caffd928422c99dc9948" category="summary">I requisiti di capacità per i livelli di servizio sono diversi a seconda dello storage di file, blocchi, oggetti o cloud supportato dall'iscrizione Keystone STaaS.</block>
-  <block id="d19b993b24e968320c9cf842a96fd2e4" category="summary">La capacità impegnata è la capacità impegnata per un determinato livello di servizio durante l'acquisto dell'abbonamento.</block>
   <block id="7053560fccb48096070dc008e686cf8d" category="summary">Conoscere i componenti richiesti per abilitare i servizi NetApp Keystone STaaS nel tuo ambiente.</block>
   <block id="d246f9b425c150eb3d6e174fbc2525d0" category="paragraph">Keystone Collector può essere implementato utilizzando i seguenti metodi:</block>
-  <block id="3332bc574644f77a870b242a631af1e3" category="summary">La capacità consumata è la capacità effettivamente utilizzata dai tuoi workload durante l'utilizzo del servizio.</block>
-  <block id="7a6709ab5e3b396814fccf37c263ad1f" category="paragraph">Keystone STaaS ha una misurazione basata sulla capacità consumata dall'utente durante l'utilizzo del servizio. La capacità consumata è la capacità effettivamente utilizzata dai carichi di lavoro.</block>
-  <block id="35ff061e0e3d6c0c79e597b4d638231e" category="paragraph">Nell'ambito dell'implementazione del servizio Keystone, NetApp monitora e misura continuamente il consumo del servizio. Almeno una volta ogni cinque minuti, il sistema genera un record di consumo, con dettagli sulla capacità consumata corrente per l'iscrizione. Questi record vengono aggregati nel periodo di fatturazione per generare fatture e report sull'utilizzo.</block>
   <block id="a0bf4fc3f702627df39c1daec928bb04" category="summary">I dati nei sistemi Keystone STaaS passano attraverso Keystone Collector e lo strumento di soluzione AIOP, che è il sistema di monitoring associato.</block>
   <block id="fd730f411ecf3d749480ce42fb6b5281" category="summary">Il servizio add-on di tiering dei dati identifica i dati utilizzati meno di frequente ed esegue il tiering dei dati nello storage supportato.</block>
   <block id="9c749342ce1dc8c39f5e67d29a9500ac" category="doc">Ottieni aiuto con Keystone</block>
@@ -944,7 +922,6 @@ Ecco un esempio:</block>
   <block id="7954e225c8bd390ff2168144c5e393c1" category="paragraph">NetApp è l'unico responsabile dell'infrastruttura, della progettazione, delle scelte tecnologiche e dei componenti di Keystone, che si applica sia agli ambienti NetApp che agli ambienti gestiti dal cliente.</block>
   <block id="adf9ce2fefed448c1faa955a05142679" category="paragraph">NetApp si riserva il diritto di intraprendere le seguenti azioni:</block>
   <block id="1e5c40b1bf2557793e21f12b8450b6d8" category="section-title">Piattaforme di storage</block>
-  <block id="23b37b253ca769ce608c60059a855b79" category="summary">Scopri la fatturazione di Keystone per configurazioni specifiche, tra cui volumi clonati, data Protection avanzata e altro ancora.</block>
   <block id="554b9774fcd47c93aacebd604a76b86c" category="summary">Come parte della sottoscrizione a NetApp Keystone, NetApp estende l'offerta NRNVC per i servizi a file, a blocchi e a oggetti.</block>
   <block id="6a69842e6e38f4acc01bbde008bf7a4f" category="doc">Componenti non restituibili, non volatili e conformità SnapLock</block>
   <block id="8db09ad8b057ebdb5478401fb9e32f1c" category="paragraph">Come parte dell'abbonamento a NetApp Keystone, NetApp estende l'offerta di componenti non restituibili e non volatili (NRNVC) per i tuoi servizi a file, blocchi e oggetti.</block>
@@ -953,7 +930,6 @@ Ecco un esempio:</block>
   <block id="5f06e3acb72a6b6d15e07dec8e02541b" category="summary">NetApp Keystone STaaS offre due modelli operativi per l'erogazione del servizio. Devi comprendere queste opzioni prima di iniziare a usare Keystone.</block>
   <block id="4017209949d03f232ecddb6bf8aea269" category="paragraph">NetApp Keystone STaaS offre due modelli operativi per l'erogazione del servizio: Un modello gestito dal partner e un modello gestito dal cliente. Devi comprendere queste opzioni prima di iniziare a usare Keystone.</block>
   <block id="31486f17bb0da292e6faff47c42e27a2" category="summary">Keystone è un modello di servizio pay-as-you-grow e basato su abbonamento per le aziende che preferiscono modelli di consumo OpEx al CAPEX anticipato o al leasing.</block>
-  <block id="f29d51ebfc7a851025b60dc1bcc5560e" category="summary">Keystone offre un modello pay-as-you-grow per le tue esigenze di consumo flessibili e scalabili.</block>
   <block id="db7ef8b55156f5b6fc1f3807d49d1119" category="summary">I servizi Keystone STaaS supportano ONTAP e StorageGRID.</block>
   <block id="4e4be6640d3e6688fbc771ec3b218a39" category="doc">Storage supportato in Keystone</block>
   <block id="9bb097552337391bef04a8384c5c2779" category="summary">Prima di iniziare con Keystone, devi assicurarti che i cluster ONTAP e i sistemi StorageGRID soddisfino alcuni requisiti.</block>
@@ -1543,13 +1519,9 @@ Ecco un esempio:</block>
   <block id="7fdbb259eae173e23f83dbc4823d28da" category="list-text">Visualizza tutti i dettagli del tuo abbonamento, l'utilizzo della capacità e le risorse in un unico posto.</block>
   <block id="4cc15c3d51785ada1c6ba9fa1e1e13b0" category="list-text">Gestisci facilmente gli abbonamenti e richiedi modifiche in base all'evoluzione delle tue esigenze.</block>
   <block id="c946fc133c6959483805e8ee848d8d3c" category="list-text">Rimani aggiornato sulle ultime informazioni relative al tuo ambiente di archiviazione.</block>
-  <block id="9b83bd6bb9b0235168f39a4c45d8529f" category="paragraph">La capacità impegnata è la capacità che ti viene dedicata durante l'acquisto dell'abbonamento. La capacità impegnata e la capacità di picco vengono misurate in base al livello di servizio delle prestazioni. La capacità consumata è la capacità effettivamente utilizzata dai carichi di lavoro.</block>
   <block id="c63c700d510218e3fd6113514c7cadf9" category="inline-link-macro">Visualizza i trend di consumo dei tuoi abbonamenti Keystone</block>
-  <block id="60b79d3b7a1433cb62d9ea5b5a5dac01" category="paragraph">Questo processo si verifica per ogni record di consumo generato. Il consumo di burst, pertanto, riflette sia la quantità che la durata delle capacità di consumo eccessivo in aggiunta alle capacità impegnate. Per ulteriori informazioni, fare riferimento a <block ref="d40818e721dbdfb8ef017a3c524d1def" category="inline-link-macro-rx"></block>.</block>
   <block id="6095900a0be4c21e582c9ce633f3eb3f" category="doc">Requisiti di capacità per i livelli di servizio prestazionali</block>
   <block id="42c6fcaab380d23adc4355ae6bb2df0b" category="paragraph">La riduzione è pari a (125-108) = 17 TiB di capacità allocata per il livello di servizio Extreme Performance. Durante la riallocazione della spesa, il cloud storage ibrido assegnato non è di 17 TiB, ma una capacità equivalente che è possibile acquistare da $5000. In questo esempio, per $ 5000, è possibile ottenere 17 TiB di capacità di storage on-prem per il livello di servizio Extreme Performance e 47 TiB di capacità cloud ibrida per il livello di servizio Cloud Volumes ONTAP Performance. Pertanto, la riassegnazione riguarda la spesa, non la capacità.</block>
-  <block id="5f238d7b669564c4a06db9820b17a9c3" category="paragraph">La capacità impegnata è la capacità impegnata per un particolare livello di servizio prestazionale al momento dell'acquisto dell'abbonamento.</block>
-  <block id="a5e80c8c714cefa82d0f175e2ea8eae1" category="paragraph">La capacità impegnata può essere la capacità totale per vari livelli di servizio prestazionali in un singolo abbonamento, come accettato da te e da NetApp/partner. Questa capacità viene indicata su ciascun ordine Keystone e viene fatturata, indipendentemente dal consumo effettivo di capacità.</block>
   <block id="a7e6ac4ae7947619253439c265eec249" category="paragraph">Una volta configurata, l'istanza DII inizierà a monitorare le risorse di storage NetApp distribuite come parte di Keystone.</block>
   <block id="abc501d7e199ea4ea077a268557f07c6" category="inline-link-macro">Dashboard e reporting Keystone</block>
   <block id="5179c99cf35cfc837a65bf568160b173" category="admonition">Sebbene DII offra ampie funzionalità di monitoraggio per l'hardware distribuito, non fornisce informazioni dettagliate sull'abbonamento Keystone, come l'utilizzo dell'abbonamento o dettagli sui livelli di servizio prestazionali. Per informazioni dettagliate sull'abbonamento, consultare <block ref="0c9f3efee4ad3aaa79c65e2bbafc9a0a" category="inline-link-macro-rx"></block> .</block>
@@ -1766,15 +1738,10 @@ Ecco un esempio:</block>
   <block id="edecc7e6feeced1cf533a9de993dd568" category="list-text"><block ref="edecc7e6feeced1cf533a9de993dd568" category="inline-link-macro-rx"></block></block>
   <block id="904d19fedb40bf9820beb309aafcf17b" category="inline-link-macro">Visualizza la dashboard Keystone su Active IQ Digital Advisor</block>
   <block id="1749d12df3df2319d3eee218a277ff83" category="inline-link-macro">MetroCluster</block>
-  <block id="6460d354c4ef5c2f34d145689f3906df" category="list-text">*Fatturazione trimestrale*: all'inizio di ogni trimestre di abbonamento viene generata una fattura per il pagamento minimo della capacità impegnata. Un'altra fattura viene inviata alla fine del trimestre per eventuali picchi di utilizzo maturati.</block>
   <block id="1ae0b00f6871c042811b2ef5f0368dc4" category="summary">Consente ai clienti di utilizzare capacità di archiviazione aggiuntiva oltre quella impegnata.</block>
   <block id="8a2359cfa062fe95972fc70674d2584a" category="doc">Opzioni di capacità di burst</block>
   <block id="742967428ed77679e00109c8b478ea9d" category="paragraph">Puoi optare per il servizio aggiuntivo Burst Capacity come parte del tuo abbonamento NetApp Keystone. Questo servizio ti consente di aumentare i limiti di burst capacity del 40% o del 60% rispetto alla capacità impegnata, offrendoti la flessibilità necessaria per gestire picchi imprevisti di carico di lavoro.</block>
   <block id="aefad734c06988971c818d41e4af2b8c" category="paragraph">Per modificare il limite di burst al 40% o al 60%, contattare il team di supporto NetApp Keystone.</block>
-  <block id="1db1ab512ec07d15bf8d3f03a076139a" category="paragraph">Per saperne di più su come viene fatturata la capacità burst, fare riferimento a <block ref="da7adc48e3ef5d5cba8270d6542a88e9" category="inline-link-macro-rx"></block> .</block>
-  <block id="17a67557c6c448eedbaeeb25e2409ca8" category="inline-link-macro">Opzioni di aumento della capacità di burst</block>
-  <block id="b8ce331afde85a2f9ccc21b17b658035" category="paragraph">Il limite di burst viene determinato e specificato nel contratto Keystone. Per impostazione predefinita, è impostato al 20% in più rispetto alla capacità impegnata. È anche possibile scegliere limiti di capacità massima del 40% o del 60% della capacità impegnata. Per ulteriori informazioni, fare riferimento a <block ref="c3f852e472538152b8572347bb4a142d" category="inline-link-macro-rx"></block>.</block>
-  <block id="7d38503d78c628f634f345f9649cfdd1" category="paragraph">Quando la capacità consumata è maggiore della capacità impegnata per un livello di servizio prestazionale, il consumo a raffica viene registrato e addebitato di conseguenza. L'utilizzo al di sopra della capacità di burst viene indicato come "al di sopra del limite di burst".</block>
   <block id="f8738727fdc7ce9aa43eb40acba29e13" category="section-title">Requisiti minimi di capacità per l'archiviazione unificata e ottimizzata a blocchi</block>
   <block id="3a4e4646e77e197efe8a5e44bfd42783" category="paragraph">Nelle tabelle seguenti puoi vedere la capacità minima e incrementale consentita per abbonamento per l'archiviazione unificata e ottimizzata a blocchi:</block>
   <block id="d6f750861d7ae27706ca32ed1f4c1ac8" category="paragraph">*Storage unificato*</block>
@@ -1800,7 +1767,6 @@ Ecco un esempio:</block>
   <block id="8223729bf5a771d590fde341043bac3d" category="list-text">*Capacità*: per ONTAP 9.16.1 con NFS, ogni istanza del livello di prestazioni supporta l'accesso sequenziale con lettura al 100% e una dimensione del blocco di 32 KB.</block>
   <block id="3d7debc9f9eb6961623316d3dcefaeb8" category="list-text">*IOPS*: Per ONTAP 9.16.1 con FCP, ogni istanza del livello di prestazioni supporta l'accesso casuale con un rapporto di lettura del 70% e di scrittura del 30%, una dimensione del blocco di 8 KB e una latenza di 1 ms.</block>
   <block id="743bda28c7e3ff71e63d96fad8b96946" category="list-text">*Rendimento*: per ONTAP 9.16.1 con FCP, ogni istanza del livello di prestazioni supporta l'accesso sequenziale con lettura al 100% e una dimensione del blocco di 64 KB.</block>
-  <block id="4a71061ce212df640aef8be8d2595397" category="list-text">Non è previsto un periodo di grazia di 24 ore per i volumi clonati. Viene considerata solo la dimensione del clone.</block>
   <block id="311fa0b14c132cc09ffa0940763ed317" category="paragraph">Il prezzo dei volumi di destinazione SnapMirror, sia per il disaster recovery che per la conservazione a lungo termine, si basa sul livello di servizio prestazionale assegnato alla destinazione. Non sono previsti costi aggiuntivi per la protezione dei dati.</block>
   <block id="043a801e169414534666972af92048c7" category="paragraph">Per le LUN, la fatturazione si basa sui livelli di servizio delle prestazioni del volume.</block>
   <block id="6318e8b902dd302d5ad2e2ac912ca98c" category="list-text">*Modello gestito dal partner*: questo modello offre due opzioni:</block>
@@ -1821,7 +1787,6 @@ Ecco un esempio:</block>
   <block id="9c466ee20ee6cd0a46097868e1e033ae" category="paragraph">Keystone offre capacità di storage a livelli di servizio prestazionali predefiniti per le tipologie di storage di file, blocchi e oggetti. Questo storage può essere implementato on-premise e gestito da NetApp, da un partner o dal cliente. Keystone può essere utilizzato insieme ai servizi cloud NetApp, come Cloud Volumes ONTAP, che possono essere implementati in un ambiente hyperscaler a scelta.</block>
   <block id="e6e41564c0eb58e7df450956b2e9d7ef" category="section-title">Keystone Storage-as-a-service (STaaS)</block>
   <block id="db1293ec8548c413e40861e5a81d1401" category="paragraph">Le offerte di storage-as-a-service (STaaS) mirano a fornire un modello simile al cloud pubblico per l'approvvigionamento, l'implementazione e la gestione dell'infrastruttura storage. Mentre molte aziende stanno ancora lavorando alla propria strategia per il cloud ibrido, Keystone STaaS offre la flessibilità necessaria per iniziare con servizi on-premise e passare al cloud al momento opportuno. Questo garantisce la protezione dei propri impegni su diversi modelli di implementazione, ridistribuendo le spese in base alle esigenze senza aumentare la bolletta mensile.</block>
-  <block id="b7d43ae1979d8e64c664de0e3d94f3c9" category="paragraph">Il servizio di abbonamento NetApp Keystone STaaS con pagamento in base al consumo offre un consumo flessibile e scalabile con prezzi prevedibili e anticipati per le tue esigenze di storage.</block>
   <block id="50e0459d44500ff84b442895fa1a64f1" category="list-text">Puoi scegliere un prezzo bundle per hardware, sistema operativo core e supporto per un prezzo CIB/dollari. Per ogni tipo di archiviazione, servizio di archiviazione unificato, a blocchi, ottimizzato, a oggetti o cloud, viene fornita un'unica fattura.</block>
   <block id="6770f961b4c4aaa762fb284da8cafd6f" category="list-text">È possibile selezionare una durata flessibile per i servizi e le opzioni di pagamento, ad esempio mensile, trimestrale, semestrale o annuale.</block>
   <block id="65f13786054dfad371efd46410aaee0a" category="summary">Keystone STaaS per la versione 3 offre capacità di archiviazione a livelli di servizio predefiniti. Ogni volume gestito da Keystone è associato a un livello di servizio.</block>
@@ -1984,19 +1949,11 @@ Ecco un esempio:</block>
   <block id="f4933584c28adc3bd3ea423ed96920ec" category="sidebar">Scopri di più sul tuo team di supporto</block>
   <block id="d59048f21fd887ad520398ce677be586" category="sidebar">Saperne di più</block>
   <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">Concetti</block>
-  <block id="e841475d9b2badb76a0cb7101175ad3b" category="summary">Gli abbonamenti Keystone STaaS vengono fatturati mensilmente, trimestralmente, semestralmente o annualmente.</block>
-  <block id="56b8dd6b4ae912271d580ebe3e16f322" category="paragraph">Gli abbonamenti Keystone STaaS vengono fatturati su base mensile, trimestrale, semestrale o annuale.</block>
-  <block id="24dfc9a9e6dc9e4c93638da72a2a2c6a" category="section-title">Fatturazione trimestrale, semestrale e annuale</block>
-  <block id="83712a1507c752579a09f56e78f26a67" category="paragraph">Per la fatturazione trimestrale, semestrale e annuale, il processo è simile, con lievi variazioni nella tempistica:</block>
-  <block id="8282acd43de45bece37539cf9cd85d3e" category="list-text">*Fatturazione semestrale*: all'inizio di ogni sei mesi viene generata una fattura per il pagamento minimo della capacità impegnata.  Un'altra fattura viene inviata alla fine di ogni trimestre per ogni utilizzo eccessivo accumulato.</block>
-  <block id="5c0f38443ff2151fb1c13d71699c56d1" category="list-text">*Fatturazione annuale*: all'inizio di ogni anno di abbonamento viene generata una fattura per il pagamento minimo della capacità impegnata.  Un'altra fattura viene inviata alla fine di ogni trimestre per ogni utilizzo eccessivo accumulato.</block>
-  <block id="a9ee4095c5a2fc7c776c32332a3eddf8" category="paragraph">Per la fatturazione trimestrale, semestrale e annuale, se la capacità impegnata viene modificata durante un abbonamento, lo stesso giorno viene inviata una fattura per i pagamenti minimi ripartiti per il resto dell'anno di abbonamento.  La fatturazione viene calcolata a partire dal giorno in cui la modifica della capacità impegnata diventa effettiva.</block>
   <block id="5a7ddcb67d8774d8c3bdc821152d43f1" category="paragraph">Il servizio aggiuntivo di suddivisione in livelli dei dati consente la suddivisione in livelli da Extreme, Premium, Performance, Standard e Value a una destinazione di archiviazione di oggetti. Il rapporto tra dati attivi e dati passivi da suddividere in livelli non è fisso e ogni livello viene misurato e fatturato separatamente.</block>
   <block id="f02c5e27d3f80e7755fdb672ca0a6235" category="list-text">Livello Keystone STaaS Value, livello Keystone STaaS StorageGRID Object o griglia StorageGRID Webscale (SGWS) esistente (di proprietà del cliente): non sono previsti costi aggiuntivi; fa parte del servizio standard.</block>
   <block id="8e4d26d9b322f38152cd72b8fdf2ed25" category="admonition">I servizi di elaborazione, archiviazione e rete basati su hyperscaler richiesti da Cloud Volumes ONTAP non sono forniti da NetApp come parte degli abbonamenti Keystone STaaS; questi servizi devono essere acquistati direttamente dai provider di servizi cloud hyperscaler.</block>
   <block id="7362a3703ab6814c98fdb90fe873b654" category="paragraph">Le applicazioni aziendali necessitano di piattaforme di storage per supportare flussi di lavoro di provisioning rapidi, mantenere una disponibilità continua, sostenere carichi di lavoro elevati con bassa latenza, offrire prestazioni più elevate e supportare l'integrazione con i principali provider cloud. NetApp dispone di diversi prodotti e tecnologie per supportare questi requisiti. Per il servizio Keystone , NetApp utilizza i sistemi ONTAP (AFF, ASA e FAS) e i sistemi StorageGRID .</block>
   <block id="aefe5d691bbfd5f85d52918fd2b8748f" category="list-text">*Misurazione della capacità in GiB, TiB e PiB*: Misurazioni della capacità di archiviazione dei dati utilizzando la base 1024 (1 GiB = 1024^3^ byte, 1 TiB = 1024^4^ byte e 1 PiB = 1024^5^ byte).</block>
-  <block id="fbddd54f90ac215e40b766ce9c3f4612" category="paragraph">Comprendere la fatturazione Keystone per configurazioni specifiche può aiutarti a ottimizzare l'utilizzo del servizio e a gestire i costi. Le configurazioni includono volumi clonati, volumi temporanei, destinazioni SnapMirror , LUN e volumi di sistema/root.</block>
   <block id="ef379c37057d9a196c5c79f68a141fe6" category="paragraph">Keystone ti offre i seguenti servizi di fatturazione:</block>
   <block id="52bde02f3e1edb6d6e28dca0d312445a" category="list-text">*Archiviazione unificata o ottimizzata per blocchi*: la capacità consumata viene calcolata in base al tipo di capacità (logica o fisica) selezionata durante il processo di ordinazione.  Il calcolo viene eseguito per istanza del livello di servizio delle prestazioni.</block>
   <block id="845131517a9dd7f41b73102338bac133" category="list-text">*Capacità logica*: È la somma di:</block>
@@ -2282,18 +2239,13 @@ Ecco un esempio:</block>
   <block id="7a29351a5aff62fec009044b13aad77f" category="paragraph">Gli abbonamenti visualizzano erroneamente lo stato *Sopra il limite di burst* nella dashboard Digital Advisor nonostante il consumo rientri nei limiti di burst consentiti.</block>
   <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">08 dicembre 2025</block>
   <block id="ee53a2d144b153a8ad44855abe0429a8" category="list-text">python 3 (da 3.9.14 a 3.11.8)</block>
-  <block id="40dc71902dbb22353822b7c6f15c3256" category="doc">Scopri di più sulle pianificazioni di fatturazione Keystone</block>
   <block id="584993c35b748425f19f9e50be222b34" category="doc">Componente aggiuntivo di capacità burst per gli abbonamenti Keystone</block>
-  <block id="ffd6b4f303043d2028c208b958f00d68" category="doc">Comprendere la fatturazione dei consumi a raffica Keystone</block>
   <block id="e1ae7a5642f41154cb522f32ff888693" category="doc">Requisiti di capacità per i livelli di servizio delle prestazioni Keystone</block>
-  <block id="43a8976cc8e9860d073f99a10c9863d6" category="doc">Comprendere la fatturazione della capacità impegnata Keystone</block>
   <block id="a2cec0e19e9a9e466d5734a20002287a" category="doc">Componenti necessari per i servizi Keystone</block>
   <block id="e6031ccc926a297ed489fed2eb5fc832" category="paragraph">Per abilitare i servizi NetApp Keystone STaaS sono necessari diversi componenti. Prima di iniziare, esamina questi componenti.</block>
-  <block id="58e037d24f45a1e3501979b1777d7d37" category="doc">Comprendere la misurazione della capacità consumata Keystone</block>
   <block id="7b2a0cab269bf73e47e958a9123402e1" category="doc">Componente aggiuntivo Data Infrastructure Insights per Keystone</block>
   <block id="f4661181da0130d61f3128498582908f" category="doc">Servizio aggiuntivo di tiering dei dati per Keystone</block>
   <block id="ac6db46674728d3a4cb59b937dd96ead" category="doc">Comprendere l'infrastruttura Keystone</block>
-  <block id="1bd0df1c0529e8e6ca90f1e4081e2d82" category="doc">Scopri di più sulla fatturazione Keystone per configurazioni di volume specifiche</block>
   <block id="62fb7818da74bdf8e586f11aa4b2f85f" category="doc">Componenti non restituibili e non volatili e servizio aggiuntivo di conformità SnapLock per Keystone</block>
   <block id="43b82c4e7e58013ebe91d40fcb3f7718" category="doc">SLO di disponibilità per Keystone</block>
   <block id="259bdb910694b04b20beea4776938bc1" category="doc">SLO di prestazioni per Keystone</block>
@@ -2314,8 +2266,6 @@ Ecco un esempio:</block>
   <block id="70233a54c59d50201e00e568353b8e42" category="doc">Ottieni un elenco di tutti i clienti Keystone che utilizzano l'API REST Digital Advisor</block>
   <block id="bb9f69edc6b159c2172c134f7b8ec8d9" category="doc">Ottieni abbonamenti clienti Keystone utilizzando l'API REST Digital Advisor</block>
   <block id="1c0706b323b25df07171d935dadca63d" category="sidebar">Scopri di più su Keystone STaaS SLO</block>
-  <block id="4996475aff4a957b37439e45da70e7da" category="sidebar">Comprendere la fatturazione</block>
-  <block id="d7343c0d20dd2babfa5f38e0b87a6939" category="sidebar">Fatturazione per configurazioni di volume specifiche</block>
   <block id="0fa78e8d7c7b076da1f9e1d3fa517845" category="doc">Modifica abbonamento non disponibile</block>
   <block id="252561ea020b2dfb8598526a78a88036" category="inline-link-macro">Ruoli di accesso Keystone nella NetApp Console</block>
   <block id="cecfedde5e4474302df84ae302547216" category="list-text">Sebbene la Console e il Digital Advisor offrano alcune funzionalità esclusive, la Console fornisce funzionalità amministrative per Keystone, consentendo di gestire gli abbonamenti e apportare le modifiche necessarie. Per saperne di più, fare riferimento a <block ref="c1ba7ab85116b0653b4bddd0a4c0ce29" category="inline-link-macro-rx"></block>.</block>
@@ -2718,4 +2668,62 @@ Ecco un esempio:</block>
   <block id="f649abbfb1fbdf6d16ef1e522e9f0b3f" category="paragraph">Dati di previsione dei consumi con tendenza al ribasso inaccurata</block>
   <block id="af9ef0b1942bfef1a3c549bcd43ad2d0" category="paragraph">Nella scheda *Andamento dei consumi*, quando l'interruttore *Previsione* è abilitato nella vista *Consumo storico*, l'utilizzo previsto della capacità mostra una tendenza al ribasso significativa e inaccurata.</block>
   <block id="9e011831a807911dc5fe5c1f934f6d23" category="section-title">27 aprile 2026</block>
+  <block id="8ebbc3a6a44524610a169b7e4db2ddbc" category="inline-link-macro">Scopri la fatturazione Keystone</block>
+  <block id="d56b56ae0720370eaf400254df6aa080" category="paragraph">Per ulteriori informazioni su come viene fatturata la capacità di picco, fare riferimento a <block ref="eebbce9749818e6938a56810fdeb360e" category="inline-link-macro-rx"></block>.</block>
+  <block id="5291334872bb2b7e5cf95536dd3a906c" category="summary">Le regole di fatturazione di Keystone variano a seconda della configurazione del volume. Questa pagina illustra la fatturazione per volumi clonati, SnapMirror destinazioni, LUN, volumi temporanei e volumi di sistema.</block>
+  <block id="6c46cb6cf0652f0fe88be3a6955c9f48" category="doc">Fatturazione Keystone per tipologie di volume specifiche</block>
+  <block id="43fffe4235f6524fab1b0a5220a42095" category="paragraph">Le regole di fatturazione di Keystone variano a seconda della configurazione del volume. Conoscere queste eccezioni consente di evitare addebiti imprevisti quando si lavora con volumi clonati, destinazioni SnapMirror, LUN o storage temporaneo.</block>
+  <block id="b590799a8ecda393e0cc7a8bf3cb312f" category="paragraph">La tabella seguente riassume le regole di fatturazione per ciascun tipo di volume.</block>
+  <block id="fc18634852d4299cd5f8c7ad55ddefbe" category="cell">Tipo di volume</block>
+  <block id="d5465dc71da8ae6290b478e8a9b6efbd" category="cell">Regola di fatturazione</block>
+  <block id="89a4805cbba8ac8682dfebf9ad53ee86" category="cell">Volumi clonati</block>
+  <block id="f4d32c0a35895df993622e02297abb90" category="cell">Fatturati secondo i volumi standard</block>
+  <block id="9a7d9f46f449dbe837214b3a986f0b69" category="cell">Volumi temporanei</block>
+  <block id="2f1ccf9fec47a742b1a8763b78424043" category="cell">Non fatturato</block>
+  <block id="792c728b27c8f25995fae4f4d472c9d7" category="cell">SnapMirror destinazioni</block>
+  <block id="8a6ca26650782126e48e5242df9030b8" category="cell">Fatturato in base al livello di servizio di prestazione della destinazione</block>
+  <block id="7b3c6a2d089eb1b6f8959e7e61a50c07" category="cell">LUN</block>
+  <block id="781546ea6acbfdd0e276e47d654c9fe5" category="cell">Fatturato in base al livello di servizio prestazionale del volume di riferimento</block>
+  <block id="74657ec129dc15f7fdb526f3f32caf32" category="cell">Monitorato ma non fatturato</block>
+  <block id="841167ec264a9aa4b443a52ea8c623d4" category="paragraph">I volumi clonati vengono fatturati come volumi standard allo stesso livello di servizio prestazionale del volume da cui sono stati clonati. Tutti i volumi clonati vengono misurati e fatturati indipendentemente dalle loro dimensioni o finalità.</block>
+  <block id="1019a6badef4a8bfc164197c487e8b15" category="summary">Con NetApp Keystone STaaS, paghi per ciò a cui ti impegni e solo un extra per ciò che utilizzi oltre tale soglia. Questa pagina spiega come funziona il modello pay-as-you-go: da come viene calcolato il tuo impegno di storage, a come la capacità viene misurata e fatturata, fino a quando vengono generate le fatture.</block>
+  <block id="218297c180a0d90e1e1e369654e41b5e" category="paragraph">Con NetApp Keystone STaaS, paghi per ciò a cui ti impegni e solo un extra per ciò che utilizzi oltre tale soglia. Questa pagina spiega come funziona il modello pay-as-you-go, inclusi i dettagli su come viene calcolato il prezzo dell’impegno di storage, come viene misurata e fatturata la capacità e quando vengono generate le fatture.</block>
+  <block id="d49c791831a337b675eb6b844e7d0282" category="section-title">Modello di prezzo Keystone</block>
+  <block id="f413046b2aeb1ac90c58e030bc21f7e0" category="paragraph">Il tuo abbonamento a Keystone ti offre costi prevedibili con la flessibilità di aumentare la scala quando i carichi di lavoro lo richiedono. I costi di Keystone si basano sul livello di servizio delle prestazioni che selezioni e sulla capacità a cui ti impegni.</block>
+  <block id="97cadce787615ab45e7a2cbe71a8b2e6" category="section-title">Come Keystone misura la capacità</block>
+  <block id="02c860922ee056a44129d3a15634ef44" category="paragraph">Keystone utilizza tre concetti di capacità per calcolare la bolletta. Conoscerli ti aiuta a evitare addebiti imprevisti.</block>
+  <block id="85ee30eb58111804ef1da0955e8714a2" category="paragraph">La capacità garantita è la capacità che accetti di acquistare per uno specifico livello di servizio delle performance quando sottoscrivi il tuo abbonamento Keystone. Tale quantità è fissa nel tuo ordine Keystone e viene fatturata per intero a ogni periodo di fatturazione, indipendentemente dalla capacità effettivamente utilizzata dai carichi di lavoro.</block>
+  <block id="f542c7ccfc94126a640cc19da250b095" category="paragraph">Ad esempio, se ti impegni per 100 TiB al livello di servizio Premium, ti verranno addebitati 100 TiB anche se l'utilizzo effettivo in quel mese è di 80 TiB.</block>
+  <block id="bb829dd0a90e99ba1c33e4d10b5b9cf3" category="paragraph">La capacità impegnata può coprire più livelli di servizio prestazionali all'interno di un singolo abbonamento, come concordato tra te e NetApp o il tuo partner.</block>
+  <block id="9326c4fa24781f1e85127f9ee25dc313" category="paragraph">Per visualizzare la capacità assegnata e monitorare l'utilizzo effettivo rispetto ad essa, consultare <block ref="fdad9ab5c825af5756df523fe50d05f9" category="inline-link-macro-rx"></block>.</block>
+  <block id="356f8759818edc449aaf3d53447c3ec0" category="paragraph">La capacità consumata è la capacità che i tuoi carichi di lavoro effettivamente utilizzano in qualsiasi momento. Keystone monitora e misura continuamente il tuo consumo durante il periodo di fatturazione. Almeno una volta ogni cinque minuti, viene generato un record di consumo che registra la capacità consumata attuale per il tuo abbonamento. Questi record vengono aggregati durante il periodo di fatturazione per generare fatture e report di utilizzo.</block>
+  <block id="42a774fc8ea2c76c7b2098da4a7dd880" category="paragraph">L'intervallo di monitoraggio di cinque minuti garantisce un tracciamento granulare, in modo che i picchi di consumo vengano rilevati e fatturati con precisione, anziché essere stimati alla fine del periodo.</block>
+  <block id="df517e2cdd66029dcf6e03987dde956e" category="paragraph">Quando la capacità consumata rimane pari o inferiore alla capacità garantita, si applica solo la tariffa prevista per la capacità garantita. Quando la capacità consumata supera la capacità garantita, si applica la tariffa a consumo.</block>
+  <block id="5d4997142b44a4ea2d29af472804405b" category="section-title">Consumo burst</block>
+  <block id="fa1dec318c98f0c3e194e411ae152b38" category="paragraph">Il consumo di picco è la capacità utilizzata in aggiunta alla capacità impegnata. Il limite di picco è determinato e specificato nel tuo accordo Keystone. Di default, è impostato al 20% in più rispetto alla capacità impegnata. È inoltre possibile scegliere limiti di capacità di picco pari al 40% o al 60% della capacità impegnata. Per ulteriori informazioni, consultare <block ref="1fd609a86fb66ce731e012e237757be4" category="inline-link-macro-rx"></block>.</block>
+  <block id="abfc6033092f587889f7cd3d56c79dfd" category="paragraph">Ad esempio, se la capacità impegnata è di 100 TiB e ne utilizzi 115 TiB, i 15 TiB extra vengono addebitati alla tariffa di picco.</block>
+  <block id="e685db8b1e3b70f793d57437410741a8" category="paragraph">Quando la capacità consumata è superiore alla capacità garantita per un determinato livello di servizio delle prestazioni, il consumo di picco viene registrato e addebitato di conseguenza. L'utilizzo che supera il limite di capacità di picco viene segnalato come "Superiore al limite di picco".</block>
+  <block id="4fef50059abaef46c09267986c9f7b05" category="paragraph">Il consumo di picco viene calcolato per ogni record di consumo generato durante il periodo di fatturazione. Riflette sia la quantità sia la durata della capacità consumata in eccesso rispetto alla capacità garantita. Per visualizzare l’andamento del consumo di picco per il tuo abbonamento, consulta <block ref="d40818e721dbdfb8ef017a3c524d1def" category="inline-link-macro-rx"></block>.</block>
+  <block id="6ccc68c5f6ca138e6a78ab2897504207" category="paragraph">La frequenza di fatturazione è definita nel tuo accordo Keystone. La tabella seguente mostra quando aspettarsi le fatture per la capacità impegnata e per i picchi di utilizzo per ciascuna opzione.</block>
+  <block id="e012b96d751c9b601ee6357fc4fc2f75" category="cell">Frequenza di fatturazione</block>
+  <block id="f666f601bec424b7452350a97f2b779e" category="cell">Fattura per capacità impegnata</block>
+  <block id="beaf4024231dad57720731d0d6e3426e" category="cell">Fattura per utilizzo a raffica</block>
+  <block id="9030e39f00132d583da4122532e509e9" category="cell">Mensile</block>
+  <block id="96cffdcf52ce27b2182f8b08d8bf218b" category="cell">Inviato il mese successivo</block>
+  <block id="a16345c21c84c29193e0bdd5e794920b" category="cell">Incluso nella stessa fattura</block>
+  <block id="be92c62702dcec6751c101b5adb0ce3b" category="cell">Trimestrale</block>
+  <block id="fe2bd72404c48a3af8f23edf96a65542" category="cell">Inviato all'inizio di ogni trimestre</block>
+  <block id="129b210c38d479a495655af87cce998d" category="cell">Inviato alla fine di ogni trimestre</block>
+  <block id="e4811935d78750f8eaaaaef048b51767" category="cell">Semestrale</block>
+  <block id="4050e6011b9b274c14843df3812e7b18" category="cell">Inviato all'inizio di ogni periodo di 6 mesi</block>
+  <block id="10b34207c4ef4df0cf0d0cf792e61bf9" category="cell">Annualmente</block>
+  <block id="8cdcc6a939774d249ba9e7fc1a474221" category="cell">Inviato all'inizio di ogni anno di abbonamento</block>
+  <block id="e58e313ba5be45646dd4653a5b2eba18" category="admonition">Per la fatturazione trimestrale, semestrale e annuale, se la capacità garantita cambia durante il periodo di abbonamento, verrà inviata una fattura lo stesso giorno per i pagamenti minimi proporzionali per il resto di quell'anno di abbonamento. La fatturazione viene calcolata a partire dal giorno in cui la variazione della capacità garantita diventa effettiva.</block>
+  <block id="30f60d67f457bb040dffde52197a54da" category="section-title">Informazioni correlate</block>
+  <block id="1fd609a86fb66ce731e012e237757be4" category="list-text"><block ref="1fd609a86fb66ce731e012e237757be4" category="inline-link-macro-rx"></block></block>
+  <block id="09e174918a2a6089d8327dd34ceafbb1" category="sidebar">Come Keystone misura la capacità?</block>
+  <block id="3679634ac4d56686ec17bf3b53f67247" category="sidebar">Che cos'è la capacità impegnata?</block>
+  <block id="e6ff8f3b83ecc7de79998d1038e44b10" category="sidebar">Cosa succede se supero la mia capacità impegnata?</block>
+  <block id="8c4d76fa92f09a8376865002414752f9" category="sidebar">Quando vengono generate le fatture?</block>
+  <block id="58738d2f8ee7ea1370382ef241eb44f2" category="sidebar">Comprendere la fatturazione Keystone</block>
 </blocks>

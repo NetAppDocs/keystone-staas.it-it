@@ -49,14 +49,14 @@ indexpage:
     links:
     - title: Scopri i prezzi Keystone
       url: "/concepts/pricing.html"
-    - title: Le mie pianificazioni di fatturazione
-      url: "/concepts/billing-schedules.html"
-    - title: Fatturazione basata sulla capacità impegnata
-      url: "/concepts/committed-capacity-billing.html"
-    - title: Misurazione basata sulla capacità consumata
-      url: "/concepts/consumed-capacity-billing.html"
-    - title: Cosa succede se ho consumato più della mia capacità impegnata?
-      url: "/concepts/burst-consumption-billing.html"
+    - title: Come Keystone misura la capacità?
+      url: "/concepts/pricing.html#how-keystone-measures-capacity"
+    - title: Che cos'è la capacità impegnata?
+      url: "/concepts/pricing.html#committed-capacity"
+    - title: Cosa succede se supero la mia capacità impegnata?
+      url: "/concepts/pricing.html#burst-consumption"
+    - title: Quando vengono generate le fatture?
+      url: "/concepts/pricing.html#billing-schedules"
   - title: Fai di più con i servizi Keystone
     links:
     - title: Scopri di più sul tuo team di supporto
