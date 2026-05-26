@@ -26,13 +26,13 @@ Verrai reindirizzato alla scheda *Consumo attuale*.
 
 . Selezionare la scheda *Cronologia abbonamenti*.
 +
-image:bxp-subscription-timeline-graph.png["uno screenshot per mostrare la cronologia degli abbonamenti in un formato grafico a linee insieme agli eventi importanti"]
+image:console-subscription-timeline-graph.png["uno screenshot per mostrare la cronologia degli abbonamenti in un formato grafico a linee insieme agli eventi importanti"]
 
 +
-Per impostazione predefinita, la cronologia degli abbonamenti viene visualizzata come un grafico a linee, con icone che contrassegnano gli eventi importanti. Passa il mouse su un evento per visualizzarne i dettagli, tra cui la data e le modifiche alla capacità impegnata. Per visualizzare questi eventi in una tabella, seleziona l'opzione *Tabella* dal menu a discesa *Visualizza come*. Per visualizzare altre cronologie di abbonamento, seleziona o cerca dal menu a discesa *ID di monitoraggio*.
+La cronologia dell'abbonamento viene visualizzata per impostazione predefinita come un grafico a linee, con icone che contrassegnano gli eventi importanti. Quando si verificano più aggiornamenti dell'abbonamento di diverso tipo nello stesso giorno, il grafico visualizza un numero anziché icone separate. Passando il mouse sul numero, è possibile visualizzare tutti i tipi di aggiornamento che si sono verificati in quel giorno, oppure su un'icona di evento per visualizzare dettagli come la data e le modifiche alla capacità impegnata. Per visualizzare questi eventi in una tabella, selezionare l'opzione *Table* dal menu a tendina *View as*. Per visualizzare altre cronologie di abbonamento, selezionare o cercare dal menu a tendina *Tracking ID*.
 
 +
-image:bxp-subscription-timeline.png["uno screenshot per mostrare la cronologia degli abbonamenti in un formato grafico a tabella insieme agli eventi importanti"]
+image:console-subscription-timeline.png["uno screenshot per mostrare la cronologia degli abbonamenti in un formato grafico a tabella insieme agli eventi importanti"]
 
 
 
