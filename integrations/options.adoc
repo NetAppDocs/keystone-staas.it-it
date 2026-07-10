@@ -18,6 +18,7 @@ Puoi cercare e filtrare i tuoi dati, generare report per abbonamenti e utilizzo 
 
 
 
+[[search-and-filter-data-from-netapp-console]]
 == Cerca e filtra i dati dalla console NetApp
 
 Nella Console è possibile cercare e filtrare i dati Keystone in base ai parametri di colonna disponibili nella tabella all'interno di una scheda. Ad esempio, nella scheda *Abbonamenti* nella pagina *Abbonamenti*, è possibile filtrare i dati inserendo la versione Keystone nella casella di ricerca. Allo stesso modo, nella scheda *Volumi nei cluster* nella pagina *Risorse*, è ​​possibile filtrare i volumi inserendo il nome del volume nella casella di ricerca.
@@ -26,6 +27,7 @@ Puoi perfezionare le tue ricerche utilizzando l'opzione di filtro avanzato, ove 
 
 
 
+[[generate-reports-from-netapp-console-or-digital-advisor]]
 == Genera report da NetApp Console o Digital Advisor
 
 Puoi generare e visualizzare report per i tuoi dati Keystone utilizzando il pulsante di downloadimage:bluexp-download-report-2.png["icona di download del report 2 nella Console"] disponibile nelle schede all'interno della Console o Digital Advisor. Queste schede consentono di generare report per abbonamenti, utilizzo storico, utilizzo burst, prestazioni, risorse, volumi e oggetti.
@@ -34,6 +36,7 @@ I dettagli vengono generati in formato CSV, che è possibile salvare per uso e c
 
 
 
+[[generate-consolidated-report-from-digital-advisor]]
 == Genera un report consolidato da Digital Advisor
 
 In Digital Advisor puoi generare e visualizzare un report consolidato per i tuoi abbonamenti, l'utilizzo storico, l'utilizzo a raffica, le prestazioni, le risorse, i volumi e gli oggetti. A tale scopo, selezionare *Sottoscrizioni Keystone* come tipo di report dalla funzione Report di Digital Advisor. È possibile generare questi report a livello di cliente, cluster, watchlist o abbonamento.

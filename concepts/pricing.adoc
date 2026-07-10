@@ -18,6 +18,7 @@ Con NetApp Keystone STaaS, paghi per ciò a cui ti impegni e solo un extra per c
 
 
 
+[[keystone-pricing-model]]
 == Modello di prezzo Keystone
 
 Il tuo abbonamento a Keystone ti offre costi prevedibili con la flessibilità di aumentare la scala quando i carichi di lavoro lo richiedono. I costi di Keystone si basano sul livello di servizio delle prestazioni che selezioni e sulla capacità a cui ti impegni.
@@ -36,12 +37,14 @@ Per informazioni sulle diverse capacità supportate in Keystone, vedere link:../
 
 
 
+[[how-keystone-measures-capacity]]
 == Come Keystone misura la capacità
 
 Keystone utilizza tre concetti di capacità per calcolare la bolletta. Conoscerli ti aiuta a evitare addebiti imprevisti.
 
 
 
+[[committed-capacity]]
 === Capacità impegnata
 
 La capacità garantita è la capacità che accetti di acquistare per uno specifico livello di servizio delle performance quando sottoscrivi il tuo abbonamento Keystone. Tale quantità è fissa nel tuo ordine Keystone e viene fatturata per intero a ogni periodo di fatturazione, indipendentemente dalla capacità effettivamente utilizzata dai carichi di lavoro.
@@ -54,6 +57,7 @@ Per visualizzare la capacità assegnata e monitorare l'utilizzo effettivo rispet
 
 
 
+[[consumed-capacity]]
 === Capacità consumata
 
 La capacità consumata è la capacità che i tuoi carichi di lavoro effettivamente utilizzano in qualsiasi momento. Keystone monitora e misura continuamente il tuo consumo durante il periodo di fatturazione. Almeno una volta ogni cinque minuti, viene generato un record di consumo che registra la capacità consumata attuale per il tuo abbonamento. Questi record vengono aggregati durante il periodo di fatturazione per generare fatture e report di utilizzo.
@@ -64,6 +68,7 @@ Quando la capacità consumata rimane pari o inferiore alla capacità garantita, 
 
 
 
+[[burst-consumption]]
 === Consumo burst
 
 Il consumo di picco è la capacità utilizzata in aggiunta alla capacità impegnata. Il limite di picco è determinato e specificato nel tuo accordo Keystone. Di default, è impostato al 20% in più rispetto alla capacità impegnata. È inoltre possibile scegliere limiti di capacità di picco pari al 40% o al 60% della capacità impegnata. Per ulteriori informazioni, consultare link:../concepts/burst-capacity.html["Opzioni di capacità di burst"].
@@ -76,6 +81,7 @@ Il consumo di picco viene calcolato per ogni record di consumo generato durante 
 
 
 
+[[billing-schedules]]
 == Pianificazioni di fatturazione
 
 La frequenza di fatturazione è definita nel tuo accordo Keystone. La tabella seguente mostra quando aspettarsi le fatture per la capacità impegnata e per i picchi di utilizzo per ciascuna opzione.
@@ -101,6 +107,7 @@ NOTE: Per la fatturazione trimestrale, semestrale e annuale, se la capacità gar
 
 
 
+[[related-information]]
 == Informazioni correlate
 
 * link:../concepts/supported-storage-capacity.html["Tipi di capacità di archiviazione in Keystone"]

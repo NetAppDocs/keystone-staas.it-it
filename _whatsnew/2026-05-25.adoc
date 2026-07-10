@@ -6,6 +6,7 @@ Nuovi miglioramenti nella dashboard Keystone nella NetApp Console:
 
 
 
+[[improved-display-of-multiple-updates-on-the-same-day-in-the-subscription-timeline]]
 === Visualizzazione migliorata di più aggiornamenti nello stesso giorno nella cronologia dell'abbonamento
 
-Il grafico della cronologia degli abbonamenti ora mostra un numero quando si verificano più aggiornamenti di abbonamento di diverso tipo nello stesso giorno, anziché icone separate. Passando il mouse sul numero, è possibile visualizzare tutti i tipi di aggiornamento per quel giorno. Il report scaricato include una riga separata per ogni aggiornamento, fornendo un registro completo di tutte le modifiche. Per ulteriori informazioni, consultare link:./integrations/subscription-timeline.html["Visualizza la cronologia dei tuoi abbonamenti Keystone"].
+Il grafico della cronologia degli abbonamenti ora mostra un numero quando si verificano più aggiornamenti di abbonamento di diverso tipo nello stesso giorno, anziché icone separate. Passando il mouse sul numero, è possibile visualizzare tutti i tipi di aggiornamento per quel giorno. Il report scaricato include una riga separata per ogni aggiornamento, fornendo un registro completo di tutte le modifiche. Per ulteriori informazioni, consultare https://docs.netapp.com/us-en/keystone-staas/integrations/subscription-timeline.html["Visualizza la cronologia dei tuoi abbonamenti Keystone"].

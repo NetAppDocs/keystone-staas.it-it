@@ -18,6 +18,7 @@ L'obiettivo di livello di servizio di disponibilità (SLO) punta a una disponibi
 
 
 
+[[metrics]]
 == Metriche
 
 * *Percentuale di uptime mensile* = [(numero di secondi idonei in un mese - numero di secondi di indisponibilità del servizio per un PSLI in quel mese) / numero di secondi idonei in un mese] x 100%
@@ -27,6 +28,7 @@ L'obiettivo di livello di servizio di disponibilità (SLO) punta a una disponibi
 
 
 
+[[service-credits]]
 == Crediti di servizio
 
 
@@ -67,6 +69,7 @@ Se la disponibilità degli storage array flash ONTAP per gli abbonamenti idonei 
 |===
 
 
+[[service-credit-calculation]]
 === Calcolo del credito di servizio
 
 I crediti di servizio vengono determinati utilizzando la seguente formula:
@@ -119,6 +122,7 @@ In base ai calcoli, il credito di servizio è di $5.
 
 
 
+[[service-credit-request]]
 === Richiesta di credito di assistenza
 
 Se viene rilevata una violazione dello SLA, aprire un ticket di assistenza con priorità 3 (P3) con l'assistenza NetApp Keystone.

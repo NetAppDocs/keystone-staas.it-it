@@ -18,6 +18,7 @@ Keystone raccoglie informazioni su configurazione, stato e utilizzo dagli abbona
 
 
 
+[[ontap-data-collection]]
 == Raccolta di dati ONTAP
 
 .<strong> - dati raccolti per ONTAP: Scopri la tecnologia </strong>
@@ -325,6 +326,7 @@ Quando l'opzione *Rimuovi dati privati* è attivata in Keystone Collector, le se
 ====
 
 
+[[storagegrid-data-collection]]
 == Raccolta di dati StorageGRID
 
 .<strong> - dati raccolti per StorageGRID: Scopri la tecnologia </strong>
@@ -372,6 +374,7 @@ Quando l'opzione *Rimuovi dati privati* è attivata in Keystone Collector, le se
 ====
 
 
+[[telemetry-data-collection]]
 == Raccolta dati di telemetria
 
 .<strong>Dati di telemetria raccolti dalla VM Keystone Collector: Scopri di più</strong>

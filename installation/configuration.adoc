@@ -55,6 +55,7 @@ summary: Configurazione completa per abilitare Keystone Collector per raccoglier
 
 
 
+[[configure-http-proxy-on-keystone-collector]]
 == Configurare il proxy HTTP su Keystone Collector
 
 Il software Collector supporta l'utilizzo di un proxy HTTP per comunicare con Internet. Questa opzione può essere configurata nell'interfaccia telefonica utente (TUI).
@@ -68,6 +69,7 @@ Il software Collector supporta l'utilizzo di un proxy HTTP per comunicare con In
 
 
 
+[[limit-collection-of-private-data]]
 == Limita la raccolta di dati privati
 
 Keystone Collector raccoglie informazioni limitate relative a configurazione, stato e performance per eseguire la misurazione delle iscrizioni. È possibile limitare ulteriormente le informazioni raccolte mascherando le informazioni sensibili dal contenuto caricato. Ciò non influisce sul calcolo della fatturazione. Tuttavia, la limitazione delle informazioni potrebbe influire sull'usabilità delle informazioni di reporting, poiché alcuni elementi, facilmente identificabili dagli utenti, come il nome del volume, vengono sostituiti con UUID.
@@ -80,6 +82,7 @@ Per informazioni sugli elementi rimossi per limitare l'accesso privato ai dati i
 
 
 
+[[trust-a-custom-root-ca]]
 == Considerare attendibile una CA principale personalizzata
 
 La verifica dei certificati rispetto a un'autorità di certificazione pubblica di origine (CA) fa parte delle funzionalità di protezione di Keystone Collector. Tuttavia, se necessario, è possibile configurare Keystone Collector in modo che consideri attendibile una CA principale personalizzata.
@@ -111,6 +114,7 @@ image:kc-custom-ca.png["Schermata TUI per la personalizzazione della CA"]
 
 
 
+[[create-performance-service-levels]]
 == Crea livelli di servizio delle performance
 
 È possibile creare livelli di servizio delle prestazioni (PSL) utilizzando l'utilità TUI di gestione Keystone Collector. La creazione di PSL tramite TUI seleziona automaticamente i valori predefiniti impostati per ciascun livello di servizio delle prestazioni, riducendo la possibilità di errori che potrebbero verificarsi quando si impostano manualmente questi valori durante la creazione di PSL tramite Active IQ Unified Manager.

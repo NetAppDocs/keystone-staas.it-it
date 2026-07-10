@@ -25,6 +25,7 @@ Il funzionamento di Keystone Collector si basa sui seguenti principi di sicurezz
 
 
 
+[[security-hardening]]
 == Protezione avanzata
 
 Per impostazione predefinita, Keystone Collector è configurato per l'utilizzo di configurazioni ottimizzate per la sicurezza. Di seguito sono riportate le configurazioni di protezione consigliate:

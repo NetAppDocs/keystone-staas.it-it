@@ -18,6 +18,7 @@ L'implementazione di Keystone Collector su sistemi VMware vSphere include il dow
 
 
 
+[[deploying-the-ova-template]]
 == Implementazione del modello OVA
 
 Attenersi alla seguente procedura:
@@ -59,6 +60,7 @@ Una volta implementata la macchina virtuale dal modello e accesa, aprire una ses
 
 
 
+[[initial-system-configuration]]
 == Configurazione iniziale del sistema
 
 Eseguire questi passaggi sui sistemi VMware vSphere per una configurazione iniziale dei server Keystone Collector implementati tramite OVA:

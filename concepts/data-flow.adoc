@@ -18,6 +18,7 @@ I dati nei sistemi Keystone STaaS passano attraverso Keystone Collector e la sol
 
 
 
+[[keystone-collector-data-flow]]
 == Flusso di dati di Keystone Collector
 
 Keystone Collector avvia le chiamate API REST ai controller di storage e ottiene periodicamente i dettagli di utilizzo dei controller, come indicato nel seguente diagramma di flusso:
@@ -33,6 +34,7 @@ image:data-collector-flow.png["mostra il flusso di dati all'interno dei componen
 
 
 
+[[monitoring-data-flows]]
 == Monitoraggio dei flussi di dati
 
 Il monitoraggio continuo dello stato dell'infrastruttura storage è una delle funzionalità più importanti del servizio Keystone. Per il monitoring e il reporting, Keystone utilizza la soluzione di monitoraggio ITOM. L'immagine seguente descrive come l'accesso remoto alla posizione del cliente è protetto dalla soluzione di monitoraggio ITOM. I clienti possono scegliere di attivare la funzione di sessione remota, che consente al team di supporto Keystone di connettersi ai dispositivi monitorati per la risoluzione dei problemi.
@@ -50,6 +52,7 @@ image:monitoring-flow-2.png["flusso di dati"]
 
 
 
+[[compliance-standards]]
 == Standard di conformità
 
 La soluzione di monitoring Keystone ITOM è conforme al GDPR (General Data Protection Regulation) dell'Unione europea e al CCPA (California Consumer Privacy Act). Essa prevede inoltre una link:https://www.logicmonitor.com/legal/data-processing-addendum["Appendice sulla protezione dei dati (DPA)"^] per documentare tali impegni. La soluzione di monitoraggio ITOM non raccoglie né memorizza dati personali.

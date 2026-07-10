@@ -18,6 +18,7 @@ I requisiti minimi di capacità e gli incrementi incrementali per i livelli di s
 
 
 
+[[minimum-capacity-requirements-for-unified-and-block-optimized-storage]]
 == Requisiti minimi di capacità per l'archiviazione unificata e ottimizzata a blocchi
 
 Nelle tabelle seguenti puoi vedere la capacità minima e incrementale consentita per abbonamento per l'archiviazione unificata e ottimizzata a blocchi:
@@ -70,6 +71,7 @@ La capacità minima per ogni livello di servizio prestazionale è la stessa per 
 
 
 
+[[minimum-capacity-requirements-for-afx-storage]]
 == Requisiti minimi di capacità per lo storage AFX
 
 Nella tabella seguente è possibile visualizzare i requisiti minimi di capacità per lo storage AFX:
@@ -99,6 +101,7 @@ NOTE: Per lo storage AFX, la capacità viene allocata e misurata a livello di cl
 
 
 
+[[minimum-capacity-requirements-for-object-storage]]
 == Requisiti minimi di capacità per lo storage a oggetti
 
 Nella tabella seguente sono riportati i requisiti minimi di capacità per lo storage a oggetti:
@@ -125,6 +128,7 @@ Capacità incrementale (e in multipli) consentita come add-on durante l'abboname
 |===
 
 
+[[minimum-capacity-requirements-for-cloud-services]]
 == Requisiti minimi di capacità per i servizi cloud
 
 Nella tabella seguente puoi vedere i requisiti minimi di capacità per i servizi cloud:
@@ -151,6 +155,7 @@ Capacità incrementale (e in multipli) consentita come add-on durante l'abboname
 |===
 
 
+[[capacity-adjustments]]
 == Regolazioni della capacità
 
 Comunica tempestivamente a NetApp qualsiasi modifica pianificata alla capacità per consentire la pianificazione e l'implementazione. Le seguenti condizioni si applicano a tutte le modifiche di capacità:
@@ -164,6 +169,7 @@ Comunica tempestivamente a NetApp qualsiasi modifica pianificata alla capacità 
 
 
 
+[[capacity-reduction]]
 === Riduzione della capacità
 
 La riduzione del requisito di capacità si applica esclusivamente al modello di pagamento _Annual in Advance_ e alle implementazioni Keystone on-premises. È richiesto un termine di abbonamento minimo di 24 mesi per essere idonei. I servizi cloud e le implementazioni di cloud storage ibrido non sono idonei per la riduzione del requisito di capacità.
@@ -192,6 +198,7 @@ In questo esempio, la capacità iniziale impegnata è di 300 TiB (pagamento annu
 
 
 
+[[quarterly-spend-reallocation]]
 === Riallocazione della spesa trimestrale
 
 La riallocazione della spesa trimestrale è disponibile solo per i servizi cloud ibridi. Consente di riallocare la spesa per i servizi on-premises alla spesa per i servizi cloud su base trimestrale. Non è consentita la riallocazione dai servizi cloud ai servizi on-premises.

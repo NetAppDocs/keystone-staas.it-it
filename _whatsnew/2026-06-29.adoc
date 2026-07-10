@@ -6,24 +6,28 @@ Nuovi miglioramenti nella dashboard Keystone nella NetApp Console:
 
 
 
+[[view-adp-license-distribution-for-metrocluster-subscriptions]]
 === Visualizza la distribuzione delle licenze ADP per gli abbonamenti MetroCluster
 
-È ora disponibile una nuova sottoscheda *Distribuzione licenze* nella scheda *Protezione dati avanzata (ADP)*, che ti permette di vedere l'utilizzo delle licenze ADP nei cluster partner MetroCluster. Per saperne di più, consulta link:./integrations/adp-tab.html["Visualizza il consumo e lo stato delle tue sottoscrizioni Keystone MetroCluster"].
+È ora disponibile una nuova sottoscheda *Distribuzione licenze* nella scheda *Protezione dati avanzata (ADP)*, che ti permette di vedere l'utilizzo delle licenze ADP nei cluster partner MetroCluster. Per ulteriori informazioni, consultare https://docs.netapp.com/us-en/keystone-staas/integrations/adp-tab.html["Visualizza il consumo e lo stato delle tue sottoscrizioni Keystone MetroCluster"].
 
 
 
+[[view-ransomware-protection-status-for-your-volumes]]
 === Visualizza lo stato della protezione anti-ransomware per i tuoi volumi
 
-La scheda *Volumi nei cluster* in *Risorse* ora include una colonna *Stato ARP* che mostra se la protezione autonoma contro i ransomware (ARP) è abilitata o disabilitata per ciascun volume, offrendoti visibilità sullo stato della tua protezione contro i ransomware su tutte le risorse gestite. Per ulteriori informazioni su ARP, consulta link:https://docs.netapp.com/us-en/ontap/anti-ransomware/["Protezione autonoma contro i ransomware (ARP) in ONTAP"].
+La scheda *Volumi nei cluster* in *Risorse* ora include una colonna *Stato ARP* che mostra se la protezione autonoma contro i ransomware (ARP) è abilitata o disabilitata per ciascun volume, offrendoti visibilità sullo stato della tua protezione contro i ransomware su tutte le risorse gestite. Per saperne di più su ARP, consulta  https://docs.netapp.com/us-en/ontap/anti-ransomware/["Protezione autonoma contro i ransomware (ARP) in ONTAP"^].
 
 
 
+[[share-feedback-using-the-feedback-tab]]
 === Invia feedback usando la scheda Feedback
 
 Ora puoi fornire feedback da qualsiasi schermata della dashboard di Keystone utilizzando la nuova scheda *Feedback*, ancorata al bordo inferiore destro dello schermo. Cliccandoci sopra si apre un pannello in cui puoi condividere la tua esperienza e inviare commenti direttamente a NetApp.
 
 
 
+[[improve-alerting-for-capacity-usage-and-subscription-expiration]]
 === Migliora le notifiche relative all'utilizzo della capacità e alla scadenza degli abbonamenti
 
 I monitor generati dal sistema ora forniscono avvisi più dettagliati sull'utilizzo della capacità e sulla scadenza degli abbonamenti.
@@ -32,4 +36,4 @@ Per la scadenza dell'abbonamento, gli avvisi ora vengono attivati a cinque sogli
 
 Per quanto riguarda l'utilizzo della capacità, la soglia di avviso per i picchi ora si basa sulla percentuale di picco garantito del tuo abbonamento invece che su un valore fisso del 20%. Ad esempio, se il tuo picco garantito è del 40%, l'avviso critico si attiva al 140% dell'utilizzo della capacità garantita.
 
-Per saperne di più, consulta link:./integrations/monitoring-alert-monitors.html["Visualizza e crea monitor di avviso per gli abbonamenti Keystone"].
+Per ulteriori informazioni, consultare https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alert-monitors.html["Visualizza e crea monitor di avviso per gli abbonamenti Keystone"].

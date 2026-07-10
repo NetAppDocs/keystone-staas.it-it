@@ -18,12 +18,14 @@ Keystone STaaS utilizza diversi termini relativi alla capacità per misurare, im
 
 
 
+[[logical-capacity]]
 == Capacità logica
 
 Si tratta della quantità di capacità di archiviazione richiesta per archiviare i dati utente prima che vengano applicate le efficienze dei dati fornite dall'array di archiviazione.
 
 
 
+[[committed-capacity]]
 == Capacità impegnata
 
 La capacità logica minima fatturata ogni mese durante l'abbonamento:
@@ -34,12 +36,14 @@ La capacità logica minima fatturata ogni mese durante l'abbonamento:
 
 
 
+[[changes-to-committed-capacity]]
 === Modifiche alla capacità impegnata
 
 Durante un abbonamento, è possibile modificare le capacità impegnate, a determinate condizioni. Per dettagli completi sulle regole di aumento e diminuzione della capacità, vedere link:../concepts/capacity-requirements.html["Requisiti di capacità per i livelli di servizio delle prestazioni Keystone"]. Per richiedere una modifica, contattare il proprio Keystone Success Manager (KSM) o link:../concepts/support-services.html["NetApp supporto"].
 
 
 
+[[consumed-capacity]]
 == Capacità consumata
 
 La capacità consumata si riferisce alla capacità (in TiB di storage) attualmente utilizzata dal servizio. Il calcolo varia a seconda del tipo di storage dati:
@@ -75,6 +79,7 @@ La capacità consumata si riferisce alla capacità (in TiB di storage) attualmen
 
 
 
+[[burst-capacity]]
 == Capacità di burst
 
 Il servizio NetApp Keystone STaaS consente di utilizzare capacità aggiuntiva oltre a quella impegnata per un livello di servizio di performance. Questo è definito utilizzo di capacità burst.
@@ -88,6 +93,7 @@ Prendere nota di questi punti:
 
 
 
+[[billed-capacity]]
 == Capacità fatturata
 
 Bolletta mensile = (capacità impegnata [TIB] * tasso impegnato [ USD/TIB]) + (capacità burst media giornaliera [TIB] * tasso burst [ USD/TIB]). La fattura mensile contiene un costo minimo in base alla capacità impegnata.

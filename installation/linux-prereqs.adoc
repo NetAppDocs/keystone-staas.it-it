@@ -50,12 +50,14 @@ NOTE: Solo i pacchetti di terze parti elencati sopra sono supportati su Keystone
 
 
 
+[[other-requirements]]
 == Altri requisiti
 
 Assicurarsi che siano soddisfatti i seguenti requisiti generici:
 
 
 
+[[networking-requirements]]
 === Requisiti di rete
 
 I requisiti di rete di Keystone Collector sono elencati nella seguente tabella.
@@ -223,6 +225,7 @@ NOTE: La porta predefinita per MySQL, 3306, è limitata solo all'host locale dur
 
 
 
+[[url-access]]
 === Accesso all'URL
 
 Keystone Collector deve accedere ai seguenti host Internet:

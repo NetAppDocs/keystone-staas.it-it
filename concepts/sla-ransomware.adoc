@@ -18,12 +18,14 @@ NetApp garantisce il recovery dei dati Snapshot dai volumi di conformità SnapLo
 
 
 
+[[service-levels]]
 == Livelli di servizio
 
 Il servizio ransomware Recovery Assurance è necessario per tutti gli hardware che supportano l'iscrizione Keystone per la durata dell'iscrizione applicabile.
 
 
 
+[[service-credits]]
 == Crediti di servizio
 
 

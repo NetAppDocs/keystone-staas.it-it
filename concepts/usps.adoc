@@ -20,24 +20,28 @@ Leggi le seguenti sezioni per capire quali elementi degli abbonamenti sono vinco
 
 
 
+[[netapp-usps-monitoring]]
 == Monitoraggio USPS NetApp
 
 Il team di supporto NetApp USPS Keystone monitora la salute dei tuoi prodotti e dei servizi sottoscritti, fornisce supporto remoto e collabora con il tuo Keystone Success Manager. Tutto il personale che monitora i prodotti associati ai relativi ordini di abbonamento Keystone è U. S cittadini che operano sul suolo degli Stati Uniti.
 
 
 
+[[keystone-success-manager]]
 == Keystone Success Manager
 
 Il Keystone Success Manager (KSM) è un Cittadino che opera negli Stati Uniti suolo. Le loro responsabilità sono specificate nel Contratto NetApp Keystone.
 
 
 
+[[deployment-activities]]
 == Attività di implementazione
 
 Se disponibili, le attività di installazione e implementazione in sede e in remoto sono condotte da U.S. Cittadini negli Stati Uniti suolo. Nota a piè di pagina:esclusione di responsabilità[la disponibilità del personale appropriato per le attività in loco dipende dall'ubicazione geografica in cui vengono distribuiti i sistemi Keystone.]
 
 
 
+[[support]]
 == Supporto
 
 Se disponibili, le attività di risoluzione dei problemi e supporto in loco necessarie sono condotte da U.S. Cittadini negli Stati Uniti suolo. nota a piè di pagina:disclaimer[]

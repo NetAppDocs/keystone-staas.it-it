@@ -20,6 +20,7 @@ Per ulteriori informazioni su Data Infrastructure Insights, fare riferimento a l
 
 
 
+[[about-dii-for-keystone-subscriptions]]
 == Informazioni su DII per gli abbonamenti Keystone
 
 DII è disponibile sia per gli abbonamenti nuovi che per quelli esistenti. Può essere integrato in un abbonamento Keystone come componente aggiuntivo per la capacità impegnata.
@@ -28,6 +29,7 @@ Quando DII è integrato in un abbonamento Keystone, avrà un livello di servizio
 
 
 
+[[deployment-of-dii-for-keystone]]
 == Implementazione di DII per Keystone
 
 I clienti possono integrare DII per Keystone in due modi: Sia come parte di un'istanza esistente che monitora altri ambienti non Keystone, sia come parte di una nuova istanza. È responsabilità del cliente impostare il DII. Se è necessaria assistenza per configurare DII in un ambiente complesso, il team account può coinvolgere link:https://www.netapp.com/services/["Servizi professionali NetApp"^].
@@ -62,6 +64,7 @@ NOTE: Sebbene DII offra ampie funzionalità di monitoraggio per l'hardware distr
 
 
 
+[[view-dii-consumption]]
 == Visualizza il consumo DII
 
 Puoi visualizzare il consumo dei tuoi servizi aggiuntivi DII tramite la NetApp Console o Digital Advisor. I dati sul consumo per i livelli di servizio DII Performance (come DII Extreme, DII Premium e DII Performance) vengono visualizzati insieme ai livelli di servizio di base nelle viste di consumo attuale e trend di consumo.
@@ -82,6 +85,7 @@ Per ulteriori informazioni sulla visualizzazione del consumo, vedere:
 
 
 
+[[billing-and-metering]]
 == Fatturazione e misurazione
 
 Di seguito sono illustrati i dettagli relativi alla fatturazione e alla misurazione del servizio aggiuntivo DII:
@@ -94,6 +98,7 @@ Di seguito sono illustrati i dettagli relativi alla fatturazione e alla misurazi
 
 
 
+[[support-and-user-access]]
 == Supporto e accesso degli utenti
 
 I membri del team di supporto NetApp approvati possono accedere all'istanza DII del cliente se il cliente abilita l'opzione *Consenti accesso NetApp all'ambiente di approfondimento sull'infrastruttura dati*. A tale scopo, accedere a *Guida > supporto* e attivare l'opzione.

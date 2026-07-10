@@ -25,6 +25,7 @@ Il servizio avanzato di protezione dati Keystone può sincronamente mirroring da
 
 
 
+[[understand-pricing]]
 == Comprendere i prezzi
 
 Il servizio aggiuntivo di protezione avanzata dei dati viene tariffato in base alla capacità impegnata in ciascun sito. I costi aggiuntivi si applicano a tutte le capacità incluse nell'abbonamento, inclusi i dati sorgente, le copie mirrorate e i dati non mirrorati.
@@ -40,6 +41,7 @@ Tenere presente quanto segue:
 
 
 
+[[supported-metrocluster-configurations]]
 == Configurazioni MetroCluster supportate
 
 Keystone supporta i seguenti scenari di distribuzione MetroCluster:

@@ -6,6 +6,7 @@ Nuovi miglioramenti nella dashboard Keystone nella NetApp Console:
 
 
 
+[[renamed-accrued-burst-capacity-label]]
 === Etichetta di capacità di burst accumulata rinominata
 
 L'etichetta *Capacità burst accumulata* viene rinominata in *Burst accumulato*.

@@ -18,6 +18,7 @@ summary: Utilizza la scheda delle risorse per visualizzare dettagli di cluster e
 
 
 
+[[view-keystone-subscription-assets-from-netapp-console]]
 == Visualizza le risorse di abbonamento Keystone dalla console NetApp
 
 La scheda *Risorse* nella pagina *Sottoscrizioni* mostra informazioni dettagliate sui volumi nei cluster, sui nodi StorageGRID e sui nodi ONTAP associati alla sottoscrizione, inclusi vari dettagli e lo stato della capacità.
@@ -106,6 +107,7 @@ TIP: È possibile personalizzare la tabella utilizzando il selettore di colonna 
 ====
 
 
+[[view-keystone-subscription-assets-from-digital-advisor]]
 == Visualizza le risorse di abbonamento Keystone da Digital Advisor
 
 La scheda *Risorse* della dashboard Keystone in Digital Advisor include due sotto-schede: *ONTAP* e *StorageGRID*. Questa scheda accumula informazioni a livello di cluster per ONTAP e informazioni a livello di griglia per StorageGRID in base alle sottoscrizioni, segregando e presentando i dati con dettagli precisi. È possibile visualizzare queste informazioni cliccando sulle rispettive sotto-schede.

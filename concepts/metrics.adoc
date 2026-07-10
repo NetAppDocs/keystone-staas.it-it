@@ -18,6 +18,7 @@ Scopri i termini chiave che Keystone STaaS utilizza per misurare e generare repo
 
 
 
+[[metrics-measurement]]
 == Misurazione delle metriche
 
 * *Misurazione della capacità in GiB, TiB e PiB*: Misurazioni della capacità di archiviazione dei dati utilizzando la base 1024 (1 GiB = 1024^3^ byte, 1 TiB = 1024^4^ byte e 1 PiB = 1024^5^ byte).

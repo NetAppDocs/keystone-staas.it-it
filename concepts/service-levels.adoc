@@ -23,6 +23,7 @@ NOTE: L'abbonamento AFX è limitato al tipo di storage AFX e attualmente offre u
 
 
 
+[[performance-service-levels-instances]]
 == istanze dei livelli di servizio delle prestazioni
 
 Un livello di servizio prestazionale (PSL) può avere più istanze, denominate istanze del livello di servizio prestazionale (PSLI), nel tuo ambiente. Ogni PSLI è un sistema storage assegnato a quel livello di servizio prestazionale, con capacità impegnata misurata per PSLI.
@@ -40,6 +41,7 @@ I livelli di servizio di base per le prestazioni dei tipi di storage dati suppor
 
 
 
+[[performance-service-levels-for-unified-storage]]
 == Livelli di servizio prestazionali per l'archiviazione unificata
 
 |===
@@ -76,6 +78,7 @@ I livelli di servizio di base per le prestazioni dei tipi di storage dati suppor
 |===
 
 
+[[performance-service-levels-for-block-optimized-storage]]
 == Livelli di servizio prestazionali per l'archiviazione ottimizzata a blocchi
 
 |===
@@ -112,6 +115,7 @@ I livelli di servizio di base per le prestazioni dei tipi di storage dati suppor
 |===
 
 
+[[performance-service-levels-for-afx-storage]]
 == Livelli di servizio prestazionali per lo storage AFX
 
 |===
@@ -155,6 +159,7 @@ I livelli di servizio di base per le prestazioni dei tipi di storage dati suppor
 ====
 
 
+[[performance-measurement-conditions-for-unified-block-optimized-and-afx-storage]]
 == Condizioni di misurazione delle prestazioni per lo storage unificato, ottimizzato a blocchi e AFX
 
 Le metriche del livello di servizio delle prestazioni di base dipendono dalle seguenti condizioni:
@@ -191,6 +196,7 @@ Le metriche del livello di servizio delle prestazioni di base dipendono dalle se
 
 
 
+[[performance-service-levels-for-object-storage]]
 == Livelli di servizio prestazionali per l'archiviazione di oggetti
 
 |===
@@ -215,6 +221,7 @@ Le metriche del livello di servizio delle prestazioni di base dipendono dalle se
 |===
 
 
+[[cloud-storage]]
 == Cloud storage
 
 |===

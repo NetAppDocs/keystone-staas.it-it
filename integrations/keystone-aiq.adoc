@@ -47,6 +47,7 @@ NOTE: Il consumo di capacità negli abbonamenti Keystone viene visualizzato in T
 
 
 
+[[search-by-keystone-watchlists]]
 == Ricerca per elenchi di controllo Keystone
 
 La watchlist è una funzionalità disponibile in Digital Advisor. Per informazioni, vedere https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html["Comprendere la lista di controllo"^]. Per informazioni sulla creazione di watchlist, consultare  https://docs.netapp.com/us-en/active-iq/task_add_watchlist.html["Creare una lista di controllo"^] .

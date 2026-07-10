@@ -42,6 +42,7 @@ NOTE: I sistemi operativi consigliati sono Debian 12, Windows Server 2016 o vers
 
 
 
+[[networking-requirements]]
 == Requisiti di rete
 
 I requisiti di rete di ITOM Collector sono elencati nella tabella seguente.

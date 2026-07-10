@@ -18,6 +18,7 @@ summary: Utilizzare la scheda Monitoraggio per visualizzare e creare monitor di 
 
 
 
+[[view-alert-monitors]]
 == Visualizza i monitor di avviso
 
 Per visualizzare i monitor di avviso, seguire questi passaggi:
@@ -38,6 +39,7 @@ NOTE: La scheda *Report* non è attualmente disponibile per gli abbonamenti Keys
 
 
 
+[[create-and-manage-alert-monitors]]
 == Creare e gestire monitor di avviso
 
 Dalla scheda *Monitoraggio avvisi* è possibile creare monitor per monitorare l'utilizzo della capacità e la scadenza degli abbonamenti.  È inoltre possibile modificare, duplicare o eliminare i monitor esistenti, a seconda delle esigenze.
@@ -137,6 +139,7 @@ Dopo l'eliminazione, gli abbonamenti collegati al monitor non riceveranno più n
 ====
 
 
+[[manage-coverage-gaps]]
 == Gestire le lacune di copertura
 
 Quando è necessario intervenire, sopra l'elenco dei monitor di avviso viene visualizzata una casella di notifica comprimibile *Completa la copertura*.  Ti aiuta a:

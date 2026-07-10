@@ -141,6 +141,7 @@ NOTE: Un grafico vuoto indica che non sono disponibili dati nell'ambiente in que
 ====
 
 
+[[accrued-burst-computation]]
 == Calcolo del burst accumulato
 
 L'utilizzo del bursting maturato per un intero mese viene calcolato come segue:
@@ -155,6 +156,7 @@ Il burst è la differenza tra la capacità consumata e la capacità impegnata. A
 
 
 
+[[view-accrued-burst]]
 == Visualizza il burst accumulato
 
 È possibile visualizzare l'utilizzo dei dati burst accumulati tramite la Console o Digital Advisor. Se si è selezionato *Accrued burst* dal menu a discesa *View* nella scheda *Consumption trend* nella Console, o l'opzione *Invoiced Accrued Burst* dalla scheda *Consumption Trend* in Digital Advisor, è possibile visualizzare l'utilizzo dei dati burst accumulati su base mensile o trimestrale, a seconda del periodo di fatturazione selezionato.
@@ -178,6 +180,7 @@ image:accr-burst-2.png["utilizzo bursting maturato su base trimestrale"]
 
 
 
+[[view-forecast-data]]
 == Visualizza i dati previsionali
 
 Nella Console, è possibile utilizzare l'interruttore *Previsione* nella scheda *Andamento dei consumi* per visualizzare l'utilizzo previsto della capacità nella vista *Consumo storico* e il picco accumulato previsto nella vista *Picco accumulato*. L'interruttore è abilitato per impostazione predefinita in entrambe le viste.
@@ -196,6 +199,7 @@ Se si prevede che il consumo superi la capacità assegnata, sul grafico compare 
 
 
 
+[[view-daily-accrued-burst-data-usage]]
 == Visualizza l'utilizzo giornaliero dei dati burst maturati
 
 È possibile visualizzare l'utilizzo giornaliero dei dati accumulati per un periodo di fatturazione mensile o trimestrale tramite la Console o il Digital Advisor. Nella Console, la tabella *Accrued burst by days* fornisce dati dettagliati, tra cui timestamp, capacità di burst impegnata, consumata e accumulata se si seleziona *Accrued burst* dal menu a discesa *View* nella scheda *Consumo trend*.

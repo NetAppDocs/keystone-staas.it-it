@@ -18,6 +18,7 @@ Quando sottoscrivi il servizio aggiuntivo di protezione dati avanzata, puoi visu
 
 
 
+[[view-metrocluster-subscriptions-consumption-and-health-status]]
 == Visualizza il consumo degli abbonamenti e lo stato di salute di MetroCluster
 
 Seguire i passaggi seguenti:

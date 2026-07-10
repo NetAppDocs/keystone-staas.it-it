@@ -4,6 +4,7 @@
 
 
 
+[[keystone-dashboard-in-bluexp]]
 === Dashboard Keystone in BlueXP
 
 Ora puoi accedere alla dashboard di Keystone direttamente da BlueXP. Questa integrazione ti offre un unico punto di monitoraggio, gestione e tracciamento di tutti i tuoi abbonamenti Keystone e degli altri servizi NetApp.

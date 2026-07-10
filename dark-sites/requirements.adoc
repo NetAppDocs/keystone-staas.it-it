@@ -18,6 +18,7 @@ Prima di installare Keystone Collector in un ambiente senza accesso a Internet, 
 
 
 
+[[requirements-for-vmware-vsphere]]
 == Requisiti di VMware vSphere
 
 * Sistema operativo: VMware vCenter Server ed ESXi 8.0 o versioni successive
@@ -28,6 +29,7 @@ Prima di installare Keystone Collector in un ambiente senza accesso a Internet, 
 
 
 
+[[requirements-for-linux]]
 == Requisiti per Linux
 
 * Sistema operativo (scegline uno):
@@ -81,6 +83,7 @@ NOTE: Solo i pacchetti di terze parti elencati sopra sono supportati su Keystone
 
 
 
+[[networking-requirements]]
 == Requisiti di rete
 
 I requisiti di rete per Keystone Collector includono quanto segue:

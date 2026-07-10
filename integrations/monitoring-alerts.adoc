@@ -20,6 +20,7 @@ Per configurare gli avvisi definiti dall'utente, fare riferimento alink:../integ
 
 
 
+[[view-alerts]]
 == Visualizza avvisi
 
 Per visualizzare gli avvisi attivi, segui questi passaggi:
@@ -44,6 +45,7 @@ TIP: È possibile personalizzare la tabella utilizzando l'icona di selezione del
 
 
 
+[[manage-alerts]]
 == Gestisci gli avvisi
 
 Dalla scheda *Avvisi* è possibile eseguire le seguenti azioni:

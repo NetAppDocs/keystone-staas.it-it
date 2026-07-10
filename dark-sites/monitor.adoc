@@ -40,6 +40,7 @@ image:cidr-list.png["cidr di rete consentiti"]
 
 
 
+[[generate-and-collect-support-bundles]]
 == Generare e raccogliere pacchetti di supporto
 
 Per risolvere i problemi con Keystone Collector, puoi collaborare con il supporto NetApp che potrebbe richiedere un file _.tar_. È possibile generare questo file tramite l'utility Keystone Collector management TUI.

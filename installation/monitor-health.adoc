@@ -38,6 +38,7 @@ NOTE: *Descrizione del problema*: Keystone Collector esegue diversi container co
 
 
 
+[[view-system-logs]]
 == Visualizzare i log di sistema
 
 È possibile visualizzare i registri di sistema di Keystone Collector per esaminare le informazioni di sistema ed eseguire la risoluzione dei problemi utilizzando tali registri. Keystone Collector utilizza il sistema di registrazione _journald_ dell'host e i log di sistema possono essere rivisti attraverso l'utility di sistema standard _journalctl_. Per esaminare i registri, è possibile utilizzare i seguenti servizi chiave:
@@ -96,6 +97,7 @@ Di seguito viene riportato un esempio di successo di un lavoro per la raccolta o
 ----
 
 
+[[generate-and-collect-support-bundles]]
 == Generare e raccogliere pacchetti di supporto
 
 L'interfaccia telefonica utente di Keystone Collector consente di generare bundle di supporto e di aggiungerli alle richieste di servizio per risolvere i problemi di supporto. Seguire questa procedura:

@@ -4,6 +4,7 @@
 
 
 
+[[enhanced-logical-usage-tracking-with-a-new-column]]
 === Monitoraggio dell'utilizzo logico migliorato con una nuova colonna
 
 È stata aggiunta una nuova colonna, Impronta totale, per migliorare il monitoraggio del consumo Keystone per i volumi FabricPool :
