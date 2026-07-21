@@ -1,0 +1,14 @@
+= Visualizza la data di scadenza dell'abbonamento e lo stato del rinnovo automatico
+:allow-uri-read: 
+
+
+Nuovi miglioramenti nella dashboard Keystone nella NetApp Console:
+
+
+
+[[view-subscription-expiry-and-auto-renewal-status]]
+=== Visualizza la data di scadenza dell'abbonamento e lo stato del rinnovo automatico
+
+Nella tabella degli abbonamenti (*Archiviazione > Keystone > Abbonamenti*), la colonna *Giorni alla scadenza dell'abbonamento* ora visualizza un'icona accanto alla data di scadenza. Il colore dell'icona indica la prossimità alla scadenza quando il rinnovo automatico è disattivato: verde (>120 giorni), arancione (91–120 giorni), rosso (<90 giorni) o grigio (scaduto). Per gli abbonamenti con rinnovo automatico attivo, viene visualizzata un'icona di rinnovo automatico che indica che l'abbonamento si rinnoverà automaticamente al termine del periodo corrente. Lo stato è di sola lettura e riflette i termini del tuo contratto. Una volta che apri un abbonamento, queste icone compaiono nell'intestazione dei dettagli dell'abbonamento nelle schede *Consumo corrente*, *Andamento del consumo*, *Cronologia dell'abbonamento* e *Risorse*, dandoti visibilità su scadenza e stato di rinnovo mentre navighi.
+
+Per ulteriori informazioni, consultare https://docs.netapp.com/us-en/keystone-staas/integrations/subscriptions-tab.html["Visualizza i dettagli sui tuoi abbonamenti Keystone"].

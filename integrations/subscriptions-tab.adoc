@@ -25,7 +25,7 @@ Per visualizzare informazioni dettagliate sui tuoi abbonamenti, segui questi pas
 .Fasi
 . Dal menu di navigazione a sinistra della Console, seleziona *Archiviazione > Keystone > Abbonamenti*.
 +
-image:bxp-subscription-list-4.png["visualizza i dettagli della scheda abbonamento"]
+image:console-subscription.png["visualizza i dettagli della scheda abbonamento"]
 
 +
 Vengono visualizzate le metriche chiave, quali l'utilizzo della capacità, lo stato di scadenza dell'abbonamento e gli avvisi non risolti.
@@ -43,7 +43,18 @@ Nella tabella è possibile visualizzare i seguenti dettagli:
 ** *Periodo di fatturazione*: periodo di fatturazione dell'abbonamento.
 ** *Livelli di servizio prestazionali*: numero di piani tariffari associati all'abbonamento, dove ciascun piano tariffario corrisponde a uno specifico livello di servizio prestazionale e a una capacità impegnata.
 ** *Capacità massima*: capacità massima consumata nell'ambito dell'abbonamento.
-** *Giorni alla scadenza dell'abbonamento*: Numero di giorni rimanenti fino alla scadenza dell'abbonamento.
+** *Giorni alla scadenza dell'abbonamento*: accanto alla data di scadenza viene visualizzata un'icona che indica quanto manca alla scadenza dell'abbonamento e se si rinnoverà automaticamente. Questo stato è di sola lettura e riflette i termini del contratto. Per consultare i dettagli del contratto, fai riferimento a link:../integrations/subscription-timeline.html["Visualizza la cronologia dei tuoi abbonamenti Keystone"].
++
+Quando il rinnovo automatico è disattivato, il colore dell'icona indica l'imminenza della scadenza:
+
++
+*** *Verde*: Mancano più di 120 giorni alla scadenza.
+*** *Arancione*: Mancano tra 91 e 120 giorni alla scadenza.
+*** *Rosso*: Mancano meno di 90 giorni alla scadenza. Per evitare interruzioni del servizio, invia una richiesta di rinnovo all'assistenza NetApp Keystone.
+*** *Grigio*: L'abbonamento è scaduto.
++
+Per gli abbonamenti con rinnovo automatico attivo, viene visualizzata un'icona di rinnovo automatico che indica che l'abbonamento si rinnoverà automaticamente al termine del periodo corrente.
+
 +
 
 NOTE: È possibile fare clic sulla freccia rivolta verso il basso image:down-arrow.png["icona di espansione"] nell'intestazione della tabella per espandere tutti gli abbonamenti e visualizzare le informazioni sui livelli di servizio delle prestazioni per ciascun abbonamento contemporaneamente. Vengono visualizzate informazioni dettagliate sulla capacità, inclusi utilizzo corrente, capacità impegnata, capacità fornita, capacità di picco e capacità disponibile per tutti gli abbonamenti. In alternativa, è possibile fare clic sulla freccia rivolta verso il basso accanto alla colonna *Expiration date* nelle singole righe degli abbonamenti per espanderle una alla volta.
@@ -51,6 +62,8 @@ NOTE: È possibile fare clic sulla freccia rivolta verso il basso image:down-arr
 +
 
 TIP: È possibile personalizzare le colonne visualizzate nella tabella utilizzando il selettore di colonne image:column-selector.png["icona di selezione della colonna"] icona. Per alcuni campi e colonne, è possibile visualizzare informazioni o icone di avvertenza e descrizioni dei comandi che forniscono informazioni aggiuntive sui dati.
+
+
 
 
 

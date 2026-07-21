@@ -59,7 +59,7 @@ NetApp utilizza la soluzione di monitoraggio ITOM per monitorare in modo proatti
 
 Per ulteriori informazioni sui servizi Keystone, consulta:
 
-* link:https://www.netapp.com/us/solutions/keystone/index.aspx["NetApp Keystone"^]
+* link:https://www.netapp.com/keystone/["NetApp Keystone"^]
 * link:https://docs.netapp.com["Documentazione del prodotto NetApp"^]
 
 
