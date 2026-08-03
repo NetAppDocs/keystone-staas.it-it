@@ -14,7 +14,7 @@ summary: Utilizzare la scheda Monitoraggio per visualizzare e creare monitor di 
 
 
 [role="lead"]
-È possibile visualizzare e creare monitor di avviso per gli abbonamenti Keystone dalla dashboard Keystone nella NetApp Console.  La dashboard mostra sia i monitor generati dal sistema sia quelli definiti dall'utente per l'utilizzo della capacità e la scadenza degli abbonamenti. È possibile creare monitor per impostare soglie, scegliere la gravità degli avvisi e aggiungere destinatari e-mail per le notifiche.  È possibile colmare le lacune nella copertura aggiungendo monitor agli abbonamenti non coperti o risolvendo i monitor non utilizzati. Questa funzionalità non è disponibile in Digital Advisor.
+Puoi visualizzare e creare monitor di avviso per i tuoi abbonamenti Keystone dalla dashboard di Keystone nella NetApp Console. La dashboard mostra sia i monitor generati dal sistema che quelli definiti dall'utente per l'utilizzo della capacità e la scadenza degli abbonamenti. I monitor generati dal sistema vengono creati automaticamente per tutti gli abbonamenti e hanno soglie predefinite. Puoi anche creare monitor definiti dall'utente per impostare soglie personalizzate, scegliere la gravità degli avvisi e aggiungere destinatari email per le notifiche. Puoi colmare le lacune di copertura aggiungendo monitor agli abbonamenti non coperti o risolvendo i monitor inutilizzati. Questa funzionalità non è disponibile in Digital Advisor.
 
 
 
@@ -32,8 +32,16 @@ image:monitoring-alert-monitors-default-view-1.png["Uno screenshot dei monitor d
 È possibile visualizzare un elenco dei monitor di avviso attraverso le proprie sottoscrizioni Keystone, inclusi i nomi dei monitor, le condizioni dei monitor che attivano le notifiche, i livelli di gravità, i numeri di sottoscrizione, i livelli di servizio delle prestazioni e lo stato. È possibile controllare la colonna *Created by* per vedere se i monitor di avviso sono generati dal sistema o definiti dall'utente.
 
 +
+Keystone crea automaticamente monitor generati dal sistema per tutti i tuoi abbonamenti. Questi monitor non possono essere eliminati. La modifica è limitata alla modifica dei numeri di abbonamento e dei livelli di servizio delle prestazioni per i monitor di utilizzo della capacità, e alla modifica dei numeri di abbonamento per i monitor di scadenza degli abbonamenti.
+
++
+** *Monitoraggio della scadenza dell'abbonamento*: gli avvisi si attivano a cinque soglie prima della data di scadenza dell'abbonamento (180, 90, 60, 30 e 7 giorni). La gravità dell'avviso aumenta da informativo a critico con l'avvicinarsi della data di scadenza.
+** *Monitoraggio dell'utilizzo della capacità*: gli avvisi si basano sulla percentuale di burst garantito del tuo abbonamento, anziché su un valore fisso. Ad esempio, se il tuo burst garantito è 40%, l'avviso critico si attiva quando l'utilizzo della capacità raggiunge il 140% della capacità garantita.
++
 
 NOTE: La scheda *Report* non è attualmente disponibile per gli abbonamenti Keystone .
+
+
 
 
 
