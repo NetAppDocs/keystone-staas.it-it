@@ -95,5 +95,5 @@ Nota le seguenti condizioni per le richieste di accredito del servizio:
 * NetApp determina se si è verificata una violazione del livello di servizio.
 * È necessario fornire ulteriori informazioni come richiesto da NetApp, inclusi i dati relativi al consumo di watt e al metodo di misurazione.
 * I crediti di servizio vengono calcolati solo in base alla capacità garantita.
-* I crediti di servizio possono essere applicati solo alla fattura del mese successivo. Non si applicano agli abbonamenti Keystone scaduti. Per contattare il supporto NetApp e aprire il caso di supporto necessario per una richiesta di credito di servizio, consultare link:../concepts/support-services.html["Ottieni aiuto con Keystone"].
+* I crediti di servizio possono essere applicati solo alla fattura del mese successivo. Non si applicano agli abbonamenti Keystone scaduti. Per contattare il supporto NetApp e aprire il caso di supporto necessario per una richiesta di credito di servizio, consultare link:../concepts/support-services.html["Servizi di supporto per Keystone"].
 

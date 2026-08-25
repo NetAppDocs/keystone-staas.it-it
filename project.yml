@@ -182,25 +182,21 @@ sidebar:
         url: "/concepts/pricing.html"
       - title: Fatturazione Keystone per tipologie di volume specifiche
         url: "/concepts/misc-volume-billing.html"
-  - title: Accedi a Keystone dall'API REST di Digital Advisor
+  - title: Digital Advisor REST API per Keystone
     entries:
-    - title: Inizia a utilizzare l'API REST di Digital Advisor per recuperare i dati
-        Keystone
+    - title: Inizia a utilizzare l'API REST di Digital Advisor
       url: "/rest-api/retrieve-keystone-data-with-digital-advisor-rest-api.html"
     - title: Generare token di aggiornamento e accesso
       url: "/rest-api/generate-tokens.html"
-    - title: Ottieni un elenco di tutti i clienti utilizzando l'API REST di Digital
-        Advisor
+    - title: Ottieni un elenco dei clienti Keystone
       url: "/rest-api/get-customer-list.html"
-    - title: Ottieni gli abbonamenti dei clienti utilizzando l'API REST di Digital
-        Advisor
+    - title: Ottieni gli abbonamenti dei clienti Keystone
       url: "/rest-api/get-customer-subscriptions.html"
-    - title: Ottieni dettagli sul consumo dei clienti utilizzando l'API REST di Digital
-        Advisor
+    - title: Ottieni i dettagli sui consumi dei clienti Keystone
       url: "/rest-api/get-customer-consumption.html"
   - title: Keystone Subscription Services versione 1
     url: "/subscription-services-v1.html"
-  - title: Ottieni aiuto con Keystone
+  - title: Servizi di supporto per Keystone
     url: "/concepts/support-services.html"
   - title: Note legali
     url: "/legal-notices.html"

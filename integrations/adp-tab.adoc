@@ -79,7 +79,7 @@ TIP: È possibile selezionare la sottoscrizione Cluster B (mirror) dalla topolog
 
 +
 
-TIP: Se lo stato di sincronizzazione risulta non sincronizzato o lo stato di connessione risulta degradato, fare riferimento a link:../concepts/support-services.html["Ottieni aiuto con Keystone"] per risolvere il problema.
+TIP: Se lo stato di sincronizzazione risulta non sincronizzato o lo stato di connessione risulta degradato, fare riferimento a link:../concepts/support-services.html["Servizi di supporto per Keystone"] per risolvere il problema.
 
 ** Visualizza le tendenze storiche del consumo per il sito primario o mirror.
 +
