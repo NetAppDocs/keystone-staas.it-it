@@ -40,7 +40,7 @@ Le offerte di storage-as-a-service (STaaS) mirano a fornire un modello simile al
 *Informazioni correlate*
 
 * link:../concepts/pricing.html["Prezzo Keystone"]
-* link:../concepts/add-on.html["Servizi aggiuntivi in Keystone STaaS"]
+* link:../concepts/adp.html["Servizi aggiuntivi in Keystone STaaS"]
 * link:../concepts/service-levels.html["Livelli di servizio prestazionali a Keystone"]
 * link:../concepts/infra.html["Scopri l'infrastruttura Keystone"]
 * link:../concepts/operational-models.html["Modelli operativi in Keystone"]

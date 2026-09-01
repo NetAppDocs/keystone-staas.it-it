@@ -22,6 +22,15 @@ I problemi riscontrati nelle precedenti release dei servizi NetApp Keystone STaa
 
 
  a| 
+Nella scheda *Andamento dei consumi* di Digital Advisor, il grafico a raffica dei consumi fatturati mostra valori diversi per lo stesso periodo di fatturazione a seconda dell'intervallo di date selezionato.
+ a| 
+Corretto
+ a| 
+2026-08-31
+
+
+
+ a| 
 Nella scheda *Andamento dei consumi* di Digital Advisor, il grafico dell'andamento dei consumi non visualizza i dati relativi al giorno corrente, ma solo quelli del giorno precedente.
  a| 
 Corretto

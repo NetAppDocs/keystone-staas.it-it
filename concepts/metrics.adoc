@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: concepts/metrics.html 
-keywords: metrics, GiB, IOPS, latency, durability, v3, version 3 
-summary: Il servizio NetApp Keystone STaaS utilizza diversi termini per misurare le metriche. Potresti voler approfondire la conoscenza di questi termini mentre utilizzi Keystone per la versione 3 del servizio. 
+keywords: metrics, GiB, TiB, PiB, IOPS, latency, durability, availability, capacity, performance, v3, version 3 
+summary: Scopri come Keystone STaaS misura la capacità, le prestazioni e la disponibilità per il tuo abbonamento di archiviazione. 
 ---
-= Metriche e definizioni di storage in Keystone
+= Metriche e definizioni di storage STaaS di Keystone
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,16 +14,24 @@ summary: Il servizio NetApp Keystone STaaS utilizza diversi termini per misurare
 
 
 [role="lead"]
-Scopri i termini chiave che Keystone STaaS utilizza per misurare e generare report sul tuo abbonamento di storage, tra cui unità di capacità, metriche delle prestazioni e definizioni di disponibilità.
+Keystone STaaS utilizza termini specifici per misurare e generare report sul tuo abbonamento allo storage. Capire questi termini ti aiuta a interpretare i dati del dashboard e i report dell'abbonamento.
+
+[cols="1,3"]
+|===
+| Termine | Definizione 
 
 
+| Capacità (GiB, TiB, PiB) | La capacità di archiviazione dei dati si misura usando potenze di 1024: 1 GiB = 1024^3^ byte, 1 TiB = 1024^4^ byte e 1 PiB = 1024^5^ byte. 
 
-[[metrics-measurement]]
-== Misurazione delle metriche
 
-* *Misurazione della capacità in GiB, TiB e PiB*: Misurazioni della capacità di archiviazione dei dati utilizzando la base 1024 (1 GiB = 1024^3^ byte, 1 TiB = 1024^4^ byte e 1 PiB = 1024^5^ byte).
-* *Grafico del contatore delle operazioni in IOPS*: operazioni del protocollo al secondo, richieste dall'applicazione.
-* *Disponibilità*: Misurata come percentuale del numero di richieste di i/o a cui il servizio ha risposto correttamente, diviso per il numero totale di richieste di i/o inviate al servizio. Questo valore viene misurato al termine del servizio in un mese e non include i tempi di inattività programmati o la mancata disponibilità delle strutture, della rete o di altri servizi forniti dal cliente.
-* *Durata*: Percentuale di dati a cui si accede senza perdita di fedeltà, ad esclusione della cancellazione o del danneggiamento causati dal cliente.
-* *Latenza*: Tempo di servizio di una richiesta i/o ricevuta da un client, misurato alla delimitazione del servizio (porta i/o del controller di storage).
+| IOPS | IOPS (operazioni di I/O al secondo) è il numero di operazioni di protocollo al secondo richieste dall'applicazione. IOPS viene visualizzato nel grafico del contatore delle operazioni sulla dashboard di Keystone. 
 
+
+| Disponibilità | La disponibilità è la % di richieste di I/O a cui il servizio risponde con successo sul totale delle richieste di I/O effettuate in un mese. Questo viene misurato al punto di demarcazione del servizio in un mese e non include i tempi di inattività programmata o l'indisponibilità delle strutture, della rete o di altri servizi forniti dal cliente. 
+
+
+| Durabilità | La durabilità è la percentuale di dati a cui puoi accedere senza perdita di integrità, escludendo cancellazioni o danneggiamenti causati dal cliente. 
+
+
+| Latenza | La latenza è il tempo necessario per elaborare una richiesta di I/O ricevuta da un client, misurato nel punto di demarcazione del servizio (storage controller I/O port). 
+|===
