@@ -33,6 +33,8 @@ indexpage:
       url: "/integrations/subscriptions-tab.html"
     - title: Visualizza risorse
       url: "/integrations/assets-tab.html"
+    - title: Genera e pianifica i report sullo stato di salute
+      url: "/integrations/health-assessment-reports.html"
     - title: Cerca dati e genera report
       url: "/integrations/options.html"
   - title: Servizi supportati in Keystone

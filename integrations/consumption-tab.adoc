@@ -228,6 +228,7 @@ image:invoiced-daily-accr-burst-date.png["schermata che mostra i dati di utilizz
 * link:../integrations/dashboard-overview.html["Comprendere la dashboard Keystone"]
 * link:../integrations/subscriptions-tab.html["Visualizza i dettagli sui tuoi abbonamenti Keystone"]
 * link:../integrations/current-usage-tab.html["Visualizza il consumo attuale dei tuoi abbonamenti Keystone"]
+* link:../integrations/health-assessment-reports.html["Genera e pianifica i report sullo stato di salute"]
 * link:../integrations/subscription-timeline.html["Visualizza la cronologia dei tuoi abbonamenti Keystone"]
 * link:../integrations/assets-tab.html["Visualizza le risorse associate a un abbonamento Keystone"]
 * link:../integrations/monitoring-alerts.html["Visualizza e gestisci avvisi e monitor"]

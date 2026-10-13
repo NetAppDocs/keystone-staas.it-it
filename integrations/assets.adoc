@@ -14,10 +14,10 @@ summary: Utilizza la scheda delle risorse per visualizzare dettagli di cluster e
 
 
 [role="lead"]
-La dashboard Keystone nella console NetApp consente di visualizzare informazioni dettagliate sui nodi nei cluster, sui volumi forniti e sui nodi StorageGRID su più abbonamenti Keystone , in base alle autorizzazioni di accesso. Questa visualizzazione non è disponibile in Digital Advisor.
+La dashboard Keystone nella NetApp Console ti consente di visualizzare informazioni dettagliate sui nodi, volumi, cluster e aggregati ONTAP e sui nodi StorageGRID in più sottoscrizioni Keystone, in base alle tue autorizzazioni di accesso. Questa visualizzazione non è disponibile in Digital Advisor.
 
 
-NOTE: La pagina *Risorse* visualizza le schede in base alle piattaforme associate ai tuoi abbonamenti Keystone . Per ONTAP sono disponibili sia le schede *Nodi nei cluster* che *Volumi nei cluster*. Per StorageGRID, la tabella *Nodi nelle griglie* viene visualizzata direttamente senza una selezione tramite scheda. Se gli abbonamenti includono entrambe le piattaforme, saranno disponibili tutte e tre le schede.
+NOTE: La pagina *Risorse* visualizza le schede in base alle piattaforme associate ai tuoi abbonamenti Keystone. Per ONTAP, sono disponibili le schede *Nodi nei cluster* e *Volumi nei cluster*. La scheda *Cluster e aggregati* è disponibile per ONTAP solo se hai abbonamenti Keystone STaaS fatturati in base alla capacità fisica. Per StorageGRID, la tabella *Nodi nelle griglie* viene visualizzata direttamente senza selezionare alcuna scheda. Se i tuoi abbonamenti includono entrambe le piattaforme, tutte le schede sono disponibili.
 
 [role="tabbed-block"]
 ====
@@ -73,6 +73,30 @@ TIP: È possibile personalizzare la tabella utilizzando il selettore di colonna 
 Puoi fare clic su un numero di abbonamento nella colonna *Numero di abbonamento* per accedere alla scheda *Abbonamenti*, dove puoi visualizzare i dettagli sul consumo dell'abbonamento, le tempistiche e le informazioni sulle risorse associate. Per ulteriori informazioni, fare riferimento a link:../integrations/current-usage-tab.html["Visualizza i dettagli dei tuoi consumi attuali"].
 
 
+
+
+
+--
+.Cluster e aggregati
+--
+
+NOTE: La scheda *Cluster e aggregati* viene visualizzata solo per gli abbonamenti Keystone STaaS fatturati in base alla capacità fisica.
+
+.Fasi
+. Dal menu di navigazione a sinistra della Console, seleziona *Archiviazione > Keystone > Risorse*.
+. Seleziona la scheda *Clusters and aggregates*.
++
+image:console-clusters-aggregates-multiple-subscriptions.png["Cluster e aggregati su più abbonamenti Keystone"]
+
++
+Puoi visualizzare i dettagli della capacità dei cluster ONTAP in tutte le tue sottoscrizioni Keystone. Per ogni cluster, la tabella mostra la capacità fisica utilizzata, la capacità fisica utilizzabile, la capacità fisica disponibile, il rapporto di efficienza dello storage, la capacità effettiva logica, la capacità logica utilizzata e la versione di ONTAP. Espandi un cluster per visualizzare i dettagli corrispondenti dei relativi aggregati.
+
++
+Queste informazioni ti aiutano a identificare quali cluster e aggregati determinano il consumo di capacità, a confrontare la capacità disponibile nell'infrastruttura distribuita e a comprendere in che modo l'utilizzo a livello di cluster e di aggregato contribuisce al consumo complessivo dell'abbonamento.
+
++
+
+TIP: Puoi personalizzare la tabella utilizzando l'icona image:column-selector.png["icona di selezione della colonna"] del selettore di colonne e usare la barra di ricerca per filtrare la tabella in base ai valori disponibili nelle colonne.
 
 
 

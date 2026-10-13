@@ -113,6 +113,7 @@ image:icon-grey.png["icona del punto grigio"] *Nessun consumo*: non è stato reg
 * link:../integrations/dashboard-overview.html["Comprendere la dashboard Keystone"]
 * link:../integrations/current-usage-tab.html["Visualizza i dettagli dei tuoi consumi attuali"]
 * link:../integrations/consumption-tab.html["Visualizza le tendenze di consumo"]
+* link:../integrations/health-assessment-reports.html["Genera e pianifica i report sullo stato di salute"]
 * link:../integrations/subscription-timeline.html["Visualizza la cronologia del tuo abbonamento"]
 * link:../integrations/assets-tab.html["Visualizza le risorse del tuo abbonamento Keystone"]
 * link:../integrations/assets.html["Visualizza le risorse nei tuoi abbonamenti Keystone"]

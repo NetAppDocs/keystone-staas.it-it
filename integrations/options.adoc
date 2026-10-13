@@ -36,6 +36,15 @@ I dettagli vengono generati in formato CSV, che è possibile salvare per uso e c
 
 
 
+[[generate-health-reports-from-netapp-console]]
+== Genera report sullo stato di salute da NetApp Console
+
+Utilizza la NetApp Console per generare o pianificare report sullo stato di salute di uno o più abbonamenti. Questi PowerPoint report consolidano l'utilizzo dell'abbonamento, lo stato operativo, i rischi e le vulnerabilità. Digital Advisor non supporta la generazione o la pianificazione di report di valutazione dello stato di salute.
+
+Per saperne di più, consulta link:../integrations/health-assessment-reports.html["Genera e pianifica report sullo stato di salute per gli abbonamenti Keystone"].
+
+
+
 [[generate-consolidated-report-from-digital-advisor]]
 == Genera un report consolidato da Digital Advisor
 

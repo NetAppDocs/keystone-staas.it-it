@@ -18,6 +18,7 @@ La dashboard Keystone è la soluzione ideale per monitorare, analizzare e gestir
 
 * *Monitor subscription details*: visualizza informazioni dettagliate sui tuoi abbonamenti Keystone, inclusi i livelli di servizio delle prestazioni (servizi di base e aggiuntivi come protezione avanzata dei dati e Data Infrastructure Insights), utilizzo della capacità, risorse e avvisi.
 * *Monitoraggio dell'utilizzo della capacità e generazione di report*: tieni traccia dell'utilizzo attuale e storico della capacità e genera report per analizzare i dati degli abbonamenti e prendere decisioni informate.
+* *Genera report sullo stato di salute*: crea report di valutazione dello stato di salute su richiesta o programmati per esaminare l'utilizzo dell'abbonamento, lo stato operativo, i rischi e le vulnerabilità.
 * *Visualizza la cronologia degli abbonamenti*: rimani informato sulle date e gli eventi principali monitorando la cronologia dei tuoi abbonamenti.
 * *Gestisci abbonamenti*: invia richieste di modifica dei livelli di servizio delle prestazioni o di altri parametri di abbonamento in base alle tue esigenze.
 * *Analizza volumi e oggetti*: ottieni informazioni dettagliate sui volumi e sugli oggetti dei tuoi abbonamenti, inclusa la loro capacità sia a livello di volume che di oggetto.
@@ -100,6 +101,11 @@ link:../integrations/options.html#generate-reports-from-netapp-console-or-digita
 
 
  a| 
+link:../integrations/health-assessment-reports.html["Genera e pianifica i report sullo stato di salute"]
+| Sì | No 
+
+
+ a| 
 link:../integrations/volumes-objects-tab.html["Visualizzare i dettagli di volumi e oggetti"]
 | Sì | Sì 
 
@@ -116,6 +122,7 @@ link:../integrations/performance-tab.html["Visualizza le metriche delle performa
 *Informazioni correlate*
 
 * link:../integrations/dashboard-access.html["Inizia con la dashboard Keystone"]
+* link:../integrations/health-assessment-reports.html["Genera e pianifica i report sullo stato di salute"]
 * link:../integrations/keystone-console.html["Dashboard Keystone nella console NetApp"]
 * link:..//integrations/keystone-aiq.html["Dashboard Keystone in Digital Advisor"]
 

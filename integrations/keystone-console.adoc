@@ -36,6 +36,7 @@ La pagina *Panoramica* offre i seguenti approfondimenti:
 * link:../integrations/dashboard-overview.html["Scopri di più sulla dashboard Keystone"]
 * link:../integrations/dashboard-access.html["Inizia con la dashboard Keystone"]
 * link:..//integrations/keystone-aiq.html["Dashboard Keystone in Digital Advisor"]
+* link:../integrations/health-assessment-reports.html["Genera e pianifica i report sullo stato di salute"]
 * link:../integrations/subscriptions-tab.html["Visualizza i dettagli del tuo abbonamento"]
 * link:../integrations/current-usage-tab.html["Visualizza i dettagli dei tuoi consumi attuali"]
 * link:../integrations/consumption-tab.html["Visualizza le tendenze di consumo"]

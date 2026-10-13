@@ -18,6 +18,27 @@ Scopri le ultime funzionalità e i miglioramenti dei servizi Keystone STaaS.
 
 
 
+[[12-october-2026]]
+== 12 ottobre 2026
+
+Questa release di Keystone STaaS include i seguenti aggiornamenti nel Keystone dashboard in NetApp Console.
+
+
+
+[[generate-health-insights-for-keystone-subscriptions]]
+=== Genera informazioni sullo stato di salute per gli abbonamenti Keystone
+
+Puoi scaricare report PowerPoint su richiesta o pianificare una consegna una tantum, settimanale, mensile o trimestrale da *Archiviazione > Keystone > Monitoraggio > Report sullo stato di salute* in NetApp Console. Ogni report combina l'utilizzo della sottoscrizione, lo stato operativo, i rischi e le vulnerabilità nelle sottoscrizioni selezionate, aiutandoti a identificare i problemi e a condividere informazioni utili con i destinatari. Per saperne di più, consulta  https://docs.netapp.com/us-en/keystone-staas/integrations/health-assessment-reports.html["Genera e pianifica report sullo stato di salute per gli abbonamenti Keystone"].
+
+
+
+[[view-ontap-cluster-and-aggregate-capacity]]
+=== Visualizza la capacità del cluster e degli aggregati di ONTAP
+
+Puoi visualizzare la capacità fisica, la capacità logica e l'efficienza dello storage per i cluster ONTAP e i relativi aggregati in *Risorse > Cluster e aggregati*. Questa funzionalità è disponibile solo per gli abbonamenti Keystone STaaS fatturati in base alla capacità fisica. Per saperne di più, consulta https://docs.netapp.com/us-en/keystone-staas/integrations/assets.html["Visualizza le risorse nei tuoi abbonamenti Keystone"] e https://docs.netapp.com/us-en/keystone-staas/integrations/assets-tab.html["Visualizza le risorse associate a un abbonamento Keystone"].
+
+
+
 [[20-july-2026]]
 == 20 luglio 2026
 
