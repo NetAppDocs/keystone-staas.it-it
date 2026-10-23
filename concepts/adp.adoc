@@ -4,7 +4,7 @@ permalink: concepts/adp.html
 keywords: data protection advanced 
 summary: Utilizza il servizio aggiuntivo di protezione dati avanzata per garantire una protezione efficiente dei dati dei carichi di lavoro mission-critical. 
 ---
-= Componente aggiuntivo avanzato per la protezione dei dati per Keystone
+= Componente aggiuntivo avanzato per la protezione dei dati per Keystone STaaS
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

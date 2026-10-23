@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: installation/data-collection.html 
 keywords: type of data collected by Keystone collector 
-summary: 'Keystone raccoglie informazioni sulla configurazione, sullo stato e sull"utilizzo per gli abbonamenti ONTAP e StorageGRID. Può inoltre raccogliere dati sulle prestazioni ONTAP.' 
+summary: Keystone Collector raccoglie dati di configurazione, stato e utilizzo dai sistemi ONTAP e StorageGRID associati agli abbonamenti Keystone STaaS. Raccoglie inoltre dati di telemetria dalla VM che ospita Keystone Collector e, facoltativamente, può raccogliere dati sulle prestazioni di ONTAP. 
 ---
-= Tipi di dati utente raccolti da Keystone
+= Dati raccolti da Keystone Collector
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 'Keystone raccoglie informazioni sulla configurazione, sullo stato e su
 
 
 [role="lead"]
-Keystone raccoglie informazioni su configurazione, stato e utilizzo dagli abbonamenti Keystone ONTAP e Keystone StorageGRID , nonché dati di telemetria dalla macchina virtuale (VM) che ospita Keystone Collector. Può raccogliere dati sulle prestazioni solo per ONTAP , se questa opzione è abilitata in Keystone Collector.
+Keystone Collector raccoglie dati di configurazione, stato e utilizzo dai sistemi ONTAP e StorageGRID associati agli abbonamenti Keystone STaaS, nonché dati di telemetria dalla macchina virtuale (VM) che ospita Keystone Collector. Facoltativamente, Keystone Collector può raccogliere dati sulle prestazioni di ONTAP quando questa funzionalità è abilitata.
 
 
 

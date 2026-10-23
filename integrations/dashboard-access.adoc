@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: integrations/dashboard-access.html 
 keywords: Keystone, Digital Advisor, keystone-aiq, aiq, BlueXP, Keystone dashboard, Keystone subscriptions, NetApp Console, Console 
-summary: In qualità di abbonato a NetApp Keystone STaaS, puoi accedere alla dashboard Keystone tramite NetApp Console o Digital Advisor 
+summary: Come abbonato a Keystone STaaS di NetApp, puoi accedere al dashboard di Keystone tramite NetApp Console o Digital Advisor. 
 ---
 = Inizia con la dashboard Keystone
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: In qualità di abbonato a NetApp Keystone STaaS, puoi accedere alla das
 
 
 [role="lead"]
-È possibile accedere alla dashboard Keystone tramite la console NetApp o Digital Advisor dopo aver sottoscritto i servizi NetApp Keystone .
+Puoi accedere alla dashboard Keystone per il tuo abbonamento Keystone STaaS tramite NetApp Console o Digital Advisor.
 
 [role="tabbed-block"]
 ====

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: integrations/monitoring-alerts.html 
 keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, monitoring, bluexp, console 
-summary: Utilizza la scheda Monitoraggio per visualizzare e gestire gli avvisi per i tuoi abbonamenti Keystone . 
+summary: Utilizza la scheda Monitoraggio per visualizzare e gestire gli avvisi relativi ai tuoi abbonamenti Keystone. 
 ---
 = Visualizza e gestisci gli avvisi per gli abbonamenti Keystone
 :hardbreaks:

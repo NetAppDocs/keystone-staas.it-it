@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/misc-volume-billing.html 
 keywords: Keystone billing, special volume types, cloned volumes, SnapMirror destinations, LUNs, temporary volumes 
-summary: Le regole di fatturazione di Keystone variano a seconda della configurazione del volume. Questa pagina illustra la fatturazione per volumi clonati, SnapMirror destinazioni, LUN, volumi temporanei e volumi di sistema. 
+summary: Le regole di fatturazione di Keystone STaaS variano per alcune configurazioni di volume. Questa pagina illustra la fatturazione per volumi clonati, destinazioni SnapMirror, LUN, volumi temporanei e volumi di sistema. 
 ---
-= Fatturazione Keystone per tipologie di volume specifiche
+= Fatturazione Keystone STaaS per tipi di volume specifici
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Le regole di fatturazione di Keystone variano a seconda della configura
 
 
 [role="lead"]
-Le regole di fatturazione di Keystone variano a seconda della configurazione del volume. Conoscere queste eccezioni consente di evitare addebiti imprevisti quando si lavora con volumi clonati, destinazioni SnapMirror, LUN o storage temporaneo.
+Le regole di fatturazione di Keystone STaaS variano per alcune configurazioni dei volumi. Conoscere queste eccezioni ti aiuta a evitare addebiti imprevisti quando lavori con volumi clonati, destinazioni SnapMirror, LUN o storage temporaneo.
 
 La tabella seguente riassume le regole di fatturazione per ciascun tipo di volume.
 

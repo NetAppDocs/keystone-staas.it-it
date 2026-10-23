@@ -14,7 +14,7 @@ summary: Installare il software ITOM Collector su sistemi basati su Linux.
 
 
 [role="lead"]
-Completa alcuni passaggi per installare ITOM Collector, che raccoglie i dati delle metriche nel tuo ambiente di archiviazione. È possibile installarlo su sistemi Windows o Linux, a seconda dei requisiti.
+Installa ITOM Collector su un sistema Linux per raccogliere le metriche dell'infrastruttura e monitorare il tuo ambiente Keystone STaaS.
 
 
 NOTE: Il team di supporto Keystone fornisce un collegamento dinamico per scaricare il file di configurazione di ITOM Collector, che scade tra due ore.

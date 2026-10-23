@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/support-services.html 
 keywords: Keystone support, service request, support ticket 
-summary: Utilizza il NetApp Support Site per creare una richiesta di supporto o trovare le informazioni di contatto per i tuoi abbonamenti Keystone. 
+summary: Utilizza il NetApp Support Site per creare una richiesta di assistenza o trovare le informazioni di contatto per i tuoi abbonamenti Keystone STaaS. 
 ---
-= Servizi di supporto per Keystone
+= Servizi di supporto per Keystone STaaS
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,14 +14,14 @@ summary: Utilizza il NetApp Support Site per creare una richiesta di supporto o 
 
 
 [role="lead"]
-NetApp fornisce ai clienti Keystone servizi operativi. I clienti ricevono un Keystone Success Manager (KSM) dedicato, opzioni di contatto diretto con il supporto e monitoraggio proattivo tramite la soluzione ITOM.
+NetApp offre ai clienti di Keystone STaaS servizi operativi. I clienti ricevono un Keystone Success Manager (KSM) dedicato, opzioni di contatto per il supporto diretto e monitoraggio proattivo tramite la soluzione ITOM.
 
 
 
 [[netapp-support-services]]
 == NetApp supporto tecnico
 
-NetApp fornisce servizi operativi da remoto ai clienti Keystone. Questi servizi comprendono una vasta gamma di attività di gestione dello storage, tra cui la gestione degli asset e della configurazione, la gestione della capacità e delle prestazioni, la gestione delle modifiche, la gestione degli eventi e degli incidenti, l'evasione delle richieste di servizio e la reportistica.
+NetApp fornisce da remoto servizi operativi ai clienti di Keystone STaaS. Questi servizi comprendono una vasta gamma di attività di gestione dello storage, tra cui la gestione degli asset e della configurazione, la gestione della capacità e delle prestazioni, la gestione delle modifiche, la gestione degli eventi e degli incidenti, l'evasione delle richieste di servizio e la reportistica.
 
 .Keystone Success Manager
 Il tuo KSM collabora a stretto contatto con te sui tuoi servizi Keystone e fornisce report di fatturazione e operativi settimanali o mensili. Le responsabilità specifiche sono definite nel tuo accordo NetApp Keystone.

@@ -1,17 +1,15 @@
 ---
 indexpage:
   title: Documentazione Keystone
-  summary: NetApp Keystone è un'offerta di storage-as-a-service con pagamento in base
-    al consumo, per servizi di storage dati sia in locale che nel cloud, con un unico
-    abbonamento e la possibilità di riallocare la spesa di storage tra i cloud.
-  keywords: Keystone STaaS
-  lead: NetApp Keystone è un servizio flessibile basato su abbonamento con pagamento
-    in base al consumo che offre un'esperienza cloud ibrida senza interruzioni ai
-    clienti che preferiscono le spese operative alle spese in conto capitale o al
-    leasing. Ti dà la possibilità di accelerare il time-to-value eliminando l'onere
-    IT di gestire le risorse ed evitando il lungo ciclo di approvvigionamento. Consulta
-    la documentazione in questa libreria per saperne di più sull'offerta NetApp Keystone
-    Storage-as-a-Service (STaaS).
+  summary: Keystone STaaS è un'offerta in abbonamento della piattaforma NetApp Keystone
+    che fornisce servizi di storage di file, blocchi e oggetti tramite un modello
+    pay-as-you-go.
+  keywords: NetApp Keystone, Keystone STaaS, storage as a service, subscription
+  lead: NetApp Keystone è la piattaforma storage-as-a-service di NetApp. Keystone
+    Storage-as-a-Service (STaaS), un'offerta in abbonamento nell'ambito di Keystone,
+    fornisce servizi di storage per file, blocchi e oggetti tramite un modello pay-as-you-go.
+    Keystone STaaS consente alle organizzazioni di utilizzare lo storage come costi
+    operativi anziché effettuare un investimento iniziale in conto capitale.
   tiles:
   - title: Inizia subito
     links:
@@ -37,7 +35,7 @@ indexpage:
       url: "/integrations/health-assessment-reports.html"
     - title: Cerca dati e genera report
       url: "/integrations/options.html"
-  - title: Servizi supportati in Keystone
+  - title: Servizi supportati in Keystone STaaS
     links:
     - title: Livelli di servizio di prestazioni Keystone
       url: "/concepts/service-levels.html"
@@ -47,9 +45,9 @@ indexpage:
       url: "/concepts/supported-storage-services.html"
     - title: Posso riallocare la mia spesa dall'on-premise al cloud?
       url: "/concepts/capacity-requirements.html#capacity-adjustments"
-  - title: Prezzo e fatturazione di Keystone
+  - title: Prezzi e fatturazione di Keystone STaaS
     links:
-    - title: Scopri i prezzi Keystone
+    - title: Scopri la fatturazione STaaS di Keystone
       url: "/concepts/pricing.html"
     - title: Come Keystone misura la capacità?
       url: "/concepts/pricing.html#how-keystone-measures-capacity"
@@ -59,7 +57,7 @@ indexpage:
       url: "/concepts/pricing.html#burst-consumption"
     - title: Quando vengono generate le fatture?
       url: "/concepts/pricing.html#billing-schedules"
-  - title: Fai di più con i servizi Keystone
+  - title: Servizi aggiuntivi per Keystone STaaS
     links:
     - title: Scopri di più sul tuo team di supporto
       url: "/concepts/support-services.html"
@@ -71,9 +69,9 @@ indexpage:
       url: "/concepts/adp.html"
     - title: Monitora, risolvi i problemi e migliora lo storage
       url: "/concepts/data-infra-insights.html"
-    - title: Supporto dei cittadini DEGLI STATI UNITI
+    - title: Supporto protetto USA (USPS)
       url: "/concepts/usps.html"
-  - title: Saperne di più
+  - title: Altre risorse
     links:
     - title: Consulente digitale Active IQ
       url: https://docs.netapp.com/us-en/active-iq/index.html
